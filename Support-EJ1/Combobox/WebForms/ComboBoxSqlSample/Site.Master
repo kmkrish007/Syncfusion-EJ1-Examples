@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="MenuSqlSample.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title></title>
+     <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+   <link href="Styles/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.syncfusion.com/17.1.0.32/js/web/flat-azure/ej.web.all.min.css" rel="stylesheet" />  
+    <!--[if lt IE 9]>
+    <script src='<%= Page.ResolveClientUrl("~/Scripts/jquery-1.11.3.min.js")%>' type="text/javascript"></script>
+    <![endif]-->
+    <!--[if gte IE 9]><!-->
+    <script src='<%= Page.ResolveClientUrl("~/Scripts/jquery-3.1.1.min.js")%>' type="text/javascript"></script>
+    <!--<![endif]-->
+     <script src='<%= Page.ResolveClientUrl("~/Scripts/jsrender.min.js")%>' type="text/javascript"></script>
+    <script src='<%= Page.ResolveClientUrl("http://cdn.syncfusion.com/17.1.0.32/js/web/ej.web.all.js")%>' type="text/javascript"></script>
+    <script src='<%= Page.ResolveClientUrl("~/Scripts/ej/ej.webform.min.js")%>' type="text/javascript"></script>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server">
+         <asp:ScriptManager runat="server">
+       
+    </asp:ScriptManager>
+
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+        </div>
+    </form>
+</body>
+</html>
