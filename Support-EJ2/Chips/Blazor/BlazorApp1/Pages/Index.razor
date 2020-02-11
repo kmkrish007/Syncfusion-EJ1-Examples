@@ -1,0 +1,35 @@
+﻿@page "/"
+
+@using Syncfusion.EJ2.Blazor.Buttons
+
+ <EjsChipList ID="cutomer-data">
+     <ChipCollection>
+         <ChipListChip Text="Anne" LeadingIconCss="anne" Enabled="true"></ChipListChip>
+         <ChipListChip Text="Janet" LeadingIconCss="janet" Enabled="true"></ChipListChip>
+         <ChipListChip Text="Laura" LeadingIconCss="laura" Enabled="true"></ChipListChip>
+         <ChipListChip Text="Margaret" LeadingIconCss="margaret" Enabled="true"></ChipListChip>
+     </ChipCollection>
+ </EjsChipList>
+
+@code{
+
+}
+
+<style>
+    #cutomer-data .anne{
+        background-image: url("images/anne.png");
+    }
+
+    #cutomer-data .anne {
+    background-image: url("images/anne.png");
+    }
+    #cutomer-data .janet {
+        background-image: url("images/janet.png");
+    }
+    #cutomer-data .laura {
+        background-image: url("images/laura.png");
+    }
+    #cutomer-data .margaret {
+        background-image: url("images/margaret.png");
+    }
+</style>

@@ -1,0 +1,66 @@
+﻿@page "/"
+
+@using Syncfusion.EJ2.Blazor.Buttons
+
+<div>
+    <button @onclick="ClickButton">Hinzufügen</button>
+</div>
+ <EjsChipList EnableDelete="true" @ref="chip">
+      <ChipCollection>
+            @foreach(ChipCollection currentData in ChipData){
+               <ChipListChip Text=@currentData.text Enabled=@currentData.enabled></ChipListChip>
+            }
+      </ChipCollection>
+      <ChipListEvents OnDelete="@OnDelete"></ChipListEvents>
+ </EjsChipList>
+ <div>Last Deleted Item: @DeleteItems</div>
+
+@code{
+    EjsChipList chip;
+    public List<ChipCollection> ChipData = new List<ChipCollection>();
+    public string DeleteItems { get; set; }
+    public class ChipCollection
+    {
+        public string text { get; set; }
+        public bool enabled { get; set; }
+    }
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        ChipData.Add(new ChipCollection
+        {
+            text = "Jenifer",
+            enabled = true
+        });
+        ChipData.Add(new ChipCollection
+        {
+            text = "Amenda",
+            enabled = true
+        });
+        ChipData.Add(new ChipCollection
+        {
+            text = "Isabella",
+            enabled = true
+        });
+        ChipData.Add(new ChipCollection
+        {
+            text = "James",
+            enabled = true
+        });
+    }
+
+    public void OnDelete(DeleteEventArgs args)
+    {
+        DeleteItems = args.Text;
+    }
+
+    public void ClickButton()
+    {
+        chip.Add(new
+        {
+            text = "Name" + DateTime.Now.Ticks.ToString(),
+            enabled = true
+        });
+    }
+
+}
