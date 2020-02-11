@@ -1,0 +1,75 @@
+﻿@page "/"
+
+@using Syncfusion.EJ2.Blazor.Inputs
+
+
+    <div class="control-wrapper">
+        <div class="content-wrapper">
+            <div class="sliderwrap">
+                <EjsSlider Enabled="@IsHoursEnabled" Min="0" Max="24" Type="SliderType.Range" @bind-Value="@HoursRange">
+                    <SliderTooltipData IsVisible="true" ShowOn="TooltipShowOn.Auto" Placement="TooltipPlacement.Before"></SliderTooltipData>
+                    <SliderTicksData Placement="Placement.After" ShowSmallTicks="false" LargeStep="@HoursLargeTickSteps" SmallStep="@HoursSmallTickSteps"></SliderTicksData>
+                    <SliderEvents TValue="int[]"  OnChange="@((e) => { SelectedMinHours = e.Value[0]; SelectedMaxHours = e.Value[1]; })"></SliderEvents>
+                </EjsSlider>
+            </div>
+        </div>
+    </div>
+<div>SelectedMinHours: @SelectedMinHours</div>
+<div>SelectedMaxHours: @SelectedMaxHours</div>
+
+@code{
+
+    private bool IsHoursEnabled = true;
+    private int[] HoursRange = { 3, 12 };
+    private int SelectedMinHours { get; set; }
+    private int SelectedMaxHours { get; set; }
+    private int HoursLargeTickSteps = 3;
+    private int HoursSmallTickSteps = 1;
+
+
+}
+<style>
+    .content-wrapper {
+        padding-top: 50px;
+        width: 55%;
+        margin: 0 auto;
+        min-width: 185px;
+    }
+
+    .sliderwrap {
+        margin-top: 40px;
+    }
+
+    .e-bigger .content-wrapper {
+        width: 80%;
+    }
+
+    .userselect {
+        -webkit-user-select: none;
+        /* Safari 3.1+ */
+        -moz-user-select: none;
+        /* Firefox 2+ */
+        -ms-user-select: none;
+        /* IE 10+ */
+        user-select: none;
+        /* Standard syntax */
+    }
+
+    #EventLog b {
+        color: #388e3c;
+    }
+
+    hr {
+        margin-top: 6px;
+        margin-bottom: 6px;
+    }
+
+    #slider_event .property-panel-table div {
+        margin-top: -4px;
+        padding-bottom: 0px;
+    }
+
+    #slider_event.property-section {
+        margin-bottom: -19px;
+    }
+</style>

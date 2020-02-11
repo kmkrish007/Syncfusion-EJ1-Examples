@@ -1,0 +1,61 @@
+﻿@page "/"
+
+
+@using Syncfusion.EJ2.Blazor
+@using Syncfusion.EJ2.Blazor.Lists
+@using Syncfusion.EJ2.Blazor.Buttons
+
+    <EjsListView DataSource="CheckoutItems" @ref="list">
+        <ListViewFieldSettings Id="Id" Text="Name"></ListViewFieldSettings>
+    </EjsListView>
+
+<EjsButton OnClick="@Add"> Add Item</EjsButton>
+<EjsButton OnClick="@Remove"> Remove Item</EjsButton>
+
+@code{
+
+    public List<CheckoutItem> CheckoutItems = new List<CheckoutItem>();
+    EjsListView<CheckoutItem> list;
+
+    public class CheckoutItem
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public int Quantity { get; set; }
+    }
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        this.CheckoutItems = new List<CheckoutItem> {
+            new CheckoutItem { Id = 20, Name = "name1", Quantity = 0 },
+            new CheckoutItem { Id = 21, Name = "name2", Quantity = 0 },
+            new CheckoutItem { Id = 22, Name = "name3", Quantity = 0 },
+        };
+
+    }
+
+    public void Add()
+    {
+        List<CheckoutItem> data = new List<CheckoutItem>() {
+            new CheckoutItem {
+                Id = 23,
+                Name = "name4",
+                Quantity = 0
+            }
+        };
+        list.AddItem( data, null);
+    }
+
+     public void Remove()
+     {
+        CheckoutItem data = new CheckoutItem {
+                Id = 20,
+                Name = "name1",
+                Quantity = 0
+        };
+        list.RemoveItem(data);
+    }
+
+
+}

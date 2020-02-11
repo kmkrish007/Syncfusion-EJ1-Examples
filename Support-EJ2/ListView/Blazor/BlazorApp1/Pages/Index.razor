@@ -1,0 +1,99 @@
+﻿@page "/"
+
+
+@using Syncfusion.EJ2.Blazor
+@using Syncfusion.EJ2.Blazor.Lists
+@using Syncfusion.EJ2.Blazor.Buttons
+
+    <EjsListView DataSource="ListData" @ref="list"
+                 ShowCheckBox="true"
+                 HeaderTitle="States"
+                 ShowHeader="true"
+                 Width="300"
+                 ModelType="@ModelType">
+        <ListViewFieldSettings Id="Color" Text="Legend" IsChecked="IsChecked"></ListViewFieldSettings>
+        <ListViewFieldSettings Id="Qsyid" Text="Legend" IsChecked="IsChecked"></ListViewFieldSettings>
+        <ListViewTemplates>
+            <Template>
+                @{
+                    DeviceStatesColor currentData = context as DeviceStatesColor;
+                    /* Added custom class for div element */
+                    <div class="device-state-color-template" style="background-color:@currentData.Color;">@currentData.Legend</div>
+                }
+
+            </Template>
+        </ListViewTemplates>
+    </EjsListView>
+
+<EjsButton OnClick="@Onclick"> Click Me</EjsButton>
+
+@code{
+
+    public List<DeviceStatesColor> ListData = new List<DeviceStatesColor>();
+    EjsListView<DeviceStatesColor> list;
+    DeviceStatesColor ModelType = new DeviceStatesColor();
+
+    public class DeviceStatesColor
+    {
+        public string Color { get; set; }
+        public string Legend { get; set; }
+        public bool IsChecked { get; set; }
+    }
+    //public class DeviceStatesColor
+    //{
+    //    public string Qsyid { get; set; }
+    //    public string Legend { get; set; }
+    //    public bool IsChecked { get; set; }
+    //}
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        ListData.Add(new DeviceStatesColor
+        {
+            Legend = "Jenifer",
+            Color = "blue",
+            IsChecked = true
+        });
+        ListData.Add(new DeviceStatesColor
+        {
+            Legend = "Amenda",
+            Color = "red"
+        });
+        ListData.Add(new DeviceStatesColor
+        {
+            Legend = "Isabella",
+            Color = "green",
+        });
+        ListData.Add(new DeviceStatesColor
+        {
+            Legend = "William ",
+            Color = "yellow",
+        });
+        ListData.Add(new DeviceStatesColor
+        {
+            Legend = "Jacob",
+            Color = "orange"
+        });
+
+    }
+
+    public void Onclick()
+    {
+        //DeviceStatesColor obj = new DeviceStatesColor();
+        //obj.Color = "orange";
+        //obj.Legend = "jacob";
+        //list.CheckItem(obj);
+        // list.CheckItem(new DeviceStatesColor() {Legend = "Disconnected", Qsysid="Red"});
+
+    }
+
+
+}
+
+<style>
+
+    .device-state-color-template {
+        display: inline-block;
+        width: 200px;
+    }
+</style>

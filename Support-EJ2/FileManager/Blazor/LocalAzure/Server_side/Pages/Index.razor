@@ -1,0 +1,20 @@
+﻿@page "/"
+
+@using Syncfusion.EJ2.Blazor.FileManager
+@using Newtonsoft.Json
+
+<EjsFileManager>
+    <FileManagerAjaxSettings Url="/api/SamplaData/AzureFileOperations">
+    </FileManagerAjaxSettings>
+    <FileManagerEvents OnSend="OnBeforeSend"></FileManagerEvents>
+</EjsFileManager>
+
+@code {
+
+    public object data1 { get; set; }
+
+    public void OnBeforeSend(BeforeSendEventArgs args)
+    {
+        //this.data1 = JsonConvert.SerializeObject(args.AjaxSettings.data);
+    }
+}

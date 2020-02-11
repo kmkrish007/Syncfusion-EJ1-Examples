@@ -1,0 +1,76 @@
+﻿@page "/"
+
+
+@using Syncfusion.EJ2.Blazor
+@using Syncfusion.EJ2.Blazor.Lists
+@using System.Collections.ObjectModel
+
+
+<button @onclick="AddNew">ADD NEW OBJECT</button>
+<EjsListView DataSource="@addresses"
+             ModelType="@addressType"
+             CssClass="e-list-template">
+    <ListViewTemplates>
+        <Template>
+            <div class="e-list-wrapper">
+                <span class="e-list-content">@((context as PickUpPoint).Address), @((context as PickUpPoint).Coordinates())</span>
+            </div>
+        </Template>
+    </ListViewTemplates>
+</EjsListView>
+
+
+@code{
+
+    public ObservableCollection<PickUpPoint> addresses = new ObservableCollection<PickUpPoint>();
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+
+        addresses.Add(new PickUpPoint()
+        {
+            Address = "India",
+            Lat = 11.21,
+            Lon = 25.2,
+            
+        });
+        addresses.Add(new PickUpPoint()
+        {
+            Address = "USA",
+            Lat = 12.21,
+            Lon = 27.1
+        });
+        addresses.Add(new PickUpPoint()
+        {
+            Address = "UK",
+            Lat = 13.21,
+            Lon = 26.1
+        }); addresses.Add(new PickUpPoint()
+        {
+            Address = "China",
+            Lat = 14.21,
+            Lon = 25.1
+        });
+
+    }
+
+
+    void AddNew()
+    {
+        addresses.Add(new PickUpPoint { Address = "an address" });
+    }
+
+
+    PickUpPoint addressType = new PickUpPoint();
+    public class PickUpPoint
+    {
+        public string Address { get; set; } = string.Empty;
+        public double Lat { get; set; } = 0;
+        public double Lon { get; set; } = 0;
+        public string Coordinates()
+        {
+            return $"{ Lat.ToString()} {Lon.ToString()}";
+        }
+    }
+
+}
