@@ -1,0 +1,109 @@
+﻿@page "/"
+@using Syncfusion.EJ2.Blazor
+@using Syncfusion.EJ2.Blazor.Popups
+@using Syncfusion.EJ2.Blazor.Buttons
+@using Syncfusion.EJ2.Blazor.Navigations
+@using Syncfusion.EJ2.Blazor.Data
+
+@using System.Collections.ObjectModel
+
+<div class="col-lg-12 control-section" id="target" style="min-height: 450px;">
+    <button id="normalbtn" class="e-btn" @onclick="@OnBtnClick">Open</button>
+    <EjsDialog @ref="DialogObj" Height="100%" Width="500px" ShowCloseIcon="true" IsModal="true">
+        <DialogTemplates>
+            <Header> Dialog Header </Header>
+            <Content>
+                <div>
+                    <EjsTreeView TValue="RemoteData">
+                        <TreeViewFieldsSettings TValue="RemoteData" DataSource="RemoteDatas" Child="@child" Id="EmployeeID" Text="FirstName">
+                        </TreeViewFieldsSettings>
+                    </EjsTreeView>
+                </div>
+            </Content>
+        </DialogTemplates>
+        <DialogButtons>
+            <DialogButton ButtonModel="@DialogBtn" OnClick="OnClose"></DialogButton>
+        </DialogButtons>
+    </EjsDialog>
+</div>
+@code {
+    public class RemoteData
+    {
+        public int? EmployeeID { get; set; }
+        public int OrderID { get; set; }
+        public string ShipName { get; set; }
+        public string FirstName { get; set; }
+        public ObservableCollection<childata> child { get; set; }
+    }
+
+    public class childata
+    {
+        public int? EmployeeID { get; set; }
+        public int OrderID { get; set; }
+        public string ShipName { get; set; }
+        public string FirstName { get; set; }
+    }
+
+    object child;
+
+    public ObservableCollection<RemoteData> RemoteDatas = new ObservableCollection<RemoteData>();
+
+    EjsDialog DialogObj;
+
+
+    private void OnBtnClick()
+    {
+        this.DialogObj.Show();
+    }
+
+    protected override void OnAfterRender(bool firstRender)
+    {
+        base.OnAfterRender(firstRender);
+
+        if (firstRender)
+        {
+            RemoteDatas.Add(new RemoteData()
+            {
+                EmployeeID = 1,
+                OrderID = 1,
+                ShipName = "1",
+                FirstName = "1",
+                child = new ObservableCollection<childata>(){
+                    new childata{EmployeeID = 2, OrderID = 2, ShipName = "2", FirstName="2"},
+                    new childata{EmployeeID = 3, OrderID = 3, ShipName = "3", FirstName="3"},
+                    new childata{EmployeeID = 4, OrderID = 4, ShipName = "4", FirstName="4"}
+                }
+            });
+            RemoteDatas.Add(new RemoteData()
+            {
+                EmployeeID = 5,
+                OrderID = 5,
+                ShipName = "5",
+                FirstName = "5",
+                child = new ObservableCollection<childata>(){
+                    new childata{EmployeeID = 6, OrderID = 6, ShipName = "6", FirstName="6"},
+                    new childata{EmployeeID = 7, OrderID = 7, ShipName = "7", FirstName="7"}
+                }
+            });
+            RemoteDatas.Add(new RemoteData()
+            {
+                EmployeeID = 8,
+                OrderID = 8,
+                ShipName = "8",
+                FirstName = "8",
+                child = new ObservableCollection<childata>(){
+                    new childata{EmployeeID = 9, OrderID = 9, ShipName = "9", FirstName="9"},
+                    new childata{EmployeeID = 10, OrderID = 10, ShipName = "10", FirstName="10"},
+                    new childata{EmployeeID = 11, OrderID = 11, ShipName = "11", FirstName="11"}
+                }
+            });
+            StateHasChanged();
+        }
+    }
+
+    protected void OnClose()
+    {
+        DialogObj.Hide();
+    }
+    public ButtonModel DialogBtn = new ButtonModel { Content = "Close", IsPrimary = true };
+}

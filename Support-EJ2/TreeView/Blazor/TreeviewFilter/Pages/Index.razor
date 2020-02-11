@@ -1,0 +1,186 @@
+﻿@page "/"
+
+
+@using Syncfusion.EJ2.Blazor.Navigations
+@using Syncfusion.EJ2.Blazor.Inputs
+
+<EjsTextBox @ref="textBox" Placeholder="Filter" Input="@OnInput"></EjsTextBox>
+<EjsTreeView TValue="MailItem" LoadOnDemand="true" @ref="tree">
+    <TreeViewFieldsSettings TValue="MailItem" Id="Id" DataSource="@MyFolder" Text="FolderName" ParentID="ParentId" HasChildren="HasSubFolders" Expanded="Expanded"></TreeViewFieldsSettings>
+    <TreeViewEvents DataBound="@OnDataBound" TValue="MailItem"></TreeViewEvents>
+</EjsTreeView>
+
+
+@code {
+    EjsTextBox textBox;
+    EjsTreeView<MailItem> tree;
+    public bool search = false;
+    public string _value { get; set; }
+    public List<MailItem> MyFolder = new List<MailItem>();
+    public List<MailItem> newList = new List<MailItem>();
+    public List<MailItem> FilterList = new List<MailItem>();
+    public List<MailItem> Parent = new List<MailItem>();
+    public List<string> filters { get; set; }
+    public List<MailItem> Predicates = new List<MailItem>();
+    public List<string> _array = new List<string>();
+    public List<MailItem> DataSource = new List<MailItem>()
+    {
+        new MailItem
+        {
+            Id = "1",
+            FolderName = "Inbox",
+            HasSubFolders = true,
+        },
+        new MailItem
+        {
+            Id = "2",
+            ParentId = "1",
+            HasSubFolders = true,
+            FolderName = "Categories"
+        },
+        new MailItem
+        {
+            Id = "3",
+            ParentId = "2",
+            FolderName = "Primary"
+        },
+        new MailItem
+        {
+            Id = "4",
+            ParentId = "2",
+            FolderName = "Social"
+        },
+        new MailItem
+        {
+            Id = "5",
+            ParentId = "2",
+            FolderName = "Promotions"
+        },
+        new MailItem
+        {
+            Id = "6",
+            FolderName = "Others",
+            HasSubFolders = true
+        },
+        new MailItem
+        {
+            Id = "7",
+            ParentId = "6",
+            FolderName = "Sent Items"
+        },
+        new MailItem
+        {
+            Id = "8",
+            ParentId = "6",
+            FolderName = "Delete Items"
+        },
+        new MailItem
+        {
+            Id = "9",
+            ParentId = "6",
+            FolderName = "Drafts"
+        },
+        new MailItem
+        {
+            Id = "10",
+            ParentId = "6",
+            FolderName = "Archive"
+        }
+    };
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        MyFolder = DataSource;
+    }
+    public class MailItem
+    {
+        public string Id { get; set; }
+        public string ParentId { get; set; }
+        public string FolderName { get; set; }
+        public bool Expanded { get; set; }
+        public bool HasSubFolders { get; set; }
+    }
+
+    public void OnDataBound()
+    {
+        if (this.search)
+        {
+            tree.ExpandAll();
+            this.search = false;
+        }
+
+    }
+
+    void OnInput(InputEventArgs eventArgs)
+    {
+        this._value = eventArgs.Value;
+        if (this._value == "")
+        {
+            this.ChangeDataSource(this.DataSource);
+        }
+        else
+        {
+            var FilterData = DataSource.FindAll(e => e.FolderName.ToLower().StartsWith(this._value.ToLower()));
+            FilterList = FilterData.ToList();
+            for (var i = 0; i < this.FilterList.Count; i++)
+            {
+                filters = GetFilterItems(FilterList[i]);
+                for (var j = 0; j < filters.Count; j++)
+                {
+                    if (_array.Contains(filters[j]) == false && filters[j] != null)
+                    {
+                        _array.Add(filters[j]);
+                        var predicate = DataSource.FindAll(e => e.Id.Equals(filters[j]));
+                        Predicates.Add(predicate[0]);
+                    }
+
+                }
+            }
+            if (Predicates.Count == 0)
+            {
+                MyFolder = null;
+            }
+            else
+            {
+                newList = Predicates.ToList();
+                this.ChangeDataSource(newList);
+                Predicates.Clear();
+                _array.Clear();
+            }
+        }
+    }
+
+
+    void ChangeDataSource(List<MailItem> Data)
+    {
+        if (this._value != "")
+        {
+            this.search = true;
+        }
+        MyFolder = Data;
+        tree.DataBind();
+    }
+    public List<string> pNode { get; set; }
+
+
+    public List<string> GetFilterItems(MailItem fList)
+    {
+        List<string> nodes = new List<string>();
+        nodes.Add(fList.Id);
+        var ParentData = DataSource.FindAll(e => e.Id.Equals(fList.ParentId));
+        Parent = ParentData.ToList();
+        if (Parent.Count != 0)
+        {
+            pNode = this.GetFilterItems(Parent[0]);
+            for (var i = 0; i < pNode.Count; i++)
+            {
+                if (nodes.IndexOf(pNode[i]) == -1 && pNode[i] != null)
+                    nodes.Add(pNode[i]);
+            }
+            return nodes;
+        }
+        return nodes;
+    }
+
+}

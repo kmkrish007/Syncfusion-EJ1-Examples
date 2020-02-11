@@ -1,0 +1,70 @@
+﻿@inherits LayoutComponentBase
+@using Syncfusion.EJ2.Blazor
+@using Syncfusion.EJ2.Blazor.Navigations
+
+    <div id="wrapper">
+            <EjsSidebar Width="200px" Target=".main" @ref="sidebar" MediaQuery="min-width:1400px">
+                <ChildContent>
+                    <div>
+                        <EjsTreeView CssClass="main-treeview" @ref="treeView" ExpandOn="@Expand" TValue="TreeData">
+                            <TreeViewFieldsSettings Id="nodeId" Text="nodeText" IconCss="iconCss" DataSource="treedata" HasChildren="hasChild" ParentID="pid" NavigateUrl="url">
+                            </TreeViewFieldsSettings>
+                        </EjsTreeView>
+                    </div>
+                </ChildContent>
+            </EjsSidebar>
+        </div>
+
+            <div class="main">
+                <div class="content px-4">
+                    @Body
+                </div>
+            </div>
+
+            @code{
+                EjsTreeView<TreeData> treeView;
+                EjsSidebar sidebar;
+                public ExpandOnSettings Expand = ExpandOnSettings.Click;
+
+                public void Toggle()
+                {
+                    this.sidebar.Toggle();
+                }
+                public class TreeData
+                {
+                    public string nodeId;
+                    public string nodeText;
+                    public string iconCss;
+                    public bool hasChild;
+                    public string pid;
+                    public string url;
+                }
+                private List<TreeData> treedata = new List<TreeData>();
+                protected override void OnInitialized()
+                {
+                    base.OnInitialized();
+                  
+        treedata.Add(new TreeData { nodeId = "02", nodeText = "Deployment", iconCss = "icon-thumbs-up-alt icon", url = "fetchdata" });
+        treedata.Add(new TreeData { nodeId = "03", nodeText = "Quick Start", iconCss = "icon-docs icon", url = "error" });
+        treedata.Add(new TreeData { nodeId = "04", nodeText = "Components", iconCss = "icon-th icon", hasChild = true, url = "/" });
+        treedata.Add(new TreeData { nodeId = "04-01", nodeText = "Calendar", iconCss = "icon-circle-thin icon", pid = "04", url = "counter" });
+        treedata.Add(new TreeData { nodeId = "04-02", nodeText = "DatePicker", iconCss = "icon-circle-thin icon", pid = "04", url = "fetchdata" });
+        treedata.Add(new TreeData { nodeId = "04-03", nodeText = "DateTimePicker", iconCss = "icon-circle-thin icon", pid = "04", url = "counter" });
+        treedata.Add(new TreeData { nodeId = "04-04", nodeText = "DateRangePicker", iconCss = "icon-circle-thin icon", pid = "04", url = "error" });
+        treedata.Add(new TreeData { nodeId = "04-05", nodeText = "TimePicker", iconCss = "icon-circle-thin icon", pid = "04", url = "counter" });
+        treedata.Add(new TreeData { nodeId = "04-06", nodeText = "SideBar", iconCss = "icon-circle-thin icon", pid = "04", url = "fetchdata" });
+        treedata.Add(new TreeData { nodeId = "05", nodeText = "API Reference", iconCss = "icon-code icon", hasChild = true, url = "error" });
+        treedata.Add(new TreeData { nodeId = "05-01", nodeText = "Calendar", iconCss = "icon-circle-thin icon", pid = "05", url = "counter" });
+        treedata.Add(new TreeData { nodeId = "05-02", nodeText = "DatePicker", iconCss = "icon-circle-thin icon", pid = "05", url = "fetchdata" });
+        treedata.Add(new TreeData { nodeId = "05-03", nodeText = "DateTimePicker", iconCss = "icon-circle-thin icon", pid = "05", url = "/" });
+        treedata.Add(new TreeData { nodeId = "05-04", nodeText = "DateRangePicker", iconCss = "icon-circle-thin icon", pid = "05", url = "error" });
+        treedata.Add(new TreeData { nodeId = "05-05", nodeText = "TimePicker", iconCss = "icon-circle-thin icon", pid = "05" });
+        treedata.Add(new TreeData { nodeId = "05-06", nodeText = "SideBar", iconCss = "icon-circle-thin icon", pid = "05", url = "counter" });
+        treedata.Add(new TreeData { nodeId = "06", nodeText = "Browser Compatibility", iconCss = "icon-chrome icon", url = "fetchdata" });
+        treedata.Add(new TreeData { nodeId = "07", nodeText = "Upgrade Packages", iconCss = "icon-up-hand icon", url = "error" });
+        treedata.Add(new TreeData { nodeId = "08", nodeText = "Release Notes", iconCss = "icon-bookmark-empty icon", url = "/" });
+        treedata.Add(new TreeData { nodeId = "09", nodeText = "FAQ", iconCss = "icon-help-circled icon", url = "fetchdata" });
+        treedata.Add(new TreeData { nodeId = "10", nodeText = "License", iconCss = "icon-doc-text icon", url = "/" });
+                }
+
+            }

@@ -1,0 +1,99 @@
+﻿@page "/"
+
+@using Syncfusion.EJ2.Blazor.Navigations
+
+        <EjsTreeView TValue="MusicAlbum" ShowCheckBox="true" AutoCheck="true">
+            <TreeViewFieldsSettings TValue="MusicAlbum" Id="Id" DataSource="@Albums" Text="Name" ParentID="ParentId" HasChildren="HasChild" Expanded="Expanded" IsChecked="IsChecked"></TreeViewFieldsSettings>
+            <TreeViewEvents TValue="MusicAlbum" NodeChecked="nodeChecked"></TreeViewEvents>
+        </EjsTreeView>
+    <div>You have checked/Unchecked: @checkedItems</div>
+
+
+@code{
+
+    public class MusicAlbum
+    {
+        public int Id { get; set; }
+        public int? ParentId { get; set; }
+        public string Name { get; set; }
+        public bool Expanded { get; set; }
+        public bool? IsChecked { get; set; }
+        public bool HasChild { get; set; }
+    }
+    List<MusicAlbum> Albums = new List<MusicAlbum>();
+    public string checkedItems { get; set; }
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        Albums.Add(new MusicAlbum
+        {
+            Id = 1,
+            Name = "Discover Music",
+            HasChild = true,
+        });
+        Albums.Add(new MusicAlbum
+        {
+            Id = 2,
+            ParentId = 1,
+            Name = "Hot Singles"
+        });
+        Albums.Add(new MusicAlbum
+        {
+            Id = 3,
+            ParentId = 1,
+            Name = "Rising Artists"
+        });
+        Albums.Add(new MusicAlbum
+        {
+            Id = 4,
+            ParentId = 1,
+            Name = "Live Music"
+        });
+        Albums.Add(new MusicAlbum
+        {
+            Id = 14,
+            HasChild = true,
+            Name = "MP3 Albums",
+            Expanded = true,
+            IsChecked = true
+        });
+        Albums.Add(new MusicAlbum
+        {
+            Id = 15,
+            ParentId = 14,
+            Name = "Rock"
+        });
+        Albums.Add(new MusicAlbum
+        {
+            Id = 16,
+            Name = "Gospel",
+            ParentId = 14
+        });
+        Albums.Add(new MusicAlbum
+        {
+            Id = 17,
+            ParentId = 14,
+            Name = "Latin Music"
+        });
+        Albums.Add(new MusicAlbum
+        {
+            Id = 18,
+            ParentId = 14,
+            Name = "Jazz"
+        });
+
+        //ListData.Add(new DataModel { Id = "14", Name = "MP3 Albums" });
+        //ListData.Add(new DataModel { Id = "15", Name = "Rock" });
+        //ListData.Add(new DataModel { Id = "16", Name = "Gospel" });
+        //ListData.Add(new DataModel { Id = "17", Name = "Latin Music" });
+        //ListData.Add(new DataModel { Id = "18", Name = "Jazz" });
+    }
+
+    public void nodeChecked(NodeCheckEventArgs args)
+    {
+        this.checkedItems = args.Data[0].Text;
+    }
+
+
+}

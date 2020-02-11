@@ -1,0 +1,258 @@
+﻿@page "/"
+@using TreeViewSearch.Shared
+@using Newtonsoft.Json
+@using System.Collections.Generic
+@using Syncfusion.EJ2.Blazor.Inputs
+@using Syncfusion.EJ2.Blazor.Navigations
+@inject HttpClient Http;
+
+
+@if (_items == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <div class="d-flex flex-nowrap flex-row mb-2" style="width: 200px;">
+        <input type="text" class="flex-grow-1" value="An" bind="@searchText" @onchange="@KeyPress" />
+
+        <button class="ml-2 btn btn-success" @onclick="@OnSearch">Search</button>
+        <button class="ml-2 btn btn-success" @onclick="@OnNext">Next</button>
+        <button class="btn btn-success" @onclick="@OnPrevious">Previous</button>
+    </div>
+
+    <EjsTreeView CssClass="tree-view" @ref="tree" TValue="ItemViewModel">
+        <TreeViewFieldsSettings TValue="ItemViewModel"
+                                Id="ItemGuid"
+                                DataSource="@_items"
+                                Text="ItemName"
+                                ParentID="ParentItemGuid"
+                                HasChildren="HasChildren"
+                                Expanded="Expanded"
+                                Selected="selected">
+        </TreeViewFieldsSettings>
+        <TreeViewNodeAnimationSettings>
+            <TreeViewCollapse Duration="0"></TreeViewCollapse>
+            <TreeViewExpand Duration="0"></TreeViewExpand>
+        </TreeViewNodeAnimationSettings>
+        <TreeViewEvents TValue="ItemViewModel"
+                        NodeExpanding="OnNodeExpand"
+                        DataBound="OnDataBound"
+                        NodeSelected="OnNodeSelected">
+        </TreeViewEvents>
+    </EjsTreeView>
+}
+
+@code {
+    EjsTreeView<ItemViewModel> tree;
+    EjsTextBox textBox;
+    List<ItemViewModel> _items;
+    private bool isFirstRender = true;
+    private bool MySearch = false;
+    private bool ChildFetch = false;
+    List<string> arr = new List<string>();
+    private string searchText = "";
+    private int searchIndex = 0;
+    List<ItemViewModel> ActualData = new List<ItemViewModel>();
+    private List<string> currentSearchPath;
+    private int currentSearchPathIndex = 0;
+    private string currentSearchItemId;
+    List<ItemViewModel> FilteredArr = new List<ItemViewModel>();
+    string[] selected;
+    public bool search = false;
+
+    async void KeyPress(Microsoft.AspNetCore.Components.ChangeEventArgs e)
+    {
+        searchText = e.Value.ToString();
+        if (e.Value == "")
+        {
+            Console.WriteLine(searchText);
+            _items = ActualData;
+            tree.DataBind();
+            StateHasChanged();
+            await Task.Delay(100);
+            searchIndex = 0;
+        }
+    }
+
+    //Triggers when a node is expanded
+    async void OnNodeExpand(NodeExpandEventArgs args)
+    {
+        if (args.IsInteracted || MySearch)
+        {
+            // To check whether the child data  is available for the expanded node
+            if (!(arr.Contains(args.NodeData.Id.ToString())))
+            {
+                var parentID = args.NodeData.Id;
+                // To fetch the child data from remote end
+                var treeItems = await Http.GetJsonAsync<List<ItemViewModel>>($"api/Child/{parentID}");
+                // To add the resultant child nodes
+                tree.AddNodes(treeItems, args.Node, null, false);
+                arr.Add(args.NodeData.Id.ToString());
+            }
+            MySearch = false;
+        }
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        await base.OnInitializedAsync();
+        // To fetch parent record in a preconfigured state
+        _items = await Http.GetJsonAsync<List<ItemViewModel>>("api/SampleData/Get");
+
+    }
+
+    async void OnNodeSelected(NodeSelectEventArgs args)
+    {
+        Console.WriteLine("args.NodeData.Id: " + args.NodeData.Id);
+    }
+
+    void OnDataBound(DataBoundEventArgs<ItemViewModel> data)
+    {
+        Console.WriteLine("triggered");
+        if (isFirstRender)
+        {
+            ActualData = _items;
+             searchText = "An";
+        }
+        isFirstRender = false;
+        if (this.search)
+        {
+            tree.ExpandAll();
+            tree.SelectedNodes = selected;
+            this.search = false;
+        }
+        FilteredArr.Clear();
+        arr.Clear();
+        Console.WriteLine("dataBounded");
+    }
+
+    private async Task OnSearch()
+    {
+        
+
+        var matchingItems = await Http.GetJsonAsync<List<List<string>>>($"api/Search/{searchText}");
+        currentSearchPathIndex = 0;
+
+        if (matchingItems.Count > 0)
+        {
+            if (searchIndex > matchingItems.Count || searchIndex < 0)
+            {
+                searchIndex = 0;
+            }
+            currentSearchPath = matchingItems[searchIndex];
+            if (currentSearchPath.Count > 0)
+            {
+                NavigateToTreeNode();
+
+            }
+        }
+    }
+
+    async private void OnNext()
+    {
+        _items = ActualData;
+        tree.DataBind();
+        StateHasChanged();
+        await Task.Delay(100);
+        searchIndex++;
+        OnSearch();
+    }
+
+    async private void OnPrevious()
+    {
+        _items = ActualData;
+        tree.DataBind();
+        StateHasChanged();
+        await Task.Delay(100);
+        searchIndex--;
+        OnSearch();
+    }
+
+
+    private async Task NavigateToTreeNode()
+    {
+
+        currentSearchItemId = currentSearchPath[currentSearchPathIndex];
+        currentSearchPathIndex++;
+        var treeNode = (await tree.GetTreeData()).FirstOrDefault(d => d.ItemGuid == new Guid(currentSearchItemId));
+        if (treeNode != null)
+        {
+            if (currentSearchPathIndex == currentSearchPath.Count)
+            {
+                FilteredArr.Add(treeNode);
+                _items = FilteredArr;
+                selected = new[] { treeNode.ItemGuid.ToString() };
+                search = true;
+                MySearch = false;
+                tree.DataBind();
+                StateHasChanged();
+            }
+            else
+            {
+                FilteredArr.Add(treeNode);
+                await NavigateToChildTreeNode(treeNode);
+            }
+        }
+    }
+
+    private async Task NavigateToChildTreeNode(ItemViewModel treeNode)
+    {
+        currentSearchItemId = currentSearchPath[currentSearchPathIndex];
+        currentSearchPathIndex++;
+
+        if (treeNode.Expanded != true)
+        {
+            await expandNodes(treeNode);
+            await Task.Delay(80);
+            var childTreeNode = (await tree.GetTreeData()).FirstOrDefault(d =>
+            d.ParentItemGuid == treeNode.ItemGuid && d.ItemGuid == new Guid(currentSearchItemId));
+            Console.WriteLine(childTreeNode.ItemName);
+            if (currentSearchPathIndex == currentSearchPath.Count)
+            {
+                FilteredArr.Add(childTreeNode);
+                selected = new[] { childTreeNode.ItemGuid.ToString() };
+                search = true;
+                MySearch = false;
+                _items = FilteredArr;
+                tree.DataBind();
+                StateHasChanged();
+            }
+            else
+            {
+                FilteredArr.Add(childTreeNode);
+                await NavigateToChildTreeNode(childTreeNode);
+            }
+
+        }
+        else
+        {
+            var childTreeNode = (await tree.GetTreeData()).FirstOrDefault(d =>
+                d.ParentItemGuid == treeNode.ItemGuid && d.ItemGuid == new Guid(currentSearchItemId));
+            if (currentSearchPathIndex == currentSearchPath.Count)
+            {
+                FilteredArr.Add(childTreeNode);
+                _items = FilteredArr;
+                selected = new[] { childTreeNode.ItemGuid.ToString() };
+                search = true;
+                tree.DataBind();
+                StateHasChanged();
+            }
+            else
+            {
+                FilteredArr.Add(childTreeNode);
+                await NavigateToChildTreeNode(childTreeNode);
+            }
+        }
+    }
+
+    private async Task expandNodes(ItemViewModel treeNode)
+    {
+        string[] MyArr = new string[] { treeNode.ItemGuid.ToString() };
+        MySearch = true;
+        tree.ExpandAll(MyArr);
+        MySearch = false;
+    }
+
+
+}

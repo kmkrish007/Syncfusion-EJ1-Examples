@@ -1,0 +1,129 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="tree-container">
+    <input id="inputBox" type="text">
+    <div id="tree"></div>
+</div>
+
+<div class="drop-area custom-list"></div>
+
+
+<style>
+    .tree-container {
+        width: 400px;
+        position: absolute;
+    }
+
+    .drop-area {
+        border: 1px solid;
+        width: 400px;
+        height: 300px;
+        position: relative;
+        left: 500px;
+    }
+</style>
+
+<script>
+
+    var data = new ej.data.DataManager({
+        url: '/Home/Data',
+        adaptor: new ej.data.UrlAdaptor(),
+        crossDomain: true,
+        offline: true
+    });
+    var localData;
+    var isInitialRender = true;
+    // Render the TreeView with list data source
+    var listTreeObj = new ej.navigations.TreeView({
+        fields: { dataSource: data, id: 'id', parentID: 'pid', text: 'name', hasChildren: 'hasChild', expanded: "expanded" },
+        allowDragAndDrop: true,
+        nodeDragStop: onTreeDragStop,
+        dataBound: TreeCreated
+    });
+    //var localData = listTreeObj.fields.dataSource.dataSource.json;
+    listTreeObj.appendTo('#tree');
+
+    // Render the MaskedTextBox input element
+    var mask = new ej.inputs.MaskedTextBox({
+        placeholder: "Enter the tree node to search",
+        change: searchNodes
+    });
+    mask.appendTo('#inputBox');
+
+    function onTreeDragStop(event) {
+        var targetEle = ej.base.closest(event.target, '.drop-area');
+        targetEle = targetEle ? targetEle : event.target;
+        if (targetEle && targetEle.classList.contains('custom-list')) {
+                var text = 'text';
+            var nodeText1 = event.draggedNodeData[text];
+            document.querySelector('.drop-area').innerText = nodeText1;
+            }
+
+        }
+
+    function TreeCreated() {
+        if (isInitialRender) {
+            localData = listTreeObj.getTreeData();
+            isInitialRender = false;
+        }
+
+    }
+
+    // Change the dataSource for TreeView
+    function changeDataSource(data) {
+        listTreeObj.fields = {
+            dataSource: data, id: 'id', text: 'name', parentID: 'pid', hasChildren: 'hasChild'
+        }
+    }
+
+    // Filtering the tree nodes
+    function searchNodes(args) {
+        var _text = args.value;
+        var predicats = [], _array = [], _filter = [];
+        if (_text == "") {
+            changeDataSource(localData);
+        }
+        else {
+            var predicate = new ej.data.Predicate('name', 'contains', _text, true);
+            var filteredList = new ej.data.DataManager(localData).executeLocal(new ej.data.Query().where(predicate));
+            for (var j = 0; j < filteredList.length; j++) {
+                _filter.push(filteredList[j]["id"]);
+                var filters = getFilterItems(filteredList[j], localData);
+                for (var i = 0; i < filters.length; i++) {
+                    if (_array.indexOf(filters[i]) == -1 && filters[i] != null) {
+                        _array.push(filters[i]);
+                        predicats.push(new ej.data.Predicate('id', 'equal', filters[i], false));
+                    }
+                }
+            }
+            if (predicats.length == 0) {
+                changeDataSource([]);
+            } else {
+                var query = new ej.data.Query().where(new ej.data.Predicate.or(predicats));
+                var newList = new ej.data.DataManager(localData).executeLocal(query);
+                changeDataSource(newList);
+                setTimeout(function () {
+                    listTreeObj.expandAll();
+                }, 100);
+            }
+        }
+    }
+    // Find the parent nodes for corresponding childs
+    function getFilterItems(fList, list) {
+        var nodes = [];
+        nodes.push(fList["id"]);
+        var query2 = new ej.data.Query().where('id', 'equal', fList["pid"], false);
+        var fList1 = new ej.data.DataManager(list).executeLocal(query2);
+        if (fList1.length != 0) {
+            var pNode = getFilterItems(fList1[0], list);
+            for (var i = 0; i < pNode.length; i++) {
+                if (nodes.indexOf(pNode[i]) == -1 && pNode[i] != null)
+                    nodes.push(pNode[i]);
+            }
+            return nodes;
+        }
+        return nodes;
+    }
+</script>

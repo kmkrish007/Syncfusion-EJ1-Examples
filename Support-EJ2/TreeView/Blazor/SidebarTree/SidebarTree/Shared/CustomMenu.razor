@@ -1,0 +1,26 @@
+﻿@using SidebarTree.Data
+@inject WeatherForecastService ForecastService
+@using Syncfusion.EJ2.Blazor.Navigations
+    <EjsTreeView TValue="TreeData" ExpandOn="ExpandOnSettings.Click" CssClass="main-treeview">
+        <TreeViewFieldsSettings Id="Id"
+                                Text="Name"
+                                ParentID="Pid"
+                                HasChildren="HasChild"
+                                IconCss="Icon"
+                                Selected="Selected"
+                                 NavigateUrl="Url"
+                                Expanded="Expanded"
+                                DataSource="@Data"></TreeViewFieldsSettings>
+       
+    </EjsTreeView>
+@code{
+
+        List<TreeData> Data = new List<TreeData>();
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+
+        Data.Add(new TreeData { Id = "11", Name = "Product Type", Icon = "icon-chrome icon", Url = $"/datepicker/" });
+    }
+
+}

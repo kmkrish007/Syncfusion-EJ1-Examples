@@ -1,0 +1,80 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\EJ2\\Support\\Blazor\\Treeview\\TreeViewTemplate\\TreeViewTemplate\\TreeViewTemplate\\TreeViewTemplate.csproj": {}
+  },
+  "projects": {
+    "D:\\EJ2\\Support\\Blazor\\Treeview\\TreeViewTemplate\\TreeViewTemplate\\TreeViewTemplate\\TreeViewTemplate.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\EJ2\\Support\\Blazor\\Treeview\\TreeViewTemplate\\TreeViewTemplate\\TreeViewTemplate\\TreeViewTemplate.csproj",
+        "projectName": "TreeViewTemplate",
+        "projectPath": "D:\\EJ2\\Support\\Blazor\\Treeview\\TreeViewTemplate\\TreeViewTemplate\\TreeViewTemplate\\TreeViewTemplate.csproj",
+        "packagesPath": "C:\\Users\\Muthukrishnan K\\.nuget\\packages\\",
+        "outputPath": "D:\\EJ2\\Support\\Blazor\\Treeview\\TreeViewTemplate\\TreeViewTemplate\\TreeViewTemplate\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Muthukrishnan K\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\vs2019-preview\\Nuget": {},
+          "D:\\vs2019-preview\\Nuget\\17.2.0.39-beta\\17.2.0.39-beta": {},
+          "D:\\vs2019-preview\\Nuget\\Latest_17.2.0.39": {},
+          "D:\\vs2019-preview\\Nuget\\Latest_Nuget": {},
+          "D:\\vs2019-preview\\Nuget\\V17.2.34\\V17.2.34": {},
+          "D:\\vs2019-preview\\Nuget\\indra": {},
+          "D:\\vs2019-preview\\Nuget\\new": {},
+          "D:\\vs2019-preview\\Nuget\\updated_v17.2.0.35-beta": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Syncfusion.EJ2.Blazor": {
+              "target": "Package",
+              "version": "[17.3.0.26-beta, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100-preview1-014459\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,91 @@
+﻿@page "/"
+
+@using Syncfusion.EJ2.Blazor.Navigations
+@using Syncfusion.EJ2.Blazor.Lists
+@using Syncfusion.EJ2.Blazor.Data
+
+<div class="control_wrapper">
+    <EjsTreeView TValue="TreeData" @ref="tree">
+        <TreeViewFieldsSettings DataSource="@TreeDataSource" Id="Code" Text="Name" Selected="Selected" Expanded="Expanded" ParentID="ParentID" HasChildren="HasChild"></TreeViewFieldsSettings>
+        <TreeViewEvents TValue="TreeData" NodeExpanding="OnNodeExpand"></TreeViewEvents>
+    </EjsTreeView>
+</div>
+@code{
+    EjsTreeView<TreeData> tree;
+    List<string> arr = new List<string>();
+    public class TreeData
+    {
+        public string Code { get; set; }
+        public string ParentID { get; set; }
+        public string Name { get; set; }
+        public bool Expanded { get; set; }
+        public bool Selected { get; set; }
+        public List<TreeData> Child { get; set; }
+        public bool HasChild { get; set; }
+    }
+    List<TreeData> Children = new List<TreeData>()
+    {
+                        new TreeData { Code = "CHN", Name = "China", ParentID= "NA" },
+                        new TreeData { Code = "IND", Name = "India", ParentID= "NA" },
+                        new TreeData { Code = "JPN", Name = "Japan", ParentID= "NA" },
+                        new TreeData { Code = "USA", Name = "United States of America" , Selected = true, ParentID="AF" },
+                        new TreeData { Code = "CUB", Name = "Cuba"  , ParentID="AF"},
+                        new TreeData { Code = "MEX", Name = "Mexico" , ParentID="AF"},
+     };
+
+    // Triggers when a node is expanded
+    void OnNodeExpand(NodeExpandEventArgs args)
+    {
+        if (args.IsInteracted)
+        {
+            // To check whether the children are already rendered in the DOM
+            if (!(arr.Contains(args.NodeData.Id.ToString())))
+            {
+                var parentID = args.NodeData.Id;
+                // To filter the children for the selected parent
+                var treeItems = Children.Where(e => e.ParentID == args.NodeData.Id);
+                // To add the resultant child nodes
+                tree.AddNodes(treeItems, args.Node, null, false);
+                arr.Add(args.NodeData.Id.ToString());
+            }
+        }
+
+    }
+    List<TreeData> TreeDataSource = new List<TreeData>();
+    protected override void OnInitialized()
+    {
+        TreeDataSource.Add(new TreeData
+        {
+            Code = "NA",
+            Name = "North America",
+            HasChild = true
+
+        });
+        TreeDataSource.Add(new TreeData
+        {
+            Code = "AF",
+            Name = "Africa",
+            HasChild = true
+
+        });
+
+        TreeDataSource.Add(new TreeData
+        {
+            Code = "AS",
+            Name = "Asia",
+            HasChild = true,
+        });
+        TreeDataSource.Add(new TreeData { Code = "CHN", Name = "China", ParentID = "AS" });
+        TreeDataSource.Add(new TreeData { Code = "IND", Name = "India", ParentID = "AS" });
+        TreeDataSource.Add(new TreeData { Code = "JPN", Name = "Japan", ParentID = "AS" });
+
+    }
+}
+<style>
+    .control_wrapper {
+        max-width: 500px;
+        margin: auto;
+        border: 1px solid #dddddd;
+        border-radius: 3px;
+    }
+</style>

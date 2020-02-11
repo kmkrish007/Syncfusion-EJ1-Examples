@@ -1,0 +1,134 @@
+﻿@page "/"
+
+@using Syncfusion.EJ2.Blazor.Navigations
+
+<div class="treeview">
+    <EjsTreeView TValue="TreeData" @ref="tree" AllowMultiSelection="true" SortOrder="@Syncfusion.EJ2.Blazor.Navigations.SortOrder.Ascending" CssClass="DeviceInfoTreeView">
+        <TreeViewFieldsSettings DataSource="@TreeDataSource" Tooltip="Tooltip" IconCss="IconCss" Id="Code" Text="Name" Selected="Selected" Expanded="Expanded" ParentID="ParentID" HasChildren="HasChild"></TreeViewFieldsSettings>
+        <TreeViewEvents TValue="TreeData" NodeSelected="OnNodeSelected"></TreeViewEvents>
+    </EjsTreeView>
+</div>
+
+<style>
+    #treeview {
+        max-width: 400px;
+        margin: auto;
+        border: 1px solid #dddddd;
+        border-radius: 3px;
+    }
+
+    .e-treeview.DeviceInfoTreeView .e-list-icon {
+        font-family: 'Material Icons';
+        font-size: 20px;
+        margin-top: -4px;
+        color: #039be5;
+    }
+
+        .e-treeview.DeviceInfoTreeView .e-list-icon.MCD::before {
+            content: "insert_link"
+        }
+
+        .e-treeview.DeviceInfoTreeView .e-list-icon.LEVEL::before {
+            content: "device_hub"
+        }
+
+        .e-treeview.DeviceInfoTreeView .e-list-icon.RT::before {
+            content: "desktop_mac"
+        }
+
+        .e-treeview.DeviceInfoTreeView .e-list-icon.TC::before {
+            content: "dns"
+        }
+
+        .e-treeview.DeviceInfoTreeView .e-list-icon.VENUE::before {
+            content: "store"
+        }
+
+        .e-treeview.DeviceInfoTreeView .e-list-icon.VLT::before {
+            content: "settings_cell"
+        }
+</style>
+
+@code {
+
+    EjsTreeView<TreeData> tree;
+    public object treeNodes { get; set; }
+    List<string> arr = new List<string>();
+
+    public class TreeData
+    {
+        public string Code { get; set; }
+        public string ParentID { get; set; }
+        public string Name { get; set; }
+        public bool Expanded { get; set; }
+        public bool Selected { get; set; }
+        public string IconCss { get; set; }
+        public List<TreeData> Child { get; set; }
+        public bool HasChild { get; set; }
+
+        public string NodeValue { get; set; }
+        public string DeviceType { get; set; }
+    }
+
+
+    public async void OnNodeSelected(NodeSelectEventArgs args)
+    {
+        if (args.IsInteracted)
+        {
+           this.treeNodes = await this.tree.GetTreeData(args.NodeData.Id);
+        }
+    }
+    List<TreeData> TreeDataSource = new List<TreeData>();
+    protected override void OnInitialized()
+    {
+        TreeDataSource.Add(new TreeData
+        {
+            Code = "01",
+            Name = "Venue 1",
+            HasChild = true,
+            IconCss = "VENUE",
+            NodeValue = "Venue 1",
+            DeviceType = "Venue"
+
+        });
+        TreeDataSource.Add(new TreeData
+        {
+            Code = "02",
+            Name = "Venue 2",
+            HasChild = true,
+            IconCss = "VENUE",
+            NodeValue = "Venue 2",
+            DeviceType = "Venue"
+
+        });
+
+        TreeDataSource.Add(new TreeData
+        {
+            Code = "03",
+            Name = "Venue 3",
+            HasChild = true,
+            IconCss = "VENUE",
+            NodeValue = "Venue 3",
+            DeviceType = "Venue"
+        });
+        TreeDataSource.Add(new TreeData
+        {
+            Code = "04",
+            Name = "Venue 4",
+            HasChild = true,
+            IconCss = "VENUE",
+            NodeValue = "Venue 4",
+            DeviceType = "Venue"
+
+        });
+        TreeDataSource.Add(new TreeData
+        {
+            Code = "05",
+            Name = "Venue 5",
+            HasChild = true,
+            IconCss = "VENUE",
+            NodeValue = "Venue 5",
+            DeviceType = "Venue"
+        });
+    }
+}
