@@ -1,0 +1,488 @@
+
+@font-face {
+  font-family: 'ej-ribbonfont';
+  src: url('../ribbon/images/ejrbnicons.eot?-dzszjm');
+  src: url('../ribbon/images/ejrbnicons.eot?#iefix-dzszjm') format('embedded-opentype'), url('../ribbon/images/ejrbnicons.woff?-dzszjm') format('woff'), url('../ribbon/images/ejrbnicons.ttf?-dzszjm') format('truetype'), url('../ribbon/images/ejrbnicons.svg?-dzszjm#ejrbnicons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.e-ribbon .clearAll:before {
+    font-family: 'ej-ribbonfont';
+    content: "\e161";
+    font-size: 16px;
+}
+
+.e-ribbon .strikethrough:before {
+    font-family: 'ej-ribbonfont';
+    content: "\e17d";
+    font-size: 16px;
+	left: -1px;
+    position: relative;
+    top: -2px;
+}
+
+.e-ribbon .bold:before {
+    font-family: 'ej-ribbonfont';
+    content: "\e15a";    
+	font-size: 16px;
+    left: -1px;
+    position: relative;
+    top: -2px;
+}
+
+.e-ribbon .alignleft:before {
+    font-family: 'ej-ribbonfont';
+    content: "\e156";
+    font-size: 16px;
+	left: -2px;
+    position: relative;
+    top: -2px;
+}
+
+.e-ribbon .aligncenter:before {
+    font-family: 'ej-ribbonfont';
+    content: "\e155";
+    font-size: 16px;
+	left: 0;
+    position: relative;
+    top: -2px;
+}
+
+.e-ribbon .alignright:before {
+    font-family: 'ej-ribbonfont';
+    content: "\e157";
+    font-size: 16px;    
+	left: -1px;
+    position: relative;
+    top: -2px;
+}
+
+.e-ribbon .justify:before {
+    font-family: 'ej-ribbonfont';
+    content: "\e164";
+    font-size: 16px;
+	left: 0;
+    position: relative;
+    top: -2px;
+}
+.e-ribbon .e-fontcolor:before {
+    content: "\e632";
+}
+.e-ribbon .e-fillcolor:before {
+    content: "\e618";
+}
+.e-ribbon .e-ribbonpaste:before {
+    font-family: 'ej-ribbonfont';
+    content: "\e169";
+    font-size: 36px;
+    position: relative;
+    left: -9px;
+    top: -4px;
+}
+
+.e-ribbon .e-ribboncut:before {
+    font-family: 'ej-ribbonfont';
+    content: "\e15f";
+    font-size: 16px;
+	position: relative;
+    right: 4px;
+}
+
+.e-ribbon .e-ribboncopy:before {
+    font-family: 'ej-ribbonfont';
+    content: "\e15e";
+    font-size: 16px;
+}
+
+.e-ribbon .e-ribbonitalic:before {
+    font-family: 'ej-ribbonfont';
+    content: "\e163";
+    font-size: 16px;
+    left: -1px;
+    position: relative;
+    top: -1px;
+}
+
+.e-ribbon .e-ribbonunderline:before {
+    font-family: 'ej-ribbonfont';
+    content: "\e176";
+    font-size: 16px;
+    position: relative;
+    top: -1px;
+}
+
+.e-ribbon .e-superscripticon:before {
+    font-family: 'ej-ribbonfont';
+    content: "\e171";
+    font-size: 16px;    
+	position: relative;
+    top: -4px;
+}
+
+.e-ribbon .e-subscripticon:before {
+    font-family: 'ej-ribbonfont';
+    content: "\e170";
+    font-size: 16px;
+}
+
+.e-ribbon .e-indent:before {
+    font-family: 'ej-ribbonfont';
+    content: "\e174";
+    font-size: 16px;   
+	left: -1px;
+    position: relative;
+    top: -2px;
+}
+
+.e-ribbon .e-outdent:before {
+    font-family: 'ej-ribbonfont';
+    content: "\e175";
+    font-size: 16px;   
+	left: -1px;
+    position: relative;
+    top: -2px;
+}
+
+.e-ribbon .e-bullet:before {
+    font-family: 'ej-ribbonfont';
+    content: "\e15b";
+    font-size: 16px;    
+	left: -1px;
+    position: relative;
+    top: -2px;
+}
+
+.e-ribbon .e-numbericon:before {
+    font-family: 'ej-ribbonfont';
+    content: "\e168";
+    font-size: 16px;   
+	left: -1px;
+    position: relative;
+    top: -3px;
+}
+
+.e-ribbon .e-table:before {
+    font-family: 'ej-ribbonfont';
+    content: "\e172";
+    font-size: 30px;
+	line-height:5px;
+	text-indent:-8px;
+}
+
+.e-ribbon .e-uppercase:before {
+    font-family: 'ej-ribbonfont';
+    content: "\e17e";
+    font-size: 16px;   
+	left: -2px;
+    position: relative;
+    top: -2px;
+}
+
+.e-ribbon .e-lowercase:before {
+    font-family: 'ej-ribbonfont';
+    content: "\e17c";
+    font-size: 16px;   
+	left: -1px;
+    position: relative;
+    top: -3px;
+}
+
+.e-ribbon .e-fontcoloricon:before {
+    content: "\e632";
+    font-size: 15px;
+    position: relative;
+    right: 0px; 
+	font-family: "ej-webfont";
+    top: 5px;
+}
+.e-ribbon .e-colorwidget .e-tool-icon .e-selected-color {
+    bottom: 0;    
+    left: 0;   
+}
+
+.e-ribbon .e-fillcoloricon:before {
+    content: "\e618";
+    font-size: 15px;
+    position: relative;
+    right: 0px; 
+	font-family: "ej-webfont";
+    top: 5px;
+}
+.e-ribbon .e-sort:before {
+    font-family: 'ej-ribbonfont';
+    content: "\e17a";
+    font-size: 16px;
+	left: -2px;
+    position: relative;
+    top: -2px;
+}
+.e-ribbon .e-border:before {
+    font-family: 'ej-ribbonfont';
+    content: "\e17b";
+    font-size: 16px;
+	left: -1px;
+    position: relative;
+    top: -2px;
+}
+
+.e-ribbon .e-picture:before {
+    font-family: 'ej-ribbonfont';
+    content: "\e16a";
+    font-size: 30px;
+	line-height:5px;
+	text-indent:-8px;
+}
+
+.e-ribbon .e-video:before {
+    font-family: 'ej-ribbonfont';
+    content: "\e179";
+    font-size: 30px;
+	line-height:5px;
+	text-indent:-8px;
+}
+
+.e-ribbon .e-chart:before {
+    font-family: 'ej-ribbonfont';
+    content: "\e15c";
+    font-size: 30px;
+	line-height:5px;
+	text-indent:-8px;
+}
+
+.e-ribbon .e-shape:before {
+    font-family: 'ej-ribbonfont';
+    content: "\e16e";
+    font-size: 30px;
+	line-height:5px;
+	text-indent:-8px;
+}
+
+.e-ribbon .e-comment:before {
+    font-family: 'ej-ribbonfont';
+    content: "\e15d";
+    font-size: 30px;
+	line-height:5px;
+	text-indent:-8px;
+}
+
+.e-ribbon .e-text:before {
+    font-family: 'ej-ribbonfont';
+    content: "\e173";
+    font-size: 30px;
+	line-height:5px;
+	text-indent:-8px;
+}
+
+.e-ribbon .e-hyperlink:before {
+    font-family: 'ej-ribbonfont';
+    content: "\e162";
+    font-size: 30px;
+	line-height:5px;
+	text-indent:-8px;
+}
+
+.e-ribbon .e-datetimenew:before {
+    font-family: 'ej-ribbonfont';
+    content: "\e160";
+    font-size: 30px;
+	line-height:5px;
+	text-indent:-8px;
+}
+
+.e-ribbon .e-print:before {
+    font-family: 'ej-ribbonfont';
+    content: "\e16b";
+    font-size: 30px;
+	line-height:5px;
+	text-indent:-8px;
+}
+
+.e-ribbon .e-equation:before {
+    font-family: 'ej-ribbonfont';
+    content: "\e158";
+    font-size: 30px;
+	line-height:5px;
+	text-indent:-8px;
+}
+
+.e-ribbon .e-save:before {
+    font-family: 'ej-ribbonfont';
+    content: "\e16d";
+    font-size: 30px;
+	line-height:5px;
+	text-indent:-8px;
+}
+
+.e-ribbon .e-printlayout:before {
+    font-family: 'ej-ribbonfont';
+    content: "\e16c";
+    font-size: 30px;
+	line-height:5px;
+	text-indent:-8px;
+}
+
+.e-ribbon .e-new:before {
+    font-family: 'ej-ribbonfont';
+    content: "\e167";
+    font-size: 30px;
+	line-height:9px;
+	text-indent:-8px;
+}
+
+.e-ribbon .e-zoomin:before {
+    content: "\e738";
+    font-size: 28px;
+	line-height:5px;
+	text-indent:-8px;
+}
+
+.e-ribbon .e-zoomout:before {
+    content: "\e739";
+    font-size: 28px;
+	line-height:5px;
+	text-indent:-8px;
+}
+
+.e-ribbon .e-fullscreen:before {
+    content: "\e73a";
+    font-size: 28px;
+	line-height:5px;
+	text-indent:-8px;
+}
+
+.e-ribbon .e-undo:before {
+    content: "\e736";
+    font-size: 28px;
+	line-height:5px;
+	text-indent:-8px;
+}
+
+.e-ribbon .e-redo:before {
+    content: "\e737";
+    font-size: 28px;
+	line-height:5px;
+	text-indent:-8px;
+}
+
+.e-ribbon .e-dot:before {
+    content: "\e696";
+}
+
+#design label {
+    font-weight: normal;
+    font-size: 12px;
+	margin-left:5px;
+}
+
+.e-activestyle {
+    border: 4px solid lightblue !important;
+}
+
+.e-contenteditor {
+    width: 100%;
+    height: 220px;
+    border: 1px solid #c8c3c3;
+    overflow: auto;
+}
+
+.e-contenteditor p {
+    margin: 20px;
+}
+
+.e-headings {
+    background-color: white;
+    border: 1px solid #a0a0a0;
+    height: 65px;
+}
+
+.darktheme .e-headings {
+    background-color: #1f1f1f;
+    border: 1px solid #494949;
+    height: 65px;
+}
+
+.e-headings div {
+    border: 4px solid transparent;
+    float: left;
+    padding: 4px 1px 1px 1px;
+    height: 50px;
+    margin: 1px;
+}
+
+.e-headings div:hover, #tables div:hover {
+    border-color: lightblue;
+}
+
+.e-strong {
+    font-weight: bold;
+}
+
+.e-emphasis {
+    font-style: italic;
+}
+
+.e-headings1 {
+    color: lightblue;
+}
+
+.e-ribbon .e-tables {
+    font-size: 7px;
+}
+
+#tables {
+    background-color: white;
+    border: 1px solid #a0a0a0;
+    height: 67px;
+}
+
+.darktheme #tables {
+    background-color: #1f1f1f;
+    border: 1px solid #494949;
+    height: 67px;
+}
+
+#tables > div {
+    float: left;
+    padding: 3px;
+    border: 4px solid transparent;
+}
+
+#tables td {
+    text-align: center;
+}
+
+#table1 table, #table1 td {
+   border:1px solid #566CE8;
+}
+
+#table2 table, #table2 td {
+   border:1px solid #EDB2F7;
+}
+
+#table3 table, #table3 td {
+   border:1px solid #E6652E;
+}
+
+#table4 table, #table4 td {
+   border:1px solid #7ABF41;
+}
+
+#table5 table, #table5 td {
+   border:1px solid #FCC474;
+}
+
+.lighttheme  .e-ribbon  .e-icon{
+	color:#515151 ;
+}
+
+.darktheme  .e-ribbon  .e-icon{
+	color:#BABABA ;
+}
+
+.darktheme .e-contenteditor{
+	border-color: #464646;
+}
+
+.darktheme .e-contextualtab{
+	background-color: #353332 !important;
+}

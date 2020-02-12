@@ -1,0 +1,310 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+
+    @Styles.Render("~/Content/css")
+
+    @Styles.Render("~/Content/sb-admin/metisMenu/dist/metisMenu.min.css")
+    @Styles.Render("~/Content/sb-admin/css/timeline.css")
+    @Styles.Render("~/Content/sb-admin/css/sb-admin-2.css")
+    @Styles.Render("~/Content/sb-admin/font-awesome/css/font-awesome.min.css")
+
+    <link href="https://cdn.syncfusion.com/16.2.0.50/js/web/flat-azure/ej.web.all.min.css" rel="stylesheet" />
+
+
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <script src="@Url.Content("~/Scripts/jsrender.min.js")"></script>
+
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+
+    <script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+
+    <script src="https://cdn.syncfusion.com/16.2.0.50/js/web/ej.web.all.js"></script>
+
+    <style>
+        body {
+            padding-top: 0px;
+            padding-bottom: 0px;
+        }
+
+
+
+        /*Following property allows user to select a text in a cell of a grid.
+        This is added globally to allow this property on all grid */
+        .e-grid .e-rowcell {
+            -moz-user-select: inherit;
+            -khtml-user-select: inherit;
+            -webkit-user-select: text;
+            -ms-user-select: inherit;
+            user-select: inherit;
+        }
+
+
+        .multiselect-container li {
+            width: 250px;
+        }
+
+            .multiselect-container li a {
+                padding: 3px 0px;
+                white-space: nowrap;
+                width: 55px;
+            }
+
+                .multiselect-container li a, .multiselect-container li a:hover, .multiselect-container li a:focus {
+                    color: #000000 !important;
+                    text-decoration: none;
+                    background-color: #fff !important;
+                    outline: 0;
+                }
+
+
+        .dropdown-menu .checkbox {
+            font-weight: normal;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="wrapper">
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @*@if (ViewBag.NoLeftNav == null)
+                    {*@
+                <a class="navbar-brand" href="~/Dashboard/">
+                    <img src="~/Content/images/ARSLogo.png" width="40" height="40" title="Records Retrieval System" style="margin-right:5px;" />Records Retrieval System
+                </a>
+                @*}*@
+                @*else //if (ViewBag.NoLeftNav != null)
+                    {
+                        <img src="~/Content/images/ARSLogo.png" width="40" height="40" title="Records Retrieval System" style="margin-right:5px;" /><span> Records Retrieval System</span>
+                    }*@
+
+            </div>
+
+
+            <!-- /.navbar-header -->
+            @*@if (ViewBag.NoLeftNav == null)
+                {*@
+            <ul class="nav navbar-top-links navbar-right">
+
+                <li id="MsgDropDown" class="dropdown">
+
+                </li>
+
+                <li class="dropdown">
+
+
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <i class="fa fa-user fa-fw"></i>  <i class="fa fa-caret-down"></i>
+                    </a>
+
+                    <ul class="dropdown-menu dropdown-user">
+                        <li>
+                            <a href="~/Account">
+                                <i class="fa fa-user fa-fw"></i>
+                                User Profile
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#aboutCAREModal" id="AboutInfo" data-toggle="modal">
+                                <i class="fa fa-info-circle fa-fw"></i>
+                                About
+                            </a>
+                        </li>
+
+
+                        <li class="divider"></li>
+
+                        <li>
+                            @using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "" }))
+                            {
+                                @Html.AntiForgeryToken()
+                                <a href="javascript:document.getElementById('logoutForm').submit()"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+                            }
+                        </li>
+
+
+
+                    </ul>
+
+
+                    <!-- /.dropdown-user -->
+                </li>
+                <!-- /.dropdown -->
+            </ul>
+            @*}*@
+
+            <div class="navbar-default sidebar" role="navigation">
+                <div class="sidebar-nav navbar-collapse">
+                    <ul class="nav" id="side-menu">
+
+                        <li>
+                            <a href="~/Dashboard"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                        </li>
+                        <li class="active">
+                            <a href="#"><i class="fa fa-wrench fa-fw"></i> Administration<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    @Html.ActionLink("Manage Users", "Index", "Users")
+                                </li>
+
+                                <li>
+                                    <a href="@Url.Action("UserAudit", "Users",new { UserId = 0 })">Audit Information</a>
+                                </li>
+
+                                <li>
+                                    @Html.ActionLink("Law Firms", "Index", "LawFirms")
+                                </li>
+
+                                <li>
+                                    @Html.ActionLink("Providers", "Index", "Providers")
+                                </li>
+
+                                <li>
+                                    @Html.ActionLink("Employees", "Index", "Employee")
+                                </li>
+
+
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+
+                    </ul>
+                </div>
+                <!-- /.sidebar-collapse -->
+
+            </div>
+
+            <div class="navbar-default sidebar" role="navigation">
+                <div class="sidebar-nav navbar-collapse">
+                    <ul class="nav" id="side-menu">
+
+                        <li>
+                            <a href="~/Dashboard"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <!-- /.sidebar-collapse -->
+
+            </div>
+
+            <!-- /.navbar-static-side -->
+
+        </nav>
+
+
+
+        <!-- About Advantage Workspace Modal HTML -->
+        <div id="helpErrorModal" class="modal fade" data-backdrop="static" data-keyboard="false">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title">Advantage Workspace Help</h4>
+                    </div>
+                    <div id="errorMessage" class="modal-body">
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <input type="hidden" value="@ViewBag.myVar" id="hdnFlag" />
+
+
+        <div id="page-wrapper">
+            @RenderBody()
+        </div>
+    </div>
+
+    <!-- Success Notification modal -->
+    <div id="GlobalNotificationModal" class="modal fade" data-backdrop="static" data-keyboard="false" style="z-index: 2147483647!important;">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <div id="GlobalNotificationMessage" class="modal-body">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="ReadMessageModal" title="Read Message" style="display:none;">
+
+    </div>
+
+
+    <!-- Global loading image -->
+
+
+    <div id="DivGlobalLoading" style="z-index:2147483647 !important;"
+         class="modal fade" data-backdrop="static" data-keyboard="false">
+        <div class="modal-dialog" style="padding-top: 50px;">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <div id="" class="modal-title">Please wait..</div>
+                </div>
+                <div id="" style="margin-left: 120px; ">
+                    <br />
+
+                    <br />
+                    <img src="~/Content/images/progressbar.gif" id="imgLoading" alt="Loading Image" />
+                    <br />
+                    <span id="DivGlobalLoading_Msg"></span>
+                </div>
+
+                <div class="modal-footer">
+                    &nbsp; @*<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>*@
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/Content/sb-admin/metisMenu/dist/metisMenu.min.js")
+    @Scripts.Render("~/Content/sb-admin/js/sb-admin-2.js")
+    @Scripts.Render("~/bundles/jqueryval")
+
+    @RenderSection("scripts", required: false)
+
+
+
+</body>
+
+        @*<body>
+
+            <div class="container body-content">
+                @RenderBody()
+
+            </div>
+
+            @Scripts.Render("~/bundles/bootstrap")
+
+
+            @RenderSection("scripts", required: false)
+    </script>
+
+</body>*@
+</html>

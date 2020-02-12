@@ -1,0 +1,100 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.search_hit {
+    background-color: yellow;
+}
+
+.search_comment {
+    background-color: rgb(48, 242, 148);
+    display: inline-block;
+}
+
+.source_expanded {
+    background-color: rgb(218, 247, 166);
+    display: inline-block;
+}
+
+.source_expanded_not_found {
+    background-color: #FF0000;
+    display: inline-block;
+}
+
+/* Following CSS classes are added for overwritting the Existing Syncfusion CSS */
+.e-grid td.e-active, .e-grid tr.e-hover {
+    background: #BAD2EA !important;
+    color: #fff !important;
+}
+
+
+#ModalAttachments_title {
+    /* width: 99%;*/
+}
+
+.e-dialog-icon.e-btn-normal.e-btn {
+    background: url('../Content/Images/close-button.png') !important;
+    background-position: 0px !important;
+    background-size: 32px !important;
+    width: 32px !important;
+    height: 32px !important;
+}
+
+.e-dialog .e-dialog-icon .e-icon:before {
+    color: transparent !important;
+}
+
+#mappingsClassificationsWrapper, #mappingsPolicyWrapper {
+    margin-bottom: 8px;
+}
+
+.e-dialog .e-close
+.e-dialog.e-uploadbox .e-widget-content .e-action-perform {
+    display: none !important;
+}
+
+.tempDDLClassArti {
+    height: 30px;
+    display: block;
+    padding-left: 13px;
+    padding-top: 5px;
+    border-bottom: 1px solid #c8c8c8;
+}
+
+.e-chkbox-wrap .e-text {
+    padding-left: 10px;
+}
+
+
+@media (min-width: 768px) {
+    .col-lg-2-5 {
+        width: 16.50%;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-lg-2-5 {
+        width: 19.50%;
+    }
+}

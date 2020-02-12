@@ -1,0 +1,338 @@
+﻿@using Sample145862
+
+@{
+    ViewBag.Title = "GridFeatures";
+    <script src="~/Scripts/jsondata.min.js"></script>
+}
+@using Syncfusion.JavaScript.Models;
+<div class="row">
+    <div class="col-lg-12">
+        <h1 class="page-header">Provider Maintenance</h1>
+    </div>
+    <!-- /.col-lg-12 -->
+</div>
+<div class="row" style="margin-top:15px">
+    <div class="col-lg-12">
+        <input type="submit" name="submitButton" id="btnAddNewProvider" value="Create New" class="btn btn-primary" onclick="javascript: AddNewProvider();" /><br /><br />
+        <div id="GridProvider"></div>
+    </div>
+</div>
+
+<div id="ErrorListProvider" title="Error Saving" style="display:none;">
+</div>
+
+@using (Html.BeginForm("InsertProviderData", "Providers", null, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+{
+    @Html.AntiForgeryToken()
+    <div id="ProviderModal" style="display:none;">
+        <div class="form-group">
+            <span class="col-md-2">Provider Name: </span>
+            <div class="col-md-10">
+                
+            </div>
+        </div>
+        <div class="clearfix" style="margin:5px 0;"></div>
+
+        <div class="form-group">
+            <span class="col-md-2">Address1: </span>
+            <div class="col-md-10">
+                
+            </div>
+        </div>
+        <div class="clearfix" style="margin:5px 0;"></div>
+
+        <div class="form-group">
+            <span class="col-md-2">Address2: </span>
+            <div class="col-md-10">
+               
+            </div>
+        </div>
+        <div class="clearfix" style="margin:5px 0;"></div>
+
+        <div class="form-group">
+            <span class="col-md-2">City: </span>
+            <div class="col-md-10">
+                
+            </div>
+        </div>
+        <div class="clearfix" style="margin:5px 0;"></div>
+
+        <div class="form-group">
+            <span class="col-md-2">State: </span>
+            <div class="col-md-10">
+                
+            </div>
+        </div>
+        <div class="clearfix" style="margin:5px 0;"></div>
+
+        <div class="form-group">
+            <span class="col-md-2">Zip: </span>
+            <div class="col-md-10">
+                
+            </div>
+        </div>
+        <div class="clearfix" style="margin:5px 0;"></div>
+
+        <div class="form-group">
+            <span class="col-md-2">Phone: </span>
+            <div class="col-md-10">
+                
+            </div>
+        </div>
+        <div class="clearfix" style="margin:5px 0;"></div>
+
+        <div class="form-group">
+            <span class="col-md-2">Fax: </span>
+            <div class="col-md-10">
+                
+            </div>
+        </div>
+        <div class="clearfix" style="margin:5px 0;"></div>
+
+        <div class="form-group">
+            <span class="col-md-2">Provider Type: </span>
+            <div class="col-md-10">
+               
+            </div>
+        </div>
+        <div class="clearfix" style="margin:5px 0;"></div>
+
+        <div class="form-group">
+            <span class="col-md-2">Active? </span>
+            <div class="col-md-10">
+                <input type="checkbox" id="chkEnabled" name="IsEnabled" value="isEnabled"><br />
+            </div>
+        </div>
+        <div class="clearfix" style="margin:5px 0;"></div>
+
+        <div class="form-group">
+            <div class="col-md-12" style="margin-top: 10px;">
+                <input type="submit" id="btnAddProvider" style="display:none;" value="Add Provider" class="btn btn-primary" onclick="javascript: AddProviderDataInDB();" />
+                <input type="submit" id="btnEditProvider" style="display:none;" value="Edit Provider" class="btn btn-primary" onclick="javascript: UpdateProviderDataInDB();" />
+                <input type="button" id="btnCancelProviderModal" style="display:none;" value="Cancel" class="btn btn-primary" onclick="javascript: CloseProviderModal();" />
+            </div>
+        </div>
+    </div>
+}
+
+<div id="providerMsgModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Update Provider</h4>
+            </div>
+            <div class="modal-body">
+                <p id="modalProviderMsg">Are you sure you want to change the provider status?</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">No</button>
+                <button id="ProviderModalBtn" type="button" class="btn btn-primary">Yes</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div id="ProviderServiceModal" style="display:none;">
+    <div class="form-group">
+        <span class="col-md-2">Service Type: </span>
+        <div class="col-md-10">
+            <input type="text" id="SPType" />
+        </div>
+    </div>
+    <div class="clearfix" style="margin:5px 0;"></div>
+
+    <div class="form-group">
+        <span class="col-md-2">Service Name: </span>
+        <div class="col-md-10">
+            <input type="text" id="SPName" class="form-control text-box single-line" />
+        </div>
+    </div>
+    <div class="clearfix" style="margin:5px 0;"></div>
+
+    <div class="form-group">
+        <span class="col-md-2">Phone: </span>
+        <div class="col-md-10">
+            <input type="text" id="SPContactPhone" class="form-control text-box single-line" />
+        </div>
+    </div>
+    <div class="clearfix" style="margin:5px 0;"></div>
+
+    <div class="form-group">
+        <span class="col-md-2">Fax: </span>
+        <div class="col-md-10">
+            <input type="text" id="SPFax" class="form-control text-box single-line" />
+        </div>
+    </div>
+    <div class="clearfix" style="margin:5px 0;"></div>
+
+    <div class="form-group">
+        <span class="col-md-2">Email: </span>
+        <div class="col-md-10">
+            <input type="text" id="SPEmail" class="form-control text-box single-line" />
+        </div>
+    </div>
+    <div class="clearfix" style="margin:5px 0;"></div>
+
+    <div class="form-group">
+        <span class="col-md-2">Active? </span>
+        <div class="col-md-10">
+            <input type="checkbox" id="chkEnabledSrvc" name="IsSrvcEnabled" value="isSrvcEnabled"><br />
+        </div>
+    </div>
+    <div class="clearfix" style="margin:5px 0;"></div>
+
+    <div class="form-group">
+        <div class="col-md-12" style="margin-top: 10px;">
+            <input type="submit" id="btnAddProviderSrvc" style="display:none;" value="Add Service" class="btn btn-primary" onclick="javascript: addProviderSrvcDataInDB();" />
+            <input type="submit" id="btnEditProviderSrvc" style="display:none;" value="Update Service" class="btn btn-primary" onclick="javascript: updateProviderSrvcDataInDB();" />
+            <input type="button" id="btnCancelProviderModalSrvc" style="display:none;" value="Cancel" class="btn btn-primary" onclick="javascript: closeProviderModalSrvc();" />
+        </div>
+    </div>
+</div>
+
+<!-- NOTEs Grid -->
+<div id="ModalNotes">
+    <div id="CARENotesGrid"></div>
+    <div class="clearfix" style="margin: 10px 0; padding: 5px 0; border-bottom: 1px solid #f2f2f2;"></div>
+    <input type="button" id="btnOpenCARENotesPopUp" style="display: none;"
+           class="btn btn-primary" value="Add New Note" />
+    <input type="submit" id="btnCloseNotesMainPopup" value="Close" style="display: none;" class="btn btn-primary" onclick="javascript: closeNotesMainPopup();" />
+</div>
+
+<div id="CARENotesMappings" style="display: none;">
+    <div class="form-group" id="innerWrapperNotes">
+        @Html.Label("Note text: ", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            <textarea id="txtNotetext" class="form-control" rows="5" cols="10" style="max-width: 100%"></textarea>
+            <input type="text" id="updateNoteID" style="display: none;" />
+        </div>
+
+        <div class="clearfix" style="margin: 10px 0; padding: 5px 0; border-bottom: 1px solid #f2f2f2;"></div>
+
+        <div class="col-md-10">
+            <input type="submit" id="btnAddNote" value="Save" class="btn btn-primary" onclick="javascript: AddCARENotes();" />
+            <input type="submit" id="btnUpdateNote" style="display: none;" value="Update" class="btn btn-primary" onclick="javascript: btnUpdateCARENotes();" />
+            <input type="submit" id="btnCARENotesMappingCancel" value="Cancel" class="btn btn-primary" onclick="javascript: closeNotesMappingPopup();" />
+        </div>
+    </div>
+</div>
+
+<div id="dvNotesDeleteConfirmPopup" class="modal fade" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog" style="padding-top: 50px; width: 45%">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Provider Notes</h4>
+            </div>
+            <table width="100%">
+                <tr>
+                    <td style="width: 50%; padding-left: 50px; padding-top: 5px;"></td>
+                </tr>
+                <tr>
+                    <td style="padding-left: 60px; padding-top: 10px;">Do you want to delete the note?</td>
+                </tr>
+                <tr>
+                    <td style="padding-left: 60px; padding-top: 10px;">
+                        <input type="button" class="btn btn-primary btn-sm" value="Yes" id="btnYesDeleteNotes" onclick="FunYesDeleteNotes(); " />
+                        <input type="button" class="btn btn-primary btn-sm" value="No" id="btnNoDeleteKnowledgeNotes" onclick="FunNoDeleteNotes(); " />
+                    </td>
+                </tr>
+
+            </table>
+            <div class="modal-footer" style="margin-top: 50px;">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="dvNotesUpdateConfirmPopup" class="modal fade" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog" style="padding-top: 50px; width: 45%">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Provider Notes</h4>
+            </div>
+            <table width="100%">
+                <tr>
+                    <td style="width: 50%; padding-left: 50px; padding-top: 5px;"></td>
+                </tr>
+                <tr>
+                    <td style="padding-left: 60px; padding-top: 10px;">Do you want to update the note?</td>
+                </tr>
+                <tr>
+                    <td style="padding-left: 60px; padding-top: 10px;">
+                        <input type="button" class="btn btn-primary btn-sm" value="Yes" id="btnYesUpdateNotes" onclick="FunYesUpdateNotes(); " />
+                        <input type="button" class="btn btn-primary btn-sm" value="No" id="btnNoUpdateNotes" onclick="FunNoUpdateNotes(); " />
+                    </td>
+                </tr>
+
+            </table>
+            <div class="modal-footer" style="margin-top: 50px;">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Services list-->
+<div id="ModalSrvcList" style="display:none;">
+    <div id="GridSrvcList"></div>
+    <div class="clearfix" style="margin: 10px 0; padding: 5px 0; border-bottom: 1px solid #f2f2f2;"></div>
+    <input type="submit" id="btnAddSrvcItem" value="Add New" class="btn btn-primary" onclick="javascript: addServiceItems();" />
+</div>
+
+<div id="providerSvcMsgModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Delete Service Item</h4>
+            </div>
+            <div class="modal-body">
+                <p id="modalProviderSvcMsg">Are you sure you want to delete the service item?</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">No</button>
+                <button id="ProviderSvcModalBtn" type="button" class="btn btn-primary">Yes</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<script type="text/javascript">
+ $(function () {
+            $("#GridProvider").ejGrid({
+                dataSource: ej.DataManager({
+                    url: '@Url.Content("~/Grid/UrlDataSource")',
+                    adaptor: new ej.UrlAdaptor()
+                }),
+                allowPaging: true,
+                allowSorting: true,
+                allowFiltering: true,
+                allowTextWrap: true,
+                contextMenuSettings: {
+                    enableContextMenu: true,
+                    contextMenuItems: [],
+                    customContextMenuItems: [{ id: "cntxPViewDetails", text: "View/Edit Details" }, { id: "cntxtAddSrvc", text: "Add Service Items" },
+                                             { id: "cntxtVwSrvcItems", text: "View Service Items" }, { id: "cntxtNotes", text: "View Notes" },
+                                             { id: "cntxPEnable", text: "Enable" }, { id: "cntxPDisable", text: "Disable" }],
+                },
+                pageSettings: { pageSize: 15 },
+                columns: [
+                        { field: "OrderID", isPrimaryKey: true, visible: false, headerText: "ID" },
+                        { field: "EmployeeID", headerText: " ", width: 15, allowSorting: false, allowFiltering: false },
+                        { field: "CustomerID", headerText: "Name", width: 75 },
+                        { field: "ShipCity", headerText: "Address1", width: 75 },
+                        { field: "ShipCountry", headerText: "Address2", width: 75 },
+                        { field: "ShipName", headerText: "City", width: 75 },
+                        //{ field: "OrderDate", headerText: "State", width: 75 },
+                        { field: "PZip", headerText: "Zip", width: 75 },
+                        { field: "Freight", headerText: "Type", width: 35 },
+                        { field: "Verified", headerText: "Active?", type: "boolean", editType: ej.Grid.EditingType.Boolean, width: 40 },
+                ],
+            });
+
+ });
+
+</script>

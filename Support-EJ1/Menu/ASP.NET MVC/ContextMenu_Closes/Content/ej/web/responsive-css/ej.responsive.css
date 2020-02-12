@@ -1,0 +1,338 @@
+﻿@media (min-width: 1920px) {
+   
+}
+
+@media (min-width: 1024px) and (max-width: 1920px) {
+    
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    
+}
+@media (min-width: 320px) and (max-width:480px) {
+	.e-dialog.e-dialog-wrap.e-dialog-resize{
+		width:100% !important;
+		height:100% !important;
+		min-width:320px !important;
+	}
+    .e-responsive-toolbar{
+        width:200px !important;
+    } 
+}
+@media (min-width: 480px) and (max-width:767px) {
+   
+    /*tab*/
+    .e-tab .e-header li > a > span:nth-child(2) {
+        display: none;
+    }
+
+    .e-tab .e-header li > a, .e-tab .e-header li > a > span:first-child {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 30px;
+    }
+    /*tree view*/
+    .e-treeview .e-text {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 40px;
+    }
+	
+    .e-responsive-toolbar{
+         width:250px !important;
+    } 
+}
+@media (max-width : 767px)
+{
+    .e-menu.e-horizontal li.e-list>a .e-icon 
+    {
+        position: absolute;
+        right: 8px;
+        
+    }
+    .e-menu.e-horizontal li.e-list > ul > li.e-list > a span.e-arrows:before, .e-menu.e-horizontal li.e-list > ul > li.e-list > span span.e-arrows:before,.e-menu.e-horizontal li.e-list > ul li.e-list:hover > a span.e-arrows:before, .e-menu.e-horizontal li.e-list > ul li.e-list:hover > span span.e-arrows:before, .e-menu.e-horizontal > li.e-list:hover > a span.e-arrows:before, .e-menu.e-horizontal > li.e-list:hover > span span.e-arrows:before {
+		content: "\e627";
+    }    
+    .e-menu.e-horizontal li.e-list ul {
+        border:0 none;
+    }
+	.e-menu.e-separator.e-horizontal > .e-list {
+        border: medium none;
+    }
+	.e-menu{
+	    border-top:none;
+	}
+    .e-menu-wrap .e-hide {
+        display: block;
+        position: absolute;
+    } 
+    .e-menu.e-horizontal,.e-menu.e-horizontal.e-res-hide {
+        display: none;
+    }  
+     .e-menu-res-wrap,.e-menu.e-horizontal.e-res-show,.e-menu-wrap .e-res-title{
+        display:block;
+    }
+   
+        .e-menu.e-horizontal li.e-list {
+        display: block;
+        }
+    .e-menu.e-horizontal li.e-list > ul, .e-menu.e-horizontal  li.e-list  {
+        position: static;
+        }
+    .e-menu.e-horizontal> li.e-list > ul:after {
+        content:none;
+       }
+    .e-menu.e-horizontal>li.e-list >ul li.e-list > a, .e-menu.e-horizontal>li.e-list>ul li.e-list > span {
+        line-height:28px;
+       }
+     .e-menu li.e-list>ul li.e-list > a, .e-menu li.e-list > ul li.e-list > span {
+        padding: 3px 18px 3px 30px;
+      }
+      .e-menu-res-wrap .e-icon.e-check-wrap:before{
+		content:"\e66c";
+		font-size:30px;
+		width:30px;
+		height:100%;
+	  }
+}
+@media (min-width: 768px) and (max-width: 1920px) {
+    .e-menu.e-horizontal > .e-list {
+        display: inline-block;
+    }
+
+    .e-menu-res-wrap, .e-menu-wrap .e-res-title, .e-menu-wrap .e-res-icon, .e-menu-wrap .hideIcon {
+        display: none;
+    }
+    .e-responsive-toolbar{
+        width:300px !important;
+    }
+}
+
+/*------------------------Schedule Start-----------------------------------*/
+@media all and (max-width: 360px) and (orientation:portrait), only screen and (max-width : 360px) and (orientation: portrait),all and (max-width: 360px) and (orientation:landscape), only screen and ( min-resolution: 192dpi), only screen and ( min-resolution: 2dppx) {
+    body {
+        margin: 0px;
+    }
+
+    .e-scheduledrawer.e-scheduleresponsive .e-list-hdr > li > a > span {
+        top:0px !important;
+        font-size: 12px !important;
+        left: 0px !important;
+        display: block;
+        text-align: center;
+        font-family:'Segoe UI';
+        padding-bottom:5px;
+    }
+
+    .navDrawerMenu.e-scheduleresponsive li > a {
+        padding:0px !important;
+    }
+
+    .navDrawerMenu.e-scheduleresponsive li {
+        padding:0px;        
+    }
+
+    .e-schedule.e-scheduleresponsive .e-mobileNavigation {
+        float:right;
+        padding:12px 10px 0px 0px;
+    }
+
+    .e-schedule.e-scheduleresponsive .e-mobileNavigation,
+    .e-scheduledrawer.e-scheduleresponsive .e-mAddEvent,
+    .e-scheduledrawer.e-scheduleresponsive .e-mDayView,
+    .e-scheduledrawer.e-scheduleresponsive .e-mWeekView,
+    .e-scheduledrawer.e-scheduleresponsive .e-mWorkWeek,
+    .e-scheduledrawer.e-scheduleresponsive .e-mMonthView {
+        cursor:pointer;
+    }
+
+    .e-scheduledrawer.e-scheduleresponsive .e-mAddEvent,
+    .e-scheduledrawer.e-scheduleresponsive .e-mDayView,
+    .e-scheduledrawer.e-scheduleresponsive .e-mWeekView,
+    .e-scheduledrawer.e-scheduleresponsive .e-mWorkWeek,
+    .e-scheduledrawer.e-scheduleresponsive .e-mMonthView {
+        height:100% !important;
+        width:100% !important;
+        margin-bottom:-3px;
+    }
+
+    .e-schedule.e-scheduleresponsive .e-mobileNavigation:before {
+        content:"\e75d";
+        font-size:20px;
+    }
+
+    .e-schedule.e-scheduleresponsive .e-navigateprevious {
+        margin:0px;
+    }
+
+    .e-scheduledrawer.e-scheduleresponsive .e-mAddEvent:before {
+        content:"\e759";
+        font-size:35px;
+        width:35px;
+        height:35px;
+        margin:10px auto;
+    }
+
+    .e-scheduledrawer.e-scheduleresponsive .e-mDayView:before {
+        content:"\e75b";
+        font-size:35px;
+        width:35px;
+        height:35px;
+        margin:10px auto;
+    }
+
+    .e-scheduledrawer.e-scheduleresponsive .e-mWeekView:before {
+        content:"\e760";
+        font-size:35px;
+        width:35px;
+        height:35px;
+        margin:10px auto;
+    }
+    .e-scheduledrawer.e-scheduleresponsive .e-mWorkWeek:before {
+        content:"\e762";
+        font-size:35px;
+        width:35px;
+        height:35px;
+        margin:10px auto;
+    }
+    .e-scheduledrawer.e-scheduleresponsive .e-mMonthView:before {
+        content:"\e75e";
+        font-size:35px;
+        width:35px;
+        height:35px;
+        margin:10px auto;
+    }
+
+    .e-scheduledialog.e-scheduleresponsive {
+        height: auto;
+        max-height: 100%;
+    }
+
+    .e-scheduledialog.e-scheduleresponsive .e-btnmargin {
+        margin:10px -3px 10px 9px !important;
+        width:96%;
+    }
+
+    .e-scheduledialog.e-scheduleresponsive .e-textmargin {
+        margin-left: 0px;
+    }
+
+    .e-schedule.e-scheduleresponsive .e-ampmstyle {
+        font-size: 8px;
+        width: auto;
+        line-height: 35px;
+    }
+
+    .e-schedule.e-scheduleresponsive .navigate {
+        -webkit-animation: example 0.75s ease 0s;
+        -moz-animation: example 0.75s ease 0s;
+        -ms-animation: example 0.75s ease 0s;
+    }
+
+    @-webkit-keyframes example {
+        from {
+            -webkit-transform: perspective(300) rotateY(25deg);
+            -webkit-transform-origin: 0% 0%;
+            -moz-transform: perspective(300) rotateY(25deg);
+            -moz-transform-origin: 0% 0%;
+            -ms-transform: perspective(300) rotateY(25deg);
+            -ms-transform-origin: 0% 0%;
+        }
+
+        to {
+            -webkit-transform: perspective(300) rotateY(0deg);
+            -webkit-transform-origin: 0% 0%;
+            -moz-transform: perspective(300) rotateY(0deg);
+            -moz-transform-origin: 0% 0%;
+            -ms-transform: perspective(300) rotateY(0deg);
+            -ms-transform-origin: 0% 0%;
+        }
+    }
+    .e-scheduleresponsive.e-scheduledialog .e-appwindow,
+    .e-scheduleresponsive.e-scheduledialog .e-recurwindow {
+        width: 100% !important;
+    }
+
+    .e-scheduleresponsive.e-scheduledialog .e-dialog-icon {
+        padding: 0px;
+    }
+
+    .e-schedule.e-scheduleresponsive .e-currenttime {
+        margin-left: 5%;
+    }
+
+    .e-schedule.e-scheduleresponsive .e-headercells {
+        vertical-align:middle !important;
+    }
+
+    .e-scheduledialog.e-scheduleresponsive .e-button {
+        padding:0 !important;
+    }
+
+    .e-schedule.e-scheduleresponsive .e-datecommondiv {
+        padding:12px 0px 0px 8px;
+        outline:none;
+        -webkit-tap-highlight-color:transparent;
+        -webkit-user-select:none;
+    }
+
+    .e-schedule.e-scheduleresponsive, .e-schedule.e-scheduleresponsive.e-scheduleouter {
+        border: none;
+    }
+
+    .e-schedule.e-scheduleresponsive .e-schedulesettings {
+        white-space: pre-wrap !important;
+    }
+
+    .e-schedule.e-scheduleresponsive .e-settingsindent,
+    .e-schedule.e-scheduleresponsive .e-workleftindent {
+        width: 30px !important;
+    }
+
+    .e-schedule.e-scheduleresponsive .e-timecells {
+        width: 15px !important;
+    }
+
+    .e-scheduledrawer.e-scheduleresponsive .e-nb.e-nb-layout.e-nb-right {
+        box-shadow: -1px 0 10px 0 #707070;
+    }
+
+    .e-schedule.e-scheduleresponsive .e-alldaycells,
+    .e-schedule.e-scheduleresponsive .e-headerresourcecells,
+    .e-schedule.e-scheduleresponsive .e-emptyalldaytd,
+    .e-schedule.e-scheduleresponsive .e-leftindent {
+        height: 40px !important;
+    }
+
+    .e-schedule.e-scheduleresponsive .e-vscroll,.e-schedule.e-scheduleresponsive .e-mobileNavigation {
+        position: absolute;
+    }
+
+    .e-schedule.e-scheduleresponsive .e-headerresourcecells {
+        height: 27px !important;
+    }
+
+    .e-schedule.e-scheduleresponsive .empty,.e-schedule.e-scheduleresponsive .e-leftindenttable {
+        width: 30px !important;
+    }
+
+    .e-schedule.e-scheduleresponsive .e-monthleftindent,
+    .e-schedule.e-scheduleresponsive .monthempty {
+        display: none !important;
+    }
+
+    .e-schedule.e-scheduleresponsive .e-ampmdisplay,
+    .e-schedule.e-scheduleresponsive .e-workcells {
+        height: 45px !important;
+    }
+
+    .e-scheduledialog.e-scheduleresponsive .e-windowmargin {
+        margin: 0px !important;
+    }
+
+    .e-scheduledialog.e-scheduleresponsive .e-widget-content {
+        padding: .5em;
+    }
+}
+/*-------------------------------------Schedule End-----------------------------*/
