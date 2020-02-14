@@ -1,0 +1,36 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<button id="zoomin" onclick="zoomin()">ZoomIn</button>
+
+<button id="zoomout" onclick="zoomout()">ZoomOut</button>
+@{
+    Html.EJ().RTE("rteSample").ContentTemplate(@<div>
+    <p><b>Description:</b></p>
+    <p>
+        The Rich Text Editor (RTE) control is an easy to render in
+        client side. Customer easy to edit the contents and get the HTML content for
+        the displayed content. A rich text editor control provides users with a toolbar
+        that helps them to apply rich text formats to the text entered in the text
+        area.
+    </p>
+</div>).Render();
+}
+
+<script type="text/javascript">
+    var zoomStep = 0.05;
+    var zoomVal = 1;
+    function zoomin() {
+        var RTE_Wrapper = document.getElementById("rteSample_wrapper");
+        var ZoomValue = RTE_Wrapper.style.zoom ? Number(RTE_Wrapper.style.zoom) + zoomStep : zoomVal + zoomStep;
+        $(RTE_Wrapper).css({ zoom: ZoomValue, transform: "scale(" + ZoomValue + ")", transformOrigin: "0 0", webkitTransform: "scale(" + ZoomValue + ")", webkitTransformOrigin: "0 0" });
+    }
+
+    function zoomout() {
+        var RTE_Wrapper = document.getElementById("rteSample_wrapper");
+        var ZoomValue = RTE_Wrapper.style.zoom ? Number(RTE_Wrapper.style.zoom) - zoomStep : zoomVal - zoomStep;
+        $(RTE_Wrapper).css({ zoom: ZoomValue, transform: "scale(" + ZoomValue + ")", transformOrigin: "0 0", webkitTransform: "scale(" + ZoomValue + ")", webkitTransformOrigin: "0 0" });
+
+    }
+</script>
