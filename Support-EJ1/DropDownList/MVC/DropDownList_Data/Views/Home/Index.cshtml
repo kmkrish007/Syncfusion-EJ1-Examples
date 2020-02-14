@@ -1,0 +1,65 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+    <script src="~/Scripts/jquery-3.3.1.min.js"></script>
+
+<div class="control">
+    <div class="ctrllabel">Select a Customer Name</div>
+    <input type="text" id="CityName" />
+</div>
+
+<script type="text/javascript">
+    //var regionId = $("#RegionId").data("ejDropDownList").getSelectedValue();
+    //var query = ej.Query().select("City", "Id").where("Regionid", "equal", regionId, false);
+
+
+
+    $(function () {
+            var dataSource = ej.DataManager({
+        //url: "/Geographic/GetCitiesDataManager",
+        //adaptor: new ej.UrlAdaptor()
+        url: "https://js.syncfusion.com/ejServices/Wcf/Northwind.svc/Customers",
+        crossDomain: true
+            });
+        var query = ej.Query().select("CompanyName", "CustomerID").where("CompanyName", "equal", "Wilman Kala", false);
+        $('#CityName').ejDropDownList({
+            dataSource: dataSource,
+            query: query,
+           // fields: {    text: 'City', value: 'Id'    },
+            fields: { text: "CompanyName", value: "CustomerID" }, 
+            watermarkText: "shared.select-city-wmark",
+            width: '100%',
+            itemsCount: 20,
+            enableFilterSearch: true,
+            enableServerFiltering: true,
+            allowVirtualScrolling: true,
+            enableSorting: true,
+            search: function (args) {
+                if (args.searchString.length < 3) { //check search string length
+                    args.cancel = true;
+                    return;
+                }
+
+                this.model.itemsCount = 0;
+
+               // var regionId = $("#RegionId").data("ejDropDownList").getSelectedValue();
+                //args.model.dataSource.dataSource.url = "/Geographic/GetCitiesDataManager?regionId=" + regionId;
+            },
+            select: function (args) {
+                var selectedValue = parseInt(args.value);
+                $('#CityId').val(selectedValue);
+                var region = $('#RegionId').data('ejDropDownList');
+                $('#location').val(args.text + ', ' + region.option("text"));
+            },
+            change: function (args) {
+                // if this is a clear, we need to reset location
+                if (args.value == '') {
+                    $('#CityId').val('');
+                    $('#location').val('');
+                }
+            },
+            value: $('#CityId').val()
+        });
+    });
+</script>

@@ -2,7 +2,7 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
-    <ej:DropDownList ID="DropDownList1" runat="server" DataTextField="Text"  WatermarkText="-Production Cycle-" Width="100%">
+    <ej:DropDownList ID="DropDownList1" runat="server" Value="SFCalander - 2" DataTextField="Text"  WatermarkText="-Production Cycle-" Width="100%">
                                               
      </ej:DropDownList>
 

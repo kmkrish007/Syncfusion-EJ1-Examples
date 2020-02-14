@@ -20,9 +20,9 @@
     "@angular/platform-browser-dynamic": "~7.2.0",
     "@angular/router": "~7.2.0",
     "core-js": "^2.5.4",
-    "ej-angular2": "^17.1.38",
+    "ej-angular2": "14.4.20",
     "rxjs": "~6.3.3",
-    "syncfusion-javascript": "^17.1.47",
+    "syncfusion-javascript": "14.1.41",
     "tslib": "^1.9.0",
     "zone.js": "~0.8.26"
   },
