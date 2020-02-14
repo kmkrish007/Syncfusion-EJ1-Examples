@@ -1,0 +1,37 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<script src="https://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js"></script>
+
+<input type="text" id="selectEmployee" />
+
+<script type="text/javascript">
+    $(function () {
+        // declaration
+        var employees = ej.DataManager({
+            /* ASP.NET Web API */
+            url: "/Employees/GetDataCar",
+            adaptor: new ej.WebApiAdaptor(),
+            crossDomain: true
+        });
+        $('#selectEmployee').ejAutocomplete({
+            width: "30%",
+            fields: { text: "text", uniqueKey: "uniqueKey" },
+            watermarkText: "Select an employee",
+            change: function (args) {
+                $.ajax({
+                url: "/Employees/GetDataCar",
+                data: { data: args.value },
+                type: 'POST',
+                dataType: "json",
+                success: function(result) {
+                    console.log("event triggered");
+                    aa = $('#selectEmployee').ejAutocomplete("instance");
+                    aa.setModel({ dataSource: result });
+                }
+            });
+            }
+        });
+
+    });
+</script>
