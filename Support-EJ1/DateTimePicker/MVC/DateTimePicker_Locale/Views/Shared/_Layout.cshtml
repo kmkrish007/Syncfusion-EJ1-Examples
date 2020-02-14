@@ -40,8 +40,23 @@
         };
 
     </script>
+    <style>
+        #Datetime_wrapper {
+            display: inline-flex;
+        }
+    </style>
 
     <div class="container body-content">
+        <label>EJ1 DateTimePicker</label>
+
+        @Html.EJ().DateTimePicker("Datetime").Locale("fr-FR").Width("200px").Value("05/15/2015 09:00 AM")
+
+        <br />
+        <br />
+
+        <label>EJ2 DateTimePicker</label>
+
+        @Html.EJS().DateTimePicker("datetimepicker").Width("200px").Render()
         @RenderBody()
         <hr />
         <footer>
