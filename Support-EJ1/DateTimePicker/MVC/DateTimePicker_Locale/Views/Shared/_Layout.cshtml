@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @* Syncfusion Essential JS 1 Styles *@
+    @Styles.Render("https://cdn.syncfusion.com/17.4.0.49/js/web/bootstrap-theme/ej.web.all.compatibility.min.css")
+
+    @* Syncfusion Essential JS 2 Styles *@
+    @Styles.Render("https://cdn.syncfusion.com/ej2/styles/compatibility/material.css")
+</head>
+<body>
+    <script src="~/Scripts/jquery-3.3.1.min.js"></script>
+    <script src="~/Scripts/jsrender.min.js"></script>
+    @* Syncfusion Essential JS 1 Scripts *@
+    <script src="https://cdn.syncfusion.com/js/assets/external/jquery3.3.1.min.js"></script>
+    <script src="https://cdn.syncfusion.com/js/assets/external/jsrender.min.js"></script>
+    <script src="https://cdn.syncfusion.com/16.3.0.21/js/web/ej.web.all.min.js"></script>
+    <script src="https://cdn.syncfusion.com/js/assets/i18n/ej.culture.es-ES.min.js"></script>
+    <script src="https://cdn.syncfusion.com/js/assets/i18n/ej.culture.fr-FR.min.js"></script>
+    @* Syncfusion Essential JS 2 Scripts *@
+    <script src="https://cdn.syncfusion.com/ej2/dist/ej2.min.js"></script>
+
+    <script>
+        var dataCopy = Object.assign({}, ej.data);
+        $.extend(ej, Syncfusion);
+        $.extend(ej.data, dataCopy);
+
+        ej.DateTimePicker.Locale["fr-FR"] = {
+            watermarkText: "",
+            buttonText: {
+                today: "Aujourd'hui",
+                timeNow: "Heure actuelle",
+                done: "Terminé",
+                timeTitle: "Temps"
+            }
+        };
+
+    </script>
+
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+
+    @Html.EJ().ScriptManager()
+    @Html.EJS().ScriptManager()
+</body>
+</html>
