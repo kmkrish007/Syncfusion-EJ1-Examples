@@ -1,0 +1,20 @@
+  <div class="file-container">
+    <ejs-filemanager id='default-filemanager' height='100%' [ajaxSettings]='ajaxSettings' (fileOpen)="fileOpen($event)">
+    </ejs-filemanager>
+  </div>
+
+  <div class="doc-container">
+    <div class="title-container"><span class="doc-title title"></span> <button class="close-button" (click)='onClicked()'>close</button></div>
+    <ejs-documenteditorcontainer id="document" #documenteditor_default [enableToolbar]='true' style="height:calc(100% - 30px)"></ejs-documenteditorcontainer>
+  </div>
+
+  <div class="excel-container">
+    <div class="title-container"><span class="excel-title title"></span> <button class="close-button" (click)='onClicked()'>close</button></div>
+    <ejs-spreadsheet #spreadsheet [openUrl]="openUrl" [allowOpen]="true" [saveUrl]="saveUrl" style="height:calc(100% - 30px);">
+    </ejs-spreadsheet>
+  </div>
+
+  <div class="pdf-container">
+    <div class="title-container"><span class="pdf-title title"></span> <button class="close-button" (click)='onClicked()'>close</button></div>
+    <ejs-pdfviewer id="pdfViewer" #pdfView [serviceUrl]='service' style="height:calc(100% - 30px);display:block"></ejs-pdfviewer>
+  </div>
