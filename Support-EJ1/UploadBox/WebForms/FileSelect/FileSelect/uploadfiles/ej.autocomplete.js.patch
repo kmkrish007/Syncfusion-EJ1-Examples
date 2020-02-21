@@ -1,0 +1,45 @@
+Index: ej.autocomplete.js
+===================================================================
+--- ej.autocomplete.js	(revision 606944)
++++ ej.autocomplete.js	(working copy)
+@@ -19,7 +19,7 @@
+         _ignoreOnPersist: ["fields", "dataSource", "query", "focusIn", "focusOut", "change", "select",
+                             "create", "destroy", "open", "close", "actionComplete", "actionSuccess", "actionFailure"],
+         _setFirst: false,
+-
++        _timeStamp : 0,
+         _rootCSS: "e-autocomplete",
+         type: "editor",
+         angular: {
+@@ -507,7 +507,7 @@
+                 this._addNewTemplate = null;
+             }
+             else if (this.model.multiSelectMode == "delimiter") {
+-                var delimiterIndex = (this.target.value).lastIndexOf(this.model.delimiterChar); var currentVal= this.element.val();
++                var delimiterIndex = (this.target.value).lastIndexOf(this.model.delimiterChar);
+                 if (this._typed || this.element.val() == "" || flag || !this.model.showPopupButton) {
+                     if (flag)
+                         this.element.val(this.element.val() == "" ? (currentValue + this.model.delimiterChar) : (this.element.val() + currentValue + this.model.delimiterChar));
+@@ -516,7 +516,7 @@
+                  }
+                 else {
+                     if(!this.model.enableAutoFill || this.showSuggestionBox) {
+-					if (this._checkDeli() && currentVal.indexOf(currentValue) == -1)
++					if (this._checkDeli())
+                         this.element.val(this._queryString.substr(0, delimiterIndex) + this.model.delimiterChar + currentValue + this.model.delimiterChar);
+                     else
+                         this.element.val(this.element.val() + this.model.delimiterChar);
+@@ -1752,10 +1752,12 @@
+         },
+ 
+         _enterTextBoxValue: function (e) {
++			if(this._timeStamp && -(this._timeStamp-e.timeStamp)<300) return;
+             if (this._activeItem && !this.noresult && !this.model.readOnly) {
+                 var currentValue = this.getActiveText(), currItem = this._currList[this._activeItem - 1];
+                 this._preVal = currentValue + ((this.model.multiSelectMode == "delimiter") ? this.model.delimiterChar : "");
+-                if(e.originalEvent.detail != 2)this._valueToTextBox(currentValue, currItem, false);
++				this._timeStamp = e.timeStamp;
++                this._valueToTextBox(currentValue, currItem, false);
+                 var currValue = this.model.multiSelectMode == "visualmode" ? this._modelValue : this.element.val() == "" ? null : this.element.val();
+                 this._trigger("select", { event: e, isInteraction: true, value: currValue, text: currentValue, key: this._getUniqueKey(), item: currItem });
+                 this._valueChange(e);

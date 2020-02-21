@@ -38,7 +38,8 @@
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
-    <script src="~/Scripts/ej/web/ej.web.all.min.js"></script>
+    @*<script src="~/Scripts/ej/web/ej.web.all.min.js"></script>*@
+<script src="~/Scripts/ej.web.custom.js"></script>
     @RenderSection("scripts", required: false)
     @Html.EJ().ScriptManager()
 </body>
