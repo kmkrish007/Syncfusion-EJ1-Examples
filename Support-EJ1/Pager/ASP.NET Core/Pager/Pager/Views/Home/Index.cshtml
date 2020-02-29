@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<ej-pager id="pager" page-count="5" page-size="1" is-responsive="true" total-records-count="20" change="pagerChange"></ej-pager>
+
+
+<script type="text/javascript">
+
+        function pagerChange(args) {
+            pagerObj = $("#pager").ejPager("instance");
+            alert("Page number changed to: " + args.currentPage);
+            console.log("IsInteracted: " + args.isInteraction);
+        }
+
+</script>
