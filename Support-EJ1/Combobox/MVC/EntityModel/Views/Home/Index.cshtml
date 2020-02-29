@@ -1,0 +1,25 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+
+    <form action="..." method="post">
+
+        <table>
+            <tr><td>Title:</td><td>&nbsp;<input id="title" type="text" /></td></tr>
+            <tr>
+                <td>Category:</td>
+                <td>
+                    &nbsp;
+                    @Html.EJ().ComboBox("selectCustomer").Datasource((IEnumerable<Object>)ViewBag.DataSource).ComboBoxFields(df => df.Text("Name")
+                    .Value("ID")).Width("150px")
+                </td>
+            </tr>
+            <tr><td>Year:</td><td>&nbsp;<input id="year" type="text" /></td></tr>
+
+            <tr><td></td><td>&nbsp;<input type="submit" value="Submit Data" /></td></tr>
+        </table>
+    </form>
+
+
+
