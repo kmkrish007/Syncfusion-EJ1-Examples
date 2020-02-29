@@ -11,7 +11,9 @@ namespace DatePicker_Time
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            var val1 = datepicker2.Value;
+            Page.DataBind();
+            var val = datepicker1.Value;
         }
     }
 }

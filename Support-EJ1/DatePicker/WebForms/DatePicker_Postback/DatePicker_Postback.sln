@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.705
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatePicker_Postback", "DatePicker_Postback\DatePicker_Postback.csproj", "{DEB6CA01-C01D-4B1E-AD20-0D71357F8FD8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DEB6CA01-C01D-4B1E-AD20-0D71357F8FD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEB6CA01-C01D-4B1E-AD20-0D71357F8FD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEB6CA01-C01D-4B1E-AD20-0D71357F8FD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEB6CA01-C01D-4B1E-AD20-0D71357F8FD8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {232B50D0-86E5-4ADA-AF8C-B4E0A580D8D3}
+	EndGlobalSection
+EndGlobal

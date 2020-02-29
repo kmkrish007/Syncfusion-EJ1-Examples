@@ -7,13 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace DatePicker_Time
-{
-
-
-    public partial class _Default
-    {
-
+namespace DatePicker_Time {
+    
+    
+    public partial class _Default {
+        
         /// <summary>
         /// datepicker1 control.
         /// </summary>
@@ -22,14 +20,14 @@ namespace DatePicker_Time
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::Syncfusion.JavaScript.Web.DatePicker datepicker1;
-
+        
         /// <summary>
-        /// Calendar1 control.
+        /// datepicker2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Calendar Calendar1;
+        protected global::Syncfusion.JavaScript.Web.DatePicker datepicker2;
     }
 }

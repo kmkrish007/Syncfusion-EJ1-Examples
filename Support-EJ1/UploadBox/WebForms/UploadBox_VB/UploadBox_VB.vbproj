@@ -559,6 +559,8 @@
     <Content Include="Content\ej\mobile\images\ejmmobilefonts.ttf" />
     <Content Include="Content\ej\mobile\images\ejmmobilefonts.eot" />
     <Content Include="SaveFile.ashx" />
+    <None Include="My Project\PublishProfiles\CustomProfile.pubxml" />
+    <None Include="My Project\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -591,6 +593,7 @@
     <Content Include="Scripts\ej\datavisualization\ej.treemap.min.js" />
     <Content Include="Scripts\ej\i18n\ej.culture.ar-AE.min.js" />
     <Content Include="Scripts\ej\i18n\ej.culture.de-DE.min.js" />
+    <Content Include="Scripts\ej\i18n\ej.culture.en-CA.js" />
     <Content Include="Scripts\ej\i18n\ej.culture.en-GB.min.js" />
     <Content Include="Scripts\ej\i18n\ej.culture.en-US.min.js" />
     <Content Include="Scripts\ej\i18n\ej.culture.es-ES.min.js" />

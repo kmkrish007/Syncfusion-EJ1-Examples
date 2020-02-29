@@ -26,10 +26,4 @@
             rte._onPrint();
         }
     </script>
-    <style type="text/css" media="print">
-  @page {
-    size: auto;  
-    margin: 0;  
-  }
-</style>
 </asp:Content>

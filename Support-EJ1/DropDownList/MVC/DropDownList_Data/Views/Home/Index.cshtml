@@ -2,13 +2,19 @@
     ViewBag.Title = "Home Page";
 }
 
-    <script src="~/Scripts/jquery-3.3.1.min.js"></script>
+<script src="~/Scripts/jquery-3.3.1.min.js"></script>
 
 <div class="control">
     <input type="text" id="CityId" />
     <div class="ctrllabel">Select a Company Name</div>
     <input type="text" id="CityName" />
 </div>
+<button onclick="select()">
+    select loaded value
+</button>
+<button onclick="selectunload()">
+    select virtual value
+</button>
 
 <script type="text/javascript">
 
@@ -18,19 +24,27 @@
             url: "https://js.syncfusion.com/ejServices/Wcf/Northwind.svc/Customers",
             crossDomain: true
         });
-        var query = ej.Query().select("CompanyName", "CustomerID").where("CompanyName", "equal", "Wilman Kala", false);
+        var List = [];
+        for (var i = 1; i < 10000000; i++) {
+            List.push({ value: "A"+ i, text: "John "+i });
+        }
+
+        var data = ej.DataManager(List);
+       // var query = ej.Query().select("CompanyName", "CustomerID").where("CompanyName", "equal", "Wilman Kala", false);
         $('#CityId').ejDropDownList({
             dataSource: dataSource,
             fields: { text: "CompanyName", value: "CustomerID" },
             value: "ISLAT",
             width: '100%',
-            select: onSelect
+           // select: onSelect
         });
 
         $('#CityName').ejDropDownList({
             dataSource: dataSource,
-            query: query,
-            fields: { text: "CompanyName", value: "CustomerID" }, 
+             //dataSource: data,
+           // query: query,
+            fields: { text: "CompanyName", value: "CustomerID" },
+           // fields: { text: "text", value: "value" },
             watermarkText: "shared.select-city-wmark",
             width: '100%',
             itemsCount: 20,
@@ -47,8 +61,22 @@
             }
         });
     });
-    function onSelect() {
-            var cityDropDown = $('#CityName').ejDropDownList("instance");
-            cityDropDown.setModel({ value: $('#CityId').val() });
-        }
+    //function onSelect() {
+    //    var cityDropDown = $('#CityName').ejDropDownList("instance");
+    //    cityDropDown.setModel({ value: $('#CityId').val() });
+    //}
+
+     function select(){
+        var dl = $('#CityName').ejDropDownList("instance");
+       //  dl.selectItemByValue("ALFKI");
+         dl.selectItemByValue("A13");
+       // dl.selectItemByValue("WILMK");
+        
+      }
+      
+      function selectunload(){
+        var dl = $('#CityName').ejDropDownList("instance");
+        //dl.selectItemByValue("WILMK");
+        dl.setModel({value:"A9999989",  itemsCount: 20})
+      }
 </script>
