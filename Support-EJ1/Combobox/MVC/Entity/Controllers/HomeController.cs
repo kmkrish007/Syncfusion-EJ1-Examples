@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-
+using Entity.Models;
 namespace Entity.Controllers
 {
     public class HomeController : Controller
@@ -12,6 +13,13 @@ namespace Entity.Controllers
         {
             return View();
         }
+
+        //[HttpPost]
+        //public JsonResult InsertMovie(MovieModel movie)
+        //{
+        //    string SQLConn = ConfigurationManager.ConnectionStrings["SQLConn"].ConnectionString;
+        //    return null;
+        //}
 
         public ActionResult About()
         {

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using Entity.Models;
 
 namespace Entity
 {
@@ -11,6 +12,7 @@ namespace Entity
     {
         ModelMovieContainer db = new ModelMovieContainer();
         // GET api/<controller>
+        [ActionName("GetData")]
         public IEnumerable<Movie> Get()
         {
             var dataset = db.Customers.Select(x => new Movie
@@ -18,29 +20,7 @@ namespace Entity
                 ID = x.CustomerID,
                 Name = x.ContactName
             }).ToList();
-
             return dataset;
-        }
-
-        // GET api/<controller>/5
-        public string Get(int id)
-        {
-            return "value";
-        }
-
-        // POST api/<controller>
-        public void Post([FromBody]string value)
-        {
-        }
-
-        // PUT api/<controller>/5
-        public void Put(int id, [FromBody]string value)
-        {
-        }
-
-        // DELETE api/<controller>/5
-        public void Delete(int id)
-        {
         }
     }
 

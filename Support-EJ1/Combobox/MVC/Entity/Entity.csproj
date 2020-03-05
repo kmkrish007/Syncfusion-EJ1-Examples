@@ -192,6 +192,7 @@
       <DependentUpon>ModelMovie.tt</DependentUpon>
     </Compile>
     <Compile Include="EntityDataController.cs" />
+    <Compile Include="EntityMovieController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -210,6 +211,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>ModelMovie.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Models\MovieModel.cs" />
     <Compile Include="Order.cs">
       <DependentUpon>ModelMovie.tt</DependentUpon>
     </Compile>
@@ -237,6 +239,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AddNewMovieType.html" />
     <Content Include="App_Data\NORTHWND.MDF" />
     <Content Include="App_Data\NORTHWND_log.ldf">
       <DependentUpon>NORTHWND.MDF</DependentUpon>
@@ -880,9 +883,7 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Models\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

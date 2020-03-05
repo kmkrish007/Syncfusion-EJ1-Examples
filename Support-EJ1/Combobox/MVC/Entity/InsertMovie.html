@@ -16,8 +16,8 @@
     <script src="https://cdn.syncfusion.com/17.4.0.46/scripts/web/properties.js" type="text/javascript"></script>
 </head>
 <body>
-    
-    <form action="..." method="post">
+
+    <!--<form action="..." method="post">
 
         <table>
             <tr><td>Title:</td><td>&nbsp;<input id="title" type="text" /></td></tr>
@@ -25,34 +25,64 @@
                 <td>Category:</td>
                 <td>
                     &nbsp;
-                    <input type="text" tabindex="1" id="list" />
+                    <input type="text" tabindex="1" id="movieType" />
 
                 </td>
             </tr>
             <tr><td>Year:</td><td>&nbsp;<input id="year" type="text" /></td></tr>
 
-            <tr><td></td><td>&nbsp;<input type="submit" value="Submit Data" /></td></tr>
+            <tr><td></td><td>&nbsp;<input id="submitData" type="submit" value="Submit Data" /></td></tr>
         </table>
-        
-    </form>
+
+    </form>-->
+
+    <a href="InsertMovie.html">Add New Movie</a>&nbsp;|&nbsp;<a href="AddNewMovieType.html">Add New Movie Type</a>
+    <table>
+        <tr><td>Title:</td><td>&nbsp;<input id="title" type="text" /></td></tr>
+        <tr><td>Genre:</td><td>&nbsp;<input id="movieType" type="text" tabindex="1" /></td></tr>
+        <tr><td>Year:</td><td>&nbsp;<input id="year" type="text" /></td></tr>
+        <tr><td></td><td>&nbsp;<input id="submitData" type="submit" value="Submit Data" /></td></tr>
+
+
+    </table>
 
     <script type="text/javascript">
         $(function () {
             var data = ej.DataManager({
                 /* ASP.NET Web API */
-                url: "/api/EntityData",
+                url: "/api/EntityData/GetData",
                 adaptor: new ej.WebApiAdaptor(),
                 offline: true,
                 crossDomain: true
             });
-            $("#list").ejComboBox({
+            $("#movieType").ejComboBox({
                 dataSource: data,
-		        fields: { text: 'Name', value: 'ID' },
-		        width: '250px',
-		        placeholder: 'Select a movie',
+                fields: { text: 'Name', value: 'ID' },
+                width: '250px',
+                placeholder: 'Select a movie',
                 index: -1
-	        });
+            });
         });
+
+        $("#submitData").click(function () {
+            movie = new Object();
+            movie.MovieFullNme = $("#title").val();
+            var CBInstance = $("#movieType").ejComboBox("instance");
+            movie.MovieTypeId = CBInstance.model.value;
+           // movie.MovieTypeId = $("#movieType").val();
+            movie.YearMade = $("#year").val();
+
+            $.ajax({
+                //url: "Home/InsertMovie",
+                url: "/api/EntityMovie/InsertMovie",
+                data: movie,
+                dataType: 'json',
+                type: "POST",
+                success: function () {
+                    alert('Success!');
+                }
+            })
+        })
     </script>
 </body>
 
