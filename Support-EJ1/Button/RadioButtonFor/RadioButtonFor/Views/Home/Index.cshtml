@@ -1,0 +1,23 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+@model RadioButtonFor.Controllers.RadioModel
+
+
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true)
+
+    <span>Select the option: </span>
+
+    @Html.EJ().RadioButtonFor(m => m.IsActive, "true")
+    <label for="Radio1" class="clslab">True</label>
+
+    @Html.EJ().RadioButtonFor(m => m.IsActive, "false")
+    <label for="Radio2" class="clslab">False</label>
+
+    @Html.ValidationMessageFor(model => model.IsActive)
+
+    <button type="submit">Post</button>
+}
