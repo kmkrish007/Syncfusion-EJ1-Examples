@@ -5,16 +5,42 @@ VisualStudioVersion = 15.0.28307.705
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadioButtonFor", "RadioButtonFor\RadioButtonFor.csproj", "{B64B5ABB-F0F4-4361-8455-9970223E982E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Syncfusion.EJ.Mvc_MVC5", "..\..\..\..\EJ1\Source\trunk\EJ.MVC\EJ.MVC\Src\Syncfusion.EJ.Mvc_MVC5.csproj", "{D2552E7A-B3B0-4174-9EA8-5700259E3DCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Syncfusion.EJ_2012", "..\..\..\..\EJ1\Source\trunk\Base\EJ\Src\Syncfusion.EJ_2012.csproj", "{571DE5C8-84E8-420D-AFD4-040922712D5B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug-xml|Any CPU = Debug-xml|Any CPU
 		Release|Any CPU = Release|Any CPU
+		Release-xml|Any CPU = Release-xml|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{B64B5ABB-F0F4-4361-8455-9970223E982E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B64B5ABB-F0F4-4361-8455-9970223E982E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B64B5ABB-F0F4-4361-8455-9970223E982E}.Debug-xml|Any CPU.ActiveCfg = Debug|Any CPU
+		{B64B5ABB-F0F4-4361-8455-9970223E982E}.Debug-xml|Any CPU.Build.0 = Debug|Any CPU
 		{B64B5ABB-F0F4-4361-8455-9970223E982E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B64B5ABB-F0F4-4361-8455-9970223E982E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B64B5ABB-F0F4-4361-8455-9970223E982E}.Release-xml|Any CPU.ActiveCfg = Release|Any CPU
+		{B64B5ABB-F0F4-4361-8455-9970223E982E}.Release-xml|Any CPU.Build.0 = Release|Any CPU
+		{D2552E7A-B3B0-4174-9EA8-5700259E3DCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2552E7A-B3B0-4174-9EA8-5700259E3DCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2552E7A-B3B0-4174-9EA8-5700259E3DCC}.Debug-xml|Any CPU.ActiveCfg = Debug-xml|Any CPU
+		{D2552E7A-B3B0-4174-9EA8-5700259E3DCC}.Debug-xml|Any CPU.Build.0 = Debug-xml|Any CPU
+		{D2552E7A-B3B0-4174-9EA8-5700259E3DCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2552E7A-B3B0-4174-9EA8-5700259E3DCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2552E7A-B3B0-4174-9EA8-5700259E3DCC}.Release-xml|Any CPU.ActiveCfg = Release-xml|Any CPU
+		{D2552E7A-B3B0-4174-9EA8-5700259E3DCC}.Release-xml|Any CPU.Build.0 = Release-xml|Any CPU
+		{571DE5C8-84E8-420D-AFD4-040922712D5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{571DE5C8-84E8-420D-AFD4-040922712D5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{571DE5C8-84E8-420D-AFD4-040922712D5B}.Debug-xml|Any CPU.ActiveCfg = Debug-xml|Any CPU
+		{571DE5C8-84E8-420D-AFD4-040922712D5B}.Debug-xml|Any CPU.Build.0 = Debug-xml|Any CPU
+		{571DE5C8-84E8-420D-AFD4-040922712D5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{571DE5C8-84E8-420D-AFD4-040922712D5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{571DE5C8-84E8-420D-AFD4-040922712D5B}.Release-xml|Any CPU.ActiveCfg = Release-xml|Any CPU
+		{571DE5C8-84E8-420D-AFD4-040922712D5B}.Release-xml|Any CPU.Build.0 = Release-xml|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

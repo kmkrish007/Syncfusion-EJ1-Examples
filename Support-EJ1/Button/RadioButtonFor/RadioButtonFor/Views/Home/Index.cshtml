@@ -9,6 +9,21 @@
 {
     @Html.ValidationSummary(true)
 
+
+    <div class="col-md-10">
+        Male
+        @Html.RadioButtonFor(model => model.Gender, "Male")
+        Female
+        @Html.RadioButtonFor(model => model.Gender, "Female")
+    </div>
+
+    <div class="col-md-10">
+        True
+        @Html.RadioButtonFor(model => model.answer, true)
+        False
+        @Html.RadioButtonFor(model => model.answer, false)
+    </div>
+
     <span>Select the option: </span>
 
     @Html.EJ().RadioButtonFor(m => m.IsActive, "true")
@@ -17,7 +32,19 @@
     @Html.EJ().RadioButtonFor(m => m.IsActive, "false")
     <label for="Radio2" class="clslab">False</label>
 
-    @Html.ValidationMessageFor(model => model.IsActive)
+
+    <div class="col-md-10">
+        True
+        @Html.EJ().RadioButtonFor(m => m.option, true)
+        False
+        @Html.EJ().RadioButtonFor(m => m.option, false)
+    </div>
+
+    @Html.EJ().RadioButtonFor(m => m.Gen, "Male")
+    <label for="Radio1" class="clslab">Male</label>
+
+    @Html.EJ().RadioButtonFor(m => m.Gen, "Female")
+    <label for="Radio2" class="clslab">Female</label>
 
     <button type="submit">Post</button>
 }

@@ -4,15 +4,22 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using Syncfusion.JavaScript.Models;
+using Syncfusion.JavaScript;
 
 namespace RadioButtonFor.Controllers
 {
+    
+
     public class HomeController : Controller
     {
         RadioModel model = new RadioModel();
         public ActionResult Index()
         {
             model.IsActive = "true";
+            model.Gender = "Female";
+            model.answer = true;
+            model.option = false;
+            model.Gen = "Male";
             return View(model);
         }
 
@@ -42,5 +49,13 @@ namespace RadioButtonFor.Controllers
     public class RadioModel
     {
         public string IsActive { get; set; }
+
+        public string Gender { get; set; }
+
+        public bool answer { get; set; }
+
+        public bool option { get; set; }
+
+        public string Gen { get; set; }
     }
 }
