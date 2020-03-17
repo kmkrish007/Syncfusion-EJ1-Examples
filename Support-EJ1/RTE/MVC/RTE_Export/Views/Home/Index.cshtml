@@ -1,0 +1,26 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div id="ControlRegion">
+    <div>
+        @{List<String> toolsList = new List<string>() { "font", "style", "importExport", "tables" };
+            List<String> font = new List<string>() { "fontName", "fontSize", "fontColor", "backgroundColor" };
+            List<String> style = new List<string>() { "bold", "italic", "underline", "strikethrough" };
+            List<String> ImportExport = new List<string>() { "import", "wordExport", "pdfExport" };
+            List<String> tables = new List<string>() { "createTable", "addRowAbove", "addRowBelow", "addColumnLeft", "addColumnRight", "deleteRow", "deleteColumn", "deleteTable" };
+
+        }
+        @{
+            Html.EJ().RTE("rteSample").Width("100%").EnableXHTML(true).ContentTemplate(@<div><div><p><span style="font-family: Trebuchet MS, Helvetica, sans-serif;"> MNQW </span><br></p></div></div>).MinWidth("200px").ToolsList(toolsList).Tools(tool => tool.ImportExport(ImportExport).Font(font).Styles(style))
+  .ImportSettings(importSettings => importSettings.Url("Import"))
+  .ExportToWordSettings(exportToWordSettings => exportToWordSettings.Url("ExportToWord").FileName("WordExport"))
+  .ExportToPdfSettings(exportToPdfSettings => exportToPdfSettings.Url("ExportToPDF").FileName("PdfExport")).ClientSideEvents(e => e.Create("onCreate")).Render();}
+    </div>
+
+</div>
+<script>
+    function onCreate(args) {
+        $(this.getDocument().head).find('style')[0].innerHTML = $(this.getDocument().head).find('style')[0].innerHTML + "p{margin-block-start: auto;margin-block-end: auto;}body { color: #000;}"
+    }
+</script>
