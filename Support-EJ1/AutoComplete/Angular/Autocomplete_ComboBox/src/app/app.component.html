@@ -1,0 +1,9 @@
+<div class="ctrllabel">Select a Item in Autocomplete</div>
+<br/>
+<input id="autodefault" type="text" ej-autocomplete width="100%" [fields]="fields" [dataSource]="states" (select)="onSelect($event)" />
+
+<br/>
+<div class="ctrllabel">Select a Item in ComboBox</div>
+<br/>
+
+<input id="comboDefault" ej-combobox [dataSource]="states" [fields]="fieldsvalues" width="100%" />
