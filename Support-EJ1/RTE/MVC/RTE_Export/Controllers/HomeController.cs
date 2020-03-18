@@ -103,10 +103,24 @@ namespace WebApplication2.Controllers
             string RTEID = HttpContext.Request.QueryString["rteid"];
             string FileName = HttpContext.Request.Params[RTEID + "_inputFile"];
             string htmlText = HttpContext.Request.Params[RTEID + "_inputVal"];
+            foreach (var item in DecodeKey())
+            {
+                htmlText = htmlText.Replace(item.Key, item.Value);
+            }
             WordDocument document = GetDocument(htmlText);
             DocToPDFConverter converter = new DocToPDFConverter();
             PdfDocument pdfDocument = converter.ConvertToPDF(document);
             pdfDocument.Save(FileName + ".pdf", System.Web.HttpContext.Current.Response, HttpReadType.Save);
+        }
+
+        public IDictionary<string, string> DecodeKey()
+        {
+            IDictionary<string, string> KeyValuePair = new Dictionary<string, string>()
+            {
+               { "&quot;",""}
+            };
+
+            return KeyValuePair;
         }
 
 

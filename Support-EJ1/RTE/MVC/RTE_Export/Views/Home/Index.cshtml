@@ -2,25 +2,42 @@
     ViewBag.Title = "Home Page";
 }
 
-<div id="ControlRegion">
-    <div>
-        @{List<String> toolsList = new List<string>() { "font", "style", "importExport", "tables" };
-            List<String> font = new List<string>() { "fontName", "fontSize", "fontColor", "backgroundColor" };
-            List<String> style = new List<string>() { "bold", "italic", "underline", "strikethrough" };
-            List<String> ImportExport = new List<string>() { "import", "wordExport", "pdfExport" };
-            List<String> tables = new List<string>() { "createTable", "addRowAbove", "addRowBelow", "addColumnLeft", "addColumnRight", "deleteRow", "deleteColumn", "deleteTable" };
 
-        }
-        @{
-            Html.EJ().RTE("rteSample").Width("100%").EnableXHTML(true).ContentTemplate(@<div><div><p><span style="font-family: Trebuchet MS, Helvetica, sans-serif;"> MNQW </span><br></p></div></div>).MinWidth("200px").ToolsList(toolsList).Tools(tool => tool.ImportExport(ImportExport).Font(font).Styles(style))
-  .ImportSettings(importSettings => importSettings.Url("Import"))
-  .ExportToWordSettings(exportToWordSettings => exportToWordSettings.Url("ExportToWord").FileName("WordExport"))
-  .ExportToPdfSettings(exportToPdfSettings => exportToPdfSettings.Url("ExportToPDF").FileName("PdfExport")).ClientSideEvents(e => e.Create("onCreate")).Render();}
+<div class="content-container-fluid">
+    <div class="row">
+        <div class="cols-sample-area">
+            <textarea id="rteExport" rows="10" cols="30" style="width: 740px; height: 440px;display:none;">
+            <p><b>Description:</b></p>
+            <p>The Rich Text Editor (RTE) control is an easy to render in
+        client side. Customer easy to edit the contents and get the HTML content for
+        the displayed content. A rich text editor control provides users with a toolbar
+        that helps them to apply rich text formats to the text entered in the text
+        area. </p>
+            <p><b>Functional Specifications/Requirements:</b></p>
+            <ol>
+                <li><p>Provide the tool bar support, it’s also customizable.</p></li>
+                <li><p>Options to get the HTML elements with styles.</p></li>
+                <li><p>Support to insert image from a defined path.</p></li>
+                <li><p>Footer elements and styles(tag / Element information , Action button (Upload, Cancel))</p></li>
+                <li><p>Re-size the editor support.</p></li>
+                <li><p>Provide efficient public methods and client side events.</p></li>
+                <li><p>Keyboard navigation support.</p></li>
+            </ol>
+        </textarea>
+        </div>
     </div>
-
 </div>
-<script>
-    function onCreate(args) {
-        $(this.getDocument().head).find('style')[0].innerHTML = $(this.getDocument().head).find('style')[0].innerHTML + "p{margin-block-start: auto;margin-block-end: auto;}body { color: #000;}"
-    }
+<script type="text/javascript" class="jsScript">
+    $(function () {
+        $("#rteExport").ejRTE({
+            width: "100%",
+            minWidth: "150px",
+            importSettings: { url: "https://localhost:44374/Home/Import" },
+            exportToWordSettings: { url: "https://localhost:44374/Home/ExportToWord", fileName: "WordSample" },
+            exportToPdfSettings: { url: "https://localhost:44374/Home/ExportToPDF", fileName: "PdfSample" },
+            tools: {
+                importExport: ["import", "wordExport", "pdfExport"]
+            }
+        });
+    });
 </script>
