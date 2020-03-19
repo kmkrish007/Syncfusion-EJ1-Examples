@@ -8,12 +8,10 @@ import { EJComponents } from 'ej-angular2/src/ej/core';
   encapsulation: ViewEncapsulation.None
 })
 export class AppComponent {
- @ViewChild('treeObj') treeObj: EJComponents<any, any>;
  data: Array<Object> = [];
  fieldsvalues: Object;
  states: Array<any>;
  fields: Object;
- value: string;
  constructor() {
    // data source
   this.states = [
@@ -45,15 +43,10 @@ export class AppComponent {
     { index: 's43', countryName: 'Wisconsin' }, { index: 's44', countryName: 'Wyoming' }
 ];
     // autocomplete fields
-    this.fields = { key: 'index', text: 'countryName' };
+    this.fields = { key: 'countryName', text: 'countryName' };
     // combobox fields
-    this.fieldsvalues = { dataSource: this.states, text: 'countryName', value: 'index' };
- }
+    this.fieldsvalues = { text: 'countryName', value: 'countryName' };
 
-  onSelect(event) {
-      let combObj = $("#comboDefault").data('ejComboBox');
-      // select combobox value
-      combObj.setModel({value : event.value});
-    }
+ }
 
 }
