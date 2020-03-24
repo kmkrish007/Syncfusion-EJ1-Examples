@@ -9,15 +9,9 @@ namespace DatePicker_EndDate.Controllers
 {
     public class HomeController : Controller
     {
-        DateModel model = new DateModel();
         public ActionResult Index()
         {
-            model.StartDate = DateTime.Now.ToString();
-            DatePickerProperties datemodel = new DatePickerProperties();
-            datemodel.ShowOtherMonths = false;
-            ViewData["date"] = datemodel;
-            return View(model);
-            //return View();
+            return View();
         }
 
         public ActionResult About()
@@ -33,11 +27,5 @@ namespace DatePicker_EndDate.Controllers
 
             return View();
         }
-    }
-
-    public class DateModel
-    {
-        public string StartDate { get; set; }
-        public string EndDate { get; set; }
     }
 }

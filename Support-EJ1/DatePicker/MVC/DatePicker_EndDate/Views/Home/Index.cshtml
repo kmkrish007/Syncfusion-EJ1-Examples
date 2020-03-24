@@ -2,7 +2,6 @@
     ViewBag.Title = "Home Page";
 }
 
-@model DatePicker_EndDate.Controllers.DateModel
 
 <div class="row row-space">
     <div class="col-md-6 col-sm-12">
@@ -11,36 +10,8 @@
                 @Html.Label("Start Date")
             </div>
             <div class="col-md-6 col-sm-12">
-                @Html.EJ().DatePickerFor(model => model.StartDate).ShowRoundedCorner(true).Locale("de-DE").DateFormat("dd.MM.yyyy").Value("").Width("250").ClientSideEvents(c => c.Change("onDateChange"))
+                @Html.EJ().DatePicker("datepick")
             </div>
         </div>
     </div>
 </div>
-<div class="row row-space">
-    <div class="col-md-6 col-sm-12">
-        <div class="row">
-            <div class="col-md-5 col-sm-12">
-                @Html.Label("End Date")
-            </div>
-            <div class="col-md-6 col-sm-12">
-                @Html.EJ().DatePickerFor(model => model.EndDate).Locale("de-DE").DateFormat("dd.MM.yyyy").ShowRoundedCorner(true).Width("250").ClientSideEvents(c => c.Change("onDateChange")).ClientSideEvents(c => c.Open("DatePickerOpen"))
-            </div>
-        </div>
-    </div>
-</div>
-
-<script>
-    function onDateChange(args) {
-        var sDate = $("#StartDate").ejDatePicker("instance");
-        var eDate = $("#EndDate").data("ejDatePicker");
-        if(sDate.model.value!=null)
-        {
-            eDate.model.minDate=sDate.model.value;         
-        }
-    }
-
-    function DatePickerOpen(args) {
-        this._calendarDate = this.model.minDate;
-        this._refreshDatepicker();
-    }
-</script>
