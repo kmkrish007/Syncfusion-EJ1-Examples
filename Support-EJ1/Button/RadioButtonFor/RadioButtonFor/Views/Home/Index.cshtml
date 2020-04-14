@@ -2,49 +2,78 @@
     ViewBag.Title = "Home Page";
 }
 
-@model RadioButtonFor.Controllers.RadioModel
+@*@model RadioButtonFor.Controllers.RadioModel*@
+@model RadioButtonFor.Controllers.DatePickerModel
 
 
 @using (Html.BeginForm())
 {
     @Html.ValidationSummary(true)
+    <ul>
+        @for (int i = 0; i < Model.Count; i++)
+        {
+            {
+                <li>
+                   @* @Html.EJ().DatePickerFor(x => Model[i]).Locale("it-IT").TimeZone(false).ClientSideEvents(e => e.Create("onCreate"))*@
+                    <div><span>Model Value @Model[i].ToString() </span></div>
+
+                </li>
+                <li>@Html.EJ().DateTimePickerFor(x => Model[i]).TimeZone(false).ClientSideEvents(e => e.Create("onCreate"))</li>
+            }
+        }
+    </ul>
+
+    @*<div class="col-md-10">
+            Male
+            @Html.RadioButtonFor(model => model.Gender, "Male")
+            Female
+            @Html.RadioButtonFor(model => model.Gender, "Female")
+        </div>
+
+        <div class="col-md-10">
+            True
+            @Html.RadioButtonFor(model => model.answer, true)
+            False
+            @Html.RadioButtonFor(model => model.answer, false)
+        </div>
+
+        <span>Select the option: </span>
+
+        @Html.EJ().RadioButtonFor(m => m.IsActive, "true")
+        <label for="Radio1" class="clslab">True</label>
+
+        @Html.EJ().RadioButtonFor(m => m.IsActive, "false")
+        <label for="Radio2" class="clslab">False</label>
 
 
-    <div class="col-md-10">
-        Male
-        @Html.RadioButtonFor(model => model.Gender, "Male")
-        Female
-        @Html.RadioButtonFor(model => model.Gender, "Female")
-    </div>
+        <div class="col-md-10">
+            True
+            @Html.EJ().RadioButtonFor(m => m.option, true)
+            False
+            @Html.EJ().RadioButtonFor(m => m.option, false)
+        </div>
 
-    <div class="col-md-10">
-        True
-        @Html.RadioButtonFor(model => model.answer, true)
-        False
-        @Html.RadioButtonFor(model => model.answer, false)
-    </div>
+        @Html.EJ().RadioButtonFor(m => m.Gen, "Male")
+        <label for="Radio1" class="clslab">Male</label>
 
-    <span>Select the option: </span>
+        @Html.EJ().RadioButtonFor(m => m.Gen, "Female")
+        <label for="Radio2" class="clslab">Female</label>
 
-    @Html.EJ().RadioButtonFor(m => m.IsActive, "true")
-    <label for="Radio1" class="clslab">True</label>
-
-    @Html.EJ().RadioButtonFor(m => m.IsActive, "false")
-    <label for="Radio2" class="clslab">False</label>
-
-
-    <div class="col-md-10">
-        True
-        @Html.EJ().RadioButtonFor(m => m.option, true)
-        False
-        @Html.EJ().RadioButtonFor(m => m.option, false)
-    </div>
-
-    @Html.EJ().RadioButtonFor(m => m.Gen, "Male")
-    <label for="Radio1" class="clslab">Male</label>
-
-    @Html.EJ().RadioButtonFor(m => m.Gen, "Female")
-    <label for="Radio2" class="clslab">Female</label>
-
-    <button type="submit">Post</button>
+        <button type="submit">Post</button>*@
 }
+
+<script>
+
+    function onCreate(args) {
+        var jan = new Date(new Date(this._options.value).getFullYear(), 0, 1);
+        var jul = new Date(new Date(this._options.value).getFullYear(), 6, 1);
+        //checking the difference between timezone offset of current timezone with the DST time.
+        //if (new Date(this._options.value).getTimezoneOffset() - Math.min(jan.getTimezoneOffset(), jul.getTimezoneOffset()) == 0) {
+        if (new Date(this._options.value).getTimezoneOffset() != 0) {
+            var DstTime = new Date(this._options.value).getTimezoneOffset() / (-60);
+            // if the timezone offset is -60, then 1 hour will added to the date value
+            updatedValue = new Date(this._options.value).setHours(new Date(this._options.value).getHours() + DstTime);
+            this.option("value", new Date(updatedValue));
+        }
+    }
+</script> 

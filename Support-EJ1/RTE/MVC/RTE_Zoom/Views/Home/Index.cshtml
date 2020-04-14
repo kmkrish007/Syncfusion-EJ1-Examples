@@ -2,11 +2,7 @@
     ViewBag.Title = "Home Page";
 }
 
-
-@{List<String> toolsList = new List<string>() { "formatStyle", "font", "style", "effects", "alignment", "lists", "indenting", "clipboard", "doAction", "clear", "links", "images", "media", "tables", "casing", "customTool", "view", "edit", "print" };
-    List<String> font = new List<string>() { "fontName", "fontSize", "fontColor", "backgroundColor" };
-    List<String> style = new List<string>() { "bold", "italic", "underline", "strikethrough" };
-    List<String> alignment = new List<string>() { "justifyLeft", "justifyCenter", "justifyRight", "justifyFull" };
+@{List<String> toolsList = new List<string>() { "formatStyle", "effects", "lists", "indenting", "clipboard", "doAction", "clear", "links", "images", "tables", "casing", "view", "edit" };
     List<String> edit = new List<String>() { "findAndReplace" };
     List<String> lists = new List<string>() { "unorderedList", "orderedList" };
     List<String> indenting = new List<string> { "outdent", "indent" };
@@ -16,134 +12,34 @@
     List<String> tables = new List<string>() { "createTable", "addRowAbove", "addRowBelow", "addColumnLeft", "addColumnRight", "deleteRow", "deleteColumn", "deleteTable" };
     List<String> links = new List<string>() { "createLink", "removeLink" };
     List<String> images = new List<string>() { "image" };
-    List<String> media = new List<string>() { "video" };
     List<String> effects = new List<string>() { "superscript", "subscript" };
     List<String> casing = new List<string>() { "upperCase", "lowerCase" };
     List<String> formatStyle = new List<string>() { "format" };
     List<String> view = new List<string>() { "fullScreen", "zoomIn", "zoomOut" };
-    List<String> print = new List<string>() { "print" };
+
 }
-
-<button id="zoomin" onclick="zoomin()">ZoomIn</button>
-
-<button id="zoomout" onclick="zoomout()">ZoomOut</button>
-@{
-    Html.EJ().RTE("rteSample").ShowHtmlSource(true).Width("100%").ContentTemplate(@<div>
-    <p><b>Description:</b></p>
-    <p>
-        The Rich Text Editor (RTE) control is an easy to render in
-        client side. Customer easy to edit the contents and get the HTML content for
-        the displayed content. A rich text editor control provides users with a toolbar
-        that helps them to apply rich text formats to the text entered in the text
-        area.
-    </p>
-    <p>
-        <b>
-            Functional
-            Specifications/Requirements:
-        </b>
-    </p>
-    <ol>
-        <li>
-            <p>
-                Provide
-                the tool bar support, it’s also customizable.
-            </p>
-        </li>
-        <li>
-            <p>
-                Options
-                to get the HTML elements with styles.
-            </p>
-        </li>
-        <li>
-            <p>
-                Support
-                to insert image from a defined path.
-            </p>
-        </li>
-        <li>
-            <p>
-                Footer
-                elements and styles(tag / Element information , Action button (Upload, Cancel))
-            </p>
-        </li>
-        <li>
-            <p>
-                Re-size
-                the editor support.
-            </p>
-        </li>
-        <li>
-            <p>
-                Provide
-                efficient public methods and client side events.
-            </p>
-        </li>
-        <li>
-            <p>
-                Keyboard
-                navigation support.
-            </p>
-        </li>
-    </ol>
-</div>).ShowFooter(true).MinWidth("200px").ClientSideEvents(e => e.Create("onCreate"))
-.ToolsList(toolsList)
-.Tools(tool => tool.Clear(clear)
-.FormatStyle(formatStyle)
-.Edit(edit).Tables(tables).Links(links)
-.Images(images).Effects(effects).Casing(casing)
-.Font(font).Styles(style).Media(media).Alignment(alignment)
-.Lists(lists).Clipboard(clipboard).DoAction(doAction)
-.Indenting(indenting).View(view).Print(print)
-.CustomOrderedList(customOrder => customOrder.Css("e-rte-toolbar-icon e-rte-listitems customOrder")
-.ListStyle("lower-greek").Name("orderInsert").Tooltip("Custom OrderList")
-.Text("Lower-Greek").Add()).CustomUnorderedList(customUnOrder => customUnOrder.Css("e-rte-toolbar-icon e-rte-unlistitems customUnOrder")
-.ListImage("url('../Images/rte/Smiley-GIF.gif')").Name("unOrderInsert").Text("Smiley")
-.Tooltip("Custom UnOrderList").Add()))
-.Render();
+@{Html.EJ().RTE("RteHelpSv")
+                  .ContentTemplate(h => ViewBag.HelpText != null ? ViewBag.HelpText : "")
+                  .ShowFooter(true)
+                  .ShowHtmlSource(false)
+                  .ShowHtmlTagInfo(false)
+                  .Width("100%")
+                  .Height("800px")
+                  .MinWidth("200px")
+                  .ToolsList(toolsList)
+                  .Tools(tool => tool.Clear(clear)
+                      .FormatStyle(formatStyle)
+                      .Edit(edit)
+                      .Tables(tables)
+                      .Links(links)
+                      .Images(images)
+                      .Effects(effects)
+                      .Casing(casing)
+                      .Lists(lists)
+                      .Clipboard(clipboard)
+                      .DoAction(doAction)
+                      .View(view)
+                  )
+                  .ImageBrowser(img => img.FilePath("~/FileExplorerContent/").ExtensionAllow("*.png,*.gif,*.jpg,*.jpeg").AjaxAction(@Url.Content("FileActionMethods")))
+                  .Render(); ;
 }
-
-<script type="text/javascript">
-    var zoomStep = 0.05;
-    var ZoomValue = 1;
-    function zoomin() {
-        var rte = $("#rteSample").ejRTE("instance");
-        var RTE_Editor = document.getElementById("rteSample_editor");
-        var RTE_Wrapper = document.getElementById("rteSample_wrapper");
-        ZoomValue = ZoomValue + 0.05;
-        $(RTE_Wrapper).css({ height: parseInt(RTE_Wrapper.style.height) + 10 + "px" });
-        $(rte.getDocument().body).css({ "zoom": ZoomValue, "transform": "scale(" + ZoomValue + ")", "transform-origin": "0 0", "-o-transform": "scale(" + ZoomValue + ")", "-o-transform-origin": "0 0", "-webkit-transform": "scale(" + ZoomValue + ")", "-webkit-transform-origin": "0 0" });
-        $(RTE_Editor).css({ zoom: ZoomValue, maxWidth: parseInt(RTE_Editor.style.maxWidth) + 10 + "px" });
-    }
-
-    function zoomout() {
-        var rte = $("#rteSample").ejRTE("instance");
-        var RTE_Editor = document.getElementById("rteSample_editor");
-        var RTE_Wrapper = document.getElementById("rteSample_wrapper");
-        ZoomValue = ZoomValue - 0.05;
-        $(RTE_Wrapper).css({ height: parseInt(RTE_Wrapper.style.height) - 10 + "px" });
-        $(rte.getDocument().body).css({ "zoom": ZoomValue, "transform": "scale(" + ZoomValue + ")", "transform-origin": "0 0", "-o-transform": "scale(" + ZoomValue + ")", "-o-transform-origin": "0 0", "-webkit-transform": "scale(" + ZoomValue + ")", "-webkit-transform-origin": "0 0" });
-        $(RTE_Editor).css({ zoom: ZoomValue, maxWidth: parseInt(RTE_Editor.style.maxWidth) - 10 + "px" });
-    }
-
-    function onCreate() {
-        //Remove extra space from p tags(new lines) in RTE
-        $(this.getDocument().head).find('style')[0].innerHTML = $(this.getDocument().head).find('style')[0].innerHTML + "p {margin: 0 0 0; margin-bottom: 0px;} body { color: #000;}";
-
-        //Center RTE. 'margin': '0 auto' is used for scroll bar.
-        $('#rteSample_editor').css({ 'margin': '0 auto', 'max-width': '935px', 'max-height': '750px', 'background': 'white' }) //,
-        $('#rteSample_wrapper').css({ 'background': 'black' })
-    }
-</script>
-
-<style>
-    #rteSample_wrapper {
-        position: relative;
-    }
-
-    #rteSample_footer {
-        position: absolute;
-        bottom: 0;
-    }
-</style>

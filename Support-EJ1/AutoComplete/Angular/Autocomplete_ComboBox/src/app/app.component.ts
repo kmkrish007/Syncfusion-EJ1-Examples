@@ -1,52 +1,53 @@
 import { Component, ViewEncapsulation, ViewChild} from '@angular/core';
 import { EJComponents } from 'ej-angular2/src/ej/core';
 
+class Exam {
+  typeId: string;
+}
+class Datasources{
+  examTypes: any;
+}
+
+const data = `[
+  {
+    "id": 0,
+    "alias": "NONE",
+    "shortString": "None"
+  },
+  {
+    "id": 1,
+    "alias": "CAROTID_ARTERY",
+    "shortString": "Cerebrovascular Duplex Scan"
+  },
+  {
+    "id": 2,
+    "alias": "UPPER_EXTREMITY_ARTERIAL",
+    "shortString": "UE Arterial Duplex Scan"
+  },
+  {
+    "id": 3,
+    "alias": "UPPER_EXTREMITY_VENOUS",
+    "shortString": "UE Venous Duplex Scan"
+  }
+]`;
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
   encapsulation: ViewEncapsulation.None
 })
+
+
+
 export class AppComponent {
- data: Array<Object> = [];
- fieldsvalues: Object;
- states: Array<any>;
- fields: Object;
- constructor() {
-   // data source
-  this.states = [
-    { index: 's1', countryName: 'Alabama' }, { index: 's2', countryName: 'Alaska' },
-    { index: 's3', countryName: 'Arizona' }, { index: 's4', countryName: 'Arkansas' },
-    { index: 's5', countryName: 'California' }, { index: 's6', countryName: 'Colorado' },
-    { index: 's7', countryName: 'Connecticut' },
-    { index: 's8', countryName: 'Delaware' },
-    { index: 's9', countryName: 'Florida' },
-    { index: 's10', countryName: 'Georgia' },
-    { index: 's11', countryName: 'Hawaii' },
-    { index: 's12', countryName: 'Idaho' }, { index: 's13', countryName: 'Illinois' },
-    { index: 's14', countryName: 'Indiana' }, { index: 's15', countryName: 'Iowa' },
-    { index: 's16', countryName: 'Kansas' }, { index: 's17', countryName: 'Kentucky' },
-    { index: 's18', countryName: 'Louisiana' }, { index: 's19', countryName: 'Maine' },
-    { index: 's20', countryName: 'Maryland' }, { index: 's21', countryName: 'Massachusetts' },
-    { index: 's22', countryName: 'Michigan' }, { index: 's23', countryName: 'Montana' },
-    { index: 's24', countryName: 'New Mexico' }, { index: '25', countryName: 'New York' },
-    { index: '26', countryName: 'North Carolina' }, { index: 's27', countryName: 'Nevada' },
-    { index: 's28', countryName: 'New Jersey' }, { index: 's29', countryName: 'Pennsylvania' },
-    { index: 's30', countryName: 'Ohio' }, { index: 's31', countryName: 'Oklahoma' },
-    { index: 's32', countryName: 'Oregon' },
-    { index: 's33', countryName: 'Rhode Island' },
-    { index: 's34', countryName: 'South Carolina' }, { index: 's35', countryName: 'South Dakota' },
-    { index: 's36', countryName: 'Tennessee' }, { index: 's37', countryName: 'Texas' },
-    { index: 's38', countryName: 'Utah' },
-    { index: 's39', countryName: 'Vermont' }, { index: 's40', countryName: 'Virginia' },
-    { index: 's41', countryName: 'Washington' }, { index: 's42', countryName: 'West Virginia' },
-    { index: 's43', countryName: 'Wisconsin' }, { index: 's44', countryName: 'Wyoming' }
-];
-    // autocomplete fields
-    this.fields = { key: 'countryName', text: 'countryName' };
-    // combobox fields
-    this.fieldsvalues = { text: 'countryName', value: 'countryName' };
-
- }
-
+  public exam: Exam  = new Exam();
+  public datasources: Datasources = new Datasources();
+  fldsVal: any;
+  // constructor(private patientService:PatientRecordService ) {
+  constructor() {
+    //this.fldsVal = { text: 'shortString', value: 'id' };
+    this.fldsVal = { text: 'shortString', key: 'id' };
+    this.datasources.examTypes = JSON.parse(data);
+  }
 }

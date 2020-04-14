@@ -5,13 +5,26 @@
 
 <ej-pager id="pager" page-count="5" page-size="1" is-responsive="true" total-records-count="20" change="pagerChange"></ej-pager>
 
+<label>Organized Date</label>
+<ej-date-picker id="datepicker1" value="@DateTime.Now"></ej-date-picker>
+
+<ej-date-picker id="datepicker2" value="01/01/1864" date-format="MM/dd/yyyy"></ej-date-picker>
+
+<ej-date-picker id="datepicker3" value="2014/06/03"></ej-date-picker>
+
+<ej-date-picker id="datepicker4" value="01/01/2020" date-format="MM/dd/yyyy"></ej-date-picker>
+
+<ej-date-picker id="datepicker5" value="@DateTime.Now" min-date="2014/06/03" max-date="2014/06/19"></ej-date-picker>
+
+<ej-date-picker id="datepicker6" value="2019/08/06"></ej-date-picker>
+
 
 <script type="text/javascript">
 
-        function pagerChange(args) {
-            pagerObj = $("#pager").ejPager("instance");
-            alert("Page number changed to: " + args.currentPage);
-            console.log("IsInteracted: " + args.isInteraction);
-        }
+    function pagerChange(args) {
+        pagerObj = $("#pager").ejPager("instance");
+        alert("Page number changed to: " + args.currentPage);
+        console.log("IsInteracted: " + args.isInteraction);
+    }
 
 </script>
