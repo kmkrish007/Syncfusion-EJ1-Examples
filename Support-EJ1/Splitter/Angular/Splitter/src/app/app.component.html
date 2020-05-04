@@ -1,0 +1,28 @@
+<label>Resize splitter</label>
+
+<button id="resize" (click)="resize()">Resize Splitter</button>
+
+<br/>
+<br/>
+
+<ej-splitter  id="splitter" #splitter [properties]="proper" height="280" e-width="600" [cssClass]="cssClass">
+  <div>
+      <div style="padding: 0px 15px;">
+          <h3 class="h3">Tools </h3>
+          Essential Tools is an collection of user interface components used to create interactive JavaScript applications.
+      </div>
+  </div>
+  <div>
+      <div style="padding: 0px 15px;">
+          <h3 class="h3">Grid </h3>
+          Essential JavaScript Grid offers full featured a Grid control with extensive support for Grouping and the display of hierarchical data.
+      </div>
+  </div>
+</ej-splitter>
+
+<br/>
+<label>Change splitter size</label>
+<input id="dropdown1" ej-dropdownlist [dataSource]="data" [(value)]="value" (select)="Select($event)"/>
+
+<ej-pdfviewer [(serviceUrl)]="service" id="pdfviewer" style="width:100%;min-height:600px;display:block">
+</ej-pdfviewer>

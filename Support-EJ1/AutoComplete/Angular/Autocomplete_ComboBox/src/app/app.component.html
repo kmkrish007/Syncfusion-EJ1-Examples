@@ -1,7 +1,7 @@
 <div class="row">
   <span class="col-md-1">Type:</span>
   <div class="col-md-5">
-        <input type="text" ej-autocomplete [dataSource]="datasources.examTypes" [fields]="fldsVal" [(ngModel)]="exam.typeId" width="100%" [showPopupButton]="true"/>
-    <!-- <input ej-combobox [autofill]='true' [allowCustom]="false" [dataSource]="datasources.examTypes" [fields]="fldsVal"  width="100%" [(ngModel)]="exam.typeId"/> -->
+        <!-- <input type="text" ej-autocomplete [dataSource]="datasources.examTypes" [fields]="fldsVal" [(ngModel)]="exam.typeId" width="100%" [showPopupButton]="true"/> -->
+    <input ej-combobox [autofill]='true' [allowCustom]="false" [dataSource]="datasources.examTypes" [fields]="fldsVal"  width="100%" [(ngModel)]="exam.typeId"/>
   </div>
 </div>

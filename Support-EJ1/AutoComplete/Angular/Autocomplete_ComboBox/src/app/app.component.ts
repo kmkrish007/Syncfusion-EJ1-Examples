@@ -46,8 +46,10 @@ export class AppComponent {
   fldsVal: any;
   // constructor(private patientService:PatientRecordService ) {
   constructor() {
-    //this.fldsVal = { text: 'shortString', value: 'id' };
-    this.fldsVal = { text: 'shortString', key: 'id' };
+    // combobox field
+    this.fldsVal = { text: 'shortString', value: 'id' };
+    // autocomplete field
+    // this.fldsVal = { text: 'shortString', key: 'id' };
     this.datasources.examTypes = JSON.parse(data);
   }
 }
