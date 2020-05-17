@@ -16,12 +16,11 @@ export class AppComponent {
   status: boolean;
   data: any;
   value: string;
-  service: string;
   constructor() {
-    this.proper = [{ paneSize: '50%' }, {}];
-    this.data = ['25', '50', '75' ];
-    this.value = '50';
-    this.service = 'http://js.syncfusion.com/demos/ejservices/api/PdfViewer';
+    // use panesize value in pecentage
+    this.proper = [{ paneSize: '60%' }, { paneSize: '40%' }];
+    this.data = ['250', '500', '750', '1000' ];
+    this.value = '1000';
   }
 
   resize() {
@@ -35,7 +34,15 @@ export class AppComponent {
   }
 
   Select(args) {
-    this.splitterObj.model.properties[0].paneSize = args.value + "%";
-    this.splitterObj.widget.refresh();
+    let spiltObj = $("#splitter").data("ejSplitter");
+    spiltObj.setModel({width: args.value});
+  }
+
+  beforExpandCollapse(args){
+    debugger;
+  }
+
+  Resize(args){
+    debugger;
   }
 }

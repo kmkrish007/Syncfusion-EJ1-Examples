@@ -2,28 +2,16 @@
     ViewBag.Title = "Home Page";
 }
 
-@*@model RadioButtonFor.Controllers.RadioModel*@
-@model RadioButtonFor.Controllers.DatePickerModel
+@model RadioButtonFor.Controllers.RadioModel
+@*@model RadioButtonFor.Controllers.DatePickerModel*@
 
 
 @using (Html.BeginForm())
 {
     @Html.ValidationSummary(true)
-    <ul>
-        @for (int i = 0; i < Model.Count; i++)
-        {
-            {
-                <li>
-                   @* @Html.EJ().DatePickerFor(x => Model[i]).Locale("it-IT").TimeZone(false).ClientSideEvents(e => e.Create("onCreate"))*@
-                    <div><span>Model Value @Model[i].ToString() </span></div>
+    
 
-                </li>
-                <li>@Html.EJ().DateTimePickerFor(x => Model[i]).TimeZone(false).ClientSideEvents(e => e.Create("onCreate"))</li>
-            }
-        }
-    </ul>
-
-    @*<div class="col-md-10">
+    <div class="col-md-10">
             Male
             @Html.RadioButtonFor(model => model.Gender, "Male")
             Female
@@ -59,21 +47,35 @@
         @Html.EJ().RadioButtonFor(m => m.Gen, "Female")
         <label for="Radio2" class="clslab">Female</label>
 
-        <button type="submit">Post</button>*@
+        <button type="submit">Post</button>
 }
 
 <script>
 
-    function onCreate(args) {
-        var jan = new Date(new Date(this._options.value).getFullYear(), 0, 1);
-        var jul = new Date(new Date(this._options.value).getFullYear(), 6, 1);
-        //checking the difference between timezone offset of current timezone with the DST time.
-        //if (new Date(this._options.value).getTimezoneOffset() - Math.min(jan.getTimezoneOffset(), jul.getTimezoneOffset()) == 0) {
-        if (new Date(this._options.value).getTimezoneOffset() != 0) {
-            var DstTime = new Date(this._options.value).getTimezoneOffset() / (-60);
-            // if the timezone offset is -60, then 1 hour will added to the date value
-            updatedValue = new Date(this._options.value).setHours(new Date(this._options.value).getHours() + DstTime);
-            this.option("value", new Date(updatedValue));
+    //function onCreate(args) {
+    //    var jan = new Date(new Date(this._options.value).getFullYear(), 0, 1);
+    //    var jul = new Date(new Date(this._options.value).getFullYear(), 6, 1);
+    //    //checking the difference between timezone offset of current timezone with the DST time.
+    //    //if (new Date(this._options.value).getTimezoneOffset() - Math.min(jan.getTimezoneOffset(), jul.getTimezoneOffset()) == 0) {
+    //    if (new Date(this._options.value).getTimezoneOffset() != 0) {
+    //        var DstTime = new Date(this._options.value).getTimezoneOffset() / (-60);
+    //        // if the timezone offset is -60, then 1 hour will added to the date value
+    //        updatedValue = new Date(this._options.value).setHours(new Date(this._options.value).getHours() + DstTime);
+    //        this.option("value", new Date(updatedValue));
+    //    }
+    //}
+
+    @*<ul>
+        @for (int i = 0; i < Model.Count; i++)
+        {
+            {
+                <li>
+                    @Html.EJ().DatePickerFor(x => Model[i]).Locale("it-IT").TimeZone(false).ClientSideEvents(e => e.Create("onCreate"))
+                    <div><span>Model Value @Model[i].ToString() </span></div>
+
+                </li>
+                <li>@Html.EJ().DateTimePickerFor(x => Model[i]).TimeZone(false).ClientSideEvents(e => e.Create("onCreate"))</li>
+            }
         }
-    }
+    </ul>*@
 </script> 

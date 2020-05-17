@@ -5,7 +5,7 @@
 <br/>
 <br/>
 
-<ej-splitter  id="splitter" #splitter [properties]="proper" height="280" e-width="600" [cssClass]="cssClass">
+<ej-splitter  id="splitter" #splitter [properties]="proper" height="280" width="1000" [isResponsive]="true" (resize)="Resize($event)" (beforeExpandCollapse)="beforExpandCollapse($event)">
   <div>
       <div style="padding: 0px 15px;">
           <h3 class="h3">Tools </h3>
@@ -24,5 +24,3 @@
 <label>Change splitter size</label>
 <input id="dropdown1" ej-dropdownlist [dataSource]="data" [(value)]="value" (select)="Select($event)"/>
 
-<ej-pdfviewer [(serviceUrl)]="service" id="pdfviewer" style="width:100%;min-height:600px;display:block">
-</ej-pdfviewer>
