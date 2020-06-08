@@ -1,0 +1,35 @@
+﻿@inject Microsoft.ApplicationInsights.AspNetCore.JavaScriptSnippet JavaScriptSnippet
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Accrodion1</title>
+
+
+
+    <link href="https://cdn.syncfusion.com/16.4.0.54/js/web/flat-azure/ej.web.all.min.css" rel="stylesheet" />
+    <link href="https://cdn.syncfusion.com/16.4.0.54/js/web/responsive-css/ej.responsive.css" rel="stylesheet">
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="https://cdn.syncfusion.com/js/assets/external/jsrender.min.js"></script>
+    <script src="https://cdn.syncfusion.com/16.4.0.54/js/web/ej.web.all.min.js"></script>
+
+
+    @Html.Raw(JavaScriptSnippet.FullScript)
+</head>
+<body>
+
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; 2020 - Accrodion1</p>
+        </footer>
+    </div>
+
+
+
+    @RenderSection("Scripts", required: false)
+    <ej-script-manager></ej-script-manager>
+</body>
+</html>
