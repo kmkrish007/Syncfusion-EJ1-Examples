@@ -1,0 +1,52 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+@using ComboBox.Controllers
+
+<div class="container">
+    @Html.EJ().ComboBox("select").Width("300px").Datasource((IEnumerable<CarsList>)ViewBag.datasource).ComboBoxFields(f => f.Text("text")).Placeholder("Select")
+</div>
+<script type="text/javascript">
+    ej.ComboBox.prototype.createInput = function (args) {
+        var inputObject = { container: null, buttons: [], clearButton: null };
+        inputObject.container = ej.buildTag("span.e-input-group e-widget")[0];
+        var button = ej.buildTag('span' + "." + args.buttons[0])[0];
+        inputObject.container.appendChild(button);
+        args.element.parentNode.insertBefore(inputObject.container, args.element);
+        inputObject.container.appendChild($(args.element).addClass('e-input')[0]);
+        if (args.properties.showClearButton)
+            inputObject.clearButton = this.createClearButton(args.element, inputObject.container);
+        if (ej.browserInfo()["name"] === "msie" && parseInt(ej.browserInfo()["version"]) <= 10) {
+            if (parseInt(ej.browserInfo()["version"]) == 9)
+                $(button).addClass("e-comboie9");
+            else if (parseInt(ej.browserInfo()["version"]) == 8)
+                $(button).addClass("e-comboie8");
+            $(button).addClass("e-comboie");
+        }
+        inputObject.buttons.push(button);
+        if (inputObject.container.className.indexOf("e-input-group") == -1)
+            $(inputObject.container).addClass('e-input-group');
+        (args.properties.readonly) ? $(this.inputElement).attr({ readonly: '' }) : this.inputElement.removeAttribute('readonly');
+        return inputObject;
+    };
+</script>
+
+<style>
+    .e-input-group.e-widget.e-ddl {
+        border: none;
+        border-bottom: 1px dotted !important;
+    }
+
+    .e-ddl.e-input-group:not(.e-rtl) .e-input-group-icon {
+        border-left: none;
+    }
+
+    .e-ddl.e-input-group.e-input-focus {
+        box-shadow: none !important;
+    }
+
+    .e-ddl.e-input-group .e-input-group-icon {
+        background: none;
+    }
+</style>
