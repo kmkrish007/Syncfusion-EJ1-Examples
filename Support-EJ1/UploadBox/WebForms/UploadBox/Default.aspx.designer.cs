@@ -7,20 +7,18 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace UploadBox
-{
-
-
-    public partial class _Default
-    {
-
+namespace UploadBox {
+    
+    
+    public partial class _Default {
+        
         /// <summary>
-        /// upload control.
+        /// UploadFile control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::Syncfusion.JavaScript.Web.UploadBox upload;
+        protected global::Syncfusion.JavaScript.Web.UploadBox UploadFile;
     }
 }

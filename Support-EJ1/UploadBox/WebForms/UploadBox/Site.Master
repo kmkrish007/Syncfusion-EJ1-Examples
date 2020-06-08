@@ -15,9 +15,12 @@
     <webopt:bundlereference runat="server" path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <link href="Content/ej/web/default-theme/ej.web.all.min.css" rel="stylesheet" />
-    <script src="Scripts/jquery-3.3.1.min.js"></script>
+    <script src="//cdn.syncfusion.com/js/assets/external/jquery-1.11.3.min.js" type="text/javascript"> </script>	
+    <%--<script src="Scripts/jquery-3.3.1.min.js"></script>--%>
     <script src="Scripts/jsrender.min.js"></script>
-    <script src="Scripts/ej/web/ej.web.all.min.js"></script>
+    <%--<script type="text/javascript" src="//cdn.syncfusion.com/18.1.0.52/js/web/ej.web.all.min.js "></script>--%>
+    <script type="text/javascript" src="//cdn.syncfusion.com/17.4.0.46/js/web/ej.web.all.min.js "></script>
+    <%--<script src="Scripts/ej/web/ej.web.all.min.js"></script>--%>
     <script src="Scripts/ej/common/ej.webform.min.js"></script>
 </head>
 <body>

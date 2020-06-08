@@ -7,13 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace RTE_Print
-{
-
-
-    public partial class _Default
-    {
-
+namespace RTE_Print {
+    
+    
+    public partial class _Default {
+        
         /// <summary>
         /// RTE control.
         /// </summary>
@@ -22,5 +20,14 @@ namespace RTE_Print
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::Syncfusion.JavaScript.Web.RTE RTE;
+        
+        /// <summary>
+        /// BI_RTE control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::Syncfusion.JavaScript.Web.RTE BI_RTE;
     }
 }

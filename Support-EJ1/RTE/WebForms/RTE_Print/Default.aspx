@@ -20,6 +20,10 @@
     </Tools>
 </ej:RTE>
 
+    <ej:RTE ID="BI_RTE" runat="server" Width="750" Height="200" ToolsList="indenting">
+<Tools Indenting="outdent,indent"></Tools>
+</ej:RTE>
+
     <script>
         function print() {
             var rte = $("#MainContent_RTE").ejRTE("instance");
