@@ -1,0 +1,316 @@
+﻿@using SyncfusionMvcApplication3
+@{
+    ViewBag.Title = "PdfViewer";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using (var form = Html.BeginForm("Create", "CustomApprovalHTML", FormMethod.Post, new { @enctype = "multipart/form-data" }))
+{
+<div id = "ControlRegion">
+    <div class="row">
+        <div style="width:100%;height:780px;">
+            @(Html.EJ().PdfViewer("pdfviewer").ServiceUrl("../../api/PdfViewer")
+            .PdfService(Syncfusion.JavaScript.PdfViewerEnums.PdfService.Local))
+        </div>
+        <div style="float:left; padding-bottom:5px; display:inline-flex;">
+            <input type="file" id="fileUpload">
+            @Html.EJ().Button("fileUploadButton").Text("Choose file from disk").Type(ButtonType.Button)
+        </div>
+    </div>
+
+
+
+    <div class="row">
+        <div class="x_content col-md-12 p-2">
+            <div class="row">
+                <div class="col-12">
+                    <label>[Descriptions] :</label>
+                    <table class="table table-bordered ">
+                        <thead>
+                            <tr class="text-center">
+                                <th style="width: 5px">No</th>
+                                <th>Description</th>
+                                <th>Type</th>
+                                <th>Content</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                           
+                            <tr id="Parts_0">
+                                <td class="p-1 text-center"><span id="rowNumFile_0">1.</span></td>
+                                <td class="p-1">
+                                    @Html.TextBox("Parts[0].Description", null, new { @class = "form-control" })
+                                </td>
+                                <td class="p-1">
+                                    @{
+                                        Html.EJ()
+                                            .ComboBox("Parts_0_EmployeeLogon")
+                                            .Width("100%")
+                                            .Datasource((IEnumerable<SyncfusionMvcApplication3.PdfViewerController.DataUser>)ViewBag.DS)
+                                            .ComboBoxFields(h => h.Value("User").Text("Name"))
+                                            //.HeaderTemplate("<div class=\"head\">  Employee Logon  <span style=\"padding-left:42px\"> EmployeeName </span><span style=\"padding-left:42px\">Title</span></div>")
+                                            .ItemTemplate("<div> ${User} <span style=\"padding-left:42px\"> ${Name} </span></div>")
+                                            .FooterTemplate("<div class=\"Foot\"> Total Items Count: 5 </div>")
+                                            .Placeholder("Select a country")
+                                            .Render();
+                                    }
+                                </td>
+                                <td class="p-1">
+                                    <div class="">
+                                        @Html.EJ().DatePicker("Parts_0_DatePick")
+                                    </div>
+                                    <a href="#" class="text-danger removeButton"><i class="fa fa-times"> remove</i></a>
+                                </td>
+                            </tr>
+                           
+
+                            <tr>
+                                <td colspan="4" class="text-right"><button type="button" id="addPart" class="btn btn-primary btn-sm"><i class="fa fa-plus-circle"></i> more description</button> </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @(Html.EJ().ScriptManager())
+    <script type="text/javascript">
+    // Client side Events
+    function documentLoad(args) {
+    }
+    function pageChange(args) {
+    }
+    function zoomChange(args) {
+    }
+    </script>
+  </div>
+    <input type="submit" class="btn btn-success showLoading" value="Submit" style="width:82px" />
+    form.EndForm();
+}
+@section ScriptReferenceSection{
+<script>
+    $(document).ready(function () {
+
+        function dropDownChange(sender) {
+            var _filename = sender.value;
+            var _ejPdfViewer = $("#pdfviewer").data("ejPdfViewer");
+            _ejPdfViewer.load(_filename);
+        }
+        $(document).ready(function () {
+
+            document.getElementById('fileUpload').addEventListener('change', readFile, false);
+            //$("#Editing").ejGrid("option", { "editSettings": { editMode: "externalFormTemplate", externalFormTemplateID: "#template" } });
+            $('#fileUploadButton').click(function () {
+                //e.preventDefault();
+                $('#fileUpload').click();
+                //e.preventDefault();
+            });
+
+        });
+        function readFile(evt) {
+            console.log(evt);
+            //e.preventDefault();
+            var uploadedFiles = evt.target.files;
+            if (uploadedFiles.length > 0) {
+                var uploadedFile2 = uploadedFiles[0];
+                console.log(uploadedFile2);
+                var ext = getExt(uploadedFile2.name)
+                console.log(ext);
+                var formdata = new FormData();
+                if (ext.toLowerCase() == "docx") {
+
+                    formdata.append("DraftFile", uploadedFile2);
+                    //var urlsenddoc = "http://" + host + port + "/ExtensionRLDA/SendDoc"
+                    $.ajax({
+                        url: '@Url.Action("ConvertDocx", "PdfViewer")',
+                        type: "POST",
+                        data: formdata,
+                        dataType: "json",
+                        //async: true,
+                        //crossDomain: true,
+                        contentType: false,
+                        processData: false,
+                        //responseType : "arraybuffer",
+                        success: function (rs) {
+                            console.log("test");
+                            //console.log(rs);
+                            //rs = "http://" + host + port + "/ExtensionRLDA/Preview?fn=" + rs;
+                            //console.log(rs);
+                            //window.open(rs, '_blank');
+                            //var reader = new FileReader();
+                            //reader.readAsDataURL(_base64ToArrayBuffer(rs));
+                            //console.log(reader);
+                            //reader.onload = function () {
+                            //var obj = $("#pdfviewer").data("ejPdfViewer")._ejPdfViewer;
+
+                            //    console.log(this.result)
+                            // var uploadedFileUrl = this.result;
+                            // obj.load(uploadedFileUrl);
+                            //obj.Load("data:application/pdf;base64," + rs, null);
+                            //}
+                            //var viewer = new ej.pdfviewer.PdfViewer({
+                            //    //Sets the base64 string to the documentPath API
+                            //    documentPath: rs,
+                            //    serviceUrl: '/api/PdfViewer'
+                            //});
+                            //ej.pdfviewer.PdfViewer.Inject(ej.pdfviewer.TextSelection, ej.pdfviewer.TextSearch, ej.pdfviewer.Print, ej.pdfviewer.Navigation);
+                            //console.log(viewer);
+                            //viewer.appendTo('#pdfviewer');
+
+                        },
+                        error: function (err) {
+                            console.log(err)
+                        }
+                    });
+                    //var reader = new FileReader();
+                    //reader.readAsDataURL(uploadedFile2);
+                    //reader.onload = function () {
+                    //    var obj = $("#pdfviewer").data("ejPdfViewer");
+                    //    var uploadedFileUrl = this.result;
+                    //    obj.load(uploadedFileUrl);
+                    //}
+                }
+                else {
+                    var reader = new FileReader();
+                    reader.readAsDataURL(uploadedFile2);
+                    reader.onload = function () {
+                        var obj = $("#pdfviewer").data("ejPdfViewer");
+                        var uploadedFileUrl = this.result;
+                        obj.load(uploadedFileUrl);
+                    }
+                }
+
+                this.value = null;
+            }
+        }
+        function _base64ToArrayBuffer(base64) {
+            var binary_string = window.atob(base64);
+            var len = binary_string.length;
+            var bytes = new Uint8Array(len);
+            for (var i = 0; i < len; i++) {
+                bytes[i] = binary_string.charCodeAt(i);
+            }
+            return bytes.buffer;
+        }
+        function getExt(filename) {
+            var ext = filename.split('.').pop();
+            if (ext == filename) return "";
+            return ext;
+        }
+
+        function DeleteFile(FileName) {
+
+            //Write your delete logic here
+        }
+
+
+        var items = [];
+
+        //$(".addApproval").on("click", function () {
+        //    var newTr = $(this).closest("tr").clone();
+        //    items.push(newTr);
+        //    newTr.appendTo($("#Approval"));
+
+        //});
+
+        //add Approval
+        $("#addApproval").click(function (e) {
+
+            e.preventDefault();
+            var $tr = $('tr[id^="Approval"]:last');
+
+            console.log($('tr[id^="Approval"]').length);
+            //if ($('tr[id^="Approval"]').length < 5)
+            {
+                var prevNum = parseInt($tr.prop('id').match(/\d+/g), 10);
+                var num = prevNum + 1;
+                console.log(prevNum)
+                console.log(num)
+                var clone = $tr.clone().prop('id', 'Approval_' + num);
+                console.log(clone);
+                console.log($(clone).find('[name*="Approval"]'));
+                $(clone).find('[id*="Approval_"]').each(function () {
+                    console.log("start")
+                    console.log($(this).toString());
+                    //if ($(this) != "input")
+                    //{
+                    $(this).attr('id', $(this).attr('id').replace('Approval_' + prevNum, 'Approval_' + num));
+                    //}
+                });
+                console.log("clone number");
+                console.log($(clone).find('[id*="rowNumApproval"]'));
+                $(clone).find('[id*="rowNumApproval"]').each(function () {
+
+                    $(this).attr('id', $(this).attr('id').replace('rowNumApproval_' + prevNum, 'rowNumApproval_' + num));
+
+                    $(this).html((num + 1) + '.');
+                });
+
+                $tr.after(clone);
+
+
+                //document.getElementById(appId).checked = false;
+                //appId = "Approval_" + num.toString() + "_PreApproval";
+                //document.getElementById(appId).checked = false;
+
+                //if ($('tr[id^="Approval"]').length == 5) $('#addApproval').hide();
+                //$(clone).find(".removeApproval").click(removeApprovalClick);
+
+
+
+            }
+        });
+
+       
+    });
+</script>
+}
+<script>
+    $("#addPart").click(function (e) {
+
+        e.preventDefault();
+        var $tr = $('tr[id^="Parts"]:last');
+        console.log($tr);
+        if ($('tr[id^="Parts"]').length < 5) {
+            var prevNum = parseInt($tr.prop('id').match(/\d+/g), 10);
+            var num = prevNum + 1;
+            var clone = $tr.clone().prop('id', 'Part_' + num);
+
+            $(clone).find('[id*="Parts"]').each(function () {
+                console.log($(this));
+                //$(this).attr('name', $(this).attr('name').replace('Parts\[' + prevNum + '\]', 'Parts\[' + num + '\]'));
+                $(this).attr('id', $(this).attr('id').replace('Parts_' + prevNum, 'Part_' + num));
+
+                // $(this).attr('name', $(this).attr('name').replace('Parts_\[' + prevNum + '\]', 'Parts_\[' + num + '\]'));
+
+
+                $(this).val('');
+            });
+            $(clone).find('[name*="Parts_"]').each(function () {
+                console.log($(this));
+                console.log("test");
+                $(this).attr('name', $(this).attr('name').replace('Parts_\[' + prevNum + '\]', 'Parts_\[' + num + '\]'));
+
+
+                $(this).val('');
+            });
+
+            $(clone).find('[id*="rowNumFile"]').each(function () {
+                $(this).attr('id', $(this).attr('id').replace('rowNumFile_' + prevNum, 'rowNumFile_' + num));
+                $(this).html((num + 1) + '.');
+            });
+
+            $tr.after(clone);
+            if ($('tr[id^="files"]').length == 5) $('#addFile').hide();
+            //$(clone).find(".removeFileButton").click(removeFileBtnClick);
+        }
+    });
+</script>
+<style>
+    #fileUpload {
+        display: block;
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+</style>
