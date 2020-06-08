@@ -1,0 +1,25 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+@using Autocomplete.Controllers
+
+@Html.EJ().Autocomplete("selectCDSNumber").Datasource((IEnumerable<CarsList>)ViewBag.datasource).AutocompleteFields(field => field.Key("UniqueKey").Text("Text")).ClientSideEvents(e=> e.Change("onChangeCDSNumber"))
+
+
+<script type="text/javascript">
+    function onChangeCDSNumber(args) {
+        if (args.value.length >= 3)
+        $.ajax({
+            url: "/Home/GetData",
+            type: 'GET',
+            dataType: "json",
+            success: function (data) {
+                var ac = $("#selectCDSNumber").ejAutocomplete("instance");
+                console.log(ac);
+                ac.suggestionListItems = data;
+                ac._doneRemaining();  
+            }
+        });
+    }
+</script>
