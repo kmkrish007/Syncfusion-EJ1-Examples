@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Json Data 1</title>
+    <link href="Content/ej/web/default-theme/ej.web.all.min.css" rel="stylesheet" />
+
+    <script src="http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js"></script>
+    <script src="Scripts/jsrender.min.js"></script>
+    <!--<script src="Scripts/ej/web/ej.web.all.min.js"></script>-->
+    <script src="https://cdn.syncfusion.com/17.4.0.46/js/web/ej.web.all.js"></script>
+</head>
+<body>
+    <input type="text" id="selectEmployee" />
+    <script type="text/javascript">
+
+        $(function () {
+
+            // declaration
+        var employees = ej.DataManager({
+            /* ASP.NET Web API */
+            url: "/api/Autocomplete",
+            adaptor: new ej.WebApiAdaptor(),
+            offline: true,
+            crossDomain: true
+        });
+            $('#selectEmployee').ejAutocomplete({
+                dataSource: employees,
+                width: "100%",
+                fields: { text: "Name", uniqueKey:"ID" },
+                watermarkText: "Select an employee",
+                showPopupButton: true,
+                filterType: 'contains',
+                change: onChange
+            });
+
+        });
+
+        function onChange(args) {
+            $.ajax({
+                dataType: "json",
+                url: "/api/Autocomplete/GetDataCar",
+                data: { data: args.value },
+                success: function(result) {
+                    console.log("event triggered");
+                }
+            });
+        }
+    </script>
+</body>
+</html>
