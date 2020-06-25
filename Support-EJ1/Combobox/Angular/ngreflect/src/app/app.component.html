@@ -1,15 +1,8 @@
-<div class="ctrllabel">Select a Item in Autocomplete</div>
-<br/>
-<input id="autodefault" type="text" ej-autocomplete width="100%" [fields]="fields" [dataSource]="states" [(ngModel)]="states.countryName"  />
-<br/>
-<br/>
-<br/>
-<br/>
-<input id="name" type="text" [(ngModel)]="states.countryName"  />
-
-<br/>
-<div class="ctrllabel">Select a Item in ComboBox</div>
-<br/>
-
-<input id="comboDefault"  ej-combobox [autofill]='true' [allowCustom]='false' [dataSource]="states" [fields]="fieldsvalues" width="100%" [(ngModel)]="states.countryName" (ejchange)="onChange($event)" (blur)="onBlur($event)" />
-<button (click)="onClick($event)">Change</button>
+<div class="row">
+    <span class="col-md-1">Type:</span>
+    <div class="col-md-5">
+      <input ej-combobox [autofill]='true' [allowCustom]="false" [dataSource]="datasources.examTypes" [fields]="fldsVal"  width="250px" [(ngModel)]="exam.typeId"/>
+    </div>
+    <input type="text" name="twoway" [(ngModel)]="exam.typeId" />
+  
+  </div>
