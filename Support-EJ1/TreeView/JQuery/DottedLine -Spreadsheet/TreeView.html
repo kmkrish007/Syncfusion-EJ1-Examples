@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Essential Studio for JavaScript">
+    <meta name="author" content="Syncfusion">
+    <title>Untitled</title>
+    <!-- Essential Studio for JavaScript  theme reference --> 
+    <link rel="stylesheet" href="https://cdn.syncfusion.com/17.4.0.46/js/web/flat-azure/ej.web.all.min.css" />
+    <!-- Essential Studio for JavaScript  script references -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> 
+    <script src="https://cdn.syncfusion.com/js/assets/external/jsrender.min.js"></script>
+    <script src="https://cdn.syncfusion.com/17.4.0.46/js/web/ej.web.all.min.js"> </script>
+    <!--Add custom scripts here -->
+</head>
+
+<body>
+    <div style="padding:10px">
+      <div class="control" style="max-width:100%">
+         	<div id="treeView"></div>
+        	<div id="Spreadsheet"></div> 
+       </div>
+    </div>
+</body>
+<script type="text/javascript">
+        var localData = [
+                   { id: 1, name: "Discover Music", hasChild: true },
+                   { id: 2, pid: 1, name: "Hot Singles" , htmlAttr: {class: "tree-height-1"}},
+                   { id: 3, pid: 1, name: "Rising Artists", htmlAttr: {class: "tree-height-1"} },
+                   { id: 4, pid: 1, name: "Live Music" , htmlAttr: {class: "tree-height-1"}},
+                   { id: 6, pid: 1, name: "Best of 2013 So Far", htmlAttr: {class: "tree-height-1"} },
+                   { id: 7, name: "Sales and Events", hasChild: true },
+                   { id: 8, pid: 7, name: "100 Albums - $5 Each", htmlAttr: {class: "tree-height-2"} },
+                   { id: 9, pid: 7, name: "Hip-Hop and R&B Sale", htmlAttr: {class: "tree-height-2"} },
+                   { id: 10, pid: 7, name: "CD Deals", htmlAttr: {class: "tree-height-2"} },
+                   { id: 22, name: "Music Trade-In", htmlAttr: {class: "tree-height-1"} },
+                   { id: 23, pid: 22, name: "Redeem a Gift Card" },
+                   { id: 24, pid: 22, name: "Band T-Shirts" },
+                   { id: 25, pid: 22, name: "Mobile MVC" }
+                ];
+        $(function () {
+            $("#treeView").ejTreeView({
+               fields: { 
+                 id: "id",
+                 parentId: "pid",
+                 text: "name",
+                 hasChild: "hasChild",
+                 dataSource: localData,
+                 expanded: "expanded",
+                 htmlAttribute: "htmlAttr"
+               },
+               cssClass: 'custom'
+            });
+        });
+
+    </script>
+  <style>
+
+    .tree-height-2 .e-text-wrap > a:nth-child(2) {
+        height: 20px;
+        position: relative;
+        top: -4px;
+	}
+
+    .tree-height-1 .e-text-wrap > a:nth-child(2) {
+        height: 25px;
+        top: -4px;
+        position: relative;
+    }
+
+    .custom.e-treeview .e-item {
+            background-image: url(./image/Horizontal.png);
+            background-repeat: repeat-y;
+        }
+
+        .custom.e-treeview .e-text-wrap {
+            padding-left: 4px;
+        }
+
+        .custom .e-text-wrap:before {
+              display: block;
+              content: " ";
+              background: url(./image/Vertical.png);
+              height: 10px;
+              position: absolute;
+              width: 20px;
+              margin-left: -17px;
+              margin-top: 12px;
+              background-repeat: repeat-x;
+        }
+
+        .custom.e-treeview .e-icon.e-minus:before {
+            content: "";
+            font-size: 12px;
+            margin-left: 2px;
+        }
+
+        .custom.e-treeview .e-icon.e-plus:before {
+            content: "";
+            font-size: 12px;
+            margin-left: 2px;
+        }
+
+        .custom.e-treeview .e-icon.e-minus, .custom.e-treeview .e-icon.e-plus{
+            border: 1px solid gray;
+            padding: 0px;
+            display: flex;
+            margin-left: -28px;
+            align-items: center;
+            background-color: darkgrey;
+        }
+
+        .e-item.last.e-collapse {
+            background-repeat: no-repeat !important;
+        }
+		
+        .custom.e-treeview .e-item.last {
+            background-image: url(./image/3.png);
+            background-repeat: no-repeat;
+        }
+
+        .e-text-wrap div[role=presentation]:not(.e-icon) {
+            border: 1px solid gray;
+            width: 15px;
+            height: 15px;
+            left: 18px;
+            position: absolute;
+            background-color: darkgrey;
+        }
+  </style>
+</html>
