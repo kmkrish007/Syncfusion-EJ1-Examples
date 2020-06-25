@@ -2,41 +2,31 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
-    <div class="jumbotron">
-        <h1>ASP.NET</h1>
-        <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS, and JavaScript.</p>
-        <p><a href="http://www.asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-    </div>
+      <ej:Menu ID="MenuCtrl" runat="server">
+            <Items>
+                <ej:MenuItem Id="Products" Text="Products" HtmlAttributes="class=onet">
+                </ej:MenuItem>
+                <ej:MenuItem Id="Support" Text="Support" HtmlAttributes="style=background-color:blue">
+                </ej:MenuItem>
+                <ej:MenuItem Id="Purchase" Text="Purchase">
+                </ej:MenuItem>
+                <ej:MenuItem Id="Downloads" Text="Downloads">
+                </ej:MenuItem>
+                <ej:MenuItem Id="Resources" Text="Resources">
+                </ej:MenuItem>
+            </Items>
 
-    <div class="row">
-        <div class="col-md-4">
-            <h2>Getting started</h2>
-            <p>
-                ASP.NET Web Forms lets you build dynamic websites using a familiar drag-and-drop, event-driven model.
-            A design surface and hundreds of controls and components let you rapidly build sophisticated, powerful UI-driven sites with data access.
-            </p>
-            <p>
-                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301948">Learn more &raquo;</a>
-            </p>
-        </div>
-        <div class="col-md-4">
-            <h2>Get more libraries</h2>
-            <p>
-                NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.
-            </p>
-            <p>
-                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301949">Learn more &raquo;</a>
-            </p>
-        </div>
-        <div class="col-md-4">
-            <h2>Web Hosting</h2>
-            <p>
-                You can easily find a web hosting company that offers the right mix of features and price for your applications.
-            </p>
-            <p>
-                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301950">Learn more &raquo;</a>
-            </p>
-        </div>
-    </div>
+        </ej:Menu>
+
+    <ej:DropDownList ID="DropDownList1" runat="server">
+                <Items>
+                    <ej:DropDownListItem ID="DropDownListItem1" runat="server" Text="ListItem 1" Value="item1">
+                    </ej:DropDownListItem>
+                    <ej:DropDownListItem ID="DropDownListItem2" runat="server" Text="ListItem 2" Value="item2">
+                    </ej:DropDownListItem>
+                    <ej:DropDownListItem ID="DropDownListItem3" runat="server" Text="ListItem 3" Value="item3">
+                    </ej:DropDownListItem>
+                </Items>
+        </ej:DropDownList>
 
 </asp:Content>

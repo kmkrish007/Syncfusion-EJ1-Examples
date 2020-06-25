@@ -1,7 +1,10 @@
 ﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="ComboBox._Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <ej:Button ID="button" Text="Open Dialog" Type="Button" ClientSideOnClick="openDialog" runat="server"></ej:Button>
+
+    <ej:ComboBox ID="Combo" runat="server" DataTextField="type"></ej:ComboBox>
+    <%--<ej:Button ID="button" Text="Open Dialog" Type="Button" ClientSideOnClick="openDialog" runat="server"></ej:Button>
+
     <ej:Dialog ID="dialog" Title="Dialog" runat="server" EnableModal="true" ShowOnInit="false">
 
         <DialogContent>
@@ -31,38 +34,38 @@
             <ej:Button runat="server" ID="sub2HR" Text="Submit for HR Review"></ej:Button>  
         </DialogContent>
 
-    </ej:Dialog>
+    </ej:Dialog>--%>
 
 
     <script type="text/javascript">
-        function openDialog() {
-            $("#MainContent_dialog").ejDialog("open");
-        }
-        var i = 3;
-        var sportsData = [
-            { id: 'level1', game: 'American Football' }, { id: 'level2', game: 'Badminton' },
-            { id: 'level3', game: 'Basketball' }, { id: 'level4', game: 'Cricket' },
-            { id: 'level5', game: 'Football' }, { id: 'level6', game: 'Golf' },
-            { id: 'level7', game: 'Hockey' }, { id: 'level8', game: 'Rugby' },
-            { id: 'level9', game: 'Snooker' }, { id: 'level10', game: 'Tennis' }
-        ];
-        function addCombo() {
-            // create input element
-            ele = document.createElement('input');
-            // adding id attribute
-            ele.setAttribute("id", "Combo" + i);
-            cus = document.querySelector(".custom");
-            // append to already created div element
-            cus.appendChild(ele)
-            // render input as combobox
-            $("#Combo" + i).ejComboBox({
-                dataSource: sportsData,
-                fields: { text: 'game', value: 'id' },
-                width: "100%",
-                cssClass: 'combo' 
-            });
-            i++;
-        }
+        //function openDialog() {
+        //    $("#MainContent_dialog").ejDialog("open");
+        //}
+        //var i = 3;
+        //var sportsData = [
+        //    { id: 'level1', game: 'American Football' }, { id: 'level2', game: 'Badminton' },
+        //    { id: 'level3', game: 'Basketball' }, { id: 'level4', game: 'Cricket' },
+        //    { id: 'level5', game: 'Football' }, { id: 'level6', game: 'Golf' },
+        //    { id: 'level7', game: 'Hockey' }, { id: 'level8', game: 'Rugby' },
+        //    { id: 'level9', game: 'Snooker' }, { id: 'level10', game: 'Tennis' }
+        //];
+        //function addCombo() {
+        //    // create input element
+        //    ele = document.createElement('input');
+        //    // adding id attribute
+        //    ele.setAttribute("id", "Combo" + i);
+        //    cus = document.querySelector(".custom");
+        //    // append to already created div element
+        //    cus.appendChild(ele)
+        //    // render input as combobox
+        //    $("#Combo" + i).ejComboBox({
+        //        dataSource: sportsData,
+        //        fields: { text: 'game', value: 'id' },
+        //        width: "100%",
+        //        cssClass: 'combo' 
+        //    });
+        //    i++;
+        //}
     </script>
 
     <style type="text/css">

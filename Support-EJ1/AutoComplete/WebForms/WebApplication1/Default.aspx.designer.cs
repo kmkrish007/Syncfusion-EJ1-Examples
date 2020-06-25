@@ -7,20 +7,27 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WebApplication1
-{
-
-
-    public partial class _Default
-    {
-
+namespace WebApplication1 {
+    
+    
+    public partial class _Default {
+        
         /// <summary>
-        /// ComponentList control.
+        /// ddlEnqType control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::Syncfusion.JavaScript.Web.Autocomplete ComponentList;
+        protected global::Syncfusion.JavaScript.Web.DropDownList ddlEnqType;
+        
+        /// <summary>
+        /// txt_Clientname control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::Syncfusion.JavaScript.Web.Autocomplete txt_Clientname;
     }
 }

@@ -17,7 +17,7 @@ namespace ComboBox
             Data.Add(new Employee { Text = "John Linden" });
             Data.Add(new Employee { Text = "Louis" });
             Data.Add(new Employee { Text = "Lawrence" });
-            givingTo.DataSource = Data;
+           // givingTo.DataSource = Data;
 
             car.Add(new CarsList { type = "Audi S6" });
             car.Add(new CarsList { type = "Austin-Healey" });
@@ -31,7 +31,7 @@ namespace ComboBox
             car.Add(new CarsList { type = "Duesenberg J" });
             car.Add(new CarsList { type = "Dodge Sprinter" });
             car.Add(new CarsList { type = "Elantra" });
-            type1.DataSource = car;
+            Combo.DataSource = car;
         }
 
         protected void sub2HR_Click1(object sender, Syncfusion.JavaScript.Web.ButtonClickEventArgs e)

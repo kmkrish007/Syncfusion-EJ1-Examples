@@ -18,6 +18,7 @@
     <script src="Scripts/jquery-3.3.1.min.js"></script>
     <script src="Scripts/jsrender.min.js"></script>
     <script src="Scripts/ej/web/ej.web.all.min.js"></script>
+    <script src="https://cdn.syncfusion.com/18.1.0.42/js/web/ej.web.all.min.js"></script>
     <script src="Scripts/ej/common/ej.webform.min.js"></script>
 </head>
 <body>

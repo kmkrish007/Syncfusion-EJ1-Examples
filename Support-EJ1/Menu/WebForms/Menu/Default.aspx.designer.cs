@@ -7,11 +7,99 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Menu
-{
-
-
-    public partial class _Default
-    {
+namespace Menu {
+    
+    
+    public partial class _Default {
+        
+        /// <summary>
+        /// MenuCtrl control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::Syncfusion.JavaScript.Web.Menu MenuCtrl;
+        
+        /// <summary>
+        /// Products control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::Syncfusion.JavaScript.Web.MenuItem Products;
+        
+        /// <summary>
+        /// Support control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::Syncfusion.JavaScript.Web.MenuItem Support;
+        
+        /// <summary>
+        /// Purchase control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::Syncfusion.JavaScript.Web.MenuItem Purchase;
+        
+        /// <summary>
+        /// Downloads control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::Syncfusion.JavaScript.Web.MenuItem Downloads;
+        
+        /// <summary>
+        /// Resources control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::Syncfusion.JavaScript.Web.MenuItem Resources;
+        
+        /// <summary>
+        /// DropDownList1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::Syncfusion.JavaScript.Web.DropDownList DropDownList1;
+        
+        /// <summary>
+        /// DropDownListItem1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::Syncfusion.JavaScript.Web.DropDownListItem DropDownListItem1;
+        
+        /// <summary>
+        /// DropDownListItem2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::Syncfusion.JavaScript.Web.DropDownListItem DropDownListItem2;
+        
+        /// <summary>
+        /// DropDownListItem3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::Syncfusion.JavaScript.Web.DropDownListItem DropDownListItem3;
     }
 }

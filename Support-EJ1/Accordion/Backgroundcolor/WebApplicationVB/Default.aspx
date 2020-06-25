@@ -2,9 +2,8 @@
 
 <%@ Register assembly="Syncfusion.EJ.Web" namespace="Syncfusion.JavaScript.Web" tagprefix="ej" %>
 <asp:Content ID="Content1" runat="server" contentplaceholderid="MainContent">
+
     
-
-
     <ej:Accordion ID="BasicAccordion" runat="server">
         <Items>
             <ej:AccordionItem Text="Orubase">
@@ -25,9 +24,5 @@
         </Items>
     </ej:Accordion>
 
-    <style>
-
-     
-    </style>
 </asp:Content>
 
