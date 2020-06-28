@@ -25,7 +25,14 @@ namespace WebApplication1
 
             ddlEnqType.DataSource = data;
 
-            ddlEnqType.ClientSideOnSelect = "onTypeChange";
+            ClientScript.RegisterStartupScript(GetType(), "onchange", "javaScript:onTypeChange();", true);
+
+            //ddlEnqType.ClientSideOnSelect = "onTypeChange";
+        }
+
+        protected void ddlEnqType_ValueSelect(object sender, Syncfusion.JavaScript.Web.DropdownListEventArgs e)
+        {
+            ClientScript.RegisterStartupScript(GetType(), "onchange", "javaScript:onTypeChange();", true);
         }
     }
     public class Customer
