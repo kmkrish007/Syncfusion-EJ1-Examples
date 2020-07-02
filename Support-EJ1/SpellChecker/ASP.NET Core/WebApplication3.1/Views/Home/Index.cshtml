@@ -1,0 +1,57 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@*Input type text*@
+<input id="input1" type="text" value="oneedr watnex hello" />
+@*Input type search*@
+<input id="input2" type="search" value="helwowo world" />
+@*Div element as target*@
+<div id="control1">
+    London, aname one of the most popular touist destinations in the world for a reason. A cultural and hisorical hub, London has an excellent public transportation system that allows visitors to see all the fantatic sights without spending a ton of money on a rental car.
+    London contains four World Heritage Sites.
+</div>
+<br />
+@*TextArea as target*@
+<textarea id="control2" style="width:99%;height:100px">
+        Paris, the city of lihts and love - this short guide is full of ideas for how to make the most of the romnticism that oozes from every one of its beautiful corners.You couldn't possibly visit Paris without seeing the Eiffel Tower.
+        Even if you do not want to visit this world famous structure, you will see its top from all over Paris.
+    </textarea>
+<br />
+<br />
+@*Span element as target*@
+<span id="control3">
+    Rome, one thrut eof the world's most facinating cities. The old adage that Rome was not built in a day - and that you won't see it in one or even in three - is true. For the intrepid traveler who can keep pace, here is a list of must-sees.
+    But reember what the Romans say: Even a lifetime isn't enough to see Rome.
+</span>
+<br />
+<br />
+
+@*<ej-spell-check id="TextArea" controls-to-validate="#input1,#input2,#control1,#control2,#control3" max-suggestion-count="2">
+    <e-dictionary-settings custom-dictionary-url="https://js.syncfusion.com/ejServices/api/SpellCheck/AddToDictionary" dictionary-url="https://js.syncfusion.com/ejServices/api/SpellCheck/CheckWords"></e-dictionary-settings>
+    <e-context-menu-settings enable="false">
+    </e-context-menu-settings>
+</ej-spell-check>
+
+<ej-button id="SpellCheck" width="200px" height="25px" text="Spell check using dialog" click="showDialog" />*@
+
+<ej-spell-check id="TextArea" controls-to-validate="#input1,#input2,#control1,#control2,#control3"
+                enable-validate-on-type="true">
+    <e-dictionary-settings custom-dictionary-url="https://js.syncfusion.com/ejServices/api/SpellCheck/AddToDictionary" dictionary-url="https://js.syncfusion.com/ejServices/api/SpellCheck/CheckWords"></e-dictionary-settings>
+    <e-context-menu-settings enable="true" />
+</ej-spell-check>
+<ej-button id="SpellCheck" width="200px" height="25px" text="Spell check using dialog" click="showInContextMenu" />
+
+
+<script type="text/javascript">
+
+    function showDialog() {
+        var spellObj = $("#TextArea").data("ejSpellCheck");
+        spellObj.showInDialog();
+    }
+
+    function showInContextMenu() {
+        var spellObj = $("#TextArea").data("ejSpellCheck");
+        spellObj.validate();
+    }
+</script>
