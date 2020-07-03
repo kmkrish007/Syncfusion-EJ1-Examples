@@ -1,0 +1,9 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<label>Signature: </label>
+@Html.EJ().Signature("mySign").Height("200px").Width("500px")
+
+<label>UploadBox: </label>
+@Html.EJ().Uploadbox("UploadDefault").SaveUrl(@Url.Action("Save")).RemoveUrl(@Url.Action("Remove")).AllowDragAndDrop(true).MultipleFilesSelection(true)
