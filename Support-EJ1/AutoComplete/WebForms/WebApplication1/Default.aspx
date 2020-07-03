@@ -2,7 +2,7 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
-    <ej:DropDownList ID="ddlEnqType" runat="server"  DataValueField="ValueColumn" DataTextField="TextColumn" WatermarkText="Select Inqury Type" OnValueSelect="ddlEnqType_ValueSelect"
+    <ej:DropDownList ID="ddlEnqType" runat="server"  DataValueField="ValueColumn" DataTextField="TextColumn" WatermarkText="Select Inqury Type"
        DataSourceCachingMode="ViewState" Width="100%" Height="70%" ></ej:DropDownList>
 
     <ej:Autocomplete ID="txt_Clientname" runat="server"  DataTextField="ClientName" FilterType="Contains" WatermarkText="Select Client"
@@ -21,9 +21,8 @@
 
     <script>
         function onTypeChange(args) {
-            //alert(args.text);
             var ddlobj = $("#<%= ddlEnqType.ClientID %>").data("ejDropDownList");
-          // alert(ddlobj.value);
+            console.log(ddlobj.selectedTextValue);
         }
     </script>
 
