@@ -1,0 +1,45 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+@{List<String> toolsList = new List<string>() { "formatStyle", "effects", "lists", "indenting", "clipboard", "doAction", "clear", "links", "images", "tables", "casing", "view", "edit" };
+    List<String> edit = new List<String>() { "findAndReplace" };
+    List<String> lists = new List<string>() { "unorderedList", "orderedList" };
+    List<String> indenting = new List<string> { "outdent", "indent" };
+    List<String> clipboard = new List<string>() { "cut", "copy", "paste" };
+    List<String> doAction = new List<string>() { "undo", "redo" };
+    List<String> clear = new List<string>() { "clearFormat", "clearAll" };
+    List<String> tables = new List<string>() { "createTable", "addRowAbove", "addRowBelow", "addColumnLeft", "addColumnRight", "deleteRow", "deleteColumn", "deleteTable" };
+    List<String> links = new List<string>() { "createLink", "removeLink" };
+    List<String> images = new List<string>() { "image" };
+    List<String> effects = new List<string>() { "superscript", "subscript" };
+    List<String> casing = new List<string>() { "upperCase", "lowerCase" };
+    List<String> formatStyle = new List<string>() { "format" };
+    List<String> view = new List<string>() { "fullScreen", "zoomIn", "zoomOut" };
+
+}
+@{Html.EJ().RTE("RteHelpSv")
+                    .ContentTemplate(h => ViewBag.HelpText != null ? ViewBag.HelpText : "")
+                    .ShowFooter(true)
+                    .ShowHtmlSource(false)
+                    .ShowHtmlTagInfo(false)
+                    .Width("100%")
+                    .Height("800px")
+                    .MinWidth("200px")
+                    .ToolsList(toolsList)
+                    .Tools(tool => tool.Clear(clear)
+                        .FormatStyle(formatStyle)
+                        .Edit(edit)
+                        .Tables(tables)
+                        .Links(links)
+                        .Images(images)
+                        .Effects(effects)
+                        .Casing(casing)
+                        .Lists(lists)
+                        .Clipboard(clipboard)
+                        .DoAction(doAction)
+                        .View(view)
+                    )
+                    .ImageBrowser(img => img.FilePath("~/FileExplorerContent/").ExtensionAllow("*.png,*.gif,*.jpg,*.jpeg").AjaxAction(@Url.Content("FileActionMethods")))
+                    .Render(); ;
+}
