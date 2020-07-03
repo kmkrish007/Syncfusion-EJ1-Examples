@@ -1,0 +1,17 @@
+﻿<ul id="selectgroup" />
+
+<script type="text/javascript">
+        jQuery(function ($) {
+            var skillset = [
+                { skill: "No Description", category: "Description" },
+                { skill: "No Description", category: "Apps" },
+                { skill: "No Description", category: "Grid" }
+            ];
+            // To maintaing list ordering in all browsers
+            $("#selectgroup").ejListBox({
+                dataSource: skillset,
+                fields: { text: "skill", groupBy: "category" },
+                width: "100%"
+            });
+        });
+</script>

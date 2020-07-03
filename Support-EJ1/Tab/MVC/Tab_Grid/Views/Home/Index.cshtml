@@ -1,0 +1,90 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<script type="text/x-jsrender" id="add1">
+    <button class="add">Add New Asset</button>
+</script>
+
+<script id="add2" type="text/x-jsrender">
+    <button class="add">Add Assets</button>
+</script>
+
+@{Html.EJ().Tab("defaultTabs").Items(data =>
+  {
+      data.Add().ID("Orders").Text("Tab1").ContentTemplate(@<div>
+    @(Html.EJ().Grid<object>("Grid1")
+         .Datasource("https://mvc.syncfusion.com/Services/Northwnd.svc/Orders/")
+         .AllowPaging()
+         .ToolbarSettings(tool => tool.ShowToolbar().CustomToolbarItems(new List<object>() { new Syncfusion.JavaScript.Models.CustomToolbarItem() { TemplateID = "#add1" }, new Syncfusion.JavaScript.Models.CustomToolbarItem() { TemplateID = "#add2" } }))
+         .PageSettings(page => { page.PageSize(5); })
+         .Columns(col =>
+         {
+             col.Field("OrderID").HeaderText("Order ID").IsPrimaryKey(true).TextAlign(TextAlign.Right).Width(75).Add();
+             col.Field("CustomerID").HeaderText("Customer ID").Width(90).Add();
+             col.Field("EmployeeID").HeaderText("Employee ID").TextAlign(TextAlign.Right).Width(90).Add();
+             col.Field("Freight").HeaderText("Freight").TextAlign(TextAlign.Right).Width(75).Format("{0:C}").Add();
+             col.Field("ShipCity").HeaderText("Ship City").Width(80).Add();
+             col.Field("OrderDate").Format("{0:MM/dd/yyyy}").Width(80).TextAlign(TextAlign.Right).Add();
+             col.Field("ShipCountry").HeaderText("Ship Country").Width(100).Add();
+         }).ClientSideEvents(eve=>eve.ToolbarClick("clicked")))
+        <div><div id="basicDialog" title="Audi Q3 Drive">
+             <h1>Audi Q3</h1>
+             <div class="cnt">
+                It is a concept vehicle with Liquid Silver body colour, 20-inch wheels, fabric folding roof, electrically-controlled hood, 4-cylinder 2.0 TDI engine rated 204 PS (150 kW; 201 hp)
+                and 400 N·m (295.02 lbf·ft), diesel particulate filter and Bluetec emission control system, quattro permanent four-wheel drive system with Haldex clutch,
+                Audi S tronic dual-clutch gearbox, McPherson-strut front axle and a four-link rear axle, Audi drive select system with 3 modes (dynamic, sport, efficiency),
+                MMI control panel with touch pad and dual-view technology, sound system with the prominent extending tweeters.
+             </div>
+        </div></div>
+     </div>);
+}).Render();}
+
+
+<style>
+    button.add {
+        background-color: #179bd7;
+        color: white;
+    }
+</style>
+
+<script type="text/javascript">
+    $(function () {
+        // render ej dialog
+         $("#basicDialog").ejDialog({
+             width: 550,
+             minWidth: 310,
+             minHeight: 215,
+             close: "onDialogClose",
+             target: "#Orders",
+             showOnInit:false
+         });
+    });
+
+    function clicked(sender) {
+        if (sender.itemName == "add2") {
+            var dm = ej.DataManager("https://mvc.syncfusion.com/Services/Northwnd.svc/Orders");
+            // get tab intsance
+            var tabObj = $("#defaultTabs").ejTab("instance");
+            // add new tab item
+            tabObj.addItem("#new", "New Tab", 2, "myClass", "newItem");
+            //Add grid to the tab content of new tab item         
+            $("#newItem").ejGrid({
+                dataSource: dm,
+                allowPaging: true,
+                columns: ["OrderID", "EmployeeID", "CustomerID", "ShipCountry", "Freight"]
+            });
+        } else if (sender.itemName == "add1") {
+            // hide grid from the tab
+            document.getElementById("Grid1").style.visibility = "hidden";
+            // open dialog control
+            $("#basicDialog").ejDialog("open");
+        }
+        
+    }
+
+    function onDialogClose(args) {
+        // show grid on the tab
+        document.getElementById("Grid1").style.visibility = "visible";
+    }
+</script>

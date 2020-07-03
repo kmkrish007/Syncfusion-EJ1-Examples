@@ -1,0 +1,46 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+
+@Html.EJ().Tab("Dish").Items(data =>
+{
+data.Add().ID("drop").Text("Work Details").ContentTemplate(@<div>@Html.Partial("_drop")</div>);
+    data.Add().ID("work").Text("Assets").ContentTemplate(@<div>@Html.Partial("_Grid")</div>);
+    data.Add().ID("empt").Text("text").ContentTemplate(@<div>@Html.Partial("_Asset")</div>);
+    data.Add().ID("summary").Text("Summary").ContentTemplate(@<div>@Html.Partial("_List")</div>);
+}).ClientSideEvents(e=> e.BeforeActive("beforeActive"))
+
+
+<script type="text/javascript">
+    function beforeActive(args) {
+        var listObj = $("#selectgroup").ejListBox("instance"); // listView instance 
+        var ddlObj = $("#selectCar").ejDropDownList("instance"); // dropdownlist instance 
+        var txtObj = $("#maskedit").ejMaskEdit("instance"); // textbox instance 
+        var gridObj = $('.e-grid').ejGrid('instance'); // grid instance
+        var item = [];
+        if (ddlObj.model.value) {
+            item[0] = { skill: ddlObj.model.value, category: "Description" };
+        } else {
+            item[0] = { skill: "No Description", category: "Description" };
+        }
+        if (txtObj.model.value) {
+            item[1] = { skill: txtObj.model.value, category: "Apps" };
+        } else {
+            item[1] = { skill: "No Description", category: "Apps" };
+        }
+        if (gridObj.getCurrentViewData().length) { // if grid has data  
+            item[2] = { skill: gridObj.getCurrentViewData()[0].CustomerID + "," + gridObj.getCurrentViewData()[1].CustomerID, category: "Assets" }
+        } else {
+            item[1] = { skill: "No Description", category: "Grid" };
+        }
+        // updating new data to listbox
+        listObj.setModel({ dataSource: item });
+    }
+</script>
+
+<style>
+    #summary .e-content {
+        width: 100% !important;
+    }
+</style>

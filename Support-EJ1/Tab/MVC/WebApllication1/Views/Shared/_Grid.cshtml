@@ -1,0 +1,13 @@
+﻿
+@(Html.EJ().Grid<object>
+    ("Grid")
+    .Datasource("https://mvc.syncfusion.com/Services/Northwnd.svc/Orders/")
+    .AllowPaging()
+    .PageSettings(page => { page.PageSize(5); })
+        .Columns(col =>
+        {
+            col.Field("OrderID").HeaderText("Order ID").IsPrimaryKey(true).TextAlign(TextAlign.Right).Width(75).Add();
+            col.Field("CustomerID").HeaderText("Customer ID").Width(90).Add();
+            col.Field("ShipCity").HeaderText("Ship City").Width(80).Add();
+            col.Field("ShipCountry").HeaderText("Ship Country").Width(100).Add();
+        }))
