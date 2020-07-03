@@ -1,0 +1,317 @@
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*-----------------------OLAP Definition-----------------*/
+/*-----------------------OLAP Definition End-----------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*------------------ DatePicker ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: white;
+  color: #111111;
+  border-color: #e0e0e0;
+  font-family: 'Roboto', Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+/*------------------------------------- autocomplete -------------------------------------------*/
+
+.e-widget.e-atc .e-in-wrap,
+.e-widget.e-atc .e-input,
+.e-widget.e-atc-popup,
+.e-widget.e-atc .e-options {
+  background-color: white;
+  border-color: #e0e0e0;
+  
+  font-family: 'Roboto', Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-widget.e-atc .e-in-wrap,
+.e-widget.e-atc .e-input,
+.e-widget.e-atc-popup,
+.e-widget.e-atc .e-options {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 13px;
+  font-weight: normal;
+}
+.e-widget.e-atc-popup {
+  font-size: 13px !important;
+}
+.e-widget.e-atc-popup .e-hilight-txt {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.54);
+}
+.e-widget.e-atc .e-options.e-active {
+  
+  color: white;
+}
+.e-widget.e-atc .e-options.e-active {
+  border-color: white;
+}
+.e-widget.e-atc .e-options.e-active {
+  background: #ff4081;
+}
+.e-widget.e-atc .e-options.e-active:hover,
+.e-widget.e-atc .e-options:hover {
+  
+}
+.e-widget.e-atc .e-options.e-active:hover,
+.e-widget.e-atc .e-options:hover {
+  color: #212121;
+  border-color: #e0e0e0;
+}
+.e-widget.e-atc .e-options.e-active:hover,
+.e-widget.e-atc .e-options:hover {
+  background: #e0e0e0;
+}
+.e-widget.e-atc .e-boxes {
+  background-color: white;
+}
+.e-widget.e-atc.e-focus .e-in-wrap {
+  
+}
+.e-widget.e-atc .e-in-wrap input.e-input,
+input[type="text"].e-input {
+  padding-left: 0.1em;
+}
+.e-widget.e-atc:hover .e-in-wrap {
+  
+}
+.e-widget.e-atc-popup .e-category {
+  border-bottom: 1px solid #e0e0e0;
+}
+.e-widget.e-atc-popup .e-hover,
+.e-widget.e-atc-popup .e-content .e-atc-trbgcolor.e-hover {
+  
+}
+.e-widget.e-atc-popup .e-hover,
+.e-widget.e-atc-popup .e-content .e-atc-trbgcolor.e-hover {
+  color: #212121;
+  border-color: #e0e0e0;
+}
+.e-widget.e-atc-popup .e-hover,
+.e-widget.e-atc-popup .e-content .e-atc-trbgcolor.e-hover {
+  background: #eeeeee;
+}
+.e-widget.e-atc .e-select:hover,
+.e-widget.e-atc.e-rtl .e-select:hover {
+  
+}
+.e-widget.e-atc .e-select:hover,
+.e-widget.e-atc.e-rtl .e-select:hover {
+  border-color: white;
+  color: #424242;
+}
+.e-widget.e-atc-popup ul li,
+.e-widget.e-atc-popup.e-rtl ul li {
+  
+}
+.e-widget.e-atc-popup ul li,
+.e-widget.e-atc-popup.e-rtl ul li {
+  padding: 13.5px 5px 5px 24px;
+  min-height: 2.1em;
+}
+.e-widget.e-atc .e-select,
+.e-widget.e-atc.e-rtl .e-select,
+.e-widget.e-atc .e-select.e-disable:hover {
+  
+}
+.e-widget.e-atc .e-select,
+.e-widget.e-atc.e-rtl .e-select,
+.e-widget.e-atc .e-select.e-disable:hover {
+  border-color: white;
+  color: #424242;
+}
+.e-widget.e-atc .e-select,
+.e-widget.e-atc.e-rtl .e-select,
+.e-widget.e-atc .e-select.e-disable:hover {
+  background: white;
+}
+.e-widget.e-atc .e-input.e-load {
+  background-image: url(images/ajax-loader.gif);
+}
+.e-widget.e-atc ::-webkit-input-placeholder {
+  
+}
+.e-widget.e-atc ::-webkit-input-placeholder {
+  color: #212121;
+}
+.e-widget.e-atc :-ms-input-placeholder {
+  
+}
+.e-widget.e-atc :-ms-input-placeholder {
+  color: #212121;
+}
+.e-widget.e-atc ::-moz-placeholder {
+  
+}
+.e-widget.e-atc ::-moz-placeholder {
+  color: #212121;
+}
+.e-widget.e-atc :-moz-placeholder {
+  
+}
+.e-widget.e-atc :-moz-placeholder {
+  color: #212121;
+}
+.e-widget.e-atc-popup .e-atc-tdbottom,
+.e-widget.e-atc-popup div.e-atc-tableHeader {
+  border-bottom: 1px solid #e0e0e0;
+}
+.e-widget.e-atc-popup .e-atc-tdright,
+.e-widget.e-atc-popup .e-atc-tableHeaderScroll .e-atc-tableHeaderBorder,
+.e-widget.e-atc-popup div .e-atc-thright {
+  border-right: 1px solid #e0e0e0;
+}
+.e-widget.e-atc-popup .e-atc-tdleft,
+.e-widget.e-atc-popup .e-atc-tableHeaderRTL .e-atc-tableHeaderBorder,
+.e-widget.e-atc-popup div .e-atc-thleft {
+  border-left: 1px solid #e0e0e0;
+}
+.e-widget.e-atc-popup .e-atc-tableHeaderContent th {
+  background: #fafafa;
+  
+}
+.e-widget.e-atc-popup .e-content .e-atc-trbgcolor {
+  background: #fafafa;
+  
+}
+.e-widget.e-atc .e-in-wrap {
+  border: none;
+  border-bottom: 1px solid;
+  border-color: rgba(0, 0, 0, 0.12);
+  background: transparent;
+}
+.e-widget.e-atc .e-in-wrap,
+.e-widget.e-atc .e-in-wrap .e-input {
+  border-radius: 0px;
+}
+.e-widget.e-atc .e-in-wrap input.e-input,
+input[type="text"].e-input {
+  
+}
+.e-widget.e-atc .e-in-wrap input.e-input,
+input[type="text"].e-input {
+  box-shadow: 0 1.83px 1px transparent;
+}
+.e-widget.e-atc-popup {
+  
+}
+.e-widget.e-atc-popup {
+  box-shadow: 0px 2px 3px 1px rgba(0, 0, 0, 0.21);
+}
+.e-widget.e-atc .e-input::selection {
+  
+}
+.e-widget.e-atc .e-input::selection {
+  background: #ff4081;
+  color: white;
+}
+.e-widget.e-atc .e-input::-moz-selection {
+  
+}
+.e-widget.e-atc .e-input::-moz-selection {
+  background: #ff4081;
+  color: white;
+}
+.e-widget.e-atc.e-disable-wrap .e-in-wrap {
+  
+}
+.e-widget.e-atc.e-disable-wrap .e-in-wrap {
+  border-bottom-color: transparent;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.38) 0%, rgba(0, 0, 0, 0.38) 33%, transparent 0%);
+  background-image: -ms-linear-gradient(left, transparent 0%, rgba(0, 0, 0, 0.38) 100%);
+  background-position: bottom -1px left 0;
+  background-size: 4px 1px;
+  background-repeat: repeat-x;
+}
+.e-widget.e-atc .e-in-wrap:before,
+.e-widget.e-atc .e-in-wrap:after {
+  background: #ff4081;
+}
+.e-widget.e-atc .e-select.e-active,
+.e-widget.e-atc .e-select:hover {
+  border-radius: 2px;
+}
+.e-widget.e-atc .e-select:after {
+  background: rgba(0, 0, 0, 0.12);
+}
+.e-widget.e-atc .e-select {
+  right: 5px;
+}
+.e-widget.e-atc .e-visual-mode.e-input {
+  float: none;
+}
+.e-widget.e-atc-popup .e-ul .txt {
+  padding-left: 24px;
+}
+.e-widget.e-atc-popup .e-ul .flag {
+  
+}
+.e-widget.e-atc-popup .e-ul .flag {
+  margin-top: 4px;
+}
+.e-widget.e-atc .e-select .e-icon.e-search {
+  font-size: 18px;
+}
+.e-widget.e-atc .e-autocomplete.e-input {
+  
+}
+.e-widget.e-atc .e-select:active {
+  
+}
+.e-widget.e-atc .e-select.e-disable,
+.e-widget.e-atc .e-select.e-disable:hover {
+  
+}
+.e-widget.e-atc .e-options .e-icon.e-close {
+  
+}
+.e-widget.e-atc .e-options.e-active .e-icon.e-close {
+  
+}
+.e-widget.e-atc .e-options {
+  
+}
+.e-widget.e-atc .e-visual-mode.e-input {
+  
+}
+.e-widget.e-atc-popup .e-atc-tableContent td {
+  
+}
+.e-widget.e-atc .e-options.e-active:hover .e-icon.e-close {
+  
+}
+.e-widget.e-atc .e-in-wrap.e-padding {
+  overflow: hidden;
+}
+.e-widget.e-atc .e-in-wrap.e-padding:before,
+.e-widget.e-atc .e-in-wrap.e-padding:after {
+  height: 3px;
+}
+.e-widget.e-atc-popup .e-activeli,
+.e-widget.e-atc-popup .e-content .e-activeli {
+  background: #3f51b5;
+}

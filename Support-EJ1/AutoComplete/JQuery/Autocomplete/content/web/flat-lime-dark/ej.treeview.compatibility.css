@@ -1,0 +1,195 @@
+/* need verify with UX team*/
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*----------------------OLAP Definition------------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*----------------------material theme-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: #111111;
+  color: white;
+  border-color: #494949;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+/*Theme Color*/
+
+.e-js.e-treeview,
+.e-dragedNode {
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-js.e-treeview .e-text {
+  
+  background-color: transparent;
+}
+.e-js.e-treeview .e-text {
+  color: #dddddd;
+}
+.e-dragedNode {
+  
+}
+.e-dragedNode {
+  background: #aecf49;
+  color: white;
+}
+.e-dragedNode .e-text {
+  
+  float: left;
+}
+.e-dragedNode .e-text {
+  color: white;
+}
+.e-js.e-treeview .e-active,
+.e-widget.e-fullrow-wrap .e-li-active > .e-fullrow {
+  
+  border: 1px solid transparent;
+  border-image: initial;
+}
+.e-js.e-treeview .e-active,
+.e-widget.e-fullrow-wrap .e-li-active > .e-fullrow {
+  color: white;
+}
+.e-js.e-treeview .e-active,
+.e-widget.e-fullrow-wrap .e-li-active > .e-fullrow {
+  background: #aecf49;
+}
+.e-js.e-treeview .e-node-hover,
+.e-js.e-treeview .e-node-focus,
+.e-widget.e-fullrow-wrap .e-li-hover > .e-fullrow,
+.e-widget.e-fullrow-wrap .e-li-focus > .e-fullrow {
+  
+  border-image: initial;
+  cursor: pointer;
+}
+.e-js.e-treeview .e-node-hover,
+.e-js.e-treeview .e-node-focus,
+.e-widget.e-fullrow-wrap .e-li-hover > .e-fullrow,
+.e-widget.e-fullrow-wrap .e-li-focus > .e-fullrow {
+  color: #aaaaaa;
+  border: 1px solid #494949;
+}
+.e-js.e-treeview .e-node-hover,
+.e-js.e-treeview .e-node-focus,
+.e-widget.e-fullrow-wrap .e-li-hover > .e-fullrow,
+.e-widget.e-fullrow-wrap .e-li-focus > .e-fullrow {
+  background: #343e16;
+}
+.e-widget.e-treeview-wrap.e-dragging .e-node-hover,
+.e-widget.e-fullrow-wrap.e-dragging .e-li-hover > .e-fullrow {
+  
+}
+.e-widget.e-treeview-wrap.e-dragging .e-active.e-node-hover,
+.e-widget.e-fullrow-wrap.e-dragging .e-li-active.e-li-hover > .e-fullrow {
+  
+}
+.e-widget.e-treeview-wrap .e-sibling {
+  
+}
+.e-widget.e-treeview-wrap .e-sibling {
+  background: url(images/drop-sibling.png);
+  background-repeat: no-repeat;
+}
+.e-widget.e-treeview-wrap.e-rtl .e-sibling {
+  
+}
+.e-widget.e-treeview-wrap .e-sibling::before {
+  
+}
+.e-js.e-treeview .e-node-disable {
+  filter: alpha(opacity=40);
+  opacity: 0.4;
+}
+.e-js.e-treeview .e-icon.e-load,
+.e-js.e-treeview.e-rtl .e-icon.e-load {
+  background-image: url(images/ajax-loader.gif);
+  background-repeat: no-repeat;
+  
+}
+.e-js.e-treeview .e-icon.e-load,
+.e-js.e-treeview.e-rtl .e-icon.e-load {
+  background-position: right center;
+}
+.e-js.e-treeview.e-rtl .e-icon.e-load {
+  background-position: left center;
+}
+.e-js.e-treeview .e-item .e-icon {
+  
+}
+.e-js.e-treeview .e-item .e-icon {
+  color: #cccccc;
+}
+.e-js.e-treeview .e-fe-popup .e-content {
+  background-color: black;
+  border-color: #777777;
+}
+.e-js.e-treeview .e-fe-popup .e-downtail:after {
+  border-top-color: black;
+}
+.e-js.e-treeview .e-fe-popup .e-downtail:before,
+.e-js.e-treeview .e-fe-popup .e-downtail {
+  border-top-color: #777777;
+}
+.e-js.e-treeview .e-fe-popup .e-spanclicked {
+  border-color: #cccccc;
+}
+.e-drop-count {
+  
+  border-color: black;
+}
+.e-drop-count {
+  background-color: #cccccc;
+  color: black;
+}
+.e-widget.e-fullrow-wrap .e-li-active .e-active,
+.e-widget.e-fullrow-wrap .e-li-hover .e-node-hover,
+.e-widget.e-fullrow-wrap .e-li-focus .e-node-focus {
+  background: transparent;
+}
+.e-widget.e-fullrow-wrap .e-item.e-li-active > .e-text-wrap > .e-icon {
+  
+}
+.e-widget.e-fullrow-wrap .e-item.e-li-active > .e-text-wrap > .e-icon {
+  color: white;
+}
+.e-widget.e-fullrow-wrap .e-item.e-li-hover > .e-text-wrap > .e-icon,
+.e-widget.e-fullrow-wrap .e-item.e-li-active.e-li-focus > .e-text-wrap > .e-icon {
+  
+}
+.e-widget.e-fullrow-wrap .e-item.e-li-hover > .e-text-wrap > .e-icon,
+.e-widget.e-fullrow-wrap .e-item.e-li-active.e-li-focus > .e-text-wrap > .e-icon {
+  color: #cccccc;
+}
+.e-js.e-treeview .e-plus:after,
+.e-js.e-treeview .e-minus:after,
+.e-js.e-treeview .e-icon.e-load:after,
+.e-widget.e-treeview-wrap:not(.e-fullrow-wrap) .e-text:after,
+.e-widget.e-fullrow-wrap .e-fullrow:after {
+  
+}
+.e-js.e-treeview .e-text.e-editable .e-tree-input {
+  
+}

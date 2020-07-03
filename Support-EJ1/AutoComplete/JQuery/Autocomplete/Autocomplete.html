@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Essential Studio for JavaScript : DropDownList - Multi Select Functionalities</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8" />
+    <link href="content/web/default-theme/ej.web.all.css" rel="stylesheet" />
+    <link href="content/default.css" rel="stylesheet" />
+    <link href="content/default-responsive.css" rel="stylesheet" />
+	<!--[if lt IE 9]>
+	<script src="../scripts/jquery-1.11.3.min.js" type="text/javascript" ></script> 
+	<![endif]-->
+	<!--[if IE 9]><!-->
+	<script src="scripts/jquery-3.1.1.min.js" type="text/javascript"> </script>
+	<!--<![endif]--> 
+	  
+    <script src="scripts/ej.core.js" type="text/javascript"></script>
+	<script src="scripts/ej.globalize.js" type="text/javascript"></script>
+	<script src="scripts/ej.scroller.js" type="text/javascript"></script>
+	<script src="scripts/ej.autocomplete.js" type="text/javascript"></script>
+	<script src="scripts/ej.data.js" type="text/javascript"></script>
+	<script src="jsondata.min.js" type="text/javascript"></script>
+</head>
+<body>
+     <div class="content-container-fluid">
+        <div class="row">
+            <div class="cols-sample-area">
+                <div class="frame">
+                    <div class="control">
+                        <span class="txt">Using Delimiter</span>
+                        <input type="text" id="delimit" />
+                    </div>
+                    <div class="control">
+                        <span class="txt">Using VisualMode</span>
+                        <input type="text" id="visualmode" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" class="jsScript">
+        $(function () {
+            // declaration
+            var languages = [
+                    "Action,Script", "AppleScript", "ASP", "BASIC", "BeanShell",
+                    "C", "C++", "C#", "Clojure", "COBOL", "ColdFusion", "DataFlex", "DCL",
+                    "Erlang", "E#", "Fortran", "F#", "Flex", "Google Apps Script", "Groovy", "Haskell", "Hope", "IBM HAScript",
+                    "Java", "JavaScript", "J#", "Lisp", "MATLAB", "Oak", "Perl", "PHP",
+                    "Python", "Ruby", "Scala", "Scheme", "T-SQL", "WebQL", "ZOPL"
+            ];
+
+            $("#delimit").ejAutocomplete({
+                showPopupButton: true,
+                width: "100%",
+                multiSelectMode: ej.MultiSelectMode.Delimiter,
+                dataSource: languages
+            });
+            $("#visualmode").ejAutocomplete({
+                showPopupButton: true,
+                width: "100%",
+                multiSelectMode: ej.MultiSelectMode.VisualMode,
+                dataSource: languages
+            });
+        });
+    </script>
+    <style type="text/css" class="cssStyles">
+        .frame {
+            height: 150px;
+        }
+
+        .control {
+            width: 100%;
+            display: inline-block;
+            float: left;
+        }
+
+            .control:first-child {
+                margin-bottom: 15px;
+            }
+
+        .txt {
+            display: block;
+            margin-bottom: 12px;
+        }
+    </style>
+</body>
+</html>

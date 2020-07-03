@@ -1,0 +1,274 @@
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*-----------------------OLAP Definition-----------------*/
+/*-----------------------OLAP Definition End-----------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*------------------ DatePicker ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: white;
+  color: #111111;
+  border-color: #e0e0e0;
+  font-family: 'Roboto', Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-js.e-ganttchart .e-ganttviewerbodyContianer {
+  background-color: white;
+}
+.e-js.e-ganttchart .e-ganttviewerbodyContianerparent {
+  border-right-color: #e0e0e0;
+}
+.e-js.e-ganttchart .e-headercell-weekend > div {
+  
+}
+.e-js.e-ganttchart .e-headercell-weekend > div {
+  background: #fafafa;
+}
+.e-js.e-ganttchart .e-weekends {
+  background-color: #fafafa;
+}
+.e-js.e-ganttchart-core {
+  background: white;
+}
+.e-js.e-ganttchart .e-borderbox {
+  border-bottom-color: white;
+}
+.e-js.e-ganttchart .e-schedule-day-headercell,
+.e-js.e-ganttchart .e-schedule-hour-headercell,
+.e-js.e-ganttchart .e-schedule-week-headercell {
+  color: rgba(0, 0, 0, 0.87);
+  border-color: #e0e0e0 !important;
+  font-family: 'Roboto', Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  
+}
+.e-js.e-ganttchart .e-schedule-day-headercell,
+.e-js.e-ganttchart .e-schedule-hour-headercell,
+.e-js.e-ganttchart .e-schedule-week-headercell {
+  height: 27px;
+  line-height: 27px;
+}
+.e-gantt-dialog {
+  width: 42% !important;
+}
+.e-gantt-dialog .e-gantt-validation-btn {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  width: 100%;
+  height: 27px;
+}
+.e-js.e-ganttchart .e-ganttviewerheaderContainer {
+  background: #fafafa;
+  color: rgba(0, 0, 0, 0.87);
+  border-bottom-color: #e0e0e0 !important;
+  border-right-color: #e0e0e0;
+  
+}
+.e-js.e-ganttchart .e-ganttviewerheaderContainer {
+  height: 54px !important;
+}
+.e-js.e-ganttchart .e-milestone-top {
+  border-bottom-color: #212121;
+}
+.e-js.e-ganttchart .e-milestone-bottom {
+  border-top-color: #212121;
+}
+.e-js.e-ganttchart .e-taskbarname,
+.e-js.e-ganttchart .e-resourceinfo {
+  color: #212121;
+  font-family: 'Roboto', Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-js.e-ganttchart .e-connectorline-rightarrow {
+  border-left-color: #212121;
+}
+.e-js.e-ganttchart .e-connectorline-leftarrow {
+  border-right-color: #212121;
+}
+.e-js.e-progressbartooltip,
+.e-js.e-editingtooltip,
+.e-js.e-tooltipganttpredecessor {
+  
+}
+.e-js.e-progressbartooltip,
+.e-js.e-editingtooltip,
+.e-js.e-tooltipganttpredecessor {
+  background-color: #616161;
+  color: white;
+  border-color: transparent;
+}
+.e-js .e-tooltiptaskname {
+  
+  font-family: 'Roboto', Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-js .e-tooltiptaskname {
+  color: white;
+}
+.e-js.e-tooltipgantt,
+.e-js.e-progressbartooltip,
+.e-js.e-editingtooltip,
+.e-js.e-tooltipganttpredecessor {
+  font-family: 'Roboto', Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-js.e-ganttchart .e-tasklabel {
+  font-family: 'Roboto', Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  color: white;
+}
+.e-js.e-ganttchart .e-gantt-mouseclick td.e-chartcell {
+  
+}
+.e-js.e-ganttchart .e-gantt-mouseclick {
+  
+}
+.e-js.e-ganttchart .e-gantt-mouseclick {
+  background: rgba(245, 245, 245, 0.7);
+}
+.e-js.e-ganttchart .e-progresshandle {
+  background: #212121;
+}
+.e-js.e-ganttchart .e-progresshandleafter {
+  border-bottom-color: #212121;
+}
+.e-js.e-ganttchart .e-gantt-parenttaskbar-progress,
+.e-js.e-ganttchart .e-gantt-parenttaskbar-innerdiv {
+  
+}
+.e-js.e-ganttchart .e-gantt-parenttaskbar-progress,
+.e-js.e-ganttchart .e-gantt-parenttaskbar-innerdiv {
+  border-color: #212121;
+}
+.e-js.e-ganttchart .e-gantt-childtaskbar-progress,
+.e-js.e-ganttchart .e-gantt-childtaskbar {
+  
+}
+.e-js.e-ganttchart .e-gantt-childtaskbar-progress,
+.e-js.e-ganttchart .e-gantt-childtaskbar {
+  border-color: #3f51b5;
+}
+.e-js.e-ganttchart .e-chartcell {
+  border-bottom-color: transparent;
+}
+.e-js.e-ganttchart .e-gantt-mouseclick .e-chartcell .e-resourceinfo,
+.e-js.e-ganttchart .e-gantt-mouseclick .e-chartcell .e-tasknameContainer .e-taskbarname {
+  font-family: 'Roboto', Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  color: #212121;
+}
+.e-js.e-ganttchart .e-gantt-parenttaskbar-progress {
+  
+}
+.e-js.e-ganttchart .e-gantt-parenttaskbar-progress {
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#212121', endColorstr='#212121', GradientType=0);
+}
+.e-js.e-ganttchart .e-gantt-parenttaskbar-progress {
+  background: #212121;
+}
+.e-js.e-ganttchart .e-gantt-parenttaskbar-innerdiv {
+  background-color: rgba(33, 33, 33, 0.6);
+  background: #212121 \9;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#212121', endColorstr='#212121', GradientType=0);
+}
+.e-js.e-ganttchart .e-gantt-childtaskbar-progress {
+  background: #3f51b5;
+}
+.e-js.e-ganttchart .e-gantt-childtaskbar {
+  background-color: rgba(63, 81, 181, 0.6);
+  background: #3f51b5 \9;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+}
+.e-js.e-ganttchart .e-manualprogressbar {
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#67c1b2', endColorstr='#67c1b2', GradientType=0);
+  border-color: #4fb29f;
+}
+.e-js.e-ganttchart .e-manualprogressbar {
+  background: #67c1b2;
+}
+.e-js.e-ganttchart .e-manualchildtaskbar {
+  background-color: #8dd1c4;
+  border-color: #4fb29f;
+}
+.e-js.e-ganttchart .e-line {
+  border-color: #212121;
+}
+.e-js.e-ganttchart .e-connectorpoint-hover {
+  background-color: #212121;
+}
+.e-js.e-ganttchart .e-gantt-falseLine {
+  border-top-color: #212121;
+}
+.e-js.e-ganttchart .e-gripper:before {
+  color: rgba(255, 255, 255, 0.4);
+  background: white \9;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+}
+.e-js.e-ganttchart .e-ganttgridlines {
+  border-bottom-color: #e0e0e0;
+}
+.e-js.e-ganttchart .e-criticalconnectorline {
+  border-color: #ff5555 !important;
+}
+.e-js.e-ganttchart .e-criticalconnectorlinerightarrow {
+  border-left-color: #ff5555 !important;
+}
+.e-js.e-ganttchart .e-criticalconnectorlineleftarrow {
+  border-right-color: #ff5555 !important;
+}
+.e-js.e-ganttchart .e-criticalprogressbar {
+  background: #ff5555 !important;
+  border-color: #ff5555 !important;
+}
+.e-js.e-ganttchart .e-criticaltaskbar {
+  background: #ff8b8b !important;
+  border-color: #ff8b8b !important;
+}
+.e-js .e-gantt-manualparenttaskbar {
+  background-color: #b3b3b3;
+}
+.e-js .e-gantt-manualparenttaskbar-left,
+.e-js .e-gantt-manualparenttaskbar-right {
+  border-color: #b3b3b3;
+}
+.e-js .e-gantt-manualparenttaskbar-connectorpoint-hover {
+  background-color: #b3b3b3 !important;
+}
+.e-rg-rangdiv {
+  background: red;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  opacity: 0.8;
+}
+.e-js .e-gantt-taskbarSelection .e-gantt-childtaskbar:before {
+  border-color: black;
+}
+.e-js.e-ganttchart .e-connectorline-leftarrow-hover {
+  border-right-color: #0026da !important;
+}
+.e-js.e-ganttchart .e-connectorline-rightarrow-hover {
+  border-left-color: #0026da !important;
+}
+.e-js.e-ganttchart .e-connectorline-hover {
+  border-color: #0026da !important;
+  outline-color: #0026da !important;
+}

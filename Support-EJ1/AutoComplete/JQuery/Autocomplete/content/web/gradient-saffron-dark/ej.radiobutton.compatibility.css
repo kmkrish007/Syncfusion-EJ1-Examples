@@ -1,0 +1,170 @@
+/* need verify with UX team*/
+.pager-hover-gradient {
+  background: #57452d;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #57452d, #57380f);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #57452d), color-stop(100%, #57380f));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #57452d, #57380f);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #57452d, #57380f);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #57452d, #57380f);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #57452d, #57380f);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#57452d', endColorstr='#57380f', GradientType=0);
+  /* IE6-9 */
+
+}
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*----------------------OLAP Definition------------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*----------------------material theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: #111111;
+  color: white;
+  border-color: #494949;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+/*Theme Color*/
+
+.e-widget.e-radiobtn-wrap > span {
+  background-image: none;
+  
+}
+.e-widget.e-radiobtn-wrap > span {
+  /*other*/
+  background-color: black;
+  border-color: #494949;
+}
+.e-widget.e-radiobtnwrap.e-disable > span,
+.e-widget.e-radiobtn-wrap.e-disable > span.e-rad-active,
+.e-widget.e-radiobtn-wrap.e-disable > span.e-rad-active:hover,
+.e-widget.e-radiobtn-wrap.e-disable .e-circle_01,
+.e-widget.e-radiobtn-wrap.e-disable > span:hover {
+  
+}
+.e-widget.e-radiobtn-wrap > span.e-rad-active,
+.e-widget.e-radiobtn-wrap > span.e-rad-active:hover {
+  border-color: #494949;
+  
+}
+.e-widget.e-radiobtn-wrap > span.e-rad-active {
+  
+}
+.e-widget.e-radiobtn-wrap.e-disable > span.e-rad-active {
+  
+}
+.e-widget.e-radiobtn-wrap > span.e-rad-active:hover {
+  
+}
+.e-widget.e-radiobtn-wrap.e-disable > span.e-rad-active:hover {
+  
+}
+.e-widget.e-radiobtn-wrap > span:hover {
+  
+}
+.e-widget.e-radiobtn-wrap > span:hover {
+  /*other*/
+  border-color: #494949;
+}
+.e-widget.e-radiobtn-wrap.e-disable > span:hover {
+  
+}
+.e-widget.e-radiobtn-wrap.e-focus > span {
+  box-shadow: 0 0 2px #ababab;
+}
+.e-widget.e-radiobtn-wrap .e-spanicon {
+  box-sizing: content-box;
+}
+.e-widget.e-radiobtn-wrap .e-rad-select {
+  background: none repeat scroll 0 0 transparent;
+}
+.e-widget.e-radiobtn-wrap .e-circle_01 {
+  color: #fbbe6d;
+  border-color: #494949;
+  
+}
+.e-widget.e-radiobtn-wrap .e-circle_01:hover {
+  
+}
+.e-widget.e-radiobtn-wrap.e-disable .e-circle_01,
+.e-widget.e-radiobtn-wrap.e-disable .e-text {
+  
+}
+.e-widget.e-radiobtn-wrap .e-text {
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  font-size: 12px;
+  
+  color: #dddddd;
+}
+.e-widget.e-radiobtn-wrap.e-material-animate .e-radmedium span.e-rad-icon.e-icon.e-circle_01 {
+  
+}
+.e-widget.e-radiobtn-wrap.e-material-animate .e-radsmaller span.e-rad-icon.e-icon.e-circle_01 {
+  
+}
+.e-widget.e-radiobtn-wrap span.e-rad-icon.e-icon.e-rad-select:before {
+  
+}
+
+
+.e-widget.e-radiobtn-wrap span.e-spanicon.e-rad-active {
+  
+}
+.e-widget.e-radiobtn-wrap.e-material-animate span.e-spanicon:after {
+  
+}
+.e-widget.e-radiobtn-wrap.e-material-animate span.e-spanicon:after {
+  
+}
+.e-widget.e-radiobtn-wrap.e-material-animate span.e-spanicon.e-rad-active:after {
+  
+}
+.e-widget.e-radiobtn-wrap.e-material-animate span.e-spanicon:after {
+  
+}
+.e-widget.e-radiobtn-wrap.e-disable .e-circle_01,
+.e-widget.e-radiobtn-wrap.e-disable span.e-rad-select {
+  color: #525252;
+}
+.e-widget.e-radiobtn-wrap.e-disable > span {
+  background-color: #1d1d1d;
+  border-color: #333333;
+}
+.e-widget.e-radiobtn-wrap.e-disable {
+  opacity: 1;
+}
+.e-widget.e-radiobtn-wrap.e-disable.e-focus > span {
+  box-shadow: none;
+}

@@ -1,0 +1,311 @@
+/* need verify with UX team*/
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*----------------------OLAP Definition------------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*----------------------material theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: white;
+  color: #111111;
+  border-color: #c8c8c8;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+/*------------------------------reportviewer Theme Start-------------------------------*/
+
+.e-js .e-reportviewer-outerborder:hover {
+  border-color: #c8c8c8;
+  color: #333333;
+}
+.e-js .e-reportviewer-outerborder:hover {
+  background: #fde3c2;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #fde3c2, #fcce91);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fde3c2), color-stop(100%, #fcce91));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #fde3c2, #fcce91);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #fde3c2, #fcce91);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #fde3c2, #fcce91);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #fde3c2, #fcce91);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fde3c2', endColorstr='#fcce91', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-js.e-reportviewer-tbdiv.e-reportviewer-exporttip {
+  border-color: #c8c8c8;
+  
+}
+.e-js.e-reportviewer-tbdiv.e-reportviewer-exporttip {
+  background: whitesmoke;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, whitesmoke, #dddddd);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, whitesmoke), color-stop(100%, #dddddd));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, whitesmoke, #dddddd);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, whitesmoke, #dddddd);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, whitesmoke, #dddddd);
+  /* IE10+ */
+  background: linear-gradient(to bottom, whitesmoke, #dddddd);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='whitesmoke', endColorstr='#dddddd', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-js.e-reportviewer-tbdiv.e-reportviewer-exporttip {
+  /*other*/
+  background-color: white;
+}
+.e-js.e-reportviewer-tbdiv.e-reportviewer-fittopagetip {
+  border-color: #c8c8c8;
+  
+}
+.e-js.e-reportviewer-tbdiv.e-reportviewer-fittopagetip {
+  background: whitesmoke;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, whitesmoke, #dddddd);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, whitesmoke), color-stop(100%, #dddddd));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, whitesmoke, #dddddd);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, whitesmoke, #dddddd);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, whitesmoke, #dddddd);
+  /* IE10+ */
+  background: linear-gradient(to bottom, whitesmoke, #dddddd);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='whitesmoke', endColorstr='#dddddd', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-js.e-reportviewer-tbdiv.e-reportviewer-fittopagetip {
+  /*other*/
+  background-color: white;
+}
+.e-js.e-reportviewer-tbdiv.e-reportviewer-tooltip {
+  
+  border-color: #c8c8c8;
+}
+.e-js.e-reportviewer-tbdiv.e-reportviewer-tooltip {
+  /*other*/
+  background-color: white;
+}
+.e-js .e-reportviewer-headerspan {
+  
+}
+.e-js .e-reportviewer-headerspan,
+.e-js .e-reportviewer-contentspan {
+  
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial !important;
+}
+.e-js .e-reportviewer-headerspan,
+.e-js .e-reportviewer-contentspan {
+  /*other*/
+  color: #333333;
+}
+.e-js .e-reportviewer-viewer {
+  font-size: 14px;
+}
+.e-js .e-reportviewer-popuppageno,
+.e-js .e-reportviewer-popuptotalpage {
+  color: white;
+}
+.e-js.e-reportviewer-toolbarcontainer .ejinputtext {
+  
+}
+.e-js.e-reportviewer-toolbarcontainer .ejinputtext {
+  /*other*/
+  background-color: white !important;
+}
+.e-js .e-reportviewer-viewerblock {
+  
+}
+.e-js .e-reportviewer-viewerblock {
+  background-color: #e7e7e7;
+  font-size: 12.5px;
+}
+.e-js .e-reportviewer-viewerblock {
+  color: #333333;
+}
+.e-js .e-reportviewer-viewerblockcellcontent {
+  
+}
+.e-js .e-reportviewer-viewerblockcellcontent {
+  font-size: 14.5px;
+}
+.e-js .e-reportviewer-viewerblockcellcontent {
+  color: #333333;
+}
+.e-js .e-reportviewer-viewreport {
+  border-left-color: #c8c8c8;
+  
+}
+.e-js .e-reportviewer-scrollcontainer,
+.e-js .e-reportviewer-viewer > .e-splitter .e-pane {
+  
+}
+.e-js .e-reportviewer-scrollcontainer,
+.e-js .e-reportviewer-viewer > .e-splitter .e-pane {
+  /*other*/
+  background-color: #cccccc;
+}
+.e-js .e-reportviewer-pageviewcontainer {
+  
+}
+.e-js .e-reportviewer-pageviewcontainer {
+  /*other*/
+  background-color: #cccccc;
+}
+.e-js .e-reportviewer-pageview {
+  
+}
+.e-js .e-reportviewer-pageview {
+  /*other*/
+  -moz-box-shadow: rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: rgba(0, 0, 0, 0.6);
+  box-shadow: rgba(0, 0, 0, 0.3);
+  border-color: gray;
+}
+.e-js .e-reportviewer-label,
+.e-js .e-reportviewer-tbpage,
+.e-js .e-reportviewer-elementalignments,
+.e-js .e-reportviewer-textbox {
+  color: #333333;
+}
+.e-js .e-reportviewer-label,
+.e-js .e-reportviewer-tbpage,
+.e-js .e-reportviewer-elementalignments,
+.e-js .e-reportviewer-textbox {
+  font-size: 14px;
+  font-weight: normal;
+}
+.e-js .e-reportviewer-labelpageno {
+  font-size: 16px !important;
+}
+.e-js .e-reportviewer-documentmapcontainer div,
+.e-js .e-reportviewer-documentmappopup {
+  background-color: #ebebeb !important;
+}
+.e-js .e-reportviewer-pagepopupinfo {
+  background-color: black;
+}
+.e-js .e-reportviewer-viewerblock,
+.e-js .e-reportviewer-pagenumber,
+.e-js .e-reportviewer-tbpage,
+.e-js .e-reportviewer-tbdiv.e-reportviewer-exportlist,
+.e-js .e-reportviewer-label,
+.e-js .e-reportviewer-labelpageno {
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial !important;
+}
+.e-js.e-reportviewer-toolbarcontainer,
+.e-js .e-reportviewer-viewerblock,
+.e-js .e-reportviewer-viewercontainer,
+.e-js .e-reportviewer-elementalignments,
+.e-js .e-reportviewer-viewerblockcellcontent,
+.e-js .e-reportviewer-viewerblockcontent,
+.e-js .e-reportviewer-textbox,
+.e-js .e-reportviewer-documentmappopup {
+  
+}
+.e-js.e-reportviewer-toolbarcontainer,
+.e-js .e-reportviewer-viewerblock,
+.e-js .e-reportviewer-viewercontainer,
+.e-js .e-reportviewer-elementalignments,
+.e-js .e-reportviewer-viewerblockcellcontent,
+.e-js .e-reportviewer-viewerblockcontent,
+.e-js .e-reportviewer-textbox,
+.e-js .e-reportviewer-documentmappopup {
+  /*other*/
+  border-color: #c8c8c8;
+}
+.e-js .e-reportviewer-popupli:hover {
+  
+}
+.e-js .e-reportviewer-popupli:hover {
+  background: #fde3c2;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #fde3c2, #fcce91);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fde3c2), color-stop(100%, #fcce91));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #fde3c2, #fcce91);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #fde3c2, #fcce91);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #fde3c2, #fcce91);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #fde3c2, #fcce91);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fde3c2', endColorstr='#fcce91', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-js .e-reportviewer-popupli:hover {
+  background-color: #fde3c2;
+}
+.e-js .e-reportviewer-popupli {
+  
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial !important;
+  font-size: 14px !important;
+  font-weight: normal !important;
+}
+.e-js .e-reportviewer-popupli {
+  color: #333333 !important;
+}
+.e-js .e-reportviewer-gotonext.e-reportviewer-disabled,
+.e-js .e-reportviewer-gotoprevious.e-reportviewer-disabled,
+.e-js .e-reportviewer-gotolast.e-reportviewer-disabled,
+.e-js .e-reportviewer-gotofirst.e-reportviewer-disabled {
+  opacity: 0.5;
+}
+.e-js .e-reportviewer-viewreportbutton {
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial !important;
+  
+}
+.e-js .e-reportviewer-alert-icon {
+  color: #ee2924;
+  font-size: 40px;
+}
+.e-js .e-reportviewer-error-content {
+  background-color: whitesmoke;
+  font-size: 12.5px;
+}
+.e-js .e-reportviewer-scroller .e-scrollbar .e-icon {
+  font-size: 0;
+}
+/*------------------------------reportviewer Theme End-------------------------------*/
+

@@ -1,0 +1,421 @@
+/* need verify with UX team*/
+/*--------------------Maps ----------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*----------------------OLAP Definition------------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*----------------------material theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: white;
+  color: #111111;
+  border-color: #c8c8c8;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+/*------------------------------------- dropdownlist -------------------------------------------*/
+
+.e-widget.e-ddl .e-options {
+  
+}
+.e-widget .e-atc .e-in-wrap,
+.e-widget .e-atc .e-input,
+.e-widget.e-atc-popup,
+.e-widget .e-atc .e-options {
+  background-color: white;
+  border-color: #c8c8c8;
+  
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-widget .e-atc .e-in-wrap,
+.e-widget .e-atc .e-input,
+.e-widget.e-atc-popup,
+.e-widget .e-atc .e-options {
+  color: #333333;
+  font-size: 14px;
+  font-weight: normal;
+}
+.e-widget.e-ddl .e-input,
+.e-widget.e-ddl .e-input[readonly],
+.e-widget.e-ddl-popup,
+.e-widget.e-ddl .e-options {
+  
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  font-size: 14px;
+  font-weight: normal;
+  cursor: default;
+}
+.e-widget.e-ddl .e-input,
+.e-widget.e-ddl .e-input[readonly],
+.e-widget.e-ddl-popup,
+.e-widget.e-ddl .e-options {
+  /*other*/
+
+  
+}
+.e-widget.e-ddl .e-input,
+.e-widget.e-ddl .e-input[readonly],
+.e-widget.e-ddl-popup,
+.e-widget.e-ddl .e-options {
+  color: #333333;
+  background-color: white;
+}
+.e-widget.e-atc-popup ul li.e-category {
+  
+}
+.e-widget.e-ddl .e-in-wrap,
+.e-widget.e-ddl-popup,
+.e-ddl .e-options,
+.e-widget.e-ddl-popup .e-atc.e-search {
+  
+}
+.e-widget.e-ddl .e-in-wrap,
+.e-widget.e-ddl-popup,
+.e-ddl .e-options,
+.e-widget.e-ddl-popup .e-atc.e-search {
+  /*other*/
+
+  
+}
+.e-widget.e-ddl .e-in-wrap,
+.e-widget.e-ddl-popup,
+.e-ddl .e-options,
+.e-widget.e-ddl-popup .e-atc.e-search {
+  border-color: #c8c8c8;
+}
+.e-widget.e-ddl .e-options.e-active {
+  
+}
+.e-widget.e-ddl .e-options.e-active {
+  /*other*/
+  background-color: #cee292;
+  color: white;
+  border-color: #cee292;
+}
+.e-widget.e-ddl .e-options:hover {
+  
+}
+.e-widget.e-ddl .e-options .e-icon.e-close {
+  
+}
+.e-widget.e-ddl-popup div > ul li {
+  
+}
+.e-widget.e-ddl-popup .e-active.e-hover {
+  
+}
+.e-widget.e-ddl .e-boxes {
+  background-color: white;
+}
+.e-widget.e-ddl.e-popactive .e-in-wrap:before,
+.e-widget.e-ddl.e-popactive .e-in-wrap:after {
+  
+}
+.e-widget.e-ddl.e-focus .e-in-wrap {
+  
+}
+.e-widget.e-ddl.e-focus .e-in-wrap {
+  /*other*/
+  box-shadow: 0 0 2px #cccccc;
+}
+.e-widget.e-ddl:hover .e-in-wrap {
+  
+}
+.e-widget.e-ddl .e-input.e-watermark {
+  color: #c5c4c4 !important;
+  font-style: italic;
+}
+.e-widget.e-ddl-popup .e-hover {
+  
+}
+.e-widget.e-ddl-popup .e-hover {
+  /*other*/
+
+  
+}
+.e-widget.e-ddl-popup .e-hover {
+  color: #282827;
+}
+.e-widget.e-ddl-popup .e-hover {
+  background: #e7f1c9;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #e7f1c9, #d3e59b);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e7f1c9), color-stop(100%, #d3e59b));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #e7f1c9, #d3e59b);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #e7f1c9, #d3e59b);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #e7f1c9, #d3e59b);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #e7f1c9, #d3e59b);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e7f1c9', endColorstr='#d3e59b', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-widget.e-ddl .e-select:hover,
+.e-widget.e-ddl.e-rtl .e-select:hover {
+  
+}
+.e-widget.e-ddl .e-select:hover,
+.e-widget.e-ddl.e-rtl .e-select:hover {
+  /*other*/
+
+  
+}
+.e-widget.e-ddl .e-select:hover,
+.e-widget.e-ddl.e-rtl .e-select:hover {
+  color: #282827;
+  border-color: #c8c8c8;
+}
+.e-widget.e-ddl .e-select:hover,
+.e-widget.e-ddl.e-rtl .e-select:hover {
+  background: #e7f1c9;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #e7f1c9, #d3e59b);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e7f1c9), color-stop(100%, #d3e59b));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #e7f1c9, #d3e59b);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #e7f1c9, #d3e59b);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #e7f1c9, #d3e59b);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #e7f1c9, #d3e59b);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e7f1c9', endColorstr='#d3e59b', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-widget.e-ddl .e-select:active,
+.e-widget.e-ddl.e-rtl .e-select:active {
+  
+}
+.e-widget.e-ddl .e-select.e-disable {
+  
+}
+.e-widget.e-ddl .e-input.e-disable {
+  
+}
+.e-widget.e-ddl-popup .e-active {
+  
+  border-bottom: 1px solid white;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.e-widget.e-ddl-popup .e-active {
+  /*other*/
+
+  
+}
+.e-widget.e-ddl-popup .e-active {
+  color: white;
+}
+.e-widget.e-ddl-popup .e-active {
+  background: #cee292;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #cee292, #aecf49);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #cee292), color-stop(100%, #aecf49));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #cee292, #aecf49);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #cee292, #aecf49);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #cee292, #aecf49);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #cee292, #aecf49);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cee292', endColorstr='#aecf49', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-widget.e-ddl-popup .e-active.e-hover {
+  
+}
+.e-widget.e-ddl .e-select,
+.e-widget.e-ddl.e-rtl .e-select,
+.e-widget.e-ddl .e-disable.e-select:hover {
+  
+}
+.e-widget.e-ddl .e-select,
+.e-widget.e-ddl.e-rtl .e-select,
+.e-widget.e-ddl .e-disable.e-select:hover {
+  
+  /*other*/
+
+  color: #686969;
+  border-color: #c8c8c8;
+}
+.e-widget.e-ddl .e-select,
+.e-widget.e-ddl.e-rtl .e-select,
+.e-widget.e-ddl .e-disable.e-select:hover {
+  background: whitesmoke;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, whitesmoke, #dddddd);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, whitesmoke), color-stop(100%, #dddddd));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, whitesmoke, #dddddd);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, whitesmoke, #dddddd);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, whitesmoke, #dddddd);
+  /* IE10+ */
+  background: linear-gradient(to bottom, whitesmoke, #dddddd);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='whitesmoke', endColorstr='#dddddd', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-widget.e-ddl .e-select.e-load {
+  background-image: url(images/ajax-loader.gif);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.e-widget.e-ddl-popup .e-resize-handle {
+  cursor: se-resize;
+  float: right;
+  padding: 4px 3px 0 0;
+  margin-right: 2px;
+}
+.e-widget.e-ddl-popup .e-resize-handle.e-rtl-resize {
+  float: left;
+  cursor: sw-resize;
+  transform: rotate(90deg);
+  padding: 3px 0 0 3px;
+}
+.e-widget.e-ddl-popup .e-resizebar {
+  border-top: 1px solid white;
+  height: 20px;
+  width: auto;
+  display: block;
+}
+.e-widget.e-ddl-popup .e-resizebar {
+  background: whitesmoke;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, whitesmoke, #dddddd);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, whitesmoke), color-stop(100%, #dddddd));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, whitesmoke, #dddddd);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, whitesmoke, #dddddd);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, whitesmoke, #dddddd);
+  /* IE10+ */
+  background: linear-gradient(to bottom, whitesmoke, #dddddd);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='whitesmoke', endColorstr='#dddddd', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-widget.e-ddl-popup .e-atc.e-search .e-search:before,
+.e-widget.e-ddl-popup .e-atc.e-search .e-cross-circle:before {
+  color: #c8c8c8;
+}
+.e-widget.e-ddl-popup .e-checkwrap.e-check-act,
+.e-widget.e-ddl-popup .e-checkwrap:hover {
+  
+}
+.e-widget.e-ddl-popup .e-checkwrap.e-check-act,
+.e-widget.e-ddl-popup .e-checkwrap:hover {
+  border: 1px solid #c8c8c8;
+}
+.e-widget.e-ddl-popup .e-checkwrap.e-check-act:hover {
+  
+}
+.e-widget.e-ddl-popup .e-checkwrap.e-check-act {
+  
+}
+.e-widget.e-ddl-popup .e-checkwrap {
+  
+  background-color: white;
+}
+.e-widget.e-ddl-popup .e-checkwrap {
+  
+  /*other*/
+  border-radius: none;
+}
+.e-widget.e-ddl-popup .e-checkwrap {
+  border: 1px solid #c8c8c8;
+}
+.e-widget.e-ddl-popup .e-checkwrap:hover {
+  
+}
+.e-widget.e-ddl-popup .e-check-act {
+  
+}
+.e-widget.e-ddl-popup .e-check-act {
+  /*other*/
+
+  
+}
+.e-widget.e-ddl-popup .e-check-act {
+  color: #cee292;
+}
+.e-widget .e-dropdownlist::-webkit-input-placeholder {
+  color: #333333;
+}
+.e-widget .e-dropdownlist:-ms-input-placeholder {
+  color: #333333;
+}
+.e-widget .e-dropdownlist::-moz-placeholder {
+  color: #333333;
+}
+.e-widget .e-dropdownlist:-moz-placeholder {
+  color: #333333;
+}
+.e-widget.e-ddl.e-widget.e-popactive .e-select .e-icon {
+  
+}
+.e-widget.e-ddl.e-widget .e-select .e-icon {
+  
+}
+.e-widget.e-ddl-popup .e-check-inact.e-ddl-anim:before {
+  
+}
+.e-widget.e-ddl-popup .e-check-act.e-ddl-anim:after {
+  
+}
+.e-widget.e-ddl.e-widget .e-in-wrap.e-disable {
+  border-color: #e3e3e3;
+  background-color: whitesmoke;
+  opacity: initial;
+}
+.e-widget.e-ddl.e-widget .e-input.e-disable {
+  background: whitesmoke;
+}
+.e-widget.e-ddl.e-widget .e-select.e-disable {
+  background: #d6d7d7;
+  border-color: #e3e3e3;
+}
+.e-widget.e-ddl.e-widget .e-input.e-disable {
+  
+}

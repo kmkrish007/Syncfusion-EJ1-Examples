@@ -1,0 +1,289 @@
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*-----------------------OLAP Definition-----------------*/
+/*-----------------------OLAP Definition End-----------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*------------------ DatePicker ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: white;
+  color: #111111;
+  border-color: #e0e0e0;
+  font-family: 'Roboto', Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-innerIncrement:hover {
+  background-image: url(../common-images/maps/Zoom-In_hover.png);
+}
+.e-legendLabelContent {
+  color: #212121;
+}
+.e-map {
+  color: #212121;
+  background-color: white;
+  border-color: #e0e0e0;
+}
+.e-drilldownHeader {
+  /*.custom-gradient(@active-gradient-color, @active-bg-stcolor, @active-bg-endcolor, 0%, 0% );*/
+  background-color: #fafafa;
+}
+.e-map-home {
+  background-image: url(../common-images/maps/Home.png);
+}
+.e-map-labelContainer {
+  width: 200px;
+  height: 400px;
+  border: 1px solid gray;
+}
+.e-map-label {
+  cursor: pointer;
+  color: black;
+  padding: 5px;
+}
+.e-map-label:hover {
+  background-color: #eeeeee;
+}
+.e-map-home {
+  height: 30px;
+  width: 30px;
+}
+.e-map-home:hover {
+  background-image: url(../common-images/maps/Home_hover.png);
+}
+.e-map-contribution {
+  border-color: #dbdbde;
+  right: 0;
+  bottom: 0;
+  font-family: sans-serif;
+  font-weight: normal;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.7);
+  font-size: 10px;
+  padding: 2px 4px;
+  z-index: 1000;
+  border-style: solid;
+  border-width: 1px;
+}
+.sliderParent {
+  height: 150px;
+  width: 10px;
+  margin-top: -197px;
+  margin-left: 34px;
+}
+.e-innerIncrement {
+  background-image: url(../common-images/maps/Zoom-In.png);
+  height: 25px;
+  width: 25px;
+}
+.e-innerDecrement:hover {
+  background-image: url(../common-images/maps/Zoom-out_hover.png);
+}
+.e-innerDecrement {
+  background-image: url(../common-images/maps/Zoom-out.png);
+  height: 25px;
+  width: 25px;
+}
+.nav-dec-Vert {
+  margin-top: 150px;
+  margin-left: 27px;
+}
+.nav-inc-Vert {
+  margin-top: 40px;
+  margin-left: 27px;
+}
+.nav-dec-Horz {
+  margin-top: -24px;
+  margin-left: 0px;
+}
+.nav-inc-Horz {
+  margin-top: -29px;
+  margin-left: 175px;
+}
+.e-radialTop {
+  height: 20px;
+  margin-left: 15px;
+  width: 52px;
+}
+.e-arrowUp:hover {
+  background-image: url(../common-images/maps/Arrow_Top_hover.png);
+}
+.e-arrowUp {
+  background-image: url(../common-images/maps/Arrow_Top.png);
+  height: 20px;
+  width: 52px;
+}
+.e-radialLeft {
+  height: 52px;
+  width: 20px;
+  margin-top: -4px;
+}
+.e-radialRight {
+  margin-left: 61px;
+  margin-top: -53px;
+  height: 52px;
+  width: 20px;
+}
+.e-arrowLeft:hover {
+  background-image: url(../common-images/maps/Arrow_Left_hover.png);
+}
+.e-arrowLeft {
+  background-image: url(../common-images/maps/Arrow_Left.png);
+  height: 52px;
+  width: 20px;
+}
+.e-radialBottom {
+  height: 20px;
+  margin-left: 15px;
+  margin-top: -6px;
+  width: 52px;
+}
+.e-arrowRight:hover {
+  background-image: url(../common-images/maps/Arrow_Right_hover.png);
+}
+.e-arrowRight {
+  background-image: url(../common-images/maps/Arrow_Right.png);
+  height: 52px;
+  width: 20px;
+}
+.e-arrowDown:hover {
+  background-image: url(../common-images/maps/Arrow_Bootom_hover.png);
+}
+.e-arrowDown {
+  background-image: url(../common-images/maps/Arrow_Bootom.png);
+  height: 20px;
+  width: 52px;
+}
+.e-home-bg {
+  height: 30px;
+  width: 30px;
+  margin-top: -55px;
+  margin-left: 25px;
+}
+.e-interactivelegend-title {
+  font-family: 'Roboto', Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  pointer-events: none;
+  text-align: left;
+  position: absolute;
+}
+.e-interactivelegend-leftlabel {
+  font-family: 'Roboto', Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  pointer-events: none;
+  text-align: left;
+  position: absolute;
+}
+.e-interactivelegend-rightlabel {
+  font-family: 'Roboto', Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  pointer-events: none;
+  text-align: left;
+  position: absolute;
+}
+.e-legend-rangestartlabel {
+  font-family: 'Roboto', Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  pointer-events: none;
+  text-align: left;
+  position: absolute;
+}
+.e-legend-rangeendlabel {
+  font-family: 'Roboto', Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  pointer-events: none;
+  text-align: left;
+  position: absolute;
+}
+.e-legendlabeltext {
+  font-family: 'Roboto', Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  pointer-events: none;
+  text-align: left;
+  position: absolute;
+}
+.e-defaultToolTip {
+  border: 1px solid #404041;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  margin-right: 25px;
+  min-width: 30px;
+  height: 20px;
+  padding-top: 9px;
+  padding-right: 10px;
+  padding-left: 10px;
+  width: auto;
+  opacity: 0.85;
+  background: white;
+}
+.e-defaultToolTip:before {
+  position: absolute;
+  display: inline-block;
+  border-top: 7px solid transparent;
+  border-right: 7px solid #404041;
+  border-bottom: 7px solid transparent;
+  background: transparent;
+  opacity: 0.85;
+  left: 4px;
+  top: -16px;
+  content: '';
+}
+.e-defaultToolTip:after {
+  position: absolute;
+  display: inline-block;
+  border-top: 7px solid transparent;
+  border-right: 7px solid white;
+  border-bottom: 7px solid transparent;
+  left: 6px;
+  top: -16px;
+  content: '';
+}
+.e-defaultlegend-title {
+  color: black;
+  font-size: 17px;
+}
+.e-labelStyle {
+  font-family: 'Roboto', Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  font-size: 14px;
+  white-space: nowrap;
+}
+.e-smartLabelStyle {
+  padding: 3px;
+  font-weight: normal;
+  color: black;
+  width: auto;
+  height: 20px;
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Roboto', Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-smartLabelStyle:hover {
+  cursor: pointer;
+}
+.e-mapSelectedShape {
+  opacity: 1;
+}
+.e-mapDragSelection {
+  border: 2px solid red;
+}
+.e-mapHighlightedShape {
+  opacity: 1;
+}

@@ -1,0 +1,816 @@
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*-----------------------OLAP Definition-----------------*/
+/*-----------------------OLAP Definition End-----------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*------------------ DatePicker ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: white;
+  color: #111111;
+  border-color: #e0e0e0;
+  font-family: 'Roboto', Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-spreadsheet {
+  color: #212121;
+  border-color: #e0e0e0;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-headercell,
+.e-spreadsheet .e-spreadsheetmainpanel .e-headercontent,
+.e-spreadsheet .e-spreadsheetmainpanel .e-rowheader {
+  border-color: #e0e0e0;
+  color: black;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-headercell,
+.e-spreadsheet .e-spreadsheetmainpanel .e-headercontent,
+.e-spreadsheet .e-spreadsheetmainpanel .e-rowheader {
+  color: rgba(0, 0, 0, 0.87);
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-headercell:hover,
+.e-spreadsheet .e-spreadsheetmainpanel .e-rowheader:hover {
+  background-color: rgba(255, 64, 129, 0.12);
+  border-color: #e0e0e0;
+  color: black;
+  
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-rowheadercontent {
+  border-bottom-color: #e0e0e0;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-spreadsheetcontentcontainer {
+  border-left-color: #e0e0e0;
+  background-color: white;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-spreadsheetcolumnheader {
+  border-color: #e0e0e0;
+}
+.e-spreadsheet .e-spreadsheetheader {
+  border-bottom-color: #e0e0e0;
+  border-top-color: #e0e0e0;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-spreadsheetcolumnheader {
+  border-right-color: #e0e0e0;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-rowcell {
+  color: #212121;
+  background-color: white;
+  border-color: #e0e0e0;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-spreadsheetcolumnheader,
+.e-spreadsheet .e-spreadsheetmainpanel .e-rowheader,
+.e-spreadsheet .e-scrollcss,
+.e-spreadsheet .e-scrollrowcss {
+  background-color: white;
+}
+.e-ss-editinput .e-in-wrap,
+.e-ss-editinput .e-input {
+  color: inherit;
+  font-size: 11pt;
+  font-family: Calibri;
+}
+/*---------------------------Frozen Row------------------------*/
+
+.e-spreadsheet .e-reSizeColbg {
+  border-left-color: #e0e0e0;
+}
+.e-spreadsheet .e-reSizeAPbg {
+  border-left-color: #e0e0e0;
+}
+.e-spreadsheet .e-reSizeRowbg {
+  border-top-color: #e0e0e0;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-selected,
+.e-spreadsheet .e-spreadsheetmainpanel .e-ctrlselected {
+  background: rgba(255, 64, 129, 0.12);
+  color: #212121;
+  
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-activecell {
+  background-color: white;
+  color: #212121;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-rowheader.e-rowhighlight,
+.e-spreadsheet .e-spreadsheetmainpanel .e-colhighlight {
+  background-color: rgba(255, 64, 129, 0.12);
+  color: #ff4081;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-rowhighlight {
+  border-right-color: #ff4081;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-colhighlight {
+  border-bottom-color: #ff4081;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-colhighlight:hover {
+  background-color: rgba(255, 64, 129, 0.12);
+  border-bottom-color: #ff4081;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-rowhighlight:hover {
+  background-color: rgba(255, 64, 129, 0.12);
+  border-right-color: #ff4081;
+}
+.e-menu-wrap .e-chartcell:hover,
+.e-chartimg:hover {
+  background-color: #e0e0e0;
+}
+.e-chartimg:hover {
+  
+}
+/*-------------------- Borders ------------------------ */
+
+.e-spreadsheet .e-spreadsheetmainpanel td.e-bborderright,
+.e-spreadsheet .e-spreadsheetmainpanel td.e-bctrlborderright,
+.e-spreadsheet .e-spreadsheetmainpanel td.e-bcborderright {
+  border-right-color: #f74380;
+}
+.e-spreadsheet .e-spreadsheetmainpanel td.e-bborderbottom,
+.e-spreadsheet .e-spreadsheetmainpanel td.e-bctrlborderbottom,
+.e-spreadsheet .e-spreadsheetmainpanel td.e-bcborderbottom {
+  border-bottom-color: #f74380;
+}
+.e-spreadsheet .e-spreadsheetmainpanel td.e-rborderright,
+.e-spreadsheet .e-spreadsheetmainpanel td.e-rctrlborderright,
+.e-spreadsheet .e-spreadsheetmainpanel td.e-rcborderright {
+  border-right-color: #fc100c;
+}
+.e-spreadsheet .e-spreadsheetmainpanel td.e-rborderbottom,
+.e-spreadsheet .e-spreadsheetmainpanel td.e-rctrlborderbottom,
+.e-spreadsheet .e-spreadsheetmainpanel td.e-rcborderbottom {
+  border-bottom-color: #fc100c;
+}
+.e-spreadsheet .e-spreadsheetmainpanel td.e-vborderright,
+.e-spreadsheet .e-spreadsheetmainpanel td.e-vctrlborderright,
+.e-spreadsheet .e-spreadsheetmainpanel td.e-vcborderright {
+  border-right-color: #6a13ad;
+}
+.e-spreadsheet .e-spreadsheetmainpanel td.e-vborderbottom,
+.e-spreadsheet .e-spreadsheetmainpanel td.e-vctrlborderbottom,
+.e-spreadsheet .e-spreadsheetmainpanel td.e-vcborderbottom {
+  border-bottom-color: #6a13ad;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-gborderright,
+.e-spreadsheet .e-spreadsheetmainpanel .e-gctrlborderright {
+  border-right-color: #62c435 !important;
+}
+.e-spreadsheet .e-spreadsheetmainpanel td.e-gborderbottom,
+.e-spreadsheet .e-spreadsheetmainpanel td.e-gctrlborderbottom {
+  border-bottom-color: #62c435;
+}
+.e-spreadsheet .e-spreadsheetmainpanel td.e-pborderright,
+.e-spreadsheet .e-spreadsheetmainpanel td.e-pctrlborderright {
+  border-right-color: #f411b0;
+}
+.e-spreadsheet .e-spreadsheetmainpanel td.e-pborderbottom,
+.e-spreadsheet .e-spreadsheetmainpanel td.e-pctrlborderbottom {
+  border-bottom-color: #f411b0;
+}
+.e-spreadsheet .e-spreadsheetmainpanel td.e-oborderright,
+.e-spreadsheet .e-spreadsheetmainpanel td.e-octrlborderright {
+  border-right-color: #e59604;
+}
+.e-spreadsheet .e-spreadsheetmainpanel td.e-oborderbottom,
+.e-spreadsheet .e-spreadsheetmainpanel td.e-octrlborderbottom {
+  border-bottom-color: #e59604;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-thinborderright {
+  border-right-color: #ff4081;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-thinborderbottom {
+  border-bottom-color: #ff4081;
+}
+.e-spreadsheet .e-ss-numeric .e-select .e-spin {
+  background-color: white;
+  color: #161d40;
+}
+.e-spreadsheet .e-ss-numeric .e-select .e-spin:hover {
+  background-color: #f492b4;
+  border-color: #3949a7;
+  color: white;
+}
+.e-spreadsheet .e-ss-numeric .e-select {
+  border-color: white;
+}
+.e-spreadsheet .e-ss-numeric .e-select:hover {
+  border-color: #3949a7;
+}
+/*--------------------- Selection -------------------------- */
+
+.e-spreadsheet div.e-selecttop {
+  border-top-color: #ff4081;
+}
+.e-spreadsheet div.e-selectbottom {
+  border-bottom-color: #ff4081;
+}
+.e-spreadsheet div.e-selectright {
+  border-right-color: #ff4081;
+}
+.e-spreadsheet div.e-selectleft {
+  border-left-color: #ff4081;
+}
+.e-spreadsheet .e-ss-selectall {
+  color: rgba(255, 64, 129, 0.12);
+}
+.e-spreadsheet .e-ss-selectall:hover {
+  color: rgba(255, 64, 129, 0.2);
+}
+.e-spreadsheet .e-sheetselected,
+.e-spreadsheet .e-sheetselected:hover {
+  color: #ff4081;
+}
+/*--------------------- Auto Fill -------------------------------*/
+
+.e-spreadsheet .e-autofill {
+  border-color: white;
+  background-color: #ff4081;
+}
+.e-spreadsheet div.e-autofillright {
+  border-right-color: #ff4081;
+}
+.e-spreadsheet div.e-autofillbottom {
+  border-bottom-color: #ff4081;
+}
+.e-spreadsheet div.e-autofilltop {
+  border-top-color: #ff4081;
+}
+.e-spreadsheet div.e-autofillleft {
+  border-left-color: #ff4081;
+}
+/*--------------------- Cut and Copy ------------------------ */
+
+.e-spreadsheet .e-spreadsheetmainpanel td.e-cutright {
+  border-right-color: #ff4081;
+}
+.e-spreadsheet .e-spreadsheetmainpanel td.e-cutbottom {
+  border-bottom-color: #ff4081;
+}
+.e-spreadsheet .e-blur {
+  background-color: whitesmoke;
+}
+.e-spreadsheet .e-spanfilter,
+.e-spreadsheet .e-spanddl {
+  border-color: #e0e0e0;
+  background-color: whitesmoke;
+  color: #424242;
+}
+.e-spreadsheet .e-spreadsheetcontentcontainer .e-ss-object.e-ss-activeimg {
+  border-color: #ff4081;
+}
+.e-spreadsheet .e-spreadsheetcontentcontainer .e-ss-pivot.e-ss-activepivot {
+  border-color: #ff4081;
+}
+.e-spreadsheet .e-ss-object.e-datavisualization-chart {
+  border-color: #e0e0e0;
+}
+.e-spreadsheet .e-ss-imgvisual {
+  border-color: #e0e0e0;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-rowcell.e-redft {
+  background-color: #ffc7ce;
+  color: #9c0055;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-rowcell.e-yellowft {
+  background-color: #ffeb9c;
+  color: #9c6500;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-rowcell.e-greenft {
+  background-color: #c6efce;
+  color: #006100;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-rowcell.e-redf {
+  background-color: #ffc7ce;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-rowcell.e-redt {
+  color: #9c0055;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-rowcell.e-hlcell {
+  background-color: yellow;
+  color: red;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-rowcell.e-goto-blank {
+  background-color: #e0e0e0;
+}
+/*-------------------------- Formula Tab --------------------------- */
+
+.e-spreadsheet .e-indexbox,
+.e-spreadsheet .functionbox,
+.e-spreadsheet .e-inputbox {
+  border-color: #e0e0e0;
+  color: #212121;
+  background-color: white;
+}
+.e-ss-autocomplete.e-atc-popup ul li {
+  color: black;
+}
+.e-spreadsheet .e-inputbox > input {
+  color: #212121;
+}
+/*-------------Pager-------------*/
+
+.e-spreadsheet .e-spreadsheetmainpanel .e-pager .e-numericitem {
+  color: #212121;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-pager .e-currentitem,
+.e-spreadsheet .e-spreadsheetmainpanel .e-pager .e-currentitem:hover {
+  
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-pager .e-currentitem,
+.e-spreadsheet .e-spreadsheetmainpanel .e-pager .e-currentitem:hover {
+  background: none;
+  color: #ff4081;
+  filter: none;
+  /* IE9 only*/
+
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-pager .e-numericitem:hover {
+  color: #ff4081;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-pager {
+  background-color: white;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-pager .e-prevpagedisabled,
+.e-spreadsheet .e-spreadsheetmainpanel .e-pager .e-prevpage,
+.e-spreadsheet .e-spreadsheetmainpanel .e-pager .e-nextpage,
+.e-spreadsheet .e-spreadsheetmainpanel .e-pager .e-nextpagedisabled,
+.e-spreadsheet .e-spreadsheetmainpanel .e-pager .e-lastpagedisabled,
+.e-spreadsheet .e-spreadsheetmainpanel .e-pager .e-lastpage,
+.e-spreadsheet .e-spreadsheetmainpanel .e-pager .e-firstpage,
+.e-spreadsheet .e-spreadsheetmainpanel .e-pager .e-firstpagedisabled,
+.e-spreadsheet .e-spreadsheetmainpanel .e-pager .e-numericcontainer {
+  background-color: white;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-pager .e-pagercontainer {
+  background-color: white;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-pager .e-icon:not(.e-disable):hover {
+  color: #ff4081;
+  cursor: pointer;
+}
+.e-spreadsheet div.e-field-validation-error {
+  background-color: #fffe91;
+  color: #cd0a0a;
+}
+.e-ss-dialog div.e-dlg-field-validation-error:before {
+  border-bottom-color: #fffe91;
+}
+.e-spreadsheet div.e-error .e-errortail {
+  border-bottom-color: #fffe91;
+}
+.e-spreadsheet .e-spreadsheetfooter {
+  border-color: #e0e0e0;
+}
+.e-spreadsheet .e-hyperlinks {
+  color: inherit;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-pager .e-mediaforward {
+  border-right-color: #e0e0e0;
+  
+}
+.e-spreadsheet .e-formulabar {
+  background-color: white;
+}
+.e-ss-dialog .e-chartheader {
+  background-color: white;
+  color: #212121;
+}
+.e-ss-dialog .e-tab .e-header.e-addborderbottom .e-active {
+  border-top-color: #e0e0e0;
+}
+/*---------------------- Dialog -------------------------- */
+
+.e-dlgtab .e-header,
+.e-valdlgtab .e-header {
+  overflow: visible;
+  /*border-color: @ssheader-bgcolor;*/
+
+}
+.e-spreadsheet .e-dlg-field-validation-error,
+.e-ss-dialog .e-dlg-field-validation-error {
+  background-color: #fffe91;
+  color: #cd0a0a;
+}
+.e-dlgright,
+.e-dlgleft,
+.e-dlginput,
+.e-dlgcontent,
+.e-chtdlgright,
+.e-chtdlgleft,
+.e-chtdlgcontent {
+  border-color: #e0e0e0;
+}
+.e-dlgviewpanel {
+  border: 1px solid #e0e0e0;
+}
+.e-ss-dlgtab .e-ss-sctnseparator {
+  border-color: #e0e0e0;
+}
+.e-ss-dialog hr {
+  border-color: #eeeeee;
+}
+/*---------------------- Name Manager ------------------*/
+
+.e-menu .e-nmuseinformularow:hover {
+  background-color: #ff4081;
+}
+/*---------------------- Cell Styles--------------------*/
+
+.e-menu-wrap .e-cellstylecontent,
+.e-menu-wrap .e-formatastablecontent,
+.e-menu-wrap .e-chartcontent {
+  background-color: white;
+  color: #212121;
+}
+.e-menu-wrap .e-cellstyleheader,
+.e-menu-wrap .e-formatastableheader {
+  background-color: #3f51b5;
+  color: #212121;
+  border-color: #e0e0e0;
+}
+.e-menu-wrap .e-cellstylecell:hover,
+.e-menu-wrap .e-formatastablecell:hover,
+.e-menu-wrap .e-chartcontent:hover {
+  border-color: #e0e0e0;
+}
+.e-menu-wrap .e-cellstylecell:hover,
+.e-menu-wrap .e-formatastablecell:hover,
+.e-menu-wrap .e-chartcontent:hover {
+  border-color: rgba(0, 0, 0, 0.12);
+}
+/*---------------------- Comments--------------------*/
+
+.e-spreadsheet .e-celltoparrow {
+  border-color: red transparent transparent;
+}
+.e-spreadsheet .e-comment-txtarea {
+  background-color: #f7fbbd;
+  color: black;
+}
+.e-list.e-hdrcolor {
+  background-color: #f2f2f2 !important;
+  color: #212121 !important;
+}
+.e-list.e-color {
+  border-color: #3f51b5 !important;
+}
+.e-list.e-hdrcolor.e-mhover > a,
+.e-list.e-hdrcolor.e-mfocused > a {
+  background-color: transparent !important;
+  color: #212121 !important;
+}
+.e-list.e-color.e-mhover.e-mfocused {
+  border-color: #f492b4 !important;
+}
+.e-spreadsheet .e-excelfilter .e-in-wrap {
+  border-color: #3949a7;
+}
+/*---------------------------RTL--------------------------*/
+
+.e-spreadsheetrowheader.e-scrollrowcss.e-rtl {
+  border-color: #e0e0e0;
+}
+.e-spreadsheetcolumnheader.e-rtl {
+  border-color: #e0e0e0;
+}
+.e-spreadsheetcontentcontainer.e-rtl {
+  border-color: #e0e0e0;
+}
+.e-spreadsheet .e-numeric .e-in-wrap {
+  border-color: #3949a7;
+}
+.e-ss-dialog .e-chartselect {
+  border-color: #ff4081;
+  
+}
+.e-menu-wrap .e-chartcell {
+  border-color: #3f51b5;
+}
+.e-spreadsheet .e-ss-object {
+  background-color: white;
+}
+.e-spreadsheet .e-ss-charttheme {
+  background-color: black;
+}
+/*-------------------------Merge--------------------*/
+
+.e-spreadsheet .e-ssr-horizontalprt .e-btn.e-ss-active {
+  color: #212121;
+  
+}
+.e-spreadsheet .e-ssr-horizontalprt .e-btn.e-ss-active {
+  background: #ff9cbe;
+}
+.e-spreadsheet .e-ssr-horizontalprt .e-btn.e-ss-active:hover {
+  
+}
+.e-spreadsheet .e-ssr-horizontalprt .e-btn.e-ss-active:hover .e-icon {
+  color: #424242;
+}
+/*-------------------------Auto fill Option--------------------*/
+
+.e-ss-colorpicker .e-in-wrap.e-tool,
+.e-ss-colorpicker .e-in-wrap.e-tool .e-select {
+  
+}
+.e-ss-colorpicker .e-in-wrap.e-tool,
+.e-ss-colorpicker .e-in-wrap.e-tool .e-select {
+  background-color: none;
+}
+/*--------------------------------- Freeze Pane -------------------------------*/
+
+.e-spreadsheet .e-frow {
+  border-color: #ff4081;
+}
+.e-spreadsheet .e-fcol {
+  border-color: #ff4081;
+}
+/*-------------------------Ribbon icons Customization--------------------*/
+
+.e-spreadsheet .e-ssr-verticalHparent:hover .e-btn.e-select:not(.e-disable):not(.e-active),
+.e-spreadsheet .e-split .e-in-wrap.e-ssr-horizontalprt:hover .e-split-btn:not(.e-disable),
+.e-spreadsheet .e-ss-colorpicker .e-in-wrap.e-ssr-colpickHprt:hover:not(.e-disable) .e-ssr-colorcontainer {
+  border-color: #e0e0e0;
+  
+}
+.e-spreadsheet .e-ssr-verticalHparent:hover .e-active,
+.e-spreadsheet .e-splitspan .e-spreadsheet.e-btn.e-select:hover {
+  
+}
+.e-spreadsheet .e-ssr-verticalHparent:hover .e-active,
+.e-spreadsheet .e-splitspan .e-spreadsheet.e-btn.e-select:hover {
+  background: #ff9cbe;
+}
+.e-spreadsheet .e-split.e-active .e-in-wrap.e-ssr-horizontalprt:hover .e-split-btn:not(.e-disable) {
+  
+}
+.e-spreadsheet .e-split.e-active .e-in-wrap.e-ssr-horizontalprt:hover .e-split-btn:not(.e-disable) {
+  background: #ff9cbe;
+}
+.e-spreadsheet .e-split.e-active .e-box .e-btn.e-select,
+.e-spreadsheet .e-split.e-active .e-box .e-btn.e-select:hover,
+.e-spreadsheet .e-button.e-btn.e-select.e-active,
+.e-spreadsheet .e-ribbon.e-js .e-rbn-button.e-button.e-btn.e-select.e-active:hover {
+  color: #212121;
+  
+}
+.e-spreadsheet .e-split.e-active .e-box .e-btn.e-select,
+.e-spreadsheet .e-split.e-active .e-box .e-btn.e-select:hover,
+.e-spreadsheet .e-button.e-btn.e-select.e-active,
+.e-spreadsheet .e-ribbon.e-js .e-rbn-button.e-button.e-btn.e-select.e-active:hover {
+  background: #ff9cbe;
+}
+.e-spreadsheet .e-split.e-active .e-box .e-btn.e-select.e-ss-active {
+  
+}
+.e-spreadsheet .e-ribbon.e-js .e-btn.e-select.e-ss-active:hover .e-icon {
+  
+}
+.e-spreadsheet .e-ribbon .e-rbn-button.e-btn.e-active .e-icon {
+  
+}
+.e-spreadsheet .e-ribbon.e-js .e-controlclicked .e-btn.e-select.e-ss-active:hover .e-icon {
+  
+}
+.e-spreadsheet .e-split.e-active .e-box .e-btn.e-select,
+.e-spreadsheet .e-split.e-active .e-box .e-btn.e-select:hover {
+  
+}
+.e-spreadsheet .e-ribbon.e-js .e-btn.e-select.e-ss-active .e-icon {
+  
+}
+.e-spreadsheet .e-split.e-active .e-box .e-btn .e-icon,
+.e-spreadsheet .e-split .e-btn.e-select:active .e-ss-active .e-icon {
+  color: #424242;
+  
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-hborder {
+  border-color: transparent;
+}
+.e-spreadsheet .e-content.e-viewbrdr {
+  border-color: #e0e0e0;
+}
+/*-------------------------------------Spreadsheet Ribbon override------------*/
+
+.e-spreadsheet .e-ribbon .e-header {
+  border-right: none;
+  border-left: none;
+  border-top: none;
+}
+.e-spreadsheet .e-ribbon .e-content {
+  border-right: none;
+  border-left: none;
+}
+.e-spreadsheet .e-ribbon .e-header {
+  border-right: medium none;
+  border-left: medium none;
+  border-top: medium none;
+}
+.e-spreadsheet .e-ribbon .e-content {
+  border-right: medium none;
+  border-left: medium none;
+}
+.e-ribbon .e-btn.e-ss-active {
+  background-color: #ff4081;
+  color: #3f51b5;
+}
+.e-spreadsheet .e-ribbon .e-ddl {
+  border-color: #36459b;
+}
+.e-spreadsheet .e-ribbon .e-ddl.e-widget.e-focus .e-in-wrap {
+  box-shadow: 0 0 7px #cccccc;
+}
+.e-spreadsheet .e-ribbon .e-ddl {
+  border-color: #36459b;
+}
+.e-spreadsheet .e-menu.e-split,
+.e-menu-wrap .e-spreadsheet.e-split.e-autofillbtn li.e-list,
+.e-spreadsheet .e-splitspan .e-btn.e-select {
+  background: white;
+}
+.e-spreadsheet .e-ssr-bscontent div:not(.e-ssr-bsnewtmpl) .e-btn.e-select {
+  border-color: #e0e0e0;
+}
+.e-ss-colorpicker.e-popup {
+  background-color: white;
+  color: black;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-pager .e-numericitem:not(.e-currentitem) {
+  background-color: white;
+}
+.e-spreadsheet .e-ribbon .e-btn.e-select.e-disable:hover .e-icon {
+  color: black;
+}
+.e-spreadsheet .e-ribbon .e-btn.e-select.e-disable:hover .e-icon {
+  color: rgba(0, 0, 0, 0.26);
+}
+.e-spreadsheet .e-ribbon .e-togglebutton.e-btn.e-tbtn.e-select.e-disable:not(.e-active),
+.e-spreadsheet .e-ribbon .e-togglebutton.e-btn.e-tbtn.e-select.e-disable:not(.e-active):hover {
+  background: #e0e0e0;
+}
+.e-spreadsheet .e-ribbon .e-button.e-btn.e-select.e-disable:hover {
+  background: none;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-rowheader.e-filterhiglight,
+.e-spreadsheet .e-spreadsheetmainpanel .e-rowheader.e-rowhighlight.e-filterhiglight {
+  color: #00cc00;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-headercell {
+  cursor: url("../common-images/spreadsheet/down_arrow_light.cur"), auto;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-rowheader {
+  cursor: url("../common-images/spreadsheet/right_arrow_light.cur"), auto;
+}
+.e-spreadsheet .e-ss-fpcursor {
+  cursor: url("../common-images/spreadsheet/format_painter_light.cur"), auto;
+}
+.e-spreadsheet .e-ss-drwbrdrcursor {
+  cursor: url("../common-images/spreadsheet/draw_border_light.cur"), auto;
+}
+.e-spreadsheet .e-ss-drwbrdrgridcursor {
+  cursor: url("../common-images/spreadsheet/draw_border_grid_light.cur"), auto;
+}
+/***********************SpreadsheetTextArea***********************************/
+
+.e-ss-textarea,
+.e-ss-textarea:focus,
+.e-ss-textarea:hover {
+  border-color: #e0e0e0;
+}
+/*-------------------------------------SpreadsheetCellType--------------------*/
+
+.e-spreadsheet .e-cellreadonly .e-datewidget .e-select {
+  background: white;
+}
+.e-spreadsheet .e-cellreadonly .e-ddl .e-select {
+  background: white;
+}
+/*----------------------------Activation Panel-------------------------*/
+
+.e-spreadsheet .e-spreadsheetactpanel {
+  border-left-color: #e0e0e0;
+}
+/*---------------------------Border Menu-------------------------------*/
+
+.e-spreadsheet .e-bordercontainer {
+  background-color: white;
+}
+.e-spreadsheet .e-bordercell:hover {
+  border-color: #e0e0e0;
+}
+.e-spreadsheet .e-ss-bdr-header {
+  background-color: white;
+  border-color: #3f51b5;
+}
+/*---------------------------Pivot Table-------------------------------*/
+
+.e-spreadsheet .e-ss-pivottableheader {
+  background-color: rgba(255, 64, 129, 0.12);
+  border-color: #e0e0e0;
+  color: black;
+}
+/*-------------------------------------Material Theme Changes -----------------------*/
+
+.e-spreadsheet .e-formulabar,
+.e-spreadsheet .e-spreadsheetmainpanel .e-spreadsheetcontentcontainer,
+.e-spreadsheet .e-spreadsheetmainpanel .e-spreadsheetcolumnheader,
+.e-spreadsheet .e-spreadsheetmainpanel .e-rowheader,
+.e-spreadsheet .e-scrollcss,
+.e-spreadsheet .e-scrollrowcss {
+  background-color: whitesmoke;
+}
+.e-ss-dialog .e-btn.e-select,
+.e-ss-dialog .e-btn.e-select:hover,
+.e-ss-dialog .e-btn.e-select:active {
+  color: #ff4081;
+}
+.e-ss-dialog .e-btn.e-select:hover {
+  background-color: rgba(0, 0, 0, 0.12);
+}
+.e-ss-dialog .e-btn.e-select:active {
+  background-color: rgba(255, 64, 129, 0.12);
+}
+.e-ss-dialog .e-dialog input.ejinputtext:focus,
+.e-spreadsheet input.ejinputtext:focus {
+  border-color: #ff4081;
+}
+.e-ss-dialog .e-dialog input.ejinputtext,
+.e-spreadsheet input.ejinputtext {
+  border-color: rgba(0, 0, 0, 0.12);
+}
+.e-ss-dialog.e-ss-mattab .e-dlg-btnfields {
+  border-top-color: rgba(0, 0, 0, 0.12);
+}
+.e-ss-dialog.e-ss-mattab .e-titlebar {
+  background-color: #3f51b5;
+  color: white;
+}
+.e-ss-dialog.e-ss-mattab .e-dialog .e-tab .e-header {
+  background-color: #3f51b5;
+}
+.e-ss-dialog.e-ss-mattab .e-dialog .e-tab .e-header li a {
+  color: rgba(255, 255, 255, 0.7);
+}
+.e-ss-dialog.e-ss-mattab .e-dialog .e-tab .e-header li.e-active a {
+  color: white;
+}
+.e-ss-autocomplete.e-atc .e-in-wrap {
+  border-color: rgba(0, 0, 0, 0.26);
+}
+.e-ss-autocomplete.e-atc .e-in-wrap:active {
+  border-color: rgba(0, 0, 0, 0.54);
+}
+.e-spreadsheet .e-ss-dialog.e-ss-mattab .e-dialog-icon:before {
+  color: white;
+}
+.e-ss-dialog label,
+.e-ss-dialog .e-ss-fcgdiv {
+  color: rgba(0, 0, 0, 0.38);
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-pager .e-numericitem:not(.e-active) {
+  color: rgba(0, 0, 0, 0.87);
+}
+.e-ss-dialog .e-dialog .e-dlgctndiv label {
+  
+}
+.e-ss-dialog .e-ss-okbtn.e-btn.e-select {
+  
+}
+.e-ss-dialog .e-ss-okbtn.e-btn.e-select:hover {
+  
+}
+.e-ss-dialog .e-ss-okbtn.e-btn.e-select:focus {
+  
+}
+.e-ss-dialog .e-ss-okbtn.e-btn.e-select:active {
+  
+}
+.e-ss-colorpicker .e-colorwidget .e-in-wrap.e-box.e-ssr-colpickHprt:hover {
+  
+}
+.e-spreadsheet .e-ribbon.e-js .e-rbn-button.e-tbtn.e-select:active .e-icon {
+  
+}
+/*-------------------------------------SpreadSheet End -----------------------*/
+

@@ -1,0 +1,116 @@
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*-----------------------OLAP Definition-----------------*/
+/*-----------------------OLAP Definition End-----------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*------------------ DatePicker ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: white;
+  color: #111111;
+  border-color: #e0e0e0;
+  font-family: 'Roboto', Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+/*------------------------------------- Tile View -------------------------------------------*/
+
+.e-tile {
+  color: white;
+}
+.e-tile {
+  margin: 2px;
+  font-weight: 400;
+  font-family: 'Roboto', Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-tile .e-image-parent {
+  /*.custom-gradient(@active-gradient-color, @active-bg-stcolor, @active-bg-endcolor, 0%, 0% );*/
+  background-color: #fafafa;
+}
+.e-tile .e-image-parent {
+  background: #3f51b5;
+  
+}
+.e-tile .e-tile-selected::after {
+  border-top: 28px solid #36459b;
+}
+.e-tile .e-tile-selected {
+  border: 2px solid #3f51b5;
+}
+.e-tile-wide {
+  width: 354px !important;
+}
+.e-tile-medium {
+  width: 175px !important;
+}
+.e-tile-small {
+  width: 85.5px !important;
+  height: 73px !important;
+}
+.e-tile-group .e-tile-column {
+  max-width: 358px;
+}
+.e-tile.e-js.e-tile-web:hover {
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.26);
+}
+.e-tile.e-js.e-tile-web:hover .e-image-parent {
+  
+}
+.e-tile.e-js.e-tile-web:hover .e-image-parent {
+  background-color: #324191;
+}
+.e-tile-caption-text.e-caption-innerbottom::before {
+  margin-bottom: 16px;
+}
+.e-tile-caption-text::before {
+  padding-left: 12px;
+}
+.e-tile.e-tile-web.e-tile-medium .e-image-parent .e-tile-image:not(.e-tile-imagefill),
+.e-tile.e-tile-web.e-tile-wide .e-image-parent .e-tile-image:not(.e-tile-imagefill) {
+  background-size: 48px 48px;
+}
+.e-tile-caption::before {
+  
+}
+.e-tile-caption::before {
+  font-size: 15px;
+}
+.e-tile-small-col-2 {
+  width: 179px;
+  height: 154px;
+}
+.e-tile.e-tile-small .e-image-parent .e-tile-image:not(.e-tile-imagefill) {
+  background-size: 24px 24px;
+}
+.e-tile.e-tile-imagefill .e-tile-overlay {
+  margin-top: 75px;
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.49) 70%, rgba(0, 0, 0, 0.7) 100%);
+  background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.49) 70%, rgba(0, 0, 0, 0.7) 100%);
+  background: -ms-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.49) 70%, rgba(0, 0, 0, 0.7) 100%);
+  background: -o-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.49) 70%, rgba(0, 0, 0, 0.7) 100%);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.49) 70%, rgba(0, 0, 0, 0.7) 100%);
+}

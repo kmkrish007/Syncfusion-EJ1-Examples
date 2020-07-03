@@ -1,0 +1,244 @@
+/* need verify with UX team*/
+.pager-hover-gradient {
+  background: #4a5038;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #4a5038, #404a22);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #4a5038), color-stop(100%, #404a22));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #4a5038, #404a22);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #4a5038, #404a22);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #4a5038, #404a22);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #4a5038, #404a22);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4a5038', endColorstr='#404a22', GradientType=0);
+  /* IE6-9 */
+
+}
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*----------------------OLAP Definition------------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*----------------------material theme-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: #111111;
+  color: white;
+  border-color: #494949;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-dialog.e-dialog-wrap {
+  background: black;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-dialog .e-dialog-icon:hover {
+  border-image: initial;
+  border-color: #777777;
+  
+}
+.e-dialog .e-dialog-icon:hover {
+  background: #4a5038;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #4a5038, #404a22);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #4a5038), color-stop(100%, #404a22));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #4a5038, #404a22);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #4a5038, #404a22);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #4a5038, #404a22);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #4a5038, #404a22);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4a5038', endColorstr='#404a22', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-dialog-modal {
+  overflow: hidden;
+}
+.e-dialog.e-disable .e-dialog-icon:hover {
+  background: transparent;
+}
+.e-dialog .e-dialog-icon:before {
+  
+  line-height: 1.5;
+}
+.e-dialog .e-dialog-icon:before {
+  color: #cccccc;
+}
+.e-dialog > .e-header {
+  
+}
+.e-dialog > .e-header {
+  color: #dddddd;
+  font-weight: normal;
+  font-size: 17px;
+  border: 1px solid #494949;
+  border-bottom: 3px solid #cee292;
+}
+.e-dialog > .e-header {
+  background: #363636;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #363636, black);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #363636), color-stop(100%, black));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #363636, black);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #363636, black);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #363636, black);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #363636, black);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#363636', endColorstr='black', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-titlebar + div.e-dialog-scroller .e-widget-content {
+  
+}
+.e-dialog.e-dialog-wrap:not(.e-shadow) {
+  
+}
+.e-dialog > .e-titlebar {
+  
+}
+.e-dialog.e-shadow {
+  
+}
+.e-dialog.e-widget-content {
+  
+}
+.e-dialog.e-widget-content {
+  background: black;
+  color: #dddddd;
+  font-size: 14px;
+}
+.e-dialog.e-widget-content.e-load {
+  background-image: url(images/ajax-loader.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.e-overlay {
+  background-color: #969696;
+  
+}
+.e-dialog > .e-dialog-scroller {
+  
+}
+.e-dialog > .e-dialog-scroller {
+  border: 1px solid #494949;
+  border-top: none;
+}
+.e-dialog .e-dialog-icon:hover:before {
+  color: #cccccc;
+}
+.e-dialog > .e-footerbar {
+  position: relative;
+  
+  background: black;
+}
+.e-dialog > .e-footerbar {
+  height: 40px;
+  border: 1px solid #494949;
+  border-top: none;
+}
+.e-dialog > .e-footerbar > .e-icon.e-resize-handle.e-resizable.e-js {
+  position: absolute;
+  cursor: se-resize;
+  bottom: 0;
+  right: 0;
+}
+.e-corner.e-dialog > .e-footerbar {
+  border-radius: 0px 0px 3px 3px;
+}
+.e-corner .e-dialog-content {
+  border-radius: 3px;
+}
+.e-corner .e-dialog-bottom {
+  border-radius: 0px 0px 3px 3px;
+}
+.e-corner .e-dialog-top {
+  border-radius: 3px 3px 0px 0px;
+}
+.e-dialog .e-scrollbar .e-icon {
+  display: block;
+}
+.e-dialog .e-scrollbar .e-icon {
+  display: block;
+}
+.e-dialog .e-dialog-icon::after {
+  
+}
+.e-dialog > .e-icon.e-resizable:before {
+  
+}
+.e-dialog .e-dialog-icon {
+  
+}
+.e-dialog .e-dialog-icon.e-icon.e-close {
+  
+}
+.e-dialog .e-dialog-icon.e-icon.e-close:before {
+  
+}
+.e-dialog .e-dialog-icon.e-icon.e-arrowhead-up:before {
+  
+}
+.e-dialog .e-dialog-icon.e-icon.e-arrowhead-down:before {
+  
+}
+.e-dialog .e-draggable {
+  touch-action: none;
+}
+.e-dialog.e-widget-content .e-pager .e-firstpage,
+.e-dialog.e-widget-content .e-pager .e-prevpage,
+.e-dialog.e-widget-content .e-pager .e-firstpagedisabled,
+.e-dialog.e-widget-content .e-pager .e-prevpagedisabled,
+.e-dialog.e-widget-content .e-pager .e-nextpage,
+.e-dialog.e-widget-content .e-pager .e-lastpage,
+.e-dialog.e-widget-content .e-pager .e-nextpagedisabled,
+.e-dialog.e-widget-content .e-pager .e-lastpagedisabled {
+  padding: 9px 3px 1px 9px;
+}
+.e-dialog.e-widget-content .e-pager .e-firstpage,
+.e-dialog.e-widget-content .e-pager .e-prevpage,
+.e-dialog.e-widget-content .e-pager .e-firstpagedisabled,
+.e-dialog.e-widget-content .e-pager .e-prevpagedisabled,
+.e-dialog.e-widget-content .e-pager .e-nextpage,
+.e-dialog.e-widget-content .e-pager .e-lastpage,
+.e-dialog.e-widget-content .e-pager .e-nextpagedisabled,
+.e-dialog.e-widget-content .e-pager .e-lastpagedisabled {
+  
+}

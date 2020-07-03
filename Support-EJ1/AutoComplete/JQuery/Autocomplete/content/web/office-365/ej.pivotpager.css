@@ -1,0 +1,242 @@
+/*-----------------------HeatMap Definition-----------------*/
+/*@neutral-light;*/
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*-----------------------OLAP Definition-----------------*/
+/*-----------------------OLAP Definition End-----------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*----------------------material theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+.office-file-explorer-toolbar-bg-color {
+  background: white;
+}
+.office-tab-header-bg-color {
+  background: white;
+}
+/*------------------ material theme ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: white;
+  color: #111111;
+  border-color: #c8c8c8;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-pivotpager .e-pagerTextBox {
+  display: inline-block;
+  
+}
+.e-pivotpager .e-pagerTextBox {
+  color: #333333;
+  outline: none;
+  border: 1px solid #c8c8c8;
+  text-indent: 2px;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  font-size: 14px;
+  height: 32px;
+  width: 40px;
+  text-align: center;
+}
+.e-pivotpager *:focus:hover {
+  outline: none;
+}
+
+.e-pivotpager .e-movePrevious,
+.e-pivotpager .e-moveNext,
+.e-pivotpager .e-moveFirst,
+.e-pivotpager .e-moveLast {
+  display: inline-block;
+  
+  position: relative;
+  top: 1px;
+  cursor: pointer;
+}
+.e-pivotpager .e-movePrevious,
+.e-pivotpager .e-moveNext,
+.e-pivotpager .e-moveFirst,
+.e-pivotpager .e-moveLast {
+  width: 32px;
+  height: 32px;
+  color: #212121;
+}
+.e-pivotpager .e-moveFirst:before {
+  
+  font-size: 14px;
+}
+.e-pivotpager .e-moveFirst:before {
+  content: "\e83e";
+}
+.e-pivotpager .e-moveLast:before {
+  
+  font-size: 14px;
+}
+.e-pivotpager .e-moveLast:before {
+  content: "\e841";
+}
+.e-pivotpager .e-categPagerTd {
+  
+}
+.e-pivotpager .e-categPagerTd {
+  border-right: 1px solid #eaeaea;
+}
+.e-pivotpager.e-rtl .e-categPagerTd {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #666666;
+  border-right-style: hidden !important;
+}
+.e-pivotpager.e-rtl .e-pagerDiv,
+.e-pivotpager.e-rtl .e-seriesPagerTd {
+  direction: ltr;
+}
+.e-pivotpager .e-movePrevious:before {
+  
+  font-size: 14px;
+}
+.e-pivotpager .e-movePrevious:before {
+  content: "\e83f";
+}
+.e-pivotpager .e-moveNext:before {
+  
+  font-size: 14px;
+}
+.e-pivotpager .e-moveNext:before {
+  content: "\e840";
+}
+.e-pivotpager .e-categPageCount,
+.e-pivotpager .e-seriesPageCount {
+  cursor: default;
+  
+}
+.e-pivotpager .e-categPageCount,
+.e-pivotpager .e-seriesPageCount {
+  padding: 0px;
+  margin: 0px 8px;
+}
+.e-pivotpager .e-pagerDiv {
+  
+}
+.e-pivotpager .e-pagerDiv {
+  /* office-365*/
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  font-size: 14px;
+  color: #333333;
+}
+.e-pivotpager .e-pagerLabel {
+  cursor: default;
+  display: inline-block;
+  
+}
+.e-pivotpager .e-pagerLabel {
+  margin: 0px 8px;
+}
+.e-pivotpager .e-disabled {
+  
+  cursor: default !important;
+}
+.e-pivotpager .e-disabled {
+  color: #c8c8c8;
+}
+.e-pivotpager .pivotpager {
+  overflow: auto;
+}
+.e-pivotpager input {
+  background: white;
+}
+.e-pivotpager .e-pagerTextBox:active,
+.e-pivotpager .e-pagerTextBox:focus {
+  border-color: #0078d7;
+}
+.e-pivotpager .e-pagerTextBox:hover {
+  border-color: #767676;
+}
+.e-pivotpager .e-categPagerTd .e-pagerDiv {
+  margin-right: 8px;
+}
+.e-pivotpager .e-seriesPagerTd .e-pagerDiv {
+  margin-left: 8px;
+}
+.e-pivotpager.e-rtl .e-categPagerTd .e-pagerDiv {
+  margin-left: 8px;
+  margin-right: 0px;
+}
+.e-pivotpager.e-rtl .e-seriesPagerTd .e-pagerDiv {
+  margin-right: 8px;
+  margin-left: 0px;
+}
+.e-pivotpager .e-moveFirst:before {
+  margin-top: 12px;
+  margin-left: 10px;
+}
+.e-pivotpager .e-movePrevious:hover,
+.e-pivotpager .e-moveNext:hover,
+.e-pivotpager .e-moveFirst:hover,
+.e-pivotpager .e-moveLast:hover {
+  background-color: #f4f4f4;
+}
+.e-pivotpager .e-movePrevious:active,
+.e-pivotpager .e-moveNext:active,
+.e-pivotpager .e-moveFirst:active,
+.e-pivotpager .e-moveLast:active {
+  background-color: #0078d7;
+  color: white;
+}
+.e-pivotpager .e-disabled:hover,
+.e-pivotpager .e-disabled:active {
+  background-color: white;
+  color: #c8c8c8;
+}
+.e-pivotpager .e-pagerLabel,
+.e-pivotpager .e-seriesPageCount,
+.e-pivotpager .e-categPageCount,
+.e-pivotpager .e-pagerTextBox,
+.e-pivotpager .e-movePrevious,
+.e-pivotpager .e-moveNext,
+.e-pivotpager .e-moveFirst,
+.e-pivotpager .e-moveLast {
+  vertical-align: middle;
+}
+.e-pivotpager .e-movePrevious:before,
+.e-pivotpager .e-moveNext:before,
+.e-pivotpager .e-moveFirst:before,
+.e-pivotpager .e-moveLast:before {
+  margin-top: 9px;
+}
+.e-pivotpager tr {
+  height: 59px;
+}
+.e-pivotpager .e-movePrevious.e-disabled,
+.e-pivotpager .e-moveNext.e-disabled,
+.e-pivotpager .e-moveFirst.e-disabled,
+.e-pivotpager .e-moveLast.e-disabled {
+  color: #c8c8c8;
+}
+.e-pivotpager table {
+  background-color: white;
+}
+.e-pivotpager table {
+  border: 1px solid #eaeaea;
+}

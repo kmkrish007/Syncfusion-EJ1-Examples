@@ -1,0 +1,756 @@
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*-----------------------OLAP Definition-----------------*/
+/*-----------------------OLAP Definition End-----------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*------------------ DatePicker ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: white;
+  color: #111111;
+  border-color: #e0e0e0;
+  font-family: 'Roboto', Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+/*------------DatePicker themes -------------*/
+
+.e-widget.e-datepicker table td.e-disable,
+.e-widget.e-datepicker.e-dp-restrict-show table td.e-hidedate,
+.e-widget.e-datepicker .e-footer.e-footer-disable {
+  opacity: 1;
+  color: #adadad;
+  visibility: visible;
+  cursor: default;
+}
+.e-widget.e-datepicker table td.e-hidedate {
+  visibility: hidden;
+}
+.e-widget.e-datepicker:focus {
+  outline: none;
+}
+.e-widget.e-datewidget .e-in-wrap {
+  border-color: #e0e0e0;
+}
+.e-widget.e-datewidget .e-in-wrap {
+  /*material*/
+  border-width: 0 0 1px 0;
+  border-color: rgba(0, 0, 0, 0.12);
+}
+.e-widget.e-datewidget .e-in-wrap:before,
+.e-widget.e-datewidget .e-in-wrap:after {
+  background: #ff4081;
+}
+.e-widget.e-datewidget.e-widget:hover .e-in-wrap {
+  
+}
+.e-widget.e-datewidget.e-disable:hover .e-in-wrap {
+  
+}
+.e-widget.e-datewidget.e-focus .e-in-wrap,
+.e-widget.e-datewidget.e-focus .e-in-wrap:hover {
+  
+}
+.e-widget.e-datewidget.e-focus .e-in-wrap,
+.e-widget.e-datewidget.e-focus .e-in-wrap:hover {
+  /*material*/
+  box-shadow: none;
+}
+.e-widget.e-datewidget.e-widget .e-select:active:hover {
+  
+}
+.e-widget.e-datewidget .e-select,
+.e-widget.e-datewidget.e-rtl .e-select,
+.e-widget.e-ntouch.e-datewidget .e-disable.e-select:hover {
+  
+}
+.e-widget.e-datewidget .e-select,
+.e-widget.e-datewidget.e-rtl .e-select,
+.e-widget.e-ntouch.e-datewidget .e-disable.e-select:hover {
+  /*material*/
+  background-color: white;
+  color: rgba(0, 0, 0, 0.54);
+}
+.e-widget.e-ntouch.e-datewidget .e-select:hover {
+  
+}
+.e-widget.e-ntouch.e-datewidget .e-select:hover {
+  /*material*/
+  background-color: white;
+  color: rgba(0, 0, 0, 0.54);
+  border-color: #e0e0e0;
+}
+.e-widget.e-datewidget .e-select.e-active {
+  /*.custom-gradient(@active-gradient-color, @active-bg-stcolor, @active-bg-endcolor, 0%, 0% );*/
+  background-color: #fafafa;
+  border-color: #3f51b5;
+}
+.e-widget.e-datewidget .e-input {
+  background-color: white;
+  
+}
+.e-widget.e-datewidget .e-input {
+  /*material*/
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 13px;
+}
+.e-widget.e-datepicker table td.other-month,
+.e-widget.e-datepicker .e-allyear-first,
+.e-widget.e-datepicker .e-allyear-last,
+.e-widget.e-datepicker .e-year-first,
+.e-widget.e-datepicker .e-year-last {
+  
+}
+.e-widget.e-datepicker table td.other-month,
+.e-widget.e-datepicker .e-allyear-first,
+.e-widget.e-datepicker .e-allyear-last,
+.e-widget.e-datepicker .e-year-first,
+.e-widget.e-datepicker .e-year-last {
+  /*material*/
+  color: rgba(0, 0, 0, 0.38);
+}
+.e-widget.e-datepicker table td.e-dp-weekend {
+  color: #cd0a0a;
+}
+.e-widget.e-datepicker.e-calendar {
+  
+  border-color: #e0e0e0;
+  background-color: white;
+}
+.e-widget.e-datepicker.e-calendar {
+  /*material*/
+  background: white;
+  font-size: 12px;
+  width: 308px;
+  padding: 0 10px 10px 10px;
+}
+.e-widget.e-datepicker .e-header,
+.e-widget.e-datetime-popup .e-timecontainer .e-header {
+  font-weight: normal;
+  
+}
+.e-widget.e-datepicker .e-header,
+.e-widget.e-datetime-popup .e-timecontainer .e-header {
+  background: #3f51b5;
+}
+.e-widget.e-datepicker .e-header,
+.e-widget.e-datetime-popup .e-timecontainer .e-header {
+  /*material*/
+  background: white;
+  color: rgba(0, 0, 0, 0.87);
+  border-bottom: 0;
+  font-size: 16px;
+}
+.e-widget.e-datepicker .e-header:hover > span {
+  color: #212121;
+}
+.e-widget.e-datepicker .e-footer {
+  
+}
+.e-widget.e-datepicker .e-footer {
+  /*material*/
+  color: #ff4081;
+  text-transform: uppercase;
+  border: none;
+  width: 94%;
+}
+.e-widget.e-datepicker .e-footer.e-btn.e-select {
+  
+}
+.e-widget.e-ntouch.e-datepicker .e-footer:hover {
+  
+}
+.e-widget.e-ntouch.e-datepicker .e-footer:hover {
+  /*material*/
+  color: #ff4081;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.12);
+  border-radius: 0px;
+  box-shadow: none;
+}
+.e-widget.e-datepicker .e-text {
+  
+}
+.e-widget.e-datepicker .e-text {
+  /*material*/
+  color: rgba(0, 0, 0, 0.87);
+}
+.e-widget.e-datepicker .e-week-header,
+.e-widget.e-ntouch.e-datepicker .e-week-header:hover {
+  
+  border-bottom: 1px solid transparent;
+}
+.e-widget.e-datepicker .e-week-header,
+.e-widget.e-ntouch.e-datepicker .e-week-header:hover {
+  background: whitesmoke;
+}
+.e-widget.e-datepicker .e-week-header,
+.e-widget.e-ntouch.e-datepicker .e-week-header:hover {
+  /*material*/
+  color: rgba(0, 0, 0, 0.38);
+  background: white;
+}
+.e-widget.e-ntouch.e-datepicker table td:hover,
+.e-widget.e-datepicker td.e-state-hover,
+.e-widget.e-ntouch.e-datepicker .current-month.e-state-default.e-special-day:hover {
+  border-color: #e0e0e0;
+  box-shadow: 0 0 0 transparent inset;
+  
+}
+.e-widget.e-ntouch.e-datepicker table td:hover,
+.e-widget.e-datepicker td.e-state-hover,
+.e-widget.e-ntouch.e-datepicker .current-month.e-state-default.e-special-day:hover {
+  background: #e0e0e0;
+}
+.e-widget.e-ntouch.e-datepicker table td:hover,
+.e-widget.e-datepicker td.e-state-hover,
+.e-widget.e-ntouch.e-datepicker .current-month.e-state-default.e-special-day:hover {
+  /*material*/
+  background: transparent;
+  color: rgba(0, 0, 0, 0.87);
+  border-radius: 50%;
+}
+.e-widget.e-datepicker table td.e-weeknumber,
+.e-widget.e-datepicker table td.e-weeknumber:hover {
+  background: transparent;
+}
+.e-widget.e-datepicker td.e-state-hover {
+  /*material*/
+  color: #ff4081;
+  background: transparent;
+}
+.e-widget.e-ntouch.e-datepicker table td.e-disable:hover,
+.e-widget.e-ntouch.e-datepicker table td.e-hidedate:hover {
+  background: none;
+  border-color: none;
+  
+}
+.e-widget.e-ntouch.e-datepicker table td.e-disable:hover,
+.e-widget.e-ntouch.e-datepicker table td.e-hidedate:hover {
+  /*material*/
+  color: rgba(0, 0, 0, 0.38);
+}
+.e-widget.e-datepicker .e-datepicker-days .e-selected-days {
+  /*.custom-gradient(@active-gradient-color, @active-bg-stcolor, @active-bg-endcolor, 0%, 0% );*/
+  background-color: #fafafa;
+  border-radius: 0px;
+  box-shadow: 0 0 0 transparent inset;
+  /*For flicker issue */
+  color: white;
+}
+.e-work-week .e-week-day,
+.e-selected-week,
+.e-selected-month {
+  background-color: whitesmoke;
+  color: #212121;
+}
+.e-widget.e-datepicker .e-header .e-icon {
+  
+}
+.e-widget.e-datepicker .e-header .e-icon {
+  /*material*/
+  color: rgba(0, 0, 0, 0.54);
+}
+.e-widget.e-ntouch.e-datepicker .e-header .e-prev.e-disable .e-arrow-sans-left:hover,
+.e-widget.e-ntouch.e-datepicker .e-header .e-next.e-disable .e-arrow-sans-right:hover {
+  background-color: transparent;
+}
+.e-widget.e-ntouch.e-datepicker .e-arrow-sans-left:hover,
+.e-widget.e-ntouch.e-datepicker .e-arrow-sans-right:hover {
+  
+  border-radius: 0px;
+  border-color: #e0e0e0;
+}
+.e-widget.e-ntouch.e-datepicker .e-arrow-sans-left:hover,
+.e-widget.e-ntouch.e-datepicker .e-arrow-sans-right:hover {
+  /*material*/
+  background-color: white;
+}
+.e-widget.e-ntouch.e-datepicker .e-disable.e-arrow-sans-left:hover,
+.e-widget.e-ntouch.e-datepicker .e-disable.e-arrow-sans-right:hover {
+  background: none;
+  border-radius: 0px;
+  cursor: default;
+  border-color: #e0e0e0;
+}
+.e-widget.e-datepicker .e-state-default {
+  
+}
+.e-widget.e-datepicker .e-state-default {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 14px;
+}
+.e-widget.e-datepicker table td.e-weeknumber,
+.e-widget.e-datepicker table td.e-weeknumber:hover {
+  
+}
+.e-widget.e-datepicker table td.e-weeknumber,
+.e-widget.e-datepicker table td.e-weeknumber:hover {
+  color: rgba(0, 0, 0, 0.54);
+}
+.e-widget.e-datepicker .today {
+  
+}
+.e-widget.e-datepicker .today {
+  /*material*/
+  color: #ff4081;
+  background: white;
+  box-shadow: 0 0 0 transparent inset;
+  border-radius: 50%;
+}
+.e-widget.e-datepicker .today:before,
+.e-widget.e-datepicker .today.e-state-hover::before {
+  
+}
+.e-widget.e-datepicker .other-month.e-active {
+  background: none;
+}
+.e-widget.e-datepicker .e-active,
+.e-widget.e-datepicker .e-active:hover,
+.e-widget.e-datepicker .e-active.e-state-hover {
+  /*.custom-gradient(@active-gradient-color, @active-bg-stcolor, @active-bg-endcolor, 0%, 0% );*/
+  background-color: #fafafa;
+  box-shadow: 0 0 0 transparent inset;
+  /*For flicker issue */
+  color: white;
+  border-color: #3f51b5;
+}
+.e-widget.e-datepicker .e-active,
+.e-widget.e-datepicker .e-active:hover,
+.e-widget.e-datepicker .e-active.e-state-hover {
+  border-radius: 4px;
+}
+.e-widget.e-datepicker .e-active,
+.e-widget.e-datepicker .e-active:hover,
+.e-widget.e-datepicker .e-active.e-state-hover {
+  color: white;
+}
+.e-widget.e-datepicker .e-active,
+.e-widget.e-datepicker .e-active:hover,
+.e-widget.e-datepicker .e-active.e-state-hover {
+  /*material*/
+  background: transparent;
+}
+.e-widget.e-ntouch.e-datepicker table td.other-month:hover,
+.e-widget.e-ntouch.e-datepicker .e-allyear-first:hover,
+.e-widget.e-ntouch.e-datepicker .e-allyear-last:hover,
+.e-widget.e-ntouch.e-datepicker .e-year-first:hover,
+.e-widget.e-ntouch.e-datepicker .e-year-last:hover {
+  background-color: transparent;
+  border-color: #e0e0e0;
+  
+}
+.e-widget.e-ntouch.e-datepicker table td.other-month:hover,
+.e-widget.e-ntouch.e-datepicker .e-allyear-first:hover,
+.e-widget.e-ntouch.e-datepicker .e-allyear-last:hover,
+.e-widget.e-ntouch.e-datepicker .e-year-first:hover,
+.e-widget.e-ntouch.e-datepicker .e-year-last:hover {
+  /*material*/
+  color: rgba(0, 0, 0, 0.38);
+}
+/*Disable State Styles*/
+
+.e-widget.e-ntouch.e-datepicker.e-popup.e-disable .e-footer:hover {
+  background: none;
+  color: #212121;
+  border: 1px solid transparent;
+}
+.e-widget.e-ntouch.e-datepicker.e-popup.e-disable table td:hover,
+.e-widget.e-datepicker.e-popup.e-disable td.e-state-hover,
+.e-widget.e-ntouch.e-datepicker.e-popup.e-disable .current-month.e-state-default.e-special-day:hover {
+  background: none;
+  color: #212121;
+  font-weight: normal;
+  border-radius: 0px;
+  border-color: #e0e0e0;
+}
+.e-widget.e-ntouch.e-datepicker.e-popup.e-disable .e-arrow-sans-left:hover,
+.e-widget.e-ntouch.e-datepicker.e-popup.e-disable .e-arrow-sans-right:hover {
+  background: none;
+  border-radius: 0px;
+  border-color: #e0e0e0;
+}
+.e-widget.e-ntouch.e-datepicker.e-popup.e-disable table td.e-disable:hover,
+.e-widget.e-ntouch.e-datepicker.e-popup.e-disable table td.e-hidedate:hover,
+.e-widget.e-ntouch.e-datepicker.e-popup.e-disable .e-disable.e-select:hover,
+.e-widget.e-ntouch.e-datepicker.e-popup.e-disable .e-hidedate.e-select:hover {
+  background: none;
+  border-color: none;
+  color: #adadad;
+}
+.e-widget.e-ntouch.e-datepicker.e-popup.e-disable table td.other-month:hover,
+.e-widget.e-ntouch.e-datepicker.e-popup.e-disable .e-allyear-first:hover,
+.e-widget.e-ntouch.e-datepicker.e-popup.e-disable .e-allyear-last:hover,
+.e-widget.e-ntouch.e-datepicker.e-popup.e-disable .e-year-first:hover,
+.e-widget.e-ntouch.e-datepicker.e-popup.e-disable .e-year-last:hover {
+  color: #3f51b5;
+}
+.e-widget.e-ntouch.e-datepicker .e-datepicker-headertext:hover {
+  
+}
+.e-widget.e-ntouch.e-datepicker.e-disable .e-datepicker-headertext:hover {
+  background: none;
+}
+.e-widget.e-datepicker::-webkit-input-placeholder {
+  color: #212121;
+}
+.e-widget.e-datepicker:-ms-input-placeholder {
+  color: #212121;
+}
+.e-widget.e-datepicker::-moz-placeholder {
+  color: #212121;
+}
+.e-widget.e-datepicker:-moz-placeholder {
+  color: #212121;
+}
+.e-widget.e-ntouch.e-datepicker .e-datepicker-headertext:hover {
+  /*material*/
+  color: rgba(0, 0, 0, 0.87);
+  background: white;
+}
+.e-widget.e-datepicker .e-datepicker-days .e-state-default {
+  height: 44px;
+  position: relative;
+  z-index: 1;
+}
+.e-widget.e-datepicker .e-datepicker-months td,
+.e-widget.e-datepicker .e-datepicker-years td {
+  
+}
+.e-widget.e-datepicker .e-datepicker-months td,
+.e-widget.e-datepicker .e-datepicker-years td {
+  /*material*/
+  height: 50px;
+  position: relative;
+  z-index: 1;
+}
+.e-widget.e-datepicker .e-datepicker-allyears td {
+  height: 78px;
+  position: relative;
+  z-index: 1;
+}
+.e-widget.e-datepicker .e-datepicker-months td:hover::before,
+.e-widget.e-datepicker .e-datepicker-years td:hover::before {
+  /*material*/
+  top: 5px;
+  left: 18px;
+}
+.e-widget.e-datepicker .e-header .e-next,
+.e-widget.e-datepicker .e-header .e-prev {
+  top: 0;
+  left: 0;
+  float: left;
+}
+.e-widget.e-datepicker .e-header .e-next:hover,
+.e-widget.e-datepicker .e-header .e-prev:hover {
+  
+}
+.e-widget.e-datepicker .e-header .e-prev {
+  top: 0;
+  left: 0;
+}
+.e-widget.e-datepicker .e-header .e-text {
+  float: left;
+}
+.e-widget.e-datepicker .e-header .e-text .e-datepicker-headertext {
+  padding: 7px;
+  border-radius: 0;
+}
+.e-widget.e-datepicker .e-header .e-next {
+  right: 0;
+}
+.e-widget.e-datepicker .e-icon {
+  height: 30px;
+  width: 30px;
+}
+.e-widget.e-datepicker .e-header .e-icon:before {
+  top: 7px;
+  left: 8px;
+}
+.e-widget.e-datepicker .e-header .e-text {
+  
+}
+.e-widget.e-datepicker .e-header .e-text {
+  /*material*/
+  width: 79%;
+}
+.e-widget.e-datepicker.e-headerlong .e-header .e-text {
+  
+}
+.e-widget.e-datepicker.e-headerlong .e-header .e-text {
+  /*material*/
+  width: 85%;
+}
+.e-widget.e-datepicker.e-rtl .e-header .e-text {
+  float: right;
+}
+.e-widget.e-datepicker.e-rtl .e-header .e-prev {
+  left: 0;
+  float: right;
+}
+.e-widget.e-datepicker.e-rtl .e-header .e-next {
+  right: 0;
+  float: right;
+}
+.e-widget.e-datewidget.e-active .e-select {
+  /*material*/
+  color: #ff4081;
+}
+.e-widget.e-datewidget.e-active .e-select:hover {
+  /*material*/
+  color: #ff4081;
+}
+.e-widget.e-datepicker .today:hover {
+  /*material*/
+  background: white;
+}
+.e-widget.e-ntouch.e-datepicker table td:hover::before,
+.e-widget.e-ntouch.e-datepicker .current-month.e-state-default.e-special-day:hover::before {
+  
+}
+.e-widget.e-ntouch.e-datepicker table td:hover::before,
+.e-widget.e-ntouch.e-datepicker .current-month.e-state-default.e-special-day:hover::before {
+  /*material*/
+  border-radius: 50%;
+  background: #eeeeee;
+  color: black;
+}
+.e-widget.e-datepicker table td::before {
+  
+}
+.e-widget.e-datepicker table td::before {
+  /*material*/
+  width: 40px;
+  height: 40px;
+  content: "";
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  z-index: -1;
+}
+.e-widget.e-datepicker table td.e-weeknumber:hover::before {
+  
+}
+.e-widget.e-datepicker table td.e-weeknumber:hover::before {
+  content: none;
+}
+.e-widget.e-datepicker.e-headerlong .e-datepicker-days .e-active::before,
+.e-widget.e-datepicker.e-headerlong .e-datepicker-days .e-active .e-state-hover::before,
+.e-widget.e-datepicker.e-headerlong table .e-datepicker-days td::before {
+  
+}
+.e-widget.e-datepicker.e-headerlong .e-datepicker-days .e-active::before,
+.e-widget.e-datepicker.e-headerlong .e-datepicker-days .e-active .e-state-hover::before,
+.e-widget.e-datepicker.e-headerlong table .e-datepicker-days td::before {
+  left: 10px;
+}
+.e-widget.e-datepicker.e-headerlong table .e-datepicker-allyears td::before {
+  
+}
+.e-widget.e-datepicker table .e-datepicker-months td::before,
+.e-widget.e-datepicker table .e-datepicker-years td::before {
+  
+}
+.e-widget.e-datepicker.e-headerlong table .e-datepicker-months td::before,
+.e-widget.e-datepicker.e-headerlong table .e-datepicker-years td::before {
+  
+}
+.e-widget.e-datepicker.e-headerlong e-datepicker-months .e-active::before,
+.e-widget.e-datepicker.e-headerlong e-datepicker-months .e-active .e-state-hover::before,
+.e-widget.e-datepicker.e-headerlong e-datepicker-months table td::before {
+  
+}
+.e-widget.e-datepicker.e-icons .e-datepicker-months td.e-state-hover::before,
+.e-widget.e-datepicker.e-icons .e-datepicker-years td.e-state-hover::before,
+.e-widget.e-datepicker.e-icons .e-datepicker-years td.e-state-default::before,
+.e-widget.e-datepicker.e-icons .e-datepicker-months td.e-state-default::before,
+.e-widget.e-datepicker.e-icons .e-datepicker-years td.e-current-year::before {
+  
+}
+.e-widget.e-datepicker table .e-datepicker-months td.e-active::before,
+.e-widget.e-datepicker table .e-datepicker-years td.e-active::before,
+.e-widget.e-datepicker table .e-datepicker-months td.e-active.e-state-hover::before,
+.e-widget.e-datepicker table .e-datepicker-years td.e-active.e-state-hover::before {
+  
+}
+.e-widget.e-datepicker table .e-datepicker-months td.e-active:hover::before,
+.e-widget.e-datepicker table .e-datepicker-years td.e-active:hover::before,
+.e-widget.e-datepicker table .e-datepicker-allyears td.e-active:hover::before {
+  
+}
+.e-widget.e-datepicker table .e-datepicker-allyears td::before {
+  
+}
+.e-widget.e-datepicker table .e-datepicker-allyears td.e-active::before {
+  
+}
+.e-widget.e-datepicker .e-active::before,
+.e-widget.e-datepicker .e-active .e-state-hover::before {
+  
+}
+.e-widget.e-datepicker .e-active::before,
+.e-widget.e-datepicker .e-active .e-state-hover::before {
+  /*material*/
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #ff4081;
+  content: "";
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  z-index: -1;
+}
+.e-widget.e-datepicker.e-headerlong table td.e-current-allyear::before {
+  left: 14px;
+}
+.e-widget.e-datepicker.e-icons .e-active::before,
+.e-widget.e-datepicker.e-icons .e-active .e-state-hover::before,
+.e-widget.e-datepicker.e-icons td::before,
+.e-widget.e-datepicker.e-icons td.e-state-hover::before {
+  
+}
+.e-widget.e-datepicker.e-icons .e-active::before,
+.e-widget.e-datepicker.e-icons .e-active .e-state-hover::before,
+.e-widget.e-datepicker.e-icons td::before,
+.e-widget.e-datepicker.e-icons td.e-state-hover::before {
+  left: 2px;
+}
+.e-widget.e-datepicker.e-icons .e-datepicker-allyears .e-active::before,
+.e-widget.e-datepicker.e-icons .e-active .e-datepicker-allyears .e-state-hover::before,
+.e-widget.e-datepicker.e-icons .e-datepicker-allyears td::before,
+.e-widget.e-datepicker.e-icons .e-datepicker-allyears td.e-state-hover::before,
+.e-widget.e-datepicker.e-icons .e-datepicker-allyears td.e-current-allyear::before {
+  
+}
+.e-widget.e-datepicker.e-icons .e-datepicker-allyears td {
+  
+}
+.e-widget.e-datepicker td.e-state-hover::before {
+  
+}
+.e-widget.e-datepicker td.e-state-hover::before {
+  /*material*/
+  border-radius: 50%;
+}
+.e-widget.e-datepicker .e-active::before,
+.e-widget.e-datepicker .e-active.e-state-hover::before {
+  
+}
+.e-widget.e-datepicker .e-active::before,
+.e-widget.e-datepicker .e-active.e-state-hover::before {
+  /*material*/
+  background: #ff4081;
+  border-radius: 50%;
+}
+.e-widget.e-ntouch.e-datepicker table td.e-disable:hover::before,
+.e-widget.e-ntouch.e-datepicker table td.e-hidedate:hover::before {
+  
+}
+.e-widget.e-ntouch.e-datepicker table td.e-disable:hover::before,
+.e-widget.e-ntouch.e-datepicker table td.e-hidedate:hover::before {
+  /*material*/
+  color: rgba(0, 0, 0, 0.38);
+}
+.e-widget.e-datepicker table td.e-hidedate:hover::before {
+  
+}
+.e-widget.e-datepicker table td.e-hidedate:hover::before {
+  /*material*/
+  background: none;
+}
+.e-widget.e-datepicker .e-datepicker-months td.e-active::before,
+.e-widget.e-datepicker .e-datepicker-years td.e-active::before {
+  /*material*/
+  top: 5px;
+  left: 20px;
+}
+.e-widget.e-datepicker .e-datepicker-months td.e-state-hover::before,
+.e-widget.e-datepicker .e-datepicker-years td.e-state-hover::before {
+  /*material*/
+  top: 5px;
+  left: 20px;
+}
+.e-widget.e-datepicker.e-headerlong .e-datepicker-months td::before,
+.e-widget.e-datepicker.e-headerlong .e-datepicker-years td::before {
+  left: 32px;
+}
+.e-widget.e-datewidget .e-input::selection {
+  
+}
+.e-widget.e-datewidget .e-input::selection {
+  background: #ff4081;
+  color: white;
+}
+.e-widget.e-datewidget .e-input::-moz-selection {
+  
+}
+.e-widget.e-datewidget .e-input::-moz-selection {
+  background: #ff4081;
+  color: white;
+}
+.e-widget.e-datepicker.e-popup .e-header .e-prev:not(:active):after,
+.e-widget.e-datepicker.e-popup .e-header .e-next:not(:active):after {
+  background-color: rgba(0, 0, 0, 0.12);
+}
+.e-widget.e-datepicker.e-popup .e-header .e-prev.e-disable:not(:active):after,
+.e-widget.e-datepicker.e-popup .e-header .e-next.e-disable:not(:active):after {
+  background-color: transparent;
+}
+.e-widget.e-datepicker .e-footer.e-btn.e-select.e-flat:not(:active):after {
+  background-color: rgba(255, 64, 129, 0.12);
+}
+.e-widget.e-datepicker .e-datepicker-days td.e-active:not(:active):after {
+  background: rgba(255, 64, 129, 0.5);
+}
+.e-widget.e-datepicker .e-datepicker-days td.e-active {
+  overflow: hidden;
+  border-radius: 50%;
+}
+.e-widget.e-datewidget.e-disable {
+  
+}
+.e-widget.e-datewidget .e-select.e-disable,
+.e-widget.e-datewidget.e-disable .e-select:hover,
+.e-widget.e-ntouch.e-datewidget .e-disable.e-select:hover {
+  
+}
+.e-widget.e-datepicker .e-footer:active {
+  
+}
+.e-widget.e-datepicker .e-footer.e-btn.e-select:focus {
+  
+}
+.e-widget.e-datepicker.e-popup .e-dp-viewallyears .e-datepicker-allyears td.e-current-allyear.e-active::before,
+.e-widget.e-datepicker.e-popup .e-dp-viewallyears .e-datepicker-allyears td.e-current-allyear:hover::before,
+.e-widget.e-datepicker.e-popup .e-dp-viewallyears .e-datepicker-allyears td.e-current-allyear::before {
+  /*material*/
+  content: "";
+  width: 75px;
+  height: 75px;
+  z-index: -1;
+}

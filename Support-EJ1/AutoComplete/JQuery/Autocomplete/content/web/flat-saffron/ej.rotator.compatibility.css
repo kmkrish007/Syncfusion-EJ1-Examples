@@ -1,0 +1,164 @@
+/* need verify with UX team*/
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*----------------------OLAP Definition------------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*----------------------material theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: white;
+  color: #111111;
+  border-color: #c8c8c8;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+/*------------------------------------- Rotator -------------------------------------------*/
+
+.e-widget.e-rotator-wrap :focus {
+  outline: 0 none;
+}
+.e-widget.e-rotator-wrap .e-in-wrap .e-single,
+.e-widget.e-rotator-wrap .e-thumb .e-thumb-items li,
+.e-widget.e-rotator-wrap .e-in-wrap.e-multiple {
+  border-color: #c8c8c8;
+}
+.e-widget.e-rotator-wrap .e-thumb .e-thumb-items li:hover {
+  
+}
+.e-widget.e-rotator-wrap .e-thumb .e-thumb-items li:hover {
+  border-color: #c8c8c8;
+}
+.e-widget.e-rotator-wrap .e-thumb .e-thumb-items li.e-active,
+.e-widget.e-rotator-wrap.e-disable .e-thumb .e-thumb-items li.e-active:hover {
+  
+}
+.e-widget.e-rotator-wrap .e-thumb .e-thumb-items li.e-active,
+.e-widget.e-rotator-wrap.e-disable .e-thumb .e-thumb-items li.e-active:hover {
+  border-color: #c8c8c8;
+}
+.e-widget.e-rotator-wrap .e-thumb .e-thumb-items li.e-thumbhover {
+  border-color: #c8c8c8;
+}
+.e-widget.e-rotator-wrap.e-disable .e-thumb .e-thumb-items li:hover,
+.e-widget.e-rotator-wrap.e-disable .e-thumb .e-thumb-items li.e-thumbhover {
+  border-color: #c8c8c8;
+}
+.e-widget.e-rotator-wrap .e-inner .e-caption {
+  
+}
+.e-widget.e-rotator-wrap .e-inner .e-caption {
+  background-color: white;
+  color: #333333;
+}
+.e-widget.e-rotator-wrap .e-pager-wrap .e-bullet > li:hover {
+  border-color: #c8c8c8;
+  
+}
+.e-widget.e-rotator-wrap .e-pager-wrap .e-bullet > li:hover {
+  background-color: #fcc680;
+}
+.e-widget.e-rotator-wrap.e-disable .e-pager-wrap .e-bullet > li:hover {
+  border-color: #c8c8c8;
+  background-color: #ececec;
+}
+.e-widget.e-rotator-wrap.e-disable .e-pager-wrap .e-bullet > li {
+  cursor: default;
+}
+.e-widget.e-rotator-wrap .e-pager-wrap .e-bullet > li.e-active,
+.e-widget.e-rotator-wrap.e-disable .e-pager-wrap .e-bullet > li.e-active:hover {
+  
+}
+.e-widget.e-rotator-wrap .e-pager-wrap .e-bullet > li.e-active,
+.e-widget.e-rotator-wrap.e-disable .e-pager-wrap .e-bullet > li.e-active:hover {
+  border-color: #c8c8c8;
+  background-color: #f9920b;
+}
+.e-widget.e-rotator-wrap .e-pager-wrap .e-bullet > li {
+  border-color: #c8c8c8;
+  
+}
+.e-widget.e-rotator-wrap .e-pager-wrap .e-bullet > li {
+  background-color: #ececec;
+}
+.e-widget.e-rotator-wrap .e-in-wrap .e-nav-btn.e-icon,
+.e-widget.e-rotator-wrap .e-thumb-nav .e-thumb-btn.e-icon {
+  background-image: url(images/rotator-icon.png);
+}
+.e-widget.e-rotator-wrap .e-in-wrap .e-nav-btn.e-icon.play {
+  background-position: -161px 0px;
+  
+}
+.e-widget.e-rotator-wrap .e-in-wrap .e-nav-btn.e-icon.pause {
+  background-position: -248px 0px;
+  
+}
+.e-widget.e-rotator-wrap .e-in-wrap .e-nav-btn.e-icon.e-previous {
+  background-position: -64px -15px;
+  
+}
+.e-widget.e-rotator-wrap .e-in-wrap .e-nav-btn.e-icon.e-next {
+  background-position: -109px -15px;
+  
+}
+.e-widget.e-rotator-wrap .e-thumb-nav .e-thumb-btn.e-icon.e-previous {
+  
+}
+.e-widget.e-rotator-wrap .e-thumb-nav .e-thumb-btn.e-icon.e-previous {
+  background-position: 8px -18px;
+}
+.e-widget.e-rotator-wrap .e-thumb-nav .e-thumb-btn.e-icon.e-next {
+  
+}
+.e-widget.e-rotator-wrap .e-thumb-nav .e-thumb-btn.e-icon.e-next {
+  background-position: -27px -18px;
+}
+.e-widget.e-rotator-wrap .e-pager-wrap .e-bullet {
+  
+}
+.e-widget.e-rotator-wrap .e-pager-wrap .e-bullet > li:hover,
+.e-widget.e-rotator-wrap .e-pager-wrap .e-bullet > li.e-active {
+  
+}
+.e-widget.e-rotator-wrap .e-inner .e-caption > span {
+  
+}
+.e-widget.e-rotator-wrap .e-thumb-nav .e-thumb-btn.e-icon.e-previous:before {
+  
+}
+.e-widget.e-rotator-wrap .e-thumb-nav .e-thumb-btn.e-icon.e-next:before {
+  
+}
+.e-widget.e-rotator-wrap .e-thumb-nav .e-thumb-btn {
+  
+}
+.e-widget.e-rotator-wrap .e-thumb-nav .e-thumb-btn.e-icon {
+  
+}
+.e-widget.e-rotator-wrap.e-Focused .e-shadow {
+  
+}

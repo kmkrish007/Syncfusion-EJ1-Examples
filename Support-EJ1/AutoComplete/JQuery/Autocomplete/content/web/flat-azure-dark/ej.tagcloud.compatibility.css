@@ -1,0 +1,92 @@
+/* need verify with UX team*/
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*----------------------OLAP Definition------------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*------------------------ Ribbon Definition---------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*----------------------material theme-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: #111111;
+  color: white;
+  border-color: #494949;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+/*------------------------------------- tagcloud -------------------------------------------*/
+
+.e-js.e-tagcloud {
+  background-color: black;
+}
+.e-tagcloud.e-js .header {
+  border-color: #777777;
+}
+.e-js.e-tagcloud .e-title {
+  
+}
+.e-js.e-tagcloud .e-title {
+  /*other*/
+
+  
+  font-weight: normal;
+}
+.e-js.e-tagcloud .e-title {
+  border-color: #494949;
+  border-bottom: 3px solid #179bd7;
+  font-size: 17px;
+  color: #dddddd;
+}
+.e-js.e-tagcloud .e-title {
+  background: black;
+}
+.e-js.e-tagcloud .e-load {
+  background-image: url(images/ajax-loader.gif);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.e-js.e-tagcloud .e-tagitems .e-txt {
+  
+}
+.e-js.e-tagcloud .e-tagitems .e-txt {
+  /*other*/
+  color: #dddddd;
+}
+.e-js.e-tagcloud .e-tagitems .e-txt.hover {
+  
+}
+.e-js.e-tagcloud .e-tagitems .e-txt.hover {
+  /*other*/
+
+  color: #179bd7;
+}
+.e-js.e-tagcloud .e-cloud,
+.e-tagcloud .e-list {
+  
+}
+.e-js.e-tagcloud .e-cloud,
+.e-tagcloud .e-list {
+  border-color: #494949;
+}

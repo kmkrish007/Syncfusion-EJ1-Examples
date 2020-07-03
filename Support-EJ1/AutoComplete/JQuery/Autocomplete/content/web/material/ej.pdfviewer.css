@@ -1,0 +1,248 @@
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*-----------------------OLAP Definition-----------------*/
+/*-----------------------OLAP Definition End-----------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*------------------ DatePicker ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: white;
+  color: #111111;
+  border-color: #e0e0e0;
+  font-family: 'Roboto', Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+/*------------------------------pdfviewer Theme Start-------------------------------*/
+
+.e-pdfviewer-outerborder:hover {
+  border-color: #e0e0e0;
+  color: #212121;
+}
+.e-pdfviewer-outerborder:hover {
+  background: #e0e0e0;
+}
+.e-pdfviewer-tbdiv.e-pdfviewer-exporttip {
+  border-color: #e0e0e0;
+  background-color: white;
+}
+.e-pdfviewer-tbdiv.e-pdfviewer-exporttip {
+  background: whitesmoke;
+}
+.e-pdfviewer-tbdiv.e-pdfviewer-fittopagetip {
+  border-color: #e0e0e0;
+  background-color: white;
+}
+.e-pdfviewer-tbdiv.e-pdfviewer-fittopagetip {
+  background: whitesmoke;
+}
+.e-pdfviewer-tbdiv.e-pdfviewer-tooltip {
+  
+}
+.e-pdfviewer-tbdiv.e-pdfviewer-tooltip {
+  background-color: #616161;
+  border: 0px solid #e0e0e0;
+  border-radius: 2px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.e-pdfviewer-headerspan,
+.e-pdfviewer-contentspan {
+  font-family: 'Roboto', Segoe UI, Helvetica Neue, Ubuntu, Arial !important;
+  
+}
+.e-pdfviewer-headerspan,
+.e-pdfviewer-contentspan {
+  color: white;
+  font-size: 10px !important;
+}
+.e-pdfviewer-viewer {
+  font-size: 14px;
+}
+.e-pdfviewer-popuppageno,
+.e-pdfviewer-popuptotalpage {
+  color: white;
+}
+.e-pdfviewer-toolbarcontainer .ejinputtext {
+  background-color: white !important;
+}
+.e-pdfviewer-viewerblock {
+  background-color: #ebebeb;
+  font-size: 12.5px;
+  color: #212121;
+}
+.e-pdfviewer-viewerblockcellcontent {
+  font-size: 14.5px;
+  color: #212121;
+}
+.e-pdfviewer-viewpdf {
+  border-left-color: #e0e0e0;
+}
+.e-pdfviewer-scrollcontainer,
+.e-pdfviewer-viewer > .e-splitter .e-pane {
+  background-color: #e0e0e0;
+}
+.e-pdfviewer-pageviewcontainer {
+  background-color: #cccccc;
+}
+.e-pdfviewer-pageview {
+  -moz-box-shadow: rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: rgba(0, 0, 0, 0.6);
+  box-shadow: rgba(0, 0, 0, 0.3);
+  border-color: gray;
+}
+.e-pdfviewer-label,
+.e-pdfviewer-tbpage,
+.e-pdfviewer-elementalignments,
+.e-pdfviewer-textbox {
+  color: #212121;
+}
+.e-pdfviewer-elementalignments.ejinputtext:focus {
+  border-color: rgba(0, 0, 0, 0.38);
+}
+.e-pdfviewer-label,
+.e-pdfviewer-tbpage,
+.e-pdfviewer-elementalignments,
+.e-pdfviewer-textbox {
+  font-size: 14px;
+  font-weight: normal;
+}
+.e-pdfviewer-labelpageno {
+  
+}
+.e-pdfviewer-labelpageno {
+  font-size: 13px;
+}
+.e-pdfviewer-documentmapcontainer div,
+.e-pdfviewer-documentmappopup {
+  background-color: #ebebeb;
+}
+.e-pdfviewer-pagepopupinfo {
+  background-color: black;
+}
+.e-pdfviewer-viewerblock,
+.e-pdfviewer-viewer,
+.e-pdfviewer-pagenumber,
+.e-pdfviewer-tbpage,
+.e-pdfviewer-tbdiv.e-pdfviewer-exportlist,
+.e-pdfviewer-label,
+.e-pdfviewer-labelpageno {
+  font-family: 'Roboto', Segoe UI, Helvetica Neue, Ubuntu, Arial !important;
+}
+.e-pdfviewer-viewerblock,
+.e-pdfviewer-elementalignments,
+.e-pdfviewer-viewerblockcellcontent,
+.e-pdfviewer-viewerblockcontent,
+.e-pdfviewer-textbox,
+.e-pdfviewer-documentmappopup {
+  border-color: #e0e0e0;
+}
+.e-pdfviewer-elementalignments.ejinputtext {
+  border-color: rgba(0, 0, 0, 0.26);
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.87);
+  border-radius: 2px;
+}
+.e-pdfviewer-elementalignments.ejinputtext::selection {
+  background-color: #ff4081;
+  color: white;
+}
+.e-pdfviewer-toolbarcontainer.e-toolbar {
+  position: relative;
+  z-index: 1;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  background-color: #fafafa;
+  
+}
+.e-pdfviewer-toolbarcontainer.e-toolbar {
+  border-color: #e0e0e0;
+}
+.e-pdfviewer-searchbox {
+  
+}
+.e-pdfviewer-searchbox {
+  border-color: #e0e0e0;
+  background-color: #fafafa;
+}
+.e-pdfviewer-viewercontainer {
+  
+}
+.e-pdfviewer-viewercontainer {
+  background-color: #eeeeee;
+  border-color: #e0e0e0;
+}
+.e-pdfviewer-pageCanvas {
+  
+}
+.e-pdfviewer-pageCanvas {
+  box-shadow: 0 0 7px 4px rgba(0, 0, 0, 0.16);
+}
+.e-pdfviewer-popupmenu {
+  border: solid 2px #e0e0e0;
+  background-color: whitesmoke;
+}
+.e-pdfviewer-innercontent {
+  border-color: black;
+  background-color: white;
+}
+.e-pdfviewer-closeicon {
+  color: #212121;
+}
+.e-pdfviewer-properties-okbtn,
+.e-pdfviewer-properties-cancelbtn {
+  
+}
+.e-pdfviewer-currenttime,
+.e-pdfviewer-username {
+  color: #212121;
+}
+.e-tab .e-header > .e-active.e-pdfviewer-tab-li a {
+  color: #212121 !important;
+}
+.e-pdfviewer-opacity-slider.e-slider .e-handle.e-select {
+  background-color: white;
+}
+.e-tab .e-header > .e-active.e-pdfviewer-tab-li {
+  
+}
+.e-pdfviewer-popupli:hover {
+  background-color: #e0e0e0;
+  color: #212121;
+}
+.e-pdfviewer-popupli:hover {
+  background: #e0e0e0;
+}
+.e-pdfviewer-popupli {
+  color: #212121 !important;
+  font-family: 'Roboto', Segoe UI, Helvetica Neue, Ubuntu, Arial !important;
+  font-size: 14px !important;
+  font-weight: normal !important;
+}
+/*------------------------------pdfviewer Theme End-------------------------------*/
+

@@ -1,0 +1,163 @@
+/*------------------------------------- Captcha -------------------------------------------*/
+
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*-----------------------OLAP Definition-----------------*/
+/*-----------------------OLAP Definition End-----------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*----------------------material theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: white;
+  color: #111111;
+  border-color: #c8c8c8;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-captcha .refresh {
+  
+}
+.e-captcha .refresh {
+  /*other*/
+
+  
+}
+.e-captcha .refresh {
+  /*other*/
+  background: #f7f7f7;
+  border: 1px solid #cbcbcb;
+}
+.e-captcha .audio {
+  
+}
+.e-captcha .audio {
+  /*other*/
+
+  
+}
+.e-captcha .audio {
+  /*other*/
+  background: #f7f7f7;
+}
+.e-captcha .imagecontainer {
+  border: 1px solid #9a9a9a;
+}
+.e-captcha .validTextBox {
+  
+}
+.e-captcha .validTextBox {
+  /*other*/
+
+  
+}
+.e-captcha .validTextBox {
+  /*other*/
+  border: 1px solid #c9c7c7;
+}
+.e-captcha .e-validTextBox {
+  
+}
+.e-captcha .e-validTextBox {
+  /*other*/
+
+  
+}
+.e-captcha .e-validTextBox {
+  /*other*/
+  border: 1px solid #c9c7c7;
+}
+.e-captcha .e-refresh {
+  
+}
+.e-captcha .e-refresh {
+  /*other*/
+
+  
+}
+.e-captcha .e-refresh {
+  /*other*/
+  background: #f7f7f7;
+  border: 1px solid #cbcbcb;
+}
+.e-captcha .e-audio {
+  
+}
+.e-captcha .e-audio {
+  /*other*/
+
+  
+}
+.e-captcha .e-audio {
+  /*other*/
+  background: #f7f7f7;
+  border: 1px solid #c9c7c7;
+}
+.e-captcha .e-imageContainer {
+  border: 1px solid #9a9a9a;
+}
+.e-captcha div:nth-child(2) {
+  
+}
+.e-captcha div:nth-child(2) {
+  
+}
+.e-captcha div:nth-child(2) {
+  /*other*/
+  width: 0px;
+}
+.e-captcha .validTextBox:focus {
+  
+}
+.e-captcha .refresh.e-btn.e-select:active,
+.e-captcha .e-refresh.e-btn.e-select:active {
+  
+}
+.e-captcha .audio.e-btn.e-select:active,
+.e-captcha .e-audio.e-btn.e-select:active {
+  
+}
+.e-captcha .refresh.e-btn.e-select:focus,
+.e-captcha .audio.e-btn.e-select:focus,
+.e-captcha .refresh.e-btn.e-select:active,
+.e-captcha .audio.e-btn.e-select:active,
+.e-captcha .e-refresh.e-btn.e-select:focus,
+.e-captcha .e-audio.e-btn.e-select:focus,
+.e-captcha .e-refresh.e-btn.e-select:active,
+.e-captcha .e-audio.e-btn.e-select:active {
+  
+}
+.e-captcha .imagecontainer img,
+.e-captcha .e-imageContainer img {
+  
+}
+.e-captcha .refresh:focus,
+.e-captcha .audio:focus,
+.e-captcha .e-refresh:focus,
+.e-captcha .e-audio:focus {
+  
+}

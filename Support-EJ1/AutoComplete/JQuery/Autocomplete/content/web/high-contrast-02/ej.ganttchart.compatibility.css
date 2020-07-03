@@ -1,0 +1,284 @@
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*-----------------------OLAP Definition-----------------*/
+/*-----------------------OLAP Definition End-----------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*----------------------material theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: #111111;
+  color: white;
+  border-color: gray;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-js.e-ganttchart .e-ganttviewerbodyContianer {
+  background-color: black;
+}
+.e-js.e-ganttchart .e-ganttviewerbodyContianerparent {
+  border-right-color: gray;
+}
+.e-js.e-ganttchart .e-headercell-weekend > div {
+  
+}
+.e-js.e-ganttchart .e-headercell-weekend > div {
+  background: black;
+}
+.e-js.e-ganttchart .e-weekends {
+  background-color: black;
+}
+.e-js.e-ganttchart-core {
+  background: black;
+}
+.e-js.e-ganttchart .e-borderbox {
+  border-bottom-color: black;
+}
+.e-js.e-ganttchart .e-schedule-day-headercell,
+.e-js.e-ganttchart .e-schedule-hour-headercell,
+.e-js.e-ganttchart .e-schedule-week-headercell {
+  color: white;
+  border-color: gray !important;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  
+}
+.e-gantt-dialog {
+  width: 42% !important;
+}
+.e-gantt-dialog .e-gantt-validation-btn {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  width: 100%;
+  height: 27px;
+}
+.e-js.e-ganttchart .e-ganttviewerheaderContainer {
+  color: white;
+  border-bottom-color: gray !important;
+  border-right-color: gray;
+  
+}
+.e-js.e-ganttchart .e-ganttviewerheaderContainer {
+  background: black;
+}
+.e-js.e-ganttchart .e-milestone-top {
+  border-bottom-color: lime;
+}
+.e-js.e-ganttchart .e-milestone-bottom {
+  border-top-color: lime;
+}
+.e-js.e-ganttchart .e-taskbarname,
+.e-js.e-ganttchart .e-resourceinfo {
+  color: lime;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-js.e-ganttchart .e-connectorline-rightarrow {
+  border-left-color: lime;
+}
+.e-js.e-ganttchart .e-connectorline-leftarrow {
+  border-right-color: lime;
+}
+.e-js.e-progressbartooltip,
+.e-js.e-editingtooltip,
+.e-js.e-tooltipganttpredecessor {
+  
+}
+.e-js.e-progressbartooltip,
+.e-js.e-editingtooltip,
+.e-js.e-tooltipganttpredecessor {
+  background: black;
+  background-color: black;
+  color: lime;
+  border-color: gray;
+}
+.e-js .e-tooltiptaskname {
+  
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-js .e-tooltiptaskname {
+  color: lime;
+}
+.e-js.e-tooltipgantt,
+.e-js.e-progressbartooltip,
+.e-js.e-editingtooltip,
+.e-js.e-tooltipganttpredecessor {
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-js.e-ganttchart .e-tasklabel {
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  color: white;
+}
+.e-js.e-ganttchart .e-gantt-mouseclick td.e-chartcell {
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="rgba(0, 0, 255, 0.2)", endColorstr="rgba(0, 0, 255, 0.2)", GradientType=0);
+  /* IE9 and below */
+
+}
+.e-js.e-ganttchart .e-gantt-mouseclick {
+  
+}
+.e-js.e-ganttchart .e-gantt-mouseclick {
+  background: -moz-linear-gradient(top, rgba(0, 0, 255, 0.2), rgba(0, 0, 255, 0.2));
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 255, 0.2)), color-stop(100%, rgba(0, 0, 255, 0.2)));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(0, 0, 255, 0.2), rgba(0, 0, 255, 0.2));
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(0, 0, 255, 0.2), rgba(0, 0, 255, 0.2));
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(0, 0, 255, 0.2), rgba(0, 0, 255, 0.2));
+  /* IE10+ */
+  background: linear-gradient(to bottom, rgba(0, 0, 255, 0.2), rgba(0, 0, 255, 0.2));
+  /* W3C */
+
+  color: lime;
+  filter: 'progid:DXImageTransform.Microsoft.gradient(startColorstr="rgba(0, 0, 255, 0.2)", endColorstr="rgba(0, 0, 255, 0.2)", GradientType=0), progid:DXImageTransform.Microsoft.Alpha(Opacity=20)';
+}
+.e-js.e-ganttchart .e-progresshandle {
+  background: lime;
+}
+.e-js.e-ganttchart .e-progresshandleafter {
+  border-bottom-color: lime;
+}
+.e-js.e-ganttchart .e-gantt-parenttaskbar-progress,
+.e-js.e-ganttchart .e-gantt-parenttaskbar-innerdiv {
+  
+}
+.e-js.e-ganttchart .e-gantt-parenttaskbar-progress,
+.e-js.e-ganttchart .e-gantt-parenttaskbar-innerdiv {
+  border-color: lime;
+}
+.e-js.e-ganttchart .e-gantt-childtaskbar-progress,
+.e-js.e-ganttchart .e-gantt-childtaskbar {
+  
+}
+.e-js.e-ganttchart .e-gantt-childtaskbar-progress,
+.e-js.e-ganttchart .e-gantt-childtaskbar {
+  border-color: blue;
+}
+.e-js.e-ganttchart .e-chartcell {
+  border-bottom-color: transparent;
+}
+.e-js.e-ganttchart .e-gantt-mouseclick .e-chartcell .e-resourceinfo,
+.e-js.e-ganttchart .e-gantt-mouseclick .e-chartcell .e-tasknameContainer .e-taskbarname {
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  color: white;
+}
+.e-js.e-ganttchart .e-gantt-parenttaskbar-progress {
+  
+}
+.e-js.e-ganttchart .e-gantt-parenttaskbar-progress {
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='lime', endColorstr='lime', GradientType=0);
+}
+.e-js.e-ganttchart .e-gantt-parenttaskbar-progress {
+  background: lime;
+}
+.e-js.e-ganttchart .e-gantt-parenttaskbar-innerdiv {
+  background-color: rgba(0, 255, 0, 0.6);
+  background: lime \9;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='lime', endColorstr='lime', GradientType=0);
+}
+.e-js.e-ganttchart .e-gantt-childtaskbar-progress {
+  background: blue;
+}
+.e-js.e-ganttchart .e-gantt-childtaskbar {
+  background-color: rgba(0, 0, 255, 0.6);
+  background: blue \9;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+}
+.e-js.e-ganttchart .e-manualprogressbar {
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#73f8e2', endColorstr='#73f8e2', GradientType=0);
+  border-color: #73f8e2;
+}
+.e-js.e-ganttchart .e-manualprogressbar {
+  background: #73f8e2;
+}
+.e-js.e-ganttchart .e-manualchildtaskbar {
+  background-color: #3fb9a5;
+  border-color: #73f8e2;
+}
+.e-js.e-ganttchart .e-line {
+  border-color: lime;
+}
+.e-js.e-ganttchart .e-connectorpoint-hover {
+  background-color: lime;
+}
+.e-js.e-ganttchart .e-gantt-falseLine {
+  border-top-color: lime;
+}
+.e-js.e-ganttchart .e-gripper:before {
+  color: rgba(0, 0, 0, 0.4);
+  background: black \9;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+}
+.e-js.e-ganttchart .e-ganttgridlines {
+  border-bottom-color: gray;
+}
+.e-js.e-ganttchart .e-criticalconnectorline {
+  border-color: #ff5555 !important;
+}
+.e-js.e-ganttchart .e-criticalconnectorlinerightarrow {
+  border-left-color: #ff5555 !important;
+}
+.e-js.e-ganttchart .e-criticalconnectorlineleftarrow {
+  border-right-color: #ff5555 !important;
+}
+.e-js.e-ganttchart .e-criticalprogressbar {
+  background: #ff5555 !important;
+  border-color: #ff5555 !important;
+}
+.e-js.e-ganttchart .e-criticaltaskbar {
+  background: #ff8b8b !important;
+  border-color: #ff8b8b !important;
+}
+.e-js .e-gantt-manualparenttaskbar {
+  background-color: #b3b3b3;
+}
+.e-js .e-gantt-manualparenttaskbar-left,
+.e-js .e-gantt-manualparenttaskbar-right {
+  border-color: #b3b3b3;
+}
+.e-js .e-gantt-manualparenttaskbar-connectorpoint-hover {
+  background-color: #b3b3b3 !important;
+}
+.e-rg-rangdiv {
+  background: red;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  opacity: 0.8;
+}
+.e-js .e-gantt-taskbarSelection .e-gantt-childtaskbar:before {
+  border-color: white;
+}
+.e-js.e-ganttchart .e-connectorline-leftarrow-hover {
+  border-right-color: #0026da !important;
+}
+.e-js.e-ganttchart .e-connectorline-rightarrow-hover {
+  border-left-color: #0026da !important;
+}
+.e-js.e-ganttchart .e-connectorline-hover {
+  border-color: #0026da !important;
+  outline-color: #0026da !important;
+}

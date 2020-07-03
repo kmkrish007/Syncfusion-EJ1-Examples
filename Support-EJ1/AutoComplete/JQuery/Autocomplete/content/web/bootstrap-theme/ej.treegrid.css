@@ -1,0 +1,519 @@
+/*@pager-currentitem:#428BCA;*/
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*-----------------------OLAP Definition Start-----------------*/
+.e-pivotclient .removeSplitBtn {
+  border-radius: 4px;
+}
+/*-----------------------OLAP Definition End------------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*----------------------material theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: white;
+  color: #111111;
+  border-color: #cecece;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-treegrid .e-extendcolumn {
+  background-color: white;
+}
+.e-treegrid .e-headercelldiv {
+  color: #282827;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-filterMenuDiv {
+  
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  min-height: 0px !important;
+}
+.e-filterMenuDiv {
+  border-color: #c8c8c8 !important;
+}
+.e-treegrid .e-treegridpopup .e-popupcontent {
+  background-color: white;
+  border-color: #cecece;
+}
+.e-treegrid .e-treegridpopup span:hover,
+.e-treegrid .e-treegridpopup .e-spanclicked {
+  border-color: #666666;
+}
+.e-treegrid .e-treegridpopup .e-downtail:before,
+.e-treegrid .e-treegridpopup .e-downtail {
+  border-top-color: #cecece;
+}
+.e-treegrid .e-treegridpopup .e-downtail:after {
+  border-top-color: white;
+}
+.e-treegrid .e-headercelldiv .e-descending,
+.e-treegrid .e-headercelldiv .e-ascending,
+.e-treegrid .e-headercell .e-columnmenu-icon {
+  
+}
+.e-treegrid .e-headercelldiv .e-descending,
+.e-treegrid .e-headercelldiv .e-ascending,
+.e-treegrid .e-headercell .e-columnmenu-icon {
+  color: #777777;
+}
+.e-treegrid-core {
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-treegrid {
+  border-color: #cecece;
+  color: #333333;
+}
+.e-treegrid .e-gridcontent {
+  background-color: white;
+  border-color: #cecece;
+}
+.e-treegrid .e-borderbox {
+  border-bottom-color: white;
+}
+.e-treegrid .e-editcell,
+.e-treegrid .e-detailsrowcell,
+.e-treegrid .e-rowcell,
+.e-treegrid .e-extendcolumn {
+  
+}
+.e-treegrid .e-editcell,
+.e-treegrid .e-detailsrowcell,
+.e-treegrid .e-rowcell,
+.e-treegrid .e-extendcolumn {
+  border-color: #cecece;
+}
+.e-treegrid .e-tableLastCell {
+  border-right-color: #cecece !important;
+}
+.e-treegrid .e-detailsiconcell:hover,
+.e-treegrid .e-detailsinfoiconhide {
+  background-color: #e3e3e3;
+}
+.e-treegrid div.e-error .e-toparrow {
+  
+}
+.e-treegrid div.e-error .e-toparrow {
+  border-bottom-color: #fffe92;
+}
+.e-treegrid div.e-error .e-bottomarrow {
+  
+}
+.e-treegrid div.e-error .e-bottomarrow {
+  border-top-color: #fffe92;
+}
+.e-detailscellwrapperfly {
+  border-color: #cecece;
+  
+}
+.e-detailscellwrapperfly {
+  box-shadow: 0px 0px 11px 3px #cecece;
+  -moz-box-shadow: 0px 0px 11px 3px #cecece;
+  -webkit-box-shadow: 0px 0px 11px 3px #cecece;
+}
+.e-dragrowcell {
+  border-color: #cecece !important;
+}
+.e-treegrid .e-alt-row {
+  
+}
+.e-treegrid .e-alt-row {
+  background: #fafafa;
+}
+.e-treegrid .e-selectionbackground {
+  
+}
+.e-treegrid .e-selectionbackground {
+  color: white;
+  -ms-filter: 'progid:DXImageTransform.Microsoft.gradient(startColorstr="#296293", endColorstr="#296293", GradientType=0), progid:DXImageTransform.Microsoft.Alpha(Opacity=20)';
+}
+.e-treegrid .e-selectionbackground {
+  background: #3277b2;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #3277b2, #296293);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3277b2), color-stop(100%, #296293));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #3277b2, #296293);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #3277b2, #296293);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #3277b2, #296293);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #3277b2, #296293);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3277b2', endColorstr='#296293', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-treegridPane .e-treegrid .e-selectionbackground {
+  
+}
+.e-treegridPane .e-treegrid .e-selectionbackground {
+  background: -moz-linear-gradient(top, rgba(50, 119, 178, 0.2), rgba(41, 98, 147, 0.2));
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(50, 119, 178, 0.2)), color-stop(100%, rgba(41, 98, 147, 0.2)));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(50, 119, 178, 0.2), rgba(41, 98, 147, 0.2));
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(50, 119, 178, 0.2), rgba(41, 98, 147, 0.2));
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(50, 119, 178, 0.2), rgba(41, 98, 147, 0.2));
+  /* IE10+ */
+  background: linear-gradient(to bottom, rgba(50, 119, 178, 0.2), rgba(41, 98, 147, 0.2));
+  /* W3C */
+
+  color: #333333;
+  filter: 'progid:DXImageTransform.Microsoft.gradient(startColorstr="#296293", endColorstr="#296293", GradientType=0), progid:DXImageTransform.Microsoft.Alpha(Opacity=20)';
+}
+.e-treegrid .e-selectingcell {
+  
+}
+.e-treegrid .e-selectingcell {
+  color: white;
+}
+.e-treegrid .e-selectingcell {
+  background: #3277b2;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #3277b2, #296293);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3277b2), color-stop(100%, #296293));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #3277b2, #296293);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #3277b2, #296293);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #3277b2, #296293);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #3277b2, #296293);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3277b2', endColorstr='#296293', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-treegridPane .e-treegrid .e-selectingcell {
+  
+}
+.e-treegridPane .e-treegrid .e-selectingcell {
+  background: -moz-linear-gradient(top, rgba(50, 119, 178, 0.2), rgba(41, 98, 147, 0.2));
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(50, 119, 178, 0.2)), color-stop(100%, rgba(41, 98, 147, 0.2)));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(50, 119, 178, 0.2), rgba(41, 98, 147, 0.2));
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(50, 119, 178, 0.2), rgba(41, 98, 147, 0.2));
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(50, 119, 178, 0.2), rgba(41, 98, 147, 0.2));
+  /* IE10+ */
+  background: linear-gradient(to bottom, rgba(50, 119, 178, 0.2), rgba(41, 98, 147, 0.2));
+  /* W3C */
+
+  color: #333333;
+}
+.e-treegrid .e-detailsinfoiconhide:before,
+.e-treegrid .e-detailsinfoiconshow:before {
+  
+}
+.e-treegrid .e-detailsinfoiconhide:before,
+.e-treegrid .e-detailsinfoiconshow:before {
+  color: #3277b2 !important;
+}
+.e-treegrid .e-selectionbackground .e-detailsinfoiconshow:before {
+  
+}
+.e-treegrid .e-selectionbackground .e-detailsinfoiconshow:before {
+  color: white !important;
+}
+.e-treegrid .e-detailscellwrapper,
+.e-detailscellwrapperfly {
+  background: white;
+  color: #333333 !important;
+}
+.e-dragtooltipbackground {
+  
+}
+.e-dragtooltipbackground {
+  background-color: white;
+  color: #333333;
+}
+.e-treegrid .e-tabletd {
+  border-color: #cecece;
+}
+.e-treegrid .e-treegridtoolbar {
+  background-color: white !important;
+  border-color: #cecece !important;
+}
+.e-treegrid .e-headercell {
+  
+}
+.e-treegrid .e-headercell {
+  border-right-color: #cecece !important;
+  border-bottom-color: #cecece !important;
+}
+.e-treegrid .e-filterbarcell {
+  
+}
+.e-treegrid .e-filterbarcell {
+  border-color: #cecece !important;
+}
+.e-treegrid .e-grid-icon {
+  background: #fcfcfc;
+}
+.e-treegrid .e-gridheader {
+  color: #282827;
+  border-color: #cecece;
+  
+}
+.e-treegrid .e-gridheader {
+  background: #fcfcfc;
+}
+.e-treegrid .e-headercontent {
+  border-right-color: #cecece;
+}
+.e-treegrid .e-ejinputtext,
+.e-addedColumn .e-ejinputtext,
+.e-treegridrenamedialog .e-ejinputtext {
+  
+  border-color: #cecece;
+  outline: none;
+  vertical-align: baseline;
+}
+.e-treegrid .e-ejinputtext,
+.e-addedColumn .e-ejinputtext,
+.e-treegridrenamedialog .e-ejinputtext {
+  color: #333333;
+  background-color: white;
+}
+.e-treegrid .e-ejinputtext:focus,
+.e-addedColumn .e-ejinputtext:focus,
+.e-treegridrenamedialog .e-ejinputtext:focus {
+  
+}
+.e-treegrid .e-ejinputtext:focus,
+.e-addedColumn .e-ejinputtext:focus,
+.e-treegridrenamedialog .e-ejinputtext:focus {
+  box-shadow: 0 0 5px #cccccc;
+}
+.e-treegrid .e-reSizeColbg {
+  border-left-color: #cecece !important;
+}
+.e-treegrid .e-gridheadercontainer {
+  
+}
+.e-treegrid .e-gridheadercontainer {
+  border-right-color: #cecece !important;
+}
+.e-columnmenu {
+  background: #fcfcfc;
+  color: #333333;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  
+}
+.e-columnmenu {
+  border-color: #cecece !important;
+}
+.e-columnmenuitem .e-icon,
+.e-menuitem .e-icon {
+  
+}
+.e-columnmenuitem .e-icon,
+.e-menuitem .e-icon {
+  color: #666666;
+}
+.e-treegrid .e-toolbaricons {
+  
+}
+.e-treegrid .e-toolbaricons {
+  color: #666666;
+}
+.e-columnmenuselection .e-icon,
+.e-contextmenu-mouseover .e-icon {
+  
+}
+.e-columnmenuselection .e-icon,
+.e-contextmenu-mouseover .e-icon {
+  color: #333333;
+}
+.e-treegrid .e-tooltxt.e-hover > span {
+  
+}
+.e-treegrid .e-tooltxt.e-hover > span {
+  color: #333333;
+}
+.e-columnSelector {
+  background: #fcfcfc;
+  border: 1px solid;
+  border-color: #cecece !important;
+  color: #333333 !important;
+}
+.e-columnMenuListDiv label {
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-columnmenuselection {
+  
+  color: #333333;
+}
+.e-columnmenuselection {
+  background: #f4f4f4;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #f4f4f4, #e9e9e9);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f4f4f4), color-stop(100%, #e9e9e9));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #f4f4f4, #e9e9e9);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #f4f4f4, #e9e9e9);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #f4f4f4, #e9e9e9);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #f4f4f4, #e9e9e9);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f4f4f4', endColorstr='#e9e9e9', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-treegrid .e-summaryrow {
+  
+}
+.e-treegrid .e-summaryrow {
+  background: #f7f7f7;
+}
+.e-treegrid .e-footersummaryrow,
+.e-treegrid .e-footersummaryrowdiv {
+  
+}
+.e-treegrid .e-footersummaryrow,
+.e-treegrid .e-footersummaryrowdiv {
+  background: #f7f7f7;
+}
+.e-treegrid .e-footersummaryrowdiv {
+  border-width: 0px 1px 1px 1px;
+  border-style: solid;
+  border-color: #cecece;
+}
+.e-treegrid .e-summaryrow .e-summaryrowcell {
+  
+}
+.e-treegrid .e-summaryrow .e-summaryrowcell {
+  border-bottom-color: #cecece;
+}
+.e-contextmenu,
+.e-innerContextmenu {
+  
+  background: #fcfcfc;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-contextmenu,
+.e-innerContextmenu {
+  border-color: #cecece !important;
+  color: #333333;
+}
+.e-headerContextmenu {
+  
+  background: #fcfcfc;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  border: 1px solid;
+}
+.e-headerContextmenu {
+  border-color: #cecece !important;
+  color: #333333;
+}
+.e-contextmenu-mouseover {
+  
+}
+.e-contextmenu-mouseover {
+  color: #333333;
+}
+.e-contextmenu-mouseover {
+  background: #f4f4f4;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #f4f4f4, #e9e9e9);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f4f4f4), color-stop(100%, #e9e9e9));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #f4f4f4, #e9e9e9);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #f4f4f4, #e9e9e9);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #f4f4f4, #e9e9e9);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #f4f4f4, #e9e9e9);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f4f4f4', endColorstr='#e9e9e9', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-tooltipgantt {
+  
+}
+.e-tooltipgantt {
+  background-color: white;
+  color: #333333;
+  border-color: #cecece;
+}
+.e-treegrid .e-movablecontainer,
+.e-treegrid .e-movableheader,
+.e-treegrid .e-movablefooter {
+  
+}
+.e-treegrid .e-movablecontainer,
+.e-treegrid .e-movableheader,
+.e-treegrid .e-movablefooter {
+  border-left-color: #3277b2;
+}
+.e-treegrid .e-footercontainer {
+  border-right-color: #cecece;
+}
+.e-headervline {
+  
+}
+.e-headervline {
+  border-color: #3277b2;
+}
+.e-headertooltip {
+  
+}
+.e-headertooltip {
+  color: #282827;
+  background-color: #fcfcfc;
+  border-color: #cecece;
+}
+.e-menuitem-hr {
+  border-width: 1px 0px 0px 0px;
+  border-style: solid;
+  
+}
+.e-menuitem-hr {
+  border-color: #cecece;
+}
+
+
+.e-treegrid-resIcon {
+  
+}
+.e-treegrid-resIcon {
+  color: #777777;
+}

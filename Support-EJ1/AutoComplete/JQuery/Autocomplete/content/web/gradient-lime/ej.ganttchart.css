@@ -1,0 +1,364 @@
+/* need verify with UX team*/
+/*--------------------Maps ----------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*----------------------OLAP Definition------------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*----------------------material theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: white;
+  color: #111111;
+  border-color: #c8c8c8;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-ganttchart .e-ganttviewerbodyContianer {
+  background-color: white;
+}
+.e-ganttchart .e-ganttviewerbodyContianerparent {
+  border-right-color: #c8c8c8;
+}
+.e-ganttchart .e-headercell-weekend > div {
+  
+}
+.e-ganttchart .e-headercell-weekend > div {
+  background: #f9f9f9;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #f9f9f9, #f2f2f2);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f9f9f9), color-stop(100%, #f2f2f2));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #f9f9f9, #f2f2f2);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #f9f9f9, #f2f2f2);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #f9f9f9, #f2f2f2);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #f9f9f9, #f2f2f2);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9f9f9', endColorstr='#f2f2f2', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-ganttchart .e-weekends {
+  background-color: #fafafa;
+}
+.e-ganttchart-core {
+  background: white;
+}
+.e-ganttchart .e-borderbox {
+  border-bottom-color: white;
+}
+.e-ganttchart .e-schedule-day-headercell,
+.e-ganttchart .e-schedule-hour-headercell,
+.e-ganttchart .e-schedule-week-headercell {
+  color: #282827;
+  border-color: #c8c8c8 !important;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  
+}
+.e-gantt-dialog {
+  width: 42% !important;
+}
+.e-gantt-dialog .e-gantt-validation-btn {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  width: 100%;
+  height: 27px;
+}
+.e-ganttchart .e-ganttviewerheaderContainer {
+  color: #282827;
+  border-bottom-color: #c8c8c8 !important;
+  border-right-color: #c8c8c8;
+  
+}
+.e-ganttchart .e-ganttviewerheaderContainer {
+  background: #f9f9f9;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #f9f9f9, #f2f2f2);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f9f9f9), color-stop(100%, #f2f2f2));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #f9f9f9, #f2f2f2);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #f9f9f9, #f2f2f2);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #f9f9f9, #f2f2f2);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #f9f9f9, #f2f2f2);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9f9f9', endColorstr='#f2f2f2', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-ganttchart .e-milestone-top {
+  border-bottom-color: #333333;
+}
+.e-ganttchart .e-milestone-bottom {
+  border-top-color: #333333;
+}
+.e-ganttchart .e-taskbarname,
+.e-ganttchart .e-resourceinfo {
+  color: #333333;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-ganttchart .e-connectorline-rightarrow {
+  border-left-color: #333333;
+}
+.e-ganttchart .e-connectorline-leftarrow {
+  border-right-color: #333333;
+}
+.e-progressbartooltip,
+.e-editingtooltip,
+.e-tooltipganttpredecessor {
+  
+}
+.e-progressbartooltip,
+.e-editingtooltip,
+.e-tooltipganttpredecessor {
+  background: white;
+  background-color: white;
+  color: #333333;
+  border-color: #c8c8c8;
+}
+.e-tooltiptaskname {
+  
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-tooltiptaskname {
+  color: #333333;
+}
+.e-tooltipgantt,
+.e-progressbartooltip,
+.e-editingtooltip,
+.e-tooltipganttpredecessor {
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-ganttchart .e-tasklabel {
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  color: white;
+}
+.e-ganttchart .e-gantt-mouseclick td.e-chartcell {
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#aecf49", endColorstr="#aecf49", GradientType=0);
+  /* IE9 and below */
+
+}
+.e-ganttchart .e-gantt-mouseclick {
+  
+}
+.e-ganttchart .e-gantt-mouseclick {
+  background: -moz-linear-gradient(top, rgba(206, 226, 146, 0.2), rgba(174, 207, 73, 0.2));
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(206, 226, 146, 0.2)), color-stop(100%, rgba(174, 207, 73, 0.2)));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(206, 226, 146, 0.2), rgba(174, 207, 73, 0.2));
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(206, 226, 146, 0.2), rgba(174, 207, 73, 0.2));
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(206, 226, 146, 0.2), rgba(174, 207, 73, 0.2));
+  /* IE10+ */
+  background: linear-gradient(to bottom, rgba(206, 226, 146, 0.2), rgba(174, 207, 73, 0.2));
+  /* W3C */
+
+  color: #333333;
+  filter: 'progid:DXImageTransform.Microsoft.gradient(startColorstr="#aecf49", endColorstr="#aecf49", GradientType=0), progid:DXImageTransform.Microsoft.Alpha(Opacity=20)';
+}
+.e-ganttchart .e-progresshandle {
+  background: #333333;
+}
+.e-ganttchart .e-progresshandleafter {
+  border-bottom-color: #333333;
+}
+.e-ganttchart .e-gantt-parenttaskbar-progress,
+.e-ganttchart .e-gantt-parenttaskbar-innerdiv {
+  
+}
+.e-ganttchart .e-gantt-parenttaskbar-progress,
+.e-ganttchart .e-gantt-parenttaskbar-innerdiv {
+  border-color: #333333;
+}
+.e-ganttchart .e-gantt-childtaskbar-progress,
+.e-ganttchart .e-gantt-childtaskbar {
+  
+}
+.e-ganttchart .e-gantt-childtaskbar-progress,
+.e-ganttchart .e-gantt-childtaskbar {
+  border-color: #cee292;
+}
+.e-ganttchart .e-chartcell {
+  border-bottom-color: transparent;
+}
+.e-ganttchart .e-gantt-mouseclick .e-chartcell .e-resourceinfo,
+.e-ganttchart .e-gantt-mouseclick .e-chartcell .e-tasknameContainer .e-taskbarname {
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  color: #333333;
+}
+.e-ganttchart .e-gantt-parenttaskbar-progress {
+  
+}
+.e-ganttchart .e-gantt-parenttaskbar-progress {
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cccccc', endColorstr='#cccccc', GradientType=0);
+}
+.e-ganttchart .e-gantt-parenttaskbar-progress {
+  background: #333333;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #333333, #cccccc);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #333333), color-stop(100%, #cccccc));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #333333, #cccccc);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #333333, #cccccc);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #333333, #cccccc);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #333333, #cccccc);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endColorstr='#cccccc', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-ganttchart .e-gantt-parenttaskbar-innerdiv {
+  background-color: rgba(51, 51, 51, 0.6);
+  background: #333333 \9;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a7b1be', endColorstr='#a7b1be', GradientType=0);
+}
+.e-ganttchart .e-gantt-childtaskbar-progress {
+  background: #cee292;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #cee292, #aecf49);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #cee292), color-stop(100%, #aecf49));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #cee292, #aecf49);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #cee292, #aecf49);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #cee292, #aecf49);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #cee292, #aecf49);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cee292', endColorstr='#aecf49', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-ganttchart .e-gantt-childtaskbar {
+  background-color: rgba(206, 226, 146, 0.6);
+  background: #cee292 \9;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+}
+.e-ganttchart .e-manualprogressbar {
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7eccbe', endColorstr='#54b4a2', GradientType=0);
+  border-color: #4fb29f;
+}
+.e-ganttchart .e-manualprogressbar {
+  background: #7eccbe;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #7eccbe, #54b4a2);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7eccbe), color-stop(100%, #54b4a2));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #7eccbe, #54b4a2);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #7eccbe, #54b4a2);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #7eccbe, #54b4a2);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #7eccbe, #54b4a2);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7eccbe', endColorstr='#54b4a2', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-ganttchart .e-manualchildtaskbar {
+  background-color: #8dd1c4;
+  border-color: #4fb29f;
+}
+.e-ganttchart .e-line {
+  border-color: #333333;
+}
+.e-ganttchart .e-connectorpoint-hover {
+  background-color: #333333;
+}
+.e-ganttchart .e-gantt-falseLine {
+  border-top-color: #333333;
+}
+.e-ganttchart .e-gripper:before {
+  color: rgba(255, 255, 255, 0.4);
+  background: white \9;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+}
+.e-ganttchart .e-ganttgridlines {
+  border-bottom-color: #c8c8c8;
+}
+.e-ganttchart .e-criticalconnectorline {
+  border-color: #ff5555 !important;
+}
+.e-ganttchart .e-criticalconnectorlinerightarrow {
+  border-left-color: #ff5555 !important;
+}
+.e-ganttchart .e-criticalconnectorlineleftarrow {
+  border-right-color: #ff5555 !important;
+}
+.e-ganttchart .e-criticalprogressbar {
+  background: #ff5555 !important;
+  border-color: #ff5555 !important;
+}
+.e-ganttchart .e-criticaltaskbar {
+  background: #ff8b8b !important;
+  border-color: #ff8b8b !important;
+}
+.e-gantt-manualparenttaskbar {
+  background-color: #b3b3b3;
+}
+.e-gantt-manualparenttaskbar-left,
+.e-gantt-manualparenttaskbar-right {
+  border-color: #b3b3b3;
+}
+.e-gantt-manualparenttaskbar-connectorpoint-hover {
+  background-color: #b3b3b3 !important;
+}
+.e-rg-rangdiv {
+  background: red;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  opacity: 0.8;
+}
+.e-gantt-taskbarSelection .e-gantt-childtaskbar:before {
+  border-color: black;
+}
+.e-ganttchart .e-connectorline-leftarrow-hover {
+  border-right-color: #0026da !important;
+}
+.e-ganttchart .e-connectorline-rightarrow-hover {
+  border-left-color: #0026da !important;
+}
+.e-ganttchart .e-connectorline-hover {
+  border-color: #0026da !important;
+  outline-color: #0026da !important;
+}

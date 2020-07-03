@@ -1,0 +1,896 @@
+/* need verify with UX team*/
+.pager-hover-gradient {
+  background: #57452d;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #57452d, #57380f);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #57452d), color-stop(100%, #57380f));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #57452d, #57380f);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #57452d, #57380f);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #57452d, #57380f);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #57452d, #57380f);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#57452d', endColorstr='#57380f', GradientType=0);
+  /* IE6-9 */
+
+}
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*----------------------OLAP Definition------------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*----------------------material theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: #111111;
+  color: white;
+  border-color: #494949;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-spreadsheet {
+  color: #dddddd;
+  border-color: #494949;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-headercell,
+.e-spreadsheet .e-spreadsheetmainpanel .e-headercontent,
+.e-spreadsheet .e-spreadsheetmainpanel .e-rowheader {
+  border-color: #494949;
+  color: #dddddd;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-headercell,
+.e-spreadsheet .e-spreadsheetmainpanel .e-headercontent,
+.e-spreadsheet .e-spreadsheetmainpanel .e-rowheader {
+  
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-headercell:hover,
+.e-spreadsheet .e-spreadsheetmainpanel .e-rowheader:hover {
+  background-color: #3f2503;
+  border-color: #777777;
+  color: #dddddd;
+  
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-rowheadercontent {
+  border-bottom-color: #494949;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-spreadsheetcontentcontainer {
+  border-left-color: #494949;
+  background-color: black;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-spreadsheetcolumnheader {
+  border-color: #494949;
+}
+.e-spreadsheet .e-spreadsheetheader {
+  border-bottom-color: #494949;
+  border-top-color: #494949;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-spreadsheetcolumnheader {
+  border-right-color: #494949;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-rowcell {
+  color: #dddddd;
+  background-color: black;
+  border-color: #494949;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-spreadsheetcolumnheader,
+.e-spreadsheet .e-spreadsheetmainpanel .e-rowheader,
+.e-spreadsheet .e-scrollcss,
+.e-spreadsheet .e-scrollrowcss {
+  background-color: black;
+}
+.e-ss-editinput .e-in-wrap,
+.e-ss-editinput .e-input {
+  color: inherit;
+  font-size: 11pt;
+  font-family: Calibri;
+}
+/*---------------------------Frozen Row------------------------*/
+
+.e-spreadsheet .e-reSizeColbg {
+  border-left-color: #494949;
+}
+.e-spreadsheet .e-reSizeAPbg {
+  border-left-color: #494949;
+}
+.e-spreadsheet .e-reSizeRowbg {
+  border-top-color: #494949;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-selected,
+.e-spreadsheet .e-spreadsheetmainpanel .e-ctrlselected {
+  background: #3f2503;
+  color: #dddddd;
+  
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-activecell {
+  background-color: black;
+  color: #dddddd;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-rowheader.e-rowhighlight,
+.e-spreadsheet .e-spreadsheetmainpanel .e-colhighlight {
+  background-color: #3f2503;
+  color: #e48b14;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-rowhighlight {
+  border-right-color: #e48b14;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-colhighlight {
+  border-bottom-color: #e48b14;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-colhighlight:hover {
+  background-color: #3f2503;
+  border-bottom-color: #e48b14;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-rowhighlight:hover {
+  background-color: #3f2503;
+  border-right-color: #e48b14;
+}
+.e-menu-wrap .e-chartcell:hover,
+.e-chartimg:hover {
+  background-color: #57452d;
+}
+.e-chartimg:hover {
+  
+}
+/*-------------------- Borders ------------------------ */
+
+.e-spreadsheet .e-spreadsheetmainpanel td.e-bborderright,
+.e-spreadsheet .e-spreadsheetmainpanel td.e-bctrlborderright,
+.e-spreadsheet .e-spreadsheetmainpanel td.e-bcborderright {
+  border-right-color: #f5bb6e;
+}
+.e-spreadsheet .e-spreadsheetmainpanel td.e-bborderbottom,
+.e-spreadsheet .e-spreadsheetmainpanel td.e-bctrlborderbottom,
+.e-spreadsheet .e-spreadsheetmainpanel td.e-bcborderbottom {
+  border-bottom-color: #f5bb6e;
+}
+.e-spreadsheet .e-spreadsheetmainpanel td.e-rborderright,
+.e-spreadsheet .e-spreadsheetmainpanel td.e-rctrlborderright,
+.e-spreadsheet .e-spreadsheetmainpanel td.e-rcborderright {
+  border-right-color: #fc100c;
+}
+.e-spreadsheet .e-spreadsheetmainpanel td.e-rborderbottom,
+.e-spreadsheet .e-spreadsheetmainpanel td.e-rctrlborderbottom,
+.e-spreadsheet .e-spreadsheetmainpanel td.e-rcborderbottom {
+  border-bottom-color: #fc100c;
+}
+.e-spreadsheet .e-spreadsheetmainpanel td.e-vborderright,
+.e-spreadsheet .e-spreadsheetmainpanel td.e-vctrlborderright,
+.e-spreadsheet .e-spreadsheetmainpanel td.e-vcborderright {
+  border-right-color: #6a13ad;
+}
+.e-spreadsheet .e-spreadsheetmainpanel td.e-vborderbottom,
+.e-spreadsheet .e-spreadsheetmainpanel td.e-vctrlborderbottom,
+.e-spreadsheet .e-spreadsheetmainpanel td.e-vcborderbottom {
+  border-bottom-color: #6a13ad;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-gborderright,
+.e-spreadsheet .e-spreadsheetmainpanel .e-gctrlborderright {
+  border-right-color: #62c435 !important;
+}
+.e-spreadsheet .e-spreadsheetmainpanel td.e-gborderbottom,
+.e-spreadsheet .e-spreadsheetmainpanel td.e-gctrlborderbottom {
+  border-bottom-color: #62c435;
+}
+.e-spreadsheet .e-spreadsheetmainpanel td.e-pborderright,
+.e-spreadsheet .e-spreadsheetmainpanel td.e-pctrlborderright {
+  border-right-color: #f411b0;
+}
+.e-spreadsheet .e-spreadsheetmainpanel td.e-pborderbottom,
+.e-spreadsheet .e-spreadsheetmainpanel td.e-pctrlborderbottom {
+  border-bottom-color: #f411b0;
+}
+.e-spreadsheet .e-spreadsheetmainpanel td.e-oborderright,
+.e-spreadsheet .e-spreadsheetmainpanel td.e-octrlborderright {
+  border-right-color: #e59604;
+}
+.e-spreadsheet .e-spreadsheetmainpanel td.e-oborderbottom,
+.e-spreadsheet .e-spreadsheetmainpanel td.e-octrlborderbottom {
+  border-bottom-color: #e59604;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-thinborderright {
+  border-right-color: #e48b14;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-thinborderbottom {
+  border-bottom-color: #e48b14;
+}
+.e-spreadsheet .e-ss-numeric .e-select .e-spin {
+  background-color: white;
+  color: black;
+}
+.e-spreadsheet .e-ss-numeric .e-select .e-spin:hover {
+  background-color: #f6dcba;
+  border-color: #3f3e3e;
+  color: white;
+}
+.e-spreadsheet .e-ss-numeric .e-select {
+  border-color: white;
+}
+.e-spreadsheet .e-ss-numeric .e-select:hover {
+  border-color: #3f3e3e;
+}
+/*--------------------- Selection -------------------------- */
+
+.e-spreadsheet div.e-selecttop {
+  border-top-color: #e48b14;
+}
+.e-spreadsheet div.e-selectbottom {
+  border-bottom-color: #e48b14;
+}
+.e-spreadsheet div.e-selectright {
+  border-right-color: #e48b14;
+}
+.e-spreadsheet div.e-selectleft {
+  border-left-color: #e48b14;
+}
+.e-spreadsheet .e-ss-selectall {
+  color: #feead0;
+}
+.e-spreadsheet .e-ss-selectall:hover {
+  color: #fbbe6d;
+}
+.e-spreadsheet .e-sheetselected,
+.e-spreadsheet .e-sheetselected:hover {
+  color: #ecaf5e;
+}
+/*--------------------- Auto Fill -------------------------------*/
+
+.e-spreadsheet .e-autofill {
+  border-color: black;
+  background-color: #e48b14;
+}
+.e-spreadsheet div.e-autofillright {
+  border-right-color: #e48b14;
+}
+.e-spreadsheet div.e-autofillbottom {
+  border-bottom-color: #e48b14;
+}
+.e-spreadsheet div.e-autofilltop {
+  border-top-color: #e48b14;
+}
+.e-spreadsheet div.e-autofillleft {
+  border-left-color: #e48b14;
+}
+/*--------------------- Cut and Copy ------------------------ */
+
+.e-spreadsheet .e-spreadsheetmainpanel td.e-cutright {
+  border-right-color: #e48b14;
+}
+.e-spreadsheet .e-spreadsheetmainpanel td.e-cutbottom {
+  border-bottom-color: #e48b14;
+}
+.e-spreadsheet .e-blur {
+  background-color: black;
+}
+.e-spreadsheet .e-spanfilter,
+.e-spreadsheet .e-spanddl {
+  border-color: #494949;
+  background-color: #4d4d4d;
+  color: #cccccc;
+}
+.e-spreadsheet .e-spreadsheetcontentcontainer .e-ss-object.e-ss-activeimg {
+  border-color: #e48b14;
+}
+.e-spreadsheet .e-spreadsheetcontentcontainer .e-ss-pivot.e-ss-activepivot {
+  border-color: #e48b14;
+}
+.e-spreadsheet .e-ss-object.e-datavisualization-chart {
+  border-color: #494949;
+}
+.e-spreadsheet .e-ss-imgvisual {
+  border-color: #494949;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-rowcell.e-redft {
+  background-color: #ffc7ce;
+  color: #9c0055;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-rowcell.e-yellowft {
+  background-color: #ffeb9c;
+  color: #9c6500;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-rowcell.e-greenft {
+  background-color: #c6efce;
+  color: #006100;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-rowcell.e-redf {
+  background-color: #ffc7ce;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-rowcell.e-redt {
+  color: #9c0055;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-rowcell.e-hlcell {
+  background-color: yellow;
+  color: red;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-rowcell.e-goto-blank {
+  background-color: #494949;
+}
+/*-------------------------- Formula Tab --------------------------- */
+
+.e-spreadsheet .e-indexbox,
+.e-spreadsheet .functionbox,
+.e-spreadsheet .e-inputbox {
+  border-color: #494949;
+  color: #dddddd;
+  background-color: black;
+}
+.e-ss-autocomplete.e-atc-popup ul li {
+  color: #dddddd;
+}
+.e-spreadsheet .e-inputbox > input {
+  color: #dddddd;
+}
+/*-------------Pager-------------*/
+
+.e-spreadsheet .e-spreadsheetmainpanel .e-pager .e-numericitem {
+  color: #dddddd;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-pager .e-currentitem,
+.e-spreadsheet .e-spreadsheetmainpanel .e-pager .e-currentitem:hover {
+  
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-pager .e-currentitem,
+.e-spreadsheet .e-spreadsheetmainpanel .e-pager .e-currentitem:hover {
+  background: #3f2503;
+  color: #e48b14;
+  filter: none;
+  /* IE9 only*/
+
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-pager .e-numericitem:hover {
+  color: #e48b14;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-pager {
+  background-color: black;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-pager .e-prevpagedisabled,
+.e-spreadsheet .e-spreadsheetmainpanel .e-pager .e-prevpage,
+.e-spreadsheet .e-spreadsheetmainpanel .e-pager .e-nextpage,
+.e-spreadsheet .e-spreadsheetmainpanel .e-pager .e-nextpagedisabled,
+.e-spreadsheet .e-spreadsheetmainpanel .e-pager .e-lastpagedisabled,
+.e-spreadsheet .e-spreadsheetmainpanel .e-pager .e-lastpage,
+.e-spreadsheet .e-spreadsheetmainpanel .e-pager .e-firstpage,
+.e-spreadsheet .e-spreadsheetmainpanel .e-pager .e-firstpagedisabled,
+.e-spreadsheet .e-spreadsheetmainpanel .e-pager .e-numericcontainer {
+  background-color: black;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-pager .e-pagercontainer {
+  background-color: black;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-pager .e-icon:not(.e-disable):hover {
+  color: #e48b14;
+  cursor: pointer;
+}
+.e-spreadsheet div.e-field-validation-error {
+  background-color: #fffe91;
+  color: #cd0a0a;
+}
+.e-ss-dialog div.e-dlg-field-validation-error:before {
+  border-bottom-color: #fffe91;
+}
+.e-spreadsheet div.e-error .e-errortail {
+  border-bottom-color: #fffe91;
+}
+.e-spreadsheet .e-spreadsheetfooter {
+  border-color: #494949;
+}
+.e-spreadsheet .e-hyperlinks {
+  color: inherit;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-pager .e-mediaforward {
+  border-right-color: #494949;
+  
+}
+.e-spreadsheet .e-formulabar {
+  background-color: black;
+}
+.e-ss-dialog .e-chartheader {
+  background-color: black;
+  color: #dddddd;
+}
+.e-ss-dialog .e-tab .e-header.e-addborderbottom .e-active {
+  border-top-color: #494949;
+}
+/*---------------------- Dialog -------------------------- */
+
+.e-dlgtab .e-header,
+.e-valdlgtab .e-header {
+  overflow: visible;
+  /*border-color: @ssheader-bgcolor;*/
+
+}
+.e-spreadsheet .e-dlg-field-validation-error,
+.e-ss-dialog .e-dlg-field-validation-error {
+  background-color: #fffe91;
+  color: #cd0a0a;
+}
+.e-dlgright,
+.e-dlgleft,
+.e-dlginput,
+.e-dlgcontent,
+.e-chtdlgright,
+.e-chtdlgleft,
+.e-chtdlgcontent {
+  border-color: #494949;
+}
+.e-dlgviewpanel {
+  border: 1px solid #494949;
+}
+.e-ss-dlgtab .e-ss-sctnseparator {
+  border-color: #494949;
+}
+.e-ss-dialog hr {
+  border-color: #eeeeee;
+}
+/*---------------------- Name Manager ------------------*/
+
+.e-menu .e-nmuseinformularow:hover {
+  background-color: #e48b14;
+}
+/*---------------------- Cell Styles--------------------*/
+
+.e-menu-wrap .e-cellstylecontent,
+.e-menu-wrap .e-formatastablecontent,
+.e-menu-wrap .e-chartcontent {
+  background-color: #242424;
+  color: #dddddd;
+}
+.e-menu-wrap .e-cellstyleheader,
+.e-menu-wrap .e-formatastableheader {
+  background-color: #363636;
+  color: #dddddd;
+  border-color: #494949;
+}
+.e-menu-wrap .e-cellstylecell:hover,
+.e-menu-wrap .e-formatastablecell:hover,
+.e-menu-wrap .e-chartcontent:hover {
+  border-color: #57452d;
+}
+.e-menu-wrap .e-cellstylecell:hover,
+.e-menu-wrap .e-formatastablecell:hover,
+.e-menu-wrap .e-chartcontent:hover {
+  
+}
+/*---------------------- Comments--------------------*/
+
+.e-spreadsheet .e-celltoparrow {
+  border-color: red transparent transparent;
+}
+.e-spreadsheet .e-comment-txtarea {
+  background-color: #f7fbbd;
+  color: black;
+}
+.e-list.e-hdrcolor {
+  background-color: black !important;
+  color: #dddddd !important;
+}
+.e-list.e-color {
+  border-color: #363636 !important;
+}
+.e-list.e-hdrcolor.e-mhover > a,
+.e-list.e-hdrcolor.e-mfocused > a {
+  background-color: transparent !important;
+  color: #dddddd !important;
+}
+.e-list.e-color.e-mhover.e-mfocused {
+  border-color: #f6dcba !important;
+}
+.e-spreadsheet .e-excelfilter .e-in-wrap {
+  border-color: #3f3e3e;
+}
+/*---------------------------RTL--------------------------*/
+
+.e-spreadsheetrowheader.e-scrollrowcss.e-rtl {
+  border-color: #494949;
+}
+.e-spreadsheetcolumnheader.e-rtl {
+  border-color: #494949;
+}
+.e-spreadsheetcontentcontainer.e-rtl {
+  border-color: #494949;
+}
+.e-spreadsheet .e-numeric .e-in-wrap {
+  border-color: #3f3e3e;
+}
+.e-ss-dialog .e-chartselect {
+  border-color: #fbbe6d;
+  
+}
+.e-menu-wrap .e-chartcell {
+  border-color: #363636;
+}
+.e-spreadsheet .e-ss-object {
+  background-color: black;
+}
+.e-spreadsheet .e-ss-charttheme {
+  background-color: #bcbcbc;
+}
+/*-------------------------Merge--------------------*/
+
+.e-spreadsheet .e-ssr-horizontalprt .e-btn.e-ss-active {
+  color: #dddddd;
+  
+}
+.e-spreadsheet .e-ssr-horizontalprt .e-btn.e-ss-active {
+  background: #fcd49f;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #fddfb7, #f9920b);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fcd49f), color-stop(100%, #fddfb7));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #fddfb7, #f9920b);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #fddfb7, #f9920b);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #fddfb7, #f9920b);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #fddfb7, #f9920b);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcd49f', endColorstr='#fddfb7', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-spreadsheet .e-ssr-horizontalprt .e-btn.e-ss-active:hover {
+  
+}
+.e-spreadsheet .e-ssr-horizontalprt .e-btn.e-ss-active:hover .e-icon {
+  color: #cccccc;
+}
+/*-------------------------Auto fill Option--------------------*/
+
+.e-ss-colorpicker .e-in-wrap.e-tool,
+.e-ss-colorpicker .e-in-wrap.e-tool .e-select {
+  
+}
+.e-ss-colorpicker .e-in-wrap.e-tool,
+.e-ss-colorpicker .e-in-wrap.e-tool .e-select {
+  background-color: black;
+}
+/*--------------------------------- Freeze Pane -------------------------------*/
+
+.e-spreadsheet .e-frow {
+  border-color: #e48b14;
+}
+.e-spreadsheet .e-fcol {
+  border-color: #e48b14;
+}
+/*-------------------------Ribbon icons Customization--------------------*/
+
+.e-spreadsheet .e-ssr-verticalHparent:hover .e-btn.e-select:not(.e-disable):not(.e-active),
+.e-spreadsheet .e-split .e-in-wrap.e-ssr-horizontalprt:hover .e-split-btn:not(.e-disable),
+.e-spreadsheet .e-ss-colorpicker .e-in-wrap.e-ssr-colpickHprt:hover:not(.e-disable) .e-ssr-colorcontainer {
+  border-color: #57452d;
+  
+}
+.e-spreadsheet .e-ssr-verticalHparent:hover .e-active,
+.e-spreadsheet .e-splitspan .e-spreadsheet.e-btn.e-select:hover {
+  
+}
+.e-spreadsheet .e-ssr-verticalHparent:hover .e-active,
+.e-spreadsheet .e-splitspan .e-spreadsheet.e-btn.e-select:hover {
+  background: #fcd49f;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #fddfb7, #f9920b);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fcd49f), color-stop(100%, #fddfb7));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #fddfb7, #f9920b);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #fddfb7, #f9920b);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #fddfb7, #f9920b);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #fddfb7, #f9920b);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcd49f', endColorstr='#fddfb7', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-spreadsheet .e-split.e-active .e-in-wrap.e-ssr-horizontalprt:hover .e-split-btn:not(.e-disable) {
+  
+}
+.e-spreadsheet .e-split.e-active .e-in-wrap.e-ssr-horizontalprt:hover .e-split-btn:not(.e-disable) {
+  background: #fcd49f;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #fddfb7, #f9920b);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fcd49f), color-stop(100%, #fddfb7));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #fddfb7, #f9920b);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #fddfb7, #f9920b);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #fddfb7, #f9920b);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #fddfb7, #f9920b);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcd49f', endColorstr='#fddfb7', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-spreadsheet .e-split.e-active .e-box .e-btn.e-select,
+.e-spreadsheet .e-split.e-active .e-box .e-btn.e-select:hover,
+.e-spreadsheet .e-button.e-btn.e-select.e-active,
+.e-spreadsheet .e-ribbon.e-js .e-rbn-button.e-button.e-btn.e-select.e-active:hover {
+  color: white;
+  
+}
+.e-spreadsheet .e-split.e-active .e-box .e-btn.e-select,
+.e-spreadsheet .e-split.e-active .e-box .e-btn.e-select:hover,
+.e-spreadsheet .e-button.e-btn.e-select.e-active,
+.e-spreadsheet .e-ribbon.e-js .e-rbn-button.e-button.e-btn.e-select.e-active:hover {
+  background: #fcd49f;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #fddfb7, #f9920b);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fcd49f), color-stop(100%, #fddfb7));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #fddfb7, #f9920b);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #fddfb7, #f9920b);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #fddfb7, #f9920b);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #fddfb7, #f9920b);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcd49f', endColorstr='#fddfb7', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-spreadsheet .e-split.e-active .e-box .e-btn.e-select.e-ss-active {
+  
+}
+.e-spreadsheet .e-ribbon.e-js .e-btn.e-select.e-ss-active:hover .e-icon {
+  
+}
+.e-spreadsheet .e-ribbon .e-rbn-button.e-btn.e-active .e-icon {
+  
+}
+.e-spreadsheet .e-ribbon.e-js .e-controlclicked .e-btn.e-select.e-ss-active:hover .e-icon {
+  
+}
+.e-spreadsheet .e-split.e-active .e-box .e-btn.e-select,
+.e-spreadsheet .e-split.e-active .e-box .e-btn.e-select:hover {
+  
+}
+.e-spreadsheet .e-ribbon.e-js .e-btn.e-select.e-ss-active .e-icon {
+  
+}
+.e-spreadsheet .e-split.e-active .e-box .e-btn .e-icon,
+.e-spreadsheet .e-split .e-btn.e-select:active .e-ss-active .e-icon {
+  color: white;
+  
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-hborder {
+  border-color: transparent;
+}
+.e-spreadsheet .e-content.e-viewbrdr {
+  border-color: #494949;
+}
+/*-------------------------------------Spreadsheet Ribbon override------------*/
+
+.e-spreadsheet .e-ribbon .e-header {
+  border-right: none;
+  border-left: none;
+  border-top: none;
+}
+.e-spreadsheet .e-ribbon .e-content {
+  border-right: none;
+  border-left: none;
+}
+.e-spreadsheet .e-ribbon .e-header {
+  border-right: medium none;
+  border-left: medium none;
+  border-top: medium none;
+}
+.e-spreadsheet .e-ribbon .e-content {
+  border-right: medium none;
+  border-left: medium none;
+}
+.e-ribbon .e-btn.e-ss-active {
+  background-color: #e48b14;
+  color: #363636;
+}
+.e-spreadsheet .e-ribbon .e-ddl {
+  border-color: #373737;
+}
+.e-spreadsheet .e-ribbon .e-ddl.e-widget.e-focus .e-in-wrap {
+  box-shadow: 0 0 7px #cccccc;
+}
+.e-spreadsheet .e-ribbon .e-ddl {
+  border-color: #373737;
+}
+.e-spreadsheet .e-menu.e-split,
+.e-menu-wrap .e-spreadsheet.e-split.e-autofillbtn li.e-list,
+.e-spreadsheet .e-splitspan .e-btn.e-select {
+  background: black;
+}
+.e-spreadsheet .e-ssr-bscontent div:not(.e-ssr-bsnewtmpl) .e-btn.e-select {
+  border-color: #494949;
+}
+.e-ss-colorpicker.e-popup {
+  background-color: black;
+  color: #dddddd;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-pager .e-numericitem:not(.e-currentitem) {
+  background-color: black;
+}
+.e-spreadsheet .e-ribbon .e-btn.e-select.e-disable:hover .e-icon {
+  color: #525252;
+  
+}
+.e-spreadsheet .e-ribbon .e-togglebutton.e-btn.e-tbtn.e-select.e-disable:not(.e-active),
+.e-spreadsheet .e-ribbon .e-togglebutton.e-btn.e-tbtn.e-select.e-disable:not(.e-active):hover {
+  
+}
+.e-spreadsheet .e-ribbon .e-button.e-btn.e-select.e-disable:hover {
+  
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-rowheader.e-filterhiglight,
+.e-spreadsheet .e-spreadsheetmainpanel .e-rowheader.e-rowhighlight.e-filterhiglight {
+  color: #00cc00;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-headercell {
+  cursor: url("../common-images/spreadsheet/down_arrow_dark.cur"), auto;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-rowheader {
+  cursor: url("../common-images/spreadsheet/right_arrow_dark.cur"), auto;
+}
+.e-spreadsheet .e-ss-fpcursor {
+  cursor: url("../common-images/spreadsheet/format_painter_dark.cur"), auto;
+}
+.e-spreadsheet .e-ss-drwbrdrcursor {
+  cursor: url("../common-images/spreadsheet/draw_border_dark.cur"), auto;
+}
+.e-spreadsheet .e-ss-drwbrdrgridcursor {
+  cursor: url("../common-images/spreadsheet/draw_border_grid_dark.cur"), auto;
+}
+/***********************SpreadsheetTextArea***********************************/
+
+.e-ss-textarea,
+.e-ss-textarea:focus,
+.e-ss-textarea:hover {
+  border-color: #777777;
+}
+/*-------------------------------------SpreadsheetCellType--------------------*/
+
+.e-spreadsheet .e-cellreadonly .e-datewidget .e-select {
+  background: black;
+}
+.e-spreadsheet .e-cellreadonly .e-ddl .e-select {
+  background: black;
+}
+/*----------------------------Activation Panel-------------------------*/
+
+.e-spreadsheet .e-spreadsheetactpanel {
+  border-left-color: #494949;
+}
+/*---------------------------Border Menu-------------------------------*/
+
+.e-spreadsheet .e-bordercontainer {
+  background-color: black;
+}
+.e-spreadsheet .e-bordercell:hover {
+  border-color: #57452d;
+}
+.e-spreadsheet .e-ss-bdr-header {
+  background-color: black;
+  border-color: #494949;
+}
+/*---------------------------Pivot Table-------------------------------*/
+
+.e-spreadsheet .e-ss-pivottableheader {
+  background-color: #3f2503;
+  border-color: #494949;
+  color: #dddddd;
+}
+/*-------------------------------------Material Theme Changes -----------------------*/
+
+.e-spreadsheet .e-formulabar,
+.e-spreadsheet .e-spreadsheetmainpanel .e-spreadsheetcontentcontainer,
+.e-spreadsheet .e-spreadsheetmainpanel .e-spreadsheetcolumnheader,
+.e-spreadsheet .e-spreadsheetmainpanel .e-rowheader,
+.e-spreadsheet .e-scrollcss,
+.e-spreadsheet .e-scrollrowcss {
+  
+}
+.e-ss-dialog .e-btn.e-select,
+.e-ss-dialog .e-btn.e-select:hover,
+.e-ss-dialog .e-btn.e-select:active {
+  
+}
+.e-ss-dialog .e-btn.e-select:hover {
+  
+}
+.e-ss-dialog .e-btn.e-select:active {
+  
+}
+.e-ss-dialog .e-dialog input.ejinputtext:focus,
+.e-spreadsheet input.ejinputtext:focus {
+  
+}
+.e-ss-dialog .e-dialog input.ejinputtext,
+.e-spreadsheet input.ejinputtext {
+  
+}
+.e-ss-dialog.e-ss-mattab .e-dlg-btnfields {
+  
+}
+.e-ss-dialog.e-ss-mattab .e-titlebar {
+  
+}
+.e-ss-dialog.e-ss-mattab .e-dialog .e-tab .e-header {
+  
+}
+.e-ss-dialog.e-ss-mattab .e-dialog .e-tab .e-header li a {
+  
+}
+.e-ss-dialog.e-ss-mattab .e-dialog .e-tab .e-header li.e-active a {
+  
+}
+.e-ss-autocomplete.e-atc .e-in-wrap {
+  
+}
+.e-ss-autocomplete.e-atc .e-in-wrap:active {
+  
+}
+.e-spreadsheet .e-ss-dialog.e-ss-mattab .e-dialog-icon:before {
+  
+}
+.e-ss-dialog label,
+.e-ss-dialog .e-ss-fcgdiv {
+  
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-pager .e-numericitem:not(.e-active) {
+  
+}
+.e-ss-dialog .e-dialog .e-dlgctndiv label {
+  
+}
+.e-ss-dialog .e-ss-okbtn.e-btn.e-select {
+  
+}
+.e-ss-dialog .e-ss-okbtn.e-btn.e-select:hover {
+  
+}
+.e-ss-dialog .e-ss-okbtn.e-btn.e-select:focus {
+  
+}
+.e-ss-dialog .e-ss-okbtn.e-btn.e-select:active {
+  
+}
+.e-ss-colorpicker .e-colorwidget .e-in-wrap.e-box.e-ssr-colpickHprt:hover {
+  
+}
+.e-spreadsheet .e-ribbon.e-js .e-rbn-button.e-tbtn.e-select:active .e-icon {
+  
+}
+/*-------------------------------------SpreadSheet End -----------------------*/
+

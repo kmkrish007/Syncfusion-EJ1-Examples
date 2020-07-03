@@ -1,0 +1,475 @@
+/* need verify with UX team*/
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*----------------------OLAP Definition------------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*----------------------material theme-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: #111111;
+  color: white;
+  border-color: #494949;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+/*Theme Color*/
+
+/*---------------- RTE Theme CSS----------------------*/
+
+.e-widget.e-rte {
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-widget.e-rte-wrapper {
+  background: black;
+  color: #dddddd;
+  font-size: 14px;
+  
+}
+.e-widget.e-rte-wrapper {
+  /*other*/
+
+  
+}
+.e-widget.e-rte-wrapper {
+  /*other*/
+  border: 1px solid #777777;
+}
+.e-widget .e-inputtext {
+  
+  outline: none;
+  background-color: black;
+  vertical-align: baseline;
+}
+.e-widget .e-inputtext {
+  /*other*/
+  border: 1px solid #494949;
+  color: #dddddd;
+}
+.e-widget .e-rte-field .e-img-border-field .e-focus,
+.e-widget .e-rte-field .e-chkbox-wrap.e-focus div > span,
+.e-widget .e-rte-field .e-inputtext:focus,
+.e-widget .e-rte-button .e-btn.e-select:focus,
+.e-widget .e-rte-tablefields .e-chkbox-wrap.e-focus div > span,
+.e-widget .e-rte-tablefields .e-inputtext:focus,
+.e-widget .e-img-field-group .e-chkbox-wrap.e-focus div > span,
+.e-widget .e-img-border-field .e-inputtext:focus,
+.e-widget .e-rte-stylefield .e-inputtext:focus {
+  
+}
+.e-widget .e-rte-field .e-img-border-field .e-focus,
+.e-widget .e-rte-field .e-chkbox-wrap.e-focus div > span,
+.e-widget .e-rte-field .e-inputtext:focus,
+.e-widget .e-rte-button .e-btn.e-select:focus,
+.e-widget .e-rte-tablefields .e-chkbox-wrap.e-focus div > span,
+.e-widget .e-rte-tablefields .e-inputtext:focus,
+.e-widget .e-img-field-group .e-chkbox-wrap.e-focus div > span,
+.e-widget .e-img-border-field .e-inputtext:focus,
+.e-widget .e-rte-stylefield .e-inputtext:focus {
+  /*other*/
+  box-shadow: 0 0 2px 0 #aecf49;
+}
+.e-widget .e-rte-field .e-inputtext:focus,
+.e-widget .e-rte-tablefields .e-inputtext:focus {
+  
+}
+.e-widget.e-rte-imageTab .e-item:focus {
+  box-shadow: 1px 0 0 0 #aecf49;
+}
+/*-----------------Tooltip class ----------------------*/
+
+.e-widget.e-rteTooltip {
+  min-width: auto;
+}
+.e-widget.e-rteTooltip .e-tipContainer .e-tipcontent {
+  padding: 2px 4px;
+}
+/*----------------------- Toolbar Class-------------------------- */
+
+.e-widget.e-rte .e-toolbar.e-rtl > .e-horizontal.e-separator {
+  
+}
+.e-widget.e-rte .e-toolbar.e-rtl > .e-horizontal.e-separator {
+  /*other*/
+
+  
+}
+.e-widget.e-rte .e-toolbar.e-rtl > .e-horizontal.e-separator {
+  /*other*/
+  border-left: 1px dotted #494949;
+}
+/*.e-rte .e-toolbarspan ul:last-child*/
+
+.e-widget.e-rte .e-horizontal.e-separator {
+  
+}
+.e-widget.e-rte .e-horizontal.e-separator {
+  /*other*/
+
+  
+}
+.e-widget.e-rte .e-horizontal.e-separator {
+  /*other*/
+  border-right: 1px dotted #494949;
+}
+.e-widget .e-rte-unorderlistname .e-liseparator,
+.e-widget .e-rte-orderlistname .e-liseparator {
+  border-bottom: 1px dotted #494949;
+}
+.e-widget.e-rte .customtable-group:hover {
+  color: #aaaaaa;
+}
+.e-widget.e-rte .customtable-group:hover {
+  background: #343e16;
+}
+.e-widget.e-rte .e-toolbarspan {
+  
+}
+.e-widget.e-rte .e-toolbarspan {
+  /*other*/
+  border: none;
+  border-bottom: 3px solid #aecf49;
+}
+.e-widget.e-rte .e-toolbar .e-ul.e-horizontal.e-separator:first-child,
+.e-widget.e-rte .e-toolbar > .e-horizontal.e-ul:first-child {
+  
+}
+.e-widget.e-dialog .e-fieldseparate,
+.e-widget .e-rte-toolbar .e-responsive-toolbar.e-toolbarspan {
+  border-color: #494949;
+}
+.e-widget.e-rte .e-rte-footer {
+  border-top: 1px solid #494949;
+}
+.e-widget.e-rte .e-rte-footer {
+  background: #212121;
+}
+.e-widget.e-rte-colorpalette.e-menu.e-context > li:hover {
+  background: none;
+}
+.e-widget.e-rte-colorpalette.e-menu.e-context .e-mfocused,
+.e-widget.e-rte-colorpalette.e-menu.e-context .e-mhover {
+  background: none;
+}
+.e-widget.e-rte-table-picker.e-dialog {
+  background: #212121;
+}
+.e-widget .e-rte-tablecell {
+  border-color: #777777;
+}
+.e-widget .e-rte-tablecell.e-default {
+  background: black;
+}
+.e-widget .e-rte-tablecell.e-active {
+  border-color: #494949;
+}
+.e-widget .e-rte-tablecell.e-active {
+  background: #343e16;
+}
+.e-widget.e-rte .e-toolbar .e-rte-format .e-hover,
+.e-widget.e-rte .e-toolbar .e-rte-fontgroup .e-hover,
+.e-widget.e-rte .e-toolbar .e-rte-lists .e-hover,
+.e-widget.e-rte .e-toolbar .e-res-pos:hover {
+  
+  border-color: transparent;
+  background-image: none;
+  background-clip: padding-box;
+}
+.e-widget.e-rte .e-toolbar .e-rte-format .e-hover,
+.e-widget.e-rte .e-toolbar .e-rte-fontgroup .e-hover,
+.e-widget.e-rte .e-toolbar .e-rte-lists .e-hover,
+.e-widget.e-rte .e-toolbar .e-res-pos:hover {
+  /*other*/
+  background-color: #343e16;
+}
+.e-widget.e-rte .e-toolbar .e-rte-lists .e-active {
+  background: none;
+  border-color: transparent;
+}
+.e-widget.e-rte-orderlistname.e-menu.e-context .e-list:hover,
+.e-widget.e-rte-unorderlistname.e-menu.e-context .e-list:hover,
+.e-widget.e-rte-orderlistname.e-menu.e-context .e-list.e-mhover .e-rte-toolbar-icon,
+.e-widget.e-rte-unorderlistname.e-menu.e-context .e-list.e-mhover .e-rte-toolbar-icon {
+  
+}
+.e-widget.e-rte-orderlistname.e-menu.e-context .e-list:hover,
+.e-widget.e-rte-unorderlistname.e-menu.e-context .e-list:hover,
+.e-widget.e-rte-orderlistname.e-menu.e-context .e-list.e-mhover .e-rte-toolbar-icon,
+.e-widget.e-rte-unorderlistname.e-menu.e-context .e-list.e-mhover .e-rte-toolbar-icon {
+  /*other*/
+
+  
+}
+.e-widget.e-rte-orderlistname.e-menu.e-context .e-list:hover,
+.e-widget.e-rte-unorderlistname.e-menu.e-context .e-list:hover,
+.e-widget.e-rte-orderlistname.e-menu.e-context .e-list.e-mhover .e-rte-toolbar-icon,
+.e-widget.e-rte-unorderlistname.e-menu.e-context .e-list.e-mhover .e-rte-toolbar-icon {
+  /*office-365*/
+  background: #343e16;
+}
+.e-widget.e-rte-orderlistname.e-menu.e-context .e-list,
+.e-widget.e-rte-unorderlistname.e-menu.e-context .e-list {
+  
+}
+.e-widget.e-rte-unorderlistname.e-menu li.e-list:nth-child(3),
+.e-widget.e-rte-unorderlistname.e-menu li.e-list:nth-child(4),
+.e-widget.e-rte-orderlistname.e-menu li.e-list:nth-child(4),
+.e-widget.e-rte-orderlistname.e-menu li.e-list:nth-child(5),
+.e-widget.e-rte-orderlistname.e-menu li.e-list:nth-child(6) {
+  
+}
+.e-widget.e-rte-unorderlistname.e-menu li.e-list:nth-child(2),
+.e-widget.e-rte-unorderlistname.e-menu li.e-list:nth-child(4),
+.e-widget.e-rte-orderlistname.e-menu li.e-list:nth-child(3),
+.e-widget.e-rte-orderlistname.e-menu li.e-list:nth-child(6) {
+  
+}
+.e-widget .e-rte-toolbar-icon.e-rte-unlistitems.customUnOrder.e-list.e-mhover,
+.e-widget .e-rte-toolbar-icon.e-rte-listitems.customOrder.e-list.e-mhover,
+.e-widget .e-rte-toolbar-icon.e-rte-unlistitems.customUnOrder.e-list:hover,
+.e-widget .e-rte-toolbar-icon.e-rte-listitems.customOrder.e-list:hover {
+  
+}
+.e-widget.e-rte .e-rte-resize {
+  height: 5px;
+  cursor: se-resize;
+}
+.e-widget.e-rte .e-rte-htmltaginfo,
+.e-widget.e-rte .e-rte-wordcount,
+.e-widget.e-rte .e-rte-charcount {
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  font-size: 14px;
+  color: #dddddd;
+  cursor: default;
+}
+.e-widget.e-rte .e-rte-footericon,
+.e-widget.e-rte .e-rte-wordcount,
+.e-widget.e-rte .e-rte-charcount {
+  border-right: 1px solid #494949;
+}
+.e-widget.e-rte .e-rte-footer.e-rtl .e-rte-icons.clearAll.e-rte-footericon {
+  border-left: 1px solid #494949;
+}
+.e-widget.e-rte-colorpalette {
+  
+}
+.e-widget.e-rte-colorpalette {
+  /*other*/
+  padding: 5px !important;
+  width: auto !important;
+}
+.e-widget .e-error {
+  color: #cd0a0a;
+}
+.e-widget.e-rte .e-dialog .e-dialog-tab {
+  border: 1px solid #777777;
+}
+.e-widget.e-rte .e-dialog .e-dialog-tab.e-tab .e-header li,
+.e-widget.e-rte-context-menu.e-context .e-rte-separator {
+  border-color: #494949;
+}
+.e-widget.e-rte-context-menu.e-menu .e-list.e-mhover .e-rte-toolbar-icon {
+  color: #aaaaaa;
+}
+.e-widget .e-rte-toolbar .e-toolbar .e-tooltxt.e-active {
+  color: white;
+}
+.e-widget .e-rte-toolbar .e-toolbar .e-ul {
+  
+}
+.e-widget .e-rte-toolbar .e-toolbar .e-ul {
+  /*other*/
+
+  border-color: #777777;
+}
+.e-widget.e-rte .e-tooltxt .e-btn.e-select,
+.e-widget.e-rte .e-tooltxt .e-btn.e-ntouch.e-disable.e-select:hover,
+.e-widget.e-rte .e-tooltxt .e-btn.e-disable.e-select:hover {
+  
+}
+.e-widget.e-rte .e-tooltxt .e-btn.e-select,
+.e-widget.e-rte .e-tooltxt .e-btn.e-ntouch.e-disable.e-select:hover,
+.e-widget.e-rte .e-tooltxt .e-btn.e-disable.e-select:hover {
+  /*other*/
+
+  
+}
+.e-widget.e-rte .e-tooltxt .e-btn.e-select,
+.e-widget.e-rte .e-tooltxt .e-btn.e-ntouch.e-disable.e-select:hover,
+.e-widget.e-rte .e-tooltxt .e-btn.e-disable.e-select:hover {
+  /*office-365*/
+  background: #212121;
+}
+.e-widget.e-rte .e-tooltxt .e-split-btn.e-rht-btn,
+.e-widget.e-rte .e-tooltxt .e-split-btn.e-disable.e-select:hover {
+  
+}
+.e-widget.e-rte .e-tooltxt.e-active .e-split-btn.e-rht-btn:focus,
+.e-widget.e-rte .e-tooltxt.e-active .e-split-btn.e-disable.e-select:focus {
+  
+}
+.e-widget.e-rte .e-tooltxt.e-active .e-btn.e-select:focus,
+.e-widget.e-rte .e-tooltxt.e-active .e-btn.e-ntouch.e-disable.e-select:focus {
+  
+}
+.e-widget.e-rte .e-tooltxt.e-active .e-btn.e-select,
+.e-widget.e-rte .e-tooltxt.e-active .e-btn.e-ntouch.e-disable.e-select {
+  
+}
+.e-widget.e-rte .e-tooltxt.e-active .e-btn.e-select span.e-icon,
+.e-widget.e-rte .e-tooltxt.e-active .e-btn.e-ntouch.e-disable.e-select span.e-icon {
+  
+}
+.e-widget.e-rte .e-tooltxt .e-btn.e-select:hover {
+  
+}
+.e-widget.e-rte .e-tooltxt .e-btn.e-ntouch.e-select:hover {
+  background: #343e16;
+}
+.e-widget .e-responsive-toolbar .e-rte-lists.e-ul .e-rteItem-unorderedList.e-tooltxt .e-split,
+.e-widget .e-responsive-toolbar .e-rte-lists.e-ul .e-rteItem-orderedList.e-tooltxt .e-split {
+  height: 24px !important;
+  width: 36px !important;
+}
+.e-widget.e-rte .e-toolbar.e-js ul > li.e-tooltxt .e-ddl .e-in-wrap {
+  
+}
+.e-widget.e-rte .e-toolbar.e-js ul > li.e-tooltxt .e-ddl .e-in-wrap {
+  /*other*/
+  border-color: #494949;
+}
+.e-widget.e-rte .e-horizontal.e-separator > li:last-child {
+  
+}
+.e-widget.e-rte .e-rte-toolbar .e-icon.e-toolbar-res-arrow,
+.e-widget.e-rte .e-rte-toolbar.e-rtl .e-icon.e-toolbar-res-arrow {
+  
+}
+.e-widget.e-rte .e-toolbar .e-icon.e-toolbar-res-arrow {
+  height: 26px;
+  margin-top: 5px;
+}
+.e-widget.e-rte .e-toolbar.e-rtl .e-rteItem-unorderedList {
+  
+}
+.e-widget.e-rte .e-toolbar.e-rtl .e-ul.e-horizontal.e-separator .e-tooltxt:first-child {
+  
+}
+.e-widget.e-rte .e-toolbar.e-rtl .e-ul.e-horizontal.e-separator .e-tooltxt:last-child {
+  
+}
+.e-widget.e-rte .e-toolbar.e-rtl > .e-horizontal.e-separator {
+  
+}
+.e-widget.e-rte .e-background-color,
+.e-widget .e-rteItem-backgroundColor .e-background-color,
+.e-widget.e-rte .e-font,
+.e-widget .e-rteItem-fontColor .e-font {
+  
+}
+.e-widget.e-rte .e-toolbar > ul > li {
+  
+}
+.e-widget.e-rte .e-toolbar .e-ul .e-tooltxt .e-ddl .e-select {
+  
+}
+.e-widget.e-rte .e-toolbar .e-ul .e-tooltxt .e-ddl .e-input {
+  
+}
+.e-widget.e-rte .e-toolbar .e-rte-format.e-ul .e-tooltxt .e-ddl .e-input {
+  
+}
+.e-widget.e-rte .e-toolbar.e-rtl .e-rte-format.e-ul .e-tooltxt .e-ddl .e-input {
+  
+}
+.e-widget.e-rte .e-toolbar .e-ul .e-tooltxt .e-ddl.e-widget.e-popactive .e-select {
+  
+}
+.e-widget.e-rte .e-split.e-widget .e-in-wrap.e-splitarrowright .e-split-btn.e-left-btn {
+  
+}
+.e-widget .e-rte-button .e-rte-btn.e-button.e-select,
+.e-widget.e-rte.e-findandreplace.e-dialog .e-widget-content .e-btn.e-select {
+  
+}
+.e-widget .e-rte-button .e-rte-btn.e-button.e-btn.e-select:hover,
+.e-widget.e-rte.e-findandreplace.e-dialog .e-widget-content .e-btn.e-select:hover {
+  
+}
+.e-widget .e-rte-button .e-rte-btn.e-button.e-btn.e-select:active,
+.e-widget.e-rte.e-findandreplace.e-dialog .e-widget-content .e-btn.e-select:active {
+  
+}
+.e-widget.e-rte .e-toolbar.e-rtl {
+  
+}
+.e-widget .e-rte-format.e-ul.e-horizontal.e-separator.e-comnrtl {
+  
+}
+.e-widget .e-responsive-toolbar > .e-horizontal.e-ul:first-child {
+  
+}
+.e-widget.e-rte-orderlistname.e-menu.e-context .e-list.e-mhover,
+.e-widget.e-rte-unorderlistname.e-menu.e-context .e-list.e-mhover,
+.e-widget.e-rte-orderlistname.e-menu.e-context .e-mhover > .e-menulink,
+.e-widget.e-rte-unorderlistname.e-menu.e-context .e-mhover > .e-menulink {
+  
+}
+.e-widget.e-rte .e-toolbar.e-js ul > li.e-tooltxt .e-ddl {
+  
+}
+.e-widget.e-rte .e-toolbar.e-js ul > li.e-tooltxt .e-split {
+  
+}
+.e-widget.e-rte-unorderlistname.e-menu {
+  
+}
+.e-widget.e-rte-orderlistname.e-menu {
+  
+}
+.e-widget.e-rte-unorderlistname.e-menu li.e-list,
+.e-widget.e-rte-orderlistname.e-menu li.e-list {
+  
+}
+.e-widget .e-rte-toolbar-icon.e-rte-unlistitems.customUnOrder.e-list {
+  
+}
+.e-widget .e-rte-toolbar-icon.e-rte-listitems.customOrder.e-list {
+  
+}
+.e-widget .e-rtlrte label {
+  height: 12px;
+  line-height: 10px;
+}
+.e-widget.e-rte-orderlistname.e-menu.e-context.e-split,
+.e-widget.e-rte-unorderlistname.e-menu.e-context.e-split,
+.e-widget.e-rte-colorpalette.e-menu.e-context.e-split,
+.e-widget.e-rte-orderlistname.e-menu.e-widget.e-split li.e-list,
+.e-widget.e-rte-unorderlistname.e-menu.e-widget.e-split li.e-list {
+  
+}
+/*---------------- RTE Theme End------------------*/
+

@@ -1,0 +1,166 @@
+/*------------------------------------- Captcha -------------------------------------------*/
+
+/*@pager-currentitem:#428BCA;*/
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*-----------------------OLAP Definition Start-----------------*/
+.e-pivotclient .removeSplitBtn {
+  border-radius: 4px;
+}
+/*-----------------------OLAP Definition End------------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*----------------------material theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: white;
+  color: #111111;
+  border-color: #cecece;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-js.e-captcha .refresh {
+  
+}
+.e-js.e-captcha .refresh {
+  /*other*/
+
+  
+}
+.e-js.e-captcha .refresh {
+  /*other*/
+  background: #f7f7f7;
+  border: 1px solid #c9c9c9;
+}
+.e-js.e-captcha .audio {
+  
+}
+.e-js.e-captcha .audio {
+  /*other*/
+
+  
+}
+.e-js.e-captcha .audio {
+  /*other*/
+  background: #f7f7f7;
+}
+.e-js.e-captcha .imagecontainer {
+  border: 1px solid #989898;
+}
+.e-js.e-captcha .validTextBox {
+  
+}
+.e-js.e-captcha .validTextBox {
+  /*other*/
+
+  
+}
+.e-js.e-captcha .validTextBox {
+  /*other*/
+  border: 1px solid #c7c5c5;
+}
+.e-js.e-captcha .e-validTextBox {
+  
+}
+.e-js.e-captcha .e-validTextBox {
+  /*other*/
+
+  
+}
+.e-js.e-captcha .e-validTextBox {
+  /*other*/
+  border: 1px solid #c7c5c5;
+}
+.e-js.e-captcha .e-refresh {
+  
+}
+.e-js.e-captcha .e-refresh {
+  /*other*/
+
+  
+}
+.e-js.e-captcha .e-refresh {
+  /*other*/
+  background: #f7f7f7;
+  border: 1px solid #c9c9c9;
+}
+.e-js.e-captcha .e-audio {
+  
+}
+.e-js.e-captcha .e-audio {
+  /*other*/
+
+  
+}
+.e-js.e-captcha .e-audio {
+  /*other*/
+  background: #f7f7f7;
+  border: 1px solid #c7c5c5;
+}
+.e-js.e-captcha .e-imageContainer {
+  border: 1px solid #989898;
+}
+.e-js.e-captcha div:nth-child(2) {
+  
+}
+.e-js.e-captcha div:nth-child(2) {
+  
+}
+.e-js.e-captcha div:nth-child(2) {
+  /*other*/
+  width: 0px;
+}
+.e-js.e-captcha .validTextBox:focus {
+  
+}
+.e-js.e-captcha .refresh.e-btn.e-select:active,
+.e-js.e-captcha .e-refresh.e-btn.e-select:active {
+  
+}
+.e-js.e-captcha .audio.e-btn.e-select:active,
+.e-js.e-captcha .e-audio.e-btn.e-select:active {
+  
+}
+.e-js.e-captcha .refresh.e-btn.e-select:focus,
+.e-js.e-captcha .audio.e-btn.e-select:focus,
+.e-js.e-captcha .refresh.e-btn.e-select:active,
+.e-js.e-captcha .audio.e-btn.e-select:active,
+.e-js.e-captcha .e-refresh.e-btn.e-select:focus,
+.e-js.e-captcha .e-audio.e-btn.e-select:focus,
+.e-js.e-captcha .e-refresh.e-btn.e-select:active,
+.e-js.e-captcha .e-audio.e-btn.e-select:active {
+  
+}
+.e-js.e-captcha .imagecontainer img,
+.e-js.e-captcha .e-imageContainer img {
+  
+}
+.e-js.e-captcha .refresh:focus,
+.e-js.e-captcha .audio:focus,
+.e-js.e-captcha .e-refresh:focus,
+.e-js.e-captcha .e-audio:focus {
+  
+}

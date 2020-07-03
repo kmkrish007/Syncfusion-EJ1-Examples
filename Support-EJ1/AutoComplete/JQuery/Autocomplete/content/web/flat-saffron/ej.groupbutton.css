@@ -1,0 +1,240 @@
+/* need verify with UX team*/
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*----------------------OLAP Definition------------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*----------------------material theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: white;
+  color: #111111;
+  border-color: #c8c8c8;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+/*------------------------------------- GroupButton -------------------------------------------*/
+
+.e-groupbutton {
+  
+}
+.e-groupbutton {
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  font-weight: normal;
+  font-size: 14px;
+  color: #333333;
+  background-repeat: no-repeat;
+  border-color: #c8c8c8;
+}
+.e-groupbutton {
+  background: #ececec;
+}
+.e-groupbutton > .e-ul > .e-grp-btn-item {
+  
+}
+.e-groupbutton-hSmall {
+  min-height: 26px;
+}
+.e-groupbutton > .e-ul > .e-grp-btn-item .e-btn-content.e-groupBtn-padding {
+  padding: 0px;
+}
+.e-groupbutton.e-focus {
+  box-shadow: 0 0 2px #cbcbcb;
+}
+.e-groupbutton > .e-ul > .e-grp-btn-item:focus {
+  
+}
+.e-groupbutton > .e-ul > .e-grp-btn-item:active {
+  
+}
+.e-groupbutton > .e-horizontal.e-ul > .e-grp-btn-item,
+.e-groupbutton.e-rtl > .e-horizontal.e-ul > .e-grp-btn-item,
+.e-groupbutton > .e-vertical.e-ul > .e-grp-btn-item,
+.e-groupbutton > .e-horizontal.e-ul > .e-grp-btn-item.e-border-left,
+.e-groupbutton > .e-vertical.e-ul > .e-grp-btn-item.e-border-bottom {
+  border-color: #c8c8c8;
+}
+.e-groupbutton > .e-horizontal.e-ul > .e-grp-btn-item.e-disable,
+.e-groupbutton > .e-vertical.e-ul > .e-grp-btn-item.e-disable {
+  
+}
+.e-groupbutton > .e-horizontal.e-ul > .e-grp-btn-item.e-disable .e-icon,
+.e-groupbutton > .e-vertical.e-ul > .e-grp-btn-item.e-disable .e-icon {
+  
+}
+.e-groupbutton > .e-ul > .e-grp-btn-item.e-active,
+.e-groupbutton > .e-ul > .e-grp-btn-item.e-select {
+  
+}
+.e-groupbutton > .e-ul > .e-grp-btn-item.e-active,
+.e-groupbutton > .e-ul > .e-grp-btn-item.e-select {
+  color: white;
+}
+.e-groupbutton > .e-ul > .e-grp-btn-item.e-active,
+.e-groupbutton > .e-ul > .e-grp-btn-item.e-select {
+  background: #f9920b;
+}
+.e-groupbutton > .e-horizontal.e-ul > .e-grp-btn-item {
+  
+}
+.e-groupbutton > .e-vertical.e-ul > .e-grp-btn-item {
+  
+}
+.e-groupbutton > .e-ul > .e-grp-btn-item.e-active.e-hover .e-btn-content .e-btntxt {
+  
+}
+.e-groupbutton > .e-ul > .e-grp-btn-item.e-active.e-hover .e-btn-content .e-btntxt {
+  color: #282827;
+}
+.e-groupbutton > .e-ul > .e-grp-btn-item.e-active.e-hover,
+.e-groupbutton.e-rtl > .e-horizontal.e-ul > .e-grp-btn-item.e-active.e-hover {
+  border-color: #c8c8c8;
+  
+}
+.e-groupbutton > .e-horizontal.e-ul > .e-grp-btn-item {
+  border-right-color: transparent;
+}
+.e-groupbutton > .e-vertical.e-ul > .e-grp-btn-item {
+  border-bottom-color: transparent;
+}
+.e-groupbutton.e-rtl > .e-horizontal.e-ul > .e-grp-btn-item {
+  border-left-color: transparent;
+}
+.e-groupbutton > .e-ul > .e-grp-btn-item.e-hover,
+.e-groupbutton.e-rtl > .e-horizontal.e-ul > .e-grp-btn-item.e-hover {
+  
+}
+.e-groupbutton > .e-ul > .e-grp-btn-item.e-hover,
+.e-groupbutton.e-rtl > .e-horizontal.e-ul > .e-grp-btn-item.e-hover {
+  color: #282827;
+  border-color: #c8c8c8;
+}
+.e-groupbutton > .e-ul > .e-grp-btn-item.e-hover,
+.e-groupbutton.e-rtl > .e-horizontal.e-ul > .e-grp-btn-item.e-hover {
+  background: #fcc680;
+}
+.e-groupbutton > .e-horizontal.e-ul > .e-grp-btn-item.last,
+.e-groupbutton > .e-horizontal.e-ul > .e-grp-btn-item.last.e-hover {
+  border-right-color: #c8c8c8;
+  
+}
+.e-groupbutton > .e-vertical.e-ul > .e-grp-btn-item.last,
+.e-groupbutton > .e-vertical.e-ul > .e-grp-btn-item.last.e-hover {
+  border-bottom-color: #c8c8c8;
+  
+}
+.e-groupbutton > .e-ul > .e-grp-btn-item .e-btn-content > a.e-btntxt,
+.e-groupbutton > .e-ul > .e-grp-btn-item .e-btn-content > span.e-btntxt,
+.e-groupbutton > .e-ul > .e-grp-btn-item .e-btn-content > div.e-btntxt {
+  
+}
+.e-groupbutton > .e-ul > .e-grp-btn-item .e-btn-content > a.e-btntxt,
+.e-groupbutton > .e-ul > .e-grp-btn-item .e-btn-content > span.e-btntxt,
+.e-groupbutton > .e-ul > .e-grp-btn-item .e-btn-content > div.e-btntxt {
+  color: #333333;
+  text-decoration: none;
+}
+.e-groupbutton > .e-ul > .e-grp-btn-item .e-btn-content > a.e-icon,
+.e-groupbutton > .e-ul > .e-grp-btn-item .e-btn-content > span.e-icon,
+.e-groupbutton > .e-ul > .e-grp-btn-item .e-btn-content > div.e-icon {
+  
+}
+.e-groupbutton > .e-ul > .e-grp-btn-item .e-btn-content > a.e-icon,
+.e-groupbutton > .e-ul > .e-grp-btn-item .e-btn-content > span.e-icon,
+.e-groupbutton > .e-ul > .e-grp-btn-item .e-btn-content > div.e-icon {
+  color: #686969;
+}
+.e-groupbutton > .e-ul > .e-grp-btn-item .e-btn-content > a.e-icon:before,
+.e-groupbutton > .e-ul > .e-grp-btn-item .e-btn-content > span.e-icon:before,
+.e-groupbutton > .e-ul > .e-grp-btn-item .e-btn-content > div.e-icon:before {
+  
+}
+.e-groupbutton > .e-ul > .e-grp-btn-item .e-btn-content > a.e-btntxt,
+.e-groupbutton > .e-ul > .e-grp-btn-item .e-btn-content > span.e-btntxt,
+.e-groupbutton > .e-ul > .e-grp-btn-item .e-btn-content > div.e-btntxt,
+.e-groupbutton > .e-ul > .e-grp-btn-item.e-active .e-btn-content > a.e-btntxt,
+.e-groupbutton > .e-ul > .e-grp-btn-item.e-active .e-btn-content > span.e-btntxt,
+.e-groupbutton > .e-ul > .e-grp-btn-item.e-active .e-btn-content > div.e-btntxt {
+  
+}
+.e-groupbutton > .e-ul > .e-grp-btn-item.e-active .e-btn-content > a.e-btntxt,
+.e-groupbutton > .e-ul > .e-grp-btn-item.e-active .e-btn-content > span.e-btntxt,
+.e-groupbutton > .e-ul > .e-grp-btn-item.e-active .e-btn-content > div.e-btntxt,
+.e-groupbutton > .e-ul > .e-grp-btn-item.e-active .e-btn-content > a.e-icon,
+.e-groupbutton > .e-ul > .e-grp-btn-item.e-active .e-btn-content > span.e-icon,
+.e-groupbutton > .e-ul > .e-grp-btn-item.e-active .e-btn-content > div.e-icon {
+  color: white;
+  text-decoration: none;
+}
+.e-groupbutton.e-rtl > .e-horizontal.e-ul > .e-grp-btn-item.last,
+.e-groupbutton.e-rtl > .e-horizontal.e-ul > .e-grp-btn-item.last.e-hover {
+  border-left-color: #c8c8c8;
+  
+}
+.e-groupbutton > .e-ul > .e-disable .e-btn-content > span.e-btntxt,
+.e-groupbutton > .e-ul > .e-disable .e-btn-content > a.e-btntxt,
+.e-groupbutton > .e-ul > .e-disable .e-btn-content > div.e-btntxt,
+.e-groupbutton > .e-ul > .e-disable.e-active .e-btn-content > span.e-btntxt,
+.e-groupbutton > .e-ul > .e-disable.e-active .e-btn-content > a.e-btntxt,
+.e-groupbutton > .e-ul > .e-disable.e-active .e-btn-content > div.e-btntxt {
+  
+}
+.e-groupbutton > .e-ul > .e-disable.e-active {
+  
+}
+.e-groupbutton > .e-ul > .e-disable .e-btn-content > span.e-icon {
+  
+}
+.e-groupbutton.e-disable {
+  
+}
+.e-groupbutton > .e-horizontal.e-ul > .e-grp-btn-item.e-hover {
+  border-right-color: transparent;
+  
+}
+.e-groupbutton > .e-vertical.e-ul > .e-grp-btn-item.e-hover {
+  border-bottom-color: transparent;
+  
+}
+.e-groupbutton.e-rtl > .e-horizontal.e-ul > .e-grp-btn-item.e-hover {
+  border-left-color: transparent;
+  
+}
+.e-groupbutton.e-rtl > .e-vertical.e-ul > .e-grp-btn-item.e-hover {
+  border-left-color: transparent;
+  
+}
+.e-groupbutton > .e-ul > .e-grp-btn-item.e-active:not(:active):after,
+.e-groupbutton > .e-ul > .e-grp-btn-item:not(:active):after {
+  
+}
+.e-groupbutton.e-disable {
+  background-color: whitesmoke;
+  border-color: #e3e3e3;
+  opacity: 1;
+  color: #d6d7d7;
+}

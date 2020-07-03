@@ -1,0 +1,132 @@
+/* need verify with UX team*/
+.pager-hover-gradient {
+  background: #57452d;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #57452d, #57380f);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #57452d), color-stop(100%, #57380f));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #57452d, #57380f);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #57452d, #57380f);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #57452d, #57380f);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #57452d, #57380f);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#57452d', endColorstr='#57380f', GradientType=0);
+  /* IE6-9 */
+
+}
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*----------------------OLAP Definition------------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*----------------------material theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: #111111;
+  color: white;
+  border-color: #494949;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-heatmap.e-grid {
+  display: block;
+}
+.e-heatmaplegend {
+  display: block;
+}
+.e-heatmap.e-grid .e-alt_row,
+.e-heatmap.e-grid td.e-cellselectionbackground,
+.e-heatmap.e-grid .e-headercell,
+.e-heatmap.e-grid .e-grouptopleftcell {
+  background: white;
+}
+.e-heatmap.e-js.e-grid {
+  font-size: 12px;
+}
+.e-heatmap.e-js.e-grid .e-headercelldiv {
+  font-weight: 600;
+  font-size: 12px;
+}
+.e-heatmap.e-js.e-grid.e-responsive .e-rowcell {
+  font-size: 12px;
+}
+.e-heatmap.e-js.e-grid .e-headercell {
+  height: 30px;
+}
+.e-heatmap.e-js.e-grid.e-responsive .e-row td:first-child,
+.e-heatmap.e-js.e-grid.e-responsive .e-alt_row td:first-child {
+  font-weight: 600;
+  font-size: 12px;
+}
+.e-heatmap.e-js.e-grid .e-gridheader {
+  border-bottom-width: 1px;
+}
+.e-heatmap.e-js.e-grid,
+.e-heatmap.e-js.e-grid.e-responsive .e-row td:first-child,
+.e-heatmap.e-js.e-grid.e-responsive .e-alt_row td:first-child,
+.e-heatmap.e-js.e-grid.e-responsive .e-rowcell,
+.e-heatmap.e-js.e-grid .e-alt_row,
+.e-heatmap.e-js.e-grid td.e-cellselectionbackground,
+.e-heatmap.e-js.e-grid .e-headercell,
+.e-heatmap.e-js.e-grid .e-grouptopleftcell,
+.e-heatmap.e-js.e-grid.e-headercell.e-default.e-headertemplate,
+.e-heatmap.e-js.e-grid .e-gridheader,
+.e-heatmap.e-js.e-grid .e-movablecontent,
+.e-heatmap.e-js.e-grid .e-movableheader {
+  border-color: gray;
+}
+.e-heatmap.e-js.e-grid.e-responsive .e-rowcell {
+  border-bottom: none;
+}
+.e-heatmaplegend.e-js .sf-ht-label,
+.e-heatmap.e-js.e-grid .e-rowcell.sf-ht-heatmapcell,
+.e-heatmap.e-js.e-grid .e-headercelldiv {
+  color: white;
+}
+.e-heatmap.e-js.e-grid .e-alt_row,
+.e-heatmap.e-js.e-grid .e-row,
+.e-heatmap.e-js.e-grid .e-headercell.e-default.e-headertemplate,
+.e-heatmap.e-js.e-grid .e-cellselectionbackground .e-activecell,
+.e-heatmap.e-grid td.e-cellselectionbackground {
+  background-color: black;
+}
+.e-heatmaplegend.e-js .sf-ht-label,
+.e-heatmap.e-js.e-grid .e-rowcell.sf-ht-heatmapcell,
+.e-heatmap.e-js.e-grid .e-headercelldiv {
+  color: white;
+}
+.e-heatmap.e-js.e-grid .e-alt_row,
+.e-heatmap.e-js.e-grid .e-row,
+.e-heatmap.e-js.e-grid .e-headercell.e-default.e-headertemplate,
+.e-heatmap.e-js.e-grid .e-cellselectionbackground .e-activecell,
+.e-heatmap.e-grid td.e-cellselectionbackground {
+  background-color: black;
+}

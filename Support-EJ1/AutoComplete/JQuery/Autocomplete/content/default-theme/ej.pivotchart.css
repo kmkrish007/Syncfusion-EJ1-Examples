@@ -1,0 +1,325 @@
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*-----------------------OLAP Definition-----------------*/
+/*-----------------------OLAP Definition End-----------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*----------------------material theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: white;
+  color: #111111;
+  border-color: #c8c8c8;
+  font-family: Segoe UI, Helvetica Neue;
+}
+.hoverCell {
+  background-color: #86cbea !important;
+}
+.enabled {
+  color: white !important;
+  background: #179bd7 !important;
+}
+.e-pivotchart {
+  font: normal 12px Segoe UI;
+  border: 1px solid #c8c8c8;
+  background-color: white;
+  color: #333333;
+}
+.e-pivotchart .expandMenu {
+  min-height: 50px;
+}
+.e-pivotchart .menuList {
+  list-style-type: none;
+  padding: 4px 15px 4px 15px;
+}
+.e-pivotchart .menuList:hover {
+  list-style-type: none;
+  color: #282827;
+  background-color: #86cbea;
+  cursor: pointer;
+}
+.e-pivotchart .e-dialog,
+.e-pivotchart .e-wrapper,
+.e-pivotchart .e-shadow {
+  min-height: 50px;
+}
+.e-pivotchart .e-dialog-scroller {
+  height: auto !important;
+}
+.e-pivotchart .e-dialog,
+.e-pivotchart .e-content {
+  padding: 0;
+}
+.e-pivotchart .chartTypesImg:before {
+  content: "\e6b3";
+  font-size: 20px;
+}
+.e-pivotchart .toolTipImg:before {
+  content: "\e863";
+  font-size: 20px;
+}
+.e-pivotchart .chart3DImg:before {
+  content: "\e6a9";
+  font-size: 20px;
+}
+.e-pivotchart .exportImg:before {
+  content: "\e84f";
+  font-size: 20px;
+}
+.e-pivotchart .disable3D:before {
+  content: "\e86a";
+}
+.e-pivotchart .chartTypesIcon:before,
+.e-pivotchart .chart3DTypesIcon:before,
+.e-pivotchart .exportTypesIcon:before,
+.e-pivotchart .interactionsIcon:before,
+.e-pivotchart .smartLabelsIcon:before {
+  font-family: 'ej-webfont';
+  font-size: 20px;
+  margin-left: 2px;
+}
+.e-pivotchart .chartTypesIcon,
+.e-pivotchart .chartTypesIcon:hover,
+.e-pivotchart .chart3DTypesIcon,
+.e-pivotclient .chart3DTypesIcon:hover,
+.e-pivotchart .exportTypesIcon,
+.e-pivotclient .exportTypesIcon:hover,
+.e-pivotchart .interactionsIcon,
+.e-pivotchart .interactionsIcon:hover,
+.e-pivotchart .smartLabelsIcon,
+.e-pivotchart .smartLabelsIcon:hover {
+  background-repeat: no-repeat;
+  margin: 5px 5px 0px 0px;
+  cursor: default;
+  display: inline-block;
+  height: 22px;
+  width: 24px;
+}
+.e-pivotchart .chartTypesDialog,
+.e-pivotchart .chart3DTypesDialog,
+.e-pivotchart .exportTypesDialog,
+.e-pivotchart .smartLabelsDialog,
+.e-pivotchart .interactionsDialog {
+  position: absolute;
+  padding: 0px 0px 5px 5px;
+  z-index: 1000000;
+  background-color: #ececec;
+  border: 2px solid #c8c8c8;
+}
+.e-pivotchart .chartTypesIcon,
+.e-pivotchart .chart3DTypesIcon,
+.e-pivotchart .exportTypesIcon,
+.e-pivotchart .smartLabelsIcon,
+.e-pivotchart .interactionsIcon {
+  color: #686969;
+}
+.e-pivotchart .chartTypesIcon:hover,
+.e-pivotchart .chart3DTypesIcon:hover,
+.e-pivotchart .exportTypesIcon:hover,
+.e-pivotchart .smartLabelsIcon:hover,
+.e-pivotchart .interactionsIcon:hover {
+  color: #282827;
+  cursor: pointer;
+  background: #86cbea;
+}
+.e-pivotchart .activeChartType {
+  color: white;
+  background: #179bd7;
+}
+.e-pivotchart .line:before {
+  content: "\e6b1";
+}
+.e-pivotchart .spline:before {
+  content: "\e6bb";
+}
+.e-pivotchart .column:before {
+  content: "\e6a6";
+}
+.e-pivotchart .area:before {
+  content: "\e6a2";
+}
+.e-pivotchart .splinearea:before {
+  content: "\e6ba";
+}
+.e-pivotchart .stepline:before {
+  content: "\e6c0";
+}
+.e-pivotchart .steparea:before {
+  content: "\e6be";
+}
+.e-pivotchart .pie:before {
+  content: "\e6ca";
+}
+.e-pivotchart .bar:before {
+  content: "\e6c5";
+}
+.e-pivotchart .stackingarea:before {
+  content: "\e6bc";
+}
+.e-pivotchart .stackingcolumn:before {
+  content: "\e6bd";
+}
+.e-pivotchart .stackingbar:before {
+  content: "\e6c6";
+}
+.e-pivotchart .pyramid:before {
+  content: "\e6c9";
+}
+.e-pivotchart .funnel:before {
+  content: "\e6c8";
+}
+.e-pivotchart .doughnut:before {
+  content: "\e7dd";
+}
+.e-pivotchart .scatter:before {
+  content: "\e7df";
+}
+.e-pivotchart .bubble:before {
+  content: "\e7dc";
+}
+.e-pivotchart .excel:before {
+  content: "\e845";
+}
+.e-pivotchart .word:before {
+  content: "\e84e";
+}
+.e-pivotchart .pdf:before {
+  content: "\e846";
+}
+.e-pivotchart .png:before {
+  content: "\e861";
+}
+.e-pivotchart .emf:before {
+  content: "\e862";
+}
+.e-pivotchart .gif:before {
+  content: "\e85f";
+}
+.e-pivotchart .jpg:before {
+  content: "\e860";
+}
+.e-pivotchart .bmp:before {
+  content: "\e85e";
+}
+.e-pivotchart .column3D:before {
+  content: "\e868";
+}
+.e-pivotchart .pie3D:before {
+  content: "\e865";
+}
+.e-pivotchart .bar3D:before {
+  content: "\e869";
+}
+.e-pivotchart .stackingbar3D:before {
+  content: "\e866";
+}
+.e-pivotchart .stackingcolumn3D:before {
+  content: "\e867";
+}
+.pivotChartContextMenu .enabledState::before {
+  content: "\e80a";
+  height: 16px;
+  width: 16px;
+}
+.e-pivotchart .legend:before {
+  content: "\e879";
+  font-size: 20px;
+}
+.e-pivotchart .zooming:before {
+  content: "\e886";
+  font-size: 20px;
+}
+.e-pivotchart .smartLabels:before {
+  content: "\e880";
+  font-size: 20px;
+}
+.e-pivotchart .interaction:before {
+  content: "\e877";
+  font-size: 20px;
+}
+.e-pivotchart .crossHair:before {
+  content: "\e872";
+}
+.e-pivotchart .trackBall:before {
+  content: "\e882";
+}
+.e-pivotchart .rotate45:before {
+  content: "\e87e";
+}
+.e-pivotchart .rotate90:before {
+  content: "\e87f";
+}
+.e-pivotchart .hiding:before {
+  content: "\e873";
+}
+.e-pivotchart .multipleRows:before {
+  content: "\e87b";
+}
+.e-pivotchart .trim:before {
+  content: "\e883";
+}
+.e-pivotchart .wrap:before {
+  content: "\e885";
+}
+.e-pivotchart .wrapByWord:before {
+  content: "\e884";
+}
+.e-pivotchart .none:before {
+  content: "\e871";
+}
+.e-pivotchart .chartTypesImg,
+.e-pivotchart .chartTypesImg:hover,
+.e-pivotchart .toolTipImg,
+.e-pivotchart .toolTipImg:hover,
+.e-pivotchart .chart3DImg,
+.e-pivotchart .chart3DImg:hover,
+.e-pivotchart .exportImg,
+.e-pivotchart .exportImg:hover,
+.e-pivotchart .legend,
+.e-pivotchart .legend:hover,
+.e-pivotchart .zooming,
+.e-pivotchart .zooming:hover,
+.e-pivotchart .smartLabels,
+.e-pivotchart .smartLabels:hover,
+.e-pivotchart .interaction,
+.e-pivotchart .interaction:hover {
+  background-repeat: no-repeat;
+  margin: 4px;
+  cursor: pointer;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+}
+.e-pivotchart .chartTypesImg,
+.e-pivotchart .toolTipImg,
+.e-pivotchart .chart3DImg,
+.e-pivotchart .exportImg,
+.e-pivotchart .legend,
+.e-pivotchart .zooming,
+.e-pivotchart .smartLabels,
+.e-pivotchart .interaction {
+  overflow: visible !important;
+  color: #686969;
+  text-indent: -3px;
+}

@@ -1,0 +1,2983 @@
+/* need verify with UX team*/
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*----------------------OLAP Definition------------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*----------------------material theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: white;
+  color: #111111;
+  border-color: #c8c8c8;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-pivotschemadesigner .e-hoverCell,
+.e-pivotgrid .e-hoverCell {
+  background-color: #fcc680 !important;
+}
+.e-pivotschemadesigner .e-schemaBtnUnique {
+  white-space: initial !important;
+}
+.e-pivotschemadesigner *:focus:hover {
+  outline: none;
+}
+.e-pivotgrid .e-headerItem {
+  border: none !important;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  overflow: hidden !important;
+  display: inline-block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.e-pivotgrid table {
+  
+  border-collapse: collapse;
+  background-color: white;
+  cursor: default;
+}
+.e-pivotgrid table {
+  /*other*/
+  font: 12px Segoe UI, Helvetica Neue, Ubuntu, Arial !important;
+  color: #333333;
+}
+.e-pivotgrid .e-chkbox-wrap .e-chk-image.e-stop,
+.e-pivotgrid .e-chkbox-wrap .e-chk-image.e-checkmark,
+.e-pivotschemadesigner .e-chkbox-wrap .e-chk-image.e-stop,
+.e-pivotschemadesigner .e-chkbox-wrap .e-chk-image.e-checkmark {
+  
+}
+.e-pivotgrid .e-filterValues,
+.e-pivotschemadesigner .e-filterValues {
+  background-color: white;
+}
+.e-pivotgrid .e-conditionFrom,
+.e-conditionTo {
+  background-color: inherit;
+  
+}
+.e-pivotgrid .e-hoverBtn {
+  background: #fcc680;
+}
+.e-tooltipText {
+  font-size: 12px;
+  text-align: left;
+  height: auto;
+  font-weight: normal;
+  
+}
+.e-tooltipText {
+  color: #333333;
+  margin: 5px 0 10px 0;
+}
+.e-pivotgrid .e-reSizeColbg {
+  border-left-color: #c8c8c8;
+  
+}
+.e-pivotgrid .e-editcondition,
+.e-pivotgrid .e-value2,
+.e-pivotgrid .e-borderrangeLbl,
+.e-pivotgrid .e-borderstyleLbl,
+.e-pivotgrid .e-fSizeLbl {
+  margin-left: 15px;
+}
+.e-pivotgrid input.inputConditionMbl[type=number]::-webkit-inner-spin-button,
+.e-pivotgrid input.inputConditionMbl[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none !important;
+  margin: 0;
+}
+.e-pGridTooltip {
+  position: absolute;
+  z-index: 500;
+  display: none;
+  border-width: 10px;
+  height: auto;
+  
+}
+.e-pGridTooltip {
+  opacity: 1;
+  background: #ececec;
+  border: 2px solid #c8c8c8;
+  padding: 5px;
+}
+.e-pivotgrid .e-pivotGridTable th,
+.e-pivotgrid .e-pivotGridTable td {
+  overflow: hidden;
+  
+}
+.e-pivotgrid .e-pivotGridTable th,
+.e-pivotgrid .e-pivotGridTable td {
+  border: solid 1px #c8c8c8;
+}
+.e-pivotgrid th,
+.e-pivotgrid td {
+  
+  white-space: nowrap;
+  height: 25px;
+  font-weight: normal;
+}
+.e-pivotgrid th,
+.e-pivotgrid td {
+  padding: 6px 2px 6px 8px;
+}
+.e-pivotgrid .value {
+  background-color: white;
+  
+}
+.e-pivotgrid .value {
+  padding: 6px 6px 6px 16px;
+  text-align: right !important;
+}
+.e-pivotgrid .summary {
+  white-space: nowrap;
+  text-align: left;
+  
+}
+.e-pivotgrid .summary {
+  font-weight: bold !important;
+}
+.e-pivotgrid .colheader,
+.e-pivotgrid .rowheader,
+.e-pivotgrid .calc {
+  
+  background: white;
+  background-repeat: repeat;
+  text-align: left;
+  font-style: normal;
+}
+.e-pivotgrid .colheader,
+.e-pivotgrid .rowheader,
+.e-pivotgrid .calc {
+  /*other*/
+  font-weight: bold;
+  color: #333333;
+  padding: 6px 16px 6px 2px;
+}
+.e-pivotgrid .colheader:hover,
+.e-pivotgrid .rowheader:hover,
+.e-pivotgrid .calc:hover {
+  
+  background: #fcc680;
+  background-repeat: repeat;
+  text-align: left;
+  font-style: normal;
+}
+.e-pivotgrid .colheader:hover,
+.e-pivotgrid .rowheader:hover,
+.e-pivotgrid .calc:hover {
+  font-weight: bold;
+  /*other*/
+  color: #282827;
+  padding: 6px 16px 6px 2px;
+}
+.e-pivotgrid {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+.e-cellSelection {
+  background: #fcc680;
+  filter: alpha(opacity=50);
+  opacity: 0.5;
+  position: absolute;
+  border-style: dotted;
+  border-width: 3px;
+  border-color: #c8c8c8;
+}
+.e-pivotgrid .value.selection {
+  cursor: crosshair;
+}
+.e-pivotgrid.e-rtl .colheader,
+.e-pivotgrid.e-rtl .colheader:hover,
+.e-pivotgrid.e-rtl .rowheader,
+.e-pivotgrid.e-rtl .rowheader:hover {
+  
+}
+.e-pivotgrid.e-rtl .colheader,
+.e-pivotgrid.e-rtl .colheader:hover,
+.e-pivotgrid.e-rtl .rowheader,
+.e-pivotgrid.e-rtl .rowheader:hover {
+  padding: 6px 0px 6px 40px;
+}
+.e-pivotgrid table .e-expand,
+.e-pivotgrid table .e-collapse {
+  height: 17px;
+  display: inline-block;
+  cursor: pointer;
+  
+}
+.e-pivotgrid table .e-expand,
+.e-pivotgrid table .e-collapse {
+  width: 23px;
+}
+.e-pivotgrid .e-errOKBtn {
+  display: inline-block;
+  
+}
+.e-pivotgrid .e-errOKBtn {
+  margin: 20px 0 10px 165px;
+  width: 50px;
+}
+.e-pivotgrid.e-rtl .e-errOKBtn {
+  
+}
+.e-pivotgrid.e-rtl .e-errOKBtn {
+  margin-right: 155px !important;
+}
+.e-pivotgrid .e-dialogremoveBtn:before {
+  font-family: "ej-webfont";
+  content: "\e711";
+  display: inline-block;
+}
+.e-pivotgrid table .e-expand:before {
+  content: "\e6a3";
+  display: inline-block;
+  float: left;
+  margin-top: 5px;
+  
+}
+.e-pivotgrid table .e-expand:before {
+  margin-left: 9px;
+  font-size: 7px;
+}
+.e-pivotgrid.e-rtl .e-pGridTooltip > p {
+  direction: ltr;
+  text-align: right;
+}
+.e-pivotgrid .e-pGridTooltip p {
+  white-space: nowrap;
+}
+.e-pivotgrid.e-rtl table .e-expand:before {
+  content: "\e699";
+  
+}
+.e-pivotgrid.e-rtl table .e-expand:before {
+  font-size: 23px;
+  margin-top: -3px;
+}
+.e-pivotgrid.e-rtl table .e-collapse:before {
+  margin-left: 0px;
+}
+.e-pivotgrid table .e-collapse:before {
+  content: "\e6a0";
+  display: inline-block;
+  float: left;
+  margin-top: 5px;
+  
+}
+.e-pivotgrid table .e-collapse:before {
+  margin-left: 7px;
+  font-size: 6px;
+}
+.e-pivotgrid.e-rtl .e-removeBtn:before,
+.e-pivotgrid.e-rtl .e-sorting:before,
+.e-pivotgrid.e-rtl .filter:before {
+  float: left;
+  margin-left: 4px;
+  margin-right: 0px;
+}
+.e-pivotgrid .kpiiconvalue {
+  height: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.e-pivotgrid .kpiuparrow {
+  background-image: url("../common-images/pivotgrid/up-arrow.png");
+}
+.e-pivotgrid .kpirightarrow {
+  background-image: url("../common-images/pivotgrid/right-arrow.png");
+}
+.e-pivotgrid .kpidownarrow {
+  background-image: url("../common-images/pivotgrid/down-arrow.png");
+  background-position: center center;
+}
+.e-pivotgrid .kpidiamond {
+  background-image: url("../common-images/pivotgrid/diamond.png");
+  background-position: center center;
+}
+.e-pivotgrid .kpitriangle {
+  background-image: url("../common-images/pivotgrid/triangle.png");
+  background-position: center center;
+}
+.e-pivotgrid .kpicircle {
+  background-image: url("../common-images/pivotgrid/circle.png");
+  background-position: center center;
+}
+.e-pivotgrid .kpiredroad {
+  background-image: url("../common-images/pivotgrid/red.png");
+  background-position: center center;
+}
+.e-pivotgrid .kpigreenroad {
+  background-image: url("../common-images/pivotgrid/green.png");
+  background-position: center center;
+}
+.e-pivotgrid .kpiallcolor {
+  background-image: url("../common-images/pivotgrid/three-color.png");
+  background-position: center center;
+}
+.e-pivotgrid .hyperlinkValueCell {
+  color: #f9920b;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.e-pivotgrid .hyperlinkHeaderCell {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.e-pivotgrid .e-vScrollPanel {
+  background-color: #e3e3e3;
+  width: 8px;
+  margin-left: 8px;
+  display: inline-block;
+}
+.e-pivotgrid .e-hScrollPanel {
+  background-color: #e3e3e3;
+  height: 8px;
+  margin-top: 4px;
+}
+.e-pivotgrid .e-vScrollThumb {
+  width: 6px;
+  position: relative;
+  top: 1px;
+  left: 1px;
+  background-color: #bababa;
+}
+.e-pivotgrid .e-hScrollThumb {
+  height: 6px;
+  position: relative;
+  left: 1px;
+  
+  background-color: #bababa;
+}
+.e-pivotgrid .e-hScrollThumb {
+  top: 1px;
+}
+.e-pivotgrid .e-categPageIndicator,
+.e-pivotgrid .e-seriesPageIndicator {
+  
+  background-color: #f9920b;
+  border: thin solid #c8c8c8;
+  color: white;
+}
+.e-pivotgrid .e-categPageIndicator,
+.e-pivotgrid .e-seriesPageIndicator {
+  width: auto;
+  padding: 5px;
+  position: absolute;
+}
+.e-pivotgrid.e-rtl .e-seriesPageIndicator .axislabel,
+.e-pivotgrid.e-rtl .e-categPageIndicator .axislabel {
+  float: right;
+  margin-left: 5px;
+}
+.e-pivotgrid.e-rtl .e-seriesPageIndicator .series_CurrentPage,
+.e-pivotgrid.e-rtl .e-categPageIndicator .categ_CurrentPage {
+  float: left;
+  margin-right: 2px;
+}
+.e-pivotgrid.e-rtl .e-seriesPageIndicator .series_pageCount,
+.e-pivotgrid.e-rtl .e-categPageIndicator .categ_pageCount {
+  float: right;
+  margin-left: 2px;
+}
+.e-pivotgrid .e-vScrollThumb:hover,
+.e-pivotgrid .e-hScrollThumb:hover {
+  
+}
+.e-pivotgrid .e-vScrollThumb:hover,
+.e-pivotgrid .e-hScrollThumb:hover {
+  background-color: #989999;
+}
+.e-pivotgrid .inActive {
+  display: none;
+}
+.e-pivotgrid .dragging {
+  background-color: #686969 !important;
+}
+.e-pivotgrid .filter,
+.e-pivotgrid .e-sorting,
+.e-pivotgrid .e-removeBtn,
+.e-pivotgrid .valueSorting {
+  
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.e-pivotgrid .filter,
+.e-pivotgrid .e-sorting,
+.e-pivotgrid .e-removeBtn,
+.e-pivotgrid .valueSorting {
+  color: #333333;
+}
+.e-pivotgrid .filter:before {
+  
+  float: right;
+  margin-right: 4px;
+}
+.e-pivotgrid .filter:before {
+  content: "\e669";
+}
+.e-pivotgrid .filter.filtered:before {
+  content: "\e668";
+  float: right;
+}
+.e-pivotgrid .e-sorting:before,
+.e-pivotgrid .valueSorting:before {
+  
+  float: right;
+  margin-right: 4px;
+}
+.e-pivotgrid .e-sorting:before,
+.e-pivotgrid .valueSorting:before {
+  content: "\e672";
+}
+.e-pivotgrid .e-sorting.descending:before,
+.e-pivotgrid .valueSorting.descending:before {
+  
+  float: right;
+}
+.e-pivotgrid .e-sorting.descending:before,
+.e-pivotgrid .valueSorting.descending:before {
+  content: "\e673";
+}
+.e-pivotgrid .e-removeBtn:before {
+  
+  float: right;
+  margin-right: 4px;
+}
+.e-pivotgrid .e-removeBtn:before {
+  content: "\e711";
+}
+.e-pivotgrid .e-memberEditorDiv {
+  height: 256px;
+  
+  border: 1px solid #c8c8c8;
+}
+.e-pivotgrid .e-memberEditorDiv {
+  margin-top: 7px;
+}
+.e-pivotgrid .e-editorTreeView {
+  margin-top: 7px;
+  height: 245px !important;
+}
+.e-pivotgrid .e-dialogOKBtn {
+  width: 69px;
+}
+.e-pivotgrid .e-dialogOKBtn {
+  margin-left: 83px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.e-pivotgrid.e-rtl .e-labelValueFilterDlg .e-dialogOKBtn {
+  
+}
+.e-pivotgrid.e-rtl .e-labelValueFilterDlg .e-dialogOKBtn {
+  margin-right: 73px;
+  margin-left: 10px;
+}
+.e-pivotgrid.e-rtl .e-dialogOKBtn {
+  
+}
+.e-pivotgrid.e-rtl .e-dialogOKBtn {
+  margin-right: 87px;
+  margin-left: 10px;
+}
+.e-pivotgrid .e-dialogCancelBtn {
+  width: 69px;
+  margin-left: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.e-pivotgrid.e-rtl .e-dialogCancelBtn {
+  margin-left: 0px;
+}
+.e-pivotgrid.e-rtl .e-labelValueFilterDlg .e-dialogCancelBtn {
+  margin-left: 10px;
+}
+.e-pivotgrid .e-treeview .e-text {
+  min-height: 20px;
+  border: 1px solid transparent;
+  cursor: move;
+  color: #333333;
+}
+.e-pivotgrid .e-treeview .e-text {
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  font-size: 12px;
+  font-weight: bold;
+}
+.e-pivotgrid .e-treeview .e-icon.e-stop:before,
+.e-pivotschemadesigner .e-treeview .e-icon.e-stop:before {
+  content: "\e657" !important;
+}
+.e-pivotgrid .e-dialog a.e-linkPanel,
+.e-pivotschemadesigner .e-dialog a.e-linkPanel {
+  text-decoration: underline;
+  margin: -20px 0px 20px 0px;
+}
+.e-pivotgrid .e-dialog .e-infoImg.e-icon:before,
+.e-pivotschemadesigner .e-dialog .e-infoImg.e-icon:before {
+  content: "\e917";
+  color: #d48e0b;
+}
+.e-pivotgrid .e-pivotButton {
+  color: #686969;
+  border-color: #c8c8c8;
+}
+.e-pivotgrid .e-pivotButton .e-btn {
+  text-align: left !important;
+  
+}
+.e-pivotgrid .e-pivotButton .e-btn.e-select {
+  border: none;
+  
+}
+.e-pivotgrid .e-pivotButton .e-btn.e-select {
+  height: auto;
+  color: #686969;
+  border-color: #c8c8c8;
+}
+.e-pivotgrid .e-pivotButton .e-btn.e-select:hover {
+  border: none;
+  
+  border-color: #c8c8c8;
+}
+.e-pivotgrid .e-pivotButton .e-btn.e-select:hover {
+  color: #282827;
+}
+.e-pivotgrid .e-pivotButton .e-btn.e-select:hover {
+  background: #fcc680;
+}
+.e-pivotgrid .e-pivotButton.e-btn.e-select {
+  border: none;
+}
+.e-pivotgrid .e-drag {
+  color: white;
+  /*color: #5c5c5c;*/
+
+  
+  background: #f9920b;
+  /*background: @pager-default-bg-color;*/
+  border: 1px solid #c8c8c8;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.e-pivotgrid .e-drag {
+  padding: 9px 0px 9px 0px;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  font-size: 14px;
+  font-weight: bold;
+}
+.e-pivotgrid .e-pivotButton.e-btn .e-icon {
+  padding: 0px;
+}
+.e-pivotgrid .values,
+.e-pivotgrid .columns,
+.e-pivotgrid .e-rows,
+.e-pivotgrid .emptyRows {
+  
+  color: white;
+  padding: 5px 0px 5px 0px;
+  /*background: @groupingBar-bg-color;*/
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.e-pivotgrid .values,
+.e-pivotgrid .columns,
+.e-pivotgrid .e-rows,
+.e-pivotgrid .emptyRows {
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  font-size: 14px;
+  font-weight: bold;
+}
+.e-pivotgrid .values {
+  border-right: 1px solid #c8c8c8;
+}
+.e-pivotgrid .emptyRows {
+  background: #f9920b;
+  border: 1px solid #c8c8c8;
+}
+.e-pivotgrid .valueColumn {
+  background: #f9920b;
+  height: auto;
+  border-right: 1px solid #c8c8c8;
+  border-left: 1px solid #c8c8c8;
+}
+.e-pivotgrid .values .e-pivotButton,
+.e-pivotgrid .e-drag .e-pivotButton,
+.e-pivotgrid .columns .e-pivotButton,
+.e-pivotgrid .e-rows .e-pivotButton {
+  width: auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  
+}
+.e-pivotgrid .values .e-pivotButton,
+.e-pivotgrid .e-drag .e-pivotButton,
+.e-pivotgrid .columns .e-pivotButton,
+.e-pivotgrid .e-rows .e-pivotButton {
+  background: #ececec;
+}
+.e-pivotgrid .values .e-pivotButton:hover,
+.e-pivotgrid .e-drag .e-pivotButton:hover,
+.e-pivotgrid .columns .e-pivotButton:hover,
+.e-pivotgrid .e-rows .e-pivotButton:hover {
+  
+}
+.e-pivotgrid .values .e-pivotButton:hover,
+.e-pivotgrid .e-drag .e-pivotButton:hover,
+.e-pivotgrid .columns .e-pivotButton:hover,
+.e-pivotgrid .e-rows .e-pivotButton:hover {
+  background: #fcc680;
+}
+.e-pivotgrid .e-pivotButton,
+.e-pivotgrid .e-rows,
+.e-pivotgrid .valueColumn,
+.e-pivotgrid .values,
+.e-pivotgrid .columns {
+  display: inline-block;
+  vertical-align: top;
+}
+.e-pivotgrid .e-btn {
+  vertical-align: auto;
+}
+.e-pivotgrid .e-drag .e-btn,
+.e-pivotgrid .e-drag .e-btn div {
+  vertical-align: initial;
+}
+.e-pivotgrid .e-drag .e-pivotButton {
+  vertical-align: top;
+  line-height: 0;
+}
+.e-pivotgrid .e-rows {
+  padding-bottom: 4px;
+  display: table-cell;
+  vertical-align: bottom;
+  height: 100%;
+  width: 100%;
+  min-height: 24px;
+  min-width: 140px;
+}
+.e-pivotgrid .values,
+.e-pivotgrid .columns {
+  
+  min-width: 140px;
+}
+.e-pivotgrid .values,
+.e-pivotgrid .columns {
+  min-height: 24px;
+}
+.e-pivotgrid .e-rows .e-pivotButton,
+.e-pivotgrid .values .e-pivotButton,
+.e-pivotgrid .columns .e-pivotButton,
+.e-pivotgrid .e-drag .e-pivotButton {
+  vertical-align: bottom;
+}
+.e-pivotgrid .e-pivotButton {
+  margin-left: 5px;
+}
+.e-pivotgrid .e-grpRow {
+  background: #f9920b;
+  vertical-align: bottom;
+  text-align: left;
+}
+.e-pivotgrid .e-pivotButton {
+  
+  padding: 0px !important;
+}
+.e-pivotgrid .e-pivotButton {
+  border: 1px solid #c8c8c8 !important;
+}
+.e-pivotgrid .e-pivotButton:hover {
+  
+}
+.e-pivotgrid .e-pivotButton:hover {
+  border: 1px solid #c8c8c8 !important;
+}
+.e-pivotgrid th.e-grpRow {
+  padding: 10px 2px 0 0px !important;
+}
+.e-pivotgrid .e-btn {
+  font-size: 13px;
+}
+.e-pivotgrid .e-widthSetter {
+  width: 3em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.e-pivotgrid .contextMenuPopup .menuItem:hover {
+  background-color: #fcc680;
+  color: #282827;
+  cursor: default;
+}
+.e-pivotgrid div.e-advancedFilterDlg,
+.e-pivotschemadesigner div.e-advancedFilterDlg {
+  border: 1px solid #c8c8c8;
+}
+.e-pivotgrid td.e-grpRow {
+  padding-left: 0px !important;
+}
+.e-pivotgrid .e-grpRow {
+  white-space: normal;
+}
+.e-pivotgrid .e-dropIndicatorActive {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  z-index: 30000;
+  color: #686969;
+  cursor: pointer;
+  font-family: "ej-webfont";
+}
+.e-pivotgrid .e-dropIndicatorActive:before {
+  content: "\E7CC";
+}
+.e-pivotgrid .e-selected {
+  background: #f9920b;
+  color: white;
+}
+.e-pivotgrid .e-highlighted {
+  background-color: #fcc680;
+}
+.e-pivotgrid .e-dlgCalculatedField label {
+  
+}
+.e-pivotgrid .borderLine {
+  margin-left: -10px;
+  margin-right: -10px;
+  border-top: 1px solid #c8c8c8;
+}
+.e-pivotgrid .calculatorFields {
+  margin-top: -5px;
+  height: 31px;
+  
+}
+.e-pivotgrid .e-column-resizeToSize {
+  table-layout: fixed;
+  width: 100%;
+}
+.e-pivotgrid .e-column-resizeToContent {
+  table-layout: fixed;
+}
+.e-pivotgrid.e-column-resize td,
+.e-pivotgrid.e-column-resize th {
+  overflow: hidden;
+}
+.e-pivotgrid.e-column-resize thead > tr {
+  cursor: pointer;
+}
+.pivotTree .e-calculatedFieldMenuItem {
+  border-bottom: solid 1px #c8c8c8;
+}
+.e-pivotgrid .e-pivotGridTable td {
+  overflow: hidden;
+}
+.e-pivotgrid .e-enabled {
+  color: white !important;
+  background: #f9920b !important;
+}
+.e-pivotgrid .e-pivotgridContextMenu .e-enabledState::before {
+  content: "\e80a";
+  height: 16px;
+  width: 16px;
+}
+.e-pivotgrid .e-advancedFiltering:before {
+  content: "\e843";
+  font-size: 20px;
+}
+.e-pivotgrid .e-drillThrough:before {
+  content: "\e875";
+  font-size: 20px;
+}
+.e-pivotgrid .e-collapseByDefault:before {
+  content: "\e85d";
+  font-size: 20px;
+}
+.e-pivotgrid .e-numberFormatting:before {
+  content: "\e857";
+  font-size: 20px;
+}
+.e-pivotgrid .e-paging:before {
+  content: "\e854";
+  font-size: 20px;
+}
+.e-pivotgrid .e-pagingOptions:before {
+  content: "\e6b7";
+  font-size: 20px;
+}
+.e-pivotgrid .e-cellSelect:before {
+  content: "\e856";
+  font-size: 20px;
+}
+.e-pivotgrid .e-cellContext:before {
+  content: "\e844";
+  font-size: 20px;
+}
+.e-pivotgrid .e-cellEditing:before {
+  content: "\e855";
+  font-size: 20px;
+}
+.e-pivotgrid .e-columnResize:before {
+  content: "\e851";
+  font-size: 20px;
+}
+.e-pivotgrid .e-excelLikeLayout:before {
+  content: "\e859";
+  font-size: 20px;
+}
+.e-pivotgrid .e-toolTip:before {
+  content: "\e858";
+  font-size: 20px;
+}
+.e-pivotgrid .rtl:before {
+  content: "\e84d";
+  font-size: 20px;
+}
+.e-pivotgrid .e-hyperlinkOptions:before {
+  content: "\e84c";
+  font-size: 20px;
+}
+.e-pivotgrid .e-frozenHeaders:before {
+  content: "\e848";
+  font-size: 20px;
+}
+.e-pivotgrid .e-exporting:before {
+  content: "\e84f";
+  font-size: 20px;
+}
+.e-pivotgrid .e-calculatedField:before {
+  content: "\e84b";
+  font-size: 20px;
+}
+.e-pivotgrid .e-summaryCustomize:before {
+  content: "\e852";
+  font-size: 20px;
+}
+.e-pivotgrid .e-conditionalFormat:before {
+  content: "\e850";
+  font-size: 20px;
+}
+.e-pivotgrid .e-summaryTypes:before {
+  content: "\e849";
+  font-size: 20px;
+}
+.e-pivotgrid .e-layouts:before {
+  content: "\e878";
+  font-size: 20px;
+}
+.e-pivotgrid .e-advancedFiltering:hover,
+.e-pivotgrid .e-drillThrough:hover,
+.e-pivotgrid .e-collapseByDefault:hover,
+.e-pivotgrid .groupingBar:hover,
+.e-pivotgrid .e-numberFormatting:hover,
+.e-pivotgrid .e-paging:hover,
+.e-pivotgrid .e-pagingOptions:hover,
+.e-pivotgrid .e-cellSelect:hover,
+.e-pivotgrid .e-cellContext:hover,
+.e-pivotgrid .e-cellEditing:hover,
+.e-pivotgrid .e-columnResize:hover,
+.e-pivotgrid .e-toolTip:hover,
+.e-pivotgrid .rtl:hover,
+.e-pivotgrid .e-hyperlinkOptions:hover,
+.e-pivotgrid .e-frozenHeaders:hover,
+.e-pivotgrid .e-exporting:hover,
+.e-pivotgrid .e-calculatedField:hover,
+.e-pivotgrid .e-layouts:hover,
+.e-pivotgrid .e-summaryCustomize:hover,
+.e-pivotgrid .e-conditionalFormat:hover,
+.e-pivotgrid .e-summaryTypes:hover,
+.e-pivotgrid .e-advancedFiltering,
+.e-pivotgrid .e-drillThrough,
+.e-pivotgrid .e-collapseByDefault,
+.e-pivotgrid .groupingBar,
+.e-pivotgrid .e-numberFormatting,
+.e-pivotgrid .e-paging,
+.e-pivotgrid .e-pagingOptions,
+.e-pivotgrid .e-cellSelect,
+.e-pivotgrid .e-cellContext,
+.e-pivotgrid .e-cellEditing,
+.e-pivotgrid .e-columnResize,
+.e-pivotgrid .e-toolTip,
+.e-pivotgrid .rtl,
+.e-pivotgrid .e-hyperlinkOptions,
+.e-pivotgrid .e-frozenHeaders,
+.e-pivotgrid .e-exporting,
+.e-pivotgrid .e-calculatedField,
+.e-pivotgrid .e-summaryCustomize,
+.e-pivotgrid .e-conditionalFormat,
+.e-pivotgrid .e-summaryTypes,
+.e-pivotgrid .e-layouts {
+  background-repeat: no-repeat;
+  margin: 4px;
+  cursor: default;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+}
+.e-pivotgrid .e-advancedFiltering,
+.e-pivotgrid .e-drillThrough,
+.e-pivotgrid .e-collapseByDefault,
+.e-pivotgrid .groupingBar,
+.e-pivotgrid .e-numberFormatting,
+.e-pivotgrid .e-paging,
+.e-pivotgrid .e-pagingOptions,
+.e-pivotgrid .e-cellSelect,
+.e-pivotgrid .e-cellContext,
+.e-pivotgrid .e-cellEditing,
+.e-pivotgrid .e-columnResize,
+.e-pivotgrid .e-toolTip,
+.e-pivotgrid .rtl,
+.e-pivotgrid .e-hyperlinkOptions,
+.e-pivotgrid .e-frozenHeaders,
+.e-pivotgrid .e-exporting,
+.e-pivotgrid .e-calculatedField,
+.e-pivotgrid .e-summaryCustomize,
+.e-pivotgrid .e-conditionalFormat,
+.e-pivotgrid .e-summaryTypes,
+.e-pivotgrid .e-layouts {
+  overflow: visible !important;
+  color: #686969;
+  text-indent: -3px;
+}
+.e-pivotgrid .e-normalLayout:before {
+  content: "\e87d";
+}
+.e-pivotgrid .e-noSummariesLayout:before {
+  content: "\e87c";
+}
+.e-pivotgrid .e-normalTopSummaryLayout:before {
+  content: "\e881";
+}
+.e-pivotgrid .e-rowHeaderHyperLink:before {
+  content: "\e85c";
+}
+.e-pivotgrid .e-colHeaderHyperLink:before {
+  content: "\e84a";
+}
+.e-pivotgrid .e-valueCellHyperLink:before {
+  content: "\e85a";
+}
+.e-pivotgrid .e-summaryCellHyperLink:before {
+  content: "\e85b";
+}
+.e-pivotgrid .e-rowFreeze:before {
+  content: "\e853";
+}
+.e-pivotgrid .e-colFreeze:before {
+  content: "\e842";
+}
+.e-pivotgrid .e-excel:before {
+  content: "\e845";
+}
+.e-pivotgrid .e-word:before {
+  content: "\e84e";
+}
+.e-pivotgrid .e-pdf:before {
+  content: "\e846";
+}
+.e-pivotgrid .csv:before {
+  content: "\e847";
+}
+.e-pivotgrid .e-hyperLinkIcons:before,
+.e-pivotgrid .e-frozenHeaderIcons:before,
+.e-pivotgrid .e-exportingIcons:before,
+.e-pivotgrid .e-layoutIcons:before {
+  font-family: 'ej-webfont';
+  font-size: 20px;
+  margin-left: 2px;
+}
+.e-pivotgrid .e-hyperLinkIcons,
+.e-pivotgrid .e-hyperLinkIcons:hover,
+.e-pivotgrid .e-frozenHeaderIcons,
+.e-pivotgrid .e-frozenHeaderIcons:hover,
+.e-pivotgrid .e-exportingIcons,
+.e-pivotgrid .e-exportingIcons:hover,
+.e-pivotgrid .e-layoutIcons,
+.e-pivotgrid .e-layoutIcons:hover {
+  background-repeat: no-repeat;
+  cursor: default;
+  display: inline-block;
+  height: 22px;
+  width: 24px;
+}
+.e-pivotgrid .e-hyperLinkIcons,
+.e-pivotgrid .e-frozenHeaderIcons,
+.e-pivotgrid .e-exportingIcons,
+.e-pivotgrid .e-layoutIcons {
+  color: #686969;
+}
+.e-pivotgrid .e-hyperLinkIcons:hover,
+.e-pivotgrid .e-frozenHeaderIcons:hover,
+.e-pivotgrid .e-exportingIcons:hover,
+.e-pivotgrid .e-layoutIcons:hover {
+  color: #282827;
+  cursor: pointer;
+  background: #fcc680;
+}
+.e-pivotgrid .e-frozenDialog,
+.e-pivotgrid .e-exportDialog,
+.e-pivotgrid .e-hyperLinkDialog,
+.e-pivotgrid .e-layoutsDialog {
+  position: absolute;
+  z-index: 1000000;
+  background-color: #ececec;
+  border: 2px solid #c8c8c8;
+}
+.e-pivotgrid .e-calcFormulaDiv {
+  
+  position: absolute;
+}
+.e-pivotgrid .e-calcFormulaDiv {
+  left: 136px;
+  top: 102px;
+}
+.e-pivotgrid .e-dlgCalculatedField {
+  margin-top: 8px;
+  border: 1px solid #c8c8c8;
+  margin-bottom: 12px;
+  padding: 13px 10px 10px;
+}
+.e-pivotgrid .calculateFieldName {
+  position: absolute;
+  
+  width: 197px;
+  height: 24px;
+  border: none;
+  background-color: white;
+  color: #333333;
+}
+.e-pivotgrid .calculateFieldName {
+  top: 36px;
+  left: 93px;
+}
+.e-pivotgrid .calculatedFieldFormula {
+  background-color: white;
+  color: #333333;
+  
+  cursor: not-allowed;
+  opacity: 0.85;
+  padding: 1px;
+}
+.e-pivotgrid .calculatedFieldFormula {
+  border: 1px solid #c8c8c8;
+}
+.e-pivotgrid .e-dlgCalculatedField .e-outerTable td {
+  
+}
+.e-pivotgrid .e-dlgCalculatedField .e-outerTable td {
+  padding: 4px 10px 15px;
+}
+.e-pivotgrid .e-dlgCalculatedField .e-fieldTable td {
+  
+}
+.e-pivotgrid .e-dlgCalculatedField .e-fieldTable td {
+  padding: 4px 10px;
+}
+.e-pivotgrid .e-calcFormulaDiv td {
+  border: 1px solid #c8c8c8;
+  background-color: white;
+  padding: 5px 18px;
+  cursor: default;
+  color: #333333;
+}
+.e-pivotgrid .e-calcFormulaDiv td:hover {
+  color: #282827;
+  border: 1px solid #c8c8c8;
+}
+.e-pivotgrid .e-calcFormulaDiv td:hover {
+  background: #fcc680;
+}
+.e-pivotschemadesigner {
+  
+  font-size: 12px;
+  float: right;
+  position: static;
+}
+.e-pivotschemadesigner {
+  /*other*/
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  background: none repeat scroll 0 0 white;
+  border: 1px solid #c8c8c8;
+  color: #333333;
+}
+.bg-div {
+  background: none repeat scroll 0 0 white;
+  border: 1px solid #c8c8c8;
+}
+.e-pivotgrid .e-pivotschemadesigner .e-fieldTable {
+  overflow: auto;
+}
+.e-pivotschemadesigner .e-kpiCDB:before,
+.e-pivotschemadesigner .e-kpiRootCDB:before,
+.e-pivotschemadesigner .e-kpiGoalCDB:before,
+.e-pivotschemadesigner .e-kpiStatusCDB:before,
+.e-pivotschemadesigner .e-kpiTrendCDB:before,
+.e-pivotschemadesigner .e-kpiValueCDB:before {
+  content: "\e6df";
+  font-size: 18px;
+}
+.e-pivotschemadesigner .e-kpiCDB,
+.e-pivotschemadesigner .e-kpiRootCDB,
+.e-pivotschemadesigner .e-kpiGoalCDB,
+.e-pivotschemadesigner .e-kpiStatusCDB,
+.e-pivotschemadesigner .e-kpiTrendCDB,
+.e-pivotschemadesigner .e-kpiValueCDB {
+  height: 16px;
+  width: 16px;
+  display: inline-block;
+  vertical-align: text-top;
+}
+.e-pivotschemadesigner .e-fieldTable {
+  background: white;
+  border-collapse: collapse;
+  
+}
+.e-pivotschemadesigner .e-fieldTable {
+  border: 1px solid #c8c8c8;
+}
+.e-pivotschemadesigner .e-fieldTable {
+  margin: 10px 10px 8px;
+}
+.e-pivotschemadesigner .e-schemaFieldList {
+  display: inline-block;
+  overflow: auto;
+  height: 182px;
+  width: 100%;
+  color: #686969;
+}
+.e-pivotschemadesigner .e-elementSeparator {
+  border: solid #c8c8c8;
+  border-width: 0 0 1px 0;
+  display: block;
+  margin: 7px;
+}
+.e-pivotschemadesigner .e-schemaFieldTree {
+  overflow: hidden;
+}
+.e-pivotschemadesigner .e-editorTreeView {
+  margin-top: 7px;
+  height: 245px !important;
+}
+.e-pivotschemadesigner .schemaHeaders {
+  overflow: hidden;
+}
+.e-pivotschemadesigner .e-schemaFilter,
+.e-pivotschemadesigner .e-schemaColumn,
+.e-pivotschemadesigner .e-schemaRow,
+.e-pivotschemadesigner .e-schemaValue {
+  /*background: @aeb-bgcolor;*/
+
+  
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 75%;
+  /* margin-top: 3px; */
+
+}
+.e-pivotschemadesigner .e-schemaFilter,
+.e-pivotschemadesigner .e-schemaColumn,
+.e-pivotschemadesigner .e-schemaRow,
+.e-pivotschemadesigner .e-schemaValue {
+  border: 1px solid #c8c8c8;
+  margin-left: 10px;
+}
+.e-pivotschemadesigner .e-schemaColumn,
+.e-pivotschemadesigner .e-schemaValue {
+  margin-right: 10px;
+}
+.e-pivotschemadesigner .e-axisTd1 {
+  float: left;
+  position: relative;
+}
+.e-pivotschemadesigner .e-axisTd2 {
+  float: right;
+  position: relative;
+}
+.e-pivotschemadesigner #axisTd,
+.e-pivotschemadesigner #axisTd3 {
+  
+}
+.e-pivotschemadesigner .deferUpdateLayout {
+  
+}
+.e-pivotschemadesigner .deferUpdateLayout {
+  margin-top: 6px;
+}
+.e-pivotschemadesigner .deferUpdateLayout .e-text {
+  
+}
+.e-pivotschemadesigner .deferUpdateLayout .e-text {
+  margin-top: 2px !important;
+}
+.e-pivotschemadesigner .listSubhead {
+  margin: 10px 0 0;
+  
+}
+.e-pivotschemadesigner .e-pivotHeader,
+.e-pivotschemadesigner .e-rPivotHeader {
+  font-weight: bold;
+  line-height: 240%;
+}
+.e-pivotschemadesigner .e-rPivotHeader {
+  margin-right: 10px;
+}
+.e-pivotschemadesigner .e-listHeader {
+  font-weight: bold;
+  /*background: none repeat scroll 0 0 #5eabde;*/
+
+  font-size: 15px;
+  margin: -1px;
+  line-height: 40px;
+  
+}
+.e-pivotschemadesigner .e-listHeader {
+  border-bottom: 1px solid #c8c8c8;
+}
+.e-pivotschemadesigner .e-folderCDB:before {
+  content: "\e6e1";
+  display: inline;
+  vertical-align: middle;
+  font-size: 17px;
+}
+.e-pivotschemadesigner .e-namedSetCDB:before {
+  content: "\e6de";
+  display: inherit;
+  vertical-align: middle;
+  font-size: 18px;
+}
+.e-pivotschemadesigner .e-measureGroupCDB:before {
+  content: "\e615";
+  display: inline;
+  vertical-align: middle;
+}
+.e-pivotschemadesigner .e-dimensionCDB:before {
+  content: "\e704";
+  display: inline;
+  vertical-align: middle;
+}
+.e-pivotschemadesigner .centerDiv {
+  
+  border-radius: 25px;
+  height: 2px;
+  width: 98%;
+}
+.e-pivotschemadesigner .centerDiv {
+  margin-left: 4px;
+  background-color: #c8c8c8;
+}
+.e-pivotschemadesigner .centerDiv:hover {
+  cursor: default;
+}
+.e-pivotschemadesigner .centerHead {
+  
+}
+.e-pivotschemadesigner .centerHead {
+  /*other*/
+  font: normal 14px Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  color: #333333;
+  margin: 7px 10px;
+}
+.e-pivotschemadesigner .e-pivotHeader,
+.e-pivotschemadesigner .e-rPivotHeader {
+  
+  font-weight: bold;
+}
+.e-pivotschemadesigner .e-pivotHeader,
+.e-pivotschemadesigner .e-rPivotHeader {
+  
+}
+.e-pivotschemadesigner .e-pivotHeader,
+.e-pivotschemadesigner .e-rPivotHeader {
+  border: 1px solid #c8c8c8;
+  border-bottom: none;
+  margin-left: 10px;
+}
+.e-pivotschemadesigner .e-rPivotHeader,
+.e-pivotschemadesigner .e-schemaColumn,
+.e-pivotschemadesigner .e-schemaValue {
+  
+}
+.e-pivotschemadesigner .e-rPivotHeader,
+.e-pivotschemadesigner .e-schemaColumn,
+.e-pivotschemadesigner .e-schemaValue {
+  margin-left: 1%;
+}
+.e-pivotschemadesigner.e-rtl .e-rPivotHeader,
+.e-pivotschemadesigner.e-rtl .e-schemaColumn,
+.e-pivotschemadesigner.e-rtl .e-schemaValue {
+  
+}
+.e-pivotschemadesigner.e-rtl .e-rPivotHeader,
+.e-pivotschemadesigner.e-rtl .e-schemaColumn,
+.e-pivotschemadesigner.e-rtl .e-schemaValue {
+  margin-right: 5%;
+}
+.e-pivotschemadesigner .headerText {
+  
+}
+.e-pivotschemadesigner .headerText {
+  padding: 0px 5px 0px 5px;
+}
+.e-pivotschemadesigner .subheadText {
+  margin: 10px 0 0;
+  
+}
+.e-pivotschemadesigner .subheadText {
+  /*other*/
+  font: normal 14px Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  color: #333333;
+  padding-left: 10px;
+}
+.e-pivotschemadesigner .pivotLabel:hover {
+  background: none repeat scroll 0 0 #f9920b;
+  color: white;
+  cursor: move;
+}
+.e-pivotschemadesigner .e-pivotButton > .pvtBtnDiv {
+  
+  width: auto;
+  background: #ececec;
+  border: 1px solid;
+  border-color: #c8c8c8 !important;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.e-pivotschemadesigner .e-pivotButton > .pvtBtnDiv {
+  display: block;
+  margin: 2px 3px 0;
+}
+.e-pivotschemadesigner .pvtBtnDiv > .e-pvtBtn {
+  cursor: move;
+  text-align: left;
+  text-overflow: ellipsis;
+  
+  border: none !important;
+  overflow: hidden;
+}
+.e-pivotschemadesigner .pvtBtnDiv > .e-pvtBtn {
+  height: auto;
+  color: #686969;
+  border-color: #c8c8c8;
+}
+.e-pivotschemadesigner .e-pivotButton > .e-pvtBtn {
+  cursor: move;
+  text-align: left;
+  text-overflow: ellipsis;
+  
+  color: #686969;
+  border-color: #c8c8c8;
+  overflow: hidden;
+}
+.e-pivotschemadesigner .e-pivotButton > .e-pvtBtn {
+  height: auto;
+}
+.e-hoverBtn {
+  background: #fcc680 !important;
+}
+.e-pivotgrid .dragHover {
+  background: #f9920b !important;
+}
+.e-pivotschemadesigner.e-rtl .pvtBtnDiv > .e-pvtBtn {
+  text-align: right;
+}
+.dragHover.e-btn.e-select {
+  
+}
+.dragHover.e-btn.e-select {
+  background: #f9920b !important;
+}
+.e-pivotschemadesigner .e-pivotButton > .pvtBtnDiv:hover {
+  border: 1px solid;
+  border-color: white !important;
+  color: #282827;
+}
+.e-pivotschemadesigner .e-pivotButton > .pvtBtnDiv:hover {
+  background: #fcc680;
+}
+.e-pivotschemadesigner .pvtBtnDiv > .e-pvtBtn:hover {
+  background: #fcc680;
+}
+.e-pivotschemadesigner .filter,
+.e-pivotschemadesigner .e-sorting,
+.e-pivotschemadesigner .e-removeBtn {
+  color: #333333;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.e-pivotschemadesigner .btnDeferUpdate {
+  text-overflow: ellipsis;
+  width: 90px;
+}
+.e-pivotclient .e-pivotschemadesigner .btnDeferUpdate {
+  width: 60px;
+}
+.e-pivotschemadesigner .e-errOKBtn {
+  
+  display: inline-block;
+}
+.e-pivotschemadesigner .e-errOKBtn {
+  margin: 20px 0 10px 155px;
+  width: 50px;
+}
+.e-pivotschemadesigner.e-rtl .e-errOKBtn {
+  
+}
+.e-pivotschemadesigner.e-rtl .e-errOKBtn {
+  margin-right: 155px;
+  width: 50px;
+}
+.e-pivotschemadesigner .pvtDrop:before,
+.e-pivotschemadesigner .treeDrop:before {
+  content: "\e666";
+}
+.e-pivotschemadesigner .e-dropIndicator {
+  background: none repeat scroll 0 0 transparent;
+  height: 2px;
+  width: auto;
+  
+}
+.e-pivotschemadesigner .e-dropIndicatorHover {
+  background: #fcc680;
+}
+.e-pivotschemadesigner .e-removePivotBtn:before {
+  background-repeat: no-repeat;
+  height: 11px;
+  padding-left: 10px;
+  width: 11px;
+  color: white;
+  content: "\e681";
+  font-size: 13px;
+  background-color: white;
+  border: 1px solid #c8c8c8;
+  float: none;
+  padding: 6px;
+  position: absolute;
+}
+.e-pivotschemadesigner .e-removePivotBtn:hover {
+  cursor: pointer;
+  background: none repeat scroll 0 0 #fcc680;
+}
+.e-pivotschemadesigner .e-sorting:before {
+  content: "\e672";
+  float: right;
+  margin-right: 4px;
+}
+.e-pivotschemadesigner .e-sorting.descending:before {
+  content: "\e673";
+  float: right;
+}
+.e-pivotschemadesigner .filter:before {
+  content: "\e669";
+  margin-left: -35px;
+}
+.e-pivotschemadesigner .filter.filtered:before {
+  content: "\e668";
+  float: right;
+}
+.e-pivotschemadesigner .e-removeBtn:before {
+  content: "\e711";
+  float: right;
+  margin-right: 4px;
+}
+.e-pivotschemadesigner.e-rtl .filter:before {
+  float: left;
+  margin-left: 17px;
+  margin-right: 0px;
+  margin-top: -20px;
+}
+.e-pivotschemadesigner.e-rtl .filter {
+  float: left !important;
+}
+.e-pivotschemadesigner .treeDrop,
+.e-pivotschemadesigner .sortDiv:hover,
+.e-pivotschemadesigner .clearSorting:hover,
+.e-pivotschemadesigner .clearAllFilters:hover,
+.e-pivotgrid .sortDiv:hover,
+.e-pivotgrid .clearSorting:hover,
+.e-pivotgrid .clearAllFilters:hover {
+  cursor: pointer;
+}
+.e-pivotschemadesigner .filterBtn {
+  height: 24px;
+}
+.e-pivotschemadesigner .e-filterIndicator {
+  background: none repeat scroll 0 0 #f9920b;
+}
+.e-pivotschemadesigner .e-memberEditorDiv {
+  height: 256px;
+  
+  border: 1px solid #c8c8c8;
+}
+.e-pivotschemadesigner .e-memberEditorDiv {
+  margin-top: 7px;
+}
+.e-pivotschemadesigner .e-dialogOKBtn,
+.e-pivotschemadesigner .e-dialogCancelBtn {
+  width: 69px;
+  
+}
+.e-pivotschemadesigner .e-dialogOKBtn,
+.e-pivotschemadesigner .e-dialogCancelBtn {
+  margin-left: 10px;
+}
+.e-pivotschemadesigner .e-dialogOKBtn {
+  margin-left: 83px;
+}
+.e-pivotschemadesigner.e-rtl .e-dialogOKBtn {
+  margin-left: 10px;
+  
+}
+.e-pivotschemadesigner.e-rtl .e-dialogOKBtn {
+  margin-right: 86px;
+}
+.e-pivotschemadesigner.e-rtl .e-labelValueFilterDlg .e-dialogOKBtn {
+  margin-left: 10px;
+  
+}
+.e-pivotschemadesigner.e-rtl .e-labelValueFilterDlg .e-dialogOKBtn {
+  margin-right: 73px;
+}
+.e-pivotschemadesigner.e-rtl .e-dialogCancelBtn {
+  margin-left: 0px;
+}
+.e-pivotschemadesigner.e-rtl .e-labelValueFilterDlg .e-dialogCancelBtn {
+  margin-left: 5px;
+}
+.e-pivotschemadesigner .e-chkbox-wrap {
+  margin-left: 7px;
+}
+.e-pivotschemadesigner .e-tbtn-wrap {
+  display: inline-block;
+}
+.e-pivotschemadesigner .e-togglebutton .e-icon {
+  height: 14px;
+  width: 14px;
+}
+.e-pivotschemadesigner .e-treeview .e-text {
+  min-height: 20px;
+  border: 1px solid transparent;
+  
+  cursor: move;
+}
+.e-pivotschemadesigner .e-treeview .e-text {
+  /*other*/
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  font-size: 12px;
+  color: #333333;
+  font-weight: bold;
+}
+.e-pivotschemadesigner .e-dialog .e-dialog-icon:hover {
+  background: #f9920b;
+}
+.e-pivotschemadesigner .e-treeview .e-active {
+  background: #e68b14;
+  color: white;
+}
+.e-pivotschemadesigner .btnDeferUpdate {
+  float: right;
+  
+}
+.e-pivotschemadesigner .btnDeferUpdate {
+  margin-right: 10px;
+}
+.e-pivotschemadesigner.e-rtl .btnDeferUpdate {
+  float: left;
+  
+}
+.e-pivotschemadesigner.e-rtl .btnDeferUpdate {
+  margin-left: 10px;
+}
+.e-pivotschemadesigner .deferUpdateLayout {
+  margin-left: 5px;
+}
+.e-pivotschemadesigner.e-rtl .deferUpdateLayout {
+  margin-right: 5px;
+}
+.e-pivotschemadesigner.e-rtl .deferUpdateLayout .e-text {
+  margin-right: 5px;
+}
+.e-pivotschemadesigner .e-schemaFieldTree.e-treeview .e-text {
+  width: 90%;
+}
+.e-pivotschemadesigner .e-pivotButton .e-rtl {
+  text-align: right;
+}
+.e-pivotschemadesigner .e-schemaFieldTree ul,
+.e-pivotschemadesigner .e-schemaFieldTree li {
+  width: 96%;
+  height: auto;
+}
+.e-pivotschemadesigner .e-btn .e-btntxt {
+  padding: 0 6px 6px;
+}
+.e-pivotschemadesigner .expandSchema {
+  display: block;
+  float: right;
+  height: 25px;
+  left: 24px;
+  position: relative;
+  top: -615px;
+  width: 23px;
+}
+.e-pivotschemadesigner .collapseSchema {
+  float: right;
+  height: 25px;
+  position: relative;
+  top: -615px;
+  width: 23px;
+}
+.e-pivotschemadesigner .freeze {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  content: ' ';
+  top: 0;
+  left: 0;
+  z-index: 10;
+  opacity: 0;
+  background-color: lightgray;
+  filter: alpha(opacity=0);
+}
+.e-pivotschemadesigner .e-ddlGroupWrap,
+.e-pivotgrid .e-ddlGroupWrap {
+  font-weight: bold;
+  
+}
+.e-pivotschemadesigner .e-ddlGroupWrap,
+.e-pivotgrid .e-ddlGroupWrap {
+  padding: 5px 0px 5px 8px;
+}
+.e-pivotschemadesigner .e-ascOrder,
+.e-pivotschemadesigner .e-descOrder,
+.e-pivotgrid .e-ascOrder,
+.e-pivotgrid .e-descOrder {
+  list-style: none;
+  border: 1px solid white;
+}
+.e-pivotschemadesigner .e-descImage,
+.e-pivotschemadesigner .e-ascImage,
+.e-pivotgrid .e-descImage,
+.e-pivotgrid .e-ascImage {
+  display: inline-block;
+  height: 18px;
+  margin-right: 10px;
+  vertical-align: middle;
+  width: 20px;
+}
+.e-pivotschemadesigner .e-ascImage:before,
+.e-pivotgrid .e-ascImage:before {
+  content: "\e714";
+  font-size: 16px;
+  margin-left: 5px;
+  
+}
+.e-pivotschemadesigner .e-descImage:before,
+.e-pivotgrid .e-descImage:before {
+  content: "\e713";
+  font-size: 16px;
+  margin-left: 5px;
+  
+}
+.e-pivotschemadesigner .e-dialog .filter {
+  float: left;
+}
+.e-pivotschemadesigner .e-selectedSort,
+.e-pivotgrid .e-selectedSort {
+  border: 1px solid;
+  padding-top: 2px;
+}
+.e-pivotschemadesigner .e-filterElementTag.e-vertical,
+.e-pivotgrid .e-filterElementTag.e-vertical {
+  border-color: white;
+}
+.e-pivotschemadesigner .e-clrFilter:before,
+.e-pivotgrid .e-clrFilter:before {
+  content: "\e668";
+  font-size: 16px;
+  float: left;
+}
+.e-pivotschemadesigner .e-clrSort:before,
+.e-pivotgrid .e-clrSort:before {
+  content: "\e754";
+  font-size: 19px;
+  float: left;
+  margin-top: 4px;
+}
+.e-pivotschemadesigner .e-filterElementTag,
+.e-pivotgrid .e-filterElementTag {
+  
+}
+.e-pivotschemadesigner .e-filterElementTag,
+.e-pivotgrid .e-filterElementTag {
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-pivotschemadesigner .e-filterState:before,
+.e-pivotgrid .e-filterState:before {
+  content: "\e80a";
+  height: 16px;
+  width: 16px;
+}
+.e-pivotschemadesigner .clearAllFilters,
+.e-pivotgrid .clearAllFilters {
+  padding-top: 4px;
+  padding-left: 5px;
+}
+.e-pivotschemadesigner .clearAllFilters .e-clrFilter,
+.e-pivotgrid .clearAllFilters .e-clrFilter {
+  margin-top: 1px;
+  float: left;
+}
+.e-pivotschemadesigner .clearAllFilters .filter,
+.e-pivotgrid .clearAllFilters .filter {
+  margin-left: 0px;
+}
+.e-pivotschemadesigner .e-filterIndicator:before,
+.e-pivotgrid .e-filterIndicator:before {
+  content: "\e7cf";
+  height: 16px;
+  width: 16px;
+}
+.e-pivotschemadesigner .advancedFilter,
+.e-pivotgrid .advancedFilter {
+  
+}
+.e-pivotschemadesigner .advancedFilter,
+.e-pivotgrid .advancedFilter {
+  margin-left: 9px;
+  margin-right: 5px;
+}
+.e-pivotschemadesigner .e-activeFilter:before,
+.e-pivotgrid .e-activeFilter:before {
+  content: "\e657";
+  height: 16px;
+  width: 16px;
+}
+.e-pivotschemadesigner .clearFilter .e-clrFilter,
+.e-pivotgrid .clearFilter .e-clrFilter {
+  margin-top: -1px !important;
+}
+.e-pivotschemadesigner .advancedFilter .e-editorTreeView,
+.e-pivotgrid .advancedFilter .e-editorTreeView {
+  height: inherit !important;
+  margin-top: 0px;
+}
+.e-pivotschemadesigner .separator,
+.e-pivotgrid .separator {
+  width: 84%;
+  height: 1px;
+  background-color: #c8c8c8;
+  margin-top: 7px;
+  margin-left: 35px;
+}
+.e-pivotschemadesigner .e-filterElementTag a,
+.e-pivotgrid .e-filterElementTag a {
+  margin-left: 3px !important;
+}
+.e-pivotschemadesigner .e-dialog.e-advancedFilterDlg .e-menu.e-vertical .e-list > ul {
+  
+}
+.e-pivotgrid .e-dialog.e-advancedFilterDlg .e-menu.e-vertical .e-list > ul {
+  
+}
+.e-pivotschemadesigner .clearFltrText,
+.e-pivotschemadesigner .clearSortText,
+.e-pivotgrid .clearFltrText,
+.e-pivotgrid .clearSortText {
+  padding-left: 1px !important;
+}
+.e-pivotschemadesigner .sortDiv,
+.e-pivotschemadesigner .clearSorting,
+.e-pivotschemadesigner .e-filterElementTag,
+.e-pivotgrid .sortDiv,
+.e-pivotgrid .clearSorting,
+.e-pivotgrid .e-filterElementTag {
+  padding-left: 5px;
+}
+.e-pivotschemadesigner .clearSorting,
+.e-pivotgrid .clearSorting {
+  height: 20px;
+}
+.e-pivotschemadesigner .e-filterState,
+.e-pivotgrid .e-filterState {
+  margin-left: 10px;
+}
+.e-pivotschemadesigner .memberFilter.e-filterState,
+.e-pivotgrid .memberFilter.e-filterState {
+  margin-left: 0px !important;
+  margin-top: 5px;
+  position: absolute;
+  float: left;
+}
+.e-pivotgrid #sep1,
+.e-pivotgrid #sep2,
+.e-pivotgrid #sep3,
+.e-pivotgrid #sep4,
+.e-pivotgrid #sep5,
+.e-pivotgrid #sep6,
+.e-pivotgrid #sep7,
+.e-pivotgrid #sep8,
+.e-pivotgrid #sep9,
+.e-pivotschemadesigner #sep1,
+.e-pivotschemadesigner #sep2,
+.e-pivotschemadesigner #sep3,
+.e-pivotschemadesigner #sep4,
+.e-pivotschemadesigner #sep5,
+.e-pivotschemadesigner #sep6,
+.e-pivotschemadesigner #sep7,
+.e-pivotschemadesigner #sep8,
+.e-pivotschemadesigner #sep9 {
+  height: 1px;
+  background-color: #c8c8c8;
+  margin-left: 30px;
+}
+.e-pivotgrid #sep1 {
+  height: 0px;
+}
+.e-pivotgrid #labelFilterBtn,
+.e-pivotgrid #ascOrder,
+.e-pivotgrid #descOrder,
+.e-pivotgrid #clearAllFilters,
+.e-pivotgrid #clearSorting,
+.e-pivotschemadesigner #labelFilterBtn,
+.e-pivotschemadesigner #ascOrder,
+.e-pivotschemadesigner #descOrder,
+.e-pivotschemadesigner #clearAllFilters,
+.e-pivotschemadesigner #clearSorting {
+  border-bottom: none;
+}
+.e-pivotgrid .e-advancedFilterDlg .e-treeview .e-text,
+.e-pivotschemadesigner .e-advancedFilterDlg .e-treeview .e-text {
+  font-weight: normal;
+}
+.e-pivotschemadesigner .e-clrSort:before,
+.e-pivotgrid .e-clrSort:before {
+  
+}
+.e-pivotschemadesigner .e-clrSort:before,
+.e-pivotgrid .e-clrSort:before {
+  font-size: 22px;
+  float: left;
+  margin-top: -1px;
+}
+.e-pivotschemadesigner .e-selectedSort,
+.e-pivotgrid .e-selectedSort {
+  border: 1px solid !important;
+}
+.e-pivotschemadesigner .filterDialog div,
+.e-pivotgrid .filterDialog div {
+  padding-bottom: 5px;
+}
+.e-pivotschemadesigner .filterDialog,
+.e-pivotgrid .filterDialog {
+  margin-left: -7px;
+}
+.e-pivotschemadesigner .e-filterElementTag,
+.e-pivotgrid .e-filterElementTag {
+  height: auto !important;
+}
+.e-pivotgrid #clientDialog_wrapper.e-advancedFilterDlg .e-scroller:not([id$="_fieldCollection_container"]),
+.e-pivotschemadesigner #clientDialog_wrapper.e-advancedFilterDlg .e-scroller {
+  overflow: visible;
+  border: none;
+}
+.e-pivotgrid #clientDialog_wrapper.e-rtl.e-advancedFilterDlg .e-scroller > .e-content:not([id$="_fieldCollection_container"]),
+.e-pivotschemadesigner #clientDialog_wrapper.e-rtl.e-advancedFilterDlg .e-scroller > .e-content {
+  overflow: visible !important;
+}
+.e-pivotschemadesigner.e-rtl .e-axisTd1 {
+  
+}
+.e-pivotschemadesigner.e-rtl .e-axisTd1 {
+  float: left;
+}
+.e-pivotgrid #clientDialog_wrapper.e-advancedFilterDlg .clientDialog,
+.e-pivotschemadesigner #clientDialog_wrapper.e-advancedFilterDlg .clientDialog {
+  overflow: visible !important;
+}
+.e-pivotgrid .e-icon.e-searchEditorTree:before,
+.e-pivotschemadesigner .e-icon.e-searchEditorTree:before {
+  content: "\e812";
+  cursor: pointer;
+}
+.e-pivotgrid .e-dialog .e-icon.e-searchEditorTree,
+.e-pivotschemadesigner .e-dialog .e-icon.e-searchEditorTree {
+  display: inline-block;
+  position: absolute;
+  
+}
+.e-pivotgrid .e-dialog .e-icon.e-searchEditorTree,
+.e-pivotschemadesigner .e-dialog .e-icon.e-searchEditorTree {
+  top: 15px;
+  left: 232px;
+}
+.e-pivotgrid.e-rtl .e-dialog.e-rtl .e-icon.e-searchEditorTree,
+.e-pivotschemadesigner.e-rtl .e-dialog.e-rtl .e-icon.e-searchEditorTree {
+  display: inline-block;
+  position: absolute;
+  
+}
+.e-pivotgrid.e-rtl .e-dialog.e-rtl .e-icon.e-searchEditorTree,
+.e-pivotschemadesigner.e-rtl .e-dialog.e-rtl .e-icon.e-searchEditorTree {
+  top: 15px;
+  left: 13px;
+}
+.e-pivotgrid.e-rtl .e-dialog.e-advancedFilterDlg.e-rtl .e-icon.e-searchEditorTree,
+.e-pivotschemadesigner.e-rtl .e-dialog.e-advancedFilterDlg.e-rtl .e-icon.e-searchEditorTree {
+  display: inline-block;
+  position: absolute;
+  
+}
+.e-pivotgrid.e-rtl .e-dialog.e-advancedFilterDlg.e-rtl .e-icon.e-searchEditorTree,
+.e-pivotschemadesigner.e-rtl .e-dialog.e-advancedFilterDlg.e-rtl .e-icon.e-searchEditorTree {
+  top: 229px;
+  left: 12px;
+}
+.e-pivotschemadesigner .e-dialog.e-advancedFilterDlg .e-icon.e-searchEditorTree,
+.e-pivotgrid .e-dialog.e-advancedFilterDlg .e-icon.e-searchEditorTree {
+  display: inline-block;
+  position: absolute;
+  
+}
+.e-pivotschemadesigner .e-dialog.e-advancedFilterDlg .e-icon.e-searchEditorTree,
+.e-pivotgrid .e-dialog.e-advancedFilterDlg .e-icon.e-searchEditorTree {
+  top: 236px;
+  left: 235px;
+}
+.e-pivotschemadesigner .e-dialog.e-advancedFilterDlg.advancedFilterDlgOSM .e-icon.e-searchEditorTree,
+.e-pivotgrid .e-dialog.e-advancedFilterDlg.advancedFilterDlgOSM .e-icon.e-searchEditorTree {
+  
+}
+.e-pivotschemadesigner .e-dialog.e-advancedFilterDlg.advancedFilterDlgOSM .e-icon.e-searchEditorTree,
+.e-pivotgrid .e-dialog.e-advancedFilterDlg.advancedFilterDlgOSM .e-icon.e-searchEditorTree {
+  top: 236px;
+  left: 235px;
+}
+.e-pivotschemadesigner .e-dialog .e-memberPager,
+.e-pivotgrid .e-dialog .e-memberPager,
+.e-pivotschemadesigner .e-dialog .e-memberSearchPager,
+.e-pivotgrid .e-dialog .e-memberSearchPager,
+.e-pivotschemadesigner .e-dialog .e-memberDrillPager,
+.e-pivotgrid .e-dialog .e-memberDrillPager {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.e-pivotschemadesigner .e-dialog .e-memberPager + div.e-dialogFooter,
+.e-pivotgrid .e-dialog .e-memberPager + div.e-dialogFooter,
+.e-pivotschemadesigner .e-dialog .e-memberSearchPager + div.e-dialogFooter,
+.e-pivotgrid .e-dialog .e-memberSearchPager + div.e-dialogFooter,
+.e-pivotschemadesigner .e-dialog .e-memberDrillPager + div.e-dialogFooter,
+.e-pivotgrid .e-dialog .e-memberDrillPager + div.e-dialogFooter {
+  
+}
+.e-pivotschemadesigner .e-dialog .e-memberPager + div.e-dialogFooter,
+.e-pivotgrid .e-dialog .e-memberPager + div.e-dialogFooter,
+.e-pivotschemadesigner .e-dialog .e-memberSearchPager + div.e-dialogFooter,
+.e-pivotgrid .e-dialog .e-memberSearchPager + div.e-dialogFooter,
+.e-pivotschemadesigner .e-dialog .e-memberDrillPager + div.e-dialogFooter,
+.e-pivotgrid .e-dialog .e-memberDrillPager + div.e-dialogFooter {
+  margin-bottom: 10px !important;
+}
+.e-pivotgrid .e-advancedFilterDlg .e-memberPager,
+.e-pivotschemadesigner .e-advancedFilterDlg .e-memberPager,
+.e-pivotgrid .e-advancedFilterDlg .e-memberSearchPager,
+.e-pivotschemadesigner .e-advancedFilterDlg .e-memberSearchPager,
+.e-pivotgrid .e-advancedFilterDlg .e-memberDrillPager,
+.e-pivotschemadesigner .e-advancedFilterDlg .e-memberDrillPager {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+.e-pivotschemadesigner .e-firstPage.e-pageDisabled,
+.e-pivotschemadesigner .e-prevPage.e-pageDisabled,
+.e-pivotschemadesigner .e-nextPage.e-pageDisabled,
+.e-pivotschemadesigner .e-lastPage.e-pageDisabled,
+.e-pivotgrid .e-firstPage.e-pageDisabled,
+.e-pivotgrid .e-prevPage.e-pageDisabled,
+.e-pivotgrid .e-nextPage.e-pageDisabled,
+.e-pivotgrid .e-lastPage.e-pageDisabled {
+  
+}
+.e-pivotschemadesigner .e-firstPage.e-pageDisabled,
+.e-pivotschemadesigner .e-prevPage.e-pageDisabled,
+.e-pivotschemadesigner .e-nextPage.e-pageDisabled,
+.e-pivotschemadesigner .e-lastPage.e-pageDisabled,
+.e-pivotgrid .e-firstPage.e-pageDisabled,
+.e-pivotgrid .e-prevPage.e-pageDisabled,
+.e-pivotgrid .e-nextPage.e-pageDisabled,
+.e-pivotgrid .e-lastPage.e-pageDisabled {
+  filter: alpha(opacity=50) !important;
+  -moz-opacity: 0.5 !important;
+  opacity: 0.5 !important;
+}
+.e-pivotschemadesigner .e-firstPage.e-pageEnabled,
+.e-pivotschemadesigner .e-prevPage.e-pageEnabled,
+.e-pivotschemadesigner .e-nextPage.e-pageEnabled,
+.e-pivotschemadesigner .e-lastPage.e-pageEnabled,
+.e-pivotgrid .e-firstPage.e-pageEnabled,
+.e-pivotgrid .e-prevPage.e-pageEnabled,
+.e-pivotgrid .e-nextPage.e-pageEnabled,
+.e-pivotgrid .e-lastPage.e-pageEnabled {
+  -moz-opacity: 1 !important;
+  opacity: 1 !important;
+  filter: alpha(opacity=100) !important;
+  
+}
+.e-pivotschemadesigner .e-firstPage.e-pageEnabled:hover,
+.e-pivotschemadesigner .e-prevPage.e-pageEnabled:hover,
+.e-pivotschemadesigner .e-nextPage.e-pageEnabled:hover,
+.e-pivotschemadesigner .e-lastPage.e-pageEnabled:hover,
+.e-pivotgrid .e-firstPage.e-pageEnabled:hover,
+.e-pivotgrid .e-prevPage.e-pageEnabled:hover,
+.e-pivotgrid .e-nextPage.e-pageEnabled:hover,
+.e-pivotgrid .e-lastPage.e-pageEnabled:hover {
+  background-color: #fcc680;
+}
+.e-pivotschemadesigner .e-firstPage.e-pageEnabled:active,
+.e-pivotschemadesigner .e-prevPage.e-pageEnabled:active,
+.e-pivotschemadesigner .e-nextPage.e-pageEnabled:active,
+.e-pivotschemadesigner .e-lastPage.e-pageEnabled:active,
+.e-pivotgrid .e-firstPage.e-pageEnabled:active,
+.e-pivotgrid .e-prevPage.e-pageEnabled:active,
+.e-pivotgrid .e-nextPage.e-pageEnabled:active,
+.e-pivotgrid .e-lastPage.e-pageEnabled:active {
+  background-color: #f9920b;
+  color: white;
+}
+.e-pivotschemadesigner .e-firstPage,
+.e-pivotschemadesigner .e-prevPage,
+.e-pivotschemadesigner .e-nextPage,
+.e-pivotschemadesigner .e-lastPage,
+.e-pivotgrid .e-firstPage,
+.e-pivotgrid .e-prevPage,
+.e-pivotgrid .e-nextPage,
+.e-pivotgrid .e-lastPage {
+  width: 24px;
+  height: 24px;
+}
+.e-pivotschemadesigner .e-icon.e-media-backward_01:before,
+.e-pivotschemadesigner .e-icon.e-arrowhead-left:before,
+.e-pivotschemadesigner .e-icon.e-arrowhead-right:before,
+.e-pivotschemadesigner .e-icon.e-media-forward_01:before,
+.e-pivotgrid .e-icon.e-media-backward_01:before,
+.e-pivotgrid .e-icon.e-arrowhead-left:before,
+.e-pivotgrid .e-icon.e-arrowhead-right:before,
+.e-pivotgrid .e-icon.e-media-forward_01:before {
+  margin-top: 5px;
+}
+.e-pivotschemadesigner .e-dialog .e-memberCurrentPage,
+.e-pivotgrid .e-dialog .e-memberCurrentPage,
+.e-pivotschemadesigner .e-dialog .e-memberCurrentSearchPage,
+.e-pivotgrid .e-dialog .e-memberCurrentSearchPage,
+.e-pivotschemadesigner .e-dialog .e-memberCurrentDrillPage,
+.e-pivotgrid .e-dialog .e-memberCurrentDrillPage {
+  margin-left: 8px;
+  margin-right: 6px;
+  outline: none;
+  text-indent: 3px;
+}
+.e-pivotschemadesigner .e-dialog .memberPageCount,
+.e-pivotgrid .e-dialog .memberPageCount,
+.e-pivotschemadesigner .e-dialog .memberSearchPageCount,
+.e-pivotgrid .e-dialog .memberSearchPageCount,
+.e-pivotschemadesigner .e-dialog .memberDrillPageCount,
+.e-pivotgrid .e-dialog .memberDrillPageCount {
+  margin-right: 8px;
+}
+.e-pivotschemadesigner .e-dialog .e-memberPager + div,
+.e-pivotgrid .e-dialog .e-memberPager + div,
+.e-pivotschemadesigner .e-dialog .e-memberSearchPager + div,
+.e-pivotgrid .e-dialog .e-memberSearchPager + div,
+.e-pivotschemadesigner .e-dialog .e-memberDrillPager + div,
+.e-pivotgrid .e-dialog .e-memberDrillPager + div {
+  margin: 0px 0px 6px !important;
+}
+/*---------------------------------------------------------- Material Theme and Office-365 -----------------------------------------------------------------------*/
+
+.e-pivotgrid .filter,
+.e-pivotgrid .values .e-removeBtn {
+  
+}
+.e-pivotschemadesigner .e-fieldTable .e-treeview-wrap:not(.e-fullrow-wrap) .e-text {
+  
+}
+.e-pivotgrid .e-removeBtn,
+.e-pivotgrid .e-sorting {
+  
+}
+.e-pivotgrid .e-pivotButton .e-btn.e-select.e-hoverBtn {
+  
+}
+.e-pivotgrid .e-removeBtn {
+  
+}
+.e-pivotgrid .filter {
+  
+}
+.e-pivotgrid .e-sorting {
+  
+}
+.e-pivotgrid .e-pivotButton .e-pvtBtn + .e-removeBtn {
+  
+}
+.e-pivotgrid .summary {
+  
+}
+.e-pivotgrid .summary.value {
+  
+}
+.e-pivotgrid.e-rtl .summary {
+  
+}
+.e-pivotgrid .filter:active,
+.e-pivotgrid .e-sorting:active,
+.e-pivotgrid .e-removeBtn:active {
+  
+}
+.e-pivotgrid .e-sorting:after,
+.e-pivotgrid .filter:after,
+.e-pivotgrid .e-removeBtn:after {
+  
+}
+.e-pivotgrid .e-pivotButton .e-btn.e-select:active,
+.e-pivotgrid .e-pivotButton:active {
+  
+}
+.e-pivotgrid .e-hScrollThumb:active,
+.e-pivotgrid .e-vScrollThumb:active {
+  
+}
+.e-pivotgrid .e-hScrollPanel:hover {
+  
+}
+.e-pivotgrid .e-vScrollPanel:hover {
+  
+}
+.e-pivotgrid .dragClone.e-btn.e-select {
+  
+}
+/*.e-pivotgrid .e-pivotButton:hover .e-icon,.e-pivotgrid .e-pivotButton .e-btn.e-select .e-icon,.e-pivotgrid .e-pivotButton:active .e-icon,.e-pivotgrid .e-pivotButton .e-btn.e-select:active .e-icon{
+    color:fade(@primary-font-color,70%);
+}*/
+
+.e-pivotgrid .e-btn.e-select:active .e-icon,
+.e-pivotgrid .e-btn.e-select:hover .e-icon {
+  
+}
+.e-pivotgrid .values .e-pivotButton,
+.e-pivotgrid .e-rows .e-pivotButton,
+.e-pivotgrid .columns .e-pivotButton {
+  
+}
+.e-pivotgrid .e-drag .e-pivotButton {
+  
+}
+.e-pivotgrid #grpvalue + span,
+.e-pivotgrid #grpcol + span,
+.e-pivotgrid #grpdrag + span,
+.e-pivotgrid .e-rows > span:first-child {
+  
+}
+.e-pivotgrid .e-drag > span:first-child {
+  
+}
+.e-pivotgrid.e-rtl .value {
+  
+}
+.e-pivotgrid.e-rtl table .e-expand,
+.e-pivotgrid.e-rtl table .e-collapse {
+  
+}
+.e-pivotgrid.e-rtl table .summary .e-expand {
+  
+}
+.e-pivotgrid.e-rtl .e-pivotButton .e-btn {
+  
+}
+.e-pivotgrid.e-rtl .filter {
+  
+}
+.e-pivotgrid.e-rtl .values .e-removeBtn,
+.e-pivotgrid.e-rtl .e-pivotButton .e-pvtBtn + .e-removeBtn {
+  
+}
+.e-pivotgrid.e-rtl .e-removeBtn {
+  
+}
+.e-pivotgrid.e-rtl .e-sorting {
+  
+}
+.e-pivotgrid.e-rtl .emptyPivotGrid .emptyRows .e-rows {
+  
+}
+.e-pivotgrid.e-rtl #grpvalue + span,
+.e-pivotgrid.e-rtl #grpcol + span,
+.e-pivotgrid.e-rtl #grpdrag + span,
+.e-pivotgrid.e-rtl .e-rows > span:first-child {
+  
+}
+.e-pivotgrid.e-rtl .values .e-pivotButton,
+.e-pivotgrid.e-rtl .e-rows .e-pivotButton,
+.e-pivotgrid.e-rtl .columns .e-pivotButton,
+.e-pivotgrid.e-rtl .e-drag .e-pivotButton {
+  
+  margin-left: 0px;
+}
+.e-pivotgrid.e-rtl .values .e-pivotButton,
+.e-pivotgrid.e-rtl .e-rows .e-pivotButton,
+.e-pivotgrid.e-rtl .columns .e-pivotButton,
+.e-pivotgrid.e-rtl .e-drag .e-pivotButton {
+  margin-right: 5px;
+}
+.e-pivotgrid #clientDialog_wrapper.e-advancedFilterDlg .e-scroller > .e-content:not([id$="_fieldCollection_container"]),
+.e-pivotschemadesigner #clientDialog_wrapper.e-advancedFilterDlg .e-scroller > .e-content {
+  
+}
+.e-pivotgrid .e-dlgCalculatedField .editFormula {
+  
+}
+.e-pivotgrid .e-dialog.e-rtl .e-dlgCalculatedField .editFormula {
+  
+}
+.e-pivotgrid .valueSorting {
+  
+}
+.e-pivotgrid .e-dialog.e-rtl .e-dlgCalculatedField .calculateFieldName {
+  
+}
+.e-pivotgrid .emptyPivotGrid .e-drag,
+.e-pivotgrid .emptyPivotGrid .valueColumn,
+.e-pivotgrid .emptyPivotGrid .valueColumn .values,
+.e-pivotgrid .emptyPivotGrid .valueColumn .columns,
+.e-pivotgrid .emptyPivotGrid .emptyRows,
+.e-pivotgrid .emptyPivotGrid .emptyRows .e-rows {
+  
+}
+.e-pivotgrid .emptyPivotGrid .emptyRows {
+  
+}
+.e-pivotgrid .emptyPivotGrid .emptyRows .e-rows {
+  
+}
+.e-pivotgrid .emptyPivotGrid .emptyRows .e-rows {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.e-pivotgrid .emptyPivotGrid .values span,
+.e-pivotgrid .emptyPivotGrid .columns span {
+  
+}
+.e-pivotgrid.e-rtl .emptyPivotGrid .values span,
+.e-pivotgrid.e-rtl .emptyPivotGrid .columns span {
+  
+}
+.e-pivotgrid .emptyPivotGrid .values {
+  
+}
+.e-pivotgrid .emptyPivotGrid .columns {
+  
+}
+.e-pivotgrid .emptyPivotGrid .e-drag:hover,
+.e-pivotgrid .emptyPivotGrid .valueColumn:hover,
+.e-pivotgrid .emptyPivotGrid .valueColumn .values:hover,
+.e-pivotgrid .emptyPivotGrid .valueColumn .columns:hover,
+.e-pivotgrid .emptyPivotGrid .emptyRows:hover,
+.e-pivotgrid .emptyPivotGrid .emptyRows .e-rows:hover {
+  
+}
+.e-dragedNode.pivotTreeViewDragedNode {
+  
+}
+.e-pivotschemadesigner .e-dialog .e-editorTreeView .e-ul {
+  
+}
+.e-pivotgrid .filterDialog #filterValue1,
+.e-pivotgrid .filterDialog #filterValue2 {
+  
+}
+.e-pivotgrid .filterDialog #filterValue1:active,
+.e-pivotgrid .filterDialog #filterValue1:focus,
+.e-pivotgrid .filterDialog #filterValue2:active,
+.e-pivotgrid .filterDialog #filterValue2:focus {
+  
+}
+.e-pivotgrid .filterDialog #filterValue1:disabled,
+.e-pivotgrid .filterDialog #filterValue2:disabled {
+  
+}
+.e-pivotgrid .filterDialog td .e-ddl,
+.e-pivotgrid .filterDialog #filterValue1,
+.e-pivotgrid .filterDialog #filterValue2 {
+  
+}
+.e-pivotgrid .e-conditionFrom:active,
+.e-pivotgrid .e-conditionTo:active,
+.e-pivotgrid .e-conditionFrom:focus,
+.e-pivotgrid .e-conditionTo:focus {
+  
+}
+.e-pivotgrid .e-conditionFrom:disabled,
+.e-pivotgrid .e-conditionTo:disabled {
+  
+}
+/*.e-pivotgrid .e-conditionFrom:active, .e-pivotgrid .e-conditionTo:active,.e-pivotgrid .e-conditionFrom:hover,.e-pivotgrid .e-conditionTo:hover{
+    border-bottom:1px solid fade(@base-font-color,12%);
+}*/
+
+.e-pivotgrid .e-dialog .e-btn,
+.e-pivotschemadesigner .e-dialog .e-btn,
+.e-pivotschemadesigner .btnDeferUpdate {
+  
+}
+.e-pivotgrid .e-dialog .e-dialogOKBtn,
+.e-pivotgrid .e-dialog .e-dialogCancelBtn {
+  
+}
+.e-pivotgrid .e-dialog .e-btn.e-disable,
+.e-pivotgrid .e-dialog .e-btn.e-disable:hover,
+.e-pivotgrid .e-dialog .e-btn.e-disable:focus,
+.e-pivotgrid .e-dialog .e-btn.e-disable:active,
+.e-pivotschemadesigner .e-dialog .e-btn.e-disable,
+.e-pivotschemadesigner .e-dialog .e-btn.e-disable:focus,
+.e-pivotschemadesigner .e-dialog .e-btn.e-disable:hover,
+.e-pivotschemadesigner .e-dialog .e-btn.e-disable:active,
+.e-pivotschemadesigner .btnDeferUpdate.e-disable,
+.e-pivotschemadesigner .btnDeferUpdate.e-disable:hover,
+.e-pivotschemadesigner .btnDeferUpdate.e-disable:focus,
+.e-pivotschemadesigner .btnDeferUpdate.e-disable:active {
+  
+}
+.e-pivotgrid .e-dialog .calculatorFields,
+.e-pivotgrid .e-dialog .calculatorFields:hover,
+.e-pivotgrid .e-dialog .calculatorFields:focus {
+  
+}
+.e-pivotgrid .e-dialog .e-btn:hover,
+.e-pivotschemadesigner .e-dialog .e-btn:hover,
+.e-pivotgrid .e-dialog .e-btn:focus,
+.e-pivotschemadesigner .e-dialog .e-btn:focus,
+.e-pivotschemadesigner .btnDeferUpdate:hover,
+.e-pivotschemadesigner .btnDeferUpdate:focus {
+  
+}
+.e-pivotgrid .e-dialog .e-btn:active,
+.e-pivotschemadesigner .e-dialog .e-btn:active,
+.e-pivotschemadesigner .btnDeferUpdate:active {
+  
+}
+#PivotSchemaDesigner_dragClone {
+  
+}
+.e-pivotschemadesigner.e-rtl .e-pivotButton {
+  
+}
+.e-pivotschemadesigner .e-treeview ul {
+  
+}
+.e-pivotschemadesigner .e-axisTd1 .e-schemaFilter,
+.e-pivotschemadesigner .e-axisTd1 .e-schemaRow,
+.e-pivotschemadesigner .e-axisTd1 .e-pivotHeader,
+.e-pivotschemadesigner .e-axisTd1 .e-rPivotHeader {
+  
+}
+.e-pivotschemadesigner .e-axisTd2 .e-schemaValue,
+.e-pivotschemadesigner .e-axisTd2 .e-schemaColumn,
+.e-pivotschemadesigner .e-axisTd2 .e-pivotHeader,
+.e-pivotschemadesigner .e-axisTd2 .e-rPivotHeader {
+  
+}
+.e-pivotschemadesigner .e-pivotButton .e-btn.e-select {
+  
+}
+.e-pivotschemadesigner .e-pivotButton .e-pvtBtn,
+.e-pivotschemadesigner .e-pivotButton .e-pvtBtn:hover,
+.e-pivotschemadesigner .e-pivotButton .e-pvtBtn:active {
+  
+}
+.e-pivotschemadesigner .e-pivotButton {
+  
+}
+.e-pivotschemadesigner #rowlabel + div,
+.e-pivotschemadesigner #columnlabel + div,
+.e-pivotschemadesigner #valuelabel + div,
+.e-pivotschemadesigner #reportfilter + div {
+  
+}
+.e-pivotschemadesigner .e-pivotButton .pvtBtnDiv,
+.e-pivotschemadesigner .e-pivotButton .e-pvtBtn {
+  
+}
+.e-pivotschemadesigner .e-pivotButton .e-pvtBtn:hover,
+.e-pivotschemadesigner .e-pivotButton .e-pvtBtn:active {
+  
+}
+.e-pivotschemadesigner .e-dropIndicator + .e-pvtBtn {
+  
+}
+.e-pivotschemadesigner .e-listHeader .headerText {
+  
+}
+.e-pivotgrid .summary.calc,
+.e-pivotgrid .summary.calc:hover {
+  
+}
+.e-pivotgrid table .e-expand.e-icon:before,
+.e-pivotgrid table .e-collapse.e-icon:before {
+  
+}
+.e-pivotgrid.e-rtl table .e-expand,
+.e-pivotgrid.e-rtl table .e-collapse {
+  
+}
+.e-pivotgrid.e-rtl .colheader,
+.e-pivotgrid.e-rtl .colheader:hover,
+.e-pivotgrid.e-rtl .rowheader,
+.e-pivotgrid.e-rtl .rowheader:hover,
+.e-pivotgrid.e-rtl .calc,
+.e-pivotgrid.e-rtl .calc:hover {
+  
+}
+.e-pivotgrid.e-rtl th,
+.e-pivotgrid.e-rtl td {
+  
+}
+.e-pivotschemadesigner .e-pivotButton:first-child {
+  
+}
+.e-pivotschemadesigner .e-pivotHeader .headerText,
+.e-pivotschemadesigner .e-rPivotHeader .headerText {
+  
+}
+.e-pivotschemadesigner.e-rtl .e-pivotHeader .headerText,
+.e-pivotschemadesigner.e-rtl .e-rPivotHeader .headerText {
+  
+}
+.e-pivotschemadesigner .btnDeferUpdate,
+.e-pivotschemadesigner .e-btn.e-dialogOKBtn,
+.e-pivotgrid .e-btn.e-dialogOKBtn,
+.e-pivotgrid .e-dlgCalculatedField + div .e-btn:first-child {
+  
+}
+.e-pivotschemadesigner .btnDeferUpdate:hover,
+.e-pivotschemadesigner .e-btn.e-dialogOKBtn:hover,
+.e-pivotgrid .e-btn.e-dialogOKBtn:hover,
+.e-pivotgrid .e-dlgCalculatedField + div .e-btn:first-child:hover {
+  
+}
+.e-pivotschemadesigner .btnDeferUpdate:focus,
+.e-pivotschemadesigner .e-btn.e-dialogOKBtn:focus,
+.e-pivotgrid .e-btn.e-dialogOKBtn:focus,
+.e-pivotgrid .e-dlgCalculatedField + div .e-btn:first-child:focus {
+  
+}
+.e-pivotschemadesigner .btnDeferUpdate:active,
+.e-pivotschemadesigner .e-btn.e-dialogOKBtn:active,
+.e-pivotgrid .e-btn.e-dialogOKBtn:active,
+.e-pivotgrid .e-dlgCalculatedField + div .e-btn:first-child:active {
+  
+}
+.e-pivotgrid .e-dlgCalculatedField + div .e-btn.e-disable,
+.e-pivotgrid .e-dlgCalculatedField + div .e-btn.e-disable:hover,
+.e-pivotgrid .e-dlgCalculatedField + div .e-btn.e-disable:active {
+  
+}
+.e-pivotschemadesigner.e-rtl {
+  
+}
+.e-pivotschemadesigner.e-rtl .e-listHeader {
+  
+}
+.e-pivotschemadesigner.e-rtl .e-schemaFilter,
+.e-pivotschemadesigner.e-rtl .e-schemaRow,
+.e-pivotschemadesigner.e-rtl .e-pivotHeader {
+  
+}
+/*.e-pivotgrid .e-treeview-wrap .e-item div>.e-chkbox-wrap,.e-pivotschemadesigner .e-treeview-wrap .e-item div>.e-chkbox-wrap{
+    & when (@skin = "office-365"){
+       margin-left:0px;
+   }    
+}
+ .e-pivotgrid .e-treeview-wrap .e-treeview-ul li.e-item div>.e-chkbox-wrap,.e-pivotschemadesigner .e-treeview-wrap  .e-treeview-ul li.e-item div>.e-chkbox-wrap,.e-pivotgrid .e-treeview-wrap li.e-item div>.e-icon+.e-chkbox-wrap,.e-pivotschemadesigner .e-treeview-wrap  li.e-item div>.e-icon+.e-chkbox-wrap{
+    & when (@skin = "office-365"){
+       margin-left:16px;
+   }    
+}
+  .e-pivotgrid.e-rtl .e-treeview-wrap.e-rtl .e-item div>.e-chkbox-wrap,.e-pivotschemadesigner.e-rtl .e-treeview-wrap.e-rtl .e-item div>.e-chkbox-wrap{
+    & when (@skin = "office-365"){
+       margin-right:0px;
+   }    
+}
+ .e-pivotgrid.e-rtl .e-treeview-wrap.e-rtl .e-treeview-ul li.e-item div>.e-chkbox-wrap,.e-pivotschemadesigner.e-rtl .e-treeview-wrap.e-rtl  .e-treeview-ul li.e-item div>.e-chkbox-wrap,.e-pivotgrid.e-rtl .e-treeview-wrap.e-rtl ul li.e-item div>.e-icon+.e-chkbox-wrap,.e-pivotschemadesigner.e-rtl .e-treeview-wrap.e-rtl  li.e-item div>.e-icon+.e-chkbox-wrap{
+    & when (@skin = "office-365"){
+       margin-right:16px;
+   }    
+}*/
+
+.e-pivotschemadesigner .e-schemaFieldTree.e-treeview-wrap .e-item div > .e-chkbox-wrap {
+  
+}
+.e-pivotschemadesigner .e-schemaFieldTree.e-treeview-wrap .e-treeview-ul li.e-item div > .e-chkbox-wrap,
+.e-pivotschemadesigner .e-schemaFieldTree.e-treeview-wrap li.e-item div > .e-icon + .e-chkbox-wrap {
+  
+}
+.e-pivotschemadesigner.e-rtl .e-schemaFieldTree.e-treeview-wrap.e-rtl .e-item div > .e-chkbox-wrap {
+  
+}
+.e-pivotschemadesigner.e-rtl .e-schemaFieldTree.e-treeview-wrap.e-rtl .e-treeview-ul li.e-item div > .e-chkbox-wrap,
+.e-pivotschemadesigner.e-rtl .e-schemaFieldTree.e-treeview-wrap.e-rtl li.e-item div > .e-icon + .e-chkbox-wrap {
+  
+}
+.e-pivotschemadesigner .e-editorDiv,
+.e-pivotgrid .e-editorDiv {
+  
+}
+.e-pivotschemadesigner.e-rtl .e-dialogCancelBtn,
+.e-pivotgrid.e-rtl .e-dialogCancelBtn {
+  
+}
+.e-pivotgrid .e-dialogOKBtn,
+.e-pivotgrid .e-dialogCancelBtn {
+  
+}
+.e-pivotgrid .e-dlgCalculatedField .e-btn.e-select:active .e-icon.e-sigma {
+  
+}
+.e-pivotgrid .e-dlgCalculatedField + div {
+  
+}
+.e-pivotgrid .e-conditionFrom:hover,
+.e-pivotgrid .filterDialog input.e-filterValues:hover,
+.e-pivotschemadesigner .filterDialog input.e-filterValues:hover,
+.e-pivotgrid .e-conditionTo:hover {
+  
+}
+.e-pivotgrid .e-conditionFrom:active,
+.e-pivotgrid .e-conditionTo:active,
+.e-pivotgrid .filterDialog input.e-filterValues:active,
+.e-pivotschemadesigner .filterDialog input.e-filterValues:active,
+.e-pivotgrid .filterDialog input.e-filterValues:focus,
+.e-pivotschemadesigner .filterDialog input.e-filterValues:focus,
+.e-pivotgrid .e-conditionFrom:focus,
+.e-pivotgrid .e-conditionTo:focus {
+  
+}
+.e-pivotgrid .conditionformatTbl label {
+  
+}
+.e-pivotgrid .conditionformatTbl .e-ddl {
+  
+}
+.e-pivotgrid .conditionformatTbl th,
+.e-pivotgrid .conditionformatTbl td {
+  
+}
+.e-pivotgrid .e-conditionDlg {
+  
+}
+.e-pivotgrid .e-conditionDlg + div {
+  
+}
+.e-pivotgrid .e-dialogremoveBtn {
+  
+}
+.e-pivotgrid.e-rtl .conditionformatTbl .e-ddl,
+.e-pivotgrid.e-rtl .conditionformatTbl label {
+  
+}
+.e-pivotgrid .e-filterElementTag a.e-menulink,
+.e-pivotschemadesigner .e-filterElementTag a.e-menulink {
+  
+}
+.e-pivotgrid.e-advancedFilterDlg .e-ddlGroupWrap,
+.e-pivotgrid .e-advancedFilterDlg .e-menu-wrap,
+.e-pivotschemadesigner.e-advancedFilterDlg .e-ddlGroupWrap,
+.e-pivotschemadesigner .e-advancedFilterDlg .e-menu-wrap {
+  
+}
+.e-pivotgrid .e-advancedFilterDlg .e-memberSearchEditorDiv,
+.e-pivotschemadesigner .e-advancedFilterDlg .e-memberSearchEditorDiv {
+  
+}
+.e-pivotgrid .clientDialog .e-menu.e-vertical .e-list > .e-menulink > span.e-icon.e-arrowhead-right,
+.e-pivotschemadesigner .clientDialog .e-menu.e-vertical .e-list > .e-menulink > span.e-icon.e-arrowhead-right {
+  
+}
+.e-pivotgrid .filterDialog .e-ddl,
+.e-pivotschemadesigner .filterDialog .e-ddl {
+  
+}
+.e-pivotgrid .filterDialog td,
+.e-pivotschemadesigner .filterDialog td {
+  
+}
+.e-pivotgrid .filterDialog input.e-filterValues,
+.e-pivotschemadesigner .filterDialog input.e-filterValues {
+  
+}
+.e-pivotgrid .filterDialog .e-dialogCancelBtn,
+.e-pivotschemadesigner .filterDialog .e-dialogCancelBtn {
+  margin-right: 10px;
+  
+}
+.e-pivotgrid.e-rtl .filterDialog .e-dialogCancelBtn,
+.e-pivotschemadesigner.e-rtl .filterDialog .e-dialogCancelBtn {
+  
+}
+.e-pivotgrid .e-dlgCalculatedField .e-ddl {
+  
+}
+.e-pivotgrid .e-dlgCalculatedField .borderLine {
+  
+}
+.e-pivotgrid .e-dlgCalculatedField .e-fieldTable .e-btn {
+  
+}
+.e-pivotgrid .e-dlgCalculatedField .e-ddl-popup.e-wrap {
+  
+}
+.e-pivotgrid .e-dlgCalculatedField .e-btn.calculatorFields:hover,
+.e-pivotgrid .conditionformatTbl .e-btn.e-dialogremoveBtn:hover {
+  
+}
+.e-pivotgrid .e-dlgCalculatedField .e-btn.calculatorFields:active,
+.e-pivotgrid .e-dlgCalculatedField .e-btn.calculatorFields:focus,
+.e-pivotgrid .conditionformatTbl .e-btn.e-dialogremoveBtn:active,
+.e-pivotgrid .conditionformatTbl .e-btn.e-dialogremoveBtn:focus {
+  
+}
+.e-pivotgrid.e-rtl .e-dlgCalculatedField label {
+  
+}
+.e-pivotgrid.e-rtl .e-dlgCalculatedField .e-ddl {
+  
+}
+.e-pivotgrid.e-rtl .calculateFieldName {
+  
+}
+.e-pivotgrid.e-rtl .e-calcFormulaDiv td {
+  
+}
+.e-pivotgrid .calculateFieldName.e-hoverCell {
+  
+}
+.e-pivotgrid .conditionformatTbl .e-dialogremoveBtn:active {
+  
+}
+.e-pivotgrid .e-advancedFilterDlg .e-dialogCancelBtn,
+.e-pivotschemadesigner .e-advancedFilterDlg .e-dialogCancelBtn {
+  
+}
+.e-pivotgrid.e-rtl .e-advancedFilterDlg .e-dialogOKBtn,
+.e-pivotschemadesigner.e-rtl .e-advancedFilterDlg .e-dialogOKBtn {
+  margin-right: 102px !important;
+}
+.e-pivotgrid.e-rtl .e-advancedFilterDlg .e-dialogCancelBtn,
+.e-pivotschemadesigner.e-rtl .e-advancedFilterDlg .e-dialogCancelBtn {
+  
+}
+.e-pivotgrid.e-rtl .clientDialog .e-menu.e-vertical .e-list > .e-menulink > span.e-icon.e-arrowhead-right,
+.e-pivotschemadesigner.e-rtl .clientDialog .e-menu.e-vertical .e-list > .e-menulink > span.e-icon.e-arrowhead-right {
+  
+}
+.e-pivotgrid .e-labelValueFilterDlg .e-titlebar,
+.e-pivotschemadesigner .e-labelValueFilterDlg .e-titlebar {
+  
+}
+.e-pivotgrid .e-labelValueFilterDlg .labelfilter + div,
+.e-pivotgrid .e-labelValueFilterDlg .valuefilter + div,
+.e-pivotschemadesigner .e-labelValueFilterDlg .labelfilter + div,
+.e-pivotschemadesigner .e-labelValueFilterDlg .valuefilter + div {
+  
+}
+.e-pivotgrid .e-labelValueFilterDlg .e-dialogOKBtn,
+.e-pivotschemadesigner .e-labelValueFilterDlg .e-dialogOKBtn,
+.e-pivotgrid .e-labelValueFilterDlg .e-dialogCancelBtn,
+.e-pivotschemadesigner .e-labelValueFilterDlg .e-dialogCancelBtn {
+  
+}
+.e-pivotgrid .curInput {
+  width: 100%;
+  
+}
+.e-pivotgrid .e-memberEditorDiv.noChildNode .e-item div > .e-chkbox-wrap,
+.e-pivotschemadesigner .e-memberEditorDiv.noChildNode .e-item div > .e-chkbox-wrap {
+  
+}
+.e-pivotgrid.e-rtl .e-memberEditorDiv.noChildNode .e-item div > .e-chkbox-wrap,
+.e-pivotschemadesigner.e-rtl .e-memberEditorDiv.noChildNode .e-item div > .e-chkbox-wrap {
+  
+}
+.e-pivotschemadesigner .e-icon.e-media-backward_01:before,
+.e-pivotgrid .e-icon.e-media-backward_01:before {
+  
+}
+.e-pivotschemadesigner .e-icon.e-arrowhead-left:before,
+.e-pivotgrid .e-icon.e-arrowhead-left:before {
+  
+}
+.e-pivotschemadesigner .e-icon.e-arrowhead-right:before,
+.e-pivotgrid .e-icon.e-arrowhead-right:before {
+  
+}
+.e-pivotgrid .e-icon.e-media-forward_01:before,
+.e-pivotschemadesigner .e-icon.e-media-forward_01:before {
+  
+}
+.e-pivotschemadesigner .e-firstPage,
+.e-pivotgrid .e-firstPage {
+  
+}
+.e-pivotschemadesigner .e-lastPage,
+.e-pivotgrid .e-lastPage {
+  
+}
+.e-pivotgrid .e-dialog .e-memberPager + div .e-btn.e-dialogOKBtn,
+e-pivotgrid .e-dialog .e-memberPager + div .e-btn.e-dialogCancelBtn,
+.e-pivotschemadesigner .e-dialog .e-memberPager + div .e-btn.e-dialogOKBtn,
+.e-pivotschemadesigner .e-dialog .e-memberPager + div .e-btn.e-dialogCancelBtn,
+.e-pivotgrid .e-dialog .e-memberSearchPager + div .e-btn.e-dialogOKBtn,
+e-pivotgrid .e-dialog .e-memberSearchPager + div .e-btn.e-dialogCancelBtn,
+.e-pivotschemadesigner .e-dialog .e-memberSearchPager + div .e-btn.e-dialogOKBtn,
+.e-pivotschemadesigner .e-dialog .e-memberSearchPager + div .e-btn.e-dialogCancelBtn,
+.e-pivotgrid .e-dialog .e-memberDrillPager + div .e-btn.e-dialogOKBtn,
+e-pivotgrid .e-dialog .e-memberDrillPager + div .e-btn.e-dialogCancelBtn,
+.e-pivotschemadesigner .e-dialog .e-memberDrillPager + div .e-btn.e-dialogOKBtn,
+.e-pivotschemadesigner .e-dialog .e-memberDrillPager + div .e-btn.e-dialogCancelBtn {
+  
+}
+.e-pivotschemadesigner .e-dialog .e-memberPager + div .e-btn,
+.e-pivotgrid .e-dialog .e-memberPager + div .e-btn,
+.e-pivotschemadesigner .e-dialog .e-memberSearchPager + div .e-btn,
+.e-pivotgrid .e-dialog .e-memberSearchPager + div .e-btn,
+.e-pivotschemadesigner .e-dialog .e-memberDrillPager + div .e-btn,
+.e-pivotgrid .e-dialog .e-memberDrillPager + div .e-btn {
+  
+}
+.e-pivotschemadesigner .e-dialog .e-memberPager + div,
+.e-pivotgrid .e-dialog .e-memberPager + div,
+.e-pivotschemadesigner .e-dialog .e-memberSearchPager + div,
+.e-pivotgrid .e-dialog .e-memberSearchPager + div,
+.e-pivotschemadesigner .e-dialog .e-memberDrillPager + div,
+.e-pivotgrid .e-dialog .e-memberDrillPager + div {
+  
+}
+.e-pivotschemadesigner .e-firstPage.e-pageEnabled,
+.e-pivotschemadesigner .e-prevPage.e-pageEnabled,
+.e-pivotschemadesigner .e-nextPage.e-pageEnabled,
+.e-pivotschemadesigner .e-lastPage.e-pageEnabled,
+.e-pivotgrid .e-firstPage.e-pageEnabled,
+.e-pivotgrid .e-prevPage.e-pageEnabled,
+.e-pivotgrid .e-nextPage.e-pageEnabled,
+.e-pivotgrid .e-lastPage.e-pageEnabled {
+  
+}
+.e-pivotschemadesigner .e-dialog .e-memberPager + div .e-btn.e-dialogOKBtn,
+.e-pivotgrid .e-dialog .e-memberPager + div .e-btn.e-dialogOKBtn,
+.e-pivotschemadesigner .e-dialog .e-memberSearchPager + div .e-btn.e-dialogOKBtn,
+.e-pivotgrid .e-dialog .e-memberSearchPager + div .e-btn.e-dialogOKBtn,
+.e-pivotschemadesigner .e-dialog .e-memberDrillPager + div .e-btn.e-dialogOKBtn,
+.e-pivotgrid .e-dialog .e-memberDrillPager + div .e-btn.e-dialogOKBtn {
+  
+}
+.e-pivotschemadesigner.e-rtl .e-dialog .e-memberPager + div .e-btn.e-dialogOKBtn,
+.e-pivotgrid.e-rtl .e-dialog .e-memberPager + div .e-btn.e-dialogOKBtn,
+.e-pivotschemadesigner.e-rtl .e-dialog .e-memberSearchPager + div .e-btn.e-dialogOKBtn,
+.e-pivotgrid.e-rtl .e-dialog .e-memberSearchPager + div .e-btn.e-dialogOKBtn,
+.e-pivotschemadesigner.e-rtl .e-dialog .e-memberDrillPager + div .e-btn.e-dialogOKBtn,
+.e-pivotgrid.e-rtl .e-dialog .e-memberDrillPager + div .e-btn.e-dialogOKBtn {
+  
+}
+.e-pivotgrid .e-dialog .e-memberPager .e-memberCurrentPage:hover,
+.e-pivotschemadesigner .e-dialog .e-memberPager .e-memberCurrentPage:hover,
+.e-pivotgrid .e-dialog .e-memberSearchPager .e-memberCurrentPage:hover,
+.e-pivotschemadesigner .e-dialog .e-memberSearchPager .e-memberCurrentPage:hover,
+.e-pivotgrid .e-dialog .e-memberDrillPager .e-memberCurrentPage:hover,
+.e-pivotschemadesigner .e-dialog .e-memberDrillPager .e-memberCurrentPage:hover {
+  
+}
+.e-pivotschemadesigner .e-dialog .e-memberPager .e-memberCurrentPage:active,
+.e-pivotschemadesigner .e-dialog .e-memberPager .e-memberCurrentPage:focus,
+.e-pivotgrid .e-dialog .e-memberPager .e-memberCurrentPage:active,
+.e-pivotgrid .e-dialog .e-memberPager .e-memberCurrentPage:focus,
+.e-pivotschemadesigner .e-dialog .e-memberSearchPager .e-memberCurrentPage:active,
+.e-pivotschemadesigner .e-dialog .e-memberSearchPager .e-memberCurrentPage:focus,
+.e-pivotgrid .e-dialog .e-memberSearchPager .e-memberCurrentPage:active,
+.e-pivotgrid .e-dialog .e-memberSearchPager .e-memberCurrentPage:focus,
+.e-pivotschemadesigner .e-dialog .e-memberDrillPager .e-memberCurrentPage:active,
+.e-pivotschemadesigner .e-dialog .e-memberDrillPager .e-memberCurrentPage:focus,
+.e-pivotgrid .e-dialog .e-memberDrillPager .e-memberCurrentPage:active,
+.e-pivotgrid .e-dialog .e-memberDrillPager .e-memberCurrentPage:focus {
+  
+}
+.e-pivotgrid .e-dialog .e-memberPager .e-memberCurrentPage,
+.e-pivotschemadesigner .e-dialog .e-memberPager .e-memberCurrentPage,
+.e-pivotgrid .e-dialog .e-memberSearchPager .e-memberCurrentPage,
+.e-pivotschemadesigner .e-dialog .e-memberSearchPager .e-memberCurrentPage,
+.e-pivotgrid .e-dialog .e-memberDrillPager .e-memberCurrentPage,
+.e-pivotschemadesigner .e-dialog .e-memberDrillPager .e-memberCurrentPage {
+  
+}
+.e-pivotgrid table.pivotGridValueTable.rowFrozenTable tr td:first-child {
+  border-left: 0px;
+}
+.e-pivotgrid table.pivotGridFrozenTable.rowFrozenTable tr td:last-child,
+table.pivotGridValueTable.rowFrozenTable tr td:last-child {
+  border-right: 0px;
+}
+.e-pivotgrid .frozenBorderBtmClr {
+  border-bottom: solid 1px #c8c8c8;
+}
+.e-pivotgrid .e-dialog .e-memberPager,
+.e-pivotschemadesigner .e-dialog .e-memberPager,
+.e-pivotgrid .e-dialog .e-memberSearchPager,
+.e-pivotschemadesigner .e-dialog .e-memberSearchPager,
+.e-pivotgrid .e-dialog .e-memberDrillPager,
+.e-pivotschemadesigner .e-dialog .e-memberDrillPager {
+  
+}
+.e-pivotschemadesigner .e-dialog .e-memberPager + div .e-btn.e-dialogOKBtn,
+.e-pivotschemadesigner .e-dialog .e-memberPager + div .e-btn.e-dialogCancelBtn,
+.e-pivotschemadesigner.e-rtl .e-dialog .e-memberPager + div .e-btn.e-dialogOKBtn,
+.e-pivotschemadesigner.e-rtl .e-dialog .e-memberPager + div .e-btn.e-dialogCancelBtn,
+.e-pivotgrid .e-dialog .e-memberPager + div .e-btn.e-dialogOKBtn,
+.e-pivotgrid .e-dialog .e-memberPager + div .e-btn.e-dialogCancelBtn,
+.e-pivotgrid.e-rtl .e-dialog .e-memberPager + div .e-btn.e-dialogOKBtn,
+.e-pivotgrid.e-rtl .e-dialog .e-memberPager + div .e-btn.e-dialogCancelBtn,
+.e-pivotschemadesigner .e-dialog .e-memberSearchPager + div .e-btn.e-dialogOKBtn,
+.e-pivotschemadesigner .e-dialog .e-memberSearchPager + div .e-btn.e-dialogCancelBtn,
+.e-pivotschemadesigner.e-rtl .e-dialog .e-memberSearchPager + div .e-btn.e-dialogOKBtn,
+.e-pivotschemadesigner.e-rtl .e-dialog .e-memberSearchPager + div .e-btn.e-dialogCancelBtn,
+.e-pivotgrid .e-dialog .e-memberSearchPager + div .e-btn.e-dialogOKBtn,
+.e-pivotgrid .e-dialog .e-memberSearchPager + div .e-btn.e-dialogCancelBtn,
+.e-pivotgrid.e-rtl .e-dialog .e-memberSearchPager + div .e-btn.e-dialogOKBtn,
+.e-pivotgrid.e-rtl .e-dialog .e-memberSearchPager + div .e-btn.e-dialogCancelBtn,
+.e-pivotschemadesigner .e-dialog .e-memberDrillPager + div .e-btn.e-dialogOKBtn,
+.e-pivotschemadesigner .e-dialog .e-memberDrillPager + div .e-btn.e-dialogCancelBtn,
+.e-pivotschemadesigner.e-rtl .e-dialog .e-memberDrillPager + div .e-btn.e-dialogOKBtn,
+.e-pivotschemadesigner.e-rtl .e-dialog .e-memberDrillPager + div .e-btn.e-dialogCancelBtn,
+.e-pivotgrid .e-dialog .e-memberDrillPager + div .e-btn.e-dialogOKBtn,
+.e-pivotgrid .e-dialog .e-memberDrillPager + div .e-btn.e-dialogCancelBtn,
+.e-pivotgrid.e-rtl .e-dialog .e-memberDrillPager + div .e-btn.e-dialogOKBtn,
+.e-pivotgrid.e-rtl .e-dialog .e-memberDrillPager + div .e-btn.e-dialogCancelBtn {
+  
+}
+.e-pivotschemadesigner .e-firstPage.e-pageEnabled:after,
+.e-pivotschemadesigner .e-prevPage.e-pageEnabled:after,
+.e-pivotschemadesigner .e-nextPage.e-pageEnabled:after,
+.e-pivotschemadesigner .e-lastPage.e-pageEnabled:after,
+.e-pivotgrid .e-firstPage.e-pageEnabled:after,
+.e-pivotgrid .e-prevPage.e-pageEnabled:after,
+.e-pivotgrid .e-nextPage.e-pageEnabled:after,
+.e-pivotgrid .e-lastPage.e-pageEnabled:after {
+  
+}
+.e-pivotschemadesigner .e-firstPage,
+.e-pivotschemadesigner .e-prevPage,
+.e-pivotschemadesigner .e-nextPage,
+.e-pivotschemadesigner .e-lastPage,
+.e-memberCurrentPage,
+.memberPageCount,
+.e-pivotgrid .e-firstPage,
+.e-pivotgrid .e-prevPage,
+.e-pivotgrid .e-nextPage,
+.e-pivotgrid .e-lastPage,
+.e-memberCurrentSearchPage,
+.memberSearchPageCount,
+.e-memberCurrentDrillPage,
+.memberDrillPageCount {
+  
+}
+/*.dragSchemaButtonClone{
+  & when (@skin= "office-365") {
+  font:14px Segoe UI;
+  padding:0px 8px;
+  background:@theme-lighter;
+  color:@theme-light-font;
+  width:auto;
+ }
+}*/
+
+@media (min-width: 20px) and (max-width: 799px) {
+  .e-pivotgrid .e-table {
+    width: 100%;
+    /*table-layout:fixed;*/
+    overflow-wrap: break-word;
+  }
+  .e-pivotgrid .e-table td {
+    overflow-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+@media (min-width: 800px) and (max-width: 959px) {
+  .e-pivotgrid .e-table {
+    width: 100%;
+    /*table-layout:fixed;*/
+    overflow-wrap: break-word;
+  }
+  .e-pivotgrid .e-table td {
+    overflow-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+@media (min-width: 960px) and (max-width: 1120px) {
+  .e-pivotgrid .e-table {
+    width: 100%;
+    /*table-layout:fixed;*/
+    overflow-wrap: break-word;
+  }
+  .e-pivotgrid .e-table td {
+    overflow-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+@media (min-width: 1120px) {
+  .e-pivotgrid .e-table {
+    width: 100%;
+    /*table-layout:fixed;*/
+    overflow-wrap: break-word;
+  }
+  .e-pivotgrid .e-table td {
+    overflow-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}

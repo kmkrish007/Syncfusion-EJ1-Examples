@@ -1,0 +1,185 @@
+/* need verify with UX team*/
+.pager-hover-gradient {
+  background: #57452d;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #57452d, #57380f);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #57452d), color-stop(100%, #57380f));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #57452d, #57380f);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #57452d, #57380f);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #57452d, #57380f);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #57452d, #57380f);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#57452d', endColorstr='#57380f', GradientType=0);
+  /* IE6-9 */
+
+}
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*----------------------OLAP Definition------------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*----------------------material theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: #111111;
+  color: white;
+  border-color: #494949;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+/*Theme Color*/
+
+.e-gantt .e-toolbaricons {
+  
+}
+.e-gantt .e-toolbaricons {
+  color: #cccccc;
+}
+.e-search.e-tooltxt.e-hover {
+  color: #cccccc !important;
+}
+.e-gantt .e-tooltxt.e-hover > span {
+  color: #cccccc;
+}
+.e-gantt .e-gantt-Spliter {
+  border-top-color: #494949 !important;
+  border-bottom-color: #494949 !important;
+}
+.e-gantt .e-editValue .e-treegrid .e-headercell {
+  border-bottom-color: #494949 !important;
+  background-color: black !important;
+}
+.e-ganttdialog .e-ejinputtext,
+.e-gantt .e-ejinputtext {
+  
+  color: #dddddd;
+  outline: none;
+  border-style: solid;
+  border-color: #494949;
+  vertical-align: baseline;
+}
+.e-ganttdialog .e-ejinputtext,
+.e-gantt .e-ejinputtext {
+  border-width: 1px;
+  background-color: black;
+}
+.e-ganttdialog .e-ejinputtext:focus,
+.e-gantt .e-ejinputtext:focus {
+  
+}
+.e-ganttdialog .e-ejinputtext:focus,
+.e-gantt .e-ejinputtext:focus {
+  box-shadow: 0 0 5px #ababab;
+}
+.e-deletepre.e-icon,
+.e-addpre.e-icon {
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-gantt .e-splitter .e-hover.e-splitbar.e-split-divider {
+  
+}
+.e-gantt .e-splitter .e-hover.e-splitbar.e-split-divider {
+  border-color: #494949;
+}
+.e-gantt .e-splitter .e-splitbar.e-split-divider:hover {
+  border-color: #777777;
+}
+.e-gantt .e-gantttoolbar li.e-hover {
+  border-color: transparent;
+}
+.e-gantt .e-treegrid .e-gridheader {
+  color: #dddddd;
+  border-color: #494949;
+}
+.e-gantt .e-treegrid .e-gridheader {
+  background: #363636;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #363636, black);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #363636), color-stop(100%, black));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #363636, black);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #363636, black);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #363636, black);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #363636, black);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#363636', endColorstr='black', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-gantt .e-treegrid .e-headercelldiv {
+  color: #dddddd;
+}
+.e-gantt .e-treegrid .e-headercelldiv .e-descending,
+.e-gantt .e-treegrid .e-headercelldiv .e-ascending,
+.e-gantt .e-treegrid .e-headercell .e-columnmenu-icon {
+  color: #cccccc;
+}
+.e-gantt .e-treegrid .e-headercell {
+  border-top-color: #494949 !important;
+  
+}
+.e-gantt .e-treegrid .e-headercell {
+  border-right-color: #494949 !important;
+}
+.e-ganttdialog .e-tab .e-header.e-addborderbottom .e-active {
+  
+}
+.e-ganttdialog .e-tab .e-header.e-addborderbottom .e-active {
+  border-top: solid 1px #494949 !important;
+}
+.e-ganttdialog .e-titlebar {
+  
+}
+.e-ganttdialog .e-titlebar {
+  border-bottom: 1px solid #494949 !important;
+}
+
+.e-gantt .e-ganttpopup .e-popupcontent {
+  background-color: black;
+  border-color: #494949;
+}
+.e-gantt .e-ganttpopup span:hover,
+.e-gantt .e-ganttpopup .e-spanclicked {
+  border-color: #cccccc;
+}
+.e-gantt .e-ganttpopup .e-downtail:before,
+.e-gantt .e-ganttpopup .e-downtail {
+  border-top-color: #494949;
+}
+.e-gantt .e-ganttpopup .e-downtail:after {
+  border-top-color: black;
+}
+

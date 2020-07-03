@@ -1,0 +1,314 @@
+/* need verify with UX team*/
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*----------------------OLAP Definition------------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*----------------------material theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: white;
+  color: #111111;
+  border-color: #c8c8c8;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+/*------------------------------------- Mediaplayer -------------------------------------------*/
+
+/*#region mediaplayer*/
+
+/*region media container styles*/
+
+.e-js.e-media-player .e-media-content-div .e-waitpopup-pane {
+  background-color: transparent;
+}
+.e-js.e-media-player {
+  border-color: #c8c8c8;
+  background-color: white;
+}
+.e-js.e-media-player .e-media-control-container {
+  background: white;
+}
+.e-js.e-media-player .e-media-element {
+  background: white;
+}
+.e-js.e-media-player .e-slider {
+  background-color: #686969 !important;
+}
+/*region media container styles*/
+
+/* region toolbar styles*/
+
+.e-js.e-media-player .e-media-toolbar-icon:before,
+.e-js.e-media-player .e-media-playlist-icon:before,
+.e-js.e-media-player .e-media-playlist-toggle:before {
+  color: #686969;
+}
+.e-js.e-media-player .e-media-toolbar.adv .e-media-volume-text {
+  color: #686969;
+}
+.e-js.e-media-player .e-media-time-stamp.e-media-adv {
+  color: #333333;
+}
+.e-js.e-media-player .media-shuffled:before,
+.e-js.e-media-player .media-muted:before,
+.e-js.e-media-player .media-repeated:before,
+.e-js.e-media-player .e-media-playlist-visible:before {
+  color: #fbbe6d;
+}
+.e-js.e-media-player .e-media-timeslider-div.e-media-adv {
+  background: transparent;
+}
+.e-js.e-media-player .e-media-prev-li.basic .e-media-toolbar-icon:before,
+.e-js.e-media-player .e-media-next-li.basic .e-media-toolbar-icon:before {
+  color: #686969;
+}
+.e-js.e-media-player .e-media-toolbar.basic .e-media-toolbar-split-li {
+  color: #686969;
+}
+.e-js.e-media-player .e-media-toolbar.basic .e-media-split {
+  color: #333333;
+}
+.e-js.e-media-player .e-media-toolbar.basic .e-media-vol-slider-li {
+  background-color: white;
+}
+.e-media-time-stamp-end.e-media-basic,
+.e-media-time-stamp-run.e-media-basic {
+  color: #333333;
+}
+.e-js.e-media-player .e-media-time-stamp-end.e-media-mob,
+.e-js.e-media-player .e-media-time-stamp-run.e-media-mob {
+  color: #333333;
+}
+/* end region toolbar styles*/
+
+/*region settings styles*/
+
+.e-js.e-media-settings-popup > .e-lv.subpage {
+  background-color: white;
+  border-color: #c8c8c8 !important;
+}
+.e-js.e-media-settings-popup li {
+  background-color: white !important;
+}
+.e-js.e-media-settings-popup .e-header {
+  background-color: #f9f9f9 !important;
+  border-bottom-color: #c8c8c8 !important;
+}
+.e-js.e-media-settings-selector:before {
+  color: #fbbe6d;
+}
+.e-js.e-media-settings-popup .e-lv .e-list .e-chevron-right_01.e-fontimage:before,
+.e-js.e-media-settings-popup .e-lv > .e-header > .e-icon:before {
+  color: #fbbe6d !important;
+}
+.e-js.e-media-settings-popup .e-list-text,
+.e-js.e-media-settings-popup .e-btn-text {
+  color: #333333 !important;
+}
+/*end region settings styles*/
+
+/*region playlist styles*/
+
+.e-js.e-media-player .e-media-playlist-img-div {
+  color: white !important;
+}
+.e-js.e-media-player .e-media-playlist-img-div.desktop {
+  border-color: #c8c8c8;
+}
+.e-js.e-media-player .e-media-playlist-img-div.mobile {
+  border-color: #c8c8c8;
+}
+.e-js.e-media-player .e-media-playlist-play:before {
+  color: #333333;
+}
+.e-js.e-media-player .e-media-playlist-title {
+  color: #333333;
+}
+.e-js.e-media-player .e-media-playlist-container.desktop,
+.e-js.e-media-player .e-media-playlist-container.mobile {
+  background-color: white;
+  border-color: #c8c8c8;
+}
+.e-js.e-media-player .e-media-playlist-header {
+  border-bottom-color: #c8c8c8;
+}
+.e-js.e-media-player .e-media-playlist-header label {
+  color: #333333;
+}
+.e-js.e-media-player .e-media-playlist-toggle.desktop {
+  background-color: #333333;
+}
+.e-js.e-media-player .e-media-playlist-toggle.e-media-expand:before,
+.e-js.e-media-player .e-media-playlist-toggle.e-media-collapse:before {
+  color: #333333 !important;
+}
+.e-js.e-media-player .e-media-playlist-container .e-listbox li {
+  border-bottom-color: #c8c8c8;
+}
+.e-js.e-media-player .e-media-playlist-container .e-listbox-container {
+  background-color: white;
+}
+/*region playlist styles*/
+
+/*other styles*/
+
+.e-js.e-media-player .e-media-video-baner {
+  color: white;
+}
+.e-js.e-media-player .e-media-audio-title {
+  color: #282827;
+}
+.e-js.e-media-player .e-media-overlay {
+  color: white;
+}
+.e-js.e-media-player .e-media-time-tooltip {
+  border-color: #c8c8c8;
+  color: #333333;
+  background-color: white;
+}
+.e-js.e-media-player .e-media-hd-tag {
+  color: red;
+}
+.e-js.e-media-player .e-media-toolbar-split {
+  background: #c8c8c8;
+}
+.e-js.e-media-player .e-media-playlist-close:before {
+  color: #686969;
+}
+.e-js.e-media-player .e-media-play-animation {
+  background: rgba(0, 0, 0, 0.5);
+}
+.e-js.e-media-player .e-slider .e-handle {
+  border-color: #c8c8c8 !important;
+}
+/*#region hover*/
+
+.e-js.e-media-player .e-media-mouse .e-media-toolbar-icon:not(.disabled):hover::before {
+  color: #282827 !important;
+}
+.e-js.e-media-player .e-media-toolbar.adv .e-media-toolbar-volume-li:hover {
+  background: transparent !important;
+}
+.e-js.e-media-settings-popup li:hover {
+  background: #fde3c2 !important;
+}
+/*material theme*/
+
+.e-js.e-media-player .e-media-toolbar.basic .e-media-time-li .e-handle {
+  
+}
+.e-js.e-media-player .e-media-toolbar.basic .e-media-volume-slider .e-handle {
+  
+}
+.e-js.e-media-settings-popup .e-lv .e-list .e-chevron-right_01 {
+  
+}
+.e-js.e-media-settings-popup .e-header {
+  
+}
+.e-js.e-media-settings-popup .e-lv.subpage.e-childitem .e-btn-text {
+  
+}
+.e-js.e-media-settings-popup .e-lv.subpage.e-childitem .e-header .e-hicon,
+.e-js.e-media-settings-popup .e-lv.subpage.e-childitem .e-btn-text {
+  
+}
+.e-js.e-media-player .e-media-timeslider.e-media-adv.e-slider .e-handle {
+  
+}
+.e-js.e-media-player .e-media-toolbar.adv .e-media-volume-slider .e-handle {
+  
+}
+.e-js.e-media-player .e-media-shuffle:before {
+  
+}
+.e-js.e-media-player .e-media-toolbar.adv .e-media-volume-slider-li {
+  
+}
+.e-js.e-media-player .e-media-playlist-toggle.e-media-collapse:before {
+  
+}
+.e-js.e-media-player .e-media-playlist-toggle.mobile {
+  
+}
+.e-js.e-media-player .e-media-center-play:before {
+  
+}
+.e-js.e-media-player .e-media-hd-tag {
+  
+}
+.e-js.e-media-settings-popup .e-list-text {
+  
+}
+/*office-365 theme*/
+
+.e-js.e-media-player .e-media-toolbar.basic .e-media-volume-slider .e-handle {
+  
+}
+.e-js.e-media-settings-popup .e-lv .e-list .e-chevron-right_01 {
+  
+}
+.e-js.e-media-settings-popup .e-lv.subpage.e-childitem .e-btn-text {
+  
+}
+.e-js.e-media-player .e-media-settings-selector:before {
+  
+}
+.e-js.e-media-player .e-media-toolbar.adv .e-media-volume-slider .e-handle {
+  
+}
+.e-js.e-media-player .e-media-playlist-container .e-listbox li {
+  
+}
+.e-js.e-media-player .e-media-playlist-number {
+  
+}
+.e-js.e-media-settings-popup .e-header {
+  
+}
+.e-js.e-media-settings-popup .e-lv.subpage.e-childitem .e-header .e-hicon,
+.e-js.e-media-settings-popup .e-lv.subpage.e-childitem .e-btn-text {
+  
+}
+.e-js.e-media-player .e-media-shuffle:before {
+  
+}
+.e-js.e-media-player .e-media-toolbar.adv .e-media-volume-slider-li {
+  
+}
+.e-js.e-media-player .e-media-playlist-toggle.e-media-collapse:before {
+  
+}
+.e-js.e-media-player .e-media-playlist-toggle.mobile {
+  
+}
+.e-js.e-media-player .e-media-center-play:before {
+  
+}
+/*#end region mediaplayer*/
+

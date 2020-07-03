@@ -1,0 +1,128 @@
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*----------------------OLAP Definition------------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*----------------------material theme-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: white;
+  color: #111111;
+  border-color: #c8c8c8;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+/*------------------------------------- Tooltip -------------------------------------------*/
+
+.e-widget.e-tooltip-wrap {
+  
+}
+.e-widget.e-tooltip-wrap {
+  /*other*/
+
+  
+  border-radius: none;
+}
+.e-widget.e-tooltip-wrap {
+  border: 1px solid #c8c8c8;
+  background-color: white;
+}
+.e-widget.e-tooltip-wrap .e-arrowTipOuter {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  
+}
+.e-widget.e-tooltip-wrap .e-arrowTipOuter {
+  /*other*/
+
+  
+}
+.e-widget.e-tooltip-wrap .e-arrowTipOuter {
+  border-top: 10px solid #c8c8c8;
+}
+.e-widget.e-tooltip-wrap .e-arrowTipInner {
+  width: 0;
+  height: 0;
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+  
+  left: 1px;
+  top: 0px;
+  position: absolute;
+}
+.e-widget.e-tooltip-wrap .e-arrowTipInner {
+  border-top: 9px solid white;
+}
+.e-widget .e-def {
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  line-height: 18px;
+  
+}
+.e-widget .e-def {
+  /*other*/
+
+  
+}
+.e-widget .e-def {
+  /*office-365*/
+  font-size: 12px;
+  color: #333333;
+}
+.e-widget.e-tooltip-wrap .e-tipContainer .e-tooltipHeader {
+  
+}
+.e-widget.e-tooltip-wrap .e-tipContainer .e-tooltipHeader {
+  background: none repeat scroll 0 0 #fcfcfc;
+  border-bottom: 3px solid #aecf49;
+}
+.e-widget.e-tooltip-wrap .e-tipContainer .e-tooltipHeader .e-close:before {
+  
+}
+.e-widget.e-tooltip-wrap .e-tipContainer .e-tooltipHeader .e-close:before {
+  color: #282827;
+}
+.e-widget.e-tooltip-wrap .e-tipContainer .e-tooltipHeader .e-close:hover {
+  
+}
+.e-widget.e-tooltip-wrap .e-tipContainer .e-tooltipHeader .e-close:hover {
+  color: #282827;
+  border-color: #c8c8c8;
+}
+.e-widget.e-tooltip-wrap .e-tipContainer .e-tooltipHeader .e-close:hover {
+  background: #cee292;
+}
+.e-widget.e-tooltip-wrap .e-cross-circle:hover {
+  color: #282827;
+  border-color: #c8c8c8;
+}
+.e-widget.e-tooltip-wrap .e-cross-circle:hover {
+  background: #cee292;
+}

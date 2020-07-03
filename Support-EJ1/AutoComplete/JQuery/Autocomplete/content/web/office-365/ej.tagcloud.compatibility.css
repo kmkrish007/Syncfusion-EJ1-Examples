@@ -1,0 +1,102 @@
+/*-----------------------HeatMap Definition-----------------*/
+/*@neutral-light;*/
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*-----------------------OLAP Definition-----------------*/
+/*-----------------------OLAP Definition End-----------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*----------------------material theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+.office-file-explorer-toolbar-bg-color {
+  background: white;
+}
+.office-tab-header-bg-color {
+  background: white;
+}
+/*------------------ material theme ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: white;
+  color: #111111;
+  border-color: #c8c8c8;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+/*------------------------------------- tagcloud -------------------------------------------*/
+
+.e-js.e-tagcloud {
+  background-color: white;
+}
+.e-tagcloud.e-js .header {
+  border-color: #c8c8c8;
+}
+.e-js.e-tagcloud .e-title {
+  
+}
+.e-js.e-tagcloud .e-title {
+  /*other*/
+
+  
+  font-weight: normal;
+}
+.e-js.e-tagcloud .e-title {
+  border-bottom: 0px solid #eaeaea;
+  border-color: #eaeaea;
+  font-size: 14px;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  color: #333333;
+}
+.e-js.e-tagcloud .e-title {
+  background: white;
+}
+.e-js.e-tagcloud .e-load {
+  background-image: url(images/ajax-loader.gif);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.e-js.e-tagcloud .e-tagitems .e-txt {
+  
+}
+.e-js.e-tagcloud .e-tagitems .e-txt {
+  /*other*/
+  color: #212121;
+}
+.e-js.e-tagcloud .e-tagitems .e-txt.hover {
+  
+}
+.e-js.e-tagcloud .e-tagitems .e-txt.hover {
+  /*other*/
+
+  color: #0078d7;
+}
+.e-js.e-tagcloud .e-cloud,
+.e-tagcloud .e-list {
+  
+}
+.e-js.e-tagcloud .e-cloud,
+.e-tagcloud .e-list {
+  border-color: #eaeaea;
+}

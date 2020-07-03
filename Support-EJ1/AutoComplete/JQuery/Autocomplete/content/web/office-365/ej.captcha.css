@@ -1,0 +1,172 @@
+/*------------------------------------- Captcha -------------------------------------------*/
+
+/*-----------------------HeatMap Definition-----------------*/
+/*@neutral-light;*/
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*-----------------------OLAP Definition-----------------*/
+/*-----------------------OLAP Definition End-----------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*----------------------material theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+.office-file-explorer-toolbar-bg-color {
+  background: white;
+}
+.office-tab-header-bg-color {
+  background: white;
+}
+/*------------------ material theme ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: white;
+  color: #111111;
+  border-color: #c8c8c8;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-captcha .refresh {
+  
+}
+.e-captcha .refresh {
+  /*other*/
+
+  
+}
+.e-captcha .refresh {
+  /*office-365*/
+  background: transparent;
+  border: 0px;
+}
+.e-captcha .audio {
+  
+}
+.e-captcha .audio {
+  /*other*/
+
+  
+}
+.e-captcha .audio {
+  /*office-365*/
+  background: transparent;
+}
+.e-captcha .imagecontainer {
+  border: 1px solid #9a9a9a;
+}
+.e-captcha .validTextBox {
+  
+}
+.e-captcha .validTextBox {
+  /*other*/
+
+  
+}
+.e-captcha .validTextBox {
+  /*office-365*/
+  border: 1px solid #eaeaea;
+}
+.e-captcha .e-validTextBox {
+  
+}
+.e-captcha .e-validTextBox {
+  /*other*/
+
+  
+}
+.e-captcha .e-validTextBox {
+  /*office-365*/
+  border: 1px solid #eaeaea;
+}
+.e-captcha .e-refresh {
+  
+}
+.e-captcha .e-refresh {
+  /*other*/
+
+  
+}
+.e-captcha .e-refresh {
+  /*office-365*/
+  background: transparent;
+  border: 0px;
+}
+.e-captcha .e-audio {
+  
+}
+.e-captcha .e-audio {
+  /*other*/
+
+  
+}
+.e-captcha .e-audio {
+  /*office-365*/
+  background: transparent;
+  border: 0px;
+}
+.e-captcha .e-imageContainer {
+  border: 1px solid #9a9a9a;
+}
+.e-captcha div:nth-child(2) {
+  
+}
+.e-captcha div:nth-child(2) {
+  
+}
+.e-captcha div:nth-child(2) {
+  /*office-365*/
+  width: 0px !important;
+}
+.e-captcha .validTextBox:focus {
+  
+}
+.e-captcha .refresh.e-btn.e-select:active,
+.e-captcha .e-refresh.e-btn.e-select:active {
+  
+}
+.e-captcha .audio.e-btn.e-select:active,
+.e-captcha .e-audio.e-btn.e-select:active {
+  
+}
+.e-captcha .refresh.e-btn.e-select:focus,
+.e-captcha .audio.e-btn.e-select:focus,
+.e-captcha .refresh.e-btn.e-select:active,
+.e-captcha .audio.e-btn.e-select:active,
+.e-captcha .e-refresh.e-btn.e-select:focus,
+.e-captcha .e-audio.e-btn.e-select:focus,
+.e-captcha .e-refresh.e-btn.e-select:active,
+.e-captcha .e-audio.e-btn.e-select:active {
+  
+}
+.e-captcha .imagecontainer img,
+.e-captcha .e-imageContainer img {
+  height: 80px;
+  width: 150px;
+}
+.e-captcha .refresh:focus,
+.e-captcha .audio:focus,
+.e-captcha .e-refresh:focus,
+.e-captcha .e-audio:focus {
+  box-shadow: none;
+}

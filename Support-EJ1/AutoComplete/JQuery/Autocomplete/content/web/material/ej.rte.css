@@ -1,0 +1,482 @@
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*-----------------------OLAP Definition-----------------*/
+/*-----------------------OLAP Definition End-----------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*------------------ DatePicker ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: white;
+  color: #111111;
+  border-color: #e0e0e0;
+  font-family: 'Roboto', Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+/*Theme Color*/
+
+/*---------------- RTE Theme CSS----------------------*/
+
+.e-rte {
+  font-family: 'Roboto', Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-rte-wrapper {
+  background: white;
+  color: #212121;
+  font-size: 14px;
+  
+}
+.e-rte-wrapper {
+  /*material*/
+  border: 1px solid rgba(0, 0, 0, 0.12);
+}
+.e-inputtext {
+  
+  outline: none;
+  background-color: white;
+  vertical-align: baseline;
+}
+.e-inputtext {
+  /*material*/
+  border-width: 0 0 1px 0;
+  border-color: #e0e0e0;
+  color: #9e9e9e;
+}
+.e-rte-field .e-img-border-field .e-focus,
+.e-rte-field .e-chkbox-wrap.e-focus div > span,
+.e-rte-field .e-inputtext:focus,
+.e-rte-button .e-btn.e-select:focus,
+.e-rte-tablefields .e-chkbox-wrap.e-focus div > span,
+.e-rte-tablefields .e-inputtext:focus,
+.e-img-field-group .e-chkbox-wrap.e-focus div > span,
+.e-img-border-field .e-inputtext:focus,
+.e-rte-stylefield .e-inputtext:focus {
+  
+}
+.e-rte-field .e-img-border-field .e-focus,
+.e-rte-field .e-chkbox-wrap.e-focus div > span,
+.e-rte-field .e-inputtext:focus,
+.e-rte-button .e-btn.e-select:focus,
+.e-rte-tablefields .e-chkbox-wrap.e-focus div > span,
+.e-rte-tablefields .e-inputtext:focus,
+.e-img-field-group .e-chkbox-wrap.e-focus div > span,
+.e-img-border-field .e-inputtext:focus,
+.e-rte-stylefield .e-inputtext:focus {
+  /*material*/
+  box-shadow: none;
+}
+.e-rte-field .e-inputtext:focus,
+.e-rte-tablefields .e-inputtext:focus {
+  /*material*/
+  border-bottom: 2px solid #ff4081;
+}
+.e-rte-imageTab .e-item:focus {
+  box-shadow: 1px 0 0 0 #3f51b5;
+}
+/*-----------------Tooltip class ----------------------*/
+
+.e-rteTooltip {
+  min-width: auto;
+}
+.e-rteTooltip .e-tipContainer .e-tipcontent {
+  padding: 2px 4px;
+}
+/*----------------------- Toolbar Class-------------------------- */
+
+.e-rte .e-toolbar.e-rtl > .e-horizontal.e-separator {
+  
+}
+.e-rte .e-toolbar.e-rtl > .e-horizontal.e-separator {
+  /*material*/
+  border-right: 1px solid rgba(0, 0, 0, 0.12);
+  margin-right: 4px;
+}
+/*.e-rte .e-toolbarspan ul:last-child*/
+
+.e-rte .e-horizontal.e-separator {
+  
+}
+.e-rte .e-horizontal.e-separator {
+  /*material*/
+  border-right: 1px solid rgba(0, 0, 0, 0.12);
+}
+.e-rte-unorderlistname .e-liseparator,
+.e-rte-orderlistname .e-liseparator {
+  border-bottom: 1px dotted #e0e0e0;
+}
+.e-rte .customtable-group:hover {
+  color: #212121;
+}
+.e-rte .customtable-group:hover {
+  background: #e0e0e0;
+}
+.e-rte .e-toolbarspan {
+  
+}
+.e-rte .e-toolbarspan {
+  /*other*/
+  border: none;
+  border-bottom: 0 solid #3f51b5;
+}
+.e-rte .e-toolbar .e-ul.e-horizontal.e-separator:first-child,
+.e-rte .e-toolbar > .e-horizontal.e-ul:first-child {
+  /*other*/
+  padding-left: 0px;
+}
+.e-dialog .e-fieldseparate,
+.e-rte-toolbar .e-responsive-toolbar.e-toolbarspan {
+  border-color: #e0e0e0;
+}
+.e-rte .e-rte-footer {
+  border-top: 1px solid #e0e0e0;
+}
+.e-rte .e-rte-footer {
+  background: whitesmoke;
+}
+.e-rte-colorpalette.e-menu.e-context > li:hover {
+  background: none;
+}
+.e-rte-colorpalette.e-menu.e-context .e-mfocused,
+.e-rte-colorpalette.e-menu.e-context .e-mhover {
+  background: none;
+}
+.e-rte-table-picker.e-dialog {
+  background: whitesmoke;
+}
+.e-rte-tablecell {
+  border-color: #e0e0e0;
+}
+.e-rte-tablecell.e-default {
+  background: white;
+}
+.e-rte-tablecell.e-active {
+  border-color: #e0e0e0;
+}
+.e-rte-tablecell.e-active {
+  background: #e0e0e0;
+}
+.e-rte .e-toolbar .e-rte-format .e-hover,
+.e-rte .e-toolbar .e-rte-fontgroup .e-hover,
+.e-rte .e-toolbar .e-rte-lists .e-hover,
+.e-rte .e-toolbar .e-res-pos:hover {
+  
+  border-color: transparent;
+  background-image: none;
+  background-clip: padding-box;
+}
+.e-rte .e-toolbar .e-rte-format .e-hover,
+.e-rte .e-toolbar .e-rte-fontgroup .e-hover,
+.e-rte .e-toolbar .e-rte-lists .e-hover,
+.e-rte .e-toolbar .e-res-pos:hover {
+  /*material*/
+  background-color: #fafafa;
+}
+.e-rte .e-toolbar .e-rte-lists .e-active {
+  background: none;
+  border-color: transparent;
+}
+.e-rte-orderlistname.e-menu.e-context .e-list:hover,
+.e-rte-unorderlistname.e-menu.e-context .e-list:hover,
+.e-rte-orderlistname.e-menu.e-context .e-list.e-mhover .e-rte-toolbar-icon,
+.e-rte-unorderlistname.e-menu.e-context .e-list.e-mhover .e-rte-toolbar-icon {
+  
+}
+.e-rte-orderlistname.e-menu.e-context .e-list:hover,
+.e-rte-unorderlistname.e-menu.e-context .e-list:hover,
+.e-rte-orderlistname.e-menu.e-context .e-list.e-mhover .e-rte-toolbar-icon,
+.e-rte-unorderlistname.e-menu.e-context .e-list.e-mhover .e-rte-toolbar-icon {
+  /*material*/
+  background: white;
+  height: 36px;
+}
+.e-rte-orderlistname.e-menu.e-context .e-list,
+.e-rte-unorderlistname.e-menu.e-context .e-list {
+  
+}
+.e-rte-unorderlistname.e-menu li.e-list:nth-child(3),
+.e-rte-unorderlistname.e-menu li.e-list:nth-child(4),
+.e-rte-orderlistname.e-menu li.e-list:nth-child(4),
+.e-rte-orderlistname.e-menu li.e-list:nth-child(5),
+.e-rte-orderlistname.e-menu li.e-list:nth-child(6) {
+  
+}
+.e-rte-unorderlistname.e-menu li.e-list:nth-child(2),
+.e-rte-unorderlistname.e-menu li.e-list:nth-child(4),
+.e-rte-orderlistname.e-menu li.e-list:nth-child(3),
+.e-rte-orderlistname.e-menu li.e-list:nth-child(6) {
+  
+}
+.e-rte-toolbar-icon.e-rte-unlistitems.customUnOrder.e-list.e-mhover,
+.e-rte-toolbar-icon.e-rte-listitems.customOrder.e-list.e-mhover,
+.e-rte-toolbar-icon.e-rte-unlistitems.customUnOrder.e-list:hover,
+.e-rte-toolbar-icon.e-rte-listitems.customOrder.e-list:hover {
+  /*material*/
+  height: 25px;
+}
+.e-rte .e-rte-resize {
+  height: 5px;
+  cursor: se-resize;
+}
+.e-rte .e-rte-htmltaginfo,
+.e-rte .e-rte-wordcount,
+.e-rte .e-rte-charcount {
+  font-family: 'Roboto', Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  font-size: 14px;
+  color: #212121;
+  cursor: default;
+}
+.e-rte .e-rte-footericon,
+.e-rte .e-rte-wordcount,
+.e-rte .e-rte-charcount {
+  border-right: 1px solid #e0e0e0;
+}
+.e-rte .e-rte-footer.e-rtl .e-rte-icons.clearAll.e-rte-footericon {
+  border-left: 1px solid #e0e0e0;
+}
+.e-rte-colorpalette {
+  
+}
+.e-rte-colorpalette {
+  /*material*/
+  background-color: white !important;
+  padding: 5px !important;
+  width: auto !important;
+}
+.e-error {
+  color: #cd0a0a;
+}
+.e-rte .e-dialog .e-dialog-tab {
+  border: 1px solid #e0e0e0;
+}
+.e-rte .e-dialog .e-dialog-tab.e-tab .e-header li,
+.e-rte-context-menu.e-context .e-rte-separator {
+  border-color: #e0e0e0;
+}
+.e-rte-context-menu.e-menu .e-list.e-mhover .e-rte-toolbar-icon {
+  color: #424242;
+}
+.e-rte-toolbar .e-toolbar .e-tooltxt.e-active {
+  color: white;
+}
+.e-rte-toolbar .e-toolbar .e-ul {
+  
+}
+.e-rte-toolbar .e-toolbar .e-ul {
+  /*material*/
+  border-color: rgba(0, 0, 0, 0.12);
+}
+.e-rte .e-tooltxt .e-btn.e-select,
+.e-rte .e-tooltxt .e-btn.e-ntouch.e-disable.e-select:hover,
+.e-rte .e-tooltxt .e-btn.e-disable.e-select:hover {
+  
+}
+.e-rte .e-tooltxt .e-btn.e-select,
+.e-rte .e-tooltxt .e-btn.e-ntouch.e-disable.e-select:hover,
+.e-rte .e-tooltxt .e-btn.e-disable.e-select:hover {
+  /*material*/
+  background: #fafafa;
+}
+.e-rte .e-tooltxt .e-split-btn.e-rht-btn,
+.e-rte .e-tooltxt .e-split-btn.e-disable.e-select:hover {
+  
+}
+.e-rte .e-tooltxt.e-active .e-split-btn.e-rht-btn:focus,
+.e-rte .e-tooltxt.e-active .e-split-btn.e-disable.e-select:focus {
+  
+}
+.e-rte .e-tooltxt.e-active .e-btn.e-select:focus,
+.e-rte .e-tooltxt.e-active .e-btn.e-ntouch.e-disable.e-select:focus {
+  
+}
+.e-rte .e-tooltxt.e-active .e-btn.e-select,
+.e-rte .e-tooltxt.e-active .e-btn.e-ntouch.e-disable.e-select {
+  
+}
+.e-rte .e-tooltxt.e-active .e-btn.e-select span.e-icon,
+.e-rte .e-tooltxt.e-active .e-btn.e-ntouch.e-disable.e-select span.e-icon {
+  
+}
+.e-rte .e-tooltxt .e-btn.e-select:hover {
+  
+}
+.e-rte .e-tooltxt .e-btn.e-ntouch.e-select:hover {
+  background: #e0e0e0;
+}
+.e-rte .e-rteItem-orderedList .e-split,
+.e-rte .e-rteItem-unorderedList .e-split {
+  box-shadow: none;
+  border-radius: 0px;
+  height: 36px !important;
+}
+.e-responsive-toolbar .e-rte-lists.e-ul .e-rteItem-unorderedList.e-tooltxt .e-split,
+.e-responsive-toolbar .e-rte-lists.e-ul .e-rteItem-orderedList.e-tooltxt .e-split {
+  height: 24px !important;
+  width: 36px !important;
+}
+.e-rte .e-toolbar.e-js ul > li.e-tooltxt .e-split {
+  box-shadow: none;
+  border-radius: 0px;
+  height: 36px !important;
+}
+.e-rte .e-toolbar.e-js ul > li.e-tooltxt .e-ddl .e-in-wrap {
+  
+}
+.e-rte .e-toolbar.e-js ul > li.e-tooltxt .e-ddl .e-in-wrap {
+  /*material*/
+  border-width: 0 0 0 0;
+}
+.e-rte .e-horizontal.e-separator > li:last-child {
+  /*material*/
+  margin-right: 4px;
+}
+.e-rte .e-rte-toolbar .e-icon.e-toolbar-res-arrow,
+.e-rte .e-rte-toolbar.e-rtl .e-icon.e-toolbar-res-arrow {
+  /*material*/
+  padding-top: 0px !important;
+}
+.e-rte .e-toolbar .e-icon.e-toolbar-res-arrow {
+  height: 26px;
+  margin-top: 5px;
+}
+.e-rte .e-toolbar.e-rtl .e-rteItem-unorderedList {
+  /*material*/
+  margin-right: 0px;
+}
+.e-rte .e-toolbar.e-rtl .e-ul.e-horizontal.e-separator .e-tooltxt:first-child {
+  /*material*/
+  margin-right: 4px;
+}
+.e-rte .e-toolbar.e-rtl .e-ul.e-horizontal.e-separator .e-tooltxt:last-child {
+  /*material*/
+  margin-left: 0;
+}
+.e-rte .e-toolbar.e-rtl > .e-horizontal.e-separator {
+  /*material*/
+  margin-right: 4px;
+  border-left: 0px;
+}
+.e-rte .e-background-color,
+.e-rteItem-backgroundColor .e-background-color,
+.e-rte .e-font,
+.e-rteItem-fontColor .e-font {
+  /*material*/
+  width: 24px;
+  height: 24px;
+}
+.e-rte .e-toolbar > ul > li {
+  /*material*/
+  padding: 10px;
+}
+.e-rte .e-toolbar .e-ul .e-tooltxt .e-ddl .e-select {
+  /*material*/
+  background: #fafafa;
+}
+.e-rte .e-toolbar .e-ul .e-tooltxt .e-ddl .e-input {
+  /*material*/
+  background: #fafafa;
+}
+.e-rte .e-toolbar .e-rte-format.e-ul .e-tooltxt .e-ddl .e-input {
+  
+}
+.e-rte .e-toolbar.e-rtl .e-rte-format.e-ul .e-tooltxt .e-ddl .e-input {
+  
+}
+.e-rte .e-toolbar .e-ul .e-tooltxt .e-ddl.e-widget.e-popactive .e-select {
+  /*material*/
+  width: 24px;
+}
+.e-rte .e-split.e-widget .e-in-wrap.e-splitarrowright .e-split-btn.e-left-btn {
+  /*material*/
+  border: 0px;
+}
+.e-rte-button .e-rte-btn.e-button.e-select,
+.e-rte.e-findandreplace.e-dialog .e-widget-content .e-btn.e-select {
+  color: #ff4081;
+  background: white;
+  box-shadow: none;
+  border-radius: 0px;
+}
+.e-rte-button .e-rte-btn.e-button.e-btn.e-select:hover,
+.e-rte.e-findandreplace.e-dialog .e-widget-content .e-btn.e-select:hover {
+  background: rgba(0, 0, 0, 0.12);
+  box-shadow: none;
+  border-radius: 0px;
+}
+.e-rte-button .e-rte-btn.e-button.e-btn.e-select:active,
+.e-rte.e-findandreplace.e-dialog .e-widget-content .e-btn.e-select:active {
+  background: rgba(255, 64, 129, 0.12);
+}
+.e-rte .e-toolbar.e-rtl {
+  padding-right: 24px;
+}
+.e-rte-format.e-ul.e-horizontal.e-separator.e-comnrtl {
+  margin-right: 0px;
+}
+.e-responsive-toolbar > .e-horizontal.e-ul:first-child {
+  padding-left: 0px;
+}
+.e-rte-orderlistname.e-menu.e-context .e-list.e-mhover,
+.e-rte-unorderlistname.e-menu.e-context .e-list.e-mhover,
+.e-rte-orderlistname.e-menu.e-context .e-mhover > .e-menulink,
+.e-rte-unorderlistname.e-menu.e-context .e-mhover > .e-menulink {
+  background: white;
+}
+.e-rte .e-toolbar.e-js ul > li.e-tooltxt .e-ddl {
+  
+}
+.e-rte .e-toolbar.e-js ul > li.e-tooltxt .e-split {
+  
+}
+.e-rte-unorderlistname.e-menu {
+  
+}
+.e-rte-orderlistname.e-menu {
+  
+}
+.e-rte-unorderlistname.e-menu li.e-list,
+.e-rte-orderlistname.e-menu li.e-list {
+  
+}
+.e-rte-toolbar-icon.e-rte-unlistitems.customUnOrder.e-list {
+  
+}
+.e-rte-toolbar-icon.e-rte-listitems.customOrder.e-list {
+  
+}
+.e-rtlrte label {
+  height: 12px;
+  line-height: 10px;
+}
+.e-rte-orderlistname.e-menu.e-context.e-split,
+.e-rte-unorderlistname.e-menu.e-context.e-split,
+.e-rte-colorpalette.e-menu.e-context.e-split,
+.e-rte-orderlistname.e-menu.e-widget.e-split li.e-list,
+.e-rte-unorderlistname.e-menu.e-widget.e-split li.e-list {
+  
+}
+/*---------------- RTE Theme End------------------*/
+

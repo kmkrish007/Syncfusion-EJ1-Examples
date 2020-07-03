@@ -1,0 +1,531 @@
+/*------------------------Map-----------------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*----------------------OLAP Definition------------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*----------------------material theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: white;
+  color: #111111;
+  border-color: #c8c8c8;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-js.e-treegrid .e-extendcolumn {
+  background-color: white;
+}
+.e-js.e-treegrid .e-headercelldiv {
+  color: #282827;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-js .e-filterMenuDiv {
+  
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  min-height: 0px !important;
+}
+.e-js .e-filterMenuDiv {
+  border-color: #c8c8c8 !important;
+}
+.e-js.e-treegrid .e-treegridpopup .e-popupcontent {
+  background-color: white;
+  border-color: #c8c8c8;
+}
+.e-js.e-treegrid .e-treegridpopup span:hover,
+.e-js.e-treegrid .e-treegridpopup .e-spanclicked {
+  border-color: #686969;
+}
+.e-js.e-treegrid .e-treegridpopup .e-downtail:before,
+.e-js.e-treegrid .e-treegridpopup .e-downtail {
+  border-top-color: #c8c8c8;
+}
+.e-js.e-treegrid .e-treegridpopup .e-downtail:after {
+  border-top-color: white;
+}
+.e-js.e-treegrid .e-headercelldiv .e-descending,
+.e-js.e-treegrid .e-headercelldiv .e-ascending,
+.e-js.e-treegrid .e-headercell .e-columnmenu-icon {
+  
+}
+.e-js.e-treegrid .e-headercelldiv .e-descending,
+.e-js.e-treegrid .e-headercelldiv .e-ascending,
+.e-js.e-treegrid .e-headercell .e-columnmenu-icon {
+  color: #232323;
+}
+.e-js.e-treegrid-core {
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-js.e-treegrid {
+  border-color: #c8c8c8;
+  color: #333333;
+}
+.e-js.e-treegrid .e-gridcontent {
+  background-color: white;
+  border-color: #c8c8c8;
+}
+.e-js.e-treegrid .e-borderbox {
+  border-bottom-color: white;
+}
+.e-js.e-treegrid .e-editcell,
+.e-js.e-treegrid .e-detailsrowcell,
+.e-js.e-treegrid .e-rowcell,
+.e-js.e-treegrid .e-extendcolumn {
+  
+}
+.e-js.e-treegrid .e-editcell,
+.e-js.e-treegrid .e-detailsrowcell,
+.e-js.e-treegrid .e-rowcell,
+.e-js.e-treegrid .e-extendcolumn {
+  border-color: #c8c8c8;
+}
+.e-js.e-treegrid .e-tableLastCell {
+  border-right-color: #c8c8c8 !important;
+}
+.e-js.e-treegrid .e-detailsiconcell:hover,
+.e-js.e-treegrid .e-detailsinfoiconhide {
+  background-color: #e3e3e3;
+}
+.e-js.e-treegrid div.e-error .e-toparrow {
+  
+}
+.e-js.e-treegrid div.e-error .e-toparrow {
+  border-bottom-color: #fffe92;
+}
+.e-js.e-treegrid div.e-error .e-bottomarrow {
+  
+}
+.e-js.e-treegrid div.e-error .e-bottomarrow {
+  border-top-color: #fffe92;
+}
+.e-js .e-detailscellwrapperfly {
+  border-color: #c8c8c8;
+  
+}
+.e-js .e-detailscellwrapperfly {
+  box-shadow: 0px 0px 11px 3px #c8c8c8;
+  -moz-box-shadow: 0px 0px 11px 3px #c8c8c8;
+  -webkit-box-shadow: 0px 0px 11px 3px #c8c8c8;
+}
+.e-js .e-dragrowcell {
+  border-color: #c8c8c8 !important;
+}
+.e-js.e-treegrid .e-alt-row {
+  
+}
+.e-js.e-treegrid .e-alt-row {
+  background: #fafafa;
+}
+.e-js.e-treegrid .e-selectionbackground {
+  
+}
+.e-js.e-treegrid .e-selectionbackground {
+  color: white;
+  -ms-filter: 'progid:DXImageTransform.Microsoft.gradient(startColorstr="#179bd7", endColorstr="#179bd7", GradientType=0), progid:DXImageTransform.Microsoft.Alpha(Opacity=20)';
+}
+.e-js.e-treegrid .e-selectionbackground {
+  background: #74c3e7;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #74c3e7, #179bd7);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #74c3e7), color-stop(100%, #179bd7));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #74c3e7, #179bd7);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #74c3e7, #179bd7);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #74c3e7, #179bd7);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #74c3e7, #179bd7);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#74c3e7', endColorstr='#179bd7', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-js .e-treegridPane .e-treegrid .e-selectionbackground {
+  
+}
+.e-js .e-treegridPane .e-treegrid .e-selectionbackground {
+  background: -moz-linear-gradient(top, rgba(116, 195, 231, 0.2), rgba(23, 155, 215, 0.2));
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(116, 195, 231, 0.2)), color-stop(100%, rgba(23, 155, 215, 0.2)));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(116, 195, 231, 0.2), rgba(23, 155, 215, 0.2));
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(116, 195, 231, 0.2), rgba(23, 155, 215, 0.2));
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(116, 195, 231, 0.2), rgba(23, 155, 215, 0.2));
+  /* IE10+ */
+  background: linear-gradient(to bottom, rgba(116, 195, 231, 0.2), rgba(23, 155, 215, 0.2));
+  /* W3C */
+
+  color: #333333;
+  filter: 'progid:DXImageTransform.Microsoft.gradient(startColorstr="#179bd7", endColorstr="#179bd7", GradientType=0), progid:DXImageTransform.Microsoft.Alpha(Opacity=20)';
+}
+.e-js.e-treegrid .e-selectingcell {
+  
+}
+.e-js.e-treegrid .e-selectingcell {
+  color: white;
+}
+.e-js.e-treegrid .e-selectingcell {
+  background: #74c3e7;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #74c3e7, #179bd7);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #74c3e7), color-stop(100%, #179bd7));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #74c3e7, #179bd7);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #74c3e7, #179bd7);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #74c3e7, #179bd7);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #74c3e7, #179bd7);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#74c3e7', endColorstr='#179bd7', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-js .e-treegridPane .e-treegrid .e-selectingcell {
+  
+}
+.e-js .e-treegridPane .e-treegrid .e-selectingcell {
+  background: -moz-linear-gradient(top, rgba(116, 195, 231, 0.2), rgba(23, 155, 215, 0.2));
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(116, 195, 231, 0.2)), color-stop(100%, rgba(23, 155, 215, 0.2)));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(116, 195, 231, 0.2), rgba(23, 155, 215, 0.2));
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(116, 195, 231, 0.2), rgba(23, 155, 215, 0.2));
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(116, 195, 231, 0.2), rgba(23, 155, 215, 0.2));
+  /* IE10+ */
+  background: linear-gradient(to bottom, rgba(116, 195, 231, 0.2), rgba(23, 155, 215, 0.2));
+  /* W3C */
+
+  color: #333333;
+}
+.e-js.e-treegrid .e-detailsinfoiconhide:before,
+.e-js.e-treegrid .e-detailsinfoiconshow:before {
+  
+}
+.e-js.e-treegrid .e-detailsinfoiconhide:before,
+.e-js.e-treegrid .e-detailsinfoiconshow:before {
+  color: #74c3e7 !important;
+}
+.e-js.e-treegrid .e-selectionbackground .e-detailsinfoiconshow:before {
+  
+}
+.e-js.e-treegrid .e-selectionbackground .e-detailsinfoiconshow:before {
+  color: white !important;
+}
+.e-js.e-treegrid .e-detailscellwrapper,
+.e-js .e-detailscellwrapperfly {
+  background: white;
+  color: #333333 !important;
+}
+.e-js.e-dragtooltipbackground {
+  
+}
+.e-js.e-dragtooltipbackground {
+  background-color: white;
+  color: #333333;
+}
+.e-js.e-treegrid .e-tabletd {
+  border-color: #c8c8c8;
+}
+.e-js.e-treegrid .e-treegridtoolbar {
+  background-color: white !important;
+  border-color: #c8c8c8 !important;
+}
+.e-js.e-treegrid .e-headercell {
+  
+}
+.e-js.e-treegrid .e-headercell {
+  border-right-color: #c8c8c8 !important;
+  border-bottom-color: #c8c8c8 !important;
+}
+.e-js.e-treegrid .e-filterbarcell {
+  
+}
+.e-js.e-treegrid .e-filterbarcell {
+  border-color: #c8c8c8 !important;
+}
+.e-js.e-treegrid .e-grid-icon {
+  background: #f9f9f9;
+}
+.e-js.e-treegrid .e-gridheader {
+  color: #282827;
+  border-color: #c8c8c8;
+  
+}
+.e-js.e-treegrid .e-gridheader {
+  background: #f9f9f9;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #f9f9f9, #f2f2f2);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f9f9f9), color-stop(100%, #f2f2f2));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #f9f9f9, #f2f2f2);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #f9f9f9, #f2f2f2);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #f9f9f9, #f2f2f2);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #f9f9f9, #f2f2f2);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9f9f9', endColorstr='#f2f2f2', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-js.e-treegrid .e-headercontent {
+  border-right-color: #c8c8c8;
+}
+.e-js.e-treegrid .e-ejinputtext,
+.e-widget .e-addedColumn .e-ejinputtext,
+.e-widget .e-treegridrenamedialog .e-ejinputtext {
+  
+  border-color: #c8c8c8;
+  outline: none;
+  vertical-align: baseline;
+}
+.e-js.e-treegrid .e-ejinputtext,
+.e-widget .e-addedColumn .e-ejinputtext,
+.e-widget .e-treegridrenamedialog .e-ejinputtext {
+  color: #333333;
+  background-color: white;
+}
+.e-js.e-treegrid .e-ejinputtext:focus,
+.e-widget .e-addedColumn .e-ejinputtext:focus,
+.e-widget .e-treegridrenamedialog .e-ejinputtext:focus {
+  
+}
+.e-js.e-treegrid .e-ejinputtext:focus,
+.e-widget .e-addedColumn .e-ejinputtext:focus,
+.e-widget .e-treegridrenamedialog .e-ejinputtext:focus {
+  box-shadow: 0 0 5px #cccccc;
+}
+.e-js.e-treegrid .e-reSizeColbg {
+  border-left-color: #c8c8c8 !important;
+}
+.e-js.e-treegrid .e-gridheadercontainer {
+  
+}
+.e-js.e-treegrid .e-gridheadercontainer {
+  border-right-color: #c8c8c8 !important;
+}
+.e-js.e-columnmenu {
+  background: white;
+  color: #333333;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  
+}
+.e-js.e-columnmenu {
+  border-color: #c8c8c8 !important;
+}
+.e-js .e-columnmenuitem .e-icon,
+.e-js .e-menuitem .e-icon {
+  
+}
+.e-js .e-columnmenuitem .e-icon,
+.e-js .e-menuitem .e-icon {
+  color: #686969;
+}
+.e-js.e-treegrid .e-toolbaricons {
+  
+}
+.e-js.e-treegrid .e-toolbaricons {
+  color: #686969;
+}
+.e-js .e-columnmenuselection .e-icon,
+.e-js .e-contextmenu-mouseover .e-icon {
+  
+}
+.e-js .e-columnmenuselection .e-icon,
+.e-js .e-contextmenu-mouseover .e-icon {
+  color: #282827;
+}
+.e-js.e-treegrid .e-tooltxt.e-hover > span {
+  
+}
+.e-js.e-treegrid .e-tooltxt.e-hover > span {
+  color: #282827;
+}
+.e-js .e-columnSelector {
+  background: white;
+  border: 1px solid;
+  border-color: #c8c8c8 !important;
+  color: #333333 !important;
+}
+.e-js .e-columnMenuListDiv label {
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-js .e-columnmenuselection {
+  
+  color: #282827;
+}
+.e-js .e-columnmenuselection {
+  background: #c5e6f5;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #c5e6f5, #96d2ed);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #c5e6f5), color-stop(100%, #96d2ed));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #c5e6f5, #96d2ed);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #c5e6f5, #96d2ed);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #c5e6f5, #96d2ed);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #c5e6f5, #96d2ed);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c5e6f5', endColorstr='#96d2ed', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-js.e-treegrid .e-summaryrow {
+  
+}
+.e-js.e-treegrid .e-summaryrow {
+  background: #f8f8f8;
+}
+.e-js.e-treegrid .e-footersummaryrow,
+.e-js.e-treegrid .e-footersummaryrowdiv {
+  
+}
+.e-js.e-treegrid .e-footersummaryrow,
+.e-js.e-treegrid .e-footersummaryrowdiv {
+  background: #f8f8f8;
+}
+.e-js.e-treegrid .e-footersummaryrowdiv {
+  border-width: 0px 1px 1px 1px;
+  border-style: solid;
+  border-color: #c8c8c8;
+}
+.e-js.e-treegrid .e-summaryrow .e-summaryrowcell {
+  
+}
+.e-js.e-treegrid .e-summaryrow .e-summaryrowcell {
+  border-bottom-color: #c8c8c8;
+}
+.e-js.e-contextmenu,
+.e-js.e-innerContextmenu {
+  
+  background: white;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-js.e-contextmenu,
+.e-js.e-innerContextmenu {
+  border-color: #c8c8c8 !important;
+  color: #333333;
+}
+.e-js.e-headerContextmenu {
+  
+  background: white;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  border: 1px solid;
+}
+.e-js.e-headerContextmenu {
+  border-color: #c8c8c8 !important;
+  color: #333333;
+}
+.e-js .e-contextmenu-mouseover {
+  
+}
+.e-js .e-contextmenu-mouseover {
+  color: #282827;
+}
+.e-js .e-contextmenu-mouseover {
+  background: #c5e6f5;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #c5e6f5, #96d2ed);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #c5e6f5), color-stop(100%, #96d2ed));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #c5e6f5, #96d2ed);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #c5e6f5, #96d2ed);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #c5e6f5, #96d2ed);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #c5e6f5, #96d2ed);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c5e6f5', endColorstr='#96d2ed', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-js.e-tooltipgantt {
+  
+}
+.e-js.e-tooltipgantt {
+  background-color: white;
+  color: #333333;
+  border-color: #c8c8c8;
+}
+.e-js.e-treegrid .e-movablecontainer,
+.e-js.e-treegrid .e-movableheader,
+.e-js.e-treegrid .e-movablefooter {
+  
+}
+.e-js.e-treegrid .e-movablecontainer,
+.e-js.e-treegrid .e-movableheader,
+.e-js.e-treegrid .e-movablefooter {
+  border-left-color: #74c3e7;
+}
+.e-js.e-treegrid .e-footercontainer {
+  border-right-color: #c8c8c8;
+}
+.e-js.e-headervline {
+  
+}
+.e-js.e-headervline {
+  border-color: #74c3e7;
+}
+.e-js.e-headertooltip {
+  
+}
+.e-js.e-headertooltip {
+  color: #282827;
+  background-color: #f2f2f2;
+  border-color: #c8c8c8;
+}
+.e-js .e-menuitem-hr {
+  border-width: 1px 0px 0px 0px;
+  border-style: solid;
+  
+}
+.e-js .e-menuitem-hr {
+  border-color: #c8c8c8;
+}
+
+
+.e-widget .e-treegrid-resIcon {
+  
+}
+.e-widget .e-treegrid-resIcon {
+  color: #232323;
+}

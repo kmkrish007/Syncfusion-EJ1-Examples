@@ -1,0 +1,154 @@
+/* need verify with UX team*/
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*----------------------OLAP Definition------------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*------------------------ Ribbon Definition---------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*----------------------material theme-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: #111111;
+  color: white;
+  border-color: #494949;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+/*------------------------------------- listbox -------------------------------------------*/
+
+.e-js.e-listbox .e-select {
+  
+}
+.e-js.e-listbox .e-select {
+  border-color: #179bd7;
+  color: white;
+}
+.e-js.e-listbox .e-select {
+  background: #179bd7;
+}
+.e-js.e-listbox .e-active {
+  color: white;
+  border-color: #082e40;
+}
+.e-js.e-listbox .e-active {
+  background: #082e40;
+}
+.e-js.e-listbox .e-hover {
+  
+}
+.e-js.e-listbox .e-hover {
+  color: #aaaaaa;
+}
+.e-js.e-listbox .e-hover {
+  background: #082e40;
+}
+.e-js.e-dragClonelist {
+  
+}
+.e-js.e-dragClonelist {
+  background: #179bd7;
+  color: white;
+  opacity: 0.5;
+  text-align: center;
+}
+.e-js.e-wrap .e-listbox li {
+  
+  word-break: break-all;
+}
+.e-js.e-wrap .e-listbox li {
+  padding-left: 10px !important;
+}
+.e-js.e-rtl.e-wrap .e-listbox li {
+  
+}
+.e-js.e-nowrap .e-listbox li {
+  padding-left: 10px !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.e-widget.e-ddl-popup.e-load {
+  background-image: url(images/ajax-loader.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.e-widget.e-ddl-popup.e-wrap .e-listbox li.allowDrop {
+  
+}
+.e-widget.e-ddl-popup.e-wrap.e-js {
+  
+}
+.e-js.e-listbox .e-chkbox-wrap .e-chkbox-small .e-chk-inact,
+.e-js.e-listbox .e-chkbox-wrap .e-chkbox-small .e-chk-act {
+  
+}
+.e-js.e-listbox .e-chkbox-wrap .e-chkbox-small .e-chk-inact,
+.e-js.e-listbox .e-chkbox-wrap .e-chkbox-small .e-chk-act {
+  top: 2px;
+}
+.e-js.e-listbox .e-chkbox-wrap .e-chkbox-small .e-chk-act .e-checkmark {
+  
+}
+.e-widget.e-ddl-popup.e-wrap.e-js div > ul li .e-chkbox-wrap,
+.e-widget.e-ddl-popup div > .e-listbox li .e-chkbox-wrap {
+  
+}
+.e-widget.e-ddl-popup div > .e-ul .e-ghead {
+  
+}
+.e-widget.e-ddl-popup div > .e-ul .e-ghead {
+  font-weight: bold;
+  border-bottom: 1px solid #494949;
+  display: block;
+  margin: 2px 2px 2px 0px;
+  position: relative;
+  padding-bottom: 5px;
+  padding-left: 0.857em;
+}
+.e-widget.e-ddl-popup.e-wrap.e-js div > ul li .e-align {
+  
+}
+.e-widget.e-ddl-popup.e-wrap {
+  
+}
+.e-widget.e-ddl-popup.e-wrap .e-listbox li {
+  
+}
+.e-widget.e-ddl-popup.e-wrap .e-listbox li.e-select {
+  
+}
+.e-widget.e-ddl-popup.e-wrap .e-listbox li.e-hover {
+  
+}
+.e-widget.e-ddl-popup div > .e-listbox li:empty {
+  
+}
+.e-widget.e-ddl-popup.e-js {
+  max-height: inherit;
+  max-width: inherit;
+}
+.e-js.e-listbox .e-draggable {
+  touch-action: none;
+}

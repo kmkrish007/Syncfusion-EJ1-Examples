@@ -1,0 +1,76 @@
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*-----------------------OLAP Definition-----------------*/
+/*-----------------------OLAP Definition End-----------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*----------------------material theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: #111111;
+  color: white;
+  border-color: gray;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+/*------------------------------------- Radial Menu -------------------------------------------*/
+
+.e-radialmenu .e-childdefault {
+  fill: blue;
+}
+.e-radialmenu .e-default,
+.e-radialmenu .e-outerdefault {
+  fill: black;
+}
+.e-radialmenu .e-active {
+  fill: #1010af;
+}
+.e-radialmenu .e-arcbgcolor,
+.e-radialmenu .e-itembgcolor,
+.e-radialmenu .e-circlebgcolor {
+  fill: black;
+  stroke: black;
+}
+.e-radialmenu .e-textcolor {
+  fill: lime;
+}
+.e-radialmenu .e-radial {
+  border-color: blue;
+  background-color: black;
+}
+.e-radialmenu .e-badgetext {
+  fill: white;
+}
+.e-radialmenu .e-badgecircle {
+  fill: blue;
+}
+.e-radialmenu .e-radialslider {
+  background-color: black;
+}
+.e-radialmenu:focus {
+  outline: none !important;
+}

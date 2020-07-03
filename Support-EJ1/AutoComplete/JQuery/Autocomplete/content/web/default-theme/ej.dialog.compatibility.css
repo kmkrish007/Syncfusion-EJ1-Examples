@@ -1,0 +1,194 @@
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*-----------------------OLAP Definition-----------------*/
+/*-----------------------OLAP Definition End-----------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*----------------------material theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: white;
+  color: #111111;
+  border-color: #c8c8c8;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-widget.e-dialog.e-dialog-wrap {
+  background: white;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-widget.e-dialog .e-dialog-icon:hover {
+  border-image: initial;
+  border-color: #c8c8c8;
+  
+}
+.e-widget.e-dialog .e-dialog-icon:hover {
+  background: #86cbea;
+}
+.e-widget.e-dialog-modal {
+  overflow: hidden;
+}
+.e-widget.e-dialog.e-disable .e-dialog-icon:hover {
+  background: transparent;
+}
+.e-widget.e-dialog .e-dialog-icon:before {
+  
+  line-height: 1.5;
+}
+.e-widget.e-dialog .e-dialog-icon:before {
+  color: #232323;
+}
+.e-widget.e-dialog > .e-header {
+  
+}
+.e-widget.e-dialog > .e-header {
+  color: #282827;
+  font-weight: normal;
+  font-size: 16px;
+  border: 1px solid #c8c8c8;
+  border-bottom: 3px solid #179bd7;
+}
+.e-widget.e-dialog > .e-header {
+  background: #fcfcfc;
+}
+.e-widget .e-titlebar + div.e-dialog-scroller .e-widget-content {
+  
+}
+.e-widget.e-dialog.e-dialog-wrap:not(.e-shadow) {
+  
+}
+.e-widget.e-dialog > .e-titlebar {
+  
+}
+.e-widget.e-dialog.e-shadow {
+  
+}
+.e-widget .e-dialog.e-widget-content {
+  
+}
+.e-widget .e-dialog.e-widget-content {
+  background: white;
+  color: #333333;
+  font-size: 14px;
+}
+.e-widget .e-dialog.e-widget-content.e-load {
+  background-image: url(images/ajax-loader.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.e-widget.e-overlay {
+  background-color: #383838;
+  
+}
+.e-widget.e-dialog > .e-dialog-scroller {
+  
+}
+.e-widget.e-dialog > .e-dialog-scroller {
+  border: 1px solid #c8c8c8;
+  border-top: none;
+}
+.e-widget.e-dialog .e-dialog-icon:hover:before {
+  color: #282827;
+}
+.e-widget.e-dialog > .e-footerbar {
+  position: relative;
+  
+  background: white;
+}
+.e-widget.e-dialog > .e-footerbar {
+  height: 40px;
+  border: 1px solid #c8c8c8;
+  border-top: none;
+}
+.e-widget.e-dialog > .e-footerbar > .e-icon.e-resize-handle.e-resizable.e-js {
+  position: absolute;
+  cursor: se-resize;
+  bottom: 0;
+  right: 0;
+}
+.e-widget .e-corner.e-dialog > .e-footerbar {
+  border-radius: 0px 0px 3px 3px;
+}
+.e-widget .e-corner .e-dialog-content {
+  border-radius: 3px;
+}
+.e-widget .e-corner .e-dialog-bottom {
+  border-radius: 0px 0px 3px 3px;
+}
+.e-widget .e-corner .e-dialog-top {
+  border-radius: 3px 3px 0px 0px;
+}
+.e-widget.e-dialog .e-scrollbar .e-icon {
+  display: block;
+}
+.e-dialog .e-scrollbar .e-icon {
+  display: block;
+}
+.e-widget.e-dialog .e-dialog-icon::after {
+  
+}
+.e-widget.e-dialog > .e-icon.e-resizable:before {
+  
+}
+.e-widget.e-dialog .e-dialog-icon {
+  
+}
+.e-widget.e-dialog .e-dialog-icon.e-icon.e-close {
+  
+}
+.e-widget.e-dialog .e-dialog-icon.e-icon.e-close:before {
+  
+}
+.e-widget.e-dialog .e-dialog-icon.e-icon.e-arrowhead-up:before {
+  
+}
+.e-widget.e-dialog .e-dialog-icon.e-icon.e-arrowhead-down:before {
+  
+}
+.e-widget.e-dialog .e-draggable {
+  touch-action: none;
+}
+.e-widget .e-dialog.e-widget-content .e-pager .e-firstpage,
+.e-widget .e-dialog.e-widget-content .e-pager .e-prevpage,
+.e-widget .e-dialog.e-widget-content .e-pager .e-firstpagedisabled,
+.e-widget .e-dialog.e-widget-content .e-pager .e-prevpagedisabled,
+.e-widget .e-dialog.e-widget-content .e-pager .e-nextpage,
+.e-widget .e-dialog.e-widget-content .e-pager .e-lastpage,
+.e-widget .e-dialog.e-widget-content .e-pager .e-nextpagedisabled,
+.e-widget .e-dialog.e-widget-content .e-pager .e-lastpagedisabled {
+  padding: 9px 3px 1px 9px;
+}
+.e-widget .e-dialog.e-widget-content .e-pager .e-firstpage,
+.e-widget .e-dialog.e-widget-content .e-pager .e-prevpage,
+.e-widget .e-dialog.e-widget-content .e-pager .e-firstpagedisabled,
+.e-widget .e-dialog.e-widget-content .e-pager .e-prevpagedisabled,
+.e-widget .e-dialog.e-widget-content .e-pager .e-nextpage,
+.e-widget .e-dialog.e-widget-content .e-pager .e-lastpage,
+.e-widget .e-dialog.e-widget-content .e-pager .e-nextpagedisabled,
+.e-widget .e-dialog.e-widget-content .e-pager .e-lastpagedisabled {
+  
+}

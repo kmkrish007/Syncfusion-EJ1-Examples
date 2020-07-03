@@ -1,0 +1,337 @@
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*-----------------------OLAP Definition-----------------*/
+/*-----------------------OLAP Definition End-----------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*----------------------material theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: white;
+  color: #111111;
+  border-color: #c8c8c8;
+  font-family: Segoe UI, Helvetica Neue;
+}
+/*------------------------------------- Colorpicker -------------------------------------------*/
+
+.e-colorpicker .e-hsv-color,
+.e-colorpicker .e-buttons .e-preview,
+.e-colorpicker .e-slider-wrap .e-hue,
+.e-colorpicker .e-slider-wrap .e-opacity {
+  
+}
+.e-colorpicker .e-hsv-color,
+.e-colorpicker .e-buttons .e-preview,
+.e-colorpicker .e-slider-wrap .e-hue,
+.e-colorpicker .e-slider-wrap .e-opacity {
+  border: 3px solid white;
+}
+.e-colorpicker .e-slider-wrap .e-handle.e-select,
+.e-colorpicker .e-slider .e-handle.e-select.e-handle-start,
+.e-colorpicker .e-slider .e-handle.e-select.e-focus.e-handle-start:not(.e-no-tab),
+.e-colorpicker .e-slider .e-handle.e-select.e-handle-start.e-focus,
+.e-colorpicker .e-slider-wrap .e-handle.e-select:hover {
+  border: 3px solid white;
+}
+.e-colorwidget .e-select {
+  
+}
+.e-colorwidget .e-select {
+  background: white;
+  color: #686969;
+  border-color: #c8c8c8;
+}
+.e-colorwidget.e-split .e-in-wrap .e-select:hover,
+.e-colorwidget.e-split .e-color-container:hover {
+  border-color: #c8c8c8;
+  color: #282827;
+}
+.e-colorwidget.e-split .e-in-wrap .e-select:hover,
+.e-colorwidget.e-split .e-color-container:hover {
+  background: #86cbea;
+}
+.e-colorwidget.e-split .e-in-wrap .e-select:active,
+.e-colorpicker .e-footer .e-element .e-in-wrap.e-box .e-rht-btn:active {
+  
+}
+.e-colorwidget .e-in-wrap {
+  
+}
+.e-colorwidget .e-in-wrap.e-box:hover {
+  
+}
+.e-colorwidget .e-in-wrap.e-box:focus {
+  
+}
+.e-colorwidget.e-picker.e-split.e-disable .e-in-wrap .e-select:hover,
+.e-colorwidget.e-picker.e-split.e-disable .e-in-wrap .e-color-container:hover {
+  cursor: default;
+  background: white;
+}
+.e-colorpicker.e-popup {
+  background-color: #ececec;
+  border-color: #c8c8c8;
+}
+.e-presetWrapper.e-widget.e-context {
+  border-color: #c8c8c8;
+  
+}
+.e-colorwidget.e-focus {
+  box-shadow: 0 0 2px #cbcbcb;
+}
+.e-colorpicker .e-recent-color .e-colorblock.e-block,
+.e-colorpicker .e-recent-color .e-colorblock.e-select,
+.e-colorpicker .e-footer .e-switcher {
+  background-color: white;
+  color: #333333;
+  
+}
+.e-colorpicker .e-recent-color .e-colorblock.e-block,
+.e-colorpicker .e-recent-color .e-colorblock.e-select,
+.e-colorpicker .e-footer .e-switcher {
+  border-color: white;
+}
+.e-colorpicker .e-footer .e-split.e-widget {
+  
+}
+.e-colorpicker .e-footer .e-split.e-widget:hover {
+  
+}
+.e-colorpicker .e-footer .e-split.e-widget:active {
+  
+}
+.e-colorpicker .e-colorblock .e-color-image.e-add:active {
+  
+}
+.e-colorpicker .e-recent-color .e-colorblock.e-colorset:hover {
+  
+}
+.e-colorpicker .e-recent-color .e-colorblock.e-colorset.e-select {
+  
+}
+.e-colorpicker .e-colorblock .e-color-image.e-add:active {
+  
+}
+.e-colorwidget .e-color-container .e-selected-color::after,
+.e-colorwidget .e-select .e-icon::after,
+.e-colorpicker .e-colorblock .e-color-image.e-add:after {
+  
+}
+.e-colorpicker .e-footer .e-switcher:hover {
+  
+}
+.e-colorwidget .e-in-wrap.e-box,
+.e-colorwidget .e-in-wrap.e-box .e-select,
+.e-colorpicker .e-footer .e-in-wrap.e-box .e-splitbutton,
+.e-colorpicker .e-footer .e-in-wrap.e-box .e-rht-btn,
+.e-colorpicker .e-footer .e-in-wrap.e-box .e-split-btn,
+.e-colorpicker .e-footer .e-in-wrap.e-box .e-drp-btn.e-rht-btn {
+  
+  color: #333333;
+}
+.e-colorwidget .e-in-wrap.e-box,
+.e-colorwidget .e-in-wrap.e-box .e-select,
+.e-colorpicker .e-footer .e-in-wrap.e-box .e-splitbutton,
+.e-colorpicker .e-footer .e-in-wrap.e-box .e-rht-btn,
+.e-colorpicker .e-footer .e-in-wrap.e-box .e-split-btn,
+.e-colorpicker .e-footer .e-in-wrap.e-box .e-drp-btn.e-rht-btn {
+  background: white;
+}
+.e-colorwidget .e-select:hover,
+.e-colorpicker .e-element .e-split-btn.e-select.e-rht-btn:hover {
+  color: #282827;
+  border-color: #c8c8c8;
+}
+.e-colorwidget .e-select:hover,
+.e-colorpicker .e-element .e-split-btn.e-select.e-rht-btn:hover {
+  background-color: white;
+}
+.e-colorpicker .e-footer .e-in-wrap.e-box .e-splitbutton:hover,
+.e-colorpicker .e-footer .e-in-wrap.e-box .e-rht-btn:hover {
+  
+}
+.e-colorpicker .e-footer .e-in-wrap.e-box .e-splitbutton:hover,
+.e-colorpicker .e-footer .e-in-wrap.e-box .e-rht-btn:hover {
+  color: #282827;
+  border-color: #c8c8c8;
+}
+.e-colorpicker .e-footer .e-in-wrap.e-box .e-splitbutton:hover,
+.e-colorpicker .e-footer .e-in-wrap.e-box .e-rht-btn:hover {
+  background: #86cbea;
+}
+.e-presetWrapper.e-menu.e-context,
+.e-presetWrapper.e-menu.e-context .e-list.e-mhover.e-mfocused,
+.e-presetWrapper.e-menu.e-context .e-list > ul,
+.e-presetWrapper.e-menu.e-context .e-list:hover {
+  background: white;
+  color: #333333;
+  border-color: white;
+}
+.e-presetWrapper.e-menu.e-context .e-list:hover {
+  background: white;
+  color: #333333;
+}
+.e-colorpicker .e-footer .e-split .e-splitbutton:hover {
+  border-color: #c8c8c8;
+}
+.e-colorpicker .e-footer .e-split .e-splitbutton:hover {
+  background: #ececec;
+}
+.e-colorpicker .e-footer .e-cancelButton.e-btn,
+.e-colorpicker .e-footer .e-applyButton.e-btn {
+  border-color: #c8c8c8;
+}
+.e-colorpicker .e-footer .e-cancelButton.e-btn,
+.e-colorpicker .e-footer .e-applyButton.e-btn {
+  background: #ececec;
+}
+.e-colorpicker .e-footer .e-cancelButton.e-btn:hover,
+.e-colorpicker .e-footer .e-applyButton.e-btn:hover {
+  border-color: #c8c8c8;
+  color: #282827;
+}
+.e-colorpicker .e-footer .e-cancelButton.e-btn:hover,
+.e-colorpicker .e-footer .e-applyButton.e-btn:hover {
+  background: #86cbea;
+}
+.e-colorpicker .e-buttons .e-grpbtn {
+  
+}
+.e-colorpicker .e-buttons .e-grpbtn .e-btn {
+  
+}
+.e-colorpicker .e-buttons .e-grpbtn .e-btn {
+  color: #333333;
+}
+.e-colorpicker .e-buttons .e-grpbtn,
+.e-colorpicker .e-buttons .e-color-code,
+.e-colorpicker .e-buttons .e-grpbtn .e-btn {
+  
+}
+.e-colorpicker .e-buttons .e-grpbtn,
+.e-colorpicker .e-buttons .e-color-code,
+.e-colorpicker .e-buttons .e-grpbtn .e-btn {
+  background-color: white;
+  border-color: white;
+}
+.e-colorpicker .e-buttons .e-grpbtn,
+.e-colorpicker .e-buttons .e-grpbtn .e-btn {
+  
+}
+.e-colorpicker .e-buttons .e-color-code {
+  
+}
+.e-colorpicker .e-buttons .e-color-code:hover {
+  
+}
+.e-colorpicker .e-buttons .e-color-code:focus {
+  
+}
+.e-colorpicker .e-buttons .e-previous,
+.e-presetWrapper .e-presets-table .e-preset-row {
+  border-color: #c8c8c8;
+}
+.e-colorpicker .e-item {
+  
+}
+.e-colorpicker .e-item {
+  border-color: #c8c8c8;
+}
+.e-colorpicker .e-item.e-state-selected {
+  
+}
+.e-colorpicker .e-color-image,
+.e-presetWrapper .e-color-image,
+.e-presetWrapper.e-menu.e-context .e-color-image.e-mhover {
+  background-image: url(../common-images/colorpicker_light.png);
+  background-color: transparent;
+  filter: none;
+}
+.e-presetWrapper.e-menu.e-context .e-color-image.e-mhover {
+  
+}
+.e-presetWrapper.e-menu.e-context .e-color-image.e-presetsactive {
+  
+}
+.e-presetWrapper .e-presetHeader,
+.e-colorpicker .e-element .e-icon:before {
+  color: #333333;
+}
+.e-colorpicker .e-element .e-drp-btn.e-rht-btn:active .e-icon:before {
+  
+}
+.e-colorpicker .e-buttons .e-color-code,
+.e-colorpicker .e-codeeditor .e-close_01 {
+  color: #333333;
+}
+.e-colorpicker .e-buttons .e-grpbtn .e-click {
+  
+}
+.e-colorpicker .e-buttons .e-grpbtn .e-click {
+  color: white;
+  border-color: #c8c8c8;
+  box-shadow: 0 0 0 2px white;
+}
+.e-colorpicker .e-buttons .e-grpbtn .e-click {
+  background: #179bd7;
+}
+.e-colorpicker .e-buttons .e-grpbtn .e-btn:hover {
+  color: #282827;
+  border-color: #c8c8c8;
+}
+.e-colorpicker .e-buttons .e-grpbtn .e-btn:hover {
+  background: #86cbea;
+}
+.e-presetWrapper.e-menu.e-context li.e-list {
+  background: white;
+}
+.e-colorpicker .e-context.e-menu .e-mhover > a,
+.e-colorpicker .e-context.e-menu .e-mhover > span,
+.e-colorpicker .e-context.e-menu .e-mfocused,
+.e-colorpicker .e-context.e-menu .e-mfocused > a,
+.e-colorpicker .e-context.e-menu .e-mfocused > span {
+  background: transparent;
+}
+.e-colorpicker .e-slider .e-handle.e-select.e-focus:not(.e-no-tab):after,
+.e-colorpicker .e-slider .e-handle.e-select.e-focus.e-handle-start:not(.e-no-tab):after {
+  background: transparent;
+}
+.e-colorwidget .e-color-container .e-selected-color:active::after,
+.e-colorwidget .e-select:active .e-icon::after,
+.e-colorpicker .e-colorblock .e-color-image.e-add:active:after {
+  
+}
+.e-colorpicker .e-footer .e-switcher:focus {
+  box-shadow: 0 0 2px #cbcbcb;
+  outline-color: #cbcbcb;
+}
+.e-colorwidget.e-disable {
+  background-color: whitesmoke;
+  border-color: #e3e3e3;
+  opacity: 1;
+}
+.e-colorwidget.e-disable .e-select,
+.e-colorwidget.e-disable .e-select:hover {
+  background-color: #d6d7d7;
+}

@@ -1,0 +1,197 @@
+/*-----------------------HeatMap Definition-----------------*/
+/*@neutral-light;*/
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*-----------------------OLAP Definition-----------------*/
+/*-----------------------OLAP Definition End-----------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*----------------------material theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+.office-file-explorer-toolbar-bg-color {
+  background: white;
+}
+.office-tab-header-bg-color {
+  background: white;
+}
+/*------------------ material theme ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: white;
+  color: #111111;
+  border-color: #c8c8c8;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+/*Theme Color*/
+
+.e-js.e-gantt .e-toolbaricons {
+  
+}
+.e-js.e-gantt .e-toolbaricons {
+  color: #666666;
+}
+.e-js .e-search.e-tooltxt.e-hover {
+  color: #666666 !important;
+}
+.e-js.e-gantt .e-tooltxt.e-hover > span {
+  color: #666666;
+}
+.e-js.e-gantt .e-gantt-Spliter {
+  border-top-color: #c8c8c8 !important;
+  border-bottom-color: #c8c8c8 !important;
+}
+.e-js.e-gantt .e-editValue .e-treegrid .e-headercell {
+  border-bottom-color: #c8c8c8 !important;
+  background-color: white !important;
+}
+.e-widget.e-ganttdialog .e-ejinputtext,
+.e-js.e-gantt .e-ejinputtext {
+  
+  color: #212121;
+  outline: none;
+  border-style: solid;
+  border-color: #c8c8c8;
+  vertical-align: baseline;
+}
+.e-widget.e-ganttdialog .e-ejinputtext,
+.e-js.e-gantt .e-ejinputtext {
+  border-width: 1px;
+  background-color: white;
+}
+.e-widget.e-ganttdialog .e-ejinputtext:hover,
+.e-js.e-gantt .e-ejinputtext:hover {
+  border: 1px solid #767676;
+}
+.e-widget.e-ganttdialog .e-ejinputtext:focus,
+.e-js.e-gantt .e-ejinputtext:focus {
+  
+}
+.e-widget.e-ganttdialog .e-ejinputtext:focus,
+.e-js.e-gantt .e-ejinputtext:focus {
+  box-shadow: none;
+  border: 1px solid #0078d7;
+}
+.e-deletepre.e-icon,
+.e-addpre.e-icon {
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-js.e-gantt .e-splitter .e-hover.e-splitbar.e-split-divider {
+  
+}
+.e-js.e-gantt .e-splitter .e-hover.e-splitbar.e-split-divider {
+  border-color: #0078d7;
+}
+.e-js.e-gantt .e-splitter .e-splitbar.e-split-divider:hover {
+  border-color: #c8c8c8;
+}
+.e-js.e-gantt .e-gantttoolbar li.e-hover {
+  border-color: transparent;
+}
+.e-js.e-gantt .e-treegrid .e-gridheader {
+  color: #333333;
+  border-color: #c8c8c8;
+}
+.e-js.e-gantt .e-treegrid .e-gridheader {
+  background: white;
+}
+.e-js.e-gantt .e-treegrid .e-headercelldiv {
+  color: #333333;
+}
+.e-js.e-gantt .e-treegrid .e-headercelldiv .e-descending,
+.e-js.e-gantt .e-treegrid .e-headercelldiv .e-ascending,
+.e-js.e-gantt .e-treegrid .e-headercell .e-columnmenu-icon {
+  color: #666666;
+}
+.e-js.e-gantt .e-treegrid .e-headercell {
+  border-top-color: #c8c8c8 !important;
+  
+}
+.e-js.e-gantt .e-treegrid .e-headercell {
+  border-right-color: #d0d0d0 !important;
+}
+.e-widget.e-ganttdialog .e-tab .e-header.e-addborderbottom .e-active {
+  
+}
+.e-widget.e-ganttdialog .e-tab .e-header.e-addborderbottom .e-active {
+  border-top: 1px solid transparent !important;
+}
+.e-widget.e-ganttdialog .e-titlebar {
+  
+}
+.e-widget.e-ganttdialog .e-titlebar {
+  border-bottom: 1px solid transparent !important;
+}
+
+.e-js.e-gantt .e-ganttpopup .e-popupcontent {
+  background-color: white;
+  border-color: #c8c8c8;
+}
+.e-js.e-gantt .e-ganttpopup span:hover,
+.e-js.e-gantt .e-ganttpopup .e-spanclicked {
+  border-color: #666666;
+}
+.e-js.e-gantt .e-ganttpopup .e-downtail:before,
+.e-js.e-gantt .e-ganttpopup .e-downtail {
+  border-top-color: #c8c8c8;
+}
+.e-js.e-gantt .e-ganttpopup .e-downtail:after {
+  border-top-color: white;
+}
+.e-js.e-gantt .e-search .e-ejinputtext {
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  font-size: 13px;
+  height: 26px;
+  margin: 2px 8px 2px 2px !important;
+  width: 230px;
+}
+.e-js .e-treegridPane .e-treegrid .e-editcell,
+.e-js .e-treegridPane .e-treegrid .e-detailsrowcell,
+.e-js .e-treegridPane .e-treegrid .e-rowcell,
+.e-js .e-treegridPane .e-treegrid .e-extendcolumn {
+  border-bottom-color: #d0d0d0;
+}
+.e-widget.e-ganttdialog .e-editform-btn input[id$="Save"],
+.e-widget.e-ganttdialog .e-connectordialog input[id$="ok"] {
+  background: #0078d7;
+  color: white;
+}
+.e-widget.e-ganttdialog .e-editform-btn input[id$="Save"]:hover,
+.e-widget.e-ganttdialog .e-connectordialog input[id$="ok"]:hover {
+  background: #005a9e;
+  color: white;
+}
+.e-widget.e-ganttdialog .e-editform-btn input[id$="Save"]:focus,
+.e-widget.e-ganttdialog .e-connectordialog input[id$="ok"]:focus {
+  background: #005a9e;
+  color: white;
+  border-color: #0078d7;
+}
+.e-widget.e-ganttdialog .e-editform-btn input[id$="Save"]:active,
+.e-widget.e-ganttdialog .e-connectordialog input[id$="ok"]:active {
+  background: #0078d7;
+  color: white;
+  border-color: #0078d7;
+}

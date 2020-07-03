@@ -1,0 +1,457 @@
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*-----------------------OLAP Definition-----------------*/
+/*-----------------------OLAP Definition End-----------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*----------------------material theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: #111111;
+  color: white;
+  border-color: gray;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-js.e-treegrid .e-extendcolumn {
+  background-color: black;
+}
+.e-js.e-treegrid .e-headercelldiv {
+  color: white;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-js .e-filterMenuDiv {
+  
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  min-height: 0px !important;
+}
+.e-js .e-filterMenuDiv {
+  border-color: #494949 !important;
+}
+.e-js.e-treegrid .e-treegridpopup .e-popupcontent {
+  background-color: black;
+  border-color: gray;
+}
+.e-js.e-treegrid .e-treegridpopup span:hover,
+.e-js.e-treegrid .e-treegridpopup .e-spanclicked {
+  border-color: white;
+}
+.e-js.e-treegrid .e-treegridpopup .e-downtail:before,
+.e-js.e-treegrid .e-treegridpopup .e-downtail {
+  border-top-color: gray;
+}
+.e-js.e-treegrid .e-treegridpopup .e-downtail:after {
+  border-top-color: black;
+}
+.e-js.e-treegrid .e-headercelldiv .e-descending,
+.e-js.e-treegrid .e-headercelldiv .e-ascending,
+.e-js.e-treegrid .e-headercell .e-columnmenu-icon {
+  
+}
+.e-js.e-treegrid .e-headercelldiv .e-descending,
+.e-js.e-treegrid .e-headercelldiv .e-ascending,
+.e-js.e-treegrid .e-headercell .e-columnmenu-icon {
+  color: white;
+}
+.e-js.e-treegrid-core {
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-js.e-treegrid {
+  border-color: gray;
+  color: lime;
+}
+.e-js.e-treegrid .e-gridcontent {
+  background-color: black;
+  border-color: gray;
+}
+.e-js.e-treegrid .e-borderbox {
+  border-bottom-color: black;
+}
+.e-js.e-treegrid .e-editcell,
+.e-js.e-treegrid .e-detailsrowcell,
+.e-js.e-treegrid .e-rowcell,
+.e-js.e-treegrid .e-extendcolumn {
+  
+}
+.e-js.e-treegrid .e-editcell,
+.e-js.e-treegrid .e-detailsrowcell,
+.e-js.e-treegrid .e-rowcell,
+.e-js.e-treegrid .e-extendcolumn {
+  border-color: gray;
+}
+.e-js.e-treegrid .e-tableLastCell {
+  border-right-color: gray !important;
+}
+.e-js.e-treegrid .e-detailsiconcell:hover,
+.e-js.e-treegrid .e-detailsinfoiconhide {
+  background-color: black;
+}
+.e-js.e-treegrid div.e-error .e-toparrow {
+  
+}
+.e-js.e-treegrid div.e-error .e-toparrow {
+  border-bottom-color: #fffe92;
+}
+.e-js.e-treegrid div.e-error .e-bottomarrow {
+  
+}
+.e-js.e-treegrid div.e-error .e-bottomarrow {
+  border-top-color: #fffe92;
+}
+.e-js .e-detailscellwrapperfly {
+  border-color: gray;
+  
+}
+.e-js .e-detailscellwrapperfly {
+  box-shadow: 0px 0px 11px 3px gray;
+  -moz-box-shadow: 0px 0px 11px 3px gray;
+  -webkit-box-shadow: 0px 0px 11px 3px gray;
+}
+.e-js .e-dragrowcell {
+  border-color: gray !important;
+}
+.e-js.e-treegrid .e-alt-row {
+  
+}
+.e-js.e-treegrid .e-alt-row {
+  background: black;
+}
+.e-js.e-treegrid .e-selectionbackground {
+  
+}
+.e-js.e-treegrid .e-selectionbackground {
+  color: white;
+  -ms-filter: 'progid:DXImageTransform.Microsoft.gradient(startColorstr="rgba(0, 0, 255, 0.2)", endColorstr="rgba(0, 0, 255, 0.2)", GradientType=0), progid:DXImageTransform.Microsoft.Alpha(Opacity=20)';
+}
+.e-js.e-treegrid .e-selectionbackground {
+  background: blue;
+}
+.e-js .e-treegridPane .e-treegrid .e-selectionbackground {
+  
+}
+.e-js .e-treegridPane .e-treegrid .e-selectionbackground {
+  background: -moz-linear-gradient(top, rgba(0, 0, 255, 0.2), rgba(0, 0, 255, 0.2));
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 255, 0.2)), color-stop(100%, rgba(0, 0, 255, 0.2)));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(0, 0, 255, 0.2), rgba(0, 0, 255, 0.2));
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(0, 0, 255, 0.2), rgba(0, 0, 255, 0.2));
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(0, 0, 255, 0.2), rgba(0, 0, 255, 0.2));
+  /* IE10+ */
+  background: linear-gradient(to bottom, rgba(0, 0, 255, 0.2), rgba(0, 0, 255, 0.2));
+  /* W3C */
+
+  color: lime;
+  filter: 'progid:DXImageTransform.Microsoft.gradient(startColorstr="rgba(0, 0, 255, 0.2)", endColorstr="rgba(0, 0, 255, 0.2)", GradientType=0), progid:DXImageTransform.Microsoft.Alpha(Opacity=20)';
+}
+.e-js.e-treegrid .e-selectingcell {
+  
+}
+.e-js.e-treegrid .e-selectingcell {
+  color: white;
+}
+.e-js.e-treegrid .e-selectingcell {
+  background: blue;
+}
+.e-js .e-treegridPane .e-treegrid .e-selectingcell {
+  
+}
+.e-js .e-treegridPane .e-treegrid .e-selectingcell {
+  background: -moz-linear-gradient(top, rgba(0, 0, 255, 0.2), rgba(0, 0, 255, 0.2));
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 255, 0.2)), color-stop(100%, rgba(0, 0, 255, 0.2)));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(0, 0, 255, 0.2), rgba(0, 0, 255, 0.2));
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(0, 0, 255, 0.2), rgba(0, 0, 255, 0.2));
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(0, 0, 255, 0.2), rgba(0, 0, 255, 0.2));
+  /* IE10+ */
+  background: linear-gradient(to bottom, rgba(0, 0, 255, 0.2), rgba(0, 0, 255, 0.2));
+  /* W3C */
+
+  color: lime;
+}
+.e-js.e-treegrid .e-detailsinfoiconhide:before,
+.e-js.e-treegrid .e-detailsinfoiconshow:before {
+  
+}
+.e-js.e-treegrid .e-detailsinfoiconhide:before,
+.e-js.e-treegrid .e-detailsinfoiconshow:before {
+  color: blue !important;
+}
+.e-js.e-treegrid .e-selectionbackground .e-detailsinfoiconshow:before {
+  
+}
+.e-js.e-treegrid .e-selectionbackground .e-detailsinfoiconshow:before {
+  color: white !important;
+}
+.e-js.e-treegrid .e-detailscellwrapper,
+.e-js .e-detailscellwrapperfly {
+  background: black;
+  color: lime !important;
+}
+.e-js.e-dragtooltipbackground {
+  
+}
+.e-js.e-dragtooltipbackground {
+  background-color: black;
+  color: lime;
+}
+.e-js.e-treegrid .e-tabletd {
+  border-color: gray;
+}
+.e-js.e-treegrid .e-treegridtoolbar {
+  background-color: black !important;
+  border-color: gray !important;
+}
+.e-js.e-treegrid .e-headercell {
+  
+}
+.e-js.e-treegrid .e-headercell {
+  border-right-color: gray !important;
+  border-bottom-color: gray !important;
+}
+.e-js.e-treegrid .e-filterbarcell {
+  
+}
+.e-js.e-treegrid .e-filterbarcell {
+  border-color: gray !important;
+}
+.e-js.e-treegrid .e-grid-icon {
+  background: black;
+}
+.e-js.e-treegrid .e-gridheader {
+  color: white;
+  border-color: gray;
+  
+}
+.e-js.e-treegrid .e-gridheader {
+  background: black;
+}
+.e-js.e-treegrid .e-headercontent {
+  border-right-color: gray;
+}
+.e-js.e-treegrid .e-ejinputtext,
+.e-widget .e-addedColumn .e-ejinputtext,
+.e-widget .e-treegridrenamedialog .e-ejinputtext {
+  
+  border-color: gray;
+  outline: none;
+  vertical-align: baseline;
+}
+.e-js.e-treegrid .e-ejinputtext,
+.e-widget .e-addedColumn .e-ejinputtext,
+.e-widget .e-treegridrenamedialog .e-ejinputtext {
+  color: lime;
+  background-color: black;
+}
+.e-widget .e-addedColumn .e-ejinputtext:hover,
+.e-js.e-treegrid .e-ejinputtext:hover,
+.e-widget .e-treegridrenamedialog .e-ejinputtext:hover {
+  border: 1px solid white;
+}
+.e-js.e-treegrid .e-ejinputtext:focus,
+.e-widget .e-addedColumn .e-ejinputtext:focus,
+.e-widget .e-treegridrenamedialog .e-ejinputtext:focus {
+  
+}
+.e-js.e-treegrid .e-ejinputtext:focus,
+.e-widget .e-addedColumn .e-ejinputtext:focus,
+.e-widget .e-treegridrenamedialog .e-ejinputtext:focus {
+  box-shadow: 0 0 5px black;
+}
+.e-js.e-treegrid .e-reSizeColbg {
+  border-left-color: gray !important;
+}
+.e-js.e-treegrid .e-gridheadercontainer {
+  
+}
+.e-js.e-treegrid .e-gridheadercontainer {
+  border-right-color: gray !important;
+}
+.e-js.e-columnmenu {
+  background: black;
+  color: lime;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  
+}
+.e-js.e-columnmenu {
+  border-color: gray !important;
+}
+.e-js .e-columnmenuitem .e-icon,
+.e-js .e-menuitem .e-icon {
+  
+}
+.e-js .e-columnmenuitem .e-icon,
+.e-js .e-menuitem .e-icon {
+  color: white;
+}
+.e-js.e-treegrid .e-toolbaricons {
+  
+}
+.e-js.e-treegrid .e-toolbaricons {
+  color: white;
+}
+.e-js .e-columnmenuselection .e-icon,
+.e-js .e-contextmenu-mouseover .e-icon {
+  
+}
+.e-js .e-columnmenuselection .e-icon,
+.e-js .e-contextmenu-mouseover .e-icon {
+  color: white;
+}
+.e-js.e-treegrid .e-tooltxt.e-hover > span {
+  
+}
+.e-js.e-treegrid .e-tooltxt.e-hover > span {
+  color: white;
+}
+.e-js .e-columnSelector {
+  background: black;
+  border: 1px solid;
+  border-color: gray !important;
+  color: lime !important;
+}
+.e-js .e-columnMenuListDiv label {
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-js .e-columnmenuselection {
+  
+  color: white;
+}
+.e-js .e-columnmenuselection {
+  background: #1010af;
+}
+.e-js.e-treegrid .e-summaryrow {
+  
+}
+.e-js.e-treegrid .e-summaryrow {
+  background: #0a0a0a;
+}
+.e-js.e-treegrid .e-footersummaryrow,
+.e-js.e-treegrid .e-footersummaryrowdiv {
+  
+}
+.e-js.e-treegrid .e-footersummaryrow,
+.e-js.e-treegrid .e-footersummaryrowdiv {
+  background: #0a0a0a;
+}
+.e-js.e-treegrid .e-footersummaryrowdiv {
+  border-width: 0px 1px 1px 1px;
+  border-style: solid;
+  border-color: gray;
+}
+.e-js.e-treegrid .e-summaryrow .e-summaryrowcell {
+  
+}
+.e-js.e-treegrid .e-summaryrow .e-summaryrowcell {
+  border-bottom-color: gray;
+}
+.e-js.e-contextmenu,
+.e-js.e-innerContextmenu {
+  
+  background: black;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-js.e-contextmenu,
+.e-js.e-innerContextmenu {
+  border-color: gray !important;
+  color: lime;
+}
+.e-js.e-headerContextmenu {
+  
+  background: black;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  border: 1px solid;
+}
+.e-js.e-headerContextmenu {
+  border-color: gray !important;
+  color: lime;
+}
+.e-js .e-contextmenu-mouseover {
+  
+}
+.e-js .e-contextmenu-mouseover {
+  color: white;
+}
+.e-js .e-contextmenu-mouseover {
+  background: #1010af;
+}
+.e-js.e-tooltipgantt {
+  
+}
+.e-js.e-tooltipgantt {
+  background-color: black;
+  color: lime;
+  border-color: gray;
+}
+.e-js.e-treegrid .e-movablecontainer,
+.e-js.e-treegrid .e-movableheader,
+.e-js.e-treegrid .e-movablefooter {
+  
+}
+.e-js.e-treegrid .e-movablecontainer,
+.e-js.e-treegrid .e-movableheader,
+.e-js.e-treegrid .e-movablefooter {
+  border-left-color: blue;
+}
+.e-js.e-treegrid .e-footercontainer {
+  border-right-color: gray;
+}
+.e-js.e-headervline {
+  
+}
+.e-js.e-headervline {
+  border-color: blue;
+}
+.e-js.e-headertooltip {
+  
+}
+.e-js.e-headertooltip {
+  color: white;
+  background-color: black;
+  border-color: gray;
+}
+.e-js .e-menuitem-hr {
+  border-width: 1px 0px 0px 0px;
+  border-style: solid;
+  
+}
+.e-js .e-menuitem-hr {
+  border-color: gray;
+}
+
+
+.e-widget .e-treegrid-resIcon {
+  
+}
+.e-widget .e-treegrid-resIcon {
+  color: white;
+}

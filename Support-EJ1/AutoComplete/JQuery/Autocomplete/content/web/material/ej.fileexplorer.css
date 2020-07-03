@@ -1,0 +1,465 @@
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*-----------------------OLAP Definition-----------------*/
+/*-----------------------OLAP Definition End-----------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*------------------ DatePicker ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: white;
+  color: #111111;
+  border-color: #e0e0e0;
+  font-family: 'Roboto', Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-fileexplorer,
+.e-fileexplorer input:not(.e-textbox),
+input.e-fe-dialog-text:not(.e-textbox),
+.e-fe-toolbar.e-responsive-toolbar input {
+  border-color: #e0e0e0;
+}
+.e-fileexplorer input,
+input.e-fe-dialog-text {
+  
+}
+.e-fileexplorer,
+.e-fileexplorer input,
+input.e-fe-dialog-text,
+.e-fe-toolbar.e-responsive-toolbar input {
+  
+}
+.e-fileexplorer {
+  border-color: #e0e0e0;
+}
+.e-fileexplorer .e-splitter .e-splitbar,
+.e-fileexplorer .e-statusbar,
+.e-fileexplorer .e-grid .e-gridheader,
+.e-fileexplorer.e-fe-mobile .e-fe-split-icon {
+  border-color: #e0e0e0;
+}
+.e-fileexplorer .e-splitter .e-splitbar.e-h-bar {
+  
+}
+.e-fileexplorer .e-statusbar .e-itemStaus {
+  color: rgba(0, 0, 0, 0.87);
+}
+.e-fileexplorer input:not(.e-textbox),
+.e-fileexplorer .e-grid .e-headercelldiv,
+.e-fileexplorer .e-grid .e-gridcontent tr,
+.e-fileexplorer .e-tileview .e-tilenode .e-name,
+input.e-fe-dialog-text:not(.e-textbox),
+.e-fe-toolbar.e-responsive-toolbar input {
+  
+}
+.e-fileexplorer input:not(.e-textbox),
+.e-fileexplorer .e-grid .e-headercelldiv,
+.e-fileexplorer .e-grid .e-gridcontent tr,
+.e-fileexplorer .e-tileview .e-tilenode .e-name,
+input.e-fe-dialog-text:not(.e-textbox),
+.e-fe-toolbar.e-responsive-toolbar input {
+  color: rgba(0, 0, 0, 0.87);
+}
+.e-fileexplorer .e-tileview .e-tilenode:hover .e-name,
+.e-fileexplorer .e-grid .e-gridcontent tr.e-hover td {
+  color: #212121;
+}
+.e-fileexplorer.e-js .e-grid td.e-active,
+.e-fileexplorer .e-tileview .e-tilenode.e-active .e-name {
+  
+}
+.e-fileexplorer.e-js .e-grid td.e-active,
+.e-fileexplorer .e-tileview .e-tilenode.e-active .e-name {
+  color: rgba(0, 0, 0, 0.87);
+}
+.e-fileexplorer .e-tileview .e-tilenode.e-active:hover {
+  border-color: #e0e0e0;
+}
+.e-fileexplorer .e-tileview .e-tilenode.e-active:hover {
+  background: #e0e0e0;
+}
+.e-fileexplorer .e-tileview .e-tilenode.e-active:hover .e-name {
+  
+}
+.e-fileexplorer .e-tileview .e-tilenode.e-active:hover .e-name {
+  color: #212121;
+}
+.e-fileexplorer .e-toolbar .e-fe-split-button .e-active .e-icon,
+.fe-context-menu.e-menu.e-context .e-list.e-active > .e-menulink > .e-fileexplorer-toolbar-icon {
+  
+}
+.e-fileexplorer .e-toolbar .e-fe-split-button.e-hover .e-active .e-icon,
+.e-fileexplorer .e-toolbar .e-fe-split-button.e-hover .e-icon {
+  
+}
+.e-fileexplorer .e-treeview .e-fe-node-hover,
+.e-fe-dialog.e-icon.e-close:hover {
+  
+}
+.e-fileexplorer.e-js .e-tilenode.e-active,
+.e-fileexplorer.e-js .e-grid .e-gridcontent tr td.e-active {
+  
+}
+.e-fileexplorer.e-js .e-tilenode.e-active,
+.e-fileexplorer.e-js .e-grid .e-gridcontent tr td.e-active {
+  border-color: whitesmoke;
+  background: whitesmoke;
+}
+.e-fileexplorer.e-js .e-tilenode.e-active:hover,
+.e-fileexplorer.e-js .e-grid .e-gridcontent tr:hover td.e-active {
+  
+}
+.e-fileexplorer.e-js .e-tilenode.e-active:hover,
+.e-fileexplorer.e-js .e-grid .e-gridcontent tr:hover td.e-active {
+  border-color: #eeeeee;
+  background: #eeeeee;
+}
+.e-fileexplorer.e-js .e-statusbar .e-active .e-icon {
+  
+}
+.e-fileexplorer.e-js .e-treeview .e-text:hover,
+.e-fileexplorer .e-actionbar .e-btn.e-select:hover,
+.e-fileexplorer .e-treeview .e-text.e-file-droppable {
+  
+}
+.e-fileexplorer input:not(.e-textbox),
+input.e-fe-dialog-text:not(.e-textbox),
+.e-fe-toolbar.e-responsive-toolbar input,
+.e-fe-split-context.e-menu.e-context.e-split,
+.e-fe-split-context.e-menu.e-widget.e-split li.e-list {
+  background: white;
+}
+.e-fileexplorer .e-tilenode.e-hover,
+.e-fileexplorer .e-grid .e-gridcontent tr.e-hover td,
+.e-fileexplorer .e-tilenode.e-file-droppable,
+.e-fileexplorer .e-grid .e-gridcontent tr.e-file-droppable td,
+.e-fileexplorer .e-treeview .e-text.e-file-droppable {
+  
+}
+.e-fileexplorer .e-tilenode.e-hover,
+.e-fileexplorer .e-grid .e-gridcontent tr.e-hover td,
+.e-fileexplorer .e-tilenode.e-file-droppable,
+.e-fileexplorer .e-grid .e-gridcontent tr.e-file-droppable td,
+.e-fileexplorer .e-treeview .e-text.e-file-droppable {
+  border-color: #eeeeee;
+  background: #eeeeee;
+}
+.e-fileexplorer .e-switchGridView.e-button:hover,
+.e-fileexplorer .e-swithListView.e-button:hover {
+  
+  border-color: #e0e0e0;
+}
+.e-fileexplorer .e-switchGridView.e-button:hover,
+.e-fileexplorer .e-swithListView.e-button:hover {
+  background: #e0e0e0;
+}
+.e-fileexplorer .e-toolbar .e-fe-split-button.e-hover .e-btn.e-select,
+.e-fileexplorer .e-toolbar .e-fe-split-button .e-btn.e-select:focus {
+  
+}
+.e-fileexplorer .e-toolbar > .e-horizontal > .e-active > span.e-fe-folder {
+  
+}
+.e-fileexplorer .e-toolbar .e-hover .e-tool-input,
+.e-fe-toolbar.e-responsive-toolbar .e-hover .e-tool-input {
+  
+}
+.e-fileexplorer.e-js .e-toolbar .e-feItem-Addressbar.e-hover,
+.e-fileexplorer.e-js .e-toolbar .e-feItem-Searchbar.e-hover,
+.e-fe-toolbar.e-responsive-toolbar.e-js .e-feItem-Addressbar.e-hover,
+.e-fe-toolbar.e-responsive-toolbar.e-js .e-feItem-Searchbar.e-hover {
+  
+}
+.e-fileexplorer .e-split.e-widget .e-split-btn.e-left-btn,
+.e-fileexplorer .e-split.e-widget .e-split-btn.e-drp-btn,
+.e-fe-toolbar .e-split.e-widget .e-split-btn.e-left-btn,
+.e-fe-toolbar .e-split.e-widget .e-split-btn.e-drp-btn {
+  background: none;
+}
+.e-fileexplorer .e-toolbar > .e-horizontal > .e-active > span.e-fe-folder {
+  background-color: transparent;
+}
+.e-fileexplorer .e-toolbar input,
+.e-fe-toolbar.e-responsive-toolbar.e-toolbar input {
+  border-color: rgba(0, 0, 0, 0.26);
+}
+.e-fileexplorer .e-toolbar input::selection,
+.e-fe-toolbar.e-responsive-toolbar.e-toolbar input::selection {
+  color: white;
+  background: #ff4081;
+}
+.e-fileexplorer .e-toolbar .e-tool-input:focus,
+.e-fe-toolbar.e-responsive-toolbar .e-tool-input:focus {
+  border-color: rgba(0, 0, 0, 0.38);
+}
+.e-fileexplorer .e-toolbar .e-hover .e-tool-input,
+.e-fe-toolbar.e-responsive-toolbar .e-hover .e-tool-input {
+  border-color: rgba(0, 0, 0, 0.38);
+}
+.e-fileexplorer.e-js .e-toolbar .e-feItem-Addressbar.e-hover,
+.e-fileexplorer.e-js .e-toolbar .e-feItem-Searchbar.e-hover,
+.e-fe-toolbar.e-responsive-toolbar.e-js .e-feItem-Addressbar.e-hover,
+.e-fe-toolbar.e-responsive-toolbar.e-js .e-feItem-Searchbar.e-hover {
+  background: transparent;
+  border-color: transparent;
+}
+.e-fileexplorer .e-statusbar .e-switchView .e-btn.e-select.e-flat .e-icon {
+  color: rgba(0, 0, 0, 0.54);
+}
+.e-fileexplorer .e-statusbar .e-switchView .e-btn.e-select.e-active.e-flat .e-icon {
+  color: #ff4081;
+}
+.e-fileexplorer .e-split.e-widget:hover .e-in-wrap .e-split-btn.e-left-btn,
+.e-fe-toolbar.e-responsive-toolbar .e-split.e-widget:hover .e-in-wrap .e-split-btn.e-left-btn {
+  background-color: #e0e0e0;
+}
+.e-fileexplorer .e-tooltxt.e-feItem-Addressbar.e-active:after,
+.e-fe-toolbar.e-responsive-toolbar .e-tooltxt.e-feItem-Searchbar.e-active:after {
+  animation: none;
+}
+.e-fileexplorer .e-scrollbar .e-vscroll,
+.e-fileexplorer .e-scrollbar .e-hscroll {
+  border-color: #e0e0e0;
+}
+.e-fileexplorer .e-toolbar > .e-horizontal .e-fe-split-button .e-active,
+.e-fe-toolbar.e-responsive-toolbar .e-horizontal .e-fe-split-button .e-active {
+  background: #e0e0e0;
+  box-shadow: none;
+}
+.e-fileexplorer .e-statusbar .e-switchView .e-button.e-active:focus,
+.e-fileexplorer .e-statusbar .e-switchView .e-button.e-active:focus:hover {
+  background-color: rgba(255, 64, 129, 0.26);
+}
+.e-fileexplorer .e-statusbar .e-switchView .e-active.e-btn.e-select .e-icon {
+  color: #ff4081;
+}
+.e-fileexplorer .e-toolbar {
+  
+}
+.e-fileexplorer .e-toolbar {
+  
+}
+.e-fe-toolbar.e-toolbar .e-feItem-Searchbar.e-tooltxt.e-active {
+  background: transparent;
+}
+.e-fileexplorer .e-grid .e-gridheader,
+.e-fileexplorer .e-grid .e-gridheader.e-scrollcss,
+.e-fileexplorer .e-grid .e-gridheader .e-headercell {
+  background: white;
+}
+.e-fileexplorer .e-alt_row,
+.e-fileexplorer .e-gridheader,
+.e-fileexplorer .e-gridheader .e-headercell,
+.e-fileexplorer .e-grid .e-gridcontent,
+.e-fileexplorer .e-splitter .e-pane,
+.e-fileexplorer .e-scroller .e-scrollbar .e-vhandlespace,
+.e-fileexplorer .e-scroller .e-scrollbar .e-hhandlespace {
+  background-color: white;
+}
+.e-fileexplorer .e-tilenode.e-hover .e-thumbImage {
+  border-color: #e0e0e0;
+}
+.e-fileexplorer.e-js .e-active .e-thumbImage {
+  border-color: #3f51b5;
+}
+.e-menu > .e-list.e-fe-separator {
+  border-color: #e0e0e0;
+}
+.e-fileexplorer .e-toolbar .e-hover .e-tool-input,
+.e-fe-toolbar.e-responsive-toolbar .e-hover .e-tool-input,
+.e-fileexplorer .e-toolbar .e-tool-input:focus,
+.e-fe-toolbar.e-responsive-toolbar .e-tool-input:focus {
+  
+}
+.e-fileexplorer .e-toolbar .e-feItem-Addressbar.e-hover,
+.e-fileexplorer .e-toolbar .e-feItem-Searchbar.e-hover,
+.e-fe-toolbar.e-responsive-toolbar .e-feItem-Addressbar.e-hover,
+.e-fe-toolbar.e-responsive-toolbar .e-feItem-Searchbar.e-hover,
+.e-fileexplorer .e-toolbar .e-feItem-Searchbar.e-active,
+.e-fileexplorer .e-toolbar .e-feItem-Addressbar.e-active,
+.e-fe-toolbar.e-responsive-toolbar .e-feItem-Searchbar.e-active,
+.e-fe-toolbar.e-responsive-toolbar .e-feItem-Addressbar.e-active {
+  
+}
+.e-fileexplorer .e-toolbar .e-feItem-Addressbar.e-hover,
+.e-fileexplorer .e-toolbar .e-feItem-Searchbar.e-hover,
+.e-fe-toolbar.e-responsive-toolbar .e-feItem-Addressbar.e-hover,
+.e-fe-toolbar.e-responsive-toolbar .e-feItem-Searchbar.e-hover,
+.e-fileexplorer .e-toolbar .e-feItem-Searchbar.e-active,
+.e-fileexplorer .e-toolbar .e-feItem-Addressbar.e-active,
+.e-fe-toolbar.e-responsive-toolbar .e-feItem-Searchbar.e-active,
+.e-fe-toolbar.e-responsive-toolbar .e-feItem-Addressbar.e-active {
+  background: whitesmoke;
+  border-color: whitesmoke;
+}
+.e-fileexplorer .e-toolbar .e-fe-split-button.e-hover,
+.e-fe-toolbar.e-responsive-toolbar .e-fe-split-button.e-hover,
+.e-fileexplorer .e-toolbar .e-fe-split-button.e-active,
+.e-fe-toolbar.e-responsive-toolbar .e-fe-split-button.e-active {
+  
+}
+.e-dialog .e-fe-table table tr .e-readonly {
+  background: white;
+  color: #212121;
+}
+.e-dialog .e-fe-table table .e-border {
+  border-color: #e0e0e0;
+}
+.e-fileexplorer .e-toolbar .e-fe-split-button .e-active .e-btn {
+  
+}
+.e-fileexplorer .e-splitter .e-splitbar.e-shadowbar,
+.e-fileexplorer .e-splitter .e-splitbar.e-split-divider,
+.e-fileexplorer .e-splitter .e-splitbar.e-split-divider:hover,
+.e-fileexplorer .e-splitter .e-hover.e-splitbar.e-split-divider {
+  background-color: transparent;
+}
+.e-fileexplorer .e-fe-popup .e-content {
+  background-color: white;
+  border-color: #e0e0e0;
+}
+.e-fileexplorer .e-fe-popup .e-downtail:after {
+  border-top-color: white;
+}
+.e-fileexplorer .e-fe-popup .e-downtail:before,
+.e-fileexplorer .e-fe-popup .e-downtail {
+  border-top-color: #e0e0e0;
+}
+.e-fileexplorer .e-fe-popup span:hover,
+.e-fileexplorer .e-fe-popup .e-spanclicked {
+  border-color: #424242;
+}
+.e-fileexplorer .e-tile-wrapper.e-js.e-file-droppable,
+.e-fileexplorer .e-grid .e-gridcontent.e-file-droppable {
+  box-shadow: 0px 0px 6px -1px #e0e0e0 inset;
+}
+.e-fe-dialog.e-dialog .e-fe-table tr td:first-child {
+  color: rgba(0, 0, 0, 0.38);
+  border-color: rgba(0, 0, 0, 0.38);
+}
+/*------------------------------------------------------------------*/
+
+.e-fileexplorer .e-toolbar.e-js {
+  border-bottom: 1px solid #e0e0e0;
+}
+.fe-context-menu.e-menu.e-context .e-mhover > a > span.e-fileexplorer-toolbar-icon,
+.fe-context-menu.e-menu.e-context .e-mfocused > a > span.e-fileexplorer-toolbar-icon {
+  
+}
+.e-fileexplorer .e-toolbar.e-focus {
+  
+}
+.e-fileexplorer .e-toolbar > ul > li .e-splitbutton.e-btn.e-select {
+  
+}
+.e-fileexplorer .e-toolbar > ul > li .e-split.e-active .e-splitbutton.e-btn.e-select {
+  
+}
+.e-fileexplorer .e-toolbar > ul > .e-fe-split-button.e-hover .e-split.e-active .e-splitbutton.e-btn.e-select {
+  
+}
+.e-fileexplorer .e-toolbar > ul > li .e-splitbutton.e-btn.e-ntouch.e-select:hover {
+  
+}
+.e-fileexplorer .e-toolbar .e-hover .e-tool-input,
+.e-fe-toolbar.e-responsive-toolbar .e-hover .e-tool-input,
+.e-fileexplorer .e-toolbar .e-tool-input:focus,
+.e-fe-toolbar.e-responsive-toolbar .e-tool-input:focus {
+  
+}
+.e-fe-dialog input.e-fe-dialog-text {
+  box-shadow: none;
+  border-color: rgba(0, 0, 0, 0.12);
+}
+.e-fe-dialog input.e-fe-dialog-text:hover,
+.e-fe-dialog input.e-fe-dialog-text:focus {
+  
+}
+.e-fe-dialog input.e-fe-dialog-text:focus {
+  box-shadow: none;
+  border-color: #ff4081;
+}
+.e-fileexplorer .e-toolbar > ul > li .e-split {
+  
+}
+.e-fileexplorer .e-statusbar .e-button.e-btn:after {
+  background-color: rgba(255, 64, 129, 0.38);
+}
+.e-fileexplorer .e-tile-wrapper .e-fe-selection-rect,
+.e-fileexplorer .e-gridcontent .e-fe-selection-rect {
+  
+  background-color: rgba(255, 64, 129, 0.2);
+}
+.e-fileexplorer .e-tile-wrapper .e-fe-selection-rect,
+.e-fileexplorer .e-gridcontent .e-fe-selection-rect {
+  border: 1px solid #ff4081;
+}
+.e-fileexplorer.e-ie8 .e-tile-wrapper .e-fe-selection-rect.e-active,
+.e-fileexplorer.e-ie8 .e-gridcontent .e-fe-selection-rect.e-active {
+  background-color: #3f51b5;
+}
+.e-fileexplorer .e-toolbar .e-tool-input:focus,
+.e-fe-toolbar.e-responsive-toolbar .e-tool-input:focus,
+.e-fe-dialog input.e-fe-dialog-text:focus {
+  
+}
+.e-fileexplorer .e-toolbar .e-tool-input:hover,
+.e-fe-toolbar.e-responsive-toolbar .e-tool-input:hover,
+.e-fe-dialog input.e-fe-dialog-text:hover {
+  
+}
+.e-fe-dialog input.e-fe-dialog-text {
+  
+}
+.e-fileexplorer input:not(.e-textbox),
+.e-fileexplorer .e-grid .e-headercelldiv,
+.e-fileexplorer .e-grid .e-gridcontent tr,
+.e-fileexplorer .e-tileview .e-tilenode .e-name,
+input.e-fe-dialog-text:not(.e-textbox),
+.e-fe-toolbar.e-responsive-toolbar input {
+  
+}
+.e-fileexplorer .e-statusbar .e-switchView .e-button.e-active:focus,
+.e-fileexplorer .e-statusbar .e-switchView .e-button.e-active:focus:hover {
+  
+}
+.e-fileexplorer .e-statusbar .e-switchView .e-active.e-btn.e-select .e-icon {
+  
+}
+.e-fileexplorer .e-statusbar .e-btn.e-select:hover .e-icon {
+  
+}
+.e-fileexplorer .e-switchGridView.e-button.e-active {
+  
+}
+.e-fileexplorer .e-switchGridView.e-button.e-active .e-icon {
+  
+}
+.e-fileexplorer .e-toolbar .e-split.e-widget .e-btn.e-select:active .e-icon,
+.e-fe-toolbar .e-split.e-widget .e-btn.e-select:active .e-icon {
+  
+}

@@ -1,0 +1,172 @@
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*-----------------------OLAP Definition-----------------*/
+/*-----------------------OLAP Definition End-----------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*------------------ DatePicker ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: white;
+  color: #111111;
+  border-color: #e0e0e0;
+  font-family: 'Roboto', Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+/*------------------------------------- Rotator -------------------------------------------*/
+
+.e-rotator-wrap :focus {
+  outline: 0 none;
+}
+.e-rotator-wrap .e-in-wrap .e-single,
+.e-rotator-wrap .e-thumb .e-thumb-items li,
+.e-rotator-wrap .e-in-wrap.e-multiple {
+  border-color: #e0e0e0;
+}
+.e-rotator-wrap .e-thumb .e-thumb-items li:hover {
+  
+}
+.e-rotator-wrap .e-thumb .e-thumb-items li:hover {
+  border-color: #eeeeee;
+}
+.e-rotator-wrap .e-thumb .e-thumb-items li.e-active,
+.e-rotator-wrap.e-disable .e-thumb .e-thumb-items li.e-active:hover {
+  
+}
+.e-rotator-wrap .e-thumb .e-thumb-items li.e-active,
+.e-rotator-wrap.e-disable .e-thumb .e-thumb-items li.e-active:hover {
+  border-color: #eeeeee;
+}
+.e-rotator-wrap .e-thumb .e-thumb-items li.e-thumbhover {
+  border-color: #e0e0e0;
+}
+.e-rotator-wrap.e-disable .e-thumb .e-thumb-items li:hover,
+.e-rotator-wrap.e-disable .e-thumb .e-thumb-items li.e-thumbhover {
+  border-color: #e0e0e0;
+}
+.e-rotator-wrap .e-inner .e-caption {
+  
+}
+.e-rotator-wrap .e-inner .e-caption {
+  color: white;
+  opacity: 1.5;
+}
+.e-rotator-wrap .e-pager-wrap .e-bullet > li:hover {
+  border-color: #e0e0e0;
+  
+}
+.e-rotator-wrap .e-pager-wrap .e-bullet > li:hover {
+  background-color: white;
+}
+.e-rotator-wrap.e-disable .e-pager-wrap .e-bullet > li:hover {
+  border-color: #e0e0e0;
+  background-color: whitesmoke;
+}
+.e-rotator-wrap.e-disable .e-pager-wrap .e-bullet > li {
+  cursor: default;
+}
+.e-rotator-wrap .e-pager-wrap .e-bullet > li.e-active,
+.e-rotator-wrap.e-disable .e-pager-wrap .e-bullet > li.e-active:hover {
+  
+}
+.e-rotator-wrap .e-pager-wrap .e-bullet > li.e-active,
+.e-rotator-wrap.e-disable .e-pager-wrap .e-bullet > li.e-active:hover {
+  width: 16px;
+  height: 16px;
+  margin-bottom: 0px;
+}
+.e-rotator-wrap .e-pager-wrap .e-bullet > li {
+  border-color: #e0e0e0;
+  
+}
+.e-rotator-wrap .e-pager-wrap .e-bullet > li {
+  height: 8px;
+  width: 8px;
+  background-color: white;
+}
+.e-rotator-wrap .e-in-wrap .e-nav-btn.e-icon,
+.e-rotator-wrap .e-thumb-nav .e-thumb-btn.e-icon {
+  background-image: url(images/rotator-icon.png);
+}
+.e-rotator-wrap .e-in-wrap .e-nav-btn.e-icon.play {
+  background-position: -161px 0px;
+  
+}
+.e-rotator-wrap .e-in-wrap .e-nav-btn.e-icon.pause {
+  background-position: -248px 0px;
+  
+}
+.e-rotator-wrap .e-in-wrap .e-nav-btn.e-icon.e-previous {
+  background-position: -64px -15px;
+  
+}
+.e-rotator-wrap .e-in-wrap .e-nav-btn.e-icon.e-next {
+  background-position: -109px -15px;
+  
+}
+.e-rotator-wrap .e-thumb-nav .e-thumb-btn.e-icon.e-previous {
+  
+}
+.e-rotator-wrap .e-thumb-nav .e-thumb-btn.e-icon.e-previous {
+  background: none;
+}
+.e-rotator-wrap .e-thumb-nav .e-thumb-btn.e-icon.e-next {
+  
+}
+.e-rotator-wrap .e-thumb-nav .e-thumb-btn.e-icon.e-next {
+  background: none;
+}
+.e-rotator-wrap .e-pager-wrap .e-bullet {
+  padding-top: 20px;
+}
+.e-rotator-wrap .e-pager-wrap .e-bullet > li:hover,
+.e-rotator-wrap .e-pager-wrap .e-bullet > li.e-active {
+  border-color: #e0e0e0;
+}
+.e-rotator-wrap .e-inner .e-caption > span {
+  font-size: 20px;
+  margin-left: 24px;
+  margin-bottom: 24px;
+  font-family: 'Roboto', Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-rotator-wrap .e-thumb-nav .e-thumb-btn.e-icon.e-previous:before {
+  content: "\e630";
+}
+.e-rotator-wrap .e-thumb-nav .e-thumb-btn.e-icon.e-next:before {
+  content: "\e62f";
+}
+.e-rotator-wrap .e-thumb-nav .e-thumb-btn {
+  height: 36px;
+  width: 36px;
+  font-size: 20px;
+}
+.e-rotator-wrap .e-thumb-nav .e-thumb-btn.e-icon {
+  color: rgba(0, 0, 0, 0.54);
+}
+.e-rotator-wrap.e-Focused .e-shadow {
+  box-shadow: 0 0 9px transparent !important;
+}

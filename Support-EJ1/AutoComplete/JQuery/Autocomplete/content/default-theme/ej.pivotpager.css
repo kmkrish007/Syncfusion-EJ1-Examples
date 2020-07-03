@@ -1,0 +1,226 @@
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*-----------------------OLAP Definition-----------------*/
+/*-----------------------OLAP Definition End-----------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*----------------------material theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: white;
+  color: #111111;
+  border-color: #c8c8c8;
+  font-family: Segoe UI, Helvetica Neue;
+}
+.e-pivotpager .pagerTextBox {
+  display: inline-block;
+  
+}
+.e-pivotpager .pagerTextBox {
+  height: 18px;
+  width: 35px;
+  color: #686969;
+}
+
+.e-pivotpager .movePrevious,
+.e-pivotpager .moveNext,
+.e-pivotpager .moveFirst,
+.e-pivotpager .moveLast {
+  display: inline-block;
+  
+  position: relative;
+  top: 1px;
+  cursor: pointer;
+}
+.e-pivotpager .movePrevious,
+.e-pivotpager .moveNext,
+.e-pivotpager .moveFirst,
+.e-pivotpager .moveLast {
+  width: 18px;
+  height: 18px;
+}
+.e-pivotpager .moveFirst:before {
+  
+  font-size: 14px;
+}
+.e-pivotpager .moveFirst:before {
+  content: "\e62a";
+}
+.e-pivotpager .moveFirst:before {
+  margin-left: 5px;
+}
+.e-pivotpager .moveLast:before {
+  
+  font-size: 14px;
+}
+.e-pivotpager .moveLast:before {
+  content: "\e62c";
+}
+.e-pivotpager .moveLast:before {
+  margin-left: 5px;
+}
+.e-pivotpager .categPagerTd {
+  
+}
+.e-pivotpager .categPagerTd {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #686969;
+}
+.e-pivotpager.e-rtl .categPagerTd {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #686969;
+  border-right-style: hidden !important;
+}
+.e-pivotpager.e-rtl .pagerDiv,
+.e-pivotpager.e-rtl .seriesPagerTd {
+  direction: ltr;
+}
+.e-pivotpager .movePrevious:before {
+  
+  font-size: 14px;
+}
+.e-pivotpager .movePrevious:before {
+  content: "\e665";
+}
+.e-pivotpager .movePrevious:before {
+  margin-left: 5px;
+}
+.e-pivotpager .moveNext:before {
+  
+  font-size: 14px;
+}
+.e-pivotpager .moveNext:before {
+  content: "\e67e";
+}
+.e-pivotpager .moveNext:before {
+  margin-left: 5px;
+}
+.e-pivotpager .categPageCount,
+.e-pivotpager .seriesPageCount {
+  cursor: default;
+  
+}
+.e-pivotpager .categPageCount,
+.e-pivotpager .seriesPageCount {
+  padding: 0px 0px 0px 5px;
+}
+.e-pivotpager .pagerDiv {
+  
+}
+.e-pivotpager .pagerDiv {
+  margin: 3px;
+  padding: 7px;
+  color: #686969;
+}
+.e-pivotpager .pagerLabel {
+  cursor: default;
+  display: inline-block;
+  
+}
+.e-pivotpager .pagerLabel {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.e-pivotpager .disabled {
+  
+  cursor: default !important;
+}
+.e-pivotpager .disabled {
+  opacity: 0.4;
+}
+.e-pivotpager .pivotpager {
+  overflow: auto;
+}
+.e-pivotpager input {
+  background: white;
+}
+.e-pivotpager .pagerTextBox:active,
+.e-pivotpager .pagerTextBox:focus {
+  
+}
+.e-pivotpager .pagerTextBox:hover {
+  
+}
+.e-pivotpager .categPagerTd .pagerDiv {
+  
+}
+.e-pivotpager .seriesPagerTd .pagerDiv {
+  
+}
+.e-pivotpager.e-rtl .categPagerTd .pagerDiv {
+  
+}
+.e-pivotpager.e-rtl .seriesPagerTd .pagerDiv {
+  
+}
+.e-pivotpager .moveFirst:before {
+  
+}
+.e-pivotpager .movePrevious:hover,
+.e-pivotpager .moveNext:hover,
+.e-pivotpager .moveFirst:hover,
+.e-pivotpager .moveLast:hover {
+  
+}
+.e-pivotpager .movePrevious:active,
+.e-pivotpager .moveNext:active,
+.e-pivotpager .moveFirst:active,
+.e-pivotpager .moveLast:active {
+  
+}
+.e-pivotpager .disabled:hover,
+.e-pivotpager .disabled:active {
+  
+}
+.e-pivotpager .pagerLabel,
+.e-pivotpager .seriesPageCount,
+.e-pivotpager .categPageCount,
+.e-pivotpager .pagerTextBox,
+.e-pivotpager .movePrevious,
+.e-pivotpager .moveNext,
+.e-pivotpager .moveFirst,
+.e-pivotpager .moveLast {
+  
+}
+.e-pivotpager .movePrevious:before,
+.e-pivotpager .moveNext:before,
+.e-pivotpager .moveFirst:before,
+.e-pivotpager .moveLast:before {
+  
+}
+.e-pivotpager tr {
+  
+}
+.e-pivotpager .movePrevious.disabled,
+.e-pivotpager .moveNext.disabled,
+.e-pivotpager .moveFirst.disabled,
+.e-pivotpager .moveLast.disabled {
+  
+}
+.e-pivotpager table {
+  background-color: white;
+  
+}

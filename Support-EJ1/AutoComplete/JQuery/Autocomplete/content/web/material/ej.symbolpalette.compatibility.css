@@ -1,0 +1,184 @@
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*-----------------------OLAP Definition-----------------*/
+/*-----------------------OLAP Definition End-----------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*------------------ DatePicker ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: white;
+  color: #111111;
+  border-color: #e0e0e0;
+  font-family: 'Roboto', Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-datavisualization-symbolpalette {
+  border: 1px solid #e0e0e0;
+  outline: transparent none 0px;
+  text-decoration: none;
+  font-family: 'Roboto', Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  font-size: 14px;
+  border-radius: 0px;
+}
+.e-datavisualization-symbolpalette .e-scanvas {
+  border: 0px solid transparent;
+}
+.e-datavisualization-symbolpalette .e-header {
+  display: table;
+  border: 0px solid transparent;
+  border-bottom-width: 1px;
+  border-bottom-color: #e0e0e0;
+  outline: transparent none 0px;
+  cursor: pointer;
+  color: #212121;
+  position: relative;
+  width: 100%;
+  background: whitesmoke;
+  border-radius: 0px;
+}
+.e-datavisualization-symbolpalette .e-header {
+  background: whitesmoke;
+}
+.e-datavisualization-symbolpalette .e-header-text {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 1em;
+  width: 100%;
+  text-align: left;
+  font-size: 14px;
+}
+.e-datavisualization-symbolpalette .e-header-wrapper {
+  padding-left: 2.5em;
+}
+.e-datavisualization-symbolpalette .e-header-arrow {
+  border: 0px solid transparent;
+  height: 16px;
+  width: 16px;
+  right: 14px;
+  position: absolute;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 17px;
+  top: 10px;
+}
+.e-datavisualization-symbolpalette .e-header-arrow.expanded:before {
+  content: "\e631";
+}
+.e-datavisualization-symbolpalette .e-header-arrow.collapsed:before {
+  content: "\e62f";
+}
+.e-datavisualization-symbolpalette .e-header-arrow.expanded.selected:before,
+.e-datavisualization-symbolpalette .e-header-arrow.expanded.hover:before {
+  content: "\e631";
+}
+.e-datavisualization-symbolpalette .e-header-arrow.collapsed.selected:before,
+.e-datavisualization-symbolpalette .e-header-arrow.collapsed.hover:beforess {
+  content: "\e62f";
+}
+.e-datavisualization-symbolpalette .e-header.collapsed.selected,
+.e-datavisualization-symbolpalette .e-header.expanded.selected {
+  /*.custom-gradient(@active-gradient-color, @active-bg-stcolor, @active-bg-endcolor, 0%, 0% );*/
+  background-color: #fafafa;
+  color: white;
+}
+.e-datavisualization-symbolpalette .e-header.collapsed.hover,
+.e-datavisualization-symbolpalette .e-header.expanded.hover {
+  color: #212121;
+}
+.e-datavisualization-symbolpalette .e-header.collapsed.hover,
+.e-datavisualization-symbolpalette .e-header.expanded.hover {
+  background: #e0e0e0;
+}
+.e-datavisualization-symbolpalette .e-header.e-disableclick {
+  cursor: default;
+}
+.e-datavisualization-symbolpalette .e-scontent {
+  display: block;
+  border: 0px solid transparent;
+  outline-style: none;
+  padding: 0.5em;
+  padding-bottom: 0.6em;
+  border-bottom-width: 1px;
+  border-bottom-color: #e0e0e0;
+  background: transparent;
+  overflow: hidden;
+}
+.e-datavisualization-symbolpalette .e-anchor {
+  overflow: hidden;
+  padding: 0px;
+  border: none;
+  display: inline-block;
+  color: #787878;
+  font-size: 11px;
+  font-family: 'Roboto', Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  text-align: center;
+  outline: transparent none 0px;
+  background: transparent;
+  width: 100%;
+}
+.e-datavisualization-symbolpalette .e-paletteItem {
+  border: 0px solid transparent;
+  float: left;
+  padding-right: 3px;
+  padding-top: 3px;
+  margin: 1px;
+  overflow: visible;
+}
+.e-datavisualization-symbolpalette .e-paletteItem.hover {
+  background: #c8e6c9;
+}
+.e-datavisualization-symbolpalette .e-paletteItem.selected {
+  background: #c8e6c9;
+}
+.e-datavisualization-symbolpalette .e-text-container {
+  white-space: nowrap;
+  color: black;
+  overflow: hidden;
+}
+.e-datavisualization-symbolpalette .e-svg-container {
+  display: block;
+  position: relative;
+  border: 0px solid transparent;
+}
+.e-datavisualization-symbolpalette .e-svg-container svg {
+  display: inline;
+  padding: 1px;
+}
+[draggable=true] {
+  -khtml-user-drag: element;
+  -webkit-user-drag: element;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+}
+.svg.foreignObject {
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  border: 0px solid transparent;
+  display: block;
+}

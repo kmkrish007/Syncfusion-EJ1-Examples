@@ -1,0 +1,822 @@
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*-----------------------OLAP Definition-----------------*/
+/*-----------------------OLAP Definition End-----------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*------------------ DatePicker ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: white;
+  color: #111111;
+  border-color: #e0e0e0;
+  font-family: 'Roboto', Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-ribbon.e-js .e-header .e-bottom-line.e-select.e-item,
+.e-ribbon.e-js .e-header .e-top-line.e-select.e-item {
+  
+}
+.e-ribbon.e-js.e-widget {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  font-size: 14px;
+}
+.e-widgetej-ribbon {
+  display: block;
+}
+.e-widget.e-ribbon .e-rbn-button.e-button .e-btntxt {
+  white-space: pre-wrap;
+  
+}
+.e-widget.e-ribbon .e-rbn-button.e-button .e-btntxt {
+  /*material*/
+  color: rgba(0, 0, 0, 0.87);
+}
+.e-ribbon.e-js .e-header .e-select.e-disable .e-apptabanchor {
+  
+}
+.e-ribbon.e-js .e-groupdiv .e-disable .e-icon {
+  /*material*/
+  color: black;
+}
+.e-widget.e-ribbon .e-rbn-button.e-btn.e-select:focus {
+  box-shadow: none;
+}
+.e-widget.e-ribbon .e-groupdiv > div:after {
+  
+}
+.e-widget.e-ribbon .e-groupdiv > div:after {
+  /*material*/
+  background: #e0e0e0;
+}
+.e-widget.e-ribbon .e-ribbonbackicon {
+  background: #3f51b5;
+}
+.e-widget.e-ribbon .e-backstagetopicon span:hover:before {
+  
+}
+.e-widget.e-ribbon .e-captionarea {
+  
+}
+.e-widget.e-ribbon .e-captionarea {
+  /*material*/
+  color: rgba(0, 0, 0, 0.38);
+}
+.e-widget .e-separatordiv,
+.e-widget .e-separatordivrow {
+  background: #e0e0e0;
+}
+.e-ribbon.e-js .e-content {
+  
+  border-top-width: 0;
+  color: #212121;
+}
+.e-ribbon.e-js .e-content {
+  /*material*/
+  background: whitesmoke;
+}
+.e-ribbon.e-js .e-content {
+  /*not office-365*/
+  border-color: #e0e0e0;
+}
+.e-widget.e-ribbon .e-drp-btn.e-select .e-icon,
+.e-widget.e-ribbon .e-btn.e-select .e-icon {
+  
+}
+.e-widget.e-ribbon .e-rbn-ddl.e-ddl .e-select {
+  background: white;
+  border-color: #e0e0e0;
+  color: #424242;
+  filter: none;
+}
+.e-widget.e-ribbon .e-rbn-ddl.e-ddl .e-select:hover {
+  color: #424242;
+}
+.e-widget.e-ribbon .e-rbn-ddl.e-ddl .e-select:hover {
+  background: #e0e0e0;
+}
+.e-widget.e-ribbon .e-expandcollapse span:hover,
+.e-widget.e-ribbon .e-expander:hover {
+  border-color: #e0e0e0;
+  
+}
+.e-widget.e-ribbon .e-expandcollapse span:hover,
+.e-widget.e-ribbon .e-expander:hover {
+  /*other*/
+
+  color: #424242;
+}
+.e-widget.e-ribbon .e-expandcollapse span:hover,
+.e-widget.e-ribbon .e-expander:hover {
+  background: #e0e0e0;
+}
+.e-widget.e-ribbon .e-expandcollapse span,
+.e-widget.e-ribbon .e-expander {
+  
+}
+.e-widget.e-ribbon .e-expandcollapse span,
+.e-widget.e-ribbon .e-expander {
+  /*other*/
+  color: #424242;
+}
+.e-ribbon.e-js .e-header,
+.e-ribbon.e-js .e-left,
+.e-ribbon.e-js .e-right {
+  
+}
+.e-ribbon.e-js .e-header,
+.e-ribbon.e-js .e-left,
+.e-ribbon.e-js .e-right {
+  /*material*/
+  border-bottom: none;
+}
+.e-ribbon.e-js .e-header,
+.e-ribbon.e-js .e-left,
+.e-ribbon.e-js .e-right {
+  background: #3f51b5;
+}
+.e-ribbon.e-js .e-header,
+.e-ribbon.e-js .e-left,
+.e-ribbon.e-js .e-right {
+  border: 1px solid #3f51b5;
+}
+.e-ribbon.e-js .e-header,
+.e-ribbon.e-js .e-left,
+.e-ribbon.e-js .e-right {
+  
+}
+.e-ribbon.e-js .e-header > .e-select,
+.e-widget.e-ribbon.e-js .e-header > .e-active,
+.e-ribbon.e-js .e-left > .e-active,
+.e-ribbon.e-js .e-right > .e-active,
+.e-ribbon.e-js .e-left > .e-select,
+.e-ribbon.e-js .e-right > .e-select {
+  
+}
+.e-ribbon.e-js .e-header > .e-select:not(.e-apptab) a,
+.e-ribbon.e-tab.e-js .e-header .e-select.e-disable a:hover {
+  
+}
+.e-widget.e-ribbon .e-apptab .e-menu .e-active > a,
+.e-widget.e-ribbon .e-apptab .e-menu .e-active span {
+  
+}
+.e-ribbon.e-js .e-header li.e-select:not(.e-apptab) a:hover {
+  
+}
+.e-ribbon.e-js .e-header .e-active.e-tab a:hover,
+.e-ribbon.e-js .e-header .e-active.e-contextualtabset a:hover {
+  
+}
+.e-ribbon.e-js .e-header .e-active.e-tab a,
+.e-ribbon.e-js .e-header .e-active.e-contextualtabset a {
+  
+}
+.e-widget.e-ribbon .e-apptab .e-menu ul > li > a {
+  color: #212121 !important;
+}
+.e-widget.e-ribbon .e-apptab .e-menu > li > a:hover,
+.e-widget.e-ribbon .e-apptab .e-menu .e-active span:hover,
+.e-widget.e-ribbon .e-apptab .e-menu .e-active,
+.e-widget.e-ribbon .e-apptab .e-menu .e-active > a {
+  
+}
+.e-widget.e-ribbon.e-grpdivhide {
+  border-right: 1px solid #3f51b5 !important;
+}
+.e-widget.e-ribbon.e-rtl.e-grpdivhide {
+  border-left: 1px solid #3f51b5 !important;
+}
+.e-widget.e-ribbon .e-header > .e-apptab .e-menu {
+  /*.custom-gradient(@active-gradient-color, @active-bg-stcolor, @active-bg-endcolor, 0%, 0% );*/
+  background-color: #fafafa;
+}
+.e-widget.e-ribbon .e-header > .e-apptab .e-menu {
+  background: #3f51b5;
+}
+.e-ribbon.e-js .e-header .e-apptab .e-menu > li:first-child > a,
+.e-ribbon.e-js .e-header .e-apptab .e-menu > li:first-child > a > span {
+  
+}
+.e-ribbon.e-js .e-header .e-apptab .e-menu > li:first-child > a,
+.e-ribbon.e-js .e-header .e-apptab .e-menu > li:first-child > a > span {
+  color: white;
+}
+.e-ribbon.e-js .e-header > .e-item:hover {
+  
+}
+.e-ribbon.e-js .e-header .e-active.e-tab a,
+.e-ribbon.e-js .e-header .e-active.e-contextualtabset a {
+  
+}
+.e-widget.e-ribbon .e-rbn-button.e-btn.e-select,
+.e-widget.e-ribbon .e-rbn-button.e-btn.e-disable.e-select:hover,
+.e-widget.e-ribbon .e-rbn-button.e-tbtn.e-disable {
+  
+  border-color: white;
+  filter: none;
+}
+.e-widget.e-ribbon .e-rbn-button.e-btn.e-select,
+.e-widget.e-ribbon .e-rbn-button.e-btn.e-disable.e-select:hover,
+.e-widget.e-ribbon .e-rbn-button.e-tbtn.e-disable {
+  /*material*/
+  background: whitesmoke;
+  color: #212121;
+}
+.e-widget.e-ribbon .e-rbn-button.e-btn.e-select .e-btntxt {
+  
+}
+.e-widget.e-rbn-splitbtn.e-menu.e-split,
+.e-widget.e-rbn-splitbtn.e-menu.e-context.e-split,
+.e-widget.e-rbn-splitbtn.e-menu.e-context.e-split .e-list > ul {
+  background: white;
+}
+.e-rbn-splitbtn.e-js.e-menu.e-split ul,
+.e-rbn-splitbtn.e-js.e-menu.e-context.e-split ul,
+.e-rbn-splitbtn.e-js.e-menu.e-context.e-split .e-list > ul,
+.e-rbn-splitbtn.e-js.e-menu.e-widget.e-split li.e-list {
+  background: white;
+}
+.e-widget .e-resizegroupdiv.e-reshover,
+.e-widget .e-resizegroupdiv.e-reshover .e-rbn-button.e-resizebtn,
+.e-widget.e-ribbon.e-responsive .e-backstageli:hover,
+.e-widget.e-ribbon.e-responsive .e-responsivetabli:hover,
+.e-widget.e-ribbon.e-js .e-rbn-button.e-btn.e-select:hover {
+  
+}
+.e-widget .e-resizegroupdiv.e-reshover,
+.e-widget .e-resizegroupdiv.e-reshover .e-rbn-button.e-resizebtn,
+.e-widget.e-ribbon.e-responsive .e-backstageli:hover,
+.e-widget.e-ribbon.e-responsive .e-responsivetabli:hover,
+.e-widget.e-ribbon.e-js .e-rbn-button.e-btn.e-select:hover {
+  /*other*/
+
+  color: #212121;
+}
+.e-widget .e-resizegroupdiv.e-reshover,
+.e-widget .e-resizegroupdiv.e-reshover .e-rbn-button.e-resizebtn,
+.e-widget.e-ribbon.e-responsive .e-backstageli:hover,
+.e-widget.e-ribbon.e-responsive .e-responsivetabli:hover,
+.e-widget.e-ribbon.e-js .e-rbn-button.e-btn.e-select:hover {
+  background: #e0e0e0;
+}
+.e-ribbon.e-js .e-header .e-apptab.e-backstagetab:hover {
+  
+}
+.e-ribbon.e-js .e-header .e-apptab.e-backstagetab:hover a {
+  
+}
+.e-widget.e-ribbon.e-responsive .e-responsivebackstage li:hover,
+.e-widget.e-ribbon.e-responsive .e-responsivebackstage li:hover a {
+  
+}
+.e-widget.e-ribbon .e-rbn-button.e-btn.e-select:active,
+.e-widget.e-ribbon .e-rbn-button.e-btn.e-disable.e-active.e-select:hover,
+.e-widget.e-ribbon .e-rbn-button.e-tbtn.e-active {
+  color: #212121;
+}
+.e-widget.e-ribbon .e-rbn-button.e-btn.e-select:active,
+.e-widget.e-ribbon .e-rbn-button.e-btn.e-disable.e-active.e-select:hover,
+.e-widget.e-ribbon .e-rbn-button.e-tbtn.e-active {
+  background: #7e8bd2;
+}
+.e-widget.e-ribbon .e-rbn-button.e-btn.e-disable.e-active.e-select:hover {
+  
+}
+.e-widget.e-ribbon .e-rbn-button.e-btn.e-select:active .e-icon,
+.e-widget.e-ribbon .e-rbn-button.e-btn.e-active .e-icon,
+.e-widget.e-ribbon .e-rbn-button.e-btn.e-select:hover .e-icon {
+  
+}
+.e-widget.e-ribbon .e-rbn-button.e-btn.e-active .e-icon.e-ribbonresize {
+  
+}
+.e-widget.e-ribbon .e-rbn-button.e-tbtn.e-active.e-disable {
+  background: none;
+}
+.e-ribbon.e-js .e-header .e-apptab .e-menu > .e-list:nth-child(1):not(.e-active) > a:hover,
+.e-ribbon.e-js .e-header .e-apptab .e-menu > li:nth-child(1):not(.e-active) > a:hover span {
+  
+}
+.e-widget.e-ribbon .e-disable {
+  background: white;
+  opacity: 0.35;
+  filter: alpha(opacity=35);
+}
+.e-widget.e-ribbon .e-btn.e-disable.e-select,
+.e-widget.e-ribbon .e-btn.e-disable.e-select:hover,
+.e-widget.e-ribbon .e-tbtn.e-disable,
+.e-widget.e-ribbon .e-tbtn.e-disable:hover,
+.e-widget.e-ribbon .e-split.e-disable,
+.e-widget.e-ribbon .e-split.e-disable:hover,
+.e-widget.e-ribbon .e-btn.e-disable.e-select:active,
+.e-widget.e-ribbon .e-tbtn.e-btn.e-disable.e-select.e-active:hover,
+.e-widget.e-ribbon .e-tbtn.e-btn.e-disable.e-select.e-active {
+  opacity: 0.35;
+  filter: alpha(opacity=35);
+}
+.e-widget.e-ribbon .e-modelDiv {
+  background: white;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.e-widget.e-ribbon .e-groupdiv .e-gallerycontent,
+.e-widget.e-ribbon .e-groupdiv .e-gallexpandcontent,
+.e-widget.e-ribbon .e-resizediv .e-gallerycontent,
+.e-widget.e-ribbon .e-resizediv .e-gallexpandcontent {
+  background: white;
+  border-color: #e0e0e0;
+}
+.e-widget.e-ribbon.e-rtl .e-groupdiv .e-gallerycontent {
+  border-right-color: #e0e0e0;
+}
+.e-widget.e-ribbon .e-groupdiv .e-gallscrollcontent .e-content,
+.e-widget.e-ribbon .e-resizediv .e-gallscrollcontent .e-content {
+  background: white;
+}
+.e-widget.e-ribbon .e-groupdiv .e-gallerymovediv,
+.e-widget.e-ribbon .e-resizediv .e-gallerymovediv,
+.e-widget.e-ribbon .e-groupdiv .e-gallexpandcontent,
+.e-widget.e-ribbon .e-resizediv .e-gallexpandcontent {
+  background: white;
+}
+.e-widget.e-ribbon .e-groupdiv .e-extracontent,
+.e-widget.e-ribbon .e-resizediv .e-extracontent {
+  border-top-color: #e0e0e0;
+}
+.e-widget.e-ribbon .e-groupdiv .e-moveupdiv,
+.e-widget.e-ribbon .e-groupdiv .e-movedowndiv,
+.e-widget.e-ribbon .e-groupdiv .e-expgallerydiv,
+.e-widget.e-ribbon .e-resizediv .e-moveupdiv,
+.e-widget.e-ribbon .e-resizediv .e-movedowndiv,
+.e-widget.e-ribbon .e-resizediv .e-expgallerydiv {
+  border-color: #e0e0e0;
+}
+.e-ribbon.e-js .e-groupdiv .e-rbn-button.e-gallerybtn,
+.e-ribbon.e-js .e-resizediv .e-rbn-button.e-gallerybtn {
+  background: white !important;
+  border-color: white;
+}
+.e-widget.e-ribbon .e-groupdiv .e-rbn-button.e-galleryextrabtn,
+.e-widget.e-ribbon .e-resizediv .e-rbn-button.e-galleryextrabtn,
+.e-ribbon.e-js .e-groupdiv .e-extracontent .e-menu,
+.e-ribbon.e-js .e-resizediv .e-extracontent .e-menu {
+  background: white;
+  color: #212121;
+}
+.e-ribbon.e-js .e-gallerymenu a {
+  
+}
+.e-ribbon.e-js .e-gallerymenu a {
+  /*other*/
+  color: #212121;
+}
+.e-widget.e-ribbon .e-groupdiv .e-rbn-button.e-galleryextrabtn:hover,
+.e-widget.e-ribbon .e-resizediv .e-rbn-button.e-galleryextrabtn:hover {
+  background: #e0e0e0;
+}
+.e-ribbon.e-js .e-groupdiv .e-rbn-button.e-galleryselect,
+.e-ribbon.e-js .e-resizediv .e-rbn-button.e-galleryselect {
+  box-shadow: none;
+  border-color: #3f51b5;
+}
+.e-ribbon.e-js .e-groupdiv .e-rbn-button.e-gallerybtn:hover,
+.e-ribbon.e-js .e-resizediv .e-rbn-button.e-gallerybtn:hover {
+  border-color: #e0e0e0;
+  color: #212121;
+  background: white;
+}
+.e-widget.e-ribbon .e-groupdiv .e-gallerymovediv > div:hover,
+.e-widget.e-ribbon .e-resizediv .e-gallerymovediv > div:hover {
+  border-color: #3f51b5;
+}
+.e-widget.e-ribbon .e-groupdiv .e-gallerymovediv > div:hover,
+.e-widget.e-ribbon .e-resizediv .e-gallerymovediv > div:hover {
+  background: #e0e0e0;
+}
+.e-widget.e-ribbon .e-groupdiv .e-movedowndiv:hover ~ .e-expgallerydiv,
+.e-widget.e-ribbon .e-groupdiv .e-moveupdiv:hover ~ .e-movedowndiv {
+  border-top-color: #3f51b5;
+}
+.e-widget.e-ribbon .e-groupdiv .e-disablegrymovebtn:hover ~ .e-expgallerydiv,
+.e-widget.e-ribbon .e-groupdiv .e-disablegrymovebtn:hover ~ .e-movedowndiv {
+  border-top-color: #e0e0e0;
+}
+.e-widget.e-ribbon .e-groupdiv .e-gallerymovediv > .e-disablegrymovebtn,
+.e-widget.e-ribbon .e-groupdiv .e-gallerymovediv > .e-disablegrymovebtn:hover,
+.e-widget.e-ribbon .e-resizediv .e-gallerymovediv > .e-disablegrymovebtn,
+.e-widget.e-ribbon .e-resizediv .e-gallerymovediv > .e-disablegrymovebtn:hover {
+  background: white;
+  border-color: #e0e0e0;
+}
+.e-widget.e-ribbon .e-tooltipdiv {
+  
+}
+.e-widget.e-ribbon .e-tooltipdiv {
+  /*material*/
+  border-color: #616161;
+  background: #616161;
+}
+.e-widget.e-ribbon .e-tooltipdiv .e-tooltiptitle,
+.e-widget.e-ribbon .e-tooltipdiv .e-tooltipcontent,
+.e-widget.e-ribbon .e-tooltipdiv .e-tooltipcntwithimg {
+  
+}
+.e-widget.e-ribbon .e-tooltipdiv .e-tooltiptitle,
+.e-widget.e-ribbon .e-tooltipdiv .e-tooltipcontent,
+.e-widget.e-ribbon .e-tooltipdiv .e-tooltipcntwithimg {
+  /*material*/
+  color: white;
+}
+.e-widget.e-ribbon .e-resizediv {
+  border-color: #e0e0e0;
+  
+}
+.e-widget.e-ribbon .e-resizediv {
+  /*material*/
+  background: whitesmoke;
+}
+.e-widget.e-ribbon .e-header .e-margine-top:hover {
+  
+}
+.e-widget.e-ribbon .e-groupdiv .e-gallexpandcontent,
+.e-widget.e-ribbon .e-resizediv .e-gallexpandcontent {
+  border-color: #e0e0e0;
+}
+.e-widget.e-ribbon .e-groupdiv .e-disablegrymovebtn > span,
+.e-widget.e-ribbon .e-resizediv .e-disablegrymovebtn > span {
+  color: #cecece;
+}
+.e-widget.e-ribbon .e-rbn-button.e-btn.e-disable.e-select:hover .e-icon {
+  
+}
+.e-widget.e-ribbon .e-rbn-button.e-btn.e-disable.e-select:hover .e-icon {
+  color: #212121;
+}
+.e-widget.e-ribbon .e-rbn-button.e-btn.e-disable.e-select:hover {
+  background: none;
+}
+.e-widget.e-ribbon .e-rbn-button.e-tbtn.e-active.e-disable .e-icon {
+  color: #212121;
+}
+.e-widget.e-ribbon .e-rbn-ddl.e-ddl .e-disable.e-select:hover {
+  background: none;
+  color: #212121;
+}
+.e-ribbon.e-js .e-groupdiv .e-disable .e-icon {
+  color: rgba(0, 0, 0, 0.26);
+}
+.e-ribbon.e-js .e-btn.e-disable.e-select:hover,
+.e-ribbon.e-js .e-tbtn.e-disable:hover,
+.e-ribbon.e-js .e-btn.e-disable.e-select:active {
+  
+}
+.e-widget.e-ribbon .e-ribbonbackstagepage {
+  border-color: #e0e0e0;
+  background: white;
+}
+.e-backstagescrollcontent.e-js .e-content {
+  background: white;
+}
+.e-widget.e-ribbon .e-backstagetopcontent,
+.e-ribbon .e-backstageheader {
+  background: #3f51b5;
+}
+.e-widget.e-ribbon .e-backstageli:hover {
+  
+}
+.e-widget.e-ribbon .e-backstageli:hover {
+  /*material*/
+  color: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.12);
+}
+.e-widget.e-ribbon .e-backstageseparator,
+.e-widget.e-ribbon .e-backstageactive {
+  
+}
+.e-widget.e-ribbon .e-backstageseparator,
+.e-widget.e-ribbon .e-backstageactive {
+  /*material*/
+  color: white;
+  background: rgba(255, 255, 255, 0.12);
+}
+.e-widget.e-ribbon .e-backstagetopicon span:hover:before {
+  
+}
+.e-widget.e-ribbon .e-backstagetopicon span:before {
+  color: white;
+}
+.e-widget.e-ribbon .e-header > .e-apptab .e-apptabanchor:hover {
+  
+}
+.e-widget.e-ribbon .e-header > .e-apptab .e-apptabanchor:hover {
+  
+}
+.e-widget.e-ribbon .e-backstageli a,
+.e-widget.e-ribbon .e-backstagebutton {
+  color: white;
+}
+.e-ribbon.e-js .e-backstageheader .e-backstageli:hover a,
+.e-ribbon.e-js .e-backstageheader .e-backstageactive a,
+.e-ribbon.e-js .e-backstageheader .e-backstagebutton:hover {
+  
+}
+.e-ribbon.e-js .e-backstageheader .e-backstageli:hover a,
+.e-ribbon.e-js .e-backstageheader .e-backstageactive a,
+.e-ribbon.e-js .e-backstageheader .e-backstagebutton:hover {
+  /*material*/
+  color: white;
+}
+.e-widget.e-ribbon .e-backstagecontent {
+  background: white;
+}
+.e-widget.e-ribbon .e-header > .e-apptab .e-apptabanchor {
+  /*.custom-gradient(@active-gradient-color, @active-bg-stcolor, @active-bg-endcolor, 0%, 0% );*/
+  background-color: #fafafa;
+  color: white;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.e-widget.e-ribbon .e-header > .e-apptab .e-apptabanchor {
+  background: #3f51b5;
+}
+.e-widget.e-ribbon.e-rbnwithqat .e-rbnqatmenu,
+.e-widget.e-ribbon.e-rbnwithqat .e-qaresizediv {
+  
+  background: white;
+}
+.e-widget.e-ribbon.e-rbnwithqat .e-rbnqatmenu,
+.e-widget.e-ribbon.e-rbnwithqat .e-qaresizediv {
+  /*material*/
+  border-color: #e0e0e0;
+  box-shadow: 0px 2px 3px 1px rgba(0, 0, 0, 0.21);
+}
+.e-widget.e-ribbon.e-rbnwithqat .e-rbnqatmenu div {
+  background: whitesmoke;
+}
+.e-widget.e-ribbon.e-rbnwithqat .e-qatmenuli {
+  background: white;
+  color: #212121;
+}
+.e-widget.e-ribbon.e-rbnwithqat .e-qatseparator {
+  background: #e0e0e0;
+}
+.e-widget.e-ribbon.e-rbnwithqat .e-qatmenuli:hover {
+  color: #212121;
+}
+.e-widget.e-ribbon.e-rbnwithqat .e-qatmenuli:hover {
+  background: #e0e0e0;
+}
+.e-widget.e-ribbon.e-rbnwithqat .e-rbnquickaccessbar,
+.e-widget.e-ribbon.e-rbnwithqat .e-rbnquickaccessbar .e-btn {
+  background: transparent;
+}
+.e-ribbon.e-js .e-rbn-button.e-tbtn:hover,
+.e-ribbon.e-js .e-rbn-button.e-btn:hover,
+.e-ribbon.e-rbnwithqat.e-js .e-rbn-button.e-tbtn:hover {
+  
+}
+.e-ribbon.e-js .e-rbn-button.e-tbtn.e-active:hover,
+.e-ribbon.e-js .e-rbn-button.e-tbtn.e-active,
+.e-ribbon.e-js .e-rbn-button.e-btn.e-resizebtnselect,
+.e-ribbon.e-rbnwithqat.e-js .e-rbn-button.e-tbtn.e-active {
+  
+}
+.e-ribbon.e-js .e-rbn-button.e-tbtn.e-active:hover,
+.e-ribbon.e-js .e-rbn-button.e-tbtn.e-active,
+.e-ribbon.e-js .e-rbn-button.e-btn.e-resizebtnselect,
+.e-ribbon.e-rbnwithqat.e-js .e-rbn-button.e-tbtn.e-active {
+  /*material*/
+  background-color: #bdbdbd;
+  color: rgba(0, 0, 0, 0.54);
+}
+.e-ribbon.e-js .e-rbn-button.e-tbtn.e-select:active .e-icon,
+.e-ribbon.e-js .e-rbn-button.e-tbtn.e-active .e-icon,
+.e-ribbon.e-js .e-rbn-button.e-tbtn.e-select.e-active:hover,
+.e-ribbon.e-js .e-rbn-button.e-tbtn.e-select.e-active:hover .e-icon {
+  
+}
+.e-ribbon.e-js .e-rbn-button.e-tbtn.e-select:active .e-icon,
+.e-ribbon.e-js .e-rbn-button.e-tbtn.e-active .e-icon,
+.e-ribbon.e-js .e-rbn-button.e-tbtn.e-select.e-active:hover,
+.e-ribbon.e-js .e-rbn-button.e-tbtn.e-select.e-active:hover .e-icon {
+  /*material*/
+  color: rgba(0, 0, 0, 0.54);
+}
+.e-ribbon.e-js .e-rbn-button.e-btn,
+.e-widget.e-ribbon .e-active-content.e-parentdiv .e-split,
+.e-widget.e-ribbon .e-resizediv .e-split,
+.e-widget.e-ribbon.e-rbnwithqat .e-rbnquickaccessbar .e-split {
+  box-shadow: none;
+}
+.e-widget.e-ribbon.e-responsive .e-header,
+.e-widget.e-ribbon.e-responsive .e-responsiveqat .e-rbn-button.e-btn,
+.e-widget.e-ribbon.e-responsive .e-resqatScroll .e-content,
+.e-widget.e-ribbon.e-responsive .e-backstagerestop {
+  
+}
+.e-widget.e-ribbon.e-responsive .e-header,
+.e-widget.e-ribbon.e-responsive .e-responsiveqat .e-rbn-button.e-btn,
+.e-widget.e-ribbon.e-responsive .e-resqatScroll .e-content,
+.e-widget.e-ribbon.e-responsive .e-backstagerestop {
+  /*material*/
+  background: #3f51b5 !important;
+}
+.e-widget.e-ribbon.e-responsive .e-icon.e-resbackstage,
+.e-widget.e-ribbon.e-responsive .e-ribresmenu .e-icon,
+.e-widget.e-ribbon.e-responsive .e-ribresmenu a,
+.e-widget.e-ribbon.e-responsive .e-responsiveqat .e-rbn-button.e-btn .e-icon {
+  color: white !important;
+}
+.e-widget.e-ribbon.e-responsive .e-responsivebackstagecontent {
+  background: white !important;
+}
+.e-widget.e-ribbon.e-responsive .e-backstageheader,
+.e-widget.e-ribbon.e-responsive .e-rescontent {
+  background: #3f51b5;
+}
+.e-widget.e-ribbon.e-responsive .e-responsivetabheader .e-rescontent {
+  /*material*/
+  background: white;
+  box-shadow: 0px 2px 3px 1px rgba(0, 0, 0, 0.21);
+  border-radius: 2px;
+}
+.e-widget.e-ribbon.e-responsive .e-backstageheader .e-backstagebutton,
+.e-widget.e-ribbon.e-responsive .e-backstageheader a {
+  color: #424242;
+}
+.e-widget.e-ribbon.e-responsive .e-responsiveback,
+.e-widget.e-ribbon.e-responsive .e-groupmobdiv,
+.e-widget.e-ribbon.e-responsive .e-groupdiv {
+  border-bottom: 1px solid #e0e0e0;
+}
+.e-widget.e-ribbon.e-responsive .e-responsiveqat .e-rbn-button.e-btn.e-active .e-icon {
+  color: white !important;
+}
+.e-widget.e-ribbon.e-responsive .e-rescontent,
+.e-widget.e-ribbon.e-responsive .e-backstageheader {
+  box-shadow: -1px 0 10px 0 black;
+}
+.e-widget.e-ribbon .e-rbnquickaccessbar .e-rbn-button .e-icon {
+  /*material*/
+  color: white !important;
+}
+.e-widget.e-ribbon.e-rbnwithqat .e-rbnquickaccessbar .e-qatooldiv .e-split .e-in-wrap .e-rbn-splitbtn.e-rbn-button,
+.e-widget.e-ribbon.e-rbnwithqat .e-rbnquickaccessbar .e-btn.e-rbn-button,
+.e-widget.e-ribbon.e-rbnwithqat .e-rbnquickaccessbar .e-qatooldiv .e-split .e-in-wrap {
+  /*material*/
+  background: #3f51b5 !important;
+}
+.e-widget.e-ribbon.e-rbnwithqat .e-rbnquickaccessbar .e-qatooldiv .e-split .e-in-wrap .e-rbn-splitbtn.e-rbn-button:hover,
+.e-widget.e-ribbon.e-rbnwithqat .e-rbnquickaccessbar .e-btn.e-rbn-button:hover {
+  /*material*/
+  background: transparent !important;
+}
+.e-ribbon.e-rbnwithqat.e-js .e-rbnquickaccessbar .e-rbn-button.e-tbtn.e-active,
+.e-ribbon.e-rbnwithqat.e-js .e-rbnquickaccessbar .e-rbn-button.e-tbtn.e-active:hover {
+  /*material*/
+  background: rgba(255, 255, 255, 0.12) !important;
+}
+.e-widget.e-ribbon.e-rbnwithqat.e-js .e-rbnquickaccessbar .e-rbn-button.e-tbtn.e-active,
+.e-widget.e-ribbon.e-rbnwithqat.e-js .e-rbnquickaccessbar .e-rbn-button.e-tbtn.e-active:hover,
+.e-widget.e-ribbon.e-rbnwithqat .e-rbnquickaccessbar .e-btn.e-rbn-button:hover {
+  /*material*/
+  background: rgba(255, 255, 255, 0.12);
+}
+.e-widget.e-ribbon.e-responsive .e-responsivetabli.e-resactive {
+  /*material*/
+  color: #bdbdbd;
+}
+.e-widget.e-ribbon.e-responsive .e-ribresmenu a,
+.e-widget.e-ribbon.e-responsive .e-responsivetabli,
+.e-widget.e-ribbon.e-responsive .e-rescontent .e-responsivetabli:hover {
+  /*material*/
+  background: #eeeeee;
+}
+.e-widget.e-ribbon.e-responsive .e-backstageheader .e-backstageli:hover,
+.e-widget.e-ribbon.e-responsive .e-backstageheader .e-backstagebutton:hover {
+  /*material*/
+  background: rgba(255, 255, 255, 0.12);
+}
+.e-ribbon.e-js .e-backstageheader .e-backstageli a,
+.e-ribbon.e-js .e-backstageheader .e-backstagebutton {
+  /*material*/
+  color: rgba(255, 255, 255, 0.7);
+}
+.e-widget.e-ribbon .e-header > .e-select a,
+.e-widget.e-ribbon .e-left > .e-select a,
+.e-widget.e-ribbon .e-right > .e-select a,
+.e-ribbon.e-js .e-header .e-apptab .e-menu > li:first-child > a,
+.e-ribbon.e-js .e-header .e-apptab .e-menu > li:first-child > a > span,
+.e-widget.e-ribbon .e-header > .e-apptab .e-apptabanchor {
+  /*material*/
+  color: rgba(255, 255, 255, 0.7);
+}
+.e-ribbon.e-js .e-header .e-apptab .e-menu > .e-list:nth-child(1):not(.e-active) > a:hover {
+  /*material*/
+  color: rgba(0, 0, 0, 0.87);
+}
+.e-widget.e-ribbon .e-header > .e-active a,
+.e-widget.e-ribbon .e-left > .e-active a,
+.e-widget.e-ribbon .e-right > .e-active a,
+.e-widget.e-ribbon .e-header > .e-select:hover a,
+.e-widget.e-ribbon .e-left > .e-select:hover a,
+.e-widget.e-ribbon .e-right > .e-select:hover a {
+  /*material*/
+  color: white;
+}
+.e-widget.e-ribbon .e-header > .e-select,
+.e-widget.e-ribbon .e-left > .e-select,
+.e-widget.e-ribbon .e-right > .e-select,
+.e-widget.e-ribbon .e-header > .e-active,
+.e-widget.e-ribbon .e-left > .e-active,
+.e-widget.e-ribbon .e-right > .e-active {
+  /*material*/
+  background: transparent !important;
+  color: white !important;
+}
+.e-ribbon .e-ddl.e-widget.e-rbn-ddl .e-input,
+.e-widget.e-ribbon .e-rbn-ddl.e-ddl .e-select {
+  /*material*/
+  background: whitesmoke;
+  box-shadow: none;
+}
+.e-ribbon.e-js .e-header .e-contextual .e-contextualtabset.e-active {
+  /*material*/
+  border-bottom: 2px solid #ff4081 !important;
+}
+.e-widget.e-ribbon.e-rbnwithqat .e-rbnquickaccessbar.e-rbnbelow {
+  /*material*/
+  background: #3f51b5;
+}
+.e-ribbon.e-js .e-split.e-widget .e-rbn-button.e-btn.e-select:hover,
+.e-widget.e-ribbon.e-js .e-rbn-button.e-btn.e-select:hover,
+.e-ribbon.e-js .e-split.e-widget:hover .e-in-wrap.e-splitarrowbottom .e-split-btn.e-left-btn,
+.e-ribbon.e-js .e-split.e-widget:hover .e-in-wrap.e-splitarrowbottom .e-split-btn.e-drp-btn,
+.e-ribbon.e-js .e-split.e-widget:hover .e-in-wrap.e-splitarrowtop .e-split-btn.e-left-btn,
+.e-ribbon.e-js .e-split.e-widget:hover .e-in-wrap.e-splitarrowtop .e-split-btn.e-drp-btn,
+.e-ribbon.e-js .e-split.e-widget:hover .e-in-wrap.e-splitarrowleft .e-split-btn.e-left-btn,
+.e-ribbon.e-js .e-split.e-widget:hover .e-in-wrap.e-splitarrowright .e-split-btn.e-drp-btn,
+.e-ribbon.e-js .e-split.e-widget:hover .e-in-wrap.e-splitarrowright .e-split-btn.e-left-btn,
+.e-ribbon.e-js .e-split.e-widget:hover .e-in-wrap.e-splitarrowleft .e-split-btn.e-drp-btn {
+  /*material*/
+  background: #e0e0e0;
+}
+.e-ribbon.e-js .e-rbn-button.e-tbtn.e-select.e-active:hover,
+.e-ribbon.e-js .e-rbn-button.e-tbtn.e-select.e-active {
+  /*material*/
+  background: #bdbdbd;
+}
+.e-ribbon.e-js .e-rbn-split.e-split.e-widget:hover .e-in-wrap.e-splitarrowright .e-split-btn.e-left-btn {
+  border-width: 0px 0.5px 0px 0px;
+  border-color: rgba(0, 0, 0, 0.12);
+}
+.e-ribbon.e-responsive.e-js .e-responsivecontent .e-innerdivrow:after,
+.e-ribbon.e-responsive.e-js .e-responsivecontent .e-innerdiv:after {
+  background: #e0e0e0;
+}
+.e-ribbon.e-responsive.e-js .e-ddl.e-widget.e-rbn-ddl .e-in-wrap {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+.e-widget.e-ribbon .e-expandcollapse .e-icon:after {
+  /*material*/
+  background: black;
+  background: rgba(0, 0, 0, 0.12);
+}
+.e-ribbon.e-responsive.e-js .e-icon.e-ribuparrow:before,
+.e-ribbon.e-responsive.e-js .e-ribupdivarrow .e-icon.e-ribdownarrow:before,
+.e-ribbon.e-responsive.e-js .e-icon.e-ribrightarrow:before,
+.e-ribbon.e-responsive.e-js .e-groupresponsive.e-ribleftarrow:before {
+  /*material*/
+  color: rgba(0, 0, 0, 0.87);
+}
+.e-widget.e-ribbon .e-expandcollapse .e-icon:after,
+.e-ribbon.e-responsive.e-js .e-ribupdivarrow .e-icon:after {
+  /*material*/
+  background: black;
+  background: rgba(0, 0, 0, 0.12);
+}

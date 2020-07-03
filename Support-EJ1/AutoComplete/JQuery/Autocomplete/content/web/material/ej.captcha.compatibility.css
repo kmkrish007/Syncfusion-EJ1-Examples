@@ -1,0 +1,143 @@
+/*------------------------------------- Captcha -------------------------------------------*/
+
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*-----------------------OLAP Definition-----------------*/
+/*-----------------------OLAP Definition End-----------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*------------------ DatePicker ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: white;
+  color: #111111;
+  border-color: #e0e0e0;
+  font-family: 'Roboto', Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-js.e-captcha .refresh {
+  
+}
+.e-js.e-captcha .refresh {
+  /*material*/
+  border: 0px;
+  margin-left: 20px;
+  padding: 0px 0px;
+}
+.e-js.e-captcha .audio {
+  
+}
+.e-js.e-captcha .audio {
+  /*material*/
+  border: 0px;
+  margin-left: 20px;
+  padding: 0px 0px;
+}
+.e-js.e-captcha .imagecontainer {
+  border: 1px solid #b2b2b2;
+}
+.e-js.e-captcha .validTextBox {
+  
+}
+.e-js.e-captcha .validTextBox {
+  /*material*/
+  border-width: 0 0 1px 0;
+  border-color: rgba(0, 0, 0, 0.12);
+  color: rgba(0, 0, 0, 0.38);
+  margin-bottom: 12px;
+  margin-top: 26px;
+}
+.e-js.e-captcha .e-validTextBox {
+  
+}
+.e-js.e-captcha .e-validTextBox {
+  /*material*/
+  border-width: 0 0 1px 0;
+  border-color: rgba(0, 0, 0, 0.12);
+  color: rgba(0, 0, 0, 0.38);
+  margin-bottom: 12px;
+  margin-top: 26px;
+}
+.e-js.e-captcha .e-refresh {
+  
+}
+.e-js.e-captcha .e-refresh {
+  /*material*/
+  border: 0px;
+  margin-left: 8px;
+  padding: 0 0;
+}
+.e-js.e-captcha .e-audio {
+  
+}
+.e-js.e-captcha .e-audio {
+  /*material*/
+  border: 0px;
+  margin-left: 8px;
+  padding: 0 0;
+}
+.e-js.e-captcha .e-imageContainer {
+  border: 1px solid #b2b2b2;
+}
+.e-js.e-captcha div:nth-child(2) {
+  
+}
+.e-js.e-captcha div:nth-child(2) {
+  width: 0px !important;
+}
+.e-js.e-captcha .validTextBox:focus {
+  outline: none;
+  border-bottom: 2px solid #ff4081;
+}
+.e-js.e-captcha .refresh.e-btn.e-select:active,
+.e-js.e-captcha .e-refresh.e-btn.e-select:active {
+  background: #bdbdbd;
+}
+.e-js.e-captcha .audio.e-btn.e-select:active,
+.e-js.e-captcha .e-audio.e-btn.e-select:active {
+  background: #bdbdbd;
+}
+.e-js.e-captcha .refresh.e-btn.e-select:focus,
+.e-js.e-captcha .audio.e-btn.e-select:focus,
+.e-js.e-captcha .refresh.e-btn.e-select:active,
+.e-js.e-captcha .audio.e-btn.e-select:active,
+.e-js.e-captcha .e-refresh.e-btn.e-select:focus,
+.e-js.e-captcha .e-audio.e-btn.e-select:focus,
+.e-js.e-captcha .e-refresh.e-btn.e-select:active,
+.e-js.e-captcha .e-audio.e-btn.e-select:active {
+  box-shadow: none;
+}
+.e-js.e-captcha .imagecontainer img,
+.e-js.e-captcha .e-imageContainer img {
+  
+}
+.e-js.e-captcha .refresh:focus,
+.e-js.e-captcha .audio:focus,
+.e-js.e-captcha .e-refresh:focus,
+.e-js.e-captcha .e-audio:focus {
+  
+}

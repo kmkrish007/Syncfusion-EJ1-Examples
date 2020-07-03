@@ -1,0 +1,381 @@
+/* need verify with UX team*/
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*----------------------OLAP Definition------------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*----------------------material theme-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: #111111;
+  color: white;
+  border-color: #494949;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+/*------------------------------------- Colorpicker -------------------------------------------*/
+
+.e-widget.e-colorpicker .e-hsv-color,
+.e-widget.e-colorpicker .e-buttons .e-preview,
+.e-widget.e-colorpicker .e-slider-wrap .e-hue,
+.e-widget.e-colorpicker .e-slider-wrap .e-opacity {
+  
+}
+.e-widget.e-colorpicker .e-hsv-color,
+.e-widget.e-colorpicker .e-buttons .e-preview,
+.e-widget.e-colorpicker .e-slider-wrap .e-hue,
+.e-widget.e-colorpicker .e-slider-wrap .e-opacity {
+  border: 3px solid black;
+}
+.e-widget.e-colorpicker .e-slider-wrap .e-handle.e-select,
+.e-widget.e-colorpicker .e-slider .e-handle.e-select.e-handle-start,
+.e-widget.e-colorpicker .e-slider .e-handle.e-select.e-focus.e-handle-start:not(.e-no-tab),
+.e-widget.e-colorpicker .e-slider .e-handle.e-select.e-handle-start.e-focus,
+.e-widget.e-colorpicker .e-slider-wrap .e-handle.e-select:hover {
+  border: 3px solid black;
+}
+.e-widget.e-colorpicker:focus {
+  outline: none;
+}
+.e-widget.e-colorwidget .e-select {
+  
+}
+.e-widget.e-colorwidget .e-select {
+  background: black;
+  color: #cccccc;
+  border-color: #494949;
+}
+.e-widget.e-colorpicker .e-buttons .e-codeeditor .e-color-code {
+  
+}
+.e-widget.e-colorwidget.e-split .e-in-wrap .e-select:hover,
+.e-widget.e-colorwidget.e-split .e-color-container:hover {
+  border-color: #494949;
+  color: #efefef;
+}
+.e-widget.e-colorwidget.e-split .e-in-wrap .e-select:hover,
+.e-widget.e-colorwidget.e-split .e-color-container:hover {
+  background: #4b2c03;
+}
+.e-widget.e-colorwidget.e-split .e-in-wrap .e-select:active,
+.e-widget.e-colorpicker .e-footer .e-element .e-in-wrap.e-box .e-rht-btn:active {
+  
+}
+.e-widget.e-colorwidget .e-in-wrap,
+.e-widget.e-colorwidget .e-in-wrap.e-box.e-disable:hover,
+.e-widget.e-colorwidget .e-in-wrap.e-box.e-disable:focus {
+  
+}
+.e-widget.e-colorwidget .e-in-wrap.e-box:hover {
+  
+}
+.e-widget.e-colorwidget .e-in-wrap.e-box:focus {
+  
+}
+.e-widget.e-colorwidget.e-picker.e-split.e-disable .e-in-wrap .e-select:hover,
+.e-widget.e-colorwidget.e-picker.e-split.e-disable .e-in-wrap .e-color-container:hover {
+  cursor: default;
+  background: black;
+}
+.e-widget.e-colorpicker.e-popup {
+  background-color: #212121;
+  border-color: #777777;
+}
+.e-widget.e-presetWrapper.e-widget.e-context {
+  border-color: #777777;
+  
+}
+.e-widget.e-colorwidget.e-focus {
+  box-shadow: 0 0 2px #ababab;
+}
+.e-widget.e-colorpicker .e-recent-color .e-colorblock.e-block,
+.e-widget.e-colorpicker .e-recent-color .e-colorblock.e-select,
+.e-widget.e-colorpicker .e-footer .e-switcher {
+  background-color: black;
+  color: #dddddd;
+  
+}
+.e-widget.e-colorpicker .e-recent-color .e-colorblock.e-block,
+.e-widget.e-colorpicker .e-recent-color .e-colorblock.e-select,
+.e-widget.e-colorpicker .e-footer .e-switcher {
+  border-color: black;
+}
+.e-widget.e-colorpicker .e-footer .e-split.e-widget {
+  
+}
+.e-widget.e-colorpicker .e-footer .e-split.e-widget:hover {
+  
+}
+.e-widget.e-colorpicker .e-footer .e-split.e-widget:active {
+  
+}
+.e-widget.e-colorpicker .e-colorblock .e-color-image.e-add:active {
+  
+}
+.e-widget.e-colorpicker .e-recent-color .e-colorblock.e-colorset:hover {
+  
+}
+.e-widget.e-colorpicker .e-recent-color .e-colorblock.e-colorset.e-select {
+  
+}
+.e-widget.e-colorpicker .e-colorblock .e-color-image.e-add:active {
+  
+}
+.e-widget.e-colorwidget .e-color-container .e-selected-color::after,
+.e-widget.e-colorwidget .e-select .e-icon::after,
+.e-widget.e-colorpicker .e-colorblock .e-color-image.e-add:after {
+  
+}
+.e-widget.e-colorpicker .e-footer .e-switcher:hover {
+  
+}
+.e-widget.e-colorwidget .e-in-wrap.e-box,
+.e-widget.e-colorwidget .e-in-wrap.e-box .e-select,
+.e-widget.e-colorpicker .e-footer .e-in-wrap.e-box .e-splitbutton,
+.e-widget.e-colorpicker .e-footer .e-in-wrap.e-box .e-rht-btn,
+.e-widget.e-colorpicker .e-footer .e-in-wrap.e-box .e-split-btn,
+.e-widget.e-colorpicker .e-footer .e-in-wrap.e-box .e-drp-btn.e-rht-btn,
+.e-widget.e-colorwidget.e-split .e-in-wrap .e-select.e-disable:active {
+  
+  color: #dddddd;
+}
+.e-widget.e-colorwidget .e-in-wrap.e-box,
+.e-widget.e-colorwidget .e-in-wrap.e-box .e-select,
+.e-widget.e-colorpicker .e-footer .e-in-wrap.e-box .e-splitbutton,
+.e-widget.e-colorpicker .e-footer .e-in-wrap.e-box .e-rht-btn,
+.e-widget.e-colorpicker .e-footer .e-in-wrap.e-box .e-split-btn,
+.e-widget.e-colorpicker .e-footer .e-in-wrap.e-box .e-drp-btn.e-rht-btn,
+.e-widget.e-colorwidget.e-split .e-in-wrap .e-select.e-disable:active {
+  background: black;
+}
+.e-widget.e-colorpicker .e-footer .e-in-wrap.e-box .e-drp-btn.e-rht-btn {
+  border-right: 1px solid;
+  border-right-color: #777777;
+}
+.e-widget.e-colorwidget .e-select:hover,
+.e-widget.e-colorpicker .e-element .e-split-btn.e-select.e-rht-btn:hover {
+  color: #aaaaaa;
+  border-color: #494949;
+}
+.e-widget.e-colorwidget .e-select:hover,
+.e-widget.e-colorpicker .e-element .e-split-btn.e-select.e-rht-btn:hover {
+  background-color: black;
+}
+.e-widget.e-colorpicker .e-footer .e-in-wrap.e-box .e-splitbutton:hover,
+.e-widget.e-colorpicker .e-footer .e-in-wrap.e-box .e-rht-btn:hover {
+  
+}
+.e-widget.e-colorpicker .e-footer .e-in-wrap.e-box .e-splitbutton:hover,
+.e-widget.e-colorpicker .e-footer .e-in-wrap.e-box .e-rht-btn:hover {
+  color: #efefef;
+  border-color: #494949;
+}
+.e-widget.e-colorpicker .e-footer .e-in-wrap.e-box .e-splitbutton:hover,
+.e-widget.e-colorpicker .e-footer .e-in-wrap.e-box .e-rht-btn:hover {
+  background: #4b2c03;
+}
+.e-widget.e-presetWrapper.e-menu.e-context,
+.e-widget.e-presetWrapper.e-menu.e-context .e-list.e-mhover.e-mfocused,
+.e-widget.e-presetWrapper.e-menu.e-context .e-list > ul,
+.e-widget.e-presetWrapper.e-menu.e-context .e-list:hover {
+  background: black;
+  color: #dddddd;
+  border-color: black;
+}
+.e-widget.e-presetWrapper.e-menu.e-context .e-list:hover {
+  background: black;
+  color: #dddddd;
+}
+.e-widget.e-colorpicker .e-footer .e-split .e-splitbutton:hover {
+  border-color: #494949;
+}
+.e-widget.e-colorpicker .e-footer .e-split .e-splitbutton:hover {
+  background: #212121;
+}
+.e-widget.e-colorpicker .e-footer .e-cancelButton.e-btn,
+.e-widget.e-colorpicker .e-footer .e-applyButton.e-btn {
+  border-color: #777777;
+}
+.e-widget.e-colorpicker .e-footer .e-cancelButton.e-btn,
+.e-widget.e-colorpicker .e-footer .e-applyButton.e-btn {
+  background: #212121;
+}
+.e-widget.e-colorpicker .e-footer .e-cancelButton.e-btn:hover,
+.e-widget.e-colorpicker .e-footer .e-applyButton.e-btn:hover {
+  border-color: #494949;
+  color: #aaaaaa;
+}
+.e-widget.e-colorpicker .e-footer .e-cancelButton.e-btn:hover,
+.e-widget.e-colorpicker .e-footer .e-applyButton.e-btn:hover {
+  background: #4b2c03;
+}
+.e-widget.e-colorpicker .e-buttons .e-grpbtn {
+  
+}
+.e-widget.e-colorpicker .e-buttons .e-grpbtn .e-btn,
+.e-widget.e-colorpicker .e-buttons .e-grpbtn .e-btn.e-disable:hover {
+  
+}
+.e-widget.e-colorpicker .e-buttons .e-grpbtn .e-btn,
+.e-widget.e-colorpicker .e-buttons .e-grpbtn .e-btn.e-disable:hover {
+  color: #dddddd;
+}
+.e-widget.e-colorpicker .e-buttons .e-grpbtn,
+.e-widget.e-colorpicker .e-buttons .e-color-code,
+.e-widget.e-colorpicker .e-buttons .e-grpbtn .e-btn {
+  
+}
+.e-widget.e-colorpicker .e-buttons .e-grpbtn,
+.e-widget.e-colorpicker .e-buttons .e-color-code,
+.e-widget.e-colorpicker .e-buttons .e-grpbtn .e-btn {
+  background-color: black;
+  border-color: black;
+}
+.e-widget.e-colorpicker .e-buttons .e-grpbtn,
+.e-widget.e-colorpicker .e-buttons .e-grpbtn .e-btn {
+  
+}
+.e-widget.e-colorpicker.e-buttons.e-grpbtn .e-hsvButton.e-button.e-js.e-ntouch.e-btn-normal.e-btn.e-select.e-widget.e-txt.e-disable {
+  background: none;
+}
+.e-widget.e-colorpicker .e-buttons .e-color-code {
+  
+}
+.e-widget.e-colorpicker .e-buttons .e-color-code:hover {
+  
+}
+.e-widget.e-colorpicker .e-buttons .e-color-code:focus {
+  
+}
+.e-widget.e-colorpicker .e-buttons .e-codeeditor::before {
+  
+}
+.e-widget.e-colorpicker .e-buttons .e-previous,
+.e-widget.e-presetWrapper .e-presets-table .e-preset-row {
+  border-color: #494949;
+}
+.e-widget.e-colorpicker .e-item {
+  
+}
+.e-widget.e-colorpicker .e-item {
+  border-color: #777777;
+}
+.e-widget.e-colorpicker .e-item.e-state-selected {
+  
+}
+.e-widget.e-colorpicker .e-color-image,
+.e-widget.e-presetWrapper .e-color-image,
+.e-widget.e-presetWrapper.e-menu.e-context .e-color-image.e-mhover {
+  background-image: url(../common-images/darktheme/colorpicker_dark.png);
+  background-color: transparent;
+  filter: none;
+}
+.e-widget.e-presetWrapper.e-menu.e-context .e-color-image.e-mhover {
+  
+}
+.e-widget.e-presetWrapper.e-menu.e-context .e-color-image.e-presetsactive {
+  
+}
+.e-widget.e-presetWrapper .e-presetHeader,
+.e-widget.e-colorpicker .e-element .e-icon:before {
+  color: #dddddd;
+}
+.e-widget.e-colorpicker .e-element .e-drp-btn.e-rht-btn:active .e-icon:before {
+  
+}
+.e-widget.e-colorpicker .e-buttons .e-color-code,
+.e-widget.e-colorpicker .e-codeeditor .e-close_01 {
+  color: #dddddd;
+}
+.e-widget.e-colorpicker .e-buttons .e-grpbtn .e-click {
+  
+}
+.e-widget.e-colorpicker .e-buttons .e-grpbtn .e-click {
+  color: white;
+  border-color: #494949;
+  box-shadow: 0 0 0 2px black;
+}
+.e-widget.e-colorpicker .e-buttons .e-grpbtn .e-click {
+  background: #f9920b;
+}
+.e-widget.e-colorpicker .e-buttons .e-grpbtn .e-btn:hover {
+  color: #aaaaaa;
+  border-color: #494949;
+}
+.e-widget.e-colorpicker .e-buttons .e-grpbtn .e-btn:hover {
+  background: #4b2c03;
+}
+.e-widget.e-presetWrapper.e-menu.e-context li.e-list {
+  background: black;
+}
+.e-widget.e-colorpicker .e-context.e-menu .e-mhover > a,
+.e-widget.e-colorpicker .e-context.e-menu .e-mhover > span,
+.e-widget.e-colorpicker .e-context.e-menu .e-mfocused,
+.e-widget.e-colorpicker .e-context.e-menu .e-mfocused > a,
+.e-widget.e-colorpicker .e-context.e-menu .e-mfocused > span {
+  background: transparent;
+}
+.e-widget.e-colorpicker .e-slider .e-handle.e-select.e-focus:not(.e-no-tab):after,
+.e-widget.e-colorpicker .e-slider .e-handle.e-select.e-focus.e-handle-start:not(.e-no-tab):after {
+  background: transparent;
+}
+.e-widget.e-colorwidget .e-color-container .e-selected-color:active::after,
+.e-widget.e-colorwidget .e-select:active .e-icon::after,
+.e-widget.e-colorpicker .e-colorblock .e-color-image.e-add:active:after {
+  
+}
+.e-widget.e-colorpicker .e-footer .e-switcher:focus {
+  box-shadow: 0 0 2px #ababab;
+  outline-color: #ababab;
+}
+.e-widget.e-colorwidget.e-disable {
+  background-color: #1d1d1d;
+  border-color: #333333;
+  opacity: 1;
+}
+.e-widget.e-colorwidget.e-disable .e-select,
+.e-widget.e-colorwidget.e-disable .e-select:hover {
+  background-color: #525252;
+}
+.e-widget.e-colorwidget .e-in-wrap .e-tool-icon.e-icon {
+  font-family: 'ej-webfont';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  transform: rotate(0deg);
+  transition: transform 300ms ease;
+  
+}
+.e-widget.e-colorwidget .e-in-wrap .e-tool-icon.e-icon {
+  margin: -11px 5px;
+}

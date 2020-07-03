@@ -1,0 +1,215 @@
+/* need verify with UX team*/
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*----------------------OLAP Definition------------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*------------------------ Ribbon Definition---------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*----------------------material theme-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: #111111;
+  color: white;
+  border-color: #494949;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+/*Theme Color*/
+
+.e-acrdn {
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-acrdn > .e-content {
+  border-color: #494949;
+  background-color: black;
+  
+}
+.e-acrdn > .e-content {
+  
+  border-right: -1;
+  border-left: -1;
+}
+.e-acrdn > .e-content {
+  /*other*/
+  color: #dddddd;
+  font-size: 14px;
+}
+.e-acrdn > .e-select,
+.e-acrdn > .e-disable.e-select:hover,
+.e-acrdn > .e-disable.e-select:hover a {
+  
+}
+.e-acrdn > .e-select,
+.e-acrdn > .e-disable.e-select:hover,
+.e-acrdn > .e-disable.e-select:hover a {
+  /*other*/
+
+  color: #dddddd;
+}
+.e-acrdn > .e-select,
+.e-acrdn > .e-disable.e-select:hover,
+.e-acrdn > .e-disable.e-select:hover a {
+  background: #212121;
+}
+.e-acrdn .e-select {
+  
+  font-weight: normal;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-acrdn .e-select {
+  
+}
+.e-acrdn .e-select {
+  /*other*/
+  border-color: #777777;
+  font-size: 17px;
+}
+.e-acrdn .e-select:hover {
+  
+}
+.e-acrdn .e-select:hover {
+  
+}
+.e-acrdn .e-select:hover {
+  /*other*/
+
+  color: #aaaaaa;
+  border-color: #494949;
+}
+.e-acrdn .e-select:hover {
+  background: #082e40;
+}
+.e-acrdn .e-select a {
+  
+}
+.e-acrdn .e-select a {
+  color: #dddddd;
+}
+.e-acrdn .e-select:first-child {
+  
+}
+.e-acrdn .e-select:first-child {
+  border-top-color: #777777;
+}
+.e-acrdn > .e-select:first-child {
+  
+}
+.e-acrdn > .e-select:first-child {
+  
+}
+.e-acrdn > .e-select:first-child {
+  /*other*/
+  border-color: #777777;
+}
+.e-acrdn .e-select:last-of-type {
+  
+}
+.e-acrdn .e-select.e-active,
+.e-acrdn .e-disable.e-active.e-select:hover a,
+.e-acrdn .e-disable.e-active.e-select:hover {
+  
+}
+.e-acrdn .e-select.e-active,
+.e-acrdn .e-disable.e-active.e-select:hover a,
+.e-acrdn .e-disable.e-active.e-select:hover {
+  
+}
+.e-acrdn .e-select.e-active,
+.e-acrdn .e-disable.e-active.e-select:hover a,
+.e-acrdn .e-disable.e-active.e-select:hover {
+  /*other*/
+
+  color: white;
+}
+.e-acrdn .e-select.e-active,
+.e-acrdn .e-disable.e-active.e-select:hover a,
+.e-acrdn .e-disable.e-active.e-select:hover {
+  background: #179bd7;
+}
+.e-acrdn.e-disable .e-select:hover,
+.e-acrdn.e-disable .e-select:hover a {
+  background: #ecedee;
+  color: #5c5c5c;
+}
+.e-acrdn .e-select.e-active {
+  
+  font-weight: normal;
+  border-bottom: medium none;
+}
+.e-acrdn .e-select.e-active {
+  /*other*/
+  border-color: #494949;
+}
+.e-acrdn .e-select.e-active:hover {
+  
+}
+.e-acrdn .e-select.e-active:hover {
+  /*other*/
+
+  color: #aaaaaa;
+  border-color: #494949;
+}
+.e-acrdn .e-select.e-active:hover {
+  background: #082e40;
+}
+.e-acrdn .e-select.e-active a {
+  
+}
+.e-acrdn .e-select.e-active a {
+  /*other*/
+  color: white;
+}
+.e-acrdn .e-select:hover a,
+.e-acrdn .e-select.e-active:hover a {
+  
+}
+.e-acrdn .e-select:hover a,
+.e-acrdn .e-select.e-active:hover a {
+  /*other*/
+  color: #aaaaaa;
+}
+.e-acrdn .e-select > span {
+  color: #cccccc;
+}
+.e-acrdn .e-select.e-active > span {
+  
+}
+.e-acrdn .e-select.e-active > span {
+  /*other*/
+  color: white;
+}
+.e-acrdn .e-select:hover > span,
+.e-acrdn .e-select.e-active:hover > span {
+  color: #efefef;
+}
+.e-acrdn .e-select.e-disable:hover > span,
+.e-acrdn .e-select.e-disable.e-active:hover > span {
+  color: #cccccc;
+}
+.e-acrdn .e-content.e-load {
+  background-image: url(images/ajax-loader.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+}

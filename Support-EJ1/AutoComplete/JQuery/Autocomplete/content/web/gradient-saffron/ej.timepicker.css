@@ -1,0 +1,227 @@
+/* need verify with UX team*/
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*----------------------OLAP Definition------------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*----------------------material theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: white;
+  color: #111111;
+  border-color: #c8c8c8;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+/*------------------------------------- TimeEditor -------------------------------------------*/
+
+.e-timewidget .e-input,
+.e-time-popup {
+  background-color: white;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  
+}
+.e-timewidget .e-input,
+.e-time-popup {
+  /*other*/
+  color: #333333;
+  font-weight: normal;
+}
+.e-timewidget .e-input {
+  
+}
+.e-timewidget .e-in-wrap,
+.e-time-popup {
+  border-color: #c8c8c8;
+  
+}
+.e-timewidget .e-in-wrap:before,
+.e-timewidget .e-in-wrap:after {
+  
+}
+.e-timewidget.e-focus .e-in-wrap,
+.e-timewidget.e-focus .e-in-wrap:hover {
+  
+}
+.e-timewidget.e-focus .e-in-wrap,
+.e-timewidget.e-focus .e-in-wrap:hover {
+  /*other*/
+  box-shadow: 0 0 2px #d4d4d4;
+}
+.e-timewidget:hover .e-in-wrap {
+  
+}
+.e-timewidget.e-disable:hover .e-in-wrap {
+  
+}
+.e-timewidget .e-select,
+.e-timewidget.e-rtl .e-select,
+.e-ntouch.e-timewidget .e-disable.e-select:hover {
+  
+}
+.e-timewidget .e-select,
+.e-timewidget.e-rtl .e-select,
+.e-ntouch.e-timewidget .e-disable.e-select:hover {
+  background: whitesmoke;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, whitesmoke, #dddddd);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, whitesmoke), color-stop(100%, #dddddd));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, whitesmoke, #dddddd);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, whitesmoke, #dddddd);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, whitesmoke, #dddddd);
+  /* IE10+ */
+  background: linear-gradient(to bottom, whitesmoke, #dddddd);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='whitesmoke', endColorstr='#dddddd', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-timewidget .e-select,
+.e-timewidget.e-rtl .e-select,
+.e-ntouch.e-timewidget .e-disable.e-select:hover {
+  /*other*/
+  border-color: #c8c8c8;
+  color: #686969;
+}
+.e-timewidget.e-widget .e-select:active:hover,
+.e-timewidget.e-rtl .e-select:active:hover {
+  
+}
+.e-timewidget.e-widget .e-select.e-disable:active:before:active:hover {
+  
+}
+.e-ntouch.e-timewidget .e-select:hover,
+.e-time-popup.e-popup .e-hover {
+  
+}
+.e-ntouch.e-timewidget .e-select:hover,
+.e-time-popup.e-popup .e-hover {
+  background: #fde3c2;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #fde3c2, #fcce91);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fde3c2), color-stop(100%, #fcce91));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #fde3c2, #fcce91);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #fde3c2, #fcce91);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #fde3c2, #fcce91);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #fde3c2, #fcce91);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fde3c2', endColorstr='#fcce91', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-ntouch.e-timewidget .e-select:hover,
+.e-time-popup.e-popup .e-hover {
+  /*other*/
+  color: #282827;
+}
+.e-ntouch.e-timewidget .e-select:hover,
+.e-timewidget .e-select:hover {
+  
+}
+.e-time-popup .e-active.e-hover {
+  
+}
+.e-ntouch.e-timewidget .e-select:hover {
+  
+}
+.e-time-popup .e-active {
+  border-color: #fbbe6d;
+  
+}
+.e-time-popup .e-active {
+  background: #fbbe6d;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #fbbe6d, #f9920b);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fbbe6d), color-stop(100%, #f9920b));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #fbbe6d, #f9920b);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #fbbe6d, #f9920b);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #fbbe6d, #f9920b);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #fbbe6d, #f9920b);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fbbe6d', endColorstr='#f9920b', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-time-popup .e-active {
+  /*other*/
+  color: white;
+}
+.e-time-popup.e-popup .e-hover.e-active {
+  
+}
+.e-timewidget .e-icon.e-clock:before {
+  width: 20px;
+  height: 20px;
+}
+.e-timewidget.e-active .e-select {
+  
+}
+.e-timewidget.e-active .e-select:hover {
+  
+}
+.e-time-popup {
+  
+}
+.e-timewidget .e-input::selection {
+  
+}
+.e-timewidget .e-input::-moz-selection {
+  
+}
+.e-timewidget .e-select {
+  
+}
+.e-timewidget .e-select:active:before {
+  
+}
+.e-timewidget .e-select.e-disable:active:before {
+  
+}
+.e-timewidget.e-disable {
+  background-color: whitesmoke;
+  border-color: #e3e3e3;
+  opacity: 1;
+}
+.e-timewidget .e-select.e-disable,
+.e-timewidget.e-disable .e-select:hover,
+.e-ntouch.e-timewidget .e-disable.e-select:hover {
+  background-color: #d6d7d7;
+}

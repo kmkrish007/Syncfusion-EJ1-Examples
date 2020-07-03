@@ -1,0 +1,522 @@
+/*-----------------------HeatMap Definition-----------------*/
+/*@neutral-light;*/
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*-----------------------OLAP Definition-----------------*/
+/*-----------------------OLAP Definition End-----------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*----------------------material theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+.office-file-explorer-toolbar-bg-color {
+  background: white;
+}
+.office-tab-header-bg-color {
+  background: white;
+}
+/*------------------ material theme ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: white;
+  color: #111111;
+  border-color: #c8c8c8;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+/*Theme Color*/
+
+/*---------------- RTE Theme CSS----------------------*/
+
+.e-rte {
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-rte-wrapper {
+  background: white;
+  color: #212121;
+  font-size: 14px;
+  
+}
+.e-rte-wrapper {
+  /*other*/
+
+  
+}
+.e-rte-wrapper {
+  /*material*/
+  border: 1px solid #dadada;
+}
+.e-inputtext {
+  
+  outline: none;
+  background-color: white;
+  vertical-align: baseline;
+}
+.e-inputtext {
+  /*other*/
+  border: 1px solid #c8c8c8;
+  color: #212121;
+}
+.e-rte-field .e-img-border-field .e-focus,
+.e-rte-field .e-chkbox-wrap.e-focus div > span,
+.e-rte-field .e-inputtext:focus,
+.e-rte-button .e-btn.e-select:focus,
+.e-rte-tablefields .e-chkbox-wrap.e-focus div > span,
+.e-rte-tablefields .e-inputtext:focus,
+.e-img-field-group .e-chkbox-wrap.e-focus div > span,
+.e-img-border-field .e-inputtext:focus,
+.e-rte-stylefield .e-inputtext:focus {
+  
+}
+.e-rte-field .e-img-border-field .e-focus,
+.e-rte-field .e-chkbox-wrap.e-focus div > span,
+.e-rte-field .e-inputtext:focus,
+.e-rte-button .e-btn.e-select:focus,
+.e-rte-tablefields .e-chkbox-wrap.e-focus div > span,
+.e-rte-tablefields .e-inputtext:focus,
+.e-img-field-group .e-chkbox-wrap.e-focus div > span,
+.e-img-border-field .e-inputtext:focus,
+.e-rte-stylefield .e-inputtext:focus {
+  /*other*/
+  box-shadow: 0 0 2px 0 #0078d7;
+}
+.e-rte-field .e-inputtext:focus,
+.e-rte-tablefields .e-inputtext:focus {
+  
+}
+.e-rte-imageTab .e-item:focus {
+  box-shadow: 1px 0 0 0 #0078d7;
+}
+/*-----------------Tooltip class ----------------------*/
+
+.e-rteTooltip {
+  min-width: auto;
+}
+.e-rteTooltip .e-tipContainer .e-tipcontent {
+  padding: 2px 4px;
+}
+/*----------------------- Toolbar Class-------------------------- */
+
+.e-rte .e-toolbar.e-rtl > .e-horizontal.e-separator {
+  
+}
+.e-rte .e-toolbar.e-rtl > .e-horizontal.e-separator {
+  /*other*/
+
+  
+}
+.e-rte .e-toolbar.e-rtl > .e-horizontal.e-separator {
+  /*material*/
+  border-left: 1px solid #eaeaea;
+}
+/*.e-rte .e-toolbarspan ul:last-child*/
+
+.e-rte .e-horizontal.e-separator {
+  
+}
+.e-rte .e-horizontal.e-separator {
+  /*other*/
+
+  
+}
+.e-rte .e-horizontal.e-separator {
+  /*material*/
+  border-right: 1px solid #eaeaea;
+  height: 40px;
+}
+.e-rte-unorderlistname .e-liseparator,
+.e-rte-orderlistname .e-liseparator {
+  border-bottom: 1px dotted #c8c8c8;
+}
+.e-rte .customtable-group:hover {
+  color: #212121;
+}
+.e-rte .customtable-group:hover {
+  background: #eaeaea;
+}
+.e-rte .e-toolbarspan {
+  
+}
+.e-rte .e-toolbarspan {
+  /*material*/
+  border: none;
+  border-bottom: 2px solid #dadada;
+}
+.e-rte .e-toolbar .e-ul.e-horizontal.e-separator:first-child,
+.e-rte .e-toolbar > .e-horizontal.e-ul:first-child {
+  
+}
+.e-dialog .e-fieldseparate,
+.e-rte-toolbar .e-responsive-toolbar.e-toolbarspan {
+  border-color: #c8c8c8;
+}
+.e-rte .e-rte-footer {
+  border-top: 1px solid #c8c8c8;
+}
+.e-rte .e-rte-footer {
+  background: #f4f4f4;
+}
+.e-rte-colorpalette.e-menu.e-context > li:hover {
+  background: none;
+}
+.e-rte-colorpalette.e-menu.e-context .e-mfocused,
+.e-rte-colorpalette.e-menu.e-context .e-mhover {
+  background: none;
+}
+.e-rte-table-picker.e-dialog {
+  background: #f4f4f4;
+}
+.e-rte-tablecell {
+  border-color: #c8c8c8;
+}
+.e-rte-tablecell.e-default {
+  background: white;
+}
+.e-rte-tablecell.e-active {
+  border-color: #c8c8c8;
+}
+.e-rte-tablecell.e-active {
+  background: #eaeaea;
+}
+.e-rte .e-toolbar .e-rte-format .e-hover,
+.e-rte .e-toolbar .e-rte-fontgroup .e-hover,
+.e-rte .e-toolbar .e-rte-lists .e-hover,
+.e-rte .e-toolbar .e-res-pos:hover {
+  
+  border-color: transparent;
+  background-image: none;
+  background-clip: padding-box;
+}
+.e-rte .e-toolbar .e-rte-format .e-hover,
+.e-rte .e-toolbar .e-rte-fontgroup .e-hover,
+.e-rte .e-toolbar .e-rte-lists .e-hover,
+.e-rte .e-toolbar .e-res-pos:hover {
+  /*other*/
+  background-color: #eaeaea;
+}
+.e-rte .e-toolbar .e-rte-lists .e-active {
+  background: none;
+  border-color: transparent;
+}
+.e-rte-orderlistname.e-menu.e-context .e-list:hover,
+.e-rte-unorderlistname.e-menu.e-context .e-list:hover,
+.e-rte-orderlistname.e-menu.e-context .e-list.e-mhover .e-rte-toolbar-icon,
+.e-rte-unorderlistname.e-menu.e-context .e-list.e-mhover .e-rte-toolbar-icon {
+  
+}
+.e-rte-orderlistname.e-menu.e-context .e-list:hover,
+.e-rte-unorderlistname.e-menu.e-context .e-list:hover,
+.e-rte-orderlistname.e-menu.e-context .e-list.e-mhover .e-rte-toolbar-icon,
+.e-rte-unorderlistname.e-menu.e-context .e-list.e-mhover .e-rte-toolbar-icon {
+  /*other*/
+
+  
+}
+.e-rte-orderlistname.e-menu.e-context .e-list:hover,
+.e-rte-unorderlistname.e-menu.e-context .e-list:hover,
+.e-rte-orderlistname.e-menu.e-context .e-list.e-mhover .e-rte-toolbar-icon,
+.e-rte-unorderlistname.e-menu.e-context .e-list.e-mhover .e-rte-toolbar-icon {
+  /*office-365*/
+  background: #deecf9;
+}
+.e-rte-orderlistname.e-menu.e-context .e-list,
+.e-rte-unorderlistname.e-menu.e-context .e-list {
+  /*office-365*/
+  border: 1px solid #eaeaea;
+}
+.e-rte-unorderlistname.e-menu li.e-list:nth-child(3),
+.e-rte-unorderlistname.e-menu li.e-list:nth-child(4),
+.e-rte-orderlistname.e-menu li.e-list:nth-child(4),
+.e-rte-orderlistname.e-menu li.e-list:nth-child(5),
+.e-rte-orderlistname.e-menu li.e-list:nth-child(6) {
+  /*office-365*/
+  margin-top: 8px;
+}
+.e-rte-unorderlistname.e-menu li.e-list:nth-child(2),
+.e-rte-unorderlistname.e-menu li.e-list:nth-child(4),
+.e-rte-orderlistname.e-menu li.e-list:nth-child(3),
+.e-rte-orderlistname.e-menu li.e-list:nth-child(6) {
+  /*office-365*/
+  margin-right: 0px;
+}
+.e-rte-toolbar-icon.e-rte-unlistitems.customUnOrder.e-list.e-mhover,
+.e-rte-toolbar-icon.e-rte-listitems.customOrder.e-list.e-mhover,
+.e-rte-toolbar-icon.e-rte-unlistitems.customUnOrder.e-list:hover,
+.e-rte-toolbar-icon.e-rte-listitems.customOrder.e-list:hover {
+  
+}
+.e-rte .e-rte-resize {
+  height: 5px;
+  cursor: se-resize;
+}
+.e-rte .e-rte-htmltaginfo,
+.e-rte .e-rte-wordcount,
+.e-rte .e-rte-charcount {
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  font-size: 14px;
+  color: #212121;
+  cursor: default;
+}
+.e-rte .e-rte-footericon,
+.e-rte .e-rte-wordcount,
+.e-rte .e-rte-charcount {
+  border-right: 1px solid #c8c8c8;
+}
+.e-rte .e-rte-footer.e-rtl .e-rte-icons.clearAll.e-rte-footericon {
+  border-left: 1px solid #c8c8c8;
+}
+.e-rte-colorpalette {
+  
+}
+.e-rte-colorpalette {
+  /*other*/
+  padding: 5px !important;
+  width: auto !important;
+}
+.e-error {
+  color: #cd0a0a;
+}
+.e-rte .e-dialog .e-dialog-tab {
+  border: 1px solid #c8c8c8;
+}
+.e-rte .e-dialog .e-dialog-tab.e-tab .e-header li,
+.e-rte-context-menu.e-context .e-rte-separator {
+  border-color: #c8c8c8;
+}
+.e-rte-context-menu.e-menu .e-list.e-mhover .e-rte-toolbar-icon {
+  color: #666666;
+}
+.e-rte-toolbar .e-toolbar .e-tooltxt.e-active {
+  color: white;
+}
+.e-rte-toolbar .e-toolbar .e-ul {
+  
+}
+.e-rte-toolbar .e-toolbar .e-ul {
+  /*other*/
+
+  border-color: #c8c8c8;
+}
+.e-rte .e-tooltxt .e-btn.e-select,
+.e-rte .e-tooltxt .e-btn.e-ntouch.e-disable.e-select:hover,
+.e-rte .e-tooltxt .e-btn.e-disable.e-select:hover {
+  
+}
+.e-rte .e-tooltxt .e-btn.e-select,
+.e-rte .e-tooltxt .e-btn.e-ntouch.e-disable.e-select:hover,
+.e-rte .e-tooltxt .e-btn.e-disable.e-select:hover {
+  /*other*/
+
+  
+}
+.e-rte .e-tooltxt .e-btn.e-select,
+.e-rte .e-tooltxt .e-btn.e-ntouch.e-disable.e-select:hover,
+.e-rte .e-tooltxt .e-btn.e-disable.e-select:hover {
+  /*office-365*/
+  background: white;
+  width: 24px;
+  height: 36px;
+}
+.e-rte .e-tooltxt .e-split-btn.e-rht-btn,
+.e-rte .e-tooltxt .e-split-btn.e-disable.e-select:hover {
+  /*office-365*/
+  background: white;
+  width: 16px !important;
+  height: 36px !important;
+}
+.e-rte .e-tooltxt.e-active .e-split-btn.e-rht-btn:focus,
+.e-rte .e-tooltxt.e-active .e-split-btn.e-disable.e-select:focus {
+  /*office-365*/
+  border: 0px solid;
+}
+.e-rte .e-tooltxt.e-active .e-btn.e-select:focus,
+.e-rte .e-tooltxt.e-active .e-btn.e-ntouch.e-disable.e-select:focus {
+  /*office-365*/
+  border: 0px solid;
+}
+.e-rte .e-tooltxt.e-active .e-btn.e-select,
+.e-rte .e-tooltxt.e-active .e-btn.e-ntouch.e-disable.e-select {
+  /*office-365*/
+  background: #0078d7;
+  color: white;
+}
+.e-rte .e-tooltxt.e-active .e-btn.e-select span.e-icon,
+.e-rte .e-tooltxt.e-active .e-btn.e-ntouch.e-disable.e-select span.e-icon {
+  /*office-365*/
+  color: white;
+}
+.e-rte .e-tooltxt .e-btn.e-select:hover {
+  /*office-365*/
+  background: #f4f4f4;
+}
+.e-rte .e-tooltxt .e-btn.e-ntouch.e-select:hover {
+  background: #eaeaea;
+}
+.e-rte .e-rteItem-orderedList .e-split,
+.e-rte .e-rteItem-unorderedList .e-split {
+  box-shadow: none;
+  border-radius: 0px;
+  height: 36px !important;
+}
+.e-responsive-toolbar .e-rte-lists.e-ul .e-rteItem-unorderedList.e-tooltxt .e-split,
+.e-responsive-toolbar .e-rte-lists.e-ul .e-rteItem-orderedList.e-tooltxt .e-split {
+  height: 24px !important;
+  width: 36px !important;
+}
+.e-rte .e-toolbar.e-js ul > li.e-tooltxt .e-split {
+  box-shadow: none;
+  border-radius: 0px;
+  height: 36px !important;
+}
+.e-rte .e-toolbar.e-js ul > li.e-tooltxt .e-ddl .e-in-wrap {
+  
+}
+.e-rte .e-toolbar.e-js ul > li.e-tooltxt .e-ddl .e-in-wrap {
+  /*other*/
+  border-color: #c8c8c8;
+}
+.e-rte .e-horizontal.e-separator > li:last-child {
+  
+}
+.e-rte .e-rte-toolbar .e-icon.e-toolbar-res-arrow,
+.e-rte .e-rte-toolbar.e-rtl .e-icon.e-toolbar-res-arrow {
+  
+}
+.e-rte .e-toolbar .e-icon.e-toolbar-res-arrow {
+  height: 26px;
+  margin-top: 5px;
+}
+.e-rte .e-toolbar.e-rtl .e-rteItem-unorderedList {
+  
+}
+.e-rte .e-toolbar.e-rtl .e-ul.e-horizontal.e-separator .e-tooltxt:first-child {
+  
+}
+.e-rte .e-toolbar.e-rtl .e-ul.e-horizontal.e-separator .e-tooltxt:last-child {
+  
+}
+.e-rte .e-toolbar.e-rtl > .e-horizontal.e-separator {
+  
+}
+.e-rte .e-background-color,
+.e-rteItem-backgroundColor .e-background-color,
+.e-rte .e-font,
+.e-rteItem-fontColor .e-font {
+  
+}
+.e-rte .e-toolbar > ul > li {
+  
+}
+.e-rte .e-toolbar .e-ul .e-tooltxt .e-ddl .e-select {
+  
+}
+.e-rte .e-toolbar .e-ul .e-tooltxt .e-ddl .e-input {
+  
+}
+.e-rte .e-toolbar .e-rte-format.e-ul .e-tooltxt .e-ddl .e-input {
+  /*office-365*/
+  padding-left: 0.557em;
+}
+.e-rte .e-toolbar.e-rtl .e-rte-format.e-ul .e-tooltxt .e-ddl .e-input {
+  /*office-365*/
+  padding-right: 0.557em;
+}
+.e-rte .e-toolbar .e-ul .e-tooltxt .e-ddl.e-widget.e-popactive .e-select {
+  
+}
+.e-rte .e-split.e-widget .e-in-wrap.e-splitarrowright .e-split-btn.e-left-btn {
+  
+}
+.e-rte-button .e-rte-btn.e-button.e-select,
+.e-rte.e-findandreplace.e-dialog .e-widget-content .e-btn.e-select {
+  
+}
+.e-rte-button .e-rte-btn.e-button.e-btn.e-select:hover,
+.e-rte.e-findandreplace.e-dialog .e-widget-content .e-btn.e-select:hover {
+  
+}
+.e-rte-button .e-rte-btn.e-button.e-btn.e-select:active,
+.e-rte.e-findandreplace.e-dialog .e-widget-content .e-btn.e-select:active {
+  
+}
+.e-rte .e-toolbar.e-rtl {
+  
+}
+.e-rte-format.e-ul.e-horizontal.e-separator.e-comnrtl {
+  
+}
+.e-responsive-toolbar > .e-horizontal.e-ul:first-child {
+  
+}
+.e-rte-orderlistname.e-menu.e-context .e-list.e-mhover,
+.e-rte-unorderlistname.e-menu.e-context .e-list.e-mhover,
+.e-rte-orderlistname.e-menu.e-context .e-mhover > .e-menulink,
+.e-rte-unorderlistname.e-menu.e-context .e-mhover > .e-menulink {
+  
+}
+.e-rte .e-toolbar.e-js ul > li.e-tooltxt .e-ddl {
+  /*office-365*/
+  height: 32px !important;
+}
+.e-rte .e-toolbar.e-js ul > li.e-tooltxt .e-split {
+  /*office-365*/
+  height: 35px !important;
+}
+.e-rte-unorderlistname.e-menu {
+  width: 108px !important;
+  padding: 15px;
+}
+.e-rte-orderlistname.e-menu {
+  width: 150px !important;
+  padding: 15px;
+}
+.e-rte-unorderlistname.e-menu li.e-list,
+.e-rte-orderlistname.e-menu li.e-list {
+  width: 32px !important;
+  height: 32px;
+  margin-right: 8px;
+}
+.e-rte-toolbar-icon.e-rte-unlistitems.customUnOrder.e-list {
+  width: 100% !important;
+  margin-top: 15px;
+}
+.e-rte-toolbar-icon.e-rte-listitems.customOrder.e-list {
+  width: 100% !important;
+  margin-top: 15px;
+  margin-right: 0px;
+}
+.e-rtlrte label {
+  height: 12px;
+  line-height: 10px;
+}
+.e-rte-orderlistname.e-menu.e-context.e-split,
+.e-rte-unorderlistname.e-menu.e-context.e-split,
+.e-rte-colorpalette.e-menu.e-context.e-split,
+.e-rte-orderlistname.e-menu.e-widget.e-split li.e-list,
+.e-rte-unorderlistname.e-menu.e-widget.e-split li.e-list {
+  background: white;
+  border-color: #eaeaea;
+}
+/*---------------- RTE Theme End------------------*/
+

@@ -1,0 +1,884 @@
+/* need verify with UX team*/
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*----------------------OLAP Definition------------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*----------------------material theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: white;
+  color: #111111;
+  border-color: #c8c8c8;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+/*---------------------------------Schedule Theme--------------------------------*/
+
+.e-schedule,
+.e-schedule.e-scheduleouter {
+  
+}
+.e-schedule,
+.e-schedule.e-scheduleouter {
+  color: #333333;
+  background-color: white;
+}
+.e-schedule .e-mobileNavigation {
+  
+}
+.e-schedule .e-mobileNavigation {
+  color: #686969;
+}
+.e-scheduledrawer .e-mAddEvent,
+.e-scheduledrawer .e-mday,
+.e-scheduledrawer .e-mweek,
+.e-scheduledrawer .e-mworkweek,
+.e-scheduledrawer .e-mmonth,
+.e-scheduledrawer .e-mcustomview,
+.e-scheduledrawer .e-magenda {
+  color: #686969;
+}
+.e-scheduledrawer .e-lv .e-list.e-state-default:hover > .e-list-img {
+  color: #282827;
+}
+.navDrawerMenu li {
+  
+}
+.e-scheduledrawer .e-list.e-state-active .e-list-img {
+  
+}
+.e-scheduledrawer .e-list.e-state-active .e-list-img {
+  color: white;
+}
+.e-schedule .icon-AddGrad:before {
+  color: #2382c3;
+}
+.e-schedule .e-datecommondiv {
+  
+}
+.e-schedule .e-datecommondiv {
+  color: #333333;
+}
+.e-schedule .e-commonviewbutton {
+  
+}
+.e-schedule .e-commonviewbutton {
+  color: #333333;
+  border: 1px solid #c8c8c8;
+  border-right: none;
+}
+.e-schedule .e-commonviewbutton {
+  background: whitesmoke;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, whitesmoke, #dddddd);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, whitesmoke), color-stop(100%, #dddddd));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, whitesmoke, #dddddd);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, whitesmoke, #dddddd);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, whitesmoke, #dddddd);
+  /* IE10+ */
+  background: linear-gradient(to bottom, whitesmoke, #dddddd);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='whitesmoke', endColorstr='#dddddd', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-schedule .e-commonviewbutton.e-activeview:hover {
+  
+}
+.e-schedule .e-nextapp:hover,
+.e-schedule .e-prevapp:hover {
+  
+}
+.e-schedule .e-nextapp:hover,
+.e-schedule .e-prevapp:hover {
+  border-color: #c8c8c8;
+  color: #282827;
+}
+.e-schedule .e-nextapp:hover,
+.e-schedule .e-prevapp:hover {
+  background: #fde3c2;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #fde3c2, #fcce91);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fde3c2), color-stop(100%, #fcce91));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #fde3c2, #fcce91);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #fde3c2, #fcce91);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #fde3c2, #fcce91);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #fde3c2, #fcce91);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fde3c2', endColorstr='#fcce91', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-scheduledialog .e-scheduleclose:hover {
+  
+}
+.e-scheduledialog .e-scheduleclose:hover {
+  border-color: #c8c8c8;
+  color: #282827;
+}
+.e-scheduledialog .e-scheduleclose:hover {
+  background: #fde3c2;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #fde3c2, #fcce91);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fde3c2), color-stop(100%, #fcce91));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #fde3c2, #fcce91);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #fde3c2, #fcce91);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #fde3c2, #fcce91);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #fde3c2, #fcce91);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fde3c2', endColorstr='#fcce91', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-schedule .e-commonviewbutton:hover {
+  
+}
+.e-schedule .e-commonviewbutton:hover {
+  color: #282827;
+}
+.e-schedule .e-commonviewbutton:hover {
+  background: #fde3c2;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #fde3c2, #fcce91);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fde3c2), color-stop(100%, #fcce91));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #fde3c2, #fcce91);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #fde3c2, #fcce91);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #fde3c2, #fcce91);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #fde3c2, #fcce91);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fde3c2', endColorstr='#fcce91', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-schedule .e-appup,
+.e-schedule .e-appdown {
+  
+}
+.e-schedule .e-appup,
+.e-schedule .e-appdown {
+  color: #333333;
+}
+.e-schedule .e-appup:hover,
+.e-schedule .e-appdown:hover {
+  color: #fde3c2;
+}
+.e-schedule .e-singleview {
+  border-right: 1px solid #c8c8c8;
+}
+.e-schedule.e-rtl .e-firstview,
+.e-schedule .e-lastview {
+  border: 1px solid #c8c8c8;
+}
+.e-schedule .e-dateheader {
+  border-bottom: 3px solid #fbbe6d;
+}
+.e-schedule .e-horizontalemptytd {
+  border: none !important;
+  border-right: 1px solid #c8c8c8 !important;
+  border-top: 1px solid #c8c8c8 !important;
+}
+.e-schedule.e-rtl .e-horizontalemptytd {
+  border: none !important;
+  border-left: 1px solid #c8c8c8 !important;
+  border-top: 1px solid #c8c8c8 !important;
+}
+.e-categorizeMenuSelected {
+  background: none repeat scroll 0 0 aliceblue;
+  border: 1px solid #0094ff !important;
+}
+.e-schedule .e-dateheader,
+.e-schedule .e-leftindent {
+  border-bottom: 1px solid #c8c8c8;
+}
+.e-scheduledialog .e-quickstartend {
+  
+}
+.e-scheduledialog .e-quickstartendtime {
+  border-bottom: 1px solid #c8c8c8;
+}
+.e-scheduledialog .e-quickcreatebottomcontainer {
+  
+}
+.e-schedule .e-horizontalheader {
+  border-bottom: 3px solid #fbbe6d !important;
+  background: #f9f9f9;
+  color: #282827;
+}
+.e-schedule .e-horizontalheadertddate {
+  border-left: none !important;
+  border-bottom: none !important;
+  border-right: none !important;
+}
+.e-schedule .e-horizontaltimetd {
+  border-bottom: 3px solid #fbbe6d !important;
+  border-top: 1px solid #c8c8c8 !important;
+  border-left: 1px solid #c8c8c8;
+}
+.e-schedule .e-horizontalalternatetd {
+  border-bottom: 3px solid #fbbe6d !important;
+  border-left: 1px solid transparent;
+  border-top: 1px solid #c8c8c8 !important;
+}
+.e-schedule .e-horizontmonthheaderdatetd {
+  border-bottom: 1px solid #c8c8c8 !important;
+  border-left: 1px solid #c8c8c8;
+}
+.e-schedule .e-horizontmonthheaderdaytd {
+  border-bottom: 3px solid #fbbe6d !important;
+  border-left: 1px solid #c8c8c8;
+}
+.e-schedule .e-horizontmonthheaderdaytd,
+.e-schedule .e-horizontaltabletimecell {
+  
+}
+.e-schedule .e-alternateworkcell {
+  border-left: 1px dotted #c8c8c8 !important;
+}
+.e-schedule .e-dayend {
+  border-left: 2px solid #c8c8c8 !important;
+}
+.e-schedule .e-parentnode,
+.e-schedule .e-parentworkcell {
+  border-bottom: 1px solid #c8c8c8 !important;
+}
+.e-schedule .e-parentnode {
+  border-bottom: 1px solid #c8c8c8 !important;
+}
+.e-schedule .e-parentnode {
+  background: whitesmoke;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, whitesmoke, #dddddd);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, whitesmoke), color-stop(100%, #dddddd));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, whitesmoke, #dddddd);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, whitesmoke, #dddddd);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, whitesmoke, #dddddd);
+  /* IE10+ */
+  background: linear-gradient(to bottom, whitesmoke, #dddddd);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='whitesmoke', endColorstr='#dddddd', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-schedule .e-childnode,
+.e-schedule .e-childworkcell {
+  border-bottom: 1px dotted #c8c8c8 !important;
+}
+.e-schedule .e-workcells,
+.e-schedule .e-monthcells {
+  border-bottom: 1px solid #c8c8c8;
+  border-left: 1px solid #c8c8c8;
+  background: #f7f7f7;
+}
+.e-schedule .e-othermonths {
+  border-left: 1px solid transparent;
+}
+.e-schedule .e-agendacells {
+  border-bottom: 1px solid #c8c8c8;
+  border-left: 1px solid #c8c8c8;
+}
+.e-schedule .e-agendahover,
+.e-schedule .e-schedulerepeat,
+.e-schedule .e-schedulerepeatedit,
+.e-schedule .e-scheduleallday {
+  color: #fbbe6d;
+}
+.e-schedule .e-alternatecells,
+.e-schedule .e-ampmstyle {
+  
+}
+.e-schedule .e-alternatecells,
+.e-schedule .e-ampmstyle {
+  border-bottom: 1px dotted #cdcdcd;
+}
+.e-schedule .e-ampmstyle {
+  
+}
+.e-schedule .e-appointresizer-top,
+.e-schedule .e-appointresizer-bottom,
+.e-schedule .e-appointresizer-left,
+.e-schedule .e-appointresizer-right {
+  
+}
+.e-schedule .e-appointresizer-top,
+.e-schedule .e-appointresizer-bottom,
+.e-schedule .e-appointresizer-left,
+.e-schedule .e-appointresizer-right {
+  color: white;
+}
+.e-schedule .e-monthcellhighlight {
+  
+}
+.e-schedule .e-monthcellhighlight {
+  background: white;
+}
+.e-schedule .e-businesshighlightworkcells {
+  
+}
+.e-schedule .e-businesshighlightworkcells {
+  background: white;
+}
+.e-schedule .e-scheduleheader {
+  
+}
+.e-schedule .e-scheduleheader {
+  background: whitesmoke;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, whitesmoke, #dddddd);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, whitesmoke), color-stop(100%, #dddddd));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, whitesmoke, #dddddd);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, whitesmoke, #dddddd);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, whitesmoke, #dddddd);
+  /* IE10+ */
+  background: linear-gradient(to bottom, whitesmoke, #dddddd);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='whitesmoke', endColorstr='#dddddd', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-schedule .e-nextapp,
+.e-schedule .e-prevapp {
+  
+}
+.e-schedule .e-nextapp,
+.e-schedule .e-prevapp {
+  border: 1px solid #c8c8c8;
+  border-bottom: transparent;
+  color: #333333;
+}
+.e-schedule .e-nextapp,
+.e-schedule .e-prevapp {
+  background: whitesmoke;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, whitesmoke, #dddddd);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, whitesmoke), color-stop(100%, #dddddd));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, whitesmoke, #dddddd);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, whitesmoke, #dddddd);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, whitesmoke, #dddddd);
+  /* IE10+ */
+  background: linear-gradient(to bottom, whitesmoke, #dddddd);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='whitesmoke', endColorstr='#dddddd', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-schedule .e-nextprevappdisable {
+  
+}
+.e-schedule .e-nextprevappdisable {
+  opacity: 0.4;
+}
+.e-schedule .e-navigatenext,
+.e-schedule .e-navigateprevious {
+  
+}
+.e-schedule .e-navigatenext,
+.e-schedule .e-navigateprevious {
+  color: #686969;
+}
+.e-schedule .e-scheduleheader > td {
+  
+}
+.e-schedule .e-scheduleheader > td {
+  border: 1px solid #c8c8c8;
+  border-bottom: none;
+}
+.e-schedule .e-headerarearow > td {
+  border: 1px solid #c8c8c8;
+  border-bottom: none;
+}
+.e-schedule .e-contentarearow > td {
+  border: 1px solid #c8c8c8;
+  border-top: none;
+}
+.e-schedule .e-resourceexpand:after,
+.e-schedule .e-resourcecollapse:after {
+  
+}
+.e-schedule.e-scheduleresponsive.e-resources {
+  border-right: 1px solid #c8c8c8;
+}
+.e-schedule.e-rtl.e-scheduleresponsive.e-resources {
+  border-right: none;
+  border-left: 1px solid #c8c8c8;
+}
+.e-schedule .e-headerbackcolor,
+.e-schedule .e-timecells {
+  border-bottom: 1px solid #c8c8c8;
+}
+.e-schedule .e-monthheader,
+.e-schedule .e-scrolltimecells {
+  
+}
+.e-schedule .e-currentdayhighlight {
+  
+}
+.e-schedule .e-currentdayhighlight {
+  color: #282827 !important;
+  background: rgba(251, 190, 109, 0.3) !important;
+}
+.e-schedule .e-horizontal .e-currentdayhighlight {
+  
+}
+.e-schedule .e-currentdayhighlight .e-activeview {
+  
+}
+.e-schedule .e-currentdayhighlight .e-activeview {
+  background: none !important;
+  color: #282827 !important;
+}
+.e-schedule .e-headercells:not(.e-currentdayhighlight) .e-activeview {
+  
+}
+.e-schedule .e-mousehover {
+  background-color: #fde3c2 !important;
+  color: #282827;
+}
+.e-schedule .e-mousehover .e-agendahover,
+.e-schedule .e-mousehover .e-schedulerepeat,
+.e-schedule .e-mousehover .e-schedulerepeatedit,
+.e-schedule .e-mousehover .e-scheduleallday {
+  
+}
+.e-schedule .e-mousehover .e-agendahover,
+.e-schedule .e-mousehover .e-schedulerepeat,
+.e-schedule .e-mousehover .e-schedulerepeatedit,
+.e-schedule .e-mousehover .e-scheduleallday {
+  color: #282827;
+}
+.e-schedule .e-highlightcurrenttimeline {
+  background-color: #fab354;
+}
+.e-schedule .e-currenttime {
+  background-color: #fab354;
+  color: white;
+}
+.e-schedule .e-timeidicatorcircle {
+  color: #fab354;
+}
+.e-scheduledialog .e-recuredit {
+  color: #fbbe6d;
+}
+.e-schedule .e-alldaycells {
+  border-left: 1px solid #c8c8c8;
+  border-bottom: 1px solid #c8c8c8;
+}
+.e-schedule .e-headerresourcecells {
+  border-bottom: 1px solid #c8c8c8;
+}
+.e-schedule .e-resourcecells,
+.e-schedule .e-monthnamecells {
+  border-left: 1px solid #c8c8c8;
+  border-bottom: 1px solid #c8c8c8;
+  background: #f9f9f9;
+  color: #282827;
+}
+.e-schedule .e-headercells {
+  border-left: 1px solid #c8c8c8;
+  border-bottom: 3px solid #fbbe6d;
+  background: #f9f9f9;
+  color: #282827;
+}
+.e-schedule .e-monthdateshighlight {
+  
+}
+.e-schedule .e-monthdateshighlight {
+  color: #c5c4c4 !important;
+}
+.e-schedule .e-monthcurrenttime {
+  background: #fab354;
+  color: white;
+}
+.e-schedule.e-rtl .e-agendacells,
+.e-schedule.e-rtl .e-workcells,
+.e-schedule.e-rtl .e-alldaycells,
+.e-schedule.e-rtl .e-monthcells {
+  border-left: none !important;
+  border-right: 1px solid #c8c8c8;
+}
+.e-schedule.e-rtl .e-resourcecells,
+.e-schedule.e-rtl .e-headercells,
+.e-schedule.e-rtl .e-horizontmonthheaderdatetd,
+.e-schedule.e-rtl .e-horizontmonthheaderdaytd,
+.e-schedule.e-rtl .e-monthnamecells {
+  border-left: none !important;
+  border-right: 1px solid #c8c8c8;
+}
+.e-schedule.e-rtl .e-othermonths {
+  border-left: none !important;
+  border-right: 1px solid transparent;
+}
+.e-schedule.e-rtl .e-dayend {
+  border-left: none !important;
+  border-right: 2px solid #c8c8c8 !important;
+}
+.e-schedule.e-rtl .e-horizontaltimetd {
+  border-left: none !important;
+  border-right: 1px solid #c8c8c8;
+}
+.e-schedule.e-rtl .e-alternateworkcell {
+  border-left: none !important;
+  border-right: 1px dotted #c8c8c8 !important;
+}
+.e-schedule.e-rtl .e-horizontalalternatetd {
+  border-left: none !important;
+  border-right: 1px solid transparent !important;
+}
+.e-schedule .e-activeview {
+  
+}
+.e-schedule .e-activeview {
+  background: #fbbe6d;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #fbbe6d 0%, #f9920b 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fbbe6d), color-stop(100%, #f9920b));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #fbbe6d 0%, #f9920b 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #fbbe6d 0%, #f9920b 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #fbbe6d 0%, #f9920b 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #fbbe6d 0%, #f9920b 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fbbe6d', endColorstr='#f9920b', GradientType=0);
+  /* IE6-9 */
+
+  color: white;
+}
+.e-schedule .e-monthleftcells,
+.e-schedule .e-settingsindent {
+  border-bottom: 3px solid #fbbe6d;
+  background: #f9f9f9;
+  color: #282827;
+}
+.e-schedule .e-resourceleftindentcells,
+.e-schedule .e-monthnameleftindentcell {
+  border-bottom: 1px solid transparent;
+  background: #f9f9f9;
+  color: #282827;
+}
+.e-schedule .e-horizontaldaterender {
+  background: #f9f9f9;
+  color: #282827;
+}
+.e-draggableAppointment,
+.e-schedule .e-monthappointment,
+.e-schedule .e-alldayappointment,
+.e-schedule .e-appointment,
+.e-schedule .e-inline {
+  background: #fbbe6d;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #fbbe6d 0%, #f9920b 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fbbe6d), color-stop(100%, #f9920b));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #fbbe6d 0%, #f9920b 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #fbbe6d 0%, #f9920b 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #fbbe6d 0%, #f9920b 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #fbbe6d 0%, #f9920b 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fbbe6d', endColorstr='#f9920b', GradientType=0);
+  /* IE6-9 */
+
+  color: white;
+  border: 1px solid #fcd49f;
+}
+.e-schedule .e-categorycolor,
+.e-schedule .e-agendacolordiv {
+  background: #fbbe6d;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #fbbe6d 0%, #f9920b 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fbbe6d), color-stop(100%, #f9920b));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #fbbe6d 0%, #f9920b 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #fbbe6d 0%, #f9920b 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #fbbe6d 0%, #f9920b 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #fbbe6d 0%, #f9920b 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fbbe6d', endColorstr='#f9920b', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-schedule .e-selectedAppointment {
+  border: 1px solid black;
+}
+.e-schedule .e-selectedCell,
+.e-schedule .e-agendaappointment.e-selectedAppointment {
+  
+}
+.e-schedule .e-selectedCell,
+.e-schedule .e-agendaappointment.e-selectedAppointment {
+  background-color: #fde3c2 !important;
+}
+.e-schedule .e-borderleft {
+  border-left: 1px solid #c8c8c8;
+}
+.e-schedule .e-borderright {
+  border-right: 1px solid #c8c8c8 !important;
+}
+.e-scheduledialog .e-buttonactive:not(.e-disable) {
+  
+}
+.e-scheduledialog .e-buttonactive:not(.e-disable) {
+  background: #fbbe6d !important;
+  color: white !important;
+}
+.e-scheduledialog .e-buttonactive:not(.e-disable):hover {
+  
+}
+.e-scheduledialog .e-buttonactive:not(.e-disable):hover {
+  background: #fde3c2 !important;
+  color: #282827 !important;
+}
+.e-scheduledialog .e-detailedapp,
+.e-scheduledialog .e-editevents {
+  color: #fbbe6d;
+}
+.e-scheduledialog .e-dialogheader {
+  font-weight: bold !important;
+}
+.e-scheduledialog .e-outerarrowline {
+  border-color: #c8c8c8 transparent;
+  border-image: none;
+  border-style: solid;
+  border-width: 9px 9px 0;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+.e-scheduledialog .e-innerarrow {
+  border-color: white transparent;
+  border-image: none;
+  border-style: solid;
+  border-width: 8px 8px 0;
+  left: 1px;
+  position: absolute;
+  top: 0;
+}
+.e-draggableAppointment {
+  box-shadow: 5px 5px 5px #383838;
+}
+.e-schedule .e-blocktimeappointment {
+  background-color: #c2c2c2;
+  color: #333333;
+  opacity: 0.4;
+}
+.e-scheduledialog div.e-field-validation-error {
+  
+}
+.e-scheduledialog div.e-field-validation-error {
+  background-color: #fffe91;
+  color: #cd0a0a;
+  white-space: normal;
+}
+.e-schedule .e-appsoverflow {
+  color: #686969;
+}
+.e-schedule .e-appsoverflow:hover {
+  color: #282827;
+}
+.e-scheduledialog div.e-error .e-toparrow {
+  
+}
+.e-scheduledialog div.e-error .e-toparrow {
+  border-bottom-color: #fffe92;
+}
+@media print {
+  .e-schedule .e-monthappointment,
+  .e-schedule .e-alldayappointment,
+  .e-schedule .e-appointment,
+  .e-schedule .e-activeview,
+  .e-schedule .e-currenttime,
+  .e-schedule .e-highlightcurrenttimeline,
+  .e-schedule .e-agendacolordiv,
+  .e-schedule .e-selectedCell {
+    background: #fbbe6d !important;
+    /* Old browsers */
+  
+    
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fbbe6d), color-stop(100%, #f9920b)) !important;
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #fbbe6d 0%, #f9920b 100%) !important;
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #fbbe6d 0%, #f9920b 100%) !important;
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #fbbe6d 0%, #f9920b 100%) !important;
+    /* IE10+ */
+    background: linear-gradient(to bottom, #fbbe6d 0%, #f9920b 100%) !important;
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fbbe6d', endColorstr='#f9920b', GradientType=0) !important;
+    /* IE6-9 */
+    color: white !important;
+  }
+  .e-schedule .e-monthappointment,
+  .e-schedule .e-alldayappointment,
+  .e-schedule .e-appointment,
+  .e-schedule .e-activeview,
+  .e-schedule .e-currenttime,
+  .e-schedule .e-highlightcurrenttimeline,
+  .e-schedule .e-agendacolordiv,
+  .e-schedule .e-selectedCell {
+    background: -moz-linear-gradient(top, #fbbe6d 0%, #f9920b 100%) !important;
+    /* FF3.6+ */
+  
+  }
+  .e-schedule .e-scheduleheader {
+    
+  }
+  .e-schedule .e-scheduleheader {
+    background: whitesmoke !important;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, whitesmoke, #dddddd !important) !important;
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, whitesmoke), color-stop(100%, #dddddd)) !important;
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, whitesmoke, #dddddd !important) !important;
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, whitesmoke, #dddddd !important) !important;
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, whitesmoke, #dddddd !important) !important;
+    /* IE10+ */
+    background: linear-gradient(to bottom, whitesmoke, #dddddd !important) !important;
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='whitesmoke', endColorstr='#dddddd', GradientType=0) !important;
+    /* IE6-9 */
+  
+  }
+  .e-schedule .e-workcells,
+  .e-schedule .e-monthcells {
+    border-bottom: 1px solid #c8c8c8 !important;
+    border-left: 1px solid #c8c8c8 !important;
+    background: #f7f7f7 !important;
+  }
+  .e-schedule .e-monthcellhighlight {
+    
+  }
+  .e-schedule .e-monthcellhighlight {
+    background: white !important;
+  }
+  .e-schedule .e-businesshighlightworkcells {
+    
+  }
+  .e-schedule .e-businesshighlightworkcells {
+    background: white !important;
+  }
+  .e-schedule .e-nextapp,
+  .e-schedule .e-prevapp {
+    
+  }
+  .e-schedule .e-nextapp,
+  .e-schedule .e-prevapp {
+    border: 1px solid #c8c8c8 !important;
+    border-bottom: transparent !important;
+    color: #333333 !important;
+  }
+  .e-schedule .e-nextapp,
+  .e-schedule .e-prevapp {
+    background: whitesmoke !important;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, whitesmoke, #dddddd !important) !important;
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, whitesmoke), color-stop(100%, #dddddd)) !important;
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, whitesmoke, #dddddd !important) !important;
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, whitesmoke, #dddddd !important) !important;
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, whitesmoke, #dddddd !important) !important;
+    /* IE10+ */
+    background: linear-gradient(to bottom, whitesmoke, #dddddd !important) !important;
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='whitesmoke', endColorstr='#dddddd', GradientType=0) !important;
+    /* IE6-9 */
+  
+  }
+  .e-schedule .e-apptext,
+  .e-schedule .e-apptime,
+  .e-schedule .e-recurapp:before,
+  .e-schedule .e-recureditapp:before {
+    color: white !important;
+  }
+  .e-schedule .e-scheduleallday:before,
+  .e-schedule .e-schedulerepeat:before,
+  .e-schedule .e-schedulerepeatedit:before,
+  .e-schedule .e-timeidicatorcircle:before {
+    color: #fbbe6d !important;
+  }
+  .e-schedule .e-alternatecells,
+  .e-schedule .e-ampmstyle {
+    
+  }
+  .e-schedule .e-alternatecells,
+  .e-schedule .e-ampmstyle {
+    border-bottom: 1px dotted #cdcdcd !important;
+  }
+  .e-schedule .e-othermonths {
+    border-left: 1px solid transparent !important;
+  }
+}
+/*-----------------------Schedule Theme End -----------------------------*/
+

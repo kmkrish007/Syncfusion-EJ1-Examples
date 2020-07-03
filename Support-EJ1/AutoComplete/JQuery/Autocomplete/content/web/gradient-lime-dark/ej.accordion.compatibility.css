@@ -1,0 +1,298 @@
+/* need verify with UX team*/
+.pager-hover-gradient {
+  background: #4a5038;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #4a5038, #404a22);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #4a5038), color-stop(100%, #404a22));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #4a5038, #404a22);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #4a5038, #404a22);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #4a5038, #404a22);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #4a5038, #404a22);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4a5038', endColorstr='#404a22', GradientType=0);
+  /* IE6-9 */
+
+}
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*----------------------OLAP Definition------------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*----------------------material theme-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: #111111;
+  color: white;
+  border-color: #494949;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+/*Theme Color*/
+
+.e-js.e-acrdn {
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-js.e-acrdn > .e-content {
+  border-color: #494949;
+  background-color: black;
+  
+}
+.e-js.e-acrdn > .e-content {
+  
+  border-right: -1;
+  border-left: -1;
+}
+.e-js.e-acrdn > .e-content {
+  /*other*/
+  color: #dddddd;
+  font-size: 14px;
+}
+.e-js.e-acrdn > .e-select,
+.e-js.e-acrdn > .e-disable.e-select:hover,
+.e-js.e-acrdn > .e-disable.e-select:hover a {
+  
+}
+.e-js.e-acrdn > .e-select,
+.e-js.e-acrdn > .e-disable.e-select:hover,
+.e-js.e-acrdn > .e-disable.e-select:hover a {
+  /*other*/
+
+  color: #dddddd;
+}
+.e-js.e-acrdn > .e-select,
+.e-js.e-acrdn > .e-disable.e-select:hover,
+.e-js.e-acrdn > .e-disable.e-select:hover a {
+  background: #4d4d4d;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #4d4d4d, #212121);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #4d4d4d), color-stop(100%, #212121));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #4d4d4d, #212121);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #4d4d4d, #212121);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #4d4d4d, #212121);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #4d4d4d, #212121);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4d4d4d', endColorstr='#212121', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-js.e-acrdn .e-select {
+  
+  font-weight: normal;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-js.e-acrdn .e-select {
+  
+}
+.e-js.e-acrdn .e-select {
+  /*other*/
+  border-color: #777777;
+  font-size: 17px;
+}
+.e-js.e-acrdn .e-select:hover {
+  
+}
+.e-js.e-acrdn .e-select:hover {
+  
+}
+.e-js.e-acrdn .e-select:hover {
+  /*other*/
+
+  color: #dddddd;
+  border-color: #777777;
+}
+.e-js.e-acrdn .e-select:hover {
+  background: #4a5038;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #4a5038, #404a22);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #4a5038), color-stop(100%, #404a22));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #4a5038, #404a22);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #4a5038, #404a22);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #4a5038, #404a22);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #4a5038, #404a22);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4a5038', endColorstr='#404a22', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-js.e-acrdn .e-select a {
+  
+}
+.e-js.e-acrdn .e-select a {
+  color: #dddddd;
+}
+.e-js.e-acrdn .e-select:first-child {
+  
+}
+.e-js.e-acrdn .e-select:first-child {
+  border-top-color: #777777;
+}
+.e-js.e-acrdn > .e-select:first-child {
+  
+}
+.e-js.e-acrdn > .e-select:first-child {
+  
+}
+.e-js.e-acrdn > .e-select:first-child {
+  /*other*/
+  border-color: #777777;
+}
+.e-js.e-acrdn .e-select:last-of-type {
+  
+}
+.e-js.e-acrdn .e-select.e-active,
+.e-js.e-acrdn .e-disable.e-active.e-select:hover a,
+.e-js.e-acrdn .e-disable.e-active.e-select:hover {
+  
+}
+.e-js.e-acrdn .e-select.e-active,
+.e-js.e-acrdn .e-disable.e-active.e-select:hover a,
+.e-js.e-acrdn .e-disable.e-active.e-select:hover {
+  
+}
+.e-js.e-acrdn .e-select.e-active,
+.e-js.e-acrdn .e-disable.e-active.e-select:hover a,
+.e-js.e-acrdn .e-disable.e-active.e-select:hover {
+  /*other*/
+
+  color: white;
+}
+.e-js.e-acrdn .e-select.e-active,
+.e-js.e-acrdn .e-disable.e-active.e-select:hover a,
+.e-js.e-acrdn .e-disable.e-active.e-select:hover {
+  background: #cee292;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #cee292, #aecf49);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #cee292), color-stop(100%, #aecf49));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #cee292, #aecf49);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #cee292, #aecf49);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #cee292, #aecf49);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #cee292, #aecf49);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cee292', endColorstr='#aecf49', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-js.e-acrdn.e-disable .e-select:hover,
+.e-js.e-acrdn.e-disable .e-select:hover a {
+  background: #ecedee;
+  color: #5c5c5c;
+}
+.e-js.e-acrdn .e-select.e-active {
+  
+  font-weight: normal;
+  border-bottom: medium none;
+}
+.e-js.e-acrdn .e-select.e-active {
+  /*other*/
+  border-color: #494949;
+}
+.e-js.e-acrdn .e-select.e-active:hover {
+  
+}
+.e-js.e-acrdn .e-select.e-active:hover {
+  /*other*/
+
+  color: #dddddd;
+  border-color: #777777;
+}
+.e-js.e-acrdn .e-select.e-active:hover {
+  background: #4a5038;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #4a5038, #404a22);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #4a5038), color-stop(100%, #404a22));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #4a5038, #404a22);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #4a5038, #404a22);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #4a5038, #404a22);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #4a5038, #404a22);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4a5038', endColorstr='#404a22', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-js.e-acrdn .e-select.e-active a {
+  
+}
+.e-js.e-acrdn .e-select.e-active a {
+  /*other*/
+  color: white;
+}
+.e-js.e-acrdn .e-select:hover a,
+.e-js.e-acrdn .e-select.e-active:hover a {
+  
+}
+.e-js.e-acrdn .e-select:hover a,
+.e-js.e-acrdn .e-select.e-active:hover a {
+  /*other*/
+  color: #dddddd;
+}
+.e-js.e-acrdn .e-select > span {
+  color: #cccccc;
+}
+.e-js.e-acrdn .e-select.e-active > span {
+  
+}
+.e-js.e-acrdn .e-select.e-active > span {
+  /*other*/
+  color: white;
+}
+.e-js.e-acrdn .e-select:hover > span,
+.e-js.e-acrdn .e-select.e-active:hover > span {
+  color: #cccccc;
+}
+.e-js.e-acrdn .e-select.e-disable:hover > span,
+.e-js.e-acrdn .e-select.e-disable.e-active:hover > span {
+  color: #cccccc;
+}
+.e-js.e-acrdn .e-content.e-load {
+  background-image: url(images/ajax-loader.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+}

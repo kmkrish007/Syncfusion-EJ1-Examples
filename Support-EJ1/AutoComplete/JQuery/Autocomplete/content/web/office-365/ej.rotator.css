@@ -1,0 +1,180 @@
+/*-----------------------HeatMap Definition-----------------*/
+/*@neutral-light;*/
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*-----------------------OLAP Definition-----------------*/
+/*-----------------------OLAP Definition End-----------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*----------------------material theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+.office-file-explorer-toolbar-bg-color {
+  background: white;
+}
+.office-tab-header-bg-color {
+  background: white;
+}
+/*------------------ material theme ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: white;
+  color: #111111;
+  border-color: #c8c8c8;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+/*------------------------------------- Rotator -------------------------------------------*/
+
+.e-rotator-wrap :focus {
+  outline: 0 none;
+}
+.e-rotator-wrap .e-in-wrap .e-single,
+.e-rotator-wrap .e-thumb .e-thumb-items li,
+.e-rotator-wrap .e-in-wrap.e-multiple {
+  border-color: #c8c8c8;
+}
+.e-rotator-wrap .e-thumb .e-thumb-items li:hover {
+  
+}
+.e-rotator-wrap .e-thumb .e-thumb-items li:hover {
+  border-color: #c8c8c8;
+}
+.e-rotator-wrap .e-thumb .e-thumb-items li.e-active,
+.e-rotator-wrap.e-disable .e-thumb .e-thumb-items li.e-active:hover {
+  
+}
+.e-rotator-wrap .e-thumb .e-thumb-items li.e-active,
+.e-rotator-wrap.e-disable .e-thumb .e-thumb-items li.e-active:hover {
+  border-color: #0078d7;
+}
+.e-rotator-wrap .e-thumb .e-thumb-items li.e-thumbhover {
+  border-color: #c8c8c8;
+}
+.e-rotator-wrap.e-disable .e-thumb .e-thumb-items li:hover,
+.e-rotator-wrap.e-disable .e-thumb .e-thumb-items li.e-thumbhover {
+  border-color: #c8c8c8;
+}
+.e-rotator-wrap .e-inner .e-caption {
+  
+}
+.e-rotator-wrap .e-inner .e-caption {
+  background-color: white;
+  color: #212121;
+}
+.e-rotator-wrap .e-pager-wrap .e-bullet > li:hover {
+  border-color: #212121;
+  
+}
+.e-rotator-wrap .e-pager-wrap .e-bullet > li:hover {
+  background-color: #a6a6a6;
+}
+.e-rotator-wrap.e-disable .e-pager-wrap .e-bullet > li:hover {
+  border-color: #c8c8c8;
+  background-color: #f4f4f4;
+}
+.e-rotator-wrap.e-disable .e-pager-wrap .e-bullet > li {
+  cursor: default;
+}
+.e-rotator-wrap .e-pager-wrap .e-bullet > li.e-active,
+.e-rotator-wrap.e-disable .e-pager-wrap .e-bullet > li.e-active:hover {
+  
+}
+.e-rotator-wrap .e-pager-wrap .e-bullet > li.e-active,
+.e-rotator-wrap.e-disable .e-pager-wrap .e-bullet > li.e-active:hover {
+  border-color: #0078d7;
+  background-color: #0078d7;
+}
+.e-rotator-wrap .e-pager-wrap .e-bullet > li {
+  border-color: #c8c8c8;
+  
+}
+.e-rotator-wrap .e-pager-wrap .e-bullet > li {
+  background-color: #dadada;
+}
+.e-rotator-wrap .e-in-wrap .e-nav-btn.e-icon,
+.e-rotator-wrap .e-thumb-nav .e-thumb-btn.e-icon {
+  background-image: url(images/rotator-icon.png);
+}
+.e-rotator-wrap .e-in-wrap .e-nav-btn.e-icon.play {
+  background-position: -161px 0px;
+}
+.e-rotator-wrap .e-in-wrap .e-nav-btn.e-icon.play {
+  background-position: -186px 0px;
+}
+.e-rotator-wrap .e-in-wrap .e-nav-btn.e-icon.pause {
+  background-position: -248px 0px;
+}
+.e-rotator-wrap .e-in-wrap .e-nav-btn.e-icon.pause {
+  background-position: -273px 0px;
+}
+.e-rotator-wrap .e-in-wrap .e-nav-btn.e-icon.e-previous {
+  background-position: -64px -15px;
+}
+.e-rotator-wrap .e-in-wrap .e-nav-btn.e-icon.e-previous {
+  background-position: -69px -15px;
+}
+.e-rotator-wrap .e-in-wrap .e-nav-btn.e-icon.e-next {
+  background-position: -109px -15px;
+}
+.e-rotator-wrap .e-in-wrap .e-nav-btn.e-icon.e-next {
+  background-position: -126px -15px;
+}
+.e-rotator-wrap .e-thumb-nav .e-thumb-btn.e-icon.e-previous {
+  
+}
+.e-rotator-wrap .e-thumb-nav .e-thumb-btn.e-icon.e-previous {
+  background-position: 11px -15px;
+}
+.e-rotator-wrap .e-thumb-nav .e-thumb-btn.e-icon.e-next {
+  
+}
+.e-rotator-wrap .e-thumb-nav .e-thumb-btn.e-icon.e-next {
+  background-position: -22px -15px;
+}
+.e-rotator-wrap .e-pager-wrap .e-bullet {
+  
+}
+.e-rotator-wrap .e-pager-wrap .e-bullet > li:hover,
+.e-rotator-wrap .e-pager-wrap .e-bullet > li.e-active {
+  
+}
+.e-rotator-wrap .e-inner .e-caption > span {
+  
+}
+.e-rotator-wrap .e-thumb-nav .e-thumb-btn.e-icon.e-previous:before {
+  
+}
+.e-rotator-wrap .e-thumb-nav .e-thumb-btn.e-icon.e-next:before {
+  
+}
+.e-rotator-wrap .e-thumb-nav .e-thumb-btn {
+  
+}
+.e-rotator-wrap .e-thumb-nav .e-thumb-btn.e-icon {
+  
+}
+.e-rotator-wrap.e-Focused .e-shadow {
+  
+}

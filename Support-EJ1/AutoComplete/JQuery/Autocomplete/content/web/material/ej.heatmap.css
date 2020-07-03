@@ -1,0 +1,113 @@
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*-----------------------OLAP Definition-----------------*/
+/*-----------------------OLAP Definition End-----------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*------------------ DatePicker ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: white;
+  color: #111111;
+  border-color: #e0e0e0;
+  font-family: 'Roboto', Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-heatmap.e-grid {
+  display: block;
+}
+.e-heatmaplegend {
+  display: block;
+}
+.e-heatmap.e-grid .e-alt_row,
+.e-heatmap.e-grid td.e-cellselectionbackground,
+.e-heatmap.e-grid .e-headercell,
+.e-heatmap.e-grid .e-grouptopleftcell {
+  background: white;
+}
+.e-heatmap.e-js.e-grid {
+  font-size: 12px;
+}
+.e-heatmap.e-js.e-grid .e-headercelldiv {
+  font-weight: 600;
+  font-size: 12px;
+}
+.e-heatmap.e-js.e-grid.e-responsive .e-rowcell {
+  font-size: 12px;
+}
+.e-heatmap.e-js.e-grid .e-headercell {
+  height: 30px;
+}
+.e-heatmap.e-js.e-grid.e-responsive .e-row td:first-child,
+.e-heatmap.e-js.e-grid.e-responsive .e-alt_row td:first-child {
+  font-weight: 600;
+  font-size: 12px;
+}
+.e-heatmap.e-js.e-grid .e-gridheader {
+  border-bottom-width: 1px;
+}
+.e-heatmap.e-js.e-grid,
+.e-heatmap.e-js.e-grid.e-responsive .e-row td:first-child,
+.e-heatmap.e-js.e-grid.e-responsive .e-alt_row td:first-child,
+.e-heatmap.e-js.e-grid.e-responsive .e-rowcell,
+.e-heatmap.e-js.e-grid .e-alt_row,
+.e-heatmap.e-js.e-grid td.e-cellselectionbackground,
+.e-heatmap.e-js.e-grid .e-headercell,
+.e-heatmap.e-js.e-grid .e-grouptopleftcell,
+.e-heatmap.e-js.e-grid.e-headercell.e-default.e-headertemplate,
+.e-heatmap.e-js.e-grid .e-gridheader,
+.e-heatmap.e-js.e-grid .e-movablecontent,
+.e-heatmap.e-js.e-grid .e-movableheader {
+  border-color: #c8c8c8;
+}
+.e-heatmap.e-js.e-grid.e-responsive .e-rowcell {
+  border-bottom: none;
+}
+.e-heatmaplegend.e-js .sf-ht-label,
+.e-heatmap.e-js.e-grid .e-rowcell.sf-ht-heatmapcell,
+.e-heatmap.e-js.e-grid .e-headercelldiv {
+  color: black;
+}
+.e-heatmap.e-js.e-grid .e-alt_row,
+.e-heatmap.e-js.e-grid .e-row,
+.e-heatmap.e-js.e-grid .e-headercell.e-default.e-headertemplate,
+.e-heatmap.e-js.e-grid .e-cellselectionbackground .e-activecell,
+.e-heatmap.e-grid td.e-cellselectionbackground {
+  background-color: white;
+}
+.e-heatmaplegend.e-js .sf-ht-label,
+.e-heatmap.e-js.e-grid .e-rowcell.sf-ht-heatmapcell,
+.e-heatmap.e-js.e-grid .e-headercelldiv {
+  color: black;
+}
+.e-heatmap.e-js.e-grid .e-alt_row,
+.e-heatmap.e-js.e-grid .e-row,
+.e-heatmap.e-js.e-grid .e-headercell.e-default.e-headertemplate,
+.e-heatmap.e-js.e-grid .e-cellselectionbackground .e-activecell,
+.e-heatmap.e-grid td.e-cellselectionbackground {
+  background-color: white;
+}

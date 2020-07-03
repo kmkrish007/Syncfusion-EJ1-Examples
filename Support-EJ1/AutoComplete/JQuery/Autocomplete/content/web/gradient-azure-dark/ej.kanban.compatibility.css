@@ -1,0 +1,1117 @@
+/* need verify with UX team*/
+.pager-hover-gradient {
+  background: #2f4651;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #2f4651, #133a4c);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2f4651), color-stop(100%, #133a4c));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #2f4651, #133a4c);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #2f4651, #133a4c);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #2f4651, #133a4c);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #2f4651, #133a4c);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2f4651', endColorstr='#133a4c', GradientType=0);
+  /* IE6-9 */
+
+}
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*----------------------OLAP Definition------------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*----------------------material theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: #111111;
+  color: white;
+  border-color: #494949;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-widget.e-kanban,
+.e-widget.e-kanban .e-kanbanheader .e-headercell,
+.e-widget.e-kanban .e-swimlanerow {
+  background: black;
+}
+.e-widget.e-kanban .e-icon,
+.e-widget.e-kbntoolbar-body .e-icon {
+  color: #cccccc;
+}
+.e-widget.e-kanban {
+  border-color: #494949;
+  color: #dddddd;
+}
+.e-widget.e-kanban .e-kanbancontent .e-rowcell .e-shrinkheader {
+  
+}
+.e-widget.e-kanban .e-kanbancontent .e-rowcell .e-shrinkheader {
+  /*other*/
+  color: #74c3e7;
+}
+.e-widget.e-kanban .e-kanbantoolbar .e-searchbar .e-search:before,
+.e-widget.e-kanban .e-kanbantoolbar .e-searchbar .e-search:after {
+  
+}
+.e-widget.e-kanban .e-kanbandialog .e-save,
+.e-widget.e-kanban .e-externalform .e-save {
+  
+}
+.e-widget.e-kanban .e-kanbantoolbar .e-icon.e-searchfind:before {
+  
+}
+.e-widget.e-kanban-context .e-checkbox .e-checkmark {
+  color: #74c3e7 !important;
+}
+.e-widget.e-kanban .e-kanbantoolbar .e-searchdiv {
+  
+}
+.e-widget.e-kanban .e-kanbantoolbar .e-searchdiv {
+  /*other*/
+  background: black;
+}
+.e-widget.e-kanban .e-kanbantoolbar .e-searchdiv .e-ejinputtext,
+.e-widget.e-kanban .e-kanbantoolbar .e-toolbaricons.e-searchitem,
+.e-widget.e-kanban .e-kanbantoolbar .e-toolbaricons.e-searchitem:hover {
+  
+}
+.e-widget.e-kanban .e-adaptive-search .e-searchdiv .e-ejinputtext {
+  
+}
+.e-widget.e-kanban .e-search.e-tooltxt:hover .e-searchdiv {
+  background: black;
+}
+.e-widget.e-kanban .e-kanbanheader.e-slheader .e-headercell,
+.e-widget.e-kanban.e-swimlane-responsive .e-columnrow .e-rowcell {
+  
+}
+.e-widget.e-kanban .e-kanbanheader.e-slheader .e-headercell,
+.e-widget.e-kanban.e-swimlane-responsive .e-columnrow .e-rowcell {
+  border-bottom: 4px solid #4d4d4d;
+}
+.e-widget.e-kanban .e-stackedHeaderRow th {
+  border-bottom: 2px solid #74c3e7 !important;
+}
+.e-widget.e-kanban .e-kanbanheader.e-slheader .e-headercell.e-exceed {
+  border-bottom-color: #59280b;
+}
+.e-widget.e-kanban .e-kanbanheader.e-slheader .e-headercell.e-deceed {
+  border-bottom-color: #674200;
+}
+.e-widget.e-kanban .e-columnrow .e-kanbancard {
+  background: black;
+  box-shadow: none;
+  
+}
+.e-widget.e-kanban .e-kanbancard {
+  border-color: #090909;
+  color: #dddddd;
+}
+.e-widget.e-kanban .e-kanbancard .e-tag {
+  
+}
+.e-widget.e-kanban .e-kanbancard .e-tag {
+  /*others*/
+  background: #4d4d4d;
+  color: white;
+}
+.e-widget.e-kanban .e-kanbancard.e-cardselection {
+  
+}
+.e-widget.e-kanban .e-kanbancard.e-cardselection {
+  /*other*/
+
+  border-color: #494949;
+  color: white;
+}
+.e-widget.e-kanban .e-kanbancard.e-cardselection {
+  background: #74c3e7;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #74c3e7, #179bd7);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #74c3e7), color-stop(100%, #179bd7));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #74c3e7, #179bd7);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #74c3e7, #179bd7);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #74c3e7, #179bd7);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #74c3e7, #179bd7);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#74c3e7', endColorstr='#179bd7', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-widget.e-kanban .e-stackedHeaderCell {
+  
+}
+.e-widget.e-kanban .e-draggedcard,
+.e-widget.e-kanban .e-kanbancard.e-cardselection.dragClone {
+  
+  color: #dddddd;
+}
+.e-widget.e-kanban .e-draggedcard,
+.e-widget.e-kanban .e-kanbancard.e-cardselection.dragClone {
+  /*other*/
+  background: black;
+}
+.e-widget.e-kanban .e-draggedcard .e-dragmultiple {
+  
+  border: 1px solid #494949;
+}
+.e-widget.e-kanban .e-draggedcard .e-dragmultiple {
+  /*other*/
+  color: #74c3e7;
+}
+.e-widget.e-kanban .e-kanbancontent .e-rowcell .e-targetclone {
+  
+}
+.e-widget.e-kanban .e-kanbancontent .e-rowcell .e-targetclone {
+  /*other*/
+  border: 1px dashed #74c3e7;
+}
+.e-widget.e-kanban .e-kanbancontent .e-rowcell .e-targetclone {
+  background: #2f4651;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #568195, #133a4c);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2f4651), color-stop(100%, #133a4c));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #568195, #133a4c);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #568195, #133a4c);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #568195, #133a4c);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #568195, #133a4c);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2f4651', endColorstr='#133a4c', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-widget.e-kanban .e-kanbancontent .e-rowcell .e-targetclonemulti .e-columnkey {
+  border-left: 1px dashed;
+  border-right: 1px dashed;
+  border-bottom: 1px dashed;
+}
+.e-widget.e-kanban .e-kanbancontent .e-rowcell .e-targetclonemulti .e-columnkey {
+  border-color: #777777;
+}
+.e-widget.e-kanban .e-kanbancontent .e-rowcell .e-targetclonemulti .e-columnkey.e-active {
+  background: #2f4651;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #568195, #133a4c);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2f4651), color-stop(100%, #133a4c));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #568195, #133a4c);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #568195, #133a4c);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #568195, #133a4c);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #568195, #133a4c);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2f4651', endColorstr='#133a4c', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-widget.e-kanban .e-kanbancontent .e-rowcell .e-targetclonemulti .e-columnkey.e-active {
+  border-color: #74c3e7;
+}
+.e-widget.e-kanban .e-kanbancontent .e-rowcell .e-targetclonemulti .e-columnkey.e-multiclonestyle {
+  border-bottom-color: #74c3e7;
+}
+.e-widget.e-kanban .e-kanbancontent .e-rowcell .e-targetclonemulti .e-columnkey:first-child {
+  border-top-width: 1px;
+  border-top-style: dashed;
+}
+.e-widget.e-kanban .e-kanbancontent .e-rowcell .e-targetdragclone {
+  
+  border: 1px dashed #494949;
+}
+.e-widget.e-kanban .e-kanbancontent .e-rowcell .e-targetdragclone {
+  background: #4d4d4d;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #4d4d4d, #212121);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #4d4d4d), color-stop(100%, #212121));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #4d4d4d, #212121);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #4d4d4d, #212121);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #4d4d4d, #212121);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #4d4d4d, #212121);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4d4d4d', endColorstr='#212121', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-widget.e-kanban .e-form-titlebar {
+  
+}
+.e-widget.e-kanban .e-form-titlebar {
+  /*other*/
+  border-bottom: 1px solid #494949;
+}
+.e-widget.e-kanban .e-form-container {
+  border-color: #494949 !important;
+  background-color: black;
+  
+}
+.e-widget.e-kanban .e-form-title {
+  
+}
+.e-widget.e-kanban .e-columnrow .e-rowcell {
+  
+}
+.e-widget.e-kanban .e-columnrow .e-rowcell {
+  /*other*/
+  border-bottom: 1px solid #2d2d2d;
+  border-top: 1px solid #2d2d2d;
+}
+.e-widget.e-kanban .e-columnrow .e-rowcell {
+  background: #4d4d4d;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #575757, #212121);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #4d4d4d), color-stop(100%, #212121));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #575757, #212121);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #575757, #212121);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #575757, #212121);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #575757, #212121);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4d4d4d', endColorstr='#212121', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-widget.e-kanban .e-printlist {
+  background: #4d4d4d;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #575757, #212121);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #4d4d4d), color-stop(100%, #212121));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #575757, #212121);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #575757, #212121);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #575757, #212121);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #575757, #212121);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4d4d4d', endColorstr='#212121', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-widget.e-kanban .e-collapsedrow .e-rowcell,
+.e-widget.e-kanban .e-frozenrow .e-rowcell {
+  border-bottom: 1px solid #4d4d4d;
+}
+.e-widget.e-kanban .e-kanbancontent .e-rowcell.e-shrink,
+.e-widget.e-kanban .e-kanbanheader .e-headercell.e-shrinkcol {
+  
+}
+.e-widget.e-kanban .e-kanbancontent .e-rowcell.e-shrink,
+.e-widget.e-kanban .e-kanbanheader .e-headercell.e-shrinkcol {
+  background: #4d4d4d;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #505050, #212121);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #4d4d4d), color-stop(100%, #212121));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #505050, #212121);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #505050, #212121);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #505050, #212121);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #505050, #212121);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4d4d4d', endColorstr='#212121', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-widget.e-kanban .e-dialog .e-titlebar .e-title {
+  
+}
+.e-widget.e-kanban .e-kanbancard {
+  color: #dddddd;
+}
+.e-widget.e-kanban .e-swimlanerow .e-slkey {
+  
+}
+.e-widget.e-kanban .e-swimlanerow .e-slkey {
+  /*other*/
+  color: #dddddd;
+}
+.e-widget.e-kanban .e-columnrow .e-rowcell .e-toggle-header:hover > div {
+  color: #74c3e7;
+}
+.e-widget.e-kanban .e-toggle-header:hover > div div {
+  color: #74c3e7 !important;
+}
+.e-widget.e-kanban .e-columnrow .e-rowcell .e-toggle-header > div {
+  color: #dddddd;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+.e-widget.e-kanban .e-columnrow .e-rowcell .e-toggle-header > div div {
+  color: #dddddd;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+.e-widget.e-kanbanfilter-window .e-filter-scrollcontent,
+.e-widget.e-kbnfilterwindow-head {
+  color: #dddddd;
+}
+.e-widget.e-kanban .e-slexpand,
+.e-widget.e-kanban .e-slcollapse {
+  
+}
+.e-widget.e-kanban .e-slexpand,
+.e-widget.e-kanban .e-slcollapse {
+  /*other*/
+  color: #cccccc;
+}
+.e-widget.e-kanban .e-slexpand:hover,
+.e-widget.e-kanban .e-slcollapse:hover {
+  color: #cccccc;
+}
+.e-widget.e-kanban .e-slexpand:hover,
+.e-widget.e-kanban .e-slcollapse:hover {
+  background: #2f4651;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #2f4651, #133a4c);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2f4651), color-stop(100%, #133a4c));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #2f4651, #133a4c);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #2f4651, #133a4c);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #2f4651, #133a4c);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #2f4651, #133a4c);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2f4651', endColorstr='#133a4c', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-widget.e-kanban .e-clcollapse::before,
+.e-widget.e-kanban .e-clexpand::before {
+  
+}
+.e-widget.e-kanban .e-clcollapse::before,
+.e-widget.e-kanban .e-clexpand::before {
+  /*other*/
+  color: #cccccc;
+}
+.e-widget.e-kanban .e-kanbancard.e-hover .e-cardcollapse:before,
+.e-widget.e-kanban .e-kanbancard.e-hover .e-cardexpand:before {
+  color: #cccccc;
+}
+.e-widget.e-kanban .e-kanbancard.e-cardselection .e-cardcollapse:before,
+.e-widget.e-kanban .e-kanbancard.e-cardselection .e-cardexpand:before {
+  
+}
+.e-widget.e-kanban .e-kanbancard.e-cardselection .e-cardcollapse:before,
+.e-widget.e-kanban .e-kanbancard.e-cardselection .e-cardexpand:before {
+  /*other*/
+  color: white;
+}
+.e-widget.e-kanban .e-kanbancard.e-cardselection.e-hover .e-cardcollapse:before,
+.e-widget.e-kanban .e-kanbancard.e-cardselection.e-hover .e-cardexpand:before {
+  
+}
+.e-widget.e-kanban .e-kanbancard.e-cardselection.e-hover .e-cardcollapse:before,
+.e-widget.e-kanban .e-kanbancard.e-cardselection.e-hover .e-cardexpand:before {
+  /*other*/
+  color: #cccccc;
+}
+.e-widget.e-kanban .e-swimlanerow .e-slcount {
+  
+}
+.e-widget.e-kanban .e-swimlanerow .e-slcount {
+  /*other*/
+  color: white;
+}
+.e-widget.e-kanban .e-kanbantoolbar .e-search .e-ejinputtext:focus {
+  
+}
+.e-widget.e-kanban .e-kanbanheader .e-columnheader .e-shrinkcol:hover {
+  
+}
+.e-widget.e-kanban .e-kanbancontent .e-rowcell.e-shrink:hover {
+  
+}
+.e-widget.e-kanban .e-kanbancontent .e-rowcell .e-shrinkcount {
+  
+}
+.e-widget.e-kanban .e-kanbancontent .e-rowcell .e-shrinkcount {
+  /*other*/
+  color: #74c3e7;
+}
+.e-widget.e-kanban .e-collapserow .e-rowcell {
+  border: none;
+}
+.e-widget.e-kanban .e-kanbancard.e-hover {
+  
+}
+.e-widget.e-kanban .e-kanbancard.e-hover {
+  /*other*/
+
+  border-color: #777777;
+  color: #dddddd;
+}
+.e-widget.e-kanban .e-kanbancard.e-hover {
+  background: #2f4651;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #2f4651, #133a4c);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2f4651), color-stop(100%, #133a4c));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #2f4651, #133a4c);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #2f4651, #133a4c);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #2f4651, #133a4c);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #2f4651, #133a4c);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2f4651', endColorstr='#133a4c', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-widget.e-kanban .e-headercontent {
+  border-right-color: #494949;
+}
+.e-widget.e-kanban .e-kanbanheader .e-headercelldiv {
+  
+}
+.e-widget.e-kanban .e-kanbanheader .e-headercelldiv {
+  /*other*/
+
+  color: #74c3e7;
+}
+.e-widget.e-kanban .e-kanbanheader {
+  color: #74c3e7;
+}
+.e-widget.e-kanban .e-kanbancontent {
+  background-color: black;
+}
+.e-widget.e-kanban .e-kanbancontent .e-rowcell {
+  border-color: #494949;
+}
+.e-widget.e-kanban .e-cardcollapse:before,
+.e-widget.e-kanban .e-cardexpand:before,
+.e-widget.e-kanban .e-kanbancard.e-cardselection.dragClone .e-cardexpand:before,
+.e-widget.e-kanban .e-kanbancard.e-cardselection.dragClone .e-cardcollapse:before {
+  
+}
+.e-widget.e-kanban .e-cardcollapse:before,
+.e-widget.e-kanban .e-cardexpand:before,
+.e-widget.e-kanban .e-kanbancard.e-cardselection.dragClone .e-cardexpand:before,
+.e-widget.e-kanban .e-kanbancard.e-cardselection.dragClone .e-cardcollapse:before {
+  /*other*/
+  color: #cccccc;
+}
+.e-widget.e-kanban .e-kanbancard .e-card_image {
+  background: #4d4d4d;
+  border-color: #494949;
+}
+.e-widget.e-kanban .e-kanbantoolbar.e-toolbar,
+.e-widget.e-kbntoolbar-body.e-toolbar {
+  
+  border-color: #373737;
+  filter: none;
+}
+.e-widget.e-kanban .e-kanbantoolbar.e-toolbar,
+.e-widget.e-kbntoolbar-body.e-toolbar {
+  /*other*/
+  background: black;
+}
+.e-widget.e-kanban .e-kanbantoolbar li {
+  
+}
+.e-widget.e-kanban .e-kanbantoolbar li {
+  /*other*/
+  border: 1px solid #777777;
+}
+.e-widget.e-kanban .e-kanbantoolbar li.e-tooltxt.e-kbnfilter-tbtn.e-hover {
+  
+}
+.e-widget.e-kanban .e-kanbantoolbar li.e-select {
+  background: #74c3e7;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #74c3e7, #179bd7);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #74c3e7), color-stop(100%, #179bd7));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #74c3e7, #179bd7);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #74c3e7, #179bd7);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #74c3e7, #179bd7);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #74c3e7, #179bd7);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#74c3e7', endColorstr='#179bd7', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-widget.e-kanban .e-kanbantoolbar .e-tooltxt.e-hover {
+  
+}
+.e-widget.e-kanban .e-kanbantoolbar .e-tooltxt.e-hover .e-text {
+  
+}
+.e-widget.e-kanban .e-kanbantoolbar li.e-tooltxt.e-kbnfilter-tbtn.e-select,
+.e-widget.e-kanban .e-kanbantoolbar li.e-tooltxt.e-kbnfilter-tbtn.e-active,
+.e-widget.e-kanban .e-kanbantoolbar li.e-tooltxt.e-select.e-kbnfilter-tbtn.e-hover,
+.e-widget.e-kanban.e-js .e-kanbantoolbar li.e-tooltxt.e-kbnfilter-tbtn.e-active a {
+  
+}
+.e-widget.e-kanban .e-kanbantoolbar li.e-tooltxt {
+  
+}
+.e-widget.e-kanban .e-kanbantoolbar .e-select a.e-toolbartext.e-text {
+  color: white;
+}
+.e-widget.e-kanban .e-kanbantoolbar .e-active a.e-toolbartext.e-text,
+.e-widget.e-kanban .e-kanbantoolbar .e-select.e-hover a.e-toolbartext.e-text {
+  
+}
+.e-widget.e-kanban .e-kanbantoolbar .e-select.e-hover a.e-toolbartext.e-text {
+  color: #dddddd;
+}
+.e-widget.e-kanban .e-kanbantoolbar .e-text,
+.e-widget.e-kanban .e-kanbantoolbar .e-quickfilter .e-text,
+.e-widget.e-kbntoolbar-body .e-text,
+.e-widget.e-kbntoolbar-body .e-quickfilter .e-text {
+  
+}
+.e-widget.e-kanban .e-kanbantoolbar .e-text,
+.e-widget.e-kanban .e-kanbantoolbar .e-quickfilter .e-text,
+.e-widget.e-kbntoolbar-body .e-text,
+.e-widget.e-kbntoolbar-body .e-quickfilter .e-text {
+  /*other*/
+  color: #dddddd;
+}
+.e-widget.e-kanban .e-kanbantoolbar .e-select.e-hover {
+  
+}
+.e-widget.e-kanban .e-kanbantoolbar .e-select.e-hover {
+  background: #2f4651;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #2f4651, #133a4c);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2f4651), color-stop(100%, #133a4c));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #2f4651, #133a4c);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #2f4651, #133a4c);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #2f4651, #133a4c);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #2f4651, #133a4c);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2f4651', endColorstr='#133a4c', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-widget.e-kanban .e-kanbantoolbar .e-select.e-hover {
+  /*other*/
+  border-color: #777777;
+}
+.e-widget.e-kanban .e-kanbantoolbar .e-tooltxt.e-select {
+  
+}
+.e-widget.e-kanban .e-kanbantoolbar .e-select a.e-toolbartext.e-text,
+.e-widget.e-kanban .e-kanbantoolbar .e-select.e-hover a.e-toolbartext.e-text {
+  
+}
+.e-widget.e-kanban .e-kanbantoolbar .e-tooltxt.e-select.e-hover {
+  
+}
+.e-widget.e-kanban .e-columnrow .e-rowcell.e-dropping {
+  border-color: #777777;
+}
+.e-widget.e-kanban .e-kanbancontent .e-rowcell.e-exceed {
+  background: #59280b;
+  filter: none !important;
+}
+.e-widget.e-kanban .e-kanbancontent .e-rowcell.e-deceed {
+  background: #674200;
+}
+.e-widget.e-kanban .e-kanbantooltip {
+  
+  border: 1px solid #494949;
+  box-shadow: 9px 9px 15px -9px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 9px 9px 15px -9px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 9px 9px 15px -9px rgba(0, 0, 0, 0.3);
+}
+.e-widget.e-kanban .e-kanbantooltip {
+  /*office-365*/
+  background: black;
+  color: #dddddd;
+}
+.e-widget.e-kanban .e-kanbantoolbar .e-toolbaricons.e-searchfind,
+.e-widget.e-kanban .e-kanbantoolbar .e-toolbaricons.e-cancel {
+  
+}
+.e-widget.e-kanban .e-kanbantoolbar .e-toolbaricons.e-searchfind,
+.e-widget.e-kanban .e-kanbantoolbar .e-toolbaricons.e-cancel {
+  /*other*/
+
+  border-left: 1px solid #777777;
+}
+.e-widget.e-kanban .e-kanbantoolbar .e-toolbaricons.e-searchfind,
+.e-widget.e-kanban .e-kanbantoolbar .e-toolbaricons.e-cancel {
+  background: #4d4d4d;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #575757, #212121);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #4d4d4d), color-stop(100%, #212121));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #575757, #212121);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #575757, #212121);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #575757, #212121);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #575757, #212121);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4d4d4d', endColorstr='#212121', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-widget.e-kanban .e-kanbantoolbar li.e-search.e-tooltxt {
+  
+}
+.e-widget.e-kanban .e-kanbantoolbar li.e-search.e-tooltxt:hover {
+  
+}
+.e-widget.e-kanban .e-kanbandialog .e-save:hover,
+.e-widget.e-kanban .e-externalform .e-save:hover {
+  
+}
+.e-widget.e-kanban .e-kanbandialog .e-save:focus,
+.e-widget.e-kanban .e-externalform .e-save:focus {
+  
+}
+.e-widget.e-kanban .e-kanbantoolbar .e-search.e-hover .e-searchfind {
+  
+}
+.e-widget.e-kanban .e-kanbantoolbar .e-highliht-kbnsearchbar .e-search.e-tooltxt {
+  
+}
+.e-widget.e-kanban .e-kanbantoolbar .e-highliht-kbnsearchbar .e-search.e-tooltxt .e-cancel {
+  
+}
+.e-widget.e-kanban .e-kanbantoolbar .e-highliht-kbnsearchbar .e-search.e-tooltxt .e-cancel:before {
+  
+}
+.e-widget.e-kanban .e-kanbantoolbar .e-search.e-hover .e-searchfind:before {
+  
+}
+.e-widget.e-kanban div.e-error .e-toparrow {
+  border-bottom-color: #fffe92;
+}
+.e-widget.e-kanban div.e-field-validation-error {
+  background-color: #fffe91;
+  color: #cd0a0a;
+}
+.e-widget.e-kanban .e-kanbantouchbar .e-content {
+  background-color: black;
+  border-color: #494949;
+}
+.e-widget.e-kanban .e-kanbantouchbar span:hover,
+.e-widget.e-kanban .e-kanbantouchbar .e-spanclicked {
+  border-color: #cccccc;
+}
+.e-widget.e-kanban .e-kanbantouchbar .e-downtail:before,
+.e-widget.e-kanban .e-kanbantouchbar .e-downtail {
+  border-top-color: #494949;
+}
+.e-widget.e-kanban .e-kanbantouchbar .e-downtail:after {
+  border-top-color: black;
+}
+.e-widget.e-kanban .e-freezeswimlanerow .e-rowcell.e-shrink {
+  background: black;
+}
+.e-widget.e-kanban.e-rtl .e-toolbaricons.e-searchfind,
+.e-widget.e-kanban.e-rtl .e-toolbaricons.e-cancel {
+  border-right: 1px solid #777777;
+  border-left: 0px;
+}
+.e-widget.e-kanban.e-rtl td:first-child,
+.e-widget.e-kanban.e-rtl th:first-child,
+.e-widget.e-kanban.e-rtl .e-headercontent,
+.e-widget.e-kanban.e-rtl .e-columnrow td.e-dropping:first-child,
+.e-widget.e-kanban .e-kanbancontent .e-rowcell.e-dragged {
+  border-left-color: #494949 !important;
+}
+.e-widget.e-kanban.e-rtl .e-kanbancard {
+  border-color: #494949;
+}
+.e-widget.e-kanban .e-customaddbutton,
+.e-kanban .e-columnadd {
+  
+}
+.e-widget.e-kanban .e-customaddbutton,
+.e-kanban .e-columnadd {
+  /*other*/
+  color: #74c3e7;
+}
+.e-widget.e-kanban .e-customtoolbarseparator {
+  
+}
+.e-widget.e-kanban .e-customtoolbarseparator {
+  /*other*/
+  border-right: 1px solid #777777;
+}
+.e-widget.e-kanban.e-responsive .e-kanbantoolbar.e-toolbar,
+.e-widget.e-kbntoolbar-body.e-toolbar {
+  background: #4d4d4d;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #4d4d4d, #212121);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #4d4d4d), color-stop(100%, #212121));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #4d4d4d, #212121);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #4d4d4d, #212121);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #4d4d4d, #212121);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #4d4d4d, #212121);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4d4d4d', endColorstr='#212121', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-widget.e-kanban.e-responsive .e-kanbantoolbar:not(.e-adaptive-search) .e-searchfind {
+  background: transparent;
+}
+.e-widget.e-kanbanfilter-window {
+  
+  background: black;
+}
+.e-widget.e-kanbanfilter-window {
+  /*other*/
+  border: 1px solid #494949;
+}
+.e-widget.e-kanbanfilter-window .e-kbnfilterwindow-head {
+  
+}
+.e-widget.e-kanbanfilter-window .e-kbnfilterwindow-head {
+  /*other*/
+  background: #363636;
+  border-bottom: 1px solid #494949;
+}
+.e-widget.e-kanbanfilter-window .e-filter-content,
+.e-widget.e-swimlane-window,
+.e-widget.e-kanban .e-adapt-search,
+.e-widget.e-kanban.e-responsive .e-adapt-cancel {
+  background: black;
+}
+.e-widget.e-swimlane-window .e-swimlane-item:hover {
+  
+}
+.e-widget.e-swimlane-window .e-swimlane-item:hover {
+  background: #2f4651;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #2f4651, #133a4c);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2f4651), color-stop(100%, #133a4c));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #2f4651, #133a4c);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #2f4651, #133a4c);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #2f4651, #133a4c);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #2f4651, #133a4c);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2f4651', endColorstr='#133a4c', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-widget.e-swimlane-window .e-swimlane-item:hover {
+  /*other*/
+  color: white;
+}
+.e-widget.e-swimlane-window .e-swimlane-item {
+  
+}
+.e-swimlane-window .e-swimlane-item.e-selected-item {
+  
+}
+.e-widget.e-kanban.e-responsive .e-kanbantoolbar .e-kanbanfilter-icon:hover {
+  color: #dddddd;
+}
+.e-widget.e-kanban.e-responsive .e-kanbantoolbar .e-kanbanfilter-icon:hover {
+  background: #2f4651;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #2f4651, #133a4c);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2f4651), color-stop(100%, #133a4c));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #2f4651, #133a4c);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #2f4651, #133a4c);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #2f4651, #133a4c);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #2f4651, #133a4c);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2f4651', endColorstr='#133a4c', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-widget.e-kanban.e-responsive .e-kanbantoolbar:not(.e-adaptive-search) .e-searchitem:hover {
+  background: #2f4651;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #2f4651, #133a4c);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2f4651), color-stop(100%, #133a4c));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #2f4651, #133a4c);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #2f4651, #133a4c);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #2f4651, #133a4c);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #2f4651, #133a4c);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2f4651', endColorstr='#133a4c', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-widget.e-kanbanfilter-window .e-filter-done:hover {
+  
+}
+.e-widget.e-kanbanfilter-window .e-filter-done:hover {
+  /*other*/
+  color: #2f4651;
+}
+.e-widget.e-kanbanfilter-window .e-filter-done {
+  
+}
+.e-widget.e-kanbanfilter-window .e-filter-done {
+  /*other*/
+  color: #74c3e7;
+}
+.e-widget.e-swimlane-window {
+  background: black;
+}
+.e-widget.e-kanban.e-responsive .e-kanbantoolbar .e-searchitem:hover {
+  background: #2f4651;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #2f4651, #133a4c);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2f4651), color-stop(100%, #133a4c));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #2f4651, #133a4c);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #2f4651, #133a4c);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #2f4651, #133a4c);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #2f4651, #133a4c);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2f4651', endColorstr='#133a4c', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-widget.e-swimlane-ul li:not(:last-child) div:after {
+  background: #494949;
+}
+.e-widget.e-swimlane-arrow:hover,
+.e-widget.e-kanbanfilter-window .e-filterback-icon:hover,
+.e-widget.e-kanban.e-responsive .e-adapt-cancel:hover {
+  
+}
+.e-widget.e-swimlane-arrow:hover,
+.e-widget.e-kanbanfilter-window .e-filterback-icon:hover,
+.e-widget.e-kanban.e-responsive .e-adapt-cancel:hover {
+  /*other*/
+  color: #74c3e7;
+}
+.e-widget.e-kanban .e-kanbanheader .e-headercell .e-totalcard,
+.e-widget.e-kanban .e-kanbanheader .e-headercell .e-totalcount,
+.e-widget.e-kanban .e-minlimit,
+.e-widget.e-kanban .e-maxlimit,
+.e-widget.e-kanban .e-limits,
+.e-widget.e-kanban .e-kanbancontent .e-rowcell .e-shrinklabel {
+  
+}
+.e-widget.e-kanban .e-kanbanheader .e-headercell .e-totalcard,
+.e-widget.e-kanban .e-kanbanheader .e-headercell .e-totalcount,
+.e-widget.e-kanban .e-minlimit,
+.e-widget.e-kanban .e-maxlimit,
+.e-widget.e-kanban .e-limits,
+.e-widget.e-kanban .e-kanbancontent .e-rowcell .e-shrinklabel {
+  /*other*/
+  color: white;
+}
+.e-widget.e-kanban .e-kanbancard .e-bottom-triangle {
+  
+}
+.e-widget.e-kanban .e-kanbancard .e-bottom-triangle {
+  /*other*/
+  border-bottom-color: #74c3e7;
+}
+.e-widget.e-kanban.e-responsive .e-vhandlespace,
+.e-widget.e-kanbanfilter-window .e-vhandlespace,
+.e-widget.e-kbnslwindow-body .e-vhandlespace,
+.e-widget.e-kbnadapt-editdlg .e-vhandlespace {
+  border-color: #494949;
+}
+.e-widget.e-kanban.e-js .e-numeric.e-widget .e-in-wrap,
+.e-widget.e-kbnadapt-editdlg .e-numeric.e-widget .e-in-wrap,
+.e-widget.e-kanban.e-js .e-ddl.e-widget .e-in-wrap,
+.e-widget.e-kbnadapt-editdlg .e-ddl.e-widget .e-in-wrap {
+  
+}
+.e-widget.e-kanban .e-ejinputtext,
+.e-widget.e-kbnadapt-editdlg .e-ejinputtext {
+  
+  background-color: black;
+  color: #dddddd;
+}
+.e-widget.e-kanban .e-ejinputtext,
+.e-widget.e-kbnadapt-editdlg .e-ejinputtext {
+  /*other*/
+  border-color: #494949;
+}
+.e-widget.e-kanban .e-kanbancard .e-primarykey,
+.e-widget.e-kanban.e-swimlane-responsive.e-js .e-limits .e-swimlane-name,
+.e-widget.e-swimlane-ddl .e-swimlane-text {
+  
+}
+.e-widget.e-kanban .e-kanbancard .e-primarykey {
+  
+}
+.e-widget.e-kanban .e-kanbancard .e-text {
+  
+}
+.e-widget.e-kanban .e-externalformedit div > label,
+.e-widget.e-kanban .e-kanbandialog .kanbanform label {
+  
+}
+.e-widget.e-kanban .e-ejinputtext,
+.e-widget.e-kbnadapt-editdlg .e-ejinputtext {
+  
+}
+.e-widget.e-kanban .e-totalcard,
+.e-widget.e-kanban .e-limits {
+  
+}
+.e-widget.e-kanban .e-kanbantoolbar .e-kbnfilter-tbtn a.e-toolbartext.e-text {
+  
+}
+.e-widget.e-kanban.e-js .e-kanbantoolbar .e-kbnfilter-tbtn.e-select a.e-toolbartext.e-text {
+  
+}
+.e-widget.e-kanban .e-dialog .e-titlebar {
+  
+}
+.e-widget.e-kanban .e-dialog .e-titlebar .e-icon.e-close:hover:before,
+.e-widget.e-kanban .e-dialog .e-titlebar .e-icon.e-close:before {
+  
+}
+.e-widget.e-kanban .e-kanbantoolbar .e-searchbar.e-ul,
+.e-widget.e-kanban .e-adaptive-search .e-search.e-tooltxt {
+  
+}
+.e-widget.e-kanban.e-responsive .e-kanbantoolbar .e-searchbar.e-ul {
+  
+}
+.e-widget.e-kanban .e-kanbantoolbar .e-highliht-kbnsearchbar {
+  
+}
+.e-widget.e-kanban .e-toolbar.e-js ul > li.e-tooltxt.e-search.e-active {
+  
+}
+.e-widget.e-kanban .e-toolbar.e-js ul > li.e-tooltxt.e-search.e-active a:before {
+  
+}
+.e-widget.e-kanban .e-ejinputtext:focus,
+.e-widget.e-kbnadapt-editdlg .e-ejinputtext:focus {
+  
+}
+.e-widget.e-kanban .e-kanbandialog .e-kanban-editdiv .e-save,
+.e-widget.e-kanban .e-kanbandialog .e-kanban-editdiv .e-cancel,
+.e-widget.e-kanban .e-externalform .e-save,
+.e-widget.e-kanban .e-externalform .e-cancel,
+.e-widget.e-kbnadapt-editdlg .e-save,
+.e-kbnadapt-editdlg .e-cancel,
+.e-widget.e-kanbanfilter-window .e-clearfilter {
+  
+}
+.e-widget.e-kanban.e-js .e-kanbandialog .e-save:hover,
+.e-widget.e-kanban.e-js .e-kanbandialog .e-cancel:hover,
+.e-widget.e-kanban.e-js .e-externalform .e-save:hover,
+.e-widget.e-kanban.e-js .e-externalform .e-cancel:hover,
+.e-widget.e-kbnadapt-editdlg .e-save:hover,
+.e-widget.e-kbnadapt-editdlg .e-cancel:hover,
+.e-widget.e-kanbanfilter-window .e-clearfilter:hover {
+  
+}
+.e-widget.e-kanbantoolbar .e-customtoolbar li.e-hover.e-active .e-icon:before {
+  
+}
+.e-widget.e-kanban .e-kanbantoolbar .e-quickfilter.e-tooltxt {
+  background: transparent;
+}
+.e-widget.e-kanban .e-kanbantoolbar .e-search.e-hover {
+  
+}
+.e-widget.e-kanban .e-cardcollapse:after,
+.e-widget.e-kanban .e-cardexpand:after,
+.e-widget.e-kanban .e-slcollapse:after,
+.e-widget.e-kanban .e-slexpand:after {
+  
+}
+.e-widget.e-kanban.e-js .e-kanbantoolbar .e-searchbar.e-highliht-kbnsearchbar .e-searchdiv .e-ejinputtext {
+  
+}
+.e-widget.e-kanban.e-js.e-kanbanscroll .e-kanbantoolbar.e-toolbarspan {
+  
+}

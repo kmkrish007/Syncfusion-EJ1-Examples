@@ -1,0 +1,148 @@
+/*-----------------------HeatMap Definition-----------------*/
+/*@neutral-light;*/
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*-----------------------OLAP Definition-----------------*/
+/*-----------------------OLAP Definition End-----------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*----------------------material theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+.office-file-explorer-toolbar-bg-color {
+  background: white;
+}
+.office-tab-header-bg-color {
+  background: white;
+}
+/*------------------ material theme ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: white;
+  color: #111111;
+  border-color: #c8c8c8;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+/*------------Rating themes -------------*/
+
+.e-rating.e-horizontal .e-shape,
+.e-rating.e-vertical .e-shape,
+.e-rating.e-horizontal .e-shape-list,
+.e-rating.e-vertical .e-shape-list,
+.e-rating.e-horizontal .e-reset,
+.e-rating.e-vertical .e-reset {
+  
+}
+.e-rating.e-horizontal .e-shape,
+.e-rating.e-vertical .e-shape,
+.e-rating.e-horizontal .e-shape-list,
+.e-rating.e-vertical .e-shape-list,
+.e-rating.e-horizontal .e-reset,
+.e-rating.e-vertical .e-reset {
+  background: none;
+}
+.e-rating.e-horizontal .e-reset,
+.e-rating.e-vertical .e-reset {
+  background: url(images/Rating_Clear.png) no-repeat;
+  margin: 1px;
+}
+.e-rating.e-horizontal .e-shape.selected,
+.e-rating.e-horizontal .e-shape.active,
+.e-rating.e-vertical .e-shape.selected,
+.e-rating.e-vertical .e-shape.active {
+  background: url(images/Rating_Active.png) no-repeat;
+}
+.e-rating.e-horizontal .e-shape.inactive,
+.e-rating.e-vertical .e-shape.inactive,
+.e-rating.e-horizontal .e-shape-list,
+.e-rating.e-vertical .e-shape-list {
+  background: url(images/Rating_Default.png) no-repeat;
+}
+.e-rating .e-shape.inactive {
+  
+}
+.e-rating .e-shape.inactive {
+  background-position: 0 -174px;
+}
+.e-rating .e-shape.active {
+  
+}
+.e-rating .e-shape.active {
+  
+}
+.e-rating .e-shape.active {
+  background-position: 0 0;
+}
+.e-rating .e-shape.selected {
+  
+}
+.e-rating .e-shape.selected {
+  background-position: 0 -60px;
+}
+.e-rating.e-disable .e-shape,
+.e-rating.e-disable .e-shape-list,
+.e-rating.e-disable .e-reset {
+  cursor: default;
+}
+.e-rating.e-horizontal .e-reset:hover,
+.e-rating.e-vertical .e-reset:hover {
+  
+}
+.e-rating.e-horizontal .e-reset:hover,
+.e-rating.e-vertical .e-reset:hover {
+  
+}
+.e-rating.e-horizontal .e-reset:hover,
+.e-rating.e-vertical .e-reset:hover {
+  background-position: 2px 2px;
+}
+.e-rating.e-horizontal .e-reset,
+.e-rating.e-vertical .e-reset,
+.e-rating.e-disable .e-reset:hover {
+  
+}
+.e-rating.e-horizontal .e-reset,
+.e-rating.e-vertical .e-reset,
+.e-rating.e-disable .e-reset:hover {
+  background-position: 2px 2px;
+}
+.e-rating.e-vertical .e-reset,
+.e-rating.e-vertical .e-reset:hover {
+  margin-left: 4px;
+  background-position: 0 0;
+}
+.e-rating.e-horizontal .e-shape-list,
+.e-rating.e-vertical .e-shape-list {
+  
+}
+.e-rating.e-horizontal .e-shape-list,
+.e-rating.e-vertical .e-shape-list {
+  
+}
+.e-rating.e-horizontal .e-shape-list,
+.e-rating.e-vertical .e-shape-list {
+  background-position: 0 0;
+  float: left;
+}

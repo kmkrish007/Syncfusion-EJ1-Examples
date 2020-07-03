@@ -1,0 +1,96 @@
+/* need verify with UX team*/
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*----------------------OLAP Definition------------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*----------------------material theme-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: #111111;
+  color: white;
+  border-color: #494949;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+/*------------------------------------- Tile View -------------------------------------------*/
+
+.e-tile {
+  color: white;
+  
+}
+.e-tile .e-image-parent {
+  background: #aecf49;
+}
+.e-tile .e-image-parent {
+  
+}
+.e-tile .e-tile-selected::after {
+  border-top: 28px solid #748235;
+}
+.e-tile .e-tile-selected {
+  border: 2px solid #494949;
+}
+.e-tile-wide {
+  
+}
+.e-tile-medium {
+  
+}
+.e-tile-small {
+  
+}
+.e-tile-group .e-tile-column {
+  
+}
+.e-tile.e-js.e-tile-web:hover {
+  
+}
+.e-tile.e-js.e-tile-web:hover .e-image-parent {
+  
+}
+.e-tile-caption-text.e-caption-innerbottom::before {
+  
+}
+.e-tile-caption-text::before {
+  
+}
+.e-tile.e-tile-web.e-tile-medium .e-image-parent .e-tile-image:not(.e-tile-imagefill),
+.e-tile.e-tile-web.e-tile-wide .e-image-parent .e-tile-image:not(.e-tile-imagefill) {
+  
+}
+.e-tile-caption::before {
+  
+}
+.e-tile-small-col-2 {
+  
+}
+.e-tile.e-tile-small .e-image-parent .e-tile-image:not(.e-tile-imagefill) {
+  
+}
+.e-tile.e-tile-imagefill .e-tile-overlay {
+  
+}

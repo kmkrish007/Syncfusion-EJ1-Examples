@@ -1,0 +1,358 @@
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*-----------------------OLAP Definition-----------------*/
+/*-----------------------OLAP Definition End-----------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*------------------ DatePicker ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: white;
+  color: #111111;
+  border-color: #e0e0e0;
+  font-family: 'Roboto', Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+/*------------------------------------- ComboBox -------------------------------------------*/
+
+.e-widget .e-ddl-icon {
+  transform: rotate(0deg);
+  transition: transform 300ms ease;
+}
+.e-widget .e-ddl.e-input-group .e-ddl-hidden {
+  border: 0;
+  height: 0;
+  visibility: hidden;
+  width: 0;
+}
+.e-widget .e-input-group .e-input.e-placeholder {
+  top: 0px;
+  position: absolute;
+  border: inherit;
+  font-style: italic;
+}
+.e-widget.e-ddl.e-input-group .e-input-group-btn button:hover,
+.e-widget.e-ddl.e-input-group .e-input-group-icon:hover,
+.e-widget.e-ddl.e-input-group .e-input-group-btn button:active,
+.e-widget.e-ddl.e-input-group .e-input-group-icon:active {
+  background: white;
+}
+.e-widget.e-input-group::before {
+  left: 50%;
+}
+.e-widget.e-input-group::before,
+.e-widget.e-input-group::after {
+  background: #ff4081;
+}
+.e-widget.e-input-group.e-input-focus::before,
+.e-widget.e-input-group.e-input-focus::after {
+  width: 50%;
+}
+.e-widget.e-input-group::after {
+  right: 50%;
+}
+.e-widget.e-input-group::before,
+.e-widget.e-input-group::after {
+  bottom: -2px;
+  content: '';
+  height: 2px;
+  position: absolute;
+  transition: 0.2s cubic-bezier(0.4, 0, 0.4, 1);
+  width: 0;
+  z-index: 10;
+}
+.e-widget.e-icon-anim .e-ddl-icon {
+  transform: rotate(180deg);
+  transition: transform 300ms ease;
+}
+.e-widget.e-input-group .e-ddl-icon:hover {
+  background: transparent;
+}
+.e-widget.e-input-group:not(.e-disabled) .e-ddl-icon:active {
+  background: transparent;
+}
+.e-widget input.e-combobox.e-input::selection {
+  
+}
+.e-widget input.e-combobox.e-input::selection {
+  background: #ff4081;
+  color: white;
+}
+.e-widget input.e-combobox.e-input::-moz-selection {
+  
+}
+.e-widget input.e-combobox.e-input::-moz-selection {
+  background: #ff4081;
+  color: white;
+}
+.e-widget.e-input-group .e-ddl-icon:not(:active)::after {
+  animation: none;
+}
+.e-widget .e-dropdownbase.e-content {
+  background: white;
+  color: #212121;
+}
+.e-widget .e-list-item.e-hover {
+  background: #e0e0e0;
+  color: #212121;
+}
+.e-widget input.e-combobox.e-input {
+  border: 1px solid;
+  font-family: 'Roboto', Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  font-size: 14px;
+}
+.e-widget .e-combobox.e-input[disabled],
+.e-widget.e-ddl.e-input-group.e-disabled {
+  border-style: solid;
+}
+.e-widget.e-ddl.e-input-group.e-disabled {
+  border-bottom-style: solid;
+}
+.e-widget.e-ddl.e-input-group .e-input-group-btn button {
+  font-family: 'Roboto', Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  font-size: 14px;
+}
+.e-widget.e-ddl.e-input-group.e-disabled {
+  border-style: solid;
+}
+.e-widget.e-ddl.e-input-group .e-clear-icon {
+  color: #424242;
+}
+.e-widget input.e-combobox.e-input,
+.e-widget textarea.e-combobox.e-input {
+  background: white;
+  border-color: #e0e0e0;
+  color: #212121;
+}
+.e-widget.e-ddl.e-input-group {
+  background: white;
+}
+.e-widget.e-ddl.e-input-group .e-input-group-icon {
+  
+}
+.e-widget.e-ddl.e-input-group .e-input-group-icon {
+  /*material*/
+  background-color: white;
+  color: rgba(0, 0, 0, 0.87);
+  border: none;
+}
+.e-widget.e-ddl.e-input-group:not(.e-rtl) .e-input-group-icon {
+  
+}
+.e-widget.e-ddl.e-input-group.e-rtl .e-input-group-icon {
+  
+}
+.e-widget.e-ddl.e-input-group.e-rtl .e-input-group-icon {
+  border: none;
+}
+.e-widget .e-combobox.e-input[disabled] {
+  background: 0px;
+}
+.e-widget .e-combobox.e-input[readonly] {
+  background: white;
+}
+.e-widget.e-ddl.e-input-group .e-input-group-btn button {
+  background: white;
+  border-color: #e0e0e0;
+  color: #424242;
+}
+.e-widget.e-ddl.e-input-group .e-input-group-btn button:hover,
+.e-widget.e-ddl.e-input-group .e-input-group-icon:hover {
+  
+}
+.e-widget.e-ddl.e-input-group:not(.e-disabled) .e-input-group-btn:active button,
+.e-widget.e-ddl.e-input-group:not(.e-disabled) .e-input-group-icon:active,
+input.e-combobox.e-input::selection {
+  
+}
+.e-widget input.e-combobox.e-input::-webkit-input-placeholder,
+.e-widget input.e-combobox.e-input:-moz-placeholder,
+.e-widget input.e-combobox.e-input::-moz-placeholder,
+.e-widget input.e-combobox.e-input:-ms-input-placeholder {
+  color: #3f51b5;
+}
+.e-widget.e-ddl.e-input-group {
+  border-bottom-color: #e0e0e0;
+}
+.e-widget.e-ddl.e-input-group .e-ddl-icon:before {
+  
+  width: 14px;
+  height: 14px;
+  display: block;
+  margin: 0 auto;
+}
+.e-widget.e-ddl.e-input-group .e-ddl-icon:before {
+  content: "\e666";
+}
+.e-widget.e-input-group.e-ddl {
+  
+}
+.e-widget.e-input-group.e-ddl {
+  height: 30px;
+}
+.e-widget.e-ddl.e-popup {
+  border: 1px solid #e0e0e0;
+  position: absolute;
+}
+.e-widget.e-ddl.e-popup .e-input-group {
+  margin-bottom: 0;
+}
+.e-widget.e-ddl.e-popup {
+  border-color: #e0e0e0;
+}
+.e-widget .e-dropdownbase.e-nodata {
+  font-family: 'Roboto', Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  font-size: 16px;
+}
+.e-widget .e-dropdownbase {
+  border-color: #e0e0e0;
+}
+.e-widget .e-dropdownbase .e-list-item {
+  
+  background-color: white;
+  border-bottom: 1px;
+  border-color: none;
+  color: #212121;
+  font-family: 'Roboto', Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  font-size: 14px;
+  line-height: 2.4em;
+  text-indent: 1.067em;
+}
+.e-widget .e-dropdownbase .e-list-item {
+  color: rgba(0, 0, 0, 0.87);
+}
+.e-widget .e-dropdownbase .e-list-group-item,
+.e-widget .e-dropdownbase .e-fixed-head {
+  background-color: white;
+  border-color: white;
+  
+  font-family: 'Roboto', Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 2.4em;
+  padding-left: 1.067em;
+}
+.e-widget .e-dropdownbase .e-list-group-item,
+.e-widget .e-dropdownbase .e-fixed-head {
+  color: rgba(0, 0, 0, 0.87);
+}
+.e-widget .e-dropdownbase .e-list-item.e-active.e-hover {
+  
+}
+.e-widget .e-dropdownbase .e-list-item.e-active.e-hover {
+  /*material*/
+  background-color: #eeeeee;
+  color: #ff4081;
+}
+.e-widget .e-dropdownbase .e-list-item.e-hover {
+  
+}
+.e-widget .e-dropdownbase .e-list-item.e-hover {
+  /*material*/
+  background: #eeeeee;
+  color: rgba(0, 0, 0, 0.87);
+}
+.e-widget .e-dropdownbase .e-list-item.e-active {
+  
+}
+.e-widget .e-dropdownbase .e-list-item.e-active {
+  /*material*/
+  background-color: white;
+  color: #ff4081;
+}
+.e-widget .e-dropdownbase .e-list-item:last-child {
+  border-bottom: 0;
+}
+.e-widget .e-dropdownbase .e-list-item.e-item-focus {
+  background-color: #e0e0e0;
+}
+.e-widget.e-ddl.e-input-group input.e-combobox.e-input,
+.e-widget.e-ddl.e-input-group.e-input-focus .e-combobox.e-input:focus {
+  border-color: #e0e0e0;
+}
+.e-widget.e-ddl.e-input-group.e-input-focus {
+  
+}
+.e-widget.e-ddl.e-input-group.e-input-focus .e-combobox.e-input:first-child:focus,
+.e-widget.e-ddl.e-input-group.e-input-focus.e-rtl span:last-child.e-input-group-icon,
+.e-widget.e-ddl.e-input-group.e-input-focus.e-rtl span:last-child button {
+  border-color: transparent #e0e0e0 transparent transparent;
+}
+.e-widget.e-ddl.e-input-group.e-input-focus.e-rtl span.e-input-group-icon,
+.e-widget.e-ddl.e-input-group.e-input-focus span button,
+.e-widget.e-ddl.e-input-group.e-input-focus.e-rtl span:first-child.e-input-group-icon,
+.e-widget.e-ddl.e-input-group.e-input-focus.e-rtl span:first-child button,
+.e-widget.e-input-focus.e-rtl .e-combobox.e-input:first-child:focus,
+.e-widget.e-input-focus .e-combobox.e-input:last-child:focus,
+.e-widget.e-ddl.e-input-group.e-input-focus span.e-input-group-icon {
+  border-color: transparent transparent transparent #e0e0e0;
+}
+.e-widget.e-ddl.e-input-group {
+  border: 1px solid;
+  border-color: #e0e0e0;
+  
+}
+.e-widget.e-ddl.e-input-group {
+  border-width: 0 0 1px 0;
+}
+.e-widget .e-input-group-btn:not(:last-child) button,
+.e-widget.e-ddl.e-input-group .e-input-group-icon:not(:last-child) {
+  
+}
+.e-widget .e-input-group-btn:not(:last-child) button,
+.e-widget.e-ddl.e-input-group .e-input-group-icon:not(:last-child) {
+  border-left-width: 0px;
+}
+.e-widget.e-ddl.e-input-group .e-input-group-icon,
+.e-widget.e-ddl.e-input-group .e-input-group-btn button {
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: 14px;
+  padding: 7px;
+  
+}
+.e-widget.e-ddl.e-rtl.e-input-group .e-input-group-icon,
+.e-widget.e-ddl.e-rtl.e-input-group .e-input-group-btn button {
+  
+}
+.e-widget.e-ddl .e-input-value,
+.e-widget.e-ddl .e-input-value:focus {
+  font-family: 'Roboto', Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  font-size: 14px;
+  height: auto;
+  line-height: 1.4;
+  margin: 0px;
+  outline: none;
+  padding: 2px 0;
+  width: 100%;
+}
+.e-widget.e-input-group.e-ddl .e-comboie8.e-comboie.e-ddl-icon {
+  
+}
+/*------------------------------------- End ComboBox -------------------------------------------*/
+

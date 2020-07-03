@@ -1,0 +1,255 @@
+/*-----------------------HeatMap Definition-----------------*/
+/*@neutral-light;*/
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*-----------------------OLAP Definition-----------------*/
+/*-----------------------OLAP Definition End-----------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*----------------------material theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+.office-file-explorer-toolbar-bg-color {
+  background: white;
+}
+.office-tab-header-bg-color {
+  background: white;
+}
+/*------------------ material theme ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: white;
+  color: #111111;
+  border-color: #c8c8c8;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+/*Theme Color*/
+
+.e-js.e-lv .e-list-text {
+  
+}
+.e-js.e-lv .e-list-text {
+  font-size: 13px;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  color: #333333;
+  font-weight: 400;
+}
+/*List Item*/
+
+.e-js.e-lv .e-list {
+  
+}
+.e-js.e-lv .e-list {
+  border-bottom: none;
+  padding: 0px 12px;
+  height: 36px;
+  font-size: 13px;
+}
+.e-js.e-lv .e-list .e-chevron-right_01.e-fontimage:before {
+  
+}
+.e-js.e-lv .e-list .e-chevron-right_01.e-fontimage:before {
+  color: #333333;
+}
+.e-js.e-lv .e-list.e-state-default {
+  background-color: white;
+  border-color: #c8c8c8;
+}
+.e-js.e-lv .e-list.e-state-default > .e-chevron-right_01 .e-list-text {
+  
+}
+.e-js.e-lv .e-list.e-state-default > .e-chevron-right_01 .e-list-text {
+  color: #333333;
+  font-weight: 400;
+}
+.e-js.e-lv .e-list.e-state-default:hover {
+  
+}
+.e-js.e-lv .e-list.e-state-default:hover {
+  background: #f4f4f4;
+  color: #333333;
+}
+.e-js.e-lv .e-list.e-state-default:hover > .e-chevron-right_01 .e-list-text {
+  color: #212121;
+}
+.e-js.e-lv .e-list:hover > .e-chevron-right_01.e-fontimage:before {
+  color: #666666;
+}
+.e-js.e-lv .e-list .e-chevron-right_01:hover {
+  color: #212121;
+}
+.e-js.e-lv .e-list.e-state-active {
+  
+}
+.e-js.e-lv .e-list.e-state-active {
+  background: #deecf9;
+  color: #333333;
+}
+.e-js.e-lv .e-list.e-state-active .e-chevron-right_01 .e-list-text {
+  
+}
+.e-js.e-lv .e-list.e-state-active .e-chevron-right_01 .e-list-text {
+  color: #333333;
+}
+.e-js.e-lv .e-list.e-state-active > .e-chevron-right_01.e-fontimage:before {
+  
+}
+.e-js.e-lv .e-list.e-state-active > .e-chevron-right_01.e-fontimage:before {
+  color: #333333;
+}
+/*Search Box*/
+
+.e-js.e-lv-inputdiv .e-lv-input {
+  border: 1px solid #c8c8c8;
+  border-radius: 7px;
+  font-size: 14px;
+}
+.e-js.e-lv .e-header {
+  
+}
+.e-js.e-lv .e-header {
+  color: #666666;
+  border-top: 1px solid #eaeaea;
+  border-left: 1px solid #eaeaea;
+  border-right: 1px solid #eaeaea;
+  padding-left: 12px;
+  height: 36px;
+  font-size: 14px;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  font-weight: 400;
+}
+.e-js.e-lv.e-parentlv > .e-lv .e-list-container {
+  
+}
+.e-js.e-lv.e-parentlv > .e-lv .e-list-container {
+  border: 1px solid #eaeaea;
+}
+.e-js.e-lv.e-parentlv > .e-lv.subpage {
+  border: none;
+}
+.e-js.e-nb .e-lv .subpage .e-content {
+  float: none;
+}
+.e-js.e-lv > .e-header:hover > .e-icon:before {
+  color: #666666;
+}
+.e-js.e-lv > .e-header > .e-icon:before,
+.e-js.e-lv > .e-header > .e-icon:hover:before {
+  
+}
+.e-js.e-lv > .e-header > .e-icon:before,
+.e-js.e-lv > .e-header > .e-icon:hover:before {
+  color: #666666;
+}
+.e-js.e-lv .e-list .e-lv-checkdiv.e-template-checkmark,
+.e-js.e-lv .e-template-list .e-list-check div {
+  float: none;
+  vertical-align: middle;
+  display: table-cell;
+}
+.e-js.e-lv .e-template-list .e-list-check div {
+  vertical-align: initial;
+}
+.e-js.e-lv .e-template-list .e-list-check {
+  display: table;
+}
+.e-js.e-lv .e-htitle,
+.e-js.e-lv .e-btn-text {
+  
+}
+.e-js.e-lv .e-htitle,
+.e-js.e-lv .e-btn-text {
+  height: 18px;
+  padding: 7px 7px 7px 0px;
+}
+.e-js .e-htitle,
+.e-js .e-btn-text {
+  
+}
+.e-js .e-htitle,
+.e-js .e-btn-text {
+  font-weight: 400;
+}
+.e-js.e-lv .e-btn-text {
+  
+}
+.e-js.e-icon.e-chevron-left_01:before {
+  
+}
+.e-js.e-list-container .e-chkbox-wrap .e-chk-image.e-stop,
+.e-js.e-list-container .e-chkbox-wrap .e-chk-image.e-checkmark {
+  
+}
+.e-js.e-list-container .e-chkbox-wrap div > span.e-chk-act,
+.e-js.e-list-container .e-chkbox-wrap div > span.e-chk-indeter {
+  
+}
+.e-js.e-lv .e-list.e-state-default.e-arrow,
+.e-js.e-lv .e-list .e-chevron-right_01 {
+  
+}
+.e-js.e-lv .e-list-container .e-chkbox-wrap {
+  
+}
+.e-js.e-lv .e-list-container .e-chkbox-wrap {
+  margin-top: 3px;
+}
+.e-js.e-lv .e-list-container .e-icon.e-chevron-right_01:before {
+  content: "\e69b";
+}
+.e-js.e-lv .e-list .e-chevron-right_01 {
+  padding: 0;
+  height: 36px;
+  line-height: 34px;
+}
+.e-js.e-lv .e-icon.e-chevron-left_01:before {
+  content: "\e68b";
+}
+.e-js.e-lv .e-arrow .e-chevron-right_01:before,
+.e-js.e-lv .e-icon.e-chevron-left_01:before {
+  font-size: 12px;
+  padding-top: 1px;
+}
+.e-js.e-lv .e-list .e-lv-checkdiv {
+  padding-left: 12px;
+}
+.e-js.e-lv.e-slideleft .e-header {
+  padding-left: 0;
+}
+.e-js.e-lv.e-slideleft .e-header .e-chevron-left_01 {
+  width: 36px;
+  height: 36px;
+}
+.e-js.e-lv .e-icon.e-chevron-left_01:before {
+  padding-left: 4px;
+}
+.e-js.e-list-container .e-load {
+  background-image: url(images/ajax-loader.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.e-js.e-lv .e-list-container .e-chkbox-wrap .e-chkbox-small > span {
+  
+}

@@ -1,0 +1,221 @@
+/* need verify with UX team*/
+.pager-hover-gradient {
+  background: #4a5038;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #4a5038, #404a22);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #4a5038), color-stop(100%, #404a22));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #4a5038, #404a22);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #4a5038, #404a22);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #4a5038, #404a22);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #4a5038, #404a22);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4a5038', endColorstr='#404a22', GradientType=0);
+  /* IE6-9 */
+
+}
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*----------------------OLAP Definition------------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*----------------------material theme-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: #111111;
+  color: white;
+  border-color: #494949;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+/*------------------------------------- listbox -------------------------------------------*/
+
+.e-js.e-listbox .e-select {
+  
+}
+.e-js.e-listbox .e-select {
+  border-color: #cee292;
+  color: white;
+}
+.e-js.e-listbox .e-select {
+  background: #cee292;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #cee292, #aecf49);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #cee292), color-stop(100%, #aecf49));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #cee292, #aecf49);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #cee292, #aecf49);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #cee292, #aecf49);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #cee292, #aecf49);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cee292', endColorstr='#aecf49', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-js.e-listbox .e-active {
+  color: white;
+  border-color: #4a5038;
+}
+.e-js.e-listbox .e-active {
+  background: #4a5038;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #4a5038, #404a22);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #4a5038), color-stop(100%, #404a22));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #4a5038, #404a22);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #4a5038, #404a22);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #4a5038, #404a22);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #4a5038, #404a22);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4a5038', endColorstr='#404a22', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-js.e-listbox .e-hover {
+  
+}
+.e-js.e-listbox .e-hover {
+  color: #dddddd;
+}
+.e-js.e-listbox .e-hover {
+  background: #4a5038;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #4a5038, #404a22);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #4a5038), color-stop(100%, #404a22));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #4a5038, #404a22);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #4a5038, #404a22);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #4a5038, #404a22);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #4a5038, #404a22);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4a5038', endColorstr='#404a22', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-js.e-dragClonelist {
+  
+}
+.e-js.e-dragClonelist {
+  background: #cee292;
+  color: white;
+  opacity: 0.5;
+  text-align: center;
+}
+.e-js.e-wrap .e-listbox li {
+  
+  word-break: break-all;
+}
+.e-js.e-wrap .e-listbox li {
+  padding-left: 10px !important;
+}
+.e-js.e-rtl.e-wrap .e-listbox li {
+  
+}
+.e-js.e-nowrap .e-listbox li {
+  padding-left: 10px !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.e-widget.e-ddl-popup.e-load {
+  background-image: url(images/ajax-loader.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.e-widget.e-ddl-popup.e-wrap .e-listbox li.allowDrop {
+  
+}
+.e-widget.e-ddl-popup.e-wrap.e-js {
+  
+}
+.e-js.e-listbox .e-chkbox-wrap .e-chkbox-small .e-chk-inact,
+.e-js.e-listbox .e-chkbox-wrap .e-chkbox-small .e-chk-act {
+  
+}
+.e-js.e-listbox .e-chkbox-wrap .e-chkbox-small .e-chk-inact,
+.e-js.e-listbox .e-chkbox-wrap .e-chkbox-small .e-chk-act {
+  top: 2px;
+}
+.e-js.e-listbox .e-chkbox-wrap .e-chkbox-small .e-chk-act .e-checkmark {
+  
+}
+.e-widget.e-ddl-popup.e-wrap.e-js div > ul li .e-chkbox-wrap,
+.e-widget.e-ddl-popup div > .e-listbox li .e-chkbox-wrap {
+  
+}
+.e-widget.e-ddl-popup div > .e-ul .e-ghead {
+  
+}
+.e-widget.e-ddl-popup div > .e-ul .e-ghead {
+  font-weight: bold;
+  border-bottom: 1px solid #494949;
+  display: block;
+  margin: 2px 2px 2px 0px;
+  position: relative;
+  padding-bottom: 5px;
+  padding-left: 0.857em;
+}
+.e-widget.e-ddl-popup.e-wrap.e-js div > ul li .e-align {
+  
+}
+.e-widget.e-ddl-popup.e-wrap {
+  
+}
+.e-widget.e-ddl-popup.e-wrap .e-listbox li {
+  
+}
+.e-widget.e-ddl-popup.e-wrap .e-listbox li.e-select {
+  
+}
+.e-widget.e-ddl-popup.e-wrap .e-listbox li.e-hover {
+  
+}
+.e-widget.e-ddl-popup div > .e-listbox li:empty {
+  
+}
+.e-widget.e-ddl-popup.e-js {
+  max-height: inherit;
+  max-width: inherit;
+}
+.e-js.e-listbox .e-draggable {
+  touch-action: none;
+}

@@ -1,0 +1,246 @@
+/* need verify with UX team*/
+.pager-hover-gradient {
+  background: #57452d;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #57452d, #57380f);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #57452d), color-stop(100%, #57380f));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #57452d, #57380f);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #57452d, #57380f);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #57452d, #57380f);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #57452d, #57380f);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#57452d', endColorstr='#57380f', GradientType=0);
+  /* IE6-9 */
+
+}
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*----------------------OLAP Definition------------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*----------------------material theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: #111111;
+  color: white;
+  border-color: #494949;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+/*------------------------------------- TimeEditor -------------------------------------------*/
+
+.e-widget.e-timewidget .e-input,
+.e-widget.e-time-popup {
+  background-color: black;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  
+}
+.e-widget.e-timewidget .e-input,
+.e-widget.e-time-popup {
+  /*other*/
+  color: #dddddd;
+  font-weight: normal;
+}
+.e-widget.e-timewidget .e-input {
+  
+}
+.e-widget.e-timewidget .e-in-wrap,
+.e-widget.e-time-popup {
+  border-color: #494949;
+  
+}
+.e-widget.e-timewidget .e-in-wrap:before,
+.e-widget.e-timewidget .e-in-wrap:after {
+  
+}
+.e-widget.e-timewidget.e-focus .e-in-wrap,
+.e-widget.e-timewidget.e-focus .e-in-wrap:hover {
+  
+}
+.e-widget.e-timewidget.e-focus .e-in-wrap,
+.e-widget.e-timewidget.e-focus .e-in-wrap:hover {
+  /*other*/
+  box-shadow: 0 0 2px #ababab;
+}
+.e-widget.e-timewidget:hover .e-in-wrap {
+  
+}
+.e-widget.e-timewidget.e-disable:hover .e-in-wrap {
+  
+}
+.e-widget.e-timewidget .e-select,
+.e-widget.e-timewidget.e-rtl .e-select,
+.e-widget.e-ntouch.e-timewidget .e-disable.e-select:hover {
+  
+}
+.e-widget.e-timewidget .e-select,
+.e-widget.e-timewidget.e-rtl .e-select,
+.e-widget.e-ntouch.e-timewidget .e-disable.e-select:hover {
+  background: #4d4d4d;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #4d4d4d, #212121);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #4d4d4d), color-stop(100%, #212121));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #4d4d4d, #212121);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #4d4d4d, #212121);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #4d4d4d, #212121);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #4d4d4d, #212121);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4d4d4d', endColorstr='#212121', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-widget.e-timewidget .e-select,
+.e-widget.e-timewidget.e-rtl .e-select,
+.e-widget.e-ntouch.e-timewidget .e-disable.e-select:hover {
+  /*other*/
+  border-color: #494949;
+  color: #cccccc;
+}
+.e-widget.e-timewidget.e-widget .e-select:active:hover,
+.e-widget.e-timewidget.e-rtl .e-select:active:hover {
+  
+}
+.e-widget.e-timewidget.e-widget .e-select.e-disable:active:before:active:hover {
+  
+}
+.e-widget.e-ntouch.e-timewidget .e-select:hover,
+.e-widget.e-time-popup.e-popup .e-hover {
+  
+}
+.e-widget.e-ntouch.e-timewidget .e-select:hover,
+.e-widget.e-time-popup.e-popup .e-hover {
+  background: #57452d;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #57452d, #57380f);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #57452d), color-stop(100%, #57380f));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #57452d, #57380f);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #57452d, #57380f);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #57452d, #57380f);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #57452d, #57380f);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#57452d', endColorstr='#57380f', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-widget.e-ntouch.e-timewidget .e-select:hover,
+.e-widget.e-time-popup.e-popup .e-hover {
+  /*other*/
+  color: #dddddd;
+}
+.e-widget.e-ntouch.e-timewidget .e-select:hover,
+.e-widget.e-timewidget .e-select:hover {
+  
+}
+.e-widget.e-time-popup .e-active.e-hover {
+  
+}
+.e-widget.e-ntouch.e-timewidget .e-select:hover {
+  
+}
+.e-widget.e-time-popup .e-active {
+  border-color: #fbbe6d;
+  
+}
+.e-widget.e-time-popup .e-active {
+  background: #fbbe6d;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #fbbe6d, #f9920b);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fbbe6d), color-stop(100%, #f9920b));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #fbbe6d, #f9920b);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #fbbe6d, #f9920b);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #fbbe6d, #f9920b);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #fbbe6d, #f9920b);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fbbe6d', endColorstr='#f9920b', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-widget.e-time-popup .e-active {
+  /*other*/
+  color: white;
+}
+.e-widget.e-time-popup.e-popup .e-hover.e-active {
+  
+}
+.e-widget.e-timewidget .e-icon.e-clock:before {
+  width: 20px;
+  height: 20px;
+}
+.e-widget.e-timewidget.e-active .e-select {
+  
+}
+.e-widget.e-timewidget.e-active .e-select:hover {
+  
+}
+.e-widget.e-time-popup {
+  
+}
+.e-widget.e-timewidget .e-input::selection {
+  
+}
+.e-widget.e-timewidget .e-input::-moz-selection {
+  
+}
+.e-widget.e-timewidget .e-select {
+  
+}
+.e-widget.e-timewidget .e-select:active:before {
+  
+}
+.e-widget.e-timewidget .e-select.e-disable:active:before {
+  
+}
+.e-widget.e-timewidget.e-disable {
+  background-color: #1d1d1d;
+  border-color: #333333;
+  opacity: 1;
+}
+.e-widget.e-timewidget .e-select.e-disable,
+.e-widget.e-timewidget.e-disable .e-select:hover,
+.e-widget.e-ntouch.e-timewidget .e-disable.e-select:hover {
+  background-color: #525252;
+}

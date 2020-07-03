@@ -1,0 +1,452 @@
+/* need verify with UX team*/
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*----------------------OLAP Definition------------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*----------------------material theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: white;
+  color: #111111;
+  border-color: #c8c8c8;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-treegrid .e-extendcolumn {
+  background-color: white;
+}
+.e-treegrid .e-headercelldiv {
+  color: #282827;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-filterMenuDiv {
+  
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  min-height: 0px !important;
+}
+.e-filterMenuDiv {
+  border-color: #c8c8c8 !important;
+}
+.e-treegrid .e-treegridpopup .e-popupcontent {
+  background-color: white;
+  border-color: #c8c8c8;
+}
+.e-treegrid .e-treegridpopup span:hover,
+.e-treegrid .e-treegridpopup .e-spanclicked {
+  border-color: #686969;
+}
+.e-treegrid .e-treegridpopup .e-downtail:before,
+.e-treegrid .e-treegridpopup .e-downtail {
+  border-top-color: #c8c8c8;
+}
+.e-treegrid .e-treegridpopup .e-downtail:after {
+  border-top-color: white;
+}
+.e-treegrid .e-headercelldiv .e-descending,
+.e-treegrid .e-headercelldiv .e-ascending,
+.e-treegrid .e-headercell .e-columnmenu-icon {
+  
+}
+.e-treegrid .e-headercelldiv .e-descending,
+.e-treegrid .e-headercelldiv .e-ascending,
+.e-treegrid .e-headercell .e-columnmenu-icon {
+  color: #232323;
+}
+.e-treegrid-core {
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-treegrid {
+  border-color: #c8c8c8;
+  color: #333333;
+}
+.e-treegrid .e-gridcontent {
+  background-color: white;
+  border-color: #c8c8c8;
+}
+.e-treegrid .e-borderbox {
+  border-bottom-color: white;
+}
+.e-treegrid .e-editcell,
+.e-treegrid .e-detailsrowcell,
+.e-treegrid .e-rowcell,
+.e-treegrid .e-extendcolumn {
+  
+}
+.e-treegrid .e-editcell,
+.e-treegrid .e-detailsrowcell,
+.e-treegrid .e-rowcell,
+.e-treegrid .e-extendcolumn {
+  border-color: #c8c8c8;
+}
+.e-treegrid .e-tableLastCell {
+  border-right-color: #c8c8c8 !important;
+}
+.e-treegrid .e-detailsiconcell:hover,
+.e-treegrid .e-detailsinfoiconhide {
+  background-color: #e3e3e3;
+}
+.e-treegrid div.e-error .e-toparrow {
+  
+}
+.e-treegrid div.e-error .e-toparrow {
+  border-bottom-color: #fffe92;
+}
+.e-treegrid div.e-error .e-bottomarrow {
+  
+}
+.e-treegrid div.e-error .e-bottomarrow {
+  border-top-color: #fffe92;
+}
+.e-detailscellwrapperfly {
+  border-color: #c8c8c8;
+  
+}
+.e-detailscellwrapperfly {
+  box-shadow: 0px 0px 11px 3px #c8c8c8;
+  -moz-box-shadow: 0px 0px 11px 3px #c8c8c8;
+  -webkit-box-shadow: 0px 0px 11px 3px #c8c8c8;
+}
+.e-dragrowcell {
+  border-color: #c8c8c8 !important;
+}
+.e-treegrid .e-alt-row {
+  
+}
+.e-treegrid .e-alt-row {
+  background: #f7f7f7;
+}
+.e-treegrid .e-selectionbackground {
+  
+}
+.e-treegrid .e-selectionbackground {
+  color: white;
+  -ms-filter: 'progid:DXImageTransform.Microsoft.gradient(startColorstr="#f9920b", endColorstr="#f9920b", GradientType=0), progid:DXImageTransform.Microsoft.Alpha(Opacity=20)';
+}
+.e-treegrid .e-selectionbackground {
+  background: #f9920b;
+}
+.e-treegridPane .e-treegrid .e-selectionbackground {
+  
+}
+.e-treegridPane .e-treegrid .e-selectionbackground {
+  background: -moz-linear-gradient(top, rgba(249, 146, 11, 0.2), rgba(249, 146, 11, 0.2));
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(249, 146, 11, 0.2)), color-stop(100%, rgba(249, 146, 11, 0.2)));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(249, 146, 11, 0.2), rgba(249, 146, 11, 0.2));
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(249, 146, 11, 0.2), rgba(249, 146, 11, 0.2));
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(249, 146, 11, 0.2), rgba(249, 146, 11, 0.2));
+  /* IE10+ */
+  background: linear-gradient(to bottom, rgba(249, 146, 11, 0.2), rgba(249, 146, 11, 0.2));
+  /* W3C */
+
+  color: #333333;
+  filter: 'progid:DXImageTransform.Microsoft.gradient(startColorstr="#f9920b", endColorstr="#f9920b", GradientType=0), progid:DXImageTransform.Microsoft.Alpha(Opacity=20)';
+}
+.e-treegrid .e-selectingcell {
+  
+}
+.e-treegrid .e-selectingcell {
+  color: white;
+}
+.e-treegrid .e-selectingcell {
+  background: #f9920b;
+}
+.e-treegridPane .e-treegrid .e-selectingcell {
+  
+}
+.e-treegridPane .e-treegrid .e-selectingcell {
+  background: -moz-linear-gradient(top, rgba(249, 146, 11, 0.2), rgba(249, 146, 11, 0.2));
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(249, 146, 11, 0.2)), color-stop(100%, rgba(249, 146, 11, 0.2)));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(249, 146, 11, 0.2), rgba(249, 146, 11, 0.2));
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(249, 146, 11, 0.2), rgba(249, 146, 11, 0.2));
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(249, 146, 11, 0.2), rgba(249, 146, 11, 0.2));
+  /* IE10+ */
+  background: linear-gradient(to bottom, rgba(249, 146, 11, 0.2), rgba(249, 146, 11, 0.2));
+  /* W3C */
+
+  color: #333333;
+}
+.e-treegrid .e-detailsinfoiconhide:before,
+.e-treegrid .e-detailsinfoiconshow:before {
+  
+}
+.e-treegrid .e-detailsinfoiconhide:before,
+.e-treegrid .e-detailsinfoiconshow:before {
+  color: #f9920b !important;
+}
+.e-treegrid .e-selectionbackground .e-detailsinfoiconshow:before {
+  
+}
+.e-treegrid .e-selectionbackground .e-detailsinfoiconshow:before {
+  color: white !important;
+}
+.e-treegrid .e-detailscellwrapper,
+.e-detailscellwrapperfly {
+  background: white;
+  color: #333333 !important;
+}
+.e-dragtooltipbackground {
+  
+}
+.e-dragtooltipbackground {
+  background-color: white;
+  color: #333333;
+}
+.e-treegrid .e-tabletd {
+  border-color: #c8c8c8;
+}
+.e-treegrid .e-treegridtoolbar {
+  background-color: white !important;
+  border-color: #c8c8c8 !important;
+}
+.e-treegrid .e-headercell {
+  
+}
+.e-treegrid .e-headercell {
+  border-right-color: #c8c8c8 !important;
+  border-bottom-color: #c8c8c8 !important;
+}
+.e-treegrid .e-filterbarcell {
+  
+}
+.e-treegrid .e-filterbarcell {
+  border-color: #c8c8c8 !important;
+}
+.e-treegrid .e-grid-icon {
+  background: #fcfcfc;
+}
+.e-treegrid .e-gridheader {
+  color: #282827;
+  border-color: #c8c8c8;
+  
+}
+.e-treegrid .e-gridheader {
+  background: #fcfcfc;
+}
+.e-treegrid .e-headercontent {
+  border-right-color: #c8c8c8;
+}
+.e-treegrid .e-ejinputtext,
+.e-addedColumn .e-ejinputtext,
+.e-treegridrenamedialog .e-ejinputtext {
+  
+  border-color: #c8c8c8;
+  outline: none;
+  vertical-align: baseline;
+}
+.e-treegrid .e-ejinputtext,
+.e-addedColumn .e-ejinputtext,
+.e-treegridrenamedialog .e-ejinputtext {
+  color: #333333;
+  background-color: white;
+}
+.e-treegrid .e-ejinputtext:focus,
+.e-addedColumn .e-ejinputtext:focus,
+.e-treegridrenamedialog .e-ejinputtext:focus {
+  
+}
+.e-treegrid .e-ejinputtext:focus,
+.e-addedColumn .e-ejinputtext:focus,
+.e-treegridrenamedialog .e-ejinputtext:focus {
+  box-shadow: 0 0 5px #cbcbcb;
+}
+.e-treegrid .e-reSizeColbg {
+  border-left-color: #c8c8c8 !important;
+}
+.e-treegrid .e-gridheadercontainer {
+  
+}
+.e-treegrid .e-gridheadercontainer {
+  border-right-color: #c8c8c8 !important;
+}
+.e-columnmenu {
+  background: white;
+  color: #333333;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  
+}
+.e-columnmenu {
+  border-color: #c8c8c8 !important;
+}
+.e-columnmenuitem .e-icon,
+.e-menuitem .e-icon {
+  
+}
+.e-columnmenuitem .e-icon,
+.e-menuitem .e-icon {
+  color: #686969;
+}
+.e-treegrid .e-toolbaricons {
+  
+}
+.e-treegrid .e-toolbaricons {
+  color: #686969;
+}
+.e-columnmenuselection .e-icon,
+.e-contextmenu-mouseover .e-icon {
+  
+}
+.e-columnmenuselection .e-icon,
+.e-contextmenu-mouseover .e-icon {
+  color: #282827;
+}
+.e-treegrid .e-tooltxt.e-hover > span {
+  
+}
+.e-treegrid .e-tooltxt.e-hover > span {
+  color: #282827;
+}
+.e-columnSelector {
+  background: white;
+  border: 1px solid;
+  border-color: #c8c8c8 !important;
+  color: #333333 !important;
+}
+.e-columnMenuListDiv label {
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-columnmenuselection {
+  
+  color: #282827;
+}
+.e-columnmenuselection {
+  background: #fcc680;
+}
+.e-treegrid .e-summaryrow {
+  
+}
+.e-treegrid .e-summaryrow {
+  background: #f6f6f6;
+}
+.e-treegrid .e-footersummaryrow,
+.e-treegrid .e-footersummaryrowdiv {
+  
+}
+.e-treegrid .e-footersummaryrow,
+.e-treegrid .e-footersummaryrowdiv {
+  background: #f6f6f6;
+}
+.e-treegrid .e-footersummaryrowdiv {
+  border-width: 0px 1px 1px 1px;
+  border-style: solid;
+  border-color: #c8c8c8;
+}
+.e-treegrid .e-summaryrow .e-summaryrowcell {
+  
+}
+.e-treegrid .e-summaryrow .e-summaryrowcell {
+  border-bottom-color: #c8c8c8;
+}
+.e-contextmenu,
+.e-innerContextmenu {
+  
+  background: white;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-contextmenu,
+.e-innerContextmenu {
+  border-color: #c8c8c8 !important;
+  color: #333333;
+}
+.e-headerContextmenu {
+  
+  background: white;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  border: 1px solid;
+}
+.e-headerContextmenu {
+  border-color: #c8c8c8 !important;
+  color: #333333;
+}
+.e-contextmenu-mouseover {
+  
+}
+.e-contextmenu-mouseover {
+  color: #282827;
+}
+.e-contextmenu-mouseover {
+  background: #fcc680;
+}
+.e-tooltipgantt {
+  
+}
+.e-tooltipgantt {
+  background-color: white;
+  color: #333333;
+  border-color: #c8c8c8;
+}
+.e-treegrid .e-movablecontainer,
+.e-treegrid .e-movableheader,
+.e-treegrid .e-movablefooter {
+  
+}
+.e-treegrid .e-movablecontainer,
+.e-treegrid .e-movableheader,
+.e-treegrid .e-movablefooter {
+  border-left-color: #f9920b;
+}
+.e-treegrid .e-footercontainer {
+  border-right-color: #c8c8c8;
+}
+.e-headervline {
+  
+}
+.e-headervline {
+  border-color: #f9920b;
+}
+.e-headertooltip {
+  
+}
+.e-headertooltip {
+  color: #282827;
+  background-color: #fcfcfc;
+  border-color: #c8c8c8;
+}
+.e-menuitem-hr {
+  border-width: 1px 0px 0px 0px;
+  border-style: solid;
+  
+}
+.e-menuitem-hr {
+  border-color: #c8c8c8;
+}
+
+
+.e-treegrid-resIcon {
+  
+}
+.e-treegrid-resIcon {
+  color: #232323;
+}

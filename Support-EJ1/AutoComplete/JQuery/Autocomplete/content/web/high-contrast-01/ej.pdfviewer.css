@@ -1,0 +1,233 @@
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*-----------------------OLAP Definition-----------------*/
+/*-----------------------OLAP Definition End-----------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------material theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: #111111;
+  color: white;
+  border-color: gray;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+/*------------------------------pdfviewer Theme Start-------------------------------*/
+
+.e-pdfviewer-outerborder:hover {
+  border-color: white;
+  color: #dbdb00;
+}
+.e-pdfviewer-outerborder:hover {
+  background: #035103;
+}
+.e-pdfviewer-tbdiv.e-pdfviewer-exporttip {
+  border-color: gray;
+  background-color: black;
+}
+.e-pdfviewer-tbdiv.e-pdfviewer-exporttip {
+  background: black;
+}
+.e-pdfviewer-tbdiv.e-pdfviewer-fittopagetip {
+  border-color: gray;
+  background-color: black;
+}
+.e-pdfviewer-tbdiv.e-pdfviewer-fittopagetip {
+  background: black;
+}
+.e-pdfviewer-tbdiv.e-pdfviewer-tooltip {
+  
+}
+.e-pdfviewer-tbdiv.e-pdfviewer-tooltip {
+  background: black;
+  border-color: gray;
+}
+.e-pdfviewer-headerspan,
+.e-pdfviewer-contentspan {
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial !important;
+  
+}
+.e-pdfviewer-headerspan,
+.e-pdfviewer-contentspan {
+  color: #dbdb00;
+}
+.e-pdfviewer-viewer {
+  font-size: 14px;
+}
+.e-pdfviewer-popuppageno,
+.e-pdfviewer-popuptotalpage {
+  color: black;
+}
+.e-pdfviewer-toolbarcontainer .ejinputtext {
+  background-color: black !important;
+}
+.e-pdfviewer-viewerblock {
+  background-color: #0a0a0a;
+  font-size: 12.5px;
+  color: #dbdb00;
+}
+.e-pdfviewer-viewerblockcellcontent {
+  font-size: 14.5px;
+  color: #dbdb00;
+}
+.e-pdfviewer-viewpdf {
+  border-left-color: gray;
+}
+.e-pdfviewer-scrollcontainer,
+.e-pdfviewer-viewer > .e-splitter .e-pane {
+  background-color: #262626;
+}
+.e-pdfviewer-pageviewcontainer {
+  background-color: #3d3d3d;
+}
+.e-pdfviewer-pageview {
+  -moz-box-shadow: rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: rgba(0, 0, 0, 0.6);
+  box-shadow: rgba(0, 0, 0, 0.3);
+  border-color: gray;
+}
+.e-pdfviewer-label,
+.e-pdfviewer-tbpage,
+.e-pdfviewer-elementalignments,
+.e-pdfviewer-textbox {
+  color: #dbdb00;
+}
+.e-pdfviewer-elementalignments.ejinputtext:focus {
+  
+}
+.e-pdfviewer-label,
+.e-pdfviewer-tbpage,
+.e-pdfviewer-elementalignments,
+.e-pdfviewer-textbox {
+  font-size: 14px;
+  font-weight: normal;
+}
+.e-pdfviewer-labelpageno {
+  
+}
+.e-pdfviewer-labelpageno {
+  font-size: 16px !important;
+}
+.e-pdfviewer-documentmapcontainer div,
+.e-pdfviewer-documentmappopup {
+  background-color: #ebebeb;
+}
+.e-pdfviewer-pagepopupinfo {
+  background-color: black;
+}
+.e-pdfviewer-viewerblock,
+.e-pdfviewer-viewer,
+.e-pdfviewer-pagenumber,
+.e-pdfviewer-tbpage,
+.e-pdfviewer-tbdiv.e-pdfviewer-exportlist,
+.e-pdfviewer-label,
+.e-pdfviewer-labelpageno {
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial !important;
+}
+.e-pdfviewer-viewerblock,
+.e-pdfviewer-elementalignments,
+.e-pdfviewer-viewerblockcellcontent,
+.e-pdfviewer-viewerblockcontent,
+.e-pdfviewer-textbox,
+.e-pdfviewer-documentmappopup {
+  border-color: gray;
+}
+.e-pdfviewer-elementalignments.ejinputtext {
+  
+}
+.e-pdfviewer-elementalignments.ejinputtext::selection {
+  
+}
+.e-pdfviewer-toolbarcontainer.e-toolbar {
+  
+}
+.e-pdfviewer-toolbarcontainer.e-toolbar {
+  border-color: gray;
+}
+.e-pdfviewer-searchbox {
+  
+}
+.e-pdfviewer-searchbox {
+  border-color: gray;
+}
+.e-pdfviewer-viewercontainer {
+  
+}
+.e-pdfviewer-viewercontainer {
+  background-color: black;
+  border-color: gray;
+}
+.e-pdfviewer-pageCanvas {
+  
+}
+.e-pdfviewer-pageCanvas {
+  border: solid black 1px;
+}
+.e-pdfviewer-popupmenu {
+  border: solid 2px gray;
+  background-color: black;
+}
+.e-pdfviewer-innercontent {
+  border-color: black;
+  background-color: white;
+}
+.e-pdfviewer-closeicon {
+  color: white;
+}
+.e-pdfviewer-properties-okbtn,
+.e-pdfviewer-properties-cancelbtn {
+  background-color: black !important;
+}
+.e-pdfviewer-currenttime,
+.e-pdfviewer-username {
+  color: white;
+}
+.e-tab .e-header > .e-active.e-pdfviewer-tab-li a {
+  color: white !important;
+}
+.e-pdfviewer-opacity-slider.e-slider .e-handle.e-select {
+  background-color: #111111;
+}
+.e-tab .e-header > .e-active.e-pdfviewer-tab-li {
+  
+}
+.e-pdfviewer-popupli:hover {
+  background-color: #035103;
+  color: white;
+}
+.e-pdfviewer-popupli:hover {
+  background: #035103;
+}
+.e-pdfviewer-popupli {
+  color: #dbdb00 !important;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial !important;
+  font-size: 14px !important;
+  font-weight: normal !important;
+}
+/*------------------------------pdfviewer Theme End-------------------------------*/
+

@@ -1,0 +1,76 @@
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*-----------------------OLAP Definition-----------------*/
+/*-----------------------OLAP Definition End-----------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*------------------ DatePicker ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: white;
+  color: #111111;
+  border-color: #e0e0e0;
+  font-family: 'Roboto', Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+/*------------------------------------- Radial Menu -------------------------------------------*/
+
+.e-js.e-radialmenu .e-childdefault {
+  fill: #3f51b5;
+}
+.e-js.e-radialmenu .e-default,
+.e-js.e-radialmenu .e-outerdefault {
+  fill: whitesmoke;
+}
+.e-js.e-radialmenu .e-active {
+  fill: #e0e0e0;
+}
+.e-js.e-radialmenu .e-arcbgcolor,
+.e-js.e-radialmenu .e-itembgcolor,
+.e-js.e-radialmenu .e-circlebgcolor {
+  fill: white;
+  stroke: white;
+}
+.e-js.e-radialmenu .e-textcolor {
+  fill: #212121;
+}
+.e-js.e-radialmenu .e-radial {
+  border-color: #3f51b5;
+  background-color: white;
+}
+.e-js.e-radialmenu .e-badgetext {
+  fill: white;
+}
+.e-js.e-radialmenu .e-badgecircle {
+  fill: #3f51b5;
+}
+.e-js.e-radialmenu .e-radialslider {
+  background-color: white;
+}
+.e-js.e-radialmenu:focus {
+  outline: none !important;
+}

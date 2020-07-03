@@ -1,0 +1,290 @@
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*-----------------------OLAP Definition-----------------*/
+/*-----------------------OLAP Definition End-----------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*----------------------material theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: white;
+  color: #111111;
+  border-color: #c8c8c8;
+  font-family: Segoe UI, Helvetica Neue;
+}
+.e-grid.e-rtl .e-nextpage,
+.e-grid.e-rtl .e-nextpagedisabled {
+  border-left-color: #c8c8c8;
+}
+.e-pager,
+.e-grid .e-pagerstatusbar,
+.e-pager .e-drpdwn li,
+.e-pager .e-drpdwn,
+.e-pager div.e-drpdwndiv {
+  background-color: #ececec;
+  border-color: #c8c8c8;
+  color: #333333;
+  
+}
+.e-pager {
+  
+}
+.e-pager .e-icon {
+  
+}
+.e-pager .e-icon {
+  /*other*/
+  color: #686969;
+}
+.e-pager .e-default:hover {
+  
+}
+.e-pager .e-default:hover {
+  color: #282827;
+}
+.e-pager .e-spacing {
+  color: #333333;
+  
+}
+.e-pager .e-spacing.e-NP {
+  color: #686969;
+}
+.e-pager .e-numericitem:hover,
+.e-pager .e-currentitem:hover {
+  
+}
+.e-pager .e-numericitem:hover,
+.e-pager .e-currentitem:hover {
+  /*other*/
+  color: #282827;
+}
+.e-pager .e-numericitem:hover,
+.e-pager .e-currentitem:hover {
+  background: #86cbea;
+}
+.e-pager.e-disable .e-numericitem:hover {
+  background: #ececec;
+  border-right-color: #c8c8c8;
+  
+}
+.e-pager .e-numericitem {
+  font-family: Segoe UI, Helvetica Neue;
+  
+}
+.e-pager .e-numericitem {
+  /*other*/
+  background: #ececec;
+  border-right-color: #c8c8c8;
+}
+.e-pager .e-prevpagedisabled,
+.e-pager .e-prevpage,
+.e-pager .e-nextpage,
+.e-pager .e-nextpagedisabled,
+.e-pager .e-lastpagedisabled,
+.e-pager .e-lastpage,
+.e-pager .e-firstpage,
+.e-pager .e-firstpagedisabled {
+  
+}
+.e-pager .e-prevpagedisabled,
+.e-pager .e-prevpage,
+.e-pager .e-nextpage,
+.e-pager .e-nextpagedisabled,
+.e-pager .e-lastpagedisabled,
+.e-pager .e-lastpage,
+.e-pager .e-firstpage,
+.e-pager .e-firstpagedisabled {
+  /*other*/
+  background-color: #ececec;
+  color: #686969;
+}
+.e-pager .e-prevpagedisabled,
+.e-pager .e-nextpagedisabled,
+.e-pager .e-lastpagedisabled,
+.e-pager .e-firstpagedisabled {
+  
+}
+.e-pager .e-prevpage,
+.e-pager .e-nextpage,
+.e-pager .e-lastpage,
+.e-pager .e-firstpage {
+  
+}
+.e-pager .e-lastpage,
+.e-pager .e-firstpage {
+  /*other*/
+  background-color: transparent;
+}
+.e-pager .e-nextpage:Hover,
+.e-pager .e-lastpage:Hover,
+.e-pager .e-firstpage:Hover,
+.e-pager .e-prevpage:Hover {
+  
+}
+.e-pager .e-nextpage:Hover,
+.e-pager .e-lastpage:Hover,
+.e-pager .e-firstpage:Hover,
+.e-pager .e-prevpage:Hover {
+  background: #86cbea;
+}
+.e-pager .e-pagercontainer {
+  
+}
+.e-pager .e-pagercontainer {
+  /*other*/
+  background-color: #ececec;
+  border-color: #c8c8c8;
+}
+.e-pager.e-rtl .e-pagercontainer {
+  
+}
+.e-pager.e-rtl .e-numericitem {
+  
+}
+.e-pager.e-rtl .e-numericitem {
+  /*other*/
+  border-left-color: #c8c8c8;
+}
+.e-pager .e-firstpage,
+.e-pager .e-prevpage,
+.e-pager .e-firstpagedisabled,
+.e-pager .e-prevpagedisabled,
+.e-pager .e-nextpage,
+.e-pager .e-lastpage,
+.e-pager .e-nextpagedisabled,
+.e-pager .e-lastpagedisabled {
+  
+}
+.e-pager .e-firstpage,
+.e-pager .e-prevpage,
+.e-pager .e-firstpagedisabled,
+.e-pager .e-prevpagedisabled,
+.e-pager .e-nextpage,
+.e-pager .e-lastpage,
+.e-pager .e-nextpagedisabled,
+.e-pager .e-lastpagedisabled {
+  /*other*/
+  border-right-color: #c8c8c8;
+}
+.e-pager.e-rtl .e-firstpage,
+.e-pager.e-rtl .e-prevpage,
+.e-pager.e-rtl .e-firstpagedisabled,
+.e-pager.e-rtl .e-prevpagedisabled,
+.e-pager.e-rtl .e-nextpage,
+.e-pager.e-rtl .e-lastpage,
+.e-pager.e-rtl .e-nextpagedisabled,
+.e-pager.e-rtl .e-lastpagedisabled {
+  
+}
+.e-pager.e-rtl .e-firstpage,
+.e-pager.e-rtl .e-prevpage,
+.e-pager.e-rtl .e-firstpagedisabled,
+.e-pager.e-rtl .e-prevpagedisabled,
+.e-pager.e-rtl .e-nextpage,
+.e-pager.e-rtl .e-lastpage,
+.e-pager.e-rtl .e-nextpagedisabled,
+.e-pager.e-rtl .e-lastpagedisabled {
+  /*other*/
+  border-left-color: #c8c8c8;
+}
+.e-pager.e-rtl div.e-parentmsgbar {
+  
+  float: left;
+}
+.e-pager .e-currentitem {
+  
+}
+.e-pager .e-currentitem {
+  /*other*/
+
+  color: white;
+  /*background-color:#428BCA;*/
+
+}
+.e-pager .e-currentitem {
+  background: #179bd7;
+}
+.e-pager .e-currentitem:hover {
+  
+}
+.e-pager .e-currentitem:hover {
+  /*other*/
+
+  color: white;
+  /*background-color:#428BCA;*/
+
+}
+.e-pager .e-currentitem:hover {
+  background: #179bd7;
+}
+.e-pager .e-NP.e-numericitem,
+.e-pager .e-PP.e-numericitem {
+  
+}
+.e-pager .e-drpdwndiv:before {
+  color: #333333;
+  background: #ececec;
+}
+.e-pager .e-pager-itemsinterval .e-drpdwndiv:hover:before,
+.e-pager .e-pager-itemsinterval .e-drpdwndiv:hover,
+.e-pager .e-drpdwn li:hover {
+  
+}
+.e-pager .e-pager-itemsinterval .e-drpdwndiv:hover:before,
+.e-pager .e-pager-itemsinterval .e-drpdwndiv:hover,
+.e-pager .e-drpdwn li:hover {
+  /*other*/
+
+  color: #282827;
+}
+.e-pager .e-pager-itemsinterval .e-drpdwndiv:hover:before,
+.e-pager .e-pager-itemsinterval .e-drpdwndiv:hover,
+.e-pager .e-drpdwn li:hover {
+  background: #86cbea;
+}
+.e-pager.e-disable .e-pager-itemsinterval .e-drpdwndiv:hover:before,
+.e-pager.e-disable .e-pager-itemsinterval .e-drpdwndiv:hover,
+.e-pager.e-disable .e-drpdwn li:hover {
+  color: #333333;
+  background: #ececec;
+}
+.e-pager .e-drpdwn li.e-active {
+  
+  border-bottom: 1px solid white;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.e-pager .e-drpdwn li.e-active {
+  /*other*/
+
+  color: white;
+}
+.e-pager .e-drpdwn li.e-active {
+  background: #179bd7;
+}
+.e-pager div.e-numericcontainer {
+  
+}
+.e-pager div.e-parentmsgbar {
+  
+}

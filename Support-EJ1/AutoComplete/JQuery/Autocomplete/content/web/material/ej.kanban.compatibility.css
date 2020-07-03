@@ -1,0 +1,856 @@
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*-----------------------OLAP Definition-----------------*/
+/*-----------------------OLAP Definition End-----------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*------------------ DatePicker ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: white;
+  color: #111111;
+  border-color: #e0e0e0;
+  font-family: 'Roboto', Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-widget.e-kanban,
+.e-widget.e-kanban .e-kanbanheader .e-headercell,
+.e-widget.e-kanban .e-swimlanerow {
+  background: white;
+}
+.e-widget.e-kanban .e-icon,
+.e-widget.e-kbntoolbar-body .e-icon {
+  color: #424242;
+}
+.e-widget.e-kanban {
+  border-color: #e0e0e0;
+  color: #212121;
+}
+.e-widget.e-kanban .e-kanbancontent .e-rowcell .e-shrinkheader {
+  
+}
+.e-widget.e-kanban .e-kanbancontent .e-rowcell .e-shrinkheader {
+  /*material*/
+  color: #ff4081;
+}
+.e-widget.e-kanban .e-kanbantoolbar .e-searchbar .e-search:before,
+.e-widget.e-kanban .e-kanbantoolbar .e-searchbar .e-search:after {
+  /*material*/
+  background: #ff4081;
+}
+.e-widget.e-kanban .e-kanbandialog .e-save,
+.e-widget.e-kanban .e-externalform .e-save {
+  
+}
+.e-widget.e-kanban .e-kanbantoolbar .e-icon.e-searchfind:before {
+  
+}
+.e-widget.e-kanban-context .e-checkbox .e-checkmark {
+  color: #3f51b5 !important;
+}
+.e-widget.e-kanban .e-kanbantoolbar .e-searchdiv {
+  
+}
+.e-widget.e-kanban .e-kanbantoolbar .e-searchdiv {
+  /*material*/
+  background: #fafafa;
+}
+.e-widget.e-kanban .e-kanbantoolbar .e-searchdiv .e-ejinputtext,
+.e-widget.e-kanban .e-kanbantoolbar .e-toolbaricons.e-searchitem,
+.e-widget.e-kanban .e-kanbantoolbar .e-toolbaricons.e-searchitem:hover {
+  /*material*/
+  background: #fafafa;
+}
+.e-widget.e-kanban .e-adaptive-search .e-searchdiv .e-ejinputtext {
+  /*material*/
+  background: white;
+}
+.e-widget.e-kanban .e-search.e-tooltxt:hover .e-searchdiv {
+  background: white;
+}
+.e-widget.e-kanban .e-kanbanheader.e-slheader .e-headercell,
+.e-widget.e-kanban.e-swimlane-responsive .e-columnrow .e-rowcell {
+  
+}
+.e-widget.e-kanban .e-kanbanheader.e-slheader .e-headercell,
+.e-widget.e-kanban.e-swimlane-responsive .e-columnrow .e-rowcell {
+  border-bottom: 4px solid whitesmoke;
+}
+.e-widget.e-kanban .e-stackedHeaderRow th {
+  border-bottom: 2px solid #3f51b5 !important;
+}
+.e-widget.e-kanban .e-kanbanheader.e-slheader .e-headercell.e-exceed {
+  border-bottom-color: #f8d9c7;
+}
+.e-widget.e-kanban .e-kanbanheader.e-slheader .e-headercell.e-deceed {
+  border-bottom-color: #ffedcd;
+}
+.e-widget.e-kanban .e-columnrow .e-kanbancard {
+  background: white;
+  box-shadow: 0 1.83px 1px rgba(0, 0, 0, 0.2);
+  
+}
+.e-widget.e-kanban .e-kanbancard {
+  border-color: #e0e0e0;
+  color: #212121;
+}
+.e-widget.e-kanban .e-kanbancard .e-tag {
+  
+}
+.e-widget.e-kanban .e-kanbancard .e-tag {
+  /*others*/
+  background: whitesmoke;
+  color: #595959;
+}
+.e-widget.e-kanban .e-kanbancard.e-cardselection {
+  
+}
+.e-widget.e-kanban .e-kanbancard.e-cardselection {
+  /*material*/
+  background-color: whitesmoke;
+  border-color: #e0e0e0;
+  color: white;
+}
+.e-widget.e-kanban .e-stackedHeaderCell {
+  
+}
+.e-widget.e-kanban .e-draggedcard,
+.e-widget.e-kanban .e-kanbancard.e-cardselection.dragClone {
+  
+  color: #212121;
+}
+.e-widget.e-kanban .e-draggedcard,
+.e-widget.e-kanban .e-kanbancard.e-cardselection.dragClone {
+  /*material*/
+  background: #fafafa;
+}
+.e-widget.e-kanban .e-draggedcard .e-dragmultiple {
+  
+  border: 1px solid #e0e0e0;
+}
+.e-widget.e-kanban .e-draggedcard .e-dragmultiple {
+  /*material*/
+  color: #ff4081;
+}
+.e-widget.e-kanban .e-kanbancontent .e-rowcell .e-targetclone {
+  
+}
+.e-widget.e-kanban .e-kanbancontent .e-rowcell .e-targetclone {
+  /*material*/
+  border: 1px dashed #ff4081;
+  background: rgba(255, 64, 129, 0.26);
+}
+.e-widget.e-kanban .e-kanbancontent .e-rowcell .e-targetclonemulti .e-columnkey {
+  border-left: 1px dashed;
+  border-right: 1px dashed;
+  border-bottom: 1px dashed;
+}
+.e-widget.e-kanban .e-kanbancontent .e-rowcell .e-targetclonemulti .e-columnkey {
+  border-color: #e0e0e0;
+}
+.e-widget.e-kanban .e-kanbancontent .e-rowcell .e-targetclonemulti .e-columnkey.e-active {
+  background: #7c89d1;
+}
+.e-widget.e-kanban .e-kanbancontent .e-rowcell .e-targetclonemulti .e-columnkey.e-active {
+  border-color: #3f51b5;
+}
+.e-widget.e-kanban .e-kanbancontent .e-rowcell .e-targetclonemulti .e-columnkey.e-multiclonestyle {
+  border-bottom-color: #3f51b5;
+}
+.e-widget.e-kanban .e-kanbancontent .e-rowcell .e-targetclonemulti .e-columnkey:first-child {
+  border-top-width: 1px;
+  border-top-style: dashed;
+}
+.e-widget.e-kanban .e-kanbancontent .e-rowcell .e-targetdragclone {
+  
+  border: 1px dashed #e0e0e0;
+}
+.e-widget.e-kanban .e-kanbancontent .e-rowcell .e-targetdragclone {
+  /*material*/
+  background: whitesmoke;
+}
+.e-widget.e-kanban .e-form-titlebar {
+  
+}
+.e-widget.e-kanban .e-form-titlebar {
+  /*material*/
+  border-bottom: none;
+}
+.e-widget.e-kanban .e-form-container {
+  border-color: #e0e0e0 !important;
+  background-color: white;
+  
+}
+.e-widget.e-kanban .e-form-title {
+  
+}
+.e-widget.e-kanban .e-columnrow .e-rowcell {
+  
+}
+.e-widget.e-kanban .e-columnrow .e-rowcell {
+  /*material*/
+  background: #fafafa;
+  border-bottom: 1px solid #e0e0e0;
+  border-top: 1px solid #e0e0e0;
+}
+.e-widget.e-kanban .e-printlist {
+  background: whitesmoke;
+}
+.e-widget.e-kanban .e-collapsedrow .e-rowcell,
+.e-widget.e-kanban .e-frozenrow .e-rowcell {
+  border-bottom: 1px solid whitesmoke;
+}
+.e-widget.e-kanban .e-kanbancontent .e-rowcell.e-shrink,
+.e-widget.e-kanban .e-kanbanheader .e-headercell.e-shrinkcol {
+  
+}
+.e-widget.e-kanban .e-kanbancontent .e-rowcell.e-shrink,
+.e-widget.e-kanban .e-kanbanheader .e-headercell.e-shrinkcol {
+  background: #f8f8f8;
+}
+.e-widget.e-kanban .e-dialog .e-titlebar .e-title {
+  
+}
+.e-widget.e-kanban .e-kanbancard {
+  color: #212121;
+}
+.e-widget.e-kanban .e-swimlanerow .e-slkey {
+  
+}
+.e-widget.e-kanban .e-swimlanerow .e-slkey {
+  /*material*/
+  color: rgba(0, 0, 0, 0.87);
+}
+.e-widget.e-kanban .e-columnrow .e-rowcell .e-toggle-header:hover > div {
+  color: #3f51b5;
+}
+.e-widget.e-kanban .e-toggle-header:hover > div div {
+  color: #3f51b5 !important;
+}
+.e-widget.e-kanban .e-columnrow .e-rowcell .e-toggle-header > div {
+  color: #212121;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+.e-widget.e-kanban .e-columnrow .e-rowcell .e-toggle-header > div div {
+  color: #212121;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+.e-widget.e-kanbanfilter-window .e-filter-scrollcontent,
+.e-widget.e-kbnfilterwindow-head {
+  color: #212121;
+}
+.e-widget.e-kanban .e-slexpand,
+.e-widget.e-kanban .e-slcollapse {
+  
+}
+.e-widget.e-kanban .e-slexpand,
+.e-widget.e-kanban .e-slcollapse {
+  /*other*/
+  color: #424242;
+}
+.e-widget.e-kanban .e-slexpand:hover,
+.e-widget.e-kanban .e-slcollapse:hover {
+  
+  color: #424242;
+}
+.e-widget.e-kanban .e-clcollapse::before,
+.e-widget.e-kanban .e-clexpand::before {
+  
+}
+.e-widget.e-kanban .e-clcollapse::before,
+.e-widget.e-kanban .e-clexpand::before {
+  /*material*/
+  color: rgba(0, 0, 0, 0.87);
+}
+.e-widget.e-kanban .e-kanbancard.e-hover .e-cardcollapse:before,
+.e-widget.e-kanban .e-kanbancard.e-hover .e-cardexpand:before {
+  color: #424242;
+}
+.e-widget.e-kanban .e-kanbancard.e-cardselection .e-cardcollapse:before,
+.e-widget.e-kanban .e-kanbancard.e-cardselection .e-cardexpand:before {
+  
+}
+.e-widget.e-kanban .e-kanbancard.e-cardselection .e-cardcollapse:before,
+.e-widget.e-kanban .e-kanbancard.e-cardselection .e-cardexpand:before {
+  /*material*/
+  color: black;
+}
+.e-widget.e-kanban .e-kanbancard.e-cardselection.e-hover .e-cardcollapse:before,
+.e-widget.e-kanban .e-kanbancard.e-cardselection.e-hover .e-cardexpand:before {
+  
+}
+.e-widget.e-kanban .e-kanbancard.e-cardselection.e-hover .e-cardcollapse:before,
+.e-widget.e-kanban .e-kanbancard.e-cardselection.e-hover .e-cardexpand:before {
+  /*other*/
+  color: #424242;
+}
+.e-widget.e-kanban .e-swimlanerow .e-slcount {
+  
+}
+.e-widget.e-kanban .e-swimlanerow .e-slcount {
+  /*other*/
+  color: #878787;
+}
+.e-widget.e-kanban .e-kanbantoolbar .e-search .e-ejinputtext:focus {
+  
+}
+.e-widget.e-kanban .e-kanbanheader .e-columnheader .e-shrinkcol:hover {
+  
+}
+.e-widget.e-kanban .e-kanbancontent .e-rowcell.e-shrink:hover {
+  
+}
+.e-widget.e-kanban .e-kanbancontent .e-rowcell .e-shrinkcount {
+  
+}
+.e-widget.e-kanban .e-kanbancontent .e-rowcell .e-shrinkcount {
+  /*material*/
+  color: #ff4081;
+}
+.e-widget.e-kanban .e-collapserow .e-rowcell {
+  border: none;
+}
+.e-widget.e-kanban .e-kanbancard.e-hover {
+  
+}
+.e-widget.e-kanban .e-kanbancard.e-hover {
+  /*material*/
+  background-color: #eeeeee;
+  border-color: #e0e0e0;
+  color: #212121;
+}
+.e-widget.e-kanban .e-headercontent {
+  border-right-color: #e0e0e0;
+}
+.e-widget.e-kanban .e-kanbanheader .e-headercelldiv {
+  
+}
+.e-widget.e-kanban .e-kanbanheader .e-headercelldiv {
+  /*material*/
+  color: rgba(0, 0, 0, 0.87);
+}
+.e-widget.e-kanban .e-kanbanheader {
+  color: #3f51b5;
+}
+.e-widget.e-kanban .e-kanbancontent {
+  background-color: white;
+}
+.e-widget.e-kanban .e-kanbancontent .e-rowcell {
+  border-color: #e0e0e0;
+}
+.e-widget.e-kanban .e-cardcollapse:before,
+.e-widget.e-kanban .e-cardexpand:before,
+.e-widget.e-kanban .e-kanbancard.e-cardselection.dragClone .e-cardexpand:before,
+.e-widget.e-kanban .e-kanbancard.e-cardselection.dragClone .e-cardcollapse:before {
+  
+}
+.e-widget.e-kanban .e-cardcollapse:before,
+.e-widget.e-kanban .e-cardexpand:before,
+.e-widget.e-kanban .e-kanbancard.e-cardselection.dragClone .e-cardexpand:before,
+.e-widget.e-kanban .e-kanbancard.e-cardselection.dragClone .e-cardcollapse:before {
+  /*other*/
+  color: #424242;
+}
+.e-widget.e-kanban .e-kanbancard .e-card_image {
+  background: whitesmoke;
+  border-color: #e0e0e0;
+}
+.e-widget.e-kanban .e-kanbantoolbar.e-toolbar,
+.e-widget.e-kbntoolbar-body.e-toolbar {
+  
+  border-color: #e0e0e0;
+  filter: none;
+}
+.e-widget.e-kanban .e-kanbantoolbar.e-toolbar,
+.e-widget.e-kbntoolbar-body.e-toolbar {
+  /*material*/
+  background: #fafafa;
+}
+.e-widget.e-kanban .e-kanbantoolbar li {
+  
+}
+.e-widget.e-kanban .e-kanbantoolbar li {
+  /*other*/
+  border: 1px solid #e0e0e0;
+}
+.e-widget.e-kanban .e-kanbantoolbar li.e-tooltxt.e-kbnfilter-tbtn.e-hover {
+  /*material*/
+  background: #fafafa;
+}
+.e-widget.e-kanban .e-kanbantoolbar li.e-select {
+  
+}
+.e-widget.e-kanban .e-kanbantoolbar .e-tooltxt.e-hover {
+  
+}
+.e-widget.e-kanban .e-kanbantoolbar .e-tooltxt.e-hover .e-text {
+  
+}
+.e-widget.e-kanban .e-kanbantoolbar li.e-tooltxt.e-kbnfilter-tbtn.e-select,
+.e-widget.e-kanban .e-kanbantoolbar li.e-tooltxt.e-kbnfilter-tbtn.e-active,
+.e-widget.e-kanban .e-kanbantoolbar li.e-tooltxt.e-select.e-kbnfilter-tbtn.e-hover,
+.e-widget.e-kanban.e-js .e-kanbantoolbar li.e-tooltxt.e-kbnfilter-tbtn.e-active a {
+  /*material*/
+  background: #ff4081;
+}
+.e-widget.e-kanban .e-kanbantoolbar li.e-tooltxt {
+  
+}
+.e-widget.e-kanban .e-kanbantoolbar .e-select a.e-toolbartext.e-text {
+  color: white;
+}
+.e-widget.e-kanban .e-kanbantoolbar .e-active a.e-toolbartext.e-text,
+.e-widget.e-kanban .e-kanbantoolbar .e-select.e-hover a.e-toolbartext.e-text {
+  /*material*/
+  color: white;
+}
+.e-widget.e-kanban .e-kanbantoolbar .e-select.e-hover a.e-toolbartext.e-text {
+  color: #212121;
+}
+.e-widget.e-kanban .e-kanbantoolbar .e-text,
+.e-widget.e-kanban .e-kanbantoolbar .e-quickfilter .e-text,
+.e-widget.e-kbntoolbar-body .e-text,
+.e-widget.e-kbntoolbar-body .e-quickfilter .e-text {
+  
+}
+.e-widget.e-kanban .e-kanbantoolbar .e-text,
+.e-widget.e-kanban .e-kanbantoolbar .e-quickfilter .e-text,
+.e-widget.e-kbntoolbar-body .e-text,
+.e-widget.e-kbntoolbar-body .e-quickfilter .e-text {
+  /*other*/
+  color: #212121;
+}
+.e-widget.e-kanban .e-kanbantoolbar .e-select.e-hover {
+  
+}
+.e-widget.e-kanban .e-kanbantoolbar .e-select.e-hover {
+  background: #e0e0e0;
+}
+.e-widget.e-kanban .e-kanbantoolbar .e-select.e-hover {
+  /*other*/
+  border-color: #e0e0e0;
+}
+.e-widget.e-kanban .e-kanbantoolbar .e-tooltxt.e-select {
+  
+}
+.e-widget.e-kanban .e-kanbantoolbar .e-select a.e-toolbartext.e-text,
+.e-widget.e-kanban .e-kanbantoolbar .e-select.e-hover a.e-toolbartext.e-text {
+  
+}
+.e-widget.e-kanban .e-kanbantoolbar .e-tooltxt.e-select.e-hover {
+  
+}
+.e-widget.e-kanban .e-columnrow .e-rowcell.e-dropping {
+  border-color: #e0e0e0;
+}
+.e-widget.e-kanban .e-kanbancontent .e-rowcell.e-exceed {
+  background: #f8d9c7;
+  filter: none !important;
+}
+.e-widget.e-kanban .e-kanbancontent .e-rowcell.e-deceed {
+  background: #ffedcd;
+}
+.e-widget.e-kanban .e-kanbantooltip {
+  
+  border: 1px solid #e0e0e0;
+  box-shadow: 9px 9px 15px -9px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 9px 9px 15px -9px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 9px 9px 15px -9px rgba(0, 0, 0, 0.3);
+}
+.e-widget.e-kanban .e-kanbantooltip {
+  /*office-365*/
+  background: #616161;
+  color: white;
+}
+.e-widget.e-kanban .e-kanbantoolbar .e-toolbaricons.e-searchfind,
+.e-widget.e-kanban .e-kanbantoolbar .e-toolbaricons.e-cancel {
+  
+}
+.e-widget.e-kanban .e-kanbantoolbar .e-toolbaricons.e-searchfind,
+.e-widget.e-kanban .e-kanbantoolbar .e-toolbaricons.e-cancel {
+  /*other*/
+
+  border-left: 1px solid #e0e0e0;
+}
+.e-widget.e-kanban .e-kanbantoolbar .e-toolbaricons.e-searchfind,
+.e-widget.e-kanban .e-kanbantoolbar .e-toolbaricons.e-cancel {
+  background: whitesmoke;
+}
+.e-widget.e-kanban .e-kanbantoolbar li.e-search.e-tooltxt {
+  
+}
+.e-widget.e-kanban .e-kanbantoolbar li.e-search.e-tooltxt:hover {
+  
+}
+.e-widget.e-kanban .e-kanbandialog .e-save:hover,
+.e-widget.e-kanban .e-externalform .e-save:hover {
+  
+}
+.e-widget.e-kanban .e-kanbandialog .e-save:focus,
+.e-widget.e-kanban .e-externalform .e-save:focus {
+  
+}
+.e-widget.e-kanban .e-kanbantoolbar .e-search.e-hover .e-searchfind {
+  
+}
+.e-widget.e-kanban .e-kanbantoolbar .e-highliht-kbnsearchbar .e-search.e-tooltxt {
+  
+}
+.e-widget.e-kanban .e-kanbantoolbar .e-highliht-kbnsearchbar .e-search.e-tooltxt .e-cancel {
+  
+}
+.e-widget.e-kanban .e-kanbantoolbar .e-highliht-kbnsearchbar .e-search.e-tooltxt .e-cancel:before {
+  
+}
+.e-widget.e-kanban .e-kanbantoolbar .e-search.e-hover .e-searchfind:before {
+  
+}
+.e-widget.e-kanban div.e-error .e-toparrow {
+  border-bottom-color: #fffe92;
+}
+.e-widget.e-kanban div.e-field-validation-error {
+  background-color: #fffe91;
+  color: #cd0a0a;
+}
+.e-widget.e-kanban .e-kanbantouchbar .e-content {
+  background-color: white;
+  border-color: #e0e0e0;
+}
+.e-widget.e-kanban .e-kanbantouchbar span:hover,
+.e-widget.e-kanban .e-kanbantouchbar .e-spanclicked {
+  border-color: #424242;
+}
+.e-widget.e-kanban .e-kanbantouchbar .e-downtail:before,
+.e-widget.e-kanban .e-kanbantouchbar .e-downtail {
+  border-top-color: #e0e0e0;
+}
+.e-widget.e-kanban .e-kanbantouchbar .e-downtail:after {
+  border-top-color: white;
+}
+.e-widget.e-kanban .e-freezeswimlanerow .e-rowcell.e-shrink {
+  background: white;
+}
+.e-widget.e-kanban.e-rtl .e-toolbaricons.e-searchfind,
+.e-widget.e-kanban.e-rtl .e-toolbaricons.e-cancel {
+  border-right: 1px solid #e0e0e0;
+  border-left: 0px;
+}
+.e-widget.e-kanban.e-rtl td:first-child,
+.e-widget.e-kanban.e-rtl th:first-child,
+.e-widget.e-kanban.e-rtl .e-headercontent,
+.e-widget.e-kanban.e-rtl .e-columnrow td.e-dropping:first-child,
+.e-widget.e-kanban .e-kanbancontent .e-rowcell.e-dragged {
+  border-left-color: #e0e0e0 !important;
+}
+.e-widget.e-kanban.e-rtl .e-kanbancard {
+  border-color: #e0e0e0;
+}
+.e-widget.e-kanban .e-customaddbutton,
+.e-kanban .e-columnadd {
+  
+}
+.e-widget.e-kanban .e-customaddbutton,
+.e-kanban .e-columnadd {
+  /*material*/
+  color: #ff4081;
+}
+.e-widget.e-kanban .e-customtoolbarseparator {
+  
+}
+.e-widget.e-kanban .e-customtoolbarseparator {
+  /*other*/
+  border-right: 1px solid #e0e0e0;
+}
+.e-widget.e-kanban.e-responsive .e-kanbantoolbar.e-toolbar,
+.e-widget.e-kbntoolbar-body.e-toolbar {
+  background: whitesmoke;
+}
+.e-widget.e-kanban.e-responsive .e-kanbantoolbar:not(.e-adaptive-search) .e-searchfind {
+  background: transparent;
+}
+.e-widget.e-kanbanfilter-window {
+  
+  background: white;
+}
+.e-widget.e-kanbanfilter-window {
+  /*material*/
+  border: 1px solid #e0e0e0;
+}
+.e-widget.e-kanbanfilter-window .e-kbnfilterwindow-head {
+  
+}
+.e-widget.e-kanbanfilter-window .e-kbnfilterwindow-head {
+  /*material*/
+  background: whitesmoke;
+  border-bottom: 1px solid #e0e0e0;
+}
+.e-widget.e-kanbanfilter-window .e-filter-content,
+.e-widget.e-swimlane-window,
+.e-widget.e-kanban .e-adapt-search,
+.e-widget.e-kanban.e-responsive .e-adapt-cancel {
+  background: white;
+}
+.e-widget.e-swimlane-window .e-swimlane-item:hover {
+  
+}
+.e-widget.e-swimlane-window .e-swimlane-item:hover {
+  background: #e0e0e0;
+}
+.e-widget.e-swimlane-window .e-swimlane-item:hover {
+  /*material*/
+  color: rgba(0, 0, 0, 0.87);
+}
+.e-widget.e-swimlane-window .e-swimlane-item {
+  /*material*/
+  color: rgba(0, 0, 0, 0.87);
+}
+.e-swimlane-window .e-swimlane-item.e-selected-item {
+  /*material*/
+  color: #ff4081;
+  background: transparent;
+}
+.e-widget.e-kanban.e-responsive .e-kanbantoolbar .e-kanbanfilter-icon:hover {
+  color: #212121;
+}
+.e-widget.e-kanban.e-responsive .e-kanbantoolbar .e-kanbanfilter-icon:hover {
+  background: #e0e0e0;
+}
+.e-widget.e-kanban.e-responsive .e-kanbantoolbar:not(.e-adaptive-search) .e-searchitem:hover {
+  background: #e0e0e0;
+}
+.e-widget.e-kanbanfilter-window .e-filter-done:hover {
+  
+}
+.e-widget.e-kanbanfilter-window .e-filter-done:hover {
+  /*material*/
+  color: #9e9e9e;
+}
+.e-widget.e-kanbanfilter-window .e-filter-done {
+  
+}
+.e-widget.e-kanbanfilter-window .e-filter-done {
+  /*material*/
+  color: #ff4081;
+}
+.e-widget.e-swimlane-window {
+  background: white;
+}
+.e-widget.e-kanban.e-responsive .e-kanbantoolbar .e-searchitem:hover {
+  background: #e0e0e0;
+}
+.e-widget.e-swimlane-ul li:not(:last-child) div:after {
+  background: #e0e0e0;
+}
+.e-widget.e-swimlane-arrow:hover,
+.e-widget.e-kanbanfilter-window .e-filterback-icon:hover,
+.e-widget.e-kanban.e-responsive .e-adapt-cancel:hover {
+  
+}
+.e-widget.e-swimlane-arrow:hover,
+.e-widget.e-kanbanfilter-window .e-filterback-icon:hover,
+.e-widget.e-kanban.e-responsive .e-adapt-cancel:hover {
+  /*material*/
+  color: #ff4081;
+}
+.e-widget.e-kanban .e-kanbanheader .e-headercell .e-totalcard,
+.e-widget.e-kanban .e-kanbanheader .e-headercell .e-totalcount,
+.e-widget.e-kanban .e-minlimit,
+.e-widget.e-kanban .e-maxlimit,
+.e-widget.e-kanban .e-limits,
+.e-widget.e-kanban .e-kanbancontent .e-rowcell .e-shrinklabel {
+  
+}
+.e-widget.e-kanban .e-kanbanheader .e-headercell .e-totalcard,
+.e-widget.e-kanban .e-kanbanheader .e-headercell .e-totalcount,
+.e-widget.e-kanban .e-minlimit,
+.e-widget.e-kanban .e-maxlimit,
+.e-widget.e-kanban .e-limits,
+.e-widget.e-kanban .e-kanbancontent .e-rowcell .e-shrinklabel {
+  /*material*/
+  color: rgba(0, 0, 0, 0.64);
+}
+.e-widget.e-kanban .e-kanbancard .e-bottom-triangle {
+  
+}
+.e-widget.e-kanban .e-kanbancard .e-bottom-triangle {
+  /*material*/
+  border-bottom-color: #3f51b5;
+}
+.e-widget.e-kanban.e-responsive .e-vhandlespace,
+.e-widget.e-kanbanfilter-window .e-vhandlespace,
+.e-widget.e-kbnslwindow-body .e-vhandlespace,
+.e-widget.e-kbnadapt-editdlg .e-vhandlespace {
+  border-color: #e0e0e0;
+}
+.e-widget.e-kanban.e-js .e-numeric.e-widget .e-in-wrap,
+.e-widget.e-kbnadapt-editdlg .e-numeric.e-widget .e-in-wrap,
+.e-widget.e-kanban.e-js .e-ddl.e-widget .e-in-wrap,
+.e-widget.e-kbnadapt-editdlg .e-ddl.e-widget .e-in-wrap {
+  /*material*/
+  border-color: #bdbdbd;
+}
+.e-widget.e-kanban .e-ejinputtext,
+.e-widget.e-kbnadapt-editdlg .e-ejinputtext {
+  
+  background-color: white;
+  color: #212121;
+}
+.e-widget.e-kanban .e-ejinputtext,
+.e-widget.e-kbnadapt-editdlg .e-ejinputtext {
+  /*material*/
+  border-color: #bdbdbd;
+}
+.e-widget.e-kanban .e-kanbancard .e-primarykey,
+.e-widget.e-kanban.e-swimlane-responsive.e-js .e-limits .e-swimlane-name,
+.e-widget.e-swimlane-ddl .e-swimlane-text {
+  /*material*/
+  color: rgba(0, 0, 0, 0.87);
+}
+.e-widget.e-kanban .e-kanbancard .e-primarykey {
+  
+}
+.e-widget.e-kanban .e-kanbancard .e-text {
+  
+}
+.e-widget.e-kanban .e-kanbancard .e-text {
+  /*material*/
+  color: rgba(0, 0, 0, 0.64);
+}
+.e-widget.e-kanban .e-externalformedit div > label,
+.e-widget.e-kanban .e-kanbandialog .kanbanform label {
+  
+}
+.e-widget.e-kanban .e-externalformedit div > label,
+.e-widget.e-kanban .e-kanbandialog .kanbanform label {
+  /*material*/
+  color: rgba(0, 0, 0, 0.38);
+}
+.e-widget.e-kanban .e-ejinputtext,
+.e-widget.e-kbnadapt-editdlg .e-ejinputtext {
+  /*material*/
+  color: rgba(0, 0, 0, 0.87);
+}
+.e-widget.e-kanban .e-totalcard,
+.e-widget.e-kanban .e-limits {
+  /*material*/
+  color: rgba(0, 0, 0, 0.64);
+}
+.e-widget.e-kanban .e-kanbantoolbar .e-kbnfilter-tbtn a.e-toolbartext.e-text {
+  /*material*/
+  color: #ff4081;
+}
+.e-widget.e-kanban.e-js .e-kanbantoolbar .e-kbnfilter-tbtn.e-select a.e-toolbartext.e-text {
+  /*material*/
+  color: white;
+}
+.e-widget.e-kanban .e-dialog .e-titlebar {
+  /*material*/
+  background: white;
+  color: black;
+  box-shadow: none;
+}
+.e-widget.e-kanban .e-dialog .e-titlebar .e-icon.e-close:hover:before,
+.e-widget.e-kanban .e-dialog .e-titlebar .e-icon.e-close:before {
+  /*material*/
+  color: black;
+}
+.e-widget.e-kanban .e-kanbantoolbar .e-searchbar.e-ul,
+.e-widget.e-kanban .e-adaptive-search .e-search.e-tooltxt {
+  /*material*/
+  border-bottom: 2px solid #9e9e9e;
+}
+.e-widget.e-kanban.e-responsive .e-kanbantoolbar .e-searchbar.e-ul {
+  border-bottom: none !important;
+}
+.e-widget.e-kanban .e-kanbantoolbar .e-highliht-kbnsearchbar {
+  /*material*/
+  border-bottom-color: #ff4081 !important;
+}
+.e-widget.e-kanban .e-toolbar.e-js ul > li.e-tooltxt.e-search.e-active {
+  /*material*/
+  background: #fafafa;
+}
+.e-widget.e-kanban .e-toolbar.e-js ul > li.e-tooltxt.e-search.e-active a:before {
+  /*material*/
+  color: #424242 !important;
+}
+.e-widget.e-kanban .e-ejinputtext:focus,
+.e-widget.e-kbnadapt-editdlg .e-ejinputtext:focus {
+  /*material*/
+  border-color: #ff4081;
+  border-bottom-width: 2px;
+}
+.e-widget.e-kanban .e-kanbandialog .e-kanban-editdiv .e-save,
+.e-widget.e-kanban .e-kanbandialog .e-kanban-editdiv .e-cancel,
+.e-widget.e-kanban .e-externalform .e-save,
+.e-widget.e-kanban .e-externalform .e-cancel,
+.e-widget.e-kbnadapt-editdlg .e-save,
+.e-kbnadapt-editdlg .e-cancel,
+.e-widget.e-kanbanfilter-window .e-clearfilter {
+  /*material*/
+  background: white;
+  color: #ff4081;
+  box-shadow: none !important;
+}
+.e-widget.e-kanban.e-js .e-kanbandialog .e-save:hover,
+.e-widget.e-kanban.e-js .e-kanbandialog .e-cancel:hover,
+.e-widget.e-kanban.e-js .e-externalform .e-save:hover,
+.e-widget.e-kanban.e-js .e-externalform .e-cancel:hover,
+.e-widget.e-kbnadapt-editdlg .e-save:hover,
+.e-widget.e-kbnadapt-editdlg .e-cancel:hover,
+.e-widget.e-kanbanfilter-window .e-clearfilter:hover {
+  /*material*/
+  background: rgba(0, 0, 0, 0.12);
+  color: black;
+}
+.e-widget.e-kanbantoolbar .e-customtoolbar li.e-hover.e-active .e-icon:before {
+  /*material*/
+  color: #757575;
+}
+.e-widget.e-kanban .e-kanbantoolbar .e-quickfilter.e-tooltxt {
+  background: transparent;
+}
+.e-widget.e-kanban .e-kanbantoolbar .e-search.e-hover {
+  /*material*/
+  background: transparent !important;
+}
+.e-widget.e-kanban .e-cardcollapse:after,
+.e-widget.e-kanban .e-cardexpand:after,
+.e-widget.e-kanban .e-slcollapse:after,
+.e-widget.e-kanban .e-slexpand:after {
+  /*material*/
+  background: black;
+  background: rgba(0, 0, 0, 0.12);
+}
+.e-widget.e-kanban.e-js .e-kanbantoolbar .e-searchbar.e-highliht-kbnsearchbar .e-searchdiv .e-ejinputtext {
+  color: black;
+}
+.e-widget.e-kanban.e-js.e-kanbanscroll .e-kanbantoolbar.e-toolbarspan {
+  border-bottom: 1px solid #e0e0e0;
+}

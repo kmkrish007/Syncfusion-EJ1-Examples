@@ -1,0 +1,346 @@
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*-----------------------OLAP Definition-----------------*/
+/*-----------------------OLAP Definition End-----------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*------------------ DatePicker ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: white;
+  color: #111111;
+  border-color: #e0e0e0;
+  font-family: 'Roboto', Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-pivotchart .e-hoverCell {
+  background-color: #e0e0e0 !important;
+}
+.e-pivotchart .e-enabled {
+  color: white !important;
+  background: #3f51b5 !important;
+}
+.e-pivotchart {
+  font: normal 12px 'Roboto', Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  border: 1px solid #e0e0e0;
+  background-color: white;
+  color: #212121;
+}
+.e-pivotchart *:focus:hover {
+  outline: none;
+}
+.e-pivotchart .e-expandMenu {
+  min-height: 50px;
+}
+.e-pivotchart .e-menuList {
+  list-style-type: none;
+  padding: 4px 15px 4px 15px;
+}
+.e-pivotchart .e-menuList:hover {
+  list-style-type: none;
+  color: #212121;
+  background-color: #e0e0e0;
+  cursor: pointer;
+}
+.e-pivotchart .e-dialog,
+.e-pivotchart .e-wrapper,
+.e-pivotchart .e-shadow {
+  min-height: 50px;
+}
+.e-pivotchart .e-dialog-scroller {
+  height: auto !important;
+}
+.e-pivotchart .e-dialog,
+.e-pivotchart .e-content {
+  padding: 0;
+}
+.e-pivotchart .e-chartTypesImg:before {
+  content: "\e6b3";
+  font-size: 20px;
+}
+.e-pivotchart .e-toolTipImg:before {
+  content: "\e863";
+  font-size: 20px;
+}
+.e-pivotchart .e-chart3DImg:before {
+  content: "\e6a9";
+  font-size: 20px;
+}
+.e-pivotchart .e-exportImg:before {
+  content: "\e84f";
+  font-size: 20px;
+}
+.e-pivotchart .e-disable3D:before {
+  content: "\e86a";
+}
+.e-pivotchart .e-chartTypesIcon:before,
+.e-pivotchart .e-chart3DTypesIcon:before,
+.e-pivotchart .e-exportTypesIcon:before,
+.e-pivotchart .e-interactionsIcon:before,
+.e-pivotchart .e-smartLabelsIcon:before {
+  font-family: 'ej-webfont';
+  font-size: 20px;
+  margin-left: 2px;
+}
+.e-pivotchart .e-chartTypesIcon,
+.e-pivotchart .e-chartTypesIcon:hover,
+.e-pivotchart .e-chart3DTypesIcon,
+.e-pivotclient .e-chart3DTypesIcon:hover,
+.e-pivotchart .e-exportTypesIcon,
+.e-pivotclient .e-exportTypesIcon:hover,
+.e-pivotchart .e-interactionsIcon,
+.e-pivotchart .e-interactionsIcon:hover,
+.e-pivotchart .e-smartLabelsIcon,
+.e-pivotchart .e-smartLabelsIcon:hover {
+  background-repeat: no-repeat;
+  margin: 5px 5px 0px 0px;
+  cursor: default;
+  display: inline-block;
+  height: 22px;
+  width: 24px;
+}
+.e-pivotchart .e-chartTypesDialog,
+.e-pivotchart .e-chart3DTypesDialog,
+.e-pivotchart .e-exportTypesDialog,
+.e-pivotchart .e-smartLabelsDialog,
+.e-pivotchart .e-interactionsDialog {
+  position: absolute;
+  padding: 0px 0px 5px 5px;
+  z-index: 1000000;
+  background-color: whitesmoke;
+  border: 2px solid #e0e0e0;
+}
+.e-pivotchart .e-chartTypesIcon,
+.e-pivotchart .e-chart3DTypesIcon,
+.e-pivotchart .e-exportTypesIcon,
+.e-pivotchart .e-smartLabelsIcon,
+.e-pivotchart .e-interactionsIcon {
+  color: #424242;
+}
+.e-pivotchart .e-chartTypesIcon:hover,
+.e-pivotchart .e-chart3DTypesIcon:hover,
+.e-pivotchart .e-exportTypesIcon:hover,
+.e-pivotchart .e-smartLabelsIcon:hover,
+.e-pivotchart .e-interactionsIcon:hover {
+  color: #424242;
+  cursor: pointer;
+  background: #e0e0e0;
+}
+.e-pivotchart .e-activeChartType {
+  color: white;
+  background: #3f51b5;
+}
+.e-pivotchart .e-line:before {
+  content: "\e6b1";
+}
+.e-pivotchart .e-spline:before {
+  content: "\e6bb";
+}
+.e-pivotchart .e-column:before {
+  content: "\e6a6";
+}
+.e-pivotchart .e-area:before {
+  content: "\e6a2";
+}
+.e-pivotchart .e-splinearea:before {
+  content: "\e6ba";
+}
+.e-pivotchart .e-stepline:before {
+  content: "\e6c0";
+}
+.e-pivotchart .e-steparea:before {
+  content: "\e6be";
+}
+.e-pivotchart .e-pie:before {
+  content: "\e6ca";
+}
+.e-pivotchart .e-bar:before {
+  content: "\e6c5";
+}
+.e-pivotchart .e-stackingarea:before {
+  content: "\e6bc";
+}
+.e-pivotchart .e-stackingcolumn:before {
+  content: "\e6bd";
+}
+.e-pivotchart .e-stackingbar:before {
+  content: "\e6c6";
+}
+.e-pivotchart .e-pyramid:before {
+  content: "\e6c9";
+}
+.e-pivotchart .e-funnel:before {
+  content: "\e6c8";
+}
+.e-pivotchart .e-doughnut:before {
+  content: "\e7dd";
+}
+.e-pivotchart .e-scatter:before {
+  content: "\e7df";
+}
+.e-pivotchart .e-bubble:before {
+  content: "\e7dc";
+}
+.e-pivotchart .e-excel:before {
+  content: "\e845";
+}
+.e-pivotchart .e-word:before {
+  content: "\e84e";
+}
+.e-pivotchart .e-pdf:before {
+  content: "\e846";
+}
+.e-pivotchart .e-png:before {
+  content: "\e861";
+}
+.e-pivotchart .e-emf:before {
+  content: "\e862";
+}
+.e-pivotchart .e-gif:before {
+  content: "\e85f";
+}
+.e-pivotchart .e-jpg:before {
+  content: "\e860";
+}
+.e-pivotchart .e-bmp:before {
+  content: "\e85e";
+}
+.e-pivotchart .e-column3D:before {
+  content: "\e868";
+}
+.e-pivotchart .e-pie3D:before {
+  content: "\e865";
+}
+.e-pivotchart .e-bar3D:before {
+  content: "\e869";
+}
+.e-pivotchart .e-stackingbar3D:before {
+  content: "\e866";
+}
+.e-pivotchart .e-stackingcolumn3D:before {
+  content: "\e867";
+}
+.e-pivotchart .pivotChartContextMenu .e-enabledState::before {
+  content: "\e80a";
+  height: 16px;
+  width: 16px;
+}
+.e-pivotchart .e-legend:before {
+  content: "\e879";
+  font-size: 20px;
+}
+.e-pivotchart .e-zooming:before {
+  content: "\e886";
+  font-size: 20px;
+}
+.e-pivotchart .e-smartLabels:before {
+  content: "\e880";
+  font-size: 20px;
+}
+.e-pivotchart .e-interaction:before {
+  content: "\e877";
+  font-size: 20px;
+}
+.e-pivotchart .e-crossHair:before {
+  content: "\e872";
+}
+.e-pivotchart .e-trackBall:before {
+  content: "\e882";
+}
+.e-pivotchart .e-rotate45:before {
+  content: "\e87e";
+}
+.e-pivotchart .e-rotate90:before {
+  content: "\e87f";
+}
+.e-pivotchart .e-hiding:before {
+  content: "\e873";
+}
+.e-pivotchart .e-multipleRows:before {
+  content: "\e87b";
+}
+.e-pivotchart .e-trim:before {
+  content: "\e883";
+}
+.e-pivotchart .e-wrap:before {
+  content: "\e885";
+}
+.e-pivotchart .e-wrapByWord:before {
+  content: "\e884";
+}
+.e-pivotchart .none:before {
+  content: "\e871";
+}
+.e-pivotchart .e-icon-xAxis-title:before {
+  content: "\e917";
+  font-size: 20px;
+}
+.e-pivotchart .e-icon-yAxis-title:before {
+  content: "\e918";
+  font-size: 20px;
+}
+.e-pivotchart .e-chartTypesImg,
+.e-pivotchart .e-chartTypesImg:hover,
+.e-pivotchart .e-toolTipImg,
+.e-pivotchart .e-toolTipImg:hover,
+.e-pivotchart .e-chart3DImg,
+.e-pivotchart .e-chart3DImg:hover,
+.e-pivotchart .e-exportImg,
+.e-pivotchart .e-exportImg:hover,
+.e-pivotchart .e-legend,
+.e-pivotchart .e-legend:hover,
+.e-pivotchart .e-zooming,
+.e-pivotchart .e-zooming:hover,
+.e-pivotchart .e-smartLabels,
+.e-pivotchart .e-smartLabels:hover,
+.e-pivotchart .e-interaction,
+.e-pivotchart .e-interaction:hover,
+.e-pivotchart .e-icon-xAxis-title:hover,
+.e-pivotchart .e-icon-yAxis-title:hover,
+.e-pivotchart .e-icon-xAxis-title,
+.e-pivotchart .e-icon-yAxis-title {
+  background-repeat: no-repeat;
+  margin: 4px;
+  cursor: pointer;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+}
+.e-pivotchart .e-chartTypesImg,
+.e-pivotchart .e-toolTipImg,
+.e-pivotchart .e-chart3DImg,
+.e-pivotchart .e-exportImg,
+.e-pivotchart .e-legend,
+.e-pivotchart .e-zooming,
+.e-pivotchart .e-smartLabels,
+.e-pivotchart .e-interaction,
+.e-pivotchart .e-icon-xAxis-title,
+.e-pivotchart .e-icon-yAxis-title {
+  overflow: visible !important;
+  color: #424242;
+  text-indent: -3px;
+}

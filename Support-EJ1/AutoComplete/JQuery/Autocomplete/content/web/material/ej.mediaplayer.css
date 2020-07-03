@@ -1,0 +1,327 @@
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*-----------------------OLAP Definition-----------------*/
+/*-----------------------OLAP Definition End-----------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*------------------ DatePicker ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: white;
+  color: #111111;
+  border-color: #e0e0e0;
+  font-family: 'Roboto', Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+/*------------------------------------- Mediaplayer -------------------------------------------*/
+
+/*#region mediaplayer*/
+
+/*region media container styles*/
+
+.e-media-player .e-media-content-div .e-waitpopup-pane {
+  background-color: transparent;
+}
+.e-media-player {
+  border-color: #3f51b5;
+  background-color: white;
+}
+.e-media-player .e-media-control-container {
+  background: white;
+}
+.e-media-player .e-media-element {
+  background: white;
+}
+.e-media-player .e-slider {
+  background-color: #424242 !important;
+}
+/*region media container styles*/
+
+/* region toolbar styles*/
+
+.e-media-player .e-media-toolbar-icon:before,
+.e-media-player .e-media-playlist-icon:before,
+.e-media-player .e-media-playlist-toggle:before {
+  color: #424242;
+}
+.e-media-player .e-media-toolbar.adv .e-media-volume-text {
+  color: #424242;
+}
+.e-media-player .e-media-time-stamp.e-media-adv {
+  color: #212121;
+}
+.e-media-player .media-shuffled:before,
+.e-media-player .media-muted:before,
+.e-media-player .media-repeated:before,
+.e-media-player .e-media-playlist-visible:before {
+  color: #3f51b5;
+}
+.e-media-player .e-media-timeslider-div.e-media-adv {
+  background: transparent;
+}
+.e-media-player .e-media-prev-li.basic .e-media-toolbar-icon:before,
+.e-media-player .e-media-next-li.basic .e-media-toolbar-icon:before {
+  color: #424242;
+}
+.e-media-player .e-media-toolbar.basic .e-media-toolbar-split-li {
+  color: #424242;
+}
+.e-media-player .e-media-toolbar.basic .e-media-split {
+  color: #212121;
+}
+.e-media-player .e-media-toolbar.basic .e-media-vol-slider-li {
+  background-color: white;
+}
+.e-media-time-stamp-end.e-media-basic,
+.e-media-time-stamp-run.e-media-basic {
+  color: #212121;
+}
+.e-media-player .e-media-time-stamp-end.e-media-mob,
+.e-media-player .e-media-time-stamp-run.e-media-mob {
+  color: #212121;
+}
+/* end region toolbar styles*/
+
+/*region settings styles*/
+
+.e-media-settings-popup > .e-lv.subpage {
+  background-color: white;
+  border-color: #e0e0e0 !important;
+}
+.e-media-settings-popup li {
+  background-color: white !important;
+}
+.e-media-settings-popup .e-header {
+  background-color: #3f51b5 !important;
+  border-bottom-color: #3f51b5 !important;
+}
+.e-media-settings-selector:before {
+  color: #3f51b5;
+}
+.e-media-settings-popup .e-lv .e-list .e-chevron-right_01.e-fontimage:before,
+.e-media-settings-popup .e-lv > .e-header > .e-icon:before {
+  color: #3f51b5 !important;
+}
+.e-media-settings-popup .e-list-text,
+.e-media-settings-popup .e-btn-text {
+  color: #212121 !important;
+}
+/*end region settings styles*/
+
+/*region playlist styles*/
+
+.e-media-player .e-media-playlist-img-div {
+  color: white !important;
+}
+.e-media-player .e-media-playlist-img-div.desktop {
+  border-color: #e0e0e0;
+}
+.e-media-player .e-media-playlist-img-div.mobile {
+  border-color: #e0e0e0;
+}
+.e-media-player .e-media-playlist-play:before {
+  color: #212121;
+}
+.e-media-player .e-media-playlist-title {
+  color: #212121;
+}
+.e-media-player .e-media-playlist-container.desktop,
+.e-media-player .e-media-playlist-container.mobile {
+  background-color: white;
+  border-color: #e0e0e0;
+}
+.e-media-player .e-media-playlist-header {
+  border-bottom-color: #3f51b5;
+}
+.e-media-player .e-media-playlist-header label {
+  color: #212121;
+}
+.e-media-player .e-media-playlist-toggle.desktop {
+  background-color: #212121;
+}
+.e-media-player .e-media-playlist-toggle.e-media-expand:before,
+.e-media-player .e-media-playlist-toggle.e-media-collapse:before {
+  color: #212121 !important;
+}
+.e-media-player .e-media-playlist-container .e-listbox li {
+  border-bottom-color: #e0e0e0;
+}
+.e-media-player .e-media-playlist-container .e-listbox-container {
+  background-color: white;
+}
+/*region playlist styles*/
+
+/*other styles*/
+
+.e-media-player .e-media-video-baner {
+  color: white;
+}
+.e-media-player .e-media-audio-title {
+  color: white;
+}
+.e-media-player .e-media-overlay {
+  color: white;
+}
+.e-media-player .e-media-time-tooltip {
+  border-color: #e0e0e0;
+  color: #212121;
+  background-color: white;
+}
+.e-media-player .e-media-hd-tag {
+  color: red;
+}
+.e-media-player .e-media-toolbar-split {
+  background: #3f51b5;
+}
+.e-media-player .e-media-playlist-close:before {
+  color: #424242;
+}
+.e-media-player .e-media-play-animation {
+  background: rgba(0, 0, 0, 0.5);
+}
+.e-media-player .e-slider .e-handle {
+  border-color: #e0e0e0 !important;
+}
+/*#region hover*/
+
+.e-media-player .e-media-mouse .e-media-toolbar-icon:not(.disabled):hover::before {
+  color: #212121 !important;
+}
+.e-media-player .e-media-toolbar.adv .e-media-toolbar-volume-li:hover {
+  background: transparent !important;
+}
+.e-media-settings-popup li:hover {
+  background: #e0e0e0 !important;
+}
+/*material theme*/
+
+.e-media-player .e-media-toolbar.basic .e-media-time-li .e-handle {
+  margin-top: -3px !important;
+}
+.e-media-player .e-media-toolbar.basic .e-media-volume-slider .e-handle {
+  margin-left: 0px !important;
+}
+.e-media-settings-popup .e-lv .e-list .e-chevron-right_01 {
+  padding-top: 0px !important;
+}
+.e-media-settings-popup .e-header {
+  background-color: white !important;
+  box-shadow: none !important;
+  border-top: 0px !important;
+}
+.e-media-settings-popup .e-lv.subpage.e-childitem .e-btn-text {
+  left: 0px !important;
+}
+.e-media-settings-popup .e-lv.subpage.e-childitem .e-header .e-hicon,
+.e-media-settings-popup .e-lv.subpage.e-childitem .e-btn-text {
+  top: -18px !important;
+  right: 0px !important;
+}
+.e-media-player .e-media-timeslider.e-media-adv.e-slider .e-handle {
+  margin-top: -2px !important;
+}
+.e-media-player .e-media-toolbar.adv .e-media-volume-slider .e-handle {
+  margin-top: 0px !important;
+}
+.e-media-player .e-media-shuffle:before {
+  font-size: 17px !important;
+  margin-top: -3px !important;
+}
+.e-media-player .e-media-toolbar.adv .e-media-volume-slider-li {
+  margin-top: -2px !important;
+}
+.e-media-player .e-media-playlist-toggle.e-media-collapse:before {
+  content: "\e116" !important;
+  -ms-transform: rotate(180deg) !important;
+  -webkit-transform: rotate(180deg) !important;
+  transform: rotate(180deg) !important;
+}
+.e-media-player .e-media-playlist-toggle.mobile {
+  -ms-transform: rotate(90deg) !important;
+  -webkit-transform: rotate(90deg) !important;
+  transform: rotate(90deg) !important;
+}
+.e-media-player .e-media-center-play:before {
+  left: 46% !important;
+  left: -moz-calc(50% - 23px) !important;
+  left: -webkit-calc(50% - 23px) !important;
+  left: -o-calc(50% - 23px) !important;
+  left: calc(50% - 23px) !important;
+}
+.e-media-player .e-media-hd-tag {
+  right: 0px !important;
+}
+.e-media-settings-popup .e-list-text {
+  font-size: 13px !important;
+}
+/*office-365 theme*/
+
+.e-media-player .e-media-toolbar.basic .e-media-volume-slider .e-handle {
+  
+}
+.e-media-settings-popup .e-lv .e-list .e-chevron-right_01 {
+  
+}
+.e-media-settings-popup .e-lv.subpage.e-childitem .e-btn-text {
+  
+}
+.e-media-player .e-media-settings-selector:before {
+  
+}
+.e-media-player .e-media-toolbar.adv .e-media-volume-slider .e-handle {
+  
+}
+.e-media-player .e-media-playlist-container .e-listbox li {
+  
+}
+.e-media-player .e-media-playlist-number {
+  
+}
+.e-media-settings-popup .e-header {
+  
+}
+.e-media-settings-popup .e-lv.subpage.e-childitem .e-header .e-hicon,
+.e-media-settings-popup .e-lv.subpage.e-childitem .e-btn-text {
+  
+}
+.e-media-player .e-media-shuffle:before {
+  
+}
+.e-media-player .e-media-toolbar.adv .e-media-volume-slider-li {
+  
+}
+.e-media-player .e-media-playlist-toggle.e-media-collapse:before {
+  
+}
+.e-media-player .e-media-playlist-toggle.mobile {
+  
+}
+.e-media-player .e-media-center-play:before {
+  
+}
+/*#end region mediaplayer*/
+

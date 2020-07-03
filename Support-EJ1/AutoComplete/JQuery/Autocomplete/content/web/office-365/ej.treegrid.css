@@ -1,0 +1,503 @@
+/*-----------------------HeatMap Definition-----------------*/
+/*@neutral-light;*/
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*-----------------------OLAP Definition-----------------*/
+/*-----------------------OLAP Definition End-----------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*----------------------material theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+.office-file-explorer-toolbar-bg-color {
+  background: white;
+}
+.office-tab-header-bg-color {
+  background: white;
+}
+/*------------------ material theme ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: white;
+  color: #111111;
+  border-color: #c8c8c8;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-treegrid .e-extendcolumn {
+  background-color: white;
+}
+.e-treegrid .e-headercelldiv {
+  color: #666666;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-filterMenuDiv {
+  
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  min-height: 0px !important;
+}
+.e-filterMenuDiv {
+  border-color: #c8c8c8 !important;
+}
+.e-treegrid .e-treegridpopup .e-popupcontent {
+  background-color: white;
+  border-color: #c8c8c8;
+}
+.e-treegrid .e-treegridpopup span:hover,
+.e-treegrid .e-treegridpopup .e-spanclicked {
+  border-color: #666666;
+}
+.e-treegrid .e-treegridpopup .e-downtail:before,
+.e-treegrid .e-treegridpopup .e-downtail {
+  border-top-color: #c8c8c8;
+}
+.e-treegrid .e-treegridpopup .e-downtail:after {
+  border-top-color: white;
+}
+.e-treegrid .e-headercelldiv .e-descending,
+.e-treegrid .e-headercelldiv .e-ascending,
+.e-treegrid .e-headercell .e-columnmenu-icon {
+  
+}
+.e-treegrid .e-headercelldiv .e-descending,
+.e-treegrid .e-headercelldiv .e-ascending,
+.e-treegrid .e-headercell .e-columnmenu-icon {
+  color: #666666;
+}
+.e-treegrid-core {
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-treegrid {
+  border-color: #c8c8c8;
+  color: #333333;
+}
+.e-treegrid .e-gridcontent {
+  background-color: white;
+  border-color: #c8c8c8;
+}
+.e-treegrid .e-borderbox {
+  border-bottom-color: white;
+}
+.e-treegrid .e-editcell,
+.e-treegrid .e-detailsrowcell,
+.e-treegrid .e-rowcell,
+.e-treegrid .e-extendcolumn {
+  
+}
+.e-treegrid .e-editcell,
+.e-treegrid .e-detailsrowcell,
+.e-treegrid .e-rowcell,
+.e-treegrid .e-extendcolumn {
+  border-color: #d0d0d0;
+}
+.e-treegrid .e-tableLastCell {
+  border-right-color: #c8c8c8 !important;
+}
+.e-treegrid .e-detailsiconcell:hover,
+.e-treegrid .e-detailsinfoiconhide {
+  background-color: #e3e3e3;
+}
+.e-treegrid div.e-error .e-toparrow {
+  
+}
+.e-treegrid div.e-error .e-toparrow {
+  border-bottom-color: #fffe92;
+}
+.e-treegrid div.e-error .e-bottomarrow {
+  
+}
+.e-treegrid div.e-error .e-bottomarrow {
+  border-top-color: #fffe92;
+}
+.e-detailscellwrapperfly {
+  border-color: #eaeaea;
+  
+}
+.e-detailscellwrapperfly {
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+.e-dragrowcell {
+  border-color: #c8c8c8 !important;
+}
+.e-treegrid .e-alt-row {
+  
+}
+.e-treegrid .e-alt-row {
+  background: #fbfbfb;
+}
+.e-treegrid .e-selectionbackground {
+  
+}
+.e-treegrid .e-selectionbackground {
+  background: #deecf9;
+}
+.e-treegridPane .e-treegrid .e-selectionbackground {
+  
+}
+.e-treegridPane .e-treegrid .e-selectionbackground {
+  background: rgba(222, 236, 249, 0.7);
+}
+.e-treegrid .e-selectingcell {
+  
+}
+.e-treegrid .e-selectingcell {
+  background: #deecf9;
+}
+.e-treegridPane .e-treegrid .e-selectingcell {
+  
+}
+.e-treegridPane .e-treegrid .e-selectingcell {
+  background: -moz-linear-gradient(top, rgba(0, 120, 215, 0.2), rgba(0, 120, 215, 0.2));
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 120, 215, 0.2)), color-stop(100%, rgba(0, 120, 215, 0.2)));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(0, 120, 215, 0.2), rgba(0, 120, 215, 0.2));
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(0, 120, 215, 0.2), rgba(0, 120, 215, 0.2));
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(0, 120, 215, 0.2), rgba(0, 120, 215, 0.2));
+  /* IE10+ */
+  background: linear-gradient(to bottom, rgba(0, 120, 215, 0.2), rgba(0, 120, 215, 0.2));
+  /* W3C */
+
+  color: #333333;
+}
+.e-treegrid .e-detailsinfoiconhide:before,
+.e-treegrid .e-detailsinfoiconshow:before {
+  
+}
+.e-treegrid .e-detailsinfoiconhide:before,
+.e-treegrid .e-detailsinfoiconshow:before {
+  color: #0078d7 !important;
+}
+.e-treegrid .e-selectionbackground .e-detailsinfoiconshow:before {
+  
+}
+.e-treegrid .e-selectionbackground .e-detailsinfoiconshow:before {
+  color: white !important;
+}
+.e-treegrid .e-detailscellwrapper,
+.e-detailscellwrapperfly {
+  background: white;
+  color: #333333 !important;
+}
+.e-dragtooltipbackground {
+  
+}
+.e-dragtooltipbackground {
+  background-color: #f4f4f4;
+  color: #666666;
+}
+.e-treegrid .e-tabletd {
+  border-color: #c8c8c8;
+}
+.e-treegrid .e-treegridtoolbar {
+  background-color: white !important;
+  border-color: #c8c8c8 !important;
+}
+.e-treegrid .e-headercell {
+  
+}
+.e-treegrid .e-headercell {
+  border-right-color: #d0d0d0 !important;
+  border-bottom-color: #d0d0d0 !important;
+}
+.e-treegrid .e-filterbarcell {
+  
+}
+.e-treegrid .e-filterbarcell {
+  border-color: #d0d0d0 !important;
+}
+.e-treegrid .e-grid-icon {
+  background: white;
+}
+.e-treegrid .e-gridheader {
+  color: #666666;
+  border-color: #c8c8c8;
+  
+}
+.e-treegrid .e-gridheader {
+  background: white;
+}
+.e-treegrid .e-headercontent {
+  border-right-color: #c8c8c8;
+}
+.e-treegrid .e-ejinputtext,
+.e-addedColumn .e-ejinputtext,
+.e-treegridrenamedialog .e-ejinputtext {
+  
+  border-color: #c8c8c8;
+  outline: none;
+  vertical-align: baseline;
+}
+.e-treegrid .e-ejinputtext,
+.e-addedColumn .e-ejinputtext,
+.e-treegridrenamedialog .e-ejinputtext {
+  color: #212121;
+  background-color: white;
+}
+.e-addedColumn .e-ejinputtext:hover,
+.e-treegrid .e-ejinputtext:hover,
+.e-treegridrenamedialog .e-ejinputtext:hover {
+  border: 1px solid #767676;
+}
+.e-treegrid .e-ejinputtext:focus,
+.e-addedColumn .e-ejinputtext:focus,
+.e-treegridrenamedialog .e-ejinputtext:focus {
+  
+}
+.e-treegrid .e-ejinputtext:focus,
+.e-addedColumn .e-ejinputtext:focus,
+.e-treegridrenamedialog .e-ejinputtext:focus {
+  box-shadow: none;
+  border: 1px solid #0078d7;
+}
+.e-treegrid .e-reSizeColbg {
+  border-left-color: #c8c8c8 !important;
+}
+.e-treegrid .e-gridheadercontainer {
+  
+}
+.e-treegrid .e-gridheadercontainer {
+  border-right-color: #d0d0d0 !important;
+}
+.e-columnmenu {
+  background: white;
+  color: #333333;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  
+}
+.e-columnmenu {
+  border-color: #c8c8c8 !important;
+}
+.e-columnmenuitem .e-icon,
+.e-menuitem .e-icon {
+  
+}
+.e-columnmenuitem .e-icon,
+.e-menuitem .e-icon {
+  color: #333333;
+}
+.e-treegrid .e-toolbaricons {
+  
+}
+.e-treegrid .e-toolbaricons {
+  color: #666666;
+}
+.e-columnmenuselection .e-icon,
+.e-contextmenu-mouseover .e-icon {
+  
+}
+.e-columnmenuselection .e-icon,
+.e-contextmenu-mouseover .e-icon {
+  color: #333333;
+}
+.e-treegrid .e-tooltxt.e-hover > span {
+  
+}
+.e-treegrid .e-tooltxt.e-hover > span {
+  color: #666666;
+}
+.e-columnSelector {
+  background: white;
+  border: 1px solid;
+  border-color: #c8c8c8 !important;
+  color: #333333 !important;
+}
+.e-columnMenuListDiv label {
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-columnmenuselection {
+  
+  color: #333333;
+}
+.e-columnmenuselection {
+  background: #f4f4f4;
+}
+.e-treegrid .e-summaryrow {
+  
+}
+.e-treegrid .e-summaryrow {
+  background: #eaeaea;
+}
+.e-treegrid .e-footersummaryrow,
+.e-treegrid .e-footersummaryrowdiv {
+  
+}
+.e-treegrid .e-footersummaryrow,
+.e-treegrid .e-footersummaryrowdiv {
+  background: #eaeaea;
+}
+.e-treegrid .e-footersummaryrowdiv {
+  border-width: 0px 1px 1px 1px;
+  border-style: solid;
+  border-color: #c8c8c8;
+}
+.e-treegrid .e-summaryrow .e-summaryrowcell {
+  
+}
+.e-treegrid .e-summaryrow .e-summaryrowcell {
+  border-bottom-color: #c8c8c8;
+}
+.e-contextmenu,
+.e-innerContextmenu {
+  
+  background: white;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-contextmenu,
+.e-innerContextmenu {
+  border-color: #c8c8c8 !important;
+  color: #333333;
+}
+.e-headerContextmenu {
+  
+  background: white;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  border: 1px solid;
+}
+.e-headerContextmenu {
+  border-color: #c8c8c8 !important;
+  color: #333333;
+}
+.e-contextmenu-mouseover {
+  
+}
+.e-contextmenu-mouseover {
+  background: #f4f4f4;
+  color: #333333;
+}
+.e-tooltipgantt {
+  
+}
+.e-tooltipgantt {
+  background-color: #f4f4f4;
+  color: #666666;
+  border-color: #767676;
+}
+.e-treegrid .e-movablecontainer,
+.e-treegrid .e-movableheader,
+.e-treegrid .e-movablefooter {
+  
+}
+.e-treegrid .e-movablecontainer,
+.e-treegrid .e-movableheader,
+.e-treegrid .e-movablefooter {
+  border-left-color: #0078d7;
+}
+.e-treegrid .e-footercontainer {
+  border-right-color: #c8c8c8;
+}
+.e-headervline {
+  
+}
+.e-headervline {
+  border-color: #0078d7;
+}
+.e-headertooltip {
+  
+}
+.e-headertooltip {
+  color: #666666;
+  background-color: white;
+  border-color: #c8c8c8;
+}
+.e-menuitem-hr {
+  border-width: 1px 0px 0px 0px;
+  border-style: solid;
+  
+}
+.e-menuitem-hr {
+  border-color: #eaeaea;
+}
+
+.e-treegrid .e-rowcell .e-cell {
+  padding-left: 5px;
+}
+.e-columnmenu {
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+.e-treegrid-columnchooser {
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+.e-contextmenu {
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+.e-innerContextmenu {
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+.e-parent-menuitem.e-columnmenuselection,
+.e-parent-menuitem.e-contextmenu-mouseover {
+  background: #deecf9;
+  color: #333333;
+}
+.e-treegrid .e-dialog .e-treegridform .e-editdialogbutton .e-save,
+.e-treegrid-dialog .e-confirm-dialog-btn-ok.e-btn.e-select,
+.e-treegrid-rename-dialog-btn-ok.e-btn.e-select,
+.e-add-dialog-btn-ok .e-btn.e-select,
+.e-filter-btn-filter .e-btn.e-select {
+  background: #0078d7;
+  color: white;
+}
+.e-treegrid .e-dialog .e-treegridform .e-editdialogbutton .e-save:hover,
+.e-treegrid-dialog .e-confirm-dialog-btn-ok.e-btn.e-select:hover,
+.e-treegrid-rename-dialog-btn-ok.e-btn.e-select:hover,
+.e-add-dialog-btn-ok .e-btn.e-select:hover,
+.e-filter-btn-filter .e-btn.e-select:hover {
+  background: #005a9e;
+  color: white;
+}
+.e-treegrid .e-dialog .e-treegridform .e-editdialogbutton .e-save:focus,
+.e-treegrid-dialog .e-confirm-dialog-btn-ok.e-btn.e-select:focus,
+.e-treegrid-rename-dialog-btn-ok.e-btn.e-select:focus,
+.e-add-dialog-btn-ok .e-btn.e-select:focus,
+.e-filter-btn-filter .e-btn.e-select:focus {
+  background: #005a9e;
+  color: white;
+  border-color: #0078d7;
+}
+.e-treegrid .e-dialog .e-treegridform .e-editdialogbutton .e-save:active,
+.e-treegrid-dialog .e-confirm-dialog-btn-ok.e-btn.e-select:active,
+.e-treegrid-rename-dialog-btn-ok.e-btn.e-select:active,
+.e-add-dialog-btn-ok .e-btn.e-select:active,
+.e-filter-btn-filter .e-btn.e-select:active {
+  background: #0078d7;
+  color: white;
+  border-color: #0078d7;
+}
+.e-dialog.e-widget-content.e-filterMenuDiv {
+  background: white;
+}
+.e-dialog.e-widget-content.e-filterMenuDiv .e-filter-text {
+  font-size: 13px;
+  font-weight: normal;
+}
+.e-treegrid-resIcon {
+  
+}
+.e-treegrid-resIcon {
+  color: #666666;
+}

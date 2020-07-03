@@ -1,0 +1,228 @@
+/* need verify with UX team*/
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*----------------------OLAP Definition------------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*------------------------ Ribbon Definition---------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*----------------------material theme-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: #111111;
+  color: white;
+  border-color: #494949;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+/*Theme Color*/
+
+.e-lv .e-list-text {
+  
+}
+.e-lv .e-list-text {
+  font-size: 12px;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+/*List Item*/
+
+.e-lv .e-list {
+  
+}
+.e-lv .e-list {
+  border-bottom: 1px solid #494949;
+  font-size: 12px;
+}
+.e-lv .e-list .e-chevron-right_01.e-fontimage:before {
+  
+}
+.e-lv .e-list .e-chevron-right_01.e-fontimage:before {
+  color: #cccccc;
+}
+.e-lv .e-list.e-state-default {
+  background-color: black;
+  border-color: #494949;
+}
+.e-lv .e-list.e-state-default > .e-chevron-right_01 .e-list-text {
+  
+}
+.e-lv .e-list.e-state-default > .e-chevron-right_01 .e-list-text {
+  color: #dddddd;
+}
+.e-lv .e-list.e-state-default:hover {
+  
+}
+.e-lv .e-list.e-state-default:hover {
+  color: #aaaaaa;
+}
+.e-lv .e-list.e-state-default:hover {
+  background: #082e40;
+}
+.e-lv .e-list.e-state-default:hover > .e-chevron-right_01 .e-list-text {
+  color: #aaaaaa;
+}
+.e-lv .e-list:hover > .e-chevron-right_01.e-fontimage:before {
+  color: #efefef;
+}
+.e-lv .e-list .e-chevron-right_01:hover {
+  color: #aaaaaa;
+}
+.e-lv .e-list.e-state-active {
+  
+}
+.e-lv .e-list.e-state-active {
+  color: white;
+}
+.e-lv .e-list.e-state-active {
+  background: #179bd7;
+}
+.e-lv .e-list.e-state-active .e-chevron-right_01 .e-list-text {
+  
+}
+.e-lv .e-list.e-state-active .e-chevron-right_01 .e-list-text {
+  color: white;
+}
+.e-lv .e-list.e-state-active > .e-chevron-right_01.e-fontimage:before {
+  
+}
+.e-lv .e-list.e-state-active > .e-chevron-right_01.e-fontimage:before {
+  color: white;
+}
+/*Search Box*/
+
+.e-lv-inputdiv .e-lv-input {
+  border: 1px solid #494949;
+  border-radius: 7px;
+  font-size: 14px;
+}
+.e-lv .e-header {
+  
+}
+.e-lv .e-header {
+  color: #dddddd;
+  border: 1px solid #494949;
+  border-bottom: 3px solid #179bd7;
+}
+.e-lv .e-header {
+  background: black;
+}
+.e-lv.e-parentlv > .e-lv .e-list-container {
+  
+}
+.e-lv.e-parentlv > .e-lv .e-list-container {
+  border-left: 1px solid #494949;
+  border-right: 1px solid #494949;
+  border-top: 1px solid #494949;
+}
+.e-lv.e-parentlv > .e-lv.subpage {
+  border: none;
+}
+.e-nb .e-lv .subpage .e-content {
+  float: none;
+}
+.e-lv > .e-header:hover > .e-icon:before {
+  color: #efefef;
+}
+.e-lv > .e-header > .e-icon:before,
+.e-lv > .e-header > .e-icon:hover:before {
+  
+}
+.e-lv > .e-header > .e-icon:before,
+.e-lv > .e-header > .e-icon:hover:before {
+  color: #cccccc;
+}
+.e-lv .e-list .e-lv-checkdiv.e-template-checkmark,
+.e-lv .e-template-list .e-list-check div {
+  float: none;
+  vertical-align: middle;
+  display: table-cell;
+}
+.e-lv .e-template-list .e-list-check div {
+  vertical-align: initial;
+}
+.e-lv .e-template-list .e-list-check {
+  display: table;
+}
+.e-lv .e-htitle,
+.e-lv .e-btn-text {
+  
+}
+.e-htitle,
+.e-btn-text {
+  
+}
+.e-lv .e-btn-text {
+  
+}
+.e-icon.e-chevron-left_01:before {
+  
+}
+.e-list-container .e-chkbox-wrap .e-chk-image.e-stop,
+.e-list-container .e-chkbox-wrap .e-chk-image.e-checkmark {
+  
+}
+.e-list-container .e-chkbox-wrap div > span.e-chk-act,
+.e-list-container .e-chkbox-wrap div > span.e-chk-indeter {
+  
+}
+.e-lv .e-list.e-state-default.e-arrow,
+.e-lv .e-list .e-chevron-right_01 {
+  
+}
+.e-lv .e-list-container .e-chkbox-wrap {
+  
+}
+.e-lv .e-list-container .e-icon.e-chevron-right_01:before {
+  
+}
+.e-lv .e-list .e-chevron-right_01 {
+  
+}
+.e-lv .e-icon.e-chevron-left_01:before {
+  
+}
+.e-lv .e-arrow .e-chevron-right_01:before,
+.e-lv .e-icon.e-chevron-left_01:before {
+  
+}
+.e-lv .e-list .e-lv-checkdiv {
+  
+}
+.e-lv.e-slideleft .e-header {
+  
+}
+.e-lv.e-slideleft .e-header .e-chevron-left_01 {
+  
+}
+.e-lv .e-icon.e-chevron-left_01:before {
+  
+}
+.e-list-container .e-load {
+  background-image: url(images/ajax-loader.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.e-lv .e-list-container .e-chkbox-wrap .e-chkbox-small > span {
+  top: 2px;
+}

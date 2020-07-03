@@ -1,0 +1,215 @@
+/*-----------------------HeatMap Definition-----------------*/
+/*@neutral-light;*/
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*-----------------------OLAP Definition-----------------*/
+/*-----------------------OLAP Definition End-----------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*----------------------material theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+.office-file-explorer-toolbar-bg-color {
+  background: white;
+}
+.office-tab-header-bg-color {
+  background: white;
+}
+/*------------------ material theme ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: white;
+  color: #111111;
+  border-color: #c8c8c8;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+/*Theme Color*/
+
+.e-acrdn {
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-acrdn > .e-content {
+  border-color: #c8c8c8;
+  background-color: white;
+  
+}
+.e-acrdn > .e-content {
+  
+  border-right: -1;
+  border-left: -1;
+}
+.e-acrdn > .e-content {
+  color: #333333;
+  font-size: 12px;
+}
+.e-acrdn > .e-select,
+.e-acrdn > .e-disable.e-select:hover,
+.e-acrdn > .e-disable.e-select:hover a {
+  
+}
+.e-acrdn > .e-select,
+.e-acrdn > .e-disable.e-select:hover,
+.e-acrdn > .e-disable.e-select:hover a {
+  /*other*/
+
+  color: #212121;
+}
+.e-acrdn > .e-select,
+.e-acrdn > .e-disable.e-select:hover,
+.e-acrdn > .e-disable.e-select:hover a {
+  background: #f4f4f4;
+}
+.e-acrdn > .e-select,
+.e-acrdn > .e-disable.e-select:hover,
+.e-acrdn > .e-disable.e-select:hover a {
+  background: white;
+}
+.e-acrdn .e-select {
+  
+  font-weight: normal;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-acrdn .e-select {
+  
+}
+.e-acrdn .e-select {
+  font-size: 14px;
+  border-color: #eaeaea;
+}
+.e-acrdn .e-select:hover {
+  
+}
+.e-acrdn .e-select:hover {
+  
+}
+.e-acrdn .e-select:hover {
+  color: #333333;
+  background-color: #f4f4f4;
+}
+.e-acrdn .e-select a {
+  
+}
+.e-acrdn .e-select a {
+  color: #333333;
+}
+.e-acrdn .e-select:first-child {
+  
+}
+.e-acrdn .e-select:first-child {
+  border-top-color: #eaeaea;
+}
+.e-acrdn > .e-select:first-child {
+  
+}
+.e-acrdn > .e-select:first-child {
+  
+}
+.e-acrdn > .e-select:first-child {
+  border-color: #eaeaea;
+}
+.e-acrdn .e-select:last-of-type {
+  border-bottom-color: #eaeaea;
+}
+.e-acrdn .e-select.e-active,
+.e-acrdn .e-disable.e-active.e-select:hover a,
+.e-acrdn .e-disable.e-active.e-select:hover {
+  
+}
+.e-acrdn .e-select.e-active,
+.e-acrdn .e-disable.e-active.e-select:hover a,
+.e-acrdn .e-disable.e-active.e-select:hover {
+  
+}
+.e-acrdn .e-select.e-active,
+.e-acrdn .e-disable.e-active.e-select:hover a,
+.e-acrdn .e-disable.e-active.e-select:hover {
+  color: white;
+  background-color: #0078d7;
+}
+.e-acrdn.e-disable .e-select:hover,
+.e-acrdn.e-disable .e-select:hover a {
+  background: #ecedee;
+  color: #5c5c5c;
+}
+.e-acrdn .e-select.e-active {
+  
+  font-weight: normal;
+  border-bottom: medium none;
+}
+.e-acrdn .e-select.e-active {
+  /*other*/
+  border-color: #0078d7;
+}
+.e-acrdn .e-select.e-active:hover {
+  
+}
+.e-acrdn .e-select.e-active:hover {
+  /*other*/
+
+  color: #212121;
+  border-color: #c8c8c8;
+}
+.e-acrdn .e-select.e-active:hover {
+  background: #eaeaea;
+}
+.e-acrdn .e-select.e-active a {
+  
+}
+.e-acrdn .e-select.e-active a {
+  /*other*/
+  color: white;
+}
+.e-acrdn .e-select:hover a,
+.e-acrdn .e-select.e-active:hover a {
+  
+}
+.e-acrdn .e-select:hover a,
+.e-acrdn .e-select.e-active:hover a {
+  /*other*/
+  color: #212121;
+}
+.e-acrdn .e-select > span {
+  color: #666666;
+}
+.e-acrdn .e-select.e-active > span {
+  
+}
+.e-acrdn .e-select.e-active > span {
+  /*other*/
+  color: white;
+}
+.e-acrdn .e-select:hover > span,
+.e-acrdn .e-select.e-active:hover > span {
+  color: #666666;
+}
+.e-acrdn .e-select.e-disable:hover > span,
+.e-acrdn .e-select.e-disable.e-active:hover > span {
+  color: #666666;
+}
+.e-acrdn .e-content.e-load {
+  background-image: url(images/ajax-loader.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,240 @@
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*-----------------------OLAP Definition-----------------*/
+/*-----------------------OLAP Definition End-----------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*----------------------material theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: #111111;
+  color: white;
+  border-color: gray;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+/*------------------------------------- GroupButton -------------------------------------------*/
+
+.e-widget.e-groupbutton {
+  
+}
+.e-widget.e-groupbutton {
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  font-weight: normal;
+  font-size: 14px;
+  color: white;
+  background-repeat: no-repeat;
+  border-color: gray;
+}
+.e-widget.e-groupbutton {
+  background: black;
+}
+.e-widget.e-groupbutton > .e-ul > .e-grp-btn-item {
+  
+}
+.e-widget.e-groupbutton-hSmall {
+  min-height: 26px;
+}
+.e-widget.e-groupbutton > .e-ul > .e-grp-btn-item .e-btn-content.e-groupBtn-padding {
+  padding: 0px;
+}
+.e-widget.e-groupbutton.e-focus {
+  box-shadow: 0 0 2px black;
+}
+.e-widget.e-groupbutton > .e-ul > .e-grp-btn-item:focus {
+  
+}
+.e-widget.e-groupbutton > .e-ul > .e-grp-btn-item:active {
+  
+}
+.e-widget.e-groupbutton > .e-horizontal.e-ul > .e-grp-btn-item,
+.e-widget.e-groupbutton.e-rtl > .e-horizontal.e-ul > .e-grp-btn-item,
+.e-widget.e-groupbutton > .e-vertical.e-ul > .e-grp-btn-item,
+.e-widget.e-groupbutton > .e-horizontal.e-ul > .e-grp-btn-item.e-border-left,
+.e-widget.e-groupbutton > .e-vertical.e-ul > .e-grp-btn-item.e-border-bottom {
+  border-color: gray;
+}
+.e-widget.e-groupbutton > .e-horizontal.e-ul > .e-grp-btn-item.e-disable,
+.e-widget.e-groupbutton > .e-vertical.e-ul > .e-grp-btn-item.e-disable {
+  
+}
+.e-widget.e-groupbutton > .e-horizontal.e-ul > .e-grp-btn-item.e-disable .e-icon,
+.e-widget.e-groupbutton > .e-vertical.e-ul > .e-grp-btn-item.e-disable .e-icon {
+  
+}
+.e-widget.e-groupbutton > .e-ul > .e-grp-btn-item.e-active,
+.e-widget.e-groupbutton > .e-ul > .e-grp-btn-item.e-select {
+  
+}
+.e-widget.e-groupbutton > .e-ul > .e-grp-btn-item.e-active,
+.e-widget.e-groupbutton > .e-ul > .e-grp-btn-item.e-select {
+  color: white;
+}
+.e-widget.e-groupbutton > .e-ul > .e-grp-btn-item.e-active,
+.e-widget.e-groupbutton > .e-ul > .e-grp-btn-item.e-select {
+  background: blue;
+}
+.e-widget.e-groupbutton > .e-horizontal.e-ul > .e-grp-btn-item {
+  
+}
+.e-widget.e-groupbutton > .e-vertical.e-ul > .e-grp-btn-item {
+  
+}
+.e-widget.e-groupbutton > .e-ul > .e-grp-btn-item.e-active.e-hover .e-btn-content .e-btntxt {
+  
+}
+.e-widget.e-groupbutton > .e-ul > .e-grp-btn-item.e-active.e-hover .e-btn-content .e-btntxt {
+  color: white;
+}
+.e-widget.e-groupbutton > .e-ul > .e-grp-btn-item.e-active.e-hover,
+.e-widget.e-groupbutton.e-rtl > .e-horizontal.e-ul > .e-grp-btn-item.e-active.e-hover {
+  border-color: white;
+  
+}
+.e-widget.e-groupbutton > .e-horizontal.e-ul > .e-grp-btn-item {
+  border-right-color: transparent;
+}
+.e-widget.e-groupbutton > .e-vertical.e-ul > .e-grp-btn-item {
+  border-bottom-color: transparent;
+}
+.e-widget.e-groupbutton.e-rtl > .e-horizontal.e-ul > .e-grp-btn-item {
+  border-left-color: transparent;
+}
+.e-widget.e-groupbutton > .e-ul > .e-grp-btn-item.e-hover,
+.e-widget.e-groupbutton.e-rtl > .e-horizontal.e-ul > .e-grp-btn-item.e-hover {
+  
+}
+.e-widget.e-groupbutton > .e-ul > .e-grp-btn-item.e-hover,
+.e-widget.e-groupbutton.e-rtl > .e-horizontal.e-ul > .e-grp-btn-item.e-hover {
+  color: white;
+  border-color: white;
+}
+.e-widget.e-groupbutton > .e-ul > .e-grp-btn-item.e-hover,
+.e-widget.e-groupbutton.e-rtl > .e-horizontal.e-ul > .e-grp-btn-item.e-hover {
+  background: #1010af;
+}
+.e-widget.e-groupbutton > .e-horizontal.e-ul > .e-grp-btn-item.last,
+.e-widget.e-groupbutton > .e-horizontal.e-ul > .e-grp-btn-item.last.e-hover {
+  border-right-color: gray;
+  
+}
+.e-groupbutton > .e-vertical.e-ul > .e-grp-btn-item.last,
+.e-groupbutton > .e-vertical.e-ul > .e-grp-btn-item.last.e-hover {
+  border-bottom-color: gray;
+  
+}
+.e-widget.e-groupbutton > .e-ul > .e-grp-btn-item .e-btn-content > a.e-btntxt,
+.e-widget.e-groupbutton > .e-ul > .e-grp-btn-item .e-btn-content > span.e-btntxt,
+.e-widget.e-groupbutton > .e-ul > .e-grp-btn-item .e-btn-content > div.e-btntxt {
+  
+}
+.e-widget.e-groupbutton > .e-ul > .e-grp-btn-item .e-btn-content > a.e-btntxt,
+.e-widget.e-groupbutton > .e-ul > .e-grp-btn-item .e-btn-content > span.e-btntxt,
+.e-widget.e-groupbutton > .e-ul > .e-grp-btn-item .e-btn-content > div.e-btntxt {
+  color: white;
+  text-decoration: none;
+}
+.e-widget.e-groupbutton > .e-ul > .e-grp-btn-item .e-btn-content > a.e-icon,
+.e-widget.e-groupbutton > .e-ul > .e-grp-btn-item .e-btn-content > span.e-icon,
+.e-widget.e-groupbutton > .e-ul > .e-grp-btn-item .e-btn-content > div.e-icon {
+  
+}
+.e-widget.e-groupbutton > .e-ul > .e-grp-btn-item .e-btn-content > a.e-icon,
+.e-widget.e-groupbutton > .e-ul > .e-grp-btn-item .e-btn-content > span.e-icon,
+.e-widget.e-groupbutton > .e-ul > .e-grp-btn-item .e-btn-content > div.e-icon {
+  color: white;
+}
+.e-widget.e-groupbutton > .e-ul > .e-grp-btn-item .e-btn-content > a.e-icon:before,
+.e-widget.e-groupbutton > .e-ul > .e-grp-btn-item .e-btn-content > span.e-icon:before,
+.e-widget.e-groupbutton > .e-ul > .e-grp-btn-item .e-btn-content > div.e-icon:before {
+  
+}
+.e-widget.e-groupbutton > .e-ul > .e-grp-btn-item .e-btn-content > a.e-btntxt,
+.e-widget.e-groupbutton > .e-ul > .e-grp-btn-item .e-btn-content > span.e-btntxt,
+.e-widget.e-groupbutton > .e-ul > .e-grp-btn-item .e-btn-content > div.e-btntxt,
+.e-widget.e-groupbutton > .e-ul > .e-grp-btn-item.e-active .e-btn-content > a.e-btntxt,
+.e-widget.e-groupbutton > .e-ul > .e-grp-btn-item.e-active .e-btn-content > span.e-btntxt,
+.e-widget.e-groupbutton > .e-ul > .e-grp-btn-item.e-active .e-btn-content > div.e-btntxt {
+  
+}
+.e-widget.e-groupbutton > .e-ul > .e-grp-btn-item.e-active .e-btn-content > a.e-btntxt,
+.e-widget.e-groupbutton > .e-ul > .e-grp-btn-item.e-active .e-btn-content > span.e-btntxt,
+.e-widget.e-groupbutton > .e-ul > .e-grp-btn-item.e-active .e-btn-content > div.e-btntxt,
+.e-widget.e-groupbutton > .e-ul > .e-grp-btn-item.e-active .e-btn-content > a.e-icon,
+.e-widget.e-groupbutton > .e-ul > .e-grp-btn-item.e-active .e-btn-content > span.e-icon,
+.e-widget.e-groupbutton > .e-ul > .e-grp-btn-item.e-active .e-btn-content > div.e-icon {
+  color: white;
+  text-decoration: none;
+}
+.e-widget.e-groupbutton.e-rtl > .e-horizontal.e-ul > .e-grp-btn-item.last,
+.e-widget.e-groupbutton.e-rtl > .e-horizontal.e-ul > .e-grp-btn-item.last.e-hover {
+  border-left-color: gray;
+  
+}
+.e-widget.e-groupbutton > .e-ul > .e-disable .e-btn-content > span.e-btntxt,
+.e-widget.e-groupbutton > .e-ul > .e-disable .e-btn-content > a.e-btntxt,
+.e-widget.e-groupbutton > .e-ul > .e-disable .e-btn-content > div.e-btntxt,
+.e-widget.e-groupbutton > .e-ul > .e-disable.e-active .e-btn-content > span.e-btntxt,
+.e-widget.e-groupbutton > .e-ul > .e-disable.e-active .e-btn-content > a.e-btntxt,
+.e-widget.e-groupbutton > .e-ul > .e-disable.e-active .e-btn-content > div.e-btntxt {
+  
+}
+.e-widget.e-groupbutton > .e-ul > .e-disable.e-active {
+  
+}
+.e-widget.e-groupbutton > .e-ul > .e-disable .e-btn-content > span.e-icon {
+  
+}
+.e-widget.e-groupbutton.e-disable {
+  
+}
+.e-widget.e-groupbutton > .e-horizontal.e-ul > .e-grp-btn-item.e-hover {
+  border-right-color: white;
+  
+}
+.e-widget.e-groupbutton > .e-vertical.e-ul > .e-grp-btn-item.e-hover {
+  border-bottom-color: white;
+  
+}
+.e-widget.e-groupbutton.e-rtl > .e-horizontal.e-ul > .e-grp-btn-item.e-hover {
+  border-left-color: white;
+  
+}
+.e-widget.e-groupbutton.e-rtl > .e-vertical.e-ul > .e-grp-btn-item.e-hover {
+  border-left-color: white;
+  
+}
+.e-widget.e-groupbutton > .e-ul > .e-grp-btn-item.e-active:not(:active):after,
+.e-widget.e-groupbutton > .e-ul > .e-grp-btn-item:not(:active):after {
+  
+}
+.e-widget.e-groupbutton.e-disable {
+  background-color: #1d1d1d;
+  border-color: #333333;
+  opacity: 1;
+  color: #525252;
+}

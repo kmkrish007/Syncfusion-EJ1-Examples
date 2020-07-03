@@ -1,0 +1,242 @@
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*-----------------------OLAP Definition-----------------*/
+/*-----------------------OLAP Definition End-----------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*------------------ DatePicker ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: white;
+  color: #111111;
+  border-color: #e0e0e0;
+  font-family: 'Roboto', Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+/*Theme Color*/
+
+.e-js.e-lv .e-list-text {
+  
+}
+.e-js.e-lv .e-list-text {
+  font-size: 15px;
+  font-family: 'Roboto', Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+/*List Item*/
+
+.e-js.e-lv .e-list {
+  
+}
+.e-js.e-lv .e-list {
+  border-bottom: none;
+  padding: 0px 16px;
+  height: 48px;
+  font-size: 12px;
+}
+.e-js.e-lv .e-list .e-chevron-right_01.e-fontimage:before {
+  
+}
+.e-js.e-lv .e-list .e-chevron-right_01.e-fontimage:before {
+  color: rgba(0, 0, 0, 0.54);
+}
+.e-js.e-lv .e-list.e-state-default {
+  background-color: white;
+  border-color: #e0e0e0;
+}
+.e-js.e-lv .e-list.e-state-default > .e-chevron-right_01 .e-list-text {
+  
+}
+.e-js.e-lv .e-list.e-state-default > .e-chevron-right_01 .e-list-text {
+  color: rgba(0, 0, 0, 0.87);
+  font-weight: 400;
+}
+.e-js.e-lv .e-list.e-state-default:hover {
+  
+}
+.e-js.e-lv .e-list.e-state-default:hover {
+  color: #212121;
+}
+.e-js.e-lv .e-list.e-state-default:hover {
+  background: #eeeeee;
+}
+.e-js.e-lv .e-list.e-state-default:hover > .e-chevron-right_01 .e-list-text {
+  color: #212121;
+}
+.e-js.e-lv .e-list:hover > .e-chevron-right_01.e-fontimage:before {
+  color: #424242;
+}
+.e-js.e-lv .e-list .e-chevron-right_01:hover {
+  color: #212121;
+}
+.e-js.e-lv .e-list.e-state-active {
+  
+}
+.e-js.e-lv .e-list.e-state-active {
+  background: whitesmoke;
+}
+.e-js.e-lv .e-list.e-state-active .e-chevron-right_01 .e-list-text {
+  
+}
+.e-js.e-lv .e-list.e-state-active .e-chevron-right_01 .e-list-text {
+  color: rgba(0, 0, 0, 0.87);
+}
+.e-js.e-lv .e-list.e-state-active > .e-chevron-right_01.e-fontimage:before {
+  
+}
+.e-js.e-lv .e-list.e-state-active > .e-chevron-right_01.e-fontimage:before {
+  color: rgba(0, 0, 0, 0.87);
+}
+/*Search Box*/
+
+.e-js.e-lv-inputdiv .e-lv-input {
+  border: 1px solid #e0e0e0;
+  border-radius: 7px;
+  font-size: 14px;
+}
+.e-js.e-lv .e-header {
+  
+}
+.e-js.e-lv .e-header {
+  color: rgba(0, 0, 0, 0.87);
+  padding-left: 16px;
+  border-bottom: 1px solid #e0e0e0;
+  height: 64px;
+  font-family: 'Roboto', Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-js.e-lv .e-header {
+  background: white;
+}
+.e-js.e-lv.e-parentlv > .e-lv .e-list-container {
+  
+}
+.e-js.e-lv.e-parentlv > .e-lv .e-list-container {
+  border: none;
+}
+.e-js.e-lv.e-parentlv > .e-lv.subpage {
+  border: none;
+}
+.e-js.e-nb .e-lv .subpage .e-content {
+  float: none;
+}
+.e-js.e-lv > .e-header:hover > .e-icon:before {
+  
+}
+.e-js.e-lv > .e-header > .e-icon:before,
+.e-js.e-lv > .e-header > .e-icon:hover:before {
+  
+}
+.e-js.e-lv > .e-header > .e-icon:before,
+.e-js.e-lv > .e-header > .e-icon:hover:before {
+  color: rgba(0, 0, 0, 0.54);
+}
+.e-js.e-lv .e-list .e-lv-checkdiv.e-template-checkmark,
+.e-js.e-lv .e-template-list .e-list-check div {
+  float: none;
+  vertical-align: middle;
+  display: table-cell;
+}
+.e-js.e-lv .e-template-list .e-list-check div {
+  vertical-align: initial;
+}
+.e-js.e-lv .e-template-list .e-list-check {
+  display: table;
+}
+.e-js.e-lv .e-htitle,
+.e-js.e-lv .e-btn-text {
+  
+}
+.e-js.e-lv .e-htitle,
+.e-js.e-lv .e-btn-text {
+  font-size: 20px;
+  height: 40px;
+}
+.e-js .e-htitle,
+.e-js .e-btn-text {
+  
+}
+.e-js .e-htitle,
+.e-js .e-btn-text {
+  font-weight: 500;
+}
+.e-js.e-lv .e-btn-text {
+  padding-left: 12px;
+}
+.e-js.e-icon.e-chevron-left_01:before {
+  content: "\e74d";
+  font-size: 18px;
+}
+.e-js.e-list-container .e-chkbox-wrap .e-chk-image.e-stop,
+.e-js.e-list-container .e-chkbox-wrap .e-chk-image.e-checkmark {
+  background-color: #ff4081;
+}
+.e-js.e-list-container .e-chkbox-wrap div > span.e-chk-act,
+.e-js.e-list-container .e-chkbox-wrap div > span.e-chk-indeter {
+  border-color: #ff4081;
+}
+.e-js.e-lv .e-list.e-state-default.e-arrow,
+.e-js.e-lv .e-list .e-chevron-right_01 {
+  line-height: 1.5;
+}
+.e-js.e-lv .e-list-container .e-chkbox-wrap {
+  
+}
+.e-js.e-lv .e-list-container .e-chkbox-wrap {
+  margin-top: 3px;
+}
+.e-js.e-lv .e-list-container .e-icon.e-chevron-right_01:before {
+  
+}
+.e-js.e-lv .e-list .e-chevron-right_01 {
+  
+}
+.e-js.e-lv .e-icon.e-chevron-left_01:before {
+  
+}
+.e-js.e-lv .e-arrow .e-chevron-right_01:before,
+.e-js.e-lv .e-icon.e-chevron-left_01:before {
+  
+}
+.e-js.e-lv .e-list .e-lv-checkdiv {
+  
+}
+.e-js.e-lv.e-slideleft .e-header {
+  
+}
+.e-js.e-lv.e-slideleft .e-header .e-chevron-left_01 {
+  
+}
+.e-js.e-lv .e-icon.e-chevron-left_01:before {
+  
+}
+.e-js.e-list-container .e-load {
+  background-image: url(images/ajax-loader.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.e-js.e-lv .e-list-container .e-chkbox-wrap .e-chkbox-small > span {
+  
+}

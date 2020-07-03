@@ -1,0 +1,228 @@
+/* need verify with UX team*/
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*----------------------OLAP Definition------------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*----------------------material theme-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: #111111;
+  color: white;
+  border-color: #494949;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+/*Theme Color*/
+
+.e-js.e-lv .e-list-text {
+  
+}
+.e-js.e-lv .e-list-text {
+  font-size: 12px;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+/*List Item*/
+
+.e-js.e-lv .e-list {
+  
+}
+.e-js.e-lv .e-list {
+  border-bottom: 1px solid #494949;
+  font-size: 12px;
+}
+.e-js.e-lv .e-list .e-chevron-right_01.e-fontimage:before {
+  
+}
+.e-js.e-lv .e-list .e-chevron-right_01.e-fontimage:before {
+  color: #cccccc;
+}
+.e-js.e-lv .e-list.e-state-default {
+  background-color: black;
+  border-color: #494949;
+}
+.e-js.e-lv .e-list.e-state-default > .e-chevron-right_01 .e-list-text {
+  
+}
+.e-js.e-lv .e-list.e-state-default > .e-chevron-right_01 .e-list-text {
+  color: #dddddd;
+}
+.e-js.e-lv .e-list.e-state-default:hover {
+  
+}
+.e-js.e-lv .e-list.e-state-default:hover {
+  color: #aaaaaa;
+}
+.e-js.e-lv .e-list.e-state-default:hover {
+  background: #4b2c03;
+}
+.e-js.e-lv .e-list.e-state-default:hover > .e-chevron-right_01 .e-list-text {
+  color: #aaaaaa;
+}
+.e-js.e-lv .e-list:hover > .e-chevron-right_01.e-fontimage:before {
+  color: #efefef;
+}
+.e-js.e-lv .e-list .e-chevron-right_01:hover {
+  color: #aaaaaa;
+}
+.e-js.e-lv .e-list.e-state-active {
+  
+}
+.e-js.e-lv .e-list.e-state-active {
+  color: white;
+}
+.e-js.e-lv .e-list.e-state-active {
+  background: #f9920b;
+}
+.e-js.e-lv .e-list.e-state-active .e-chevron-right_01 .e-list-text {
+  
+}
+.e-js.e-lv .e-list.e-state-active .e-chevron-right_01 .e-list-text {
+  color: white;
+}
+.e-js.e-lv .e-list.e-state-active > .e-chevron-right_01.e-fontimage:before {
+  
+}
+.e-js.e-lv .e-list.e-state-active > .e-chevron-right_01.e-fontimage:before {
+  color: white;
+}
+/*Search Box*/
+
+.e-js.e-lv-inputdiv .e-lv-input {
+  border: 1px solid #494949;
+  border-radius: 7px;
+  font-size: 14px;
+}
+.e-js.e-lv .e-header {
+  
+}
+.e-js.e-lv .e-header {
+  color: #dddddd;
+  border: 1px solid #494949;
+  border-bottom: 3px solid #f9920b;
+}
+.e-js.e-lv .e-header {
+  background: black;
+}
+.e-js.e-lv.e-parentlv > .e-lv .e-list-container {
+  
+}
+.e-js.e-lv.e-parentlv > .e-lv .e-list-container {
+  border-left: 1px solid #494949;
+  border-right: 1px solid #494949;
+  border-top: 1px solid #494949;
+}
+.e-js.e-lv.e-parentlv > .e-lv.subpage {
+  border: none;
+}
+.e-js.e-nb .e-lv .subpage .e-content {
+  float: none;
+}
+.e-js.e-lv > .e-header:hover > .e-icon:before {
+  color: #efefef;
+}
+.e-js.e-lv > .e-header > .e-icon:before,
+.e-js.e-lv > .e-header > .e-icon:hover:before {
+  
+}
+.e-js.e-lv > .e-header > .e-icon:before,
+.e-js.e-lv > .e-header > .e-icon:hover:before {
+  color: #cccccc;
+}
+.e-js.e-lv .e-list .e-lv-checkdiv.e-template-checkmark,
+.e-js.e-lv .e-template-list .e-list-check div {
+  float: none;
+  vertical-align: middle;
+  display: table-cell;
+}
+.e-js.e-lv .e-template-list .e-list-check div {
+  vertical-align: initial;
+}
+.e-js.e-lv .e-template-list .e-list-check {
+  display: table;
+}
+.e-js.e-lv .e-htitle,
+.e-js.e-lv .e-btn-text {
+  
+}
+.e-js .e-htitle,
+.e-js .e-btn-text {
+  
+}
+.e-js.e-lv .e-btn-text {
+  
+}
+.e-js.e-icon.e-chevron-left_01:before {
+  
+}
+.e-js.e-list-container .e-chkbox-wrap .e-chk-image.e-stop,
+.e-js.e-list-container .e-chkbox-wrap .e-chk-image.e-checkmark {
+  
+}
+.e-js.e-list-container .e-chkbox-wrap div > span.e-chk-act,
+.e-js.e-list-container .e-chkbox-wrap div > span.e-chk-indeter {
+  
+}
+.e-js.e-lv .e-list.e-state-default.e-arrow,
+.e-js.e-lv .e-list .e-chevron-right_01 {
+  
+}
+.e-js.e-lv .e-list-container .e-chkbox-wrap {
+  
+}
+.e-js.e-lv .e-list-container .e-icon.e-chevron-right_01:before {
+  
+}
+.e-js.e-lv .e-list .e-chevron-right_01 {
+  
+}
+.e-js.e-lv .e-icon.e-chevron-left_01:before {
+  
+}
+.e-js.e-lv .e-arrow .e-chevron-right_01:before,
+.e-js.e-lv .e-icon.e-chevron-left_01:before {
+  
+}
+.e-js.e-lv .e-list .e-lv-checkdiv {
+  
+}
+.e-js.e-lv.e-slideleft .e-header {
+  
+}
+.e-js.e-lv.e-slideleft .e-header .e-chevron-left_01 {
+  
+}
+.e-js.e-lv .e-icon.e-chevron-left_01:before {
+  
+}
+.e-js.e-list-container .e-load {
+  background-image: url(images/ajax-loader.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.e-js.e-lv .e-list-container .e-chkbox-wrap .e-chkbox-small > span {
+  top: 2px;
+}

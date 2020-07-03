@@ -1,0 +1,209 @@
+/*-----------------------HeatMap Definition-----------------*/
+/*@neutral-light;*/
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*-----------------------OLAP Definition-----------------*/
+/*-----------------------OLAP Definition End-----------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*----------------------material theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+.office-file-explorer-toolbar-bg-color {
+  background: white;
+}
+.office-tab-header-bg-color {
+  background: white;
+}
+/*------------------ material theme ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: white;
+  color: #111111;
+  border-color: #c8c8c8;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-js.e-nb.e-nb-layout.e-nb-right {
+  color: #212121;
+  border-left: 1px solid #c8c8c8;
+  box-shadow: -1px 0 10px 0 black;
+  overflow-y: auto;
+}
+.e-js.e-nb.e-nb-layout.e-nb-right {
+  background: #f4f4f4;
+}
+.e-js.e-nb.e-nb-layout.e-nb-left {
+  background: white;
+  box-shadow: -1px 0 10px 0 black;
+  overflow-y: auto;
+  
+}
+.e-js.e-nb.e-nb-layout.e-nb-left {
+  border: none;
+}
+.e-js.e-lv.subpage {
+  
+}
+.e-js.e-lv.subpage {
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  color: #333333;
+  font-size: 13px;
+  padding: 0;
+  background-color: white;
+  border-bottom: 1px solid #eaeaea;
+  border-left: 1px solid #eaeaea;
+  border-right: 1px solid #eaeaea;
+}
+.e-js.e-lv.subpage .e-list-container div.e-content {
+  padding: 10px;
+}
+.e-js.e-lv .e-lv .e-list-container {
+  border: none;
+}
+.e-js.e-nb .e-nb-listview.e-lv .e-list.e-state-active .e-chevron-right_01 .e-list-text,
+.e-js.e-nb .e-nb-listview.e-lv .e-list.e-state-active .e-home,
+.e-js.e-nb .e-nb-listview.e-lv .e-list.e-state-active .e-profile,
+.e-js.e-nb .e-nb-listview.e-lv .e-list.e-state-active .e-people,
+.e-js.e-nb .e-nb-listview.e-lv .e-list.e-state-active .e-photo,
+.e-js.e-nb .e-nb-listview.e-lv .e-list.e-state-active .e-communities,
+.e-js.e-nb .e-nb-listview.e-lv .e-list.e-state-active .e-location {
+  
+}
+.e-js.e-nb .e-nb-listview.e-lv .e-list.e-state-active .e-chevron-right_01 .e-list-text,
+.e-js.e-nb .e-nb-listview.e-lv .e-list.e-state-active .e-home,
+.e-js.e-nb .e-nb-listview.e-lv .e-list.e-state-active .e-profile,
+.e-js.e-nb .e-nb-listview.e-lv .e-list.e-state-active .e-people,
+.e-js.e-nb .e-nb-listview.e-lv .e-list.e-state-active .e-photo,
+.e-js.e-nb .e-nb-listview.e-lv .e-list.e-state-active .e-communities,
+.e-js.e-nb .e-nb-listview.e-lv .e-list.e-state-active .e-location {
+  color: #0078d7;
+}
+.e-js.e-nb .e-nb-listview.e-lv .e-list.e-state-active {
+  background-color: #f4f4f4;
+  border-left: 2px solid #0078d7;
+}
+.e-js.e-nb .e-nb-listview.e-lv .e-list:hover {
+  background-color: #f8f8f8;
+}
+.e-js.e-nb .e-nb-listview.e-lv .e-list {
+  
+}
+.e-js.e-nb .e-nb-listview.e-lv .e-list {
+  height: 44px;
+  padding: 0;
+}
+.e-js.e-nb .e-nb-listview.e-lv .e-list .e-list-text {
+  
+}
+.e-js.e-nb .e-nb-listview.e-lv .e-list .e-list-text {
+  font-size: 14px;
+  color: #333333;
+}
+.e-js.e-lv .e-header {
+  
+}
+.e-js.e-nb.e-nb-overlay {
+  
+}
+.e-js.e-nb.e-nb-overlay {
+  background-color: black;
+  opacity: 0.4;
+}
+.e-js.e-nb .e-nb-listview.e-lv .e-list.e-margin .e-chevron-right_01 span {
+  
+}
+.e-js.e-nb .e-nb-listview.e-lv .e-list.e-margin .e-chevron-right_01 span {
+  left: 8px;
+  top: 6px;
+}
+.e-js.e-nb .e-nb-listview.e-lv .e-list .e-list-img {
+  
+}
+.e-js.e-nb .e-nb-listview.e-lv .e-list .e-list-img {
+  padding-left: 12px;
+  padding-top: 6px;
+  font-size: 16px;
+  height: 20px;
+  width: 20px;
+}
+.e-js.e-nb .e-nb-listview.e-lv.e-parentlv > .e-lv .e-list-container {
+  border: none;
+}
+.e-js.e-nb-container .e-icon + .e-nb-listview .e-lv .e-list-hdr {
+  margin-top: 0;
+}
+.e-js.e-nb .e-nb-listview.e-lv .e-list-hdr {
+  margin-top: 8px;
+}
+.e-js.e-lv.e-navigation .e-header h2 {
+  
+}
+.e-js.e-lv.e-navigation .e-header h2 {
+  font-size: 17px;
+  font-weight: 300;
+  padding-left: 20px;
+  color: white;
+}
+.e-js.e-lv.e-navigation .e-header > .e-icon:before {
+  color: white;
+  line-height: 15px;
+  font-size: 20px;
+  height: 14px;
+}
+.e-js.e-lv.e-navigation .e-header .drawericon {
+  
+}
+.e-js.e-lv.e-navigation .e-header .drawericon {
+  height: 44px;
+  width: 44px;
+  padding: 0;
+}
+.e-js.e-lv.e-navigation .e-header .drawericon:before {
+  
+}
+.e-js.e-lv.e-navigation > .e-header > .e-icon:hover:before {
+  
+}
+.e-js.e-lv.e-navigation .e-header {
+  
+}
+.e-js.e-lv.e-navigation .e-header {
+  padding: 0;
+  height: 44px;
+  box-shadow: none;
+  border: none;
+  background: #0078d7;
+}
+.e-js.e-nb-listview .e-list-img.e-home,
+.e-js.e-nb-listview .e-list-img.e-profile,
+.e-js.e-nb-listview .e-list-img.e-people,
+.e-js.e-nb-listview .e-list-img.e-photo,
+.e-js.e-nb-listview .e-list-img.e-communities,
+.e-js.e-nb-listview .e-list-img.e-location {
+  
+}
+.e-js.e-nb .e-nb-listview.e-lv .e-list.e-margin .e-chevron-right_01 {
+  
+}

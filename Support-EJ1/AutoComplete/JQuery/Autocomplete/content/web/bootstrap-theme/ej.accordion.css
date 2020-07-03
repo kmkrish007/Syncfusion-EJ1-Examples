@@ -1,0 +1,283 @@
+/*@pager-currentitem:#428BCA;*/
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*-----------------------OLAP Definition Start-----------------*/
+.e-pivotclient .removeSplitBtn {
+  border-radius: 4px;
+}
+/*-----------------------OLAP Definition End------------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*----------------------material theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: white;
+  color: #111111;
+  border-color: #cecece;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+/*Theme Color*/
+
+.e-acrdn {
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-acrdn > .e-content {
+  border-color: #cecece;
+  background-color: white;
+  
+}
+.e-acrdn > .e-content {
+  
+  border-right: -1;
+  border-left: -1;
+}
+.e-acrdn > .e-content {
+  /*other*/
+  color: #333333;
+  font-size: 14px;
+}
+.e-acrdn > .e-select,
+.e-acrdn > .e-disable.e-select:hover,
+.e-acrdn > .e-disable.e-select:hover a {
+  
+}
+.e-acrdn > .e-select,
+.e-acrdn > .e-disable.e-select:hover,
+.e-acrdn > .e-disable.e-select:hover a {
+  /*other*/
+
+  color: #333333;
+}
+.e-acrdn > .e-select,
+.e-acrdn > .e-disable.e-select:hover,
+.e-acrdn > .e-disable.e-select:hover a {
+  background: #fcfcfc;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #fcfcfc, #e0e0e0);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fcfcfc), color-stop(100%, #e0e0e0));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #fcfcfc, #e0e0e0);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #fcfcfc, #e0e0e0);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #fcfcfc, #e0e0e0);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #fcfcfc, #e0e0e0);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcfcfc', endColorstr='#e0e0e0', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-acrdn .e-select {
+  
+  font-weight: normal;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-acrdn .e-select {
+  
+}
+.e-acrdn .e-select {
+  /*other*/
+  border-color: #cecece;
+  font-size: 16px;
+}
+.e-acrdn .e-select:hover {
+  
+}
+.e-acrdn .e-select:hover {
+  
+}
+.e-acrdn .e-select:hover {
+  /*other*/
+
+  color: #333333;
+  border-color: #cecece;
+}
+.e-acrdn .e-select:hover {
+  background: #f4f4f4;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #f4f4f4, #e9e9e9);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f4f4f4), color-stop(100%, #e9e9e9));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #f4f4f4, #e9e9e9);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #f4f4f4, #e9e9e9);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #f4f4f4, #e9e9e9);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #f4f4f4, #e9e9e9);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f4f4f4', endColorstr='#e9e9e9', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-acrdn .e-select a {
+  
+}
+.e-acrdn .e-select a {
+  color: #333333;
+}
+.e-acrdn .e-select:first-child {
+  
+}
+.e-acrdn .e-select:first-child {
+  border-top-color: #cecece;
+}
+.e-acrdn > .e-select:first-child {
+  
+}
+.e-acrdn > .e-select:first-child {
+  
+}
+.e-acrdn > .e-select:first-child {
+  /*other*/
+  border-color: #cecece;
+}
+.e-acrdn .e-select:last-of-type {
+  
+}
+.e-acrdn .e-select.e-active,
+.e-acrdn .e-disable.e-active.e-select:hover a,
+.e-acrdn .e-disable.e-active.e-select:hover {
+  
+}
+.e-acrdn .e-select.e-active,
+.e-acrdn .e-disable.e-active.e-select:hover a,
+.e-acrdn .e-disable.e-active.e-select:hover {
+  
+}
+.e-acrdn .e-select.e-active,
+.e-acrdn .e-disable.e-active.e-select:hover a,
+.e-acrdn .e-disable.e-active.e-select:hover {
+  /*other*/
+
+  color: white;
+}
+.e-acrdn .e-select.e-active,
+.e-acrdn .e-disable.e-active.e-select:hover a,
+.e-acrdn .e-disable.e-active.e-select:hover {
+  background: #3277b2;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #3277b2, #296293);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3277b2), color-stop(100%, #296293));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #3277b2, #296293);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #3277b2, #296293);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #3277b2, #296293);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #3277b2, #296293);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3277b2', endColorstr='#296293', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-acrdn.e-disable .e-select:hover,
+.e-acrdn.e-disable .e-select:hover a {
+  background: #ecedee;
+  color: #5c5c5c;
+}
+.e-acrdn .e-select.e-active {
+  
+  font-weight: normal;
+  border-bottom: medium none;
+}
+.e-acrdn .e-select.e-active {
+  /*other*/
+  border-color: #cecece;
+}
+.e-acrdn .e-select.e-active:hover {
+  
+}
+.e-acrdn .e-select.e-active:hover {
+  /*other*/
+
+  color: #333333;
+  border-color: #cecece;
+}
+.e-acrdn .e-select.e-active:hover {
+  background: #f4f4f4;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #f4f4f4, #e9e9e9);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f4f4f4), color-stop(100%, #e9e9e9));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #f4f4f4, #e9e9e9);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #f4f4f4, #e9e9e9);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #f4f4f4, #e9e9e9);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #f4f4f4, #e9e9e9);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f4f4f4', endColorstr='#e9e9e9', GradientType=0);
+  /* IE6-9 */
+
+}
+.e-acrdn .e-select.e-active a {
+  
+}
+.e-acrdn .e-select.e-active a {
+  /*other*/
+  color: white;
+}
+.e-acrdn .e-select:hover a,
+.e-acrdn .e-select.e-active:hover a {
+  
+}
+.e-acrdn .e-select:hover a,
+.e-acrdn .e-select.e-active:hover a {
+  /*other*/
+  color: #333333;
+}
+.e-acrdn .e-select > span {
+  color: #666666;
+}
+.e-acrdn .e-select.e-active > span {
+  
+}
+.e-acrdn .e-select.e-active > span {
+  /*other*/
+  color: white;
+}
+.e-acrdn .e-select:hover > span,
+.e-acrdn .e-select.e-active:hover > span {
+  color: #333333;
+}
+.e-acrdn .e-select.e-disable:hover > span,
+.e-acrdn .e-select.e-disable.e-active:hover > span {
+  color: #666666;
+}
+.e-acrdn .e-content.e-load {
+  background-image: url(images/ajax-loader.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+}

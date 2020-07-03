@@ -1,0 +1,258 @@
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*-----------------------OLAP Definition-----------------*/
+/*-----------------------OLAP Definition End-----------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*------------------ DatePicker ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: white;
+  color: #111111;
+  border-color: #e0e0e0;
+  font-family: 'Roboto', Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+/*Theme Color*/
+
+.e-gantt .e-toolbaricons {
+  
+}
+.e-gantt .e-toolbaricons {
+  color: rgba(0, 0, 0, 0.54);
+}
+.e-search.e-tooltxt.e-hover {
+  color: #424242 !important;
+}
+.e-gantt .e-tooltxt.e-hover > span {
+  color: #424242;
+}
+.e-gantt .e-gantt-Spliter {
+  border-top-color: #e0e0e0 !important;
+  border-bottom-color: #e0e0e0 !important;
+}
+.e-gantt .e-editValue .e-treegrid .e-headercell {
+  border-bottom-color: #e0e0e0 !important;
+  background-color: white !important;
+}
+.e-ganttdialog .e-ejinputtext,
+.e-gantt .e-ejinputtext {
+  
+  color: #212121;
+  outline: none;
+  border-style: solid;
+  border-color: #e0e0e0;
+  vertical-align: baseline;
+}
+.e-ganttdialog .e-ejinputtext,
+.e-gantt .e-ejinputtext {
+  border-width: 0px 0px 1px 0px;
+  background-color: transparent;
+}
+.e-ganttdialog .e-ejinputtext:hover,
+.e-gantt .e-ejinputtext:hover {
+  box-shadow: none;
+}
+.e-ganttdialog .e-ejinputtext:focus,
+.e-gantt .e-ejinputtext:focus {
+  
+}
+.e-ganttdialog .e-ejinputtext:focus,
+.e-gantt .e-ejinputtext:focus {
+  box-shadow: none;
+  border-width: 0px 0px 2px 0px;
+  border-color: #ff4081;
+}
+.e-deletepre.e-icon,
+.e-addpre.e-icon {
+  font-family: 'Roboto', Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-gantt .e-splitter .e-hover.e-splitbar.e-split-divider {
+  
+}
+.e-gantt .e-splitter .e-hover.e-splitbar.e-split-divider {
+  border-color: #e0e0e0;
+}
+.e-gantt .e-splitter .e-splitbar.e-split-divider:hover {
+  border-color: #e0e0e0;
+}
+.e-gantt .e-gantttoolbar li.e-hover {
+  border-color: transparent;
+}
+.e-gantt .e-treegrid .e-gridheader {
+  background: #fafafa;
+  color: rgba(0, 0, 0, 0.87);
+  border-color: #e0e0e0;
+}
+.e-gantt .e-treegrid .e-headercelldiv {
+  color: rgba(0, 0, 0, 0.87);
+}
+.e-gantt .e-treegrid .e-headercelldiv .e-descending,
+.e-gantt .e-treegrid .e-headercelldiv .e-ascending,
+.e-gantt .e-treegrid .e-headercell .e-columnmenu-icon {
+  color: rgba(0, 0, 0, 0.54);
+}
+.e-gantt .e-treegrid .e-headercell {
+  border-top-color: #e0e0e0 !important;
+  
+}
+.e-gantt .e-treegrid .e-headercell {
+  border-right-color: rgba(0, 0, 0, 0.12) !important;
+}
+.e-ganttdialog .e-tab .e-header.e-addborderbottom .e-active {
+  
+}
+.e-ganttdialog .e-tab .e-header.e-addborderbottom .e-active {
+  border-top: solid 0px transparent !important;
+}
+.e-ganttdialog .e-titlebar {
+  
+}
+.e-ganttdialog .e-titlebar {
+  border-bottom: 1px solid transparent !important;
+}
+.e-gantt .e-search .e-ejinputtext {
+  font-family: 'Roboto', Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  border-width: 1px;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.87);
+  height: 24px;
+  margin: 0px !important;
+  border-radius: 2px;
+  border-color: rgba(0, 0, 0, 0.26);
+  background: white;
+}
+.e-gantt .e-search .e-ejinputtext:focus {
+  border-color: rgba(0, 0, 0, 0.54);
+}
+.e-gantt .e-search .e-ejinputtext::-webkit-input-placeholder {
+  font-family: 'Roboto', Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.87);
+}
+.e-gantt .e-search .e-ejinputtext:-moz-placeholder {
+  font-family: 'Roboto', Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.87);
+}
+.e-gantt .e-search .e-ejinputtext::-moz-placeholder {
+  font-family: 'Roboto', Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.87);
+}
+.e-gantt .e-search .e-ejinputtext:-ms-input-placeholder {
+  font-family: 'Roboto', Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.87);
+}
+.e-gantt .e-search .e-ejinputtext::selection,
+.e-ganttdialog .e-ejinputtext::selection {
+  background: #ff4081;
+  color: white;
+}
+.e-gantt .e-toolbar > .e-horizontal.e-ul:first-child {
+  padding-left: 20px;
+  box-sizing: border-box;
+  margin-top: 0px !important;
+}
+.e-ganttdialog .e-ejinputtext {
+  border-width: 0px 0px 1px 0px;
+  color: rgba(0, 0, 0, 0.87);
+}
+.e-ganttdialog .e-ejinputtext:focus {
+  box-shadow: none;
+  border-width: 0px 0px 2px 0px;
+  border-color: #ff4081;
+}
+.e-ganttdialog .e-titlebar.e-dialog {
+  background: #3f51b5;
+  color: white;
+  font-family: 'Roboto', Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-ganttdialog .e-dialog-icon:before,
+.e-ganttdialog .e-tab .e-header.e-addborderbottom .e-active .e-link {
+  color: white;
+}
+.e-ganttdialog .e-dialog-icon:hover {
+  background: none;
+}
+.e-ganttdialog .e-dialog-icon:before:hover {
+  background: transparent;
+  color: black;
+}
+.e-ganttdialog .e-addborderbottom.e-header {
+  background: #3f51b5;
+}
+.e-ganttdialog .e-tab .e-header li a,
+.e-ganttdialog .e-tab .e-header li a:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+.e-ganttdialog .e-tab.e-js .e-header > .e-item:hover {
+  background: none;
+}
+.e-ganttdialog .e-general-edit-div {
+  font-family: 'Roboto', Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.38);
+}
+.e-ganttdialog .e-editform-btn .e-btn.e-select,
+.e-ganttdialog .e-editform-btn .e-btn.e-select:hover,
+.e-ganttdialog .e-editform-btn .e-btn.e-select:active {
+  color: #ff4081;
+  border-width: 0px;
+}
+.e-ganttdialog .e-editform-btn .e-btn.e-select,
+.e-ganttdialog .e-editform-btn .e-btn.e-select:hover {
+  background: none;
+  box-shadow: none;
+}
+.e-ganttdialog .e-editform-btn .e-btn.e-select:hover {
+  background: rgba(0, 0, 0, 0.12);
+}
+.e-ganttdialog .e-editform-btn .e-btn.e-select:active {
+  box-shadow: none;
+  background: rgba(255, 64, 129, 0.12);
+}
+.e-gantt .e-gantt-search-container {
+  margin-top: 0px !important;
+}
+.e-gantt .e-ganttpopup .e-popupcontent {
+  background-color: white;
+  border-color: #e0e0e0;
+}
+.e-gantt .e-ganttpopup span:hover,
+.e-gantt .e-ganttpopup .e-spanclicked {
+  border-color: #424242;
+}
+.e-gantt .e-ganttpopup .e-downtail:before,
+.e-gantt .e-ganttpopup .e-downtail {
+  border-top-color: #e0e0e0;
+}
+.e-gantt .e-ganttpopup .e-downtail:after {
+  border-top-color: white;
+}
+

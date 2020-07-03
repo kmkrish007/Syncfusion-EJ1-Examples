@@ -1,0 +1,185 @@
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*-----------------------OLAP Definition-----------------*/
+/*-----------------------OLAP Definition End-----------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*------------------ DatePicker ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: white;
+  color: #111111;
+  border-color: #e0e0e0;
+  font-family: 'Roboto', Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-js.e-nb.e-nb-layout.e-nb-right {
+  color: #212121;
+  border-left: 1px solid #e0e0e0;
+  box-shadow: -1px 0 10px 0 black;
+  overflow-y: auto;
+}
+.e-js.e-nb.e-nb-layout.e-nb-right {
+  background: whitesmoke;
+}
+.e-js.e-nb.e-nb-layout.e-nb-left {
+  background: white;
+  box-shadow: -1px 0 10px 0 black;
+  overflow-y: auto;
+  
+}
+.e-js.e-nb.e-nb-layout.e-nb-left {
+  border: 1px solid #e0e0e0;
+}
+.e-js.e-lv.subpage {
+  
+}
+.e-js.e-lv.subpage {
+  border-bottom: 1px solid #e0e0e0;
+  border-left: 1px solid #e0e0e0;
+  border-right: 1px solid #e0e0e0;
+}
+.e-js.e-lv.subpage .e-list-container div.e-content {
+  
+}
+.e-js.e-lv .e-lv .e-list-container {
+  border: none;
+}
+.e-js.e-lv.e-navigation > .e-header > .e-icon:hover:before {
+  opacity: 0.7;
+  color: #424242;
+}
+.e-js.e-nb .e-nb-listview.e-lv .e-list.e-state-active .e-chevron-right_01 .e-list-text,
+.e-js.e-nb .e-nb-listview.e-lv .e-list.e-state-active .e-home,
+.e-js.e-nb .e-nb-listview.e-lv .e-list.e-state-active .e-profile,
+.e-js.e-nb .e-nb-listview.e-lv .e-list.e-state-active .e-people,
+.e-js.e-nb .e-nb-listview.e-lv .e-list.e-state-active .e-photo,
+.e-js.e-nb .e-nb-listview.e-lv .e-list.e-state-active .e-communities,
+.e-js.e-nb .e-nb-listview.e-lv .e-list.e-state-active .e-location {
+  
+}
+.e-js.e-nb .e-nb-listview.e-lv .e-list.e-state-active .e-chevron-right_01 .e-list-text,
+.e-js.e-nb .e-nb-listview.e-lv .e-list.e-state-active .e-home,
+.e-js.e-nb .e-nb-listview.e-lv .e-list.e-state-active .e-profile,
+.e-js.e-nb .e-nb-listview.e-lv .e-list.e-state-active .e-people,
+.e-js.e-nb .e-nb-listview.e-lv .e-list.e-state-active .e-photo,
+.e-js.e-nb .e-nb-listview.e-lv .e-list.e-state-active .e-communities,
+.e-js.e-nb .e-nb-listview.e-lv .e-list.e-state-active .e-location {
+  color: #ff4081;
+}
+.e-js.e-nb .e-nb-listview.e-lv .e-list.e-state-active {
+  
+}
+.e-js.e-nb .e-nb-listview.e-lv .e-list:hover {
+  
+}
+.e-js.e-nb .e-nb-listview.e-lv .e-list {
+  
+}
+.e-js.e-nb .e-nb-listview.e-lv .e-list {
+  padding-left: 24px;
+}
+.e-js.e-nb .e-nb-listview.e-lv .e-list .e-list-text {
+  
+}
+.e-js.e-nb .e-nb-listview.e-lv .e-list .e-list-text {
+  padding-left: 24px;
+  color: rgba(0, 0, 0, 0.87);
+}
+.e-js.e-lv .e-header {
+  box-shadow: 0 1.83px 1px transparent;
+}
+.e-js.e-nb.e-nb-overlay {
+  
+}
+.e-js.e-nb.e-nb-overlay {
+  background-color: #383838;
+  opacity: 0.5;
+}
+.e-js.e-nb .e-nb-listview.e-lv .e-list.e-margin .e-chevron-right_01 span {
+  
+}
+.e-js.e-nb .e-nb-listview.e-lv .e-list.e-margin .e-chevron-right_01 span {
+  top: 5px;
+}
+.e-js.e-nb .e-nb-listview.e-lv .e-list .e-list-img {
+  
+}
+.e-js.e-nb .e-nb-listview.e-lv .e-list .e-list-img {
+  margin-top: -4px;
+}
+.e-js.e-nb .e-nb-listview.e-lv.e-parentlv > .e-lv .e-list-container {
+  
+}
+.e-js.e-nb-container .e-icon + .e-nb-listview .e-lv .e-list-hdr {
+  
+}
+.e-js.e-nb .e-nb-listview.e-lv .e-list-hdr {
+  
+}
+.e-js.e-lv.e-navigation .e-header h2 {
+  
+}
+.e-js.e-lv.e-navigation .e-header h2 {
+  padding-top: 11px;
+  padding-left: 24px;
+  color: white;
+  font-size: 20px;
+}
+.e-js.e-lv.e-navigation .e-header > .e-icon:before {
+  
+}
+.e-js.e-lv.e-navigation .e-header .drawericon {
+  
+}
+.e-js.e-lv.e-navigation .e-header .drawericon {
+  padding-top: 10px;
+}
+.e-js.e-lv.e-navigation .e-header .drawericon:before {
+  color: white;
+}
+.e-js.e-lv.e-navigation > .e-header > .e-icon:hover:before {
+  color: white;
+  opacity: 1.5;
+}
+.e-js.e-lv.e-navigation .e-header {
+  
+}
+.e-js.e-lv.e-navigation .e-header {
+  background: #3f51b5 !important;
+}
+.e-js.e-nb-listview .e-list-img.e-home,
+.e-js.e-nb-listview .e-list-img.e-profile,
+.e-js.e-nb-listview .e-list-img.e-people,
+.e-js.e-nb-listview .e-list-img.e-photo,
+.e-js.e-nb-listview .e-list-img.e-communities,
+.e-js.e-nb-listview .e-list-img.e-location {
+  color: rgba(0, 0, 0, 0.54);
+}
+.e-js.e-nb .e-nb-listview.e-lv .e-list.e-margin .e-chevron-right_01 {
+  line-height: normal;
+}

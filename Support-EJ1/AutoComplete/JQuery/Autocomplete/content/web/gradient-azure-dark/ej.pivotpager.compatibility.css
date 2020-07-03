@@ -1,0 +1,252 @@
+/* need verify with UX team*/
+.pager-hover-gradient {
+  background: #2f4651;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #2f4651, #133a4c);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2f4651), color-stop(100%, #133a4c));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #2f4651, #133a4c);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #2f4651, #133a4c);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #2f4651, #133a4c);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #2f4651, #133a4c);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2f4651', endColorstr='#133a4c', GradientType=0);
+  /* IE6-9 */
+
+}
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*----------------------OLAP Definition------------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*----------------------material theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: #111111;
+  color: white;
+  border-color: #494949;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-js.e-pivotpager .e-pagerTextBox {
+  display: inline-block;
+  
+}
+.e-js.e-pivotpager .e-pagerTextBox {
+  height: 18px;
+  width: 35px;
+  color: #cccccc;
+}
+.e-js.e-pivotpager *:focus:hover {
+  outline: none;
+}
+
+.e-js.e-pivotpager .e-movePrevious,
+.e-js.e-pivotpager .e-moveNext,
+.e-js.e-pivotpager .e-moveFirst,
+.e-js.e-pivotpager .e-moveLast {
+  display: inline-block;
+  
+  position: relative;
+  top: 1px;
+  cursor: pointer;
+}
+.e-js.e-pivotpager .e-movePrevious,
+.e-js.e-pivotpager .e-moveNext,
+.e-js.e-pivotpager .e-moveFirst,
+.e-js.e-pivotpager .e-moveLast {
+  width: 18px;
+  height: 18px;
+}
+.e-js.e-pivotpager .e-moveFirst:before {
+  
+  font-size: 14px;
+}
+.e-js.e-pivotpager .e-moveFirst:before {
+  content: "\e62a";
+}
+.e-js.e-pivotpager .e-moveFirst:before {
+  margin-left: 5px;
+}
+.e-js.e-pivotpager .e-moveLast:before {
+  
+  font-size: 14px;
+}
+.e-js.e-pivotpager .e-moveLast:before {
+  content: "\e62c";
+}
+.e-js.e-pivotpager .e-moveLast:before {
+  margin-left: 5px;
+}
+.e-js.e-pivotpager .e-categPagerTd {
+  
+}
+.e-js.e-pivotpager .e-categPagerTd {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #cccccc;
+}
+.e-js.e-pivotpager.e-rtl .e-categPagerTd {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #cccccc;
+  border-right-style: hidden !important;
+}
+.e-js.e-pivotpager.e-rtl .e-pagerDiv,
+.e-js.e-pivotpager.e-rtl .e-seriesPagerTd {
+  direction: ltr;
+}
+.e-js.e-pivotpager .e-movePrevious:before {
+  
+  font-size: 14px;
+}
+.e-js.e-pivotpager .e-movePrevious:before {
+  content: "\e665";
+}
+.e-js.e-pivotpager .e-movePrevious:before {
+  margin-left: 5px;
+}
+.e-js.e-pivotpager .e-moveNext:before {
+  
+  font-size: 14px;
+}
+.e-js.e-pivotpager .e-moveNext:before {
+  content: "\e67e";
+}
+.e-js.e-pivotpager .e-moveNext:before {
+  margin-left: 5px;
+}
+.e-js.e-pivotpager .e-categPageCount,
+.e-js.e-pivotpager .e-seriesPageCount {
+  cursor: default;
+  
+}
+.e-js.e-pivotpager .e-categPageCount,
+.e-js.e-pivotpager .e-seriesPageCount {
+  padding: 0px 0px 0px 5px;
+}
+.e-js.e-pivotpager .e-pagerDiv {
+  
+}
+.e-js.e-pivotpager .e-pagerDiv {
+  margin: 3px;
+  padding: 7px;
+  color: #cccccc;
+}
+.e-js.e-pivotpager .e-pagerLabel {
+  cursor: default;
+  display: inline-block;
+  
+}
+.e-js.e-pivotpager .e-pagerLabel {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.e-js.e-pivotpager .e-disabled {
+  
+  cursor: default !important;
+}
+.e-js.e-pivotpager .e-disabled {
+  opacity: 0.4;
+}
+.e-js.e-pivotpager .pivotpager {
+  overflow: auto;
+}
+.e-js.e-pivotpager input {
+  background: black;
+}
+.e-js.e-pivotpager .e-pagerTextBox:active,
+.e-js.e-pivotpager .e-pagerTextBox:focus {
+  
+}
+.e-js.e-pivotpager .e-pagerTextBox:hover {
+  
+}
+.e-js.e-pivotpager .e-categPagerTd .e-pagerDiv {
+  
+}
+.e-js.e-pivotpager .e-seriesPagerTd .e-pagerDiv {
+  
+}
+.e-js.e-pivotpager.e-rtl .e-categPagerTd .e-pagerDiv {
+  
+}
+.e-js.e-pivotpager.e-rtl .e-seriesPagerTd .e-pagerDiv {
+  
+}
+.e-js.e-pivotpager .e-moveFirst:before {
+  
+}
+.e-js.e-pivotpager .e-movePrevious:hover,
+.e-js.e-pivotpager .e-moveNext:hover,
+.e-js.e-pivotpager .e-moveFirst:hover,
+.e-js.e-pivotpager .e-moveLast:hover {
+  
+}
+.e-js.e-pivotpager .e-movePrevious:active,
+.e-js.e-pivotpager .e-moveNext:active,
+.e-js.e-pivotpager .e-moveFirst:active,
+.e-js.e-pivotpager .e-moveLast:active {
+  
+}
+.e-js.e-pivotpager .e-disabled:hover,
+.e-js.e-pivotpager .e-disabled:active {
+  
+}
+.e-js.e-pivotpager .e-pagerLabel,
+.e-js.e-pivotpager .e-seriesPageCount,
+.e-js.e-pivotpager .e-categPageCount,
+.e-js.e-pivotpager .e-pagerTextBox,
+.e-js.e-pivotpager .e-movePrevious,
+.e-js.e-pivotpager .e-moveNext,
+.e-js.e-pivotpager .e-moveFirst,
+.e-js.e-pivotpager .e-moveLast {
+  
+}
+.e-js.e-pivotpager .e-movePrevious:before,
+.e-js.e-pivotpager .e-moveNext:before,
+.e-js.e-pivotpager .e-moveFirst:before,
+.e-js.e-pivotpager .e-moveLast:before {
+  
+}
+.e-js.e-pivotpager tr {
+  
+}
+.e-js.e-pivotpager .e-movePrevious.e-disabled,
+.e-js.e-pivotpager .e-moveNext.e-disabled,
+.e-js.e-pivotpager .e-moveFirst.e-disabled,
+.e-js.e-pivotpager .e-moveLast.e-disabled {
+  
+}
+.e-js.e-pivotpager table {
+  background-color: black;
+  
+}

@@ -1,0 +1,796 @@
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*----------------------OLAP Definition------------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*----------------------material theme-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: white;
+  color: #111111;
+  border-color: #c8c8c8;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-ribbon.e-js .e-header .e-bottom-line.e-select.e-item,
+.e-ribbon.e-js .e-header .e-top-line.e-select.e-item {
+  background: transparent;
+  outline: none;
+  outline-offset: 0;
+}
+.e-ribbon.e-js.e-widget {
+  font-size: 14px;
+}
+.e-widgetej-ribbon {
+  display: block;
+}
+.e-widget.e-ribbon .e-rbn-button.e-button .e-btntxt {
+  white-space: pre-wrap;
+  
+}
+.e-ribbon.e-js .e-header .e-select.e-disable .e-apptabanchor {
+  
+}
+.e-ribbon.e-js .e-groupdiv .e-disable .e-icon {
+  
+}
+.e-widget.e-ribbon .e-rbn-button.e-btn.e-select:focus {
+  box-shadow: none;
+}
+.e-widget.e-ribbon .e-groupdiv > div:after {
+  
+}
+.e-widget.e-ribbon .e-groupdiv > div:after {
+  /*other*/
+  background: #c8c8c8;
+}
+.e-widget.e-ribbon .e-ribbonbackicon {
+  background: #aecf49;
+}
+.e-widget.e-ribbon .e-backstagetopicon span:hover:before {
+  /*other*/
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+.e-widget.e-ribbon .e-captionarea {
+  
+}
+.e-widget.e-ribbon .e-captionarea {
+  /*other*/
+  color: #333333;
+}
+.e-widget .e-separatordiv,
+.e-widget .e-separatordivrow {
+  background: #c8c8c8;
+}
+.e-ribbon.e-js .e-content {
+  
+  border-top-width: 0;
+  color: #333333;
+}
+.e-ribbon.e-js .e-content {
+  /*other*/
+  background: white;
+}
+.e-ribbon.e-js .e-content {
+  /*not office-365*/
+  border-color: #c8c8c8;
+}
+.e-widget.e-ribbon .e-drp-btn.e-select .e-icon,
+.e-widget.e-ribbon .e-btn.e-select .e-icon {
+  
+}
+.e-widget.e-ribbon .e-rbn-ddl.e-ddl .e-select {
+  background: white;
+  border-color: #c8c8c8;
+  color: #686969;
+  filter: none;
+}
+.e-widget.e-ribbon .e-rbn-ddl.e-ddl .e-select:hover {
+  color: #282827;
+}
+.e-widget.e-ribbon .e-rbn-ddl.e-ddl .e-select:hover {
+  background: #cee292;
+}
+.e-widget.e-ribbon .e-expandcollapse span:hover,
+.e-widget.e-ribbon .e-expander:hover {
+  border-color: #c8c8c8;
+  
+}
+.e-widget.e-ribbon .e-expandcollapse span:hover,
+.e-widget.e-ribbon .e-expander:hover {
+  /*other*/
+
+  color: #282827;
+}
+.e-widget.e-ribbon .e-expandcollapse span:hover,
+.e-widget.e-ribbon .e-expander:hover {
+  background: #cee292;
+}
+.e-widget.e-ribbon .e-expandcollapse span,
+.e-widget.e-ribbon .e-expander {
+  
+}
+.e-widget.e-ribbon .e-expandcollapse span,
+.e-widget.e-ribbon .e-expander {
+  /*other*/
+  color: #686969;
+}
+.e-ribbon.e-js .e-header,
+.e-ribbon.e-js .e-left,
+.e-ribbon.e-js .e-right {
+  
+}
+.e-ribbon.e-js .e-header,
+.e-ribbon.e-js .e-left,
+.e-ribbon.e-js .e-right {
+  background: #fcfcfc;
+}
+.e-ribbon.e-js .e-header,
+.e-ribbon.e-js .e-left,
+.e-ribbon.e-js .e-right {
+  border: 1px solid #c8c8c8;
+}
+.e-ribbon.e-js .e-header > .e-select,
+.e-widget.e-ribbon.e-js .e-header > .e-active,
+.e-ribbon.e-js .e-left > .e-active,
+.e-ribbon.e-js .e-right > .e-active,
+.e-ribbon.e-js .e-left > .e-select,
+.e-ribbon.e-js .e-right > .e-select {
+  
+}
+.e-ribbon.e-js .e-header > .e-select,
+.e-widget.e-ribbon.e-js .e-header > .e-active,
+.e-ribbon.e-js .e-left > .e-active,
+.e-ribbon.e-js .e-right > .e-active,
+.e-ribbon.e-js .e-left > .e-select,
+.e-ribbon.e-js .e-right > .e-select {
+  background: transparent;
+  border: none;
+}
+.e-ribbon.e-js .e-header > .e-select:not(.e-apptab) a,
+.e-ribbon.e-tab.e-js .e-header .e-select.e-disable a:hover {
+  
+}
+.e-ribbon.e-js .e-header > .e-select:not(.e-apptab) a,
+.e-ribbon.e-tab.e-js .e-header .e-select.e-disable a:hover {
+  color: #282827;
+}
+.e-widget.e-ribbon .e-apptab .e-menu .e-active > a,
+.e-widget.e-ribbon .e-apptab .e-menu .e-active span {
+  
+}
+.e-widget.e-ribbon .e-apptab .e-menu .e-active > a,
+.e-widget.e-ribbon .e-apptab .e-menu .e-active span {
+  color: #282827 !important;
+}
+.e-ribbon.e-js .e-header li.e-select:not(.e-apptab) a:hover {
+  color: #aecf49;
+}
+.e-ribbon.e-js .e-header .e-active.e-tab a:hover,
+.e-ribbon.e-js .e-header .e-active.e-contextualtabset a:hover {
+  color: none;
+}
+.e-ribbon.e-js .e-header .e-active.e-tab a,
+.e-ribbon.e-js .e-header .e-active.e-contextualtabset a {
+  
+}
+.e-widget.e-ribbon .e-apptab .e-menu ul > li > a {
+  color: #282827 !important;
+}
+.e-widget.e-ribbon.e-grpdivhide {
+  border-right: 1px solid #c8c8c8 !important;
+}
+.e-widget.e-ribbon.e-rtl.e-grpdivhide {
+  border-left: 1px solid #c8c8c8 !important;
+}
+.e-widget.e-ribbon .e-header > .e-apptab .e-menu {
+  background: #aecf49;
+}
+.e-ribbon.e-js .e-header .e-apptab .e-menu > li:first-child > a,
+.e-ribbon.e-js .e-header .e-apptab .e-menu > li:first-child > a > span {
+  
+}
+.e-ribbon.e-js .e-header .e-apptab .e-menu > li:first-child > a,
+.e-ribbon.e-js .e-header .e-apptab .e-menu > li:first-child > a > span {
+  color: white;
+}
+.e-ribbon.e-js .e-header > .e-item:hover {
+  background: transparent;
+  border: none;
+}
+.e-ribbon.e-js .e-header .e-active.e-tab a,
+.e-ribbon.e-js .e-header .e-active.e-contextualtabset a {
+  
+}
+.e-ribbon.e-js .e-header .e-active.e-tab a,
+.e-ribbon.e-js .e-header .e-active.e-contextualtabset a {
+  /*other*/
+
+  border-color: #c8c8c8 #c8c8c8 transparent;
+  background: white;
+}
+.e-ribbon.e-js .e-header .e-active.e-tab a,
+.e-ribbon.e-js .e-header .e-active.e-contextualtabset a {
+  color: #aecf49;
+}
+.e-widget.e-ribbon .e-rbn-button.e-btn.e-select,
+.e-widget.e-ribbon .e-rbn-button.e-btn.e-disable.e-select:hover,
+.e-widget.e-ribbon .e-rbn-button.e-tbtn.e-disable {
+  
+  border-color: white;
+  filter: none;
+}
+.e-widget.e-ribbon .e-rbn-button.e-btn.e-select,
+.e-widget.e-ribbon .e-rbn-button.e-btn.e-disable.e-select:hover,
+.e-widget.e-ribbon .e-rbn-button.e-tbtn.e-disable {
+  /*other*/
+  background: white;
+  color: #333333;
+}
+.e-widget.e-ribbon .e-rbn-button.e-btn.e-select .e-btntxt {
+  
+}
+.e-widget.e-rbn-splitbtn.e-menu.e-split,
+.e-widget.e-rbn-splitbtn.e-menu.e-context.e-split,
+.e-widget.e-rbn-splitbtn.e-menu.e-context.e-split .e-list > ul {
+  background: white;
+}
+.e-rbn-splitbtn.e-js.e-menu.e-split ul,
+.e-rbn-splitbtn.e-js.e-menu.e-context.e-split ul,
+.e-rbn-splitbtn.e-js.e-menu.e-context.e-split .e-list > ul,
+.e-rbn-splitbtn.e-js.e-menu.e-widget.e-split li.e-list {
+  background: white;
+}
+.e-widget .e-resizegroupdiv.e-reshover,
+.e-widget .e-resizegroupdiv.e-reshover .e-rbn-button.e-resizebtn,
+.e-widget.e-ribbon.e-responsive .e-backstageli:hover,
+.e-widget.e-ribbon.e-responsive .e-responsivetabli:hover,
+.e-widget.e-ribbon.e-js .e-rbn-button.e-btn.e-select:hover {
+  
+}
+.e-widget .e-resizegroupdiv.e-reshover,
+.e-widget .e-resizegroupdiv.e-reshover .e-rbn-button.e-resizebtn,
+.e-widget.e-ribbon.e-responsive .e-backstageli:hover,
+.e-widget.e-ribbon.e-responsive .e-responsivetabli:hover,
+.e-widget.e-ribbon.e-js .e-rbn-button.e-btn.e-select:hover {
+  /*other*/
+
+  color: #282827;
+}
+.e-widget .e-resizegroupdiv.e-reshover,
+.e-widget .e-resizegroupdiv.e-reshover .e-rbn-button.e-resizebtn,
+.e-widget.e-ribbon.e-responsive .e-backstageli:hover,
+.e-widget.e-ribbon.e-responsive .e-responsivetabli:hover,
+.e-widget.e-ribbon.e-js .e-rbn-button.e-btn.e-select:hover {
+  background: #cee292;
+}
+.e-ribbon.e-js .e-header .e-apptab.e-backstagetab:hover {
+  
+}
+.e-ribbon.e-js .e-header .e-apptab.e-backstagetab:hover a {
+  
+}
+.e-widget.e-ribbon.e-responsive .e-responsivebackstage li:hover,
+.e-widget.e-ribbon.e-responsive .e-responsivebackstage li:hover a {
+  
+}
+.e-widget.e-ribbon .e-rbn-button.e-btn.e-select:active,
+.e-widget.e-ribbon .e-rbn-button.e-btn.e-disable.e-active.e-select:hover,
+.e-widget.e-ribbon .e-rbn-button.e-tbtn.e-active {
+  color: #282827;
+}
+.e-widget.e-ribbon .e-rbn-button.e-btn.e-select:active,
+.e-widget.e-ribbon .e-rbn-button.e-btn.e-disable.e-active.e-select:hover,
+.e-widget.e-ribbon .e-rbn-button.e-tbtn.e-active {
+  background: #c0da71;
+}
+.e-widget.e-ribbon .e-rbn-button.e-btn.e-disable.e-active.e-select:hover {
+  
+}
+.e-widget.e-ribbon .e-rbn-button.e-btn.e-select:active .e-icon,
+.e-widget.e-ribbon .e-rbn-button.e-btn.e-active .e-icon,
+.e-widget.e-ribbon .e-rbn-button.e-btn.e-select:hover .e-icon {
+  /*other*/
+  color: #282827;
+}
+.e-widget.e-ribbon .e-rbn-button.e-btn.e-active .e-icon.e-ribbonresize {
+  
+}
+.e-widget.e-ribbon .e-rbn-button.e-tbtn.e-active.e-disable {
+  background: none;
+}
+.e-ribbon.e-js .e-header .e-apptab .e-menu > .e-list:nth-child(1):not(.e-active) > a:hover,
+.e-ribbon.e-js .e-header .e-apptab .e-menu > li:nth-child(1):not(.e-active) > a:hover span {
+  color: #282827;
+}
+.e-widget.e-ribbon .e-disable {
+  background: white;
+  opacity: 0.35;
+  filter: alpha(opacity=35);
+}
+.e-widget.e-ribbon .e-btn.e-disable.e-select,
+.e-widget.e-ribbon .e-btn.e-disable.e-select:hover,
+.e-widget.e-ribbon .e-tbtn.e-disable,
+.e-widget.e-ribbon .e-tbtn.e-disable:hover,
+.e-widget.e-ribbon .e-split.e-disable,
+.e-widget.e-ribbon .e-split.e-disable:hover,
+.e-widget.e-ribbon .e-btn.e-disable.e-select:active,
+.e-widget.e-ribbon .e-tbtn.e-btn.e-disable.e-select.e-active:hover,
+.e-widget.e-ribbon .e-tbtn.e-btn.e-disable.e-select.e-active {
+  opacity: 0.35;
+  filter: alpha(opacity=35);
+}
+.e-widget.e-ribbon .e-modelDiv {
+  background: white;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.e-widget.e-ribbon .e-groupdiv .e-gallerycontent,
+.e-widget.e-ribbon .e-groupdiv .e-gallexpandcontent,
+.e-widget.e-ribbon .e-resizediv .e-gallerycontent,
+.e-widget.e-ribbon .e-resizediv .e-gallexpandcontent {
+  background: white;
+  border-color: #c8c8c8;
+}
+.e-widget.e-ribbon.e-rtl .e-groupdiv .e-gallerycontent {
+  border-right-color: #c8c8c8;
+}
+.e-widget.e-ribbon .e-groupdiv .e-gallscrollcontent .e-content,
+.e-widget.e-ribbon .e-resizediv .e-gallscrollcontent .e-content {
+  background: white;
+}
+.e-widget.e-ribbon .e-groupdiv .e-gallerymovediv,
+.e-widget.e-ribbon .e-resizediv .e-gallerymovediv,
+.e-widget.e-ribbon .e-groupdiv .e-gallexpandcontent,
+.e-widget.e-ribbon .e-resizediv .e-gallexpandcontent {
+  background: white;
+}
+.e-widget.e-ribbon .e-groupdiv .e-extracontent,
+.e-widget.e-ribbon .e-resizediv .e-extracontent {
+  border-top-color: #c8c8c8;
+}
+.e-widget.e-ribbon .e-groupdiv .e-moveupdiv,
+.e-widget.e-ribbon .e-groupdiv .e-movedowndiv,
+.e-widget.e-ribbon .e-groupdiv .e-expgallerydiv,
+.e-widget.e-ribbon .e-resizediv .e-moveupdiv,
+.e-widget.e-ribbon .e-resizediv .e-movedowndiv,
+.e-widget.e-ribbon .e-resizediv .e-expgallerydiv {
+  border-color: #c8c8c8;
+}
+.e-ribbon.e-js .e-groupdiv .e-rbn-button.e-gallerybtn,
+.e-ribbon.e-js .e-resizediv .e-rbn-button.e-gallerybtn {
+  background: white !important;
+  border-color: white;
+}
+.e-widget.e-ribbon .e-groupdiv .e-rbn-button.e-galleryextrabtn,
+.e-widget.e-ribbon .e-resizediv .e-rbn-button.e-galleryextrabtn,
+.e-ribbon.e-js .e-groupdiv .e-extracontent .e-menu,
+.e-ribbon.e-js .e-resizediv .e-extracontent .e-menu {
+  background: white;
+  color: #333333;
+}
+.e-ribbon.e-js .e-gallerymenu a {
+  
+}
+.e-ribbon.e-js .e-gallerymenu a {
+  /*other*/
+  color: #333333;
+}
+.e-widget.e-ribbon .e-groupdiv .e-rbn-button.e-galleryextrabtn:hover,
+.e-widget.e-ribbon .e-resizediv .e-rbn-button.e-galleryextrabtn:hover {
+  background: #cee292;
+}
+.e-ribbon.e-js .e-groupdiv .e-rbn-button.e-galleryselect,
+.e-ribbon.e-js .e-resizediv .e-rbn-button.e-galleryselect {
+  box-shadow: none;
+  border-color: #aecf49;
+}
+.e-ribbon.e-js .e-groupdiv .e-rbn-button.e-gallerybtn:hover,
+.e-ribbon.e-js .e-resizediv .e-rbn-button.e-gallerybtn:hover {
+  border-color: #cee292;
+  color: #282827;
+  background: white;
+}
+.e-widget.e-ribbon .e-groupdiv .e-gallerymovediv > div:hover,
+.e-widget.e-ribbon .e-resizediv .e-gallerymovediv > div:hover {
+  border-color: #aecf49;
+}
+.e-widget.e-ribbon .e-groupdiv .e-gallerymovediv > div:hover,
+.e-widget.e-ribbon .e-resizediv .e-gallerymovediv > div:hover {
+  background: #cee292;
+}
+.e-widget.e-ribbon .e-groupdiv .e-movedowndiv:hover ~ .e-expgallerydiv,
+.e-widget.e-ribbon .e-groupdiv .e-moveupdiv:hover ~ .e-movedowndiv {
+  border-top-color: #aecf49;
+}
+.e-widget.e-ribbon .e-groupdiv .e-disablegrymovebtn:hover ~ .e-expgallerydiv,
+.e-widget.e-ribbon .e-groupdiv .e-disablegrymovebtn:hover ~ .e-movedowndiv {
+  border-top-color: #c8c8c8;
+}
+.e-widget.e-ribbon .e-groupdiv .e-gallerymovediv > .e-disablegrymovebtn,
+.e-widget.e-ribbon .e-groupdiv .e-gallerymovediv > .e-disablegrymovebtn:hover,
+.e-widget.e-ribbon .e-resizediv .e-gallerymovediv > .e-disablegrymovebtn,
+.e-widget.e-ribbon .e-resizediv .e-gallerymovediv > .e-disablegrymovebtn:hover {
+  background: white;
+  border-color: #c8c8c8;
+}
+.e-widget.e-ribbon .e-tooltipdiv {
+  
+}
+.e-widget.e-ribbon .e-tooltipdiv {
+  /*other*/
+  border-color: #c8c8c8;
+  background: white;
+}
+.e-widget.e-ribbon .e-tooltipdiv .e-tooltiptitle,
+.e-widget.e-ribbon .e-tooltipdiv .e-tooltipcontent,
+.e-widget.e-ribbon .e-tooltipdiv .e-tooltipcntwithimg {
+  
+}
+.e-widget.e-ribbon .e-tooltipdiv .e-tooltiptitle,
+.e-widget.e-ribbon .e-tooltipdiv .e-tooltipcontent,
+.e-widget.e-ribbon .e-tooltipdiv .e-tooltipcntwithimg {
+  /*other*/
+  color: #282827;
+}
+.e-widget.e-ribbon .e-resizediv {
+  border-color: #c8c8c8;
+  
+}
+.e-widget.e-ribbon .e-resizediv {
+  /*other*/
+  background: white;
+}
+.e-widget.e-ribbon .e-header .e-margine-top:hover {
+  border-top: none;
+}
+.e-widget.e-ribbon .e-groupdiv .e-gallexpandcontent,
+.e-widget.e-ribbon .e-resizediv .e-gallexpandcontent {
+  border-color: #c8c8c8;
+}
+.e-widget.e-ribbon .e-groupdiv .e-disablegrymovebtn > span,
+.e-widget.e-ribbon .e-resizediv .e-disablegrymovebtn > span {
+  color: #cecece;
+}
+.e-widget.e-ribbon .e-rbn-button.e-btn.e-disable.e-select:hover .e-icon {
+  
+}
+.e-widget.e-ribbon .e-rbn-button.e-btn.e-disable.e-select:hover .e-icon {
+  color: #282827;
+}
+.e-widget.e-ribbon .e-rbn-button.e-btn.e-disable.e-select:hover {
+  background: none;
+}
+.e-widget.e-ribbon .e-rbn-button.e-tbtn.e-active.e-disable .e-icon {
+  color: #282827;
+}
+.e-widget.e-ribbon .e-rbn-ddl.e-ddl .e-disable.e-select:hover {
+  background: none;
+  color: #282827;
+}
+.e-ribbon.e-js .e-groupdiv .e-disable .e-icon {
+  
+}
+.e-ribbon.e-js .e-btn.e-disable.e-select:hover,
+.e-ribbon.e-js .e-tbtn.e-disable:hover,
+.e-ribbon.e-js .e-btn.e-disable.e-select:active {
+  
+}
+.e-widget.e-ribbon .e-ribbonbackstagepage {
+  border-color: #c8c8c8;
+  background: white;
+}
+.e-backstagescrollcontent.e-js .e-content {
+  background: white;
+}
+.e-widget.e-ribbon .e-backstagetopcontent,
+.e-ribbon .e-backstageheader {
+  background: #aecf49;
+}
+.e-widget.e-ribbon .e-backstageli:hover {
+  
+}
+.e-widget.e-ribbon .e-backstageli:hover {
+  background: #84a12a;
+}
+.e-widget.e-ribbon .e-backstageseparator,
+.e-widget.e-ribbon .e-backstageactive {
+  
+}
+.e-widget.e-ribbon .e-backstageseparator,
+.e-widget.e-ribbon .e-backstageactive {
+  background: #c9df86;
+}
+.e-widget.e-ribbon .e-backstagetopicon span:hover:before {
+  /*other*/
+  color: #cee292;
+}
+.e-widget.e-ribbon .e-backstagetopicon span:before {
+  color: white;
+}
+.e-widget.e-ribbon .e-header > .e-apptab .e-apptabanchor:hover {
+  color: #282827;
+}
+.e-widget.e-ribbon .e-header > .e-apptab .e-apptabanchor:hover {
+  background: #cee292;
+}
+.e-widget.e-ribbon .e-backstageli a,
+.e-widget.e-ribbon .e-backstagebutton {
+  color: white;
+}
+.e-ribbon.e-js .e-backstageheader .e-backstageli:hover a,
+.e-ribbon.e-js .e-backstageheader .e-backstageactive a,
+.e-ribbon.e-js .e-backstageheader .e-backstagebutton:hover {
+  
+}
+.e-ribbon.e-js .e-backstageheader .e-backstageli:hover a,
+.e-ribbon.e-js .e-backstageheader .e-backstageactive a,
+.e-ribbon.e-js .e-backstageheader .e-backstagebutton:hover {
+  /*other*/
+  color: white;
+}
+.e-widget.e-ribbon .e-backstagecontent {
+  background: white;
+}
+.e-widget.e-ribbon .e-header > .e-apptab .e-apptabanchor {
+  color: white;
+}
+.e-widget.e-ribbon .e-header > .e-apptab .e-apptabanchor {
+  background: #aecf49;
+}
+.e-widget.e-ribbon.e-rbnwithqat .e-rbnqatmenu,
+.e-widget.e-ribbon.e-rbnwithqat .e-qaresizediv {
+  
+  background: white;
+}
+.e-widget.e-ribbon.e-rbnwithqat .e-rbnqatmenu,
+.e-widget.e-ribbon.e-rbnwithqat .e-qaresizediv {
+  /*other*/
+  border-color: #c8c8c8;
+}
+.e-widget.e-ribbon.e-rbnwithqat .e-rbnqatmenu div {
+  background: #ececec;
+}
+.e-widget.e-ribbon.e-rbnwithqat .e-qatmenuli {
+  background: white;
+  color: #333333;
+}
+.e-widget.e-ribbon.e-rbnwithqat .e-qatseparator {
+  background: #c8c8c8;
+}
+.e-widget.e-ribbon.e-rbnwithqat .e-qatmenuli:hover {
+  color: #282827;
+}
+.e-widget.e-ribbon.e-rbnwithqat .e-qatmenuli:hover {
+  background: #cee292;
+}
+.e-widget.e-ribbon.e-rbnwithqat .e-rbnquickaccessbar,
+.e-widget.e-ribbon.e-rbnwithqat .e-rbnquickaccessbar .e-btn {
+  background: transparent;
+}
+.e-ribbon.e-js .e-rbn-button.e-tbtn:hover,
+.e-ribbon.e-js .e-rbn-button.e-btn:hover,
+.e-ribbon.e-rbnwithqat.e-js .e-rbn-button.e-tbtn:hover {
+  
+}
+.e-ribbon.e-js .e-rbn-button.e-tbtn.e-active:hover,
+.e-ribbon.e-js .e-rbn-button.e-tbtn.e-active,
+.e-ribbon.e-js .e-rbn-button.e-btn.e-resizebtnselect,
+.e-ribbon.e-rbnwithqat.e-js .e-rbn-button.e-tbtn.e-active {
+  
+}
+.e-ribbon.e-js .e-rbn-button.e-tbtn.e-active:hover,
+.e-ribbon.e-js .e-rbn-button.e-tbtn.e-active,
+.e-ribbon.e-js .e-rbn-button.e-btn.e-resizebtnselect,
+.e-ribbon.e-rbnwithqat.e-js .e-rbn-button.e-tbtn.e-active {
+  /*other*/
+
+  color: #282827;
+}
+.e-ribbon.e-js .e-rbn-button.e-tbtn.e-active:hover,
+.e-ribbon.e-js .e-rbn-button.e-tbtn.e-active,
+.e-ribbon.e-js .e-rbn-button.e-btn.e-resizebtnselect,
+.e-ribbon.e-rbnwithqat.e-js .e-rbn-button.e-tbtn.e-active {
+  background: #c0da71;
+}
+.e-ribbon.e-js .e-rbn-button.e-tbtn.e-select:active .e-icon,
+.e-ribbon.e-js .e-rbn-button.e-tbtn.e-active .e-icon,
+.e-ribbon.e-js .e-rbn-button.e-tbtn.e-select.e-active:hover,
+.e-ribbon.e-js .e-rbn-button.e-tbtn.e-select.e-active:hover .e-icon {
+  
+}
+.e-ribbon.e-js .e-rbn-button.e-tbtn.e-select:active .e-icon,
+.e-ribbon.e-js .e-rbn-button.e-tbtn.e-active .e-icon,
+.e-ribbon.e-js .e-rbn-button.e-tbtn.e-select.e-active:hover,
+.e-ribbon.e-js .e-rbn-button.e-tbtn.e-select.e-active:hover .e-icon {
+  /*other*/
+  color: #282827;
+}
+.e-ribbon.e-js .e-rbn-button.e-btn,
+.e-widget.e-ribbon .e-active-content.e-parentdiv .e-split,
+.e-widget.e-ribbon .e-resizediv .e-split,
+.e-widget.e-ribbon.e-rbnwithqat .e-rbnquickaccessbar .e-split {
+  box-shadow: none;
+}
+.e-widget.e-ribbon.e-responsive .e-header,
+.e-widget.e-ribbon.e-responsive .e-responsiveqat .e-rbn-button.e-btn,
+.e-widget.e-ribbon.e-responsive .e-resqatScroll .e-content,
+.e-widget.e-ribbon.e-responsive .e-backstagerestop {
+  
+}
+.e-widget.e-ribbon.e-responsive .e-header,
+.e-widget.e-ribbon.e-responsive .e-responsiveqat .e-rbn-button.e-btn,
+.e-widget.e-ribbon.e-responsive .e-resqatScroll .e-content,
+.e-widget.e-ribbon.e-responsive .e-backstagerestop {
+  /*other*/
+  background: #aecf49 !important;
+}
+.e-widget.e-ribbon.e-responsive .e-icon.e-resbackstage,
+.e-widget.e-ribbon.e-responsive .e-ribresmenu .e-icon,
+.e-widget.e-ribbon.e-responsive .e-ribresmenu a,
+.e-widget.e-ribbon.e-responsive .e-responsiveqat .e-rbn-button.e-btn .e-icon {
+  color: white !important;
+}
+.e-widget.e-ribbon.e-responsive .e-responsivebackstagecontent {
+  background: white !important;
+}
+.e-widget.e-ribbon.e-responsive .e-backstageheader,
+.e-widget.e-ribbon.e-responsive .e-rescontent {
+  background: #fcfcfc;
+}
+.e-widget.e-ribbon.e-responsive .e-responsivetabheader .e-rescontent {
+  
+}
+.e-widget.e-ribbon.e-responsive .e-backstageheader .e-backstagebutton,
+.e-widget.e-ribbon.e-responsive .e-backstageheader a {
+  color: #686969;
+}
+.e-widget.e-ribbon.e-responsive .e-responsiveback,
+.e-widget.e-ribbon.e-responsive .e-groupmobdiv,
+.e-widget.e-ribbon.e-responsive .e-groupdiv {
+  border-bottom: 1px solid #c8c8c8;
+}
+.e-widget.e-ribbon.e-responsive .e-responsiveqat .e-rbn-button.e-btn.e-active .e-icon {
+  color: #282827 !important;
+}
+.e-widget.e-ribbon.e-responsive .e-rescontent,
+.e-widget.e-ribbon.e-responsive .e-backstageheader {
+  box-shadow: -1px 0 10px 0 black;
+}
+.e-widget.e-ribbon .e-rbnquickaccessbar .e-rbn-button .e-icon {
+  
+}
+.e-widget.e-ribbon.e-rbnwithqat .e-rbnquickaccessbar .e-qatooldiv .e-split .e-in-wrap .e-rbn-splitbtn.e-rbn-button,
+.e-widget.e-ribbon.e-rbnwithqat .e-rbnquickaccessbar .e-btn.e-rbn-button,
+.e-widget.e-ribbon.e-rbnwithqat .e-rbnquickaccessbar .e-qatooldiv .e-split .e-in-wrap {
+  
+}
+.e-widget.e-ribbon.e-rbnwithqat .e-rbnquickaccessbar .e-qatooldiv .e-split .e-in-wrap .e-rbn-splitbtn.e-rbn-button:hover,
+.e-widget.e-ribbon.e-rbnwithqat .e-rbnquickaccessbar .e-btn.e-rbn-button:hover {
+  
+}
+.e-ribbon.e-rbnwithqat.e-js .e-rbnquickaccessbar .e-rbn-button.e-tbtn.e-active,
+.e-ribbon.e-rbnwithqat.e-js .e-rbnquickaccessbar .e-rbn-button.e-tbtn.e-active:hover {
+  
+}
+.e-widget.e-ribbon.e-rbnwithqat.e-js .e-rbnquickaccessbar .e-rbn-button.e-tbtn.e-active,
+.e-widget.e-ribbon.e-rbnwithqat.e-js .e-rbnquickaccessbar .e-rbn-button.e-tbtn.e-active:hover,
+.e-widget.e-ribbon.e-rbnwithqat .e-rbnquickaccessbar .e-btn.e-rbn-button:hover {
+  
+}
+.e-widget.e-ribbon.e-responsive .e-responsivetabli.e-resactive {
+  
+}
+.e-widget.e-ribbon.e-responsive .e-ribresmenu a,
+.e-widget.e-ribbon.e-responsive .e-responsivetabli,
+.e-widget.e-ribbon.e-responsive .e-rescontent .e-responsivetabli:hover {
+  
+}
+.e-widget.e-ribbon.e-responsive .e-backstageheader .e-backstageli:hover,
+.e-widget.e-ribbon.e-responsive .e-backstageheader .e-backstagebutton:hover {
+  
+}
+.e-ribbon.e-js .e-backstageheader .e-backstageli a,
+.e-ribbon.e-js .e-backstageheader .e-backstagebutton {
+  
+}
+.e-widget.e-ribbon .e-header > .e-select a,
+.e-widget.e-ribbon .e-left > .e-select a,
+.e-widget.e-ribbon .e-right > .e-select a,
+.e-ribbon.e-js .e-header .e-apptab .e-menu > li:first-child > a,
+.e-ribbon.e-js .e-header .e-apptab .e-menu > li:first-child > a > span,
+.e-widget.e-ribbon .e-header > .e-apptab .e-apptabanchor {
+  
+}
+.e-ribbon.e-js .e-header .e-apptab .e-menu > .e-list:nth-child(1):not(.e-active) > a:hover {
+  
+}
+.e-widget.e-ribbon .e-header > .e-active a,
+.e-widget.e-ribbon .e-left > .e-active a,
+.e-widget.e-ribbon .e-right > .e-active a,
+.e-widget.e-ribbon .e-header > .e-select:hover a,
+.e-widget.e-ribbon .e-left > .e-select:hover a,
+.e-widget.e-ribbon .e-right > .e-select:hover a {
+  
+}
+.e-widget.e-ribbon .e-header > .e-select,
+.e-widget.e-ribbon .e-left > .e-select,
+.e-widget.e-ribbon .e-right > .e-select,
+.e-widget.e-ribbon .e-header > .e-active,
+.e-widget.e-ribbon .e-left > .e-active,
+.e-widget.e-ribbon .e-right > .e-active {
+  
+}
+.e-ribbon .e-ddl.e-widget.e-rbn-ddl .e-input,
+.e-widget.e-ribbon .e-rbn-ddl.e-ddl .e-select {
+  
+}
+.e-ribbon.e-js .e-header .e-contextual .e-contextualtabset.e-active {
+  
+}
+.e-widget.e-ribbon.e-rbnwithqat .e-rbnquickaccessbar.e-rbnbelow {
+  
+}
+.e-ribbon.e-js .e-split.e-widget .e-rbn-button.e-btn.e-select:hover,
+.e-widget.e-ribbon.e-js .e-rbn-button.e-btn.e-select:hover,
+.e-ribbon.e-js .e-split.e-widget:hover .e-in-wrap.e-splitarrowbottom .e-split-btn.e-left-btn,
+.e-ribbon.e-js .e-split.e-widget:hover .e-in-wrap.e-splitarrowbottom .e-split-btn.e-drp-btn,
+.e-ribbon.e-js .e-split.e-widget:hover .e-in-wrap.e-splitarrowtop .e-split-btn.e-left-btn,
+.e-ribbon.e-js .e-split.e-widget:hover .e-in-wrap.e-splitarrowtop .e-split-btn.e-drp-btn,
+.e-ribbon.e-js .e-split.e-widget:hover .e-in-wrap.e-splitarrowleft .e-split-btn.e-left-btn,
+.e-ribbon.e-js .e-split.e-widget:hover .e-in-wrap.e-splitarrowright .e-split-btn.e-drp-btn,
+.e-ribbon.e-js .e-split.e-widget:hover .e-in-wrap.e-splitarrowright .e-split-btn.e-left-btn,
+.e-ribbon.e-js .e-split.e-widget:hover .e-in-wrap.e-splitarrowleft .e-split-btn.e-drp-btn {
+  
+}
+.e-ribbon.e-js .e-rbn-button.e-tbtn.e-select.e-active:hover,
+.e-ribbon.e-js .e-rbn-button.e-tbtn.e-select.e-active {
+  
+}
+.e-ribbon.e-js .e-rbn-split.e-split.e-widget:hover .e-in-wrap.e-splitarrowright .e-split-btn.e-left-btn {
+  
+}
+.e-ribbon.e-responsive.e-js .e-responsivecontent .e-innerdivrow:after,
+.e-ribbon.e-responsive.e-js .e-responsivecontent .e-innerdiv:after {
+  
+}
+.e-ribbon.e-responsive.e-js .e-ddl.e-widget.e-rbn-ddl .e-in-wrap {
+  
+}
+.e-widget.e-ribbon .e-expandcollapse .e-icon:after {
+  
+}
+.e-ribbon.e-responsive.e-js .e-icon.e-ribuparrow:before,
+.e-ribbon.e-responsive.e-js .e-ribupdivarrow .e-icon.e-ribdownarrow:before,
+.e-ribbon.e-responsive.e-js .e-icon.e-ribrightarrow:before,
+.e-ribbon.e-responsive.e-js .e-groupresponsive.e-ribleftarrow:before {
+  
+}
+.e-widget.e-ribbon .e-expandcollapse .e-icon:after,
+.e-ribbon.e-responsive.e-js .e-ribupdivarrow .e-icon:after {
+  
+}

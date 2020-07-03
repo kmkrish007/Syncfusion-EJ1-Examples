@@ -1,0 +1,74 @@
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*-----------------------OLAP Definition-----------------*/
+/*-----------------------OLAP Definition End-----------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*------------------ DatePicker ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: white;
+  color: #111111;
+  border-color: #e0e0e0;
+  font-family: 'Roboto', Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-pivottreemap .e-drillupAction {
+  background-color: white;
+  color: #212121;
+  margin-bottom: 5px;
+  font-size: 13px;
+  font-weight: 700;
+  z-index: 10;
+  border-color: #212121;
+  border: 1px solid #212121;
+  border-bottom: transparent;
+  padding-top: 6px;
+}
+.e-pivottreemap .e-drillupAction a {
+  color: #212121;
+  cursor: pointer;
+}
+.e-pivottreemap .e-drillupAction a:hover {
+  color: #212121;
+  text-decoration: underline !important;
+}
+.e-pivottreemap label {
+  font-weight: 600;
+}
+.e-pivottreemap .e-treemap-header {
+  font-size: 12px;
+}
+.e-pivottreemap .e-treemap-label {
+  color: #212121 !important;
+  font-size: 12px;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+.e-pivottreemap *:focus:hover {
+  outline: none;
+}

@@ -1,0 +1,813 @@
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*-----------------------OLAP Definition-----------------*/
+/*-----------------------OLAP Definition End-----------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------File Explorer Start-----------------------*/
+/*----------------------File Explorer End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*----------------------material theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: #111111;
+  color: white;
+  border-color: gray;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-spreadsheet {
+  color: white;
+  border-color: gray;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-headercell,
+.e-spreadsheet .e-spreadsheetmainpanel .e-headercontent,
+.e-spreadsheet .e-spreadsheetmainpanel .e-rowheader {
+  border-color: gray;
+  color: white;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-headercell,
+.e-spreadsheet .e-spreadsheetmainpanel .e-headercontent,
+.e-spreadsheet .e-spreadsheetmainpanel .e-rowheader {
+  
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-headercell:hover,
+.e-spreadsheet .e-spreadsheetmainpanel .e-rowheader:hover {
+  background-color: #00009b;
+  border-color: white;
+  color: white;
+  
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-rowheadercontent {
+  border-bottom-color: gray;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-spreadsheetcontentcontainer {
+  border-left-color: gray;
+  background-color: black;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-spreadsheetcolumnheader {
+  border-color: gray;
+}
+.e-spreadsheet .e-spreadsheetheader {
+  border-bottom-color: gray;
+  border-top-color: gray;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-spreadsheetcolumnheader {
+  border-right-color: gray;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-rowcell {
+  color: lime;
+  background-color: black;
+  border-color: gray;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-spreadsheetcolumnheader,
+.e-spreadsheet .e-spreadsheetmainpanel .e-rowheader,
+.e-spreadsheet .e-scrollcss,
+.e-spreadsheet .e-scrollrowcss {
+  background-color: black;
+}
+.e-ss-editinput .e-in-wrap,
+.e-ss-editinput .e-input {
+  color: inherit;
+  font-size: 11pt;
+  font-family: Calibri;
+}
+/*---------------------------Frozen Row------------------------*/
+
+.e-spreadsheet .e-reSizeColbg {
+  border-left-color: gray;
+}
+.e-spreadsheet .e-reSizeAPbg {
+  border-left-color: gray;
+}
+.e-spreadsheet .e-reSizeRowbg {
+  border-top-color: gray;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-selected,
+.e-spreadsheet .e-spreadsheetmainpanel .e-ctrlselected {
+  background: #00009b;
+  color: white;
+  
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-activecell {
+  background-color: black;
+  color: white;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-rowheader.e-rowhighlight,
+.e-spreadsheet .e-spreadsheetmainpanel .e-colhighlight {
+  background-color: #00009b;
+  color: white;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-rowhighlight {
+  border-right-color: white;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-colhighlight {
+  border-bottom-color: white;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-colhighlight:hover {
+  background-color: #00009b;
+  border-bottom-color: white;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-rowhighlight:hover {
+  background-color: #00009b;
+  border-right-color: white;
+}
+.e-menu-wrap .e-chartcell:hover,
+.e-chartimg:hover {
+  background-color: #1010af;
+}
+.e-chartimg:hover {
+  
+}
+/*-------------------- Borders ------------------------ */
+
+.e-spreadsheet .e-spreadsheetmainpanel td.e-bborderright,
+.e-spreadsheet .e-spreadsheetmainpanel td.e-bctrlborderright,
+.e-spreadsheet .e-spreadsheetmainpanel td.e-bcborderright {
+  border-right-color: #0a0af0;
+}
+.e-spreadsheet .e-spreadsheetmainpanel td.e-bborderbottom,
+.e-spreadsheet .e-spreadsheetmainpanel td.e-bctrlborderbottom,
+.e-spreadsheet .e-spreadsheetmainpanel td.e-bcborderbottom {
+  border-bottom-color: #0a0af0;
+}
+.e-spreadsheet .e-spreadsheetmainpanel td.e-rborderright,
+.e-spreadsheet .e-spreadsheetmainpanel td.e-rctrlborderright,
+.e-spreadsheet .e-spreadsheetmainpanel td.e-rcborderright {
+  border-right-color: #fc100c;
+}
+.e-spreadsheet .e-spreadsheetmainpanel td.e-rborderbottom,
+.e-spreadsheet .e-spreadsheetmainpanel td.e-rctrlborderbottom,
+.e-spreadsheet .e-spreadsheetmainpanel td.e-rcborderbottom {
+  border-bottom-color: #fc100c;
+}
+.e-spreadsheet .e-spreadsheetmainpanel td.e-vborderright,
+.e-spreadsheet .e-spreadsheetmainpanel td.e-vctrlborderright,
+.e-spreadsheet .e-spreadsheetmainpanel td.e-vcborderright {
+  border-right-color: #6a13ad;
+}
+.e-spreadsheet .e-spreadsheetmainpanel td.e-vborderbottom,
+.e-spreadsheet .e-spreadsheetmainpanel td.e-vctrlborderbottom,
+.e-spreadsheet .e-spreadsheetmainpanel td.e-vcborderbottom {
+  border-bottom-color: #6a13ad;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-gborderright,
+.e-spreadsheet .e-spreadsheetmainpanel .e-gctrlborderright {
+  border-right-color: #62c435 !important;
+}
+.e-spreadsheet .e-spreadsheetmainpanel td.e-gborderbottom,
+.e-spreadsheet .e-spreadsheetmainpanel td.e-gctrlborderbottom {
+  border-bottom-color: #62c435;
+}
+.e-spreadsheet .e-spreadsheetmainpanel td.e-pborderright,
+.e-spreadsheet .e-spreadsheetmainpanel td.e-pctrlborderright {
+  border-right-color: #f411b0;
+}
+.e-spreadsheet .e-spreadsheetmainpanel td.e-pborderbottom,
+.e-spreadsheet .e-spreadsheetmainpanel td.e-pctrlborderbottom {
+  border-bottom-color: #f411b0;
+}
+.e-spreadsheet .e-spreadsheetmainpanel td.e-oborderright,
+.e-spreadsheet .e-spreadsheetmainpanel td.e-octrlborderright {
+  border-right-color: #e59604;
+}
+.e-spreadsheet .e-spreadsheetmainpanel td.e-oborderbottom,
+.e-spreadsheet .e-spreadsheetmainpanel td.e-octrlborderbottom {
+  border-bottom-color: #e59604;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-thinborderright {
+  border-right-color: white;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-thinborderbottom {
+  border-bottom-color: white;
+}
+.e-spreadsheet .e-ss-numeric .e-select .e-spin {
+  background-color: white;
+  color: #313131;
+}
+.e-spreadsheet .e-ss-numeric .e-select .e-spin:hover {
+  background-color: #5858ee;
+  border-color: #777575;
+  color: white;
+}
+.e-spreadsheet .e-ss-numeric .e-select {
+  border-color: white;
+}
+.e-spreadsheet .e-ss-numeric .e-select:hover {
+  border-color: #777575;
+}
+/*--------------------- Selection -------------------------- */
+
+.e-spreadsheet div.e-selecttop {
+  border-top-color: white;
+}
+.e-spreadsheet div.e-selectbottom {
+  border-bottom-color: white;
+}
+.e-spreadsheet div.e-selectright {
+  border-right-color: white;
+}
+.e-spreadsheet div.e-selectleft {
+  border-left-color: white;
+}
+.e-spreadsheet .e-ss-selectall {
+  color: #ccccff;
+}
+.e-spreadsheet .e-ss-selectall:hover {
+  color: #6666ff;
+}
+.e-spreadsheet .e-sheetselected,
+.e-spreadsheet .e-sheetselected:hover {
+  color: #5757ef;
+}
+/*--------------------- Auto Fill -------------------------------*/
+
+.e-spreadsheet .e-autofill {
+  border-color: black;
+  background-color: white;
+}
+.e-spreadsheet div.e-autofillright {
+  border-right-color: white;
+}
+.e-spreadsheet div.e-autofillbottom {
+  border-bottom-color: white;
+}
+.e-spreadsheet div.e-autofilltop {
+  border-top-color: white;
+}
+.e-spreadsheet div.e-autofillleft {
+  border-left-color: white;
+}
+/*--------------------- Cut and Copy ------------------------ */
+
+.e-spreadsheet .e-spreadsheetmainpanel td.e-cutright {
+  border-right-color: white;
+}
+.e-spreadsheet .e-spreadsheetmainpanel td.e-cutbottom {
+  border-bottom-color: white;
+}
+.e-spreadsheet .e-blur {
+  background-color: black;
+}
+.e-spreadsheet .e-spanfilter,
+.e-spreadsheet .e-spanddl {
+  border-color: gray;
+  background-color: black;
+  color: white;
+}
+.e-spreadsheet .e-spreadsheetcontentcontainer .e-ss-object.e-ss-activeimg {
+  border-color: white;
+}
+.e-spreadsheet .e-spreadsheetcontentcontainer .e-ss-pivot.e-ss-activepivot {
+  border-color: white;
+}
+.e-spreadsheet .e-ss-object.e-datavisualization-chart {
+  border-color: gray;
+}
+.e-spreadsheet .e-ss-imgvisual {
+  border-color: gray;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-rowcell.e-redft {
+  background-color: #ffc7ce;
+  color: #9c0055;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-rowcell.e-yellowft {
+  background-color: #ffeb9c;
+  color: #9c6500;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-rowcell.e-greenft {
+  background-color: #c6efce;
+  color: #006100;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-rowcell.e-redf {
+  background-color: #ffc7ce;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-rowcell.e-redt {
+  color: #9c0055;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-rowcell.e-hlcell {
+  background-color: yellow;
+  color: red;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-rowcell.e-goto-blank {
+  background-color: gray;
+}
+/*-------------------------- Formula Tab --------------------------- */
+
+.e-spreadsheet .e-indexbox,
+.e-spreadsheet .functionbox,
+.e-spreadsheet .e-inputbox {
+  border-color: gray;
+  color: lime;
+  background-color: black;
+}
+.e-ss-autocomplete.e-atc-popup ul li {
+  color: white;
+}
+.e-spreadsheet .e-inputbox > input {
+  color: white;
+}
+/*-------------Pager-------------*/
+
+.e-spreadsheet .e-spreadsheetmainpanel .e-pager .e-numericitem {
+  color: white;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-pager .e-currentitem,
+.e-spreadsheet .e-spreadsheetmainpanel .e-pager .e-currentitem:hover {
+  
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-pager .e-currentitem,
+.e-spreadsheet .e-spreadsheetmainpanel .e-pager .e-currentitem:hover {
+  background: #00009b;
+  color: white;
+  filter: none;
+  /* IE9 only*/
+
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-pager .e-numericitem:hover {
+  color: white;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-pager {
+  background-color: black;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-pager .e-prevpagedisabled,
+.e-spreadsheet .e-spreadsheetmainpanel .e-pager .e-prevpage,
+.e-spreadsheet .e-spreadsheetmainpanel .e-pager .e-nextpage,
+.e-spreadsheet .e-spreadsheetmainpanel .e-pager .e-nextpagedisabled,
+.e-spreadsheet .e-spreadsheetmainpanel .e-pager .e-lastpagedisabled,
+.e-spreadsheet .e-spreadsheetmainpanel .e-pager .e-lastpage,
+.e-spreadsheet .e-spreadsheetmainpanel .e-pager .e-firstpage,
+.e-spreadsheet .e-spreadsheetmainpanel .e-pager .e-firstpagedisabled,
+.e-spreadsheet .e-spreadsheetmainpanel .e-pager .e-numericcontainer {
+  background-color: black;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-pager .e-pagercontainer {
+  background-color: black;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-pager .e-icon:not(.e-disable):hover {
+  color: white;
+  cursor: pointer;
+}
+.e-spreadsheet div.e-field-validation-error {
+  background-color: #fffe91;
+  color: #cd0a0a;
+}
+.e-ss-dialog div.e-dlg-field-validation-error:before {
+  border-bottom-color: #fffe91;
+}
+.e-spreadsheet div.e-error .e-errortail {
+  border-bottom-color: #fffe91;
+}
+.e-spreadsheet .e-spreadsheetfooter {
+  border-color: gray;
+}
+.e-spreadsheet .e-hyperlinks {
+  color: inherit;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-pager .e-mediaforward {
+  border-right-color: gray;
+  
+}
+.e-spreadsheet .e-formulabar {
+  background-color: black;
+}
+.e-ss-dialog .e-chartheader {
+  background-color: black;
+  color: white;
+}
+.e-ss-dialog .e-tab .e-header.e-addborderbottom .e-active {
+  border-top-color: gray;
+}
+/*---------------------- Dialog -------------------------- */
+
+.e-dlgtab .e-header,
+.e-valdlgtab .e-header {
+  overflow: visible;
+  /*border-color: @ssheader-bgcolor;*/
+
+}
+.e-spreadsheet .e-dlg-field-validation-error,
+.e-ss-dialog .e-dlg-field-validation-error {
+  background-color: #fffe91;
+  color: #cd0a0a;
+}
+.e-dlgright,
+.e-dlgleft,
+.e-dlginput,
+.e-dlgcontent,
+.e-chtdlgright,
+.e-chtdlgleft,
+.e-chtdlgcontent {
+  border-color: gray;
+}
+.e-dlgviewpanel {
+  border: 1px solid gray;
+}
+.e-ss-dlgtab .e-ss-sctnseparator {
+  border-color: gray;
+}
+.e-ss-dialog hr {
+  border-color: #eeeeee;
+}
+/*---------------------- Name Manager ------------------*/
+
+.e-menu .e-nmuseinformularow:hover {
+  background-color: white;
+}
+/*---------------------- Cell Styles--------------------*/
+
+.e-menu-wrap .e-cellstylecontent,
+.e-menu-wrap .e-formatastablecontent,
+.e-menu-wrap .e-chartcontent {
+  background-color: black;
+  color: white;
+}
+.e-menu-wrap .e-cellstyleheader,
+.e-menu-wrap .e-formatastableheader {
+  background-color: black;
+  color: white;
+  border-color: gray;
+}
+.e-menu-wrap .e-cellstylecell:hover,
+.e-menu-wrap .e-formatastablecell:hover,
+.e-menu-wrap .e-chartcontent:hover {
+  border-color: #1010af;
+}
+.e-menu-wrap .e-cellstylecell:hover,
+.e-menu-wrap .e-formatastablecell:hover,
+.e-menu-wrap .e-chartcontent:hover {
+  
+}
+/*---------------------- Comments--------------------*/
+
+.e-spreadsheet .e-celltoparrow {
+  border-color: red transparent transparent;
+}
+.e-spreadsheet .e-comment-txtarea {
+  background-color: #f7fbbd;
+  color: black;
+}
+.e-list.e-hdrcolor {
+  background-color: black !important;
+  color: white !important;
+}
+.e-list.e-color {
+  border-color: black !important;
+}
+.e-list.e-hdrcolor.e-mhover > a,
+.e-list.e-hdrcolor.e-mfocused > a {
+  background-color: transparent !important;
+  color: white !important;
+}
+.e-list.e-color.e-mhover.e-mfocused {
+  border-color: #5858ee !important;
+}
+.e-spreadsheet .e-excelfilter .e-in-wrap {
+  border-color: #777575;
+}
+/*---------------------------RTL--------------------------*/
+
+.e-spreadsheetrowheader.e-scrollrowcss.e-rtl {
+  border-color: gray;
+}
+.e-spreadsheetcolumnheader.e-rtl {
+  border-color: gray;
+}
+.e-spreadsheetcontentcontainer.e-rtl {
+  border-color: gray;
+}
+.e-spreadsheet .e-numeric .e-in-wrap {
+  border-color: #777575;
+}
+.e-ss-dialog .e-chartselect {
+  border-color: blue;
+  
+}
+.e-menu-wrap .e-chartcell {
+  border-color: black;
+}
+.e-spreadsheet .e-ss-object {
+  background-color: black;
+}
+.e-spreadsheet .e-ss-charttheme {
+  background-color: #00bd00;
+}
+/*-------------------------Merge--------------------*/
+
+.e-spreadsheet .e-ssr-horizontalprt .e-btn.e-ss-active {
+  color: white;
+  
+}
+.e-spreadsheet .e-ssr-horizontalprt .e-btn.e-ss-active {
+  background: blue;
+}
+.e-spreadsheet .e-ssr-horizontalprt .e-btn.e-ss-active:hover {
+  
+}
+.e-spreadsheet .e-ssr-horizontalprt .e-btn.e-ss-active:hover .e-icon {
+  color: white;
+}
+/*-------------------------Auto fill Option--------------------*/
+
+.e-ss-colorpicker .e-in-wrap.e-tool,
+.e-ss-colorpicker .e-in-wrap.e-tool .e-select {
+  
+}
+.e-ss-colorpicker .e-in-wrap.e-tool,
+.e-ss-colorpicker .e-in-wrap.e-tool .e-select {
+  background-color: black;
+}
+/*--------------------------------- Freeze Pane -------------------------------*/
+
+.e-spreadsheet .e-frow {
+  border-color: white;
+}
+.e-spreadsheet .e-fcol {
+  border-color: white;
+}
+/*-------------------------Ribbon icons Customization--------------------*/
+
+.e-spreadsheet .e-ssr-verticalHparent:hover .e-btn.e-select:not(.e-disable):not(.e-active),
+.e-spreadsheet .e-split .e-in-wrap.e-ssr-horizontalprt:hover .e-split-btn:not(.e-disable),
+.e-spreadsheet .e-ss-colorpicker .e-in-wrap.e-ssr-colpickHprt:hover:not(.e-disable) .e-ssr-colorcontainer {
+  border-color: #1010af;
+  
+}
+.e-spreadsheet .e-ssr-verticalHparent:hover .e-active,
+.e-spreadsheet .e-splitspan .e-spreadsheet.e-btn.e-select:hover {
+  
+}
+.e-spreadsheet .e-ssr-verticalHparent:hover .e-active,
+.e-spreadsheet .e-splitspan .e-spreadsheet.e-btn.e-select:hover {
+  background: blue;
+}
+.e-spreadsheet .e-split.e-active .e-in-wrap.e-ssr-horizontalprt:hover .e-split-btn:not(.e-disable) {
+  
+}
+.e-spreadsheet .e-split.e-active .e-in-wrap.e-ssr-horizontalprt:hover .e-split-btn:not(.e-disable) {
+  background: blue;
+}
+.e-spreadsheet .e-split.e-active .e-box .e-btn.e-select,
+.e-spreadsheet .e-split.e-active .e-box .e-btn.e-select:hover,
+.e-spreadsheet .e-button.e-btn.e-select.e-active,
+.e-spreadsheet .e-ribbon.e-js .e-rbn-button.e-button.e-btn.e-select.e-active:hover {
+  color: white;
+  
+}
+.e-spreadsheet .e-split.e-active .e-box .e-btn.e-select,
+.e-spreadsheet .e-split.e-active .e-box .e-btn.e-select:hover,
+.e-spreadsheet .e-button.e-btn.e-select.e-active,
+.e-spreadsheet .e-ribbon.e-js .e-rbn-button.e-button.e-btn.e-select.e-active:hover {
+  background: blue;
+}
+.e-spreadsheet .e-split.e-active .e-box .e-btn.e-select.e-ss-active {
+  
+}
+.e-spreadsheet .e-ribbon.e-js .e-btn.e-select.e-ss-active:hover .e-icon {
+  
+}
+.e-spreadsheet .e-ribbon .e-rbn-button.e-btn.e-active .e-icon {
+  
+}
+.e-spreadsheet .e-ribbon.e-js .e-controlclicked .e-btn.e-select.e-ss-active:hover .e-icon {
+  
+}
+.e-spreadsheet .e-split.e-active .e-box .e-btn.e-select,
+.e-spreadsheet .e-split.e-active .e-box .e-btn.e-select:hover {
+  
+}
+.e-spreadsheet .e-ribbon.e-js .e-btn.e-select.e-ss-active .e-icon {
+  
+}
+.e-spreadsheet .e-split.e-active .e-box .e-btn .e-icon,
+.e-spreadsheet .e-split .e-btn.e-select:active .e-ss-active .e-icon {
+  color: white;
+  
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-hborder {
+  border-color: transparent;
+}
+.e-spreadsheet .e-content.e-viewbrdr {
+  border-color: gray;
+}
+/*-------------------------------------Spreadsheet Ribbon override------------*/
+
+.e-spreadsheet .e-ribbon .e-header {
+  border-right: none;
+  border-left: none;
+  border-top: none;
+}
+.e-spreadsheet .e-ribbon .e-content {
+  border-right: none;
+  border-left: none;
+}
+.e-spreadsheet .e-ribbon .e-header {
+  border-right: medium none;
+  border-left: medium none;
+  border-top: medium none;
+}
+.e-spreadsheet .e-ribbon .e-content {
+  border-right: medium none;
+  border-left: medium none;
+}
+.e-ribbon .e-btn.e-ss-active {
+  background-color: white;
+  color: black;
+}
+.e-spreadsheet .e-ribbon .e-ddl {
+  border-color: #6e6e6e;
+}
+.e-spreadsheet .e-ribbon .e-ddl.e-widget.e-focus .e-in-wrap {
+  box-shadow: 0 0 7px #cccccc;
+}
+.e-spreadsheet .e-ribbon .e-ddl {
+  border-color: #6e6e6e;
+}
+.e-spreadsheet .e-menu.e-split,
+.e-menu-wrap .e-spreadsheet.e-split.e-autofillbtn li.e-list,
+.e-spreadsheet .e-splitspan .e-btn.e-select {
+  background: black;
+}
+.e-spreadsheet .e-ssr-bscontent div:not(.e-ssr-bsnewtmpl) .e-btn.e-select {
+  border-color: gray;
+}
+.e-ss-colorpicker.e-popup {
+  background-color: black;
+  color: white;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-pager .e-numericitem:not(.e-currentitem) {
+  background-color: black;
+}
+.e-spreadsheet .e-ribbon .e-btn.e-select.e-disable:hover .e-icon {
+  color: #525252;
+  
+}
+.e-spreadsheet .e-ribbon .e-togglebutton.e-btn.e-tbtn.e-select.e-disable:not(.e-active),
+.e-spreadsheet .e-ribbon .e-togglebutton.e-btn.e-tbtn.e-select.e-disable:not(.e-active):hover {
+  
+}
+.e-spreadsheet .e-ribbon .e-button.e-btn.e-select.e-disable:hover {
+  
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-rowheader.e-filterhiglight,
+.e-spreadsheet .e-spreadsheetmainpanel .e-rowheader.e-rowhighlight.e-filterhiglight {
+  color: #00cc00;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-headercell {
+  cursor: url("../common-images/spreadsheet/down_arrow_dark.cur"), auto;
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-rowheader {
+  cursor: url("../common-images/spreadsheet/right_arrow_dark.cur"), auto;
+}
+.e-spreadsheet .e-ss-fpcursor {
+  cursor: url("../common-images/spreadsheet/format_painter_dark.cur"), auto;
+}
+.e-spreadsheet .e-ss-drwbrdrcursor {
+  cursor: url("../common-images/spreadsheet/draw_border_dark.cur"), auto;
+}
+.e-spreadsheet .e-ss-drwbrdrgridcursor {
+  cursor: url("../common-images/spreadsheet/draw_border_grid_dark.cur"), auto;
+}
+/***********************SpreadsheetTextArea***********************************/
+
+.e-ss-textarea,
+.e-ss-textarea:focus,
+.e-ss-textarea:hover {
+  border-color: gray;
+}
+/*-------------------------------------SpreadsheetCellType--------------------*/
+
+.e-spreadsheet .e-cellreadonly .e-datewidget .e-select {
+  background: black;
+}
+.e-spreadsheet .e-cellreadonly .e-ddl .e-select {
+  background: black;
+}
+/*----------------------------Activation Panel-------------------------*/
+
+.e-spreadsheet .e-spreadsheetactpanel {
+  border-left-color: gray;
+}
+/*---------------------------Border Menu-------------------------------*/
+
+.e-spreadsheet .e-bordercontainer {
+  background-color: black;
+}
+.e-spreadsheet .e-bordercell:hover {
+  border-color: #1010af;
+}
+.e-spreadsheet .e-ss-bdr-header {
+  background-color: black;
+  border-color: gray;
+}
+/*---------------------------Pivot Table-------------------------------*/
+
+.e-spreadsheet .e-ss-pivottableheader {
+  background-color: #00009b;
+  border-color: gray;
+  color: white;
+}
+/*-------------------------------------Material Theme Changes -----------------------*/
+
+.e-spreadsheet .e-formulabar,
+.e-spreadsheet .e-spreadsheetmainpanel .e-spreadsheetcontentcontainer,
+.e-spreadsheet .e-spreadsheetmainpanel .e-spreadsheetcolumnheader,
+.e-spreadsheet .e-spreadsheetmainpanel .e-rowheader,
+.e-spreadsheet .e-scrollcss,
+.e-spreadsheet .e-scrollrowcss {
+  
+}
+.e-ss-dialog .e-btn.e-select,
+.e-ss-dialog .e-btn.e-select:hover,
+.e-ss-dialog .e-btn.e-select:active {
+  
+}
+.e-ss-dialog .e-btn.e-select:hover {
+  
+}
+.e-ss-dialog .e-btn.e-select:active {
+  
+}
+.e-ss-dialog .e-dialog input.ejinputtext:focus,
+.e-spreadsheet input.ejinputtext:focus {
+  
+}
+.e-ss-dialog .e-dialog input.ejinputtext,
+.e-spreadsheet input.ejinputtext {
+  
+}
+.e-ss-dialog.e-ss-mattab .e-dlg-btnfields {
+  
+}
+.e-ss-dialog.e-ss-mattab .e-titlebar {
+  
+}
+.e-ss-dialog.e-ss-mattab .e-dialog .e-tab .e-header {
+  
+}
+.e-ss-dialog.e-ss-mattab .e-dialog .e-tab .e-header li a {
+  
+}
+.e-ss-dialog.e-ss-mattab .e-dialog .e-tab .e-header li.e-active a {
+  
+}
+.e-ss-autocomplete.e-atc .e-in-wrap {
+  
+}
+.e-ss-autocomplete.e-atc .e-in-wrap:active {
+  
+}
+.e-spreadsheet .e-ss-dialog.e-ss-mattab .e-dialog-icon:before {
+  
+}
+.e-ss-dialog label,
+.e-ss-dialog .e-ss-fcgdiv {
+  
+}
+.e-spreadsheet .e-spreadsheetmainpanel .e-pager .e-numericitem:not(.e-active) {
+  
+}
+.e-ss-dialog .e-dialog .e-dlgctndiv label {
+  
+}
+.e-ss-dialog .e-ss-okbtn.e-btn.e-select {
+  
+}
+.e-ss-dialog .e-ss-okbtn.e-btn.e-select:hover {
+  
+}
+.e-ss-dialog .e-ss-okbtn.e-btn.e-select:focus {
+  
+}
+.e-ss-dialog .e-ss-okbtn.e-btn.e-select:active {
+  
+}
+.e-ss-colorpicker .e-colorwidget .e-in-wrap.e-box.e-ssr-colpickHprt:hover {
+  
+}
+.e-spreadsheet .e-ribbon.e-js .e-rbn-button.e-tbtn.e-select:active .e-icon {
+  
+}
+/*-------------------------------------SpreadSheet End -----------------------*/
+
