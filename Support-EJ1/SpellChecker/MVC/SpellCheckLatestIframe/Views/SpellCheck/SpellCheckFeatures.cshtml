@@ -1,0 +1,21 @@
+﻿@{
+    ViewBag.Title = "SpellCheck";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<iframe id="SpellCheck" src="~/HtmlPage1.html" height="300" width="800"></iframe>
+
+@Html.EJ().SpellCheck("SpellCheck").DictionarySettings(dictionary => dictionary.CustomDictionaryUrl("../api/SpellCheck/AddToDictionary").DictionaryUrl("../api/SpellCheck/CheckWords"))
+
+@Html.EJ().Button("SpellCheck1").Width("200px").Height("25px").Text("Spell check using dialog").ClientSideEvents(e => e.Click("showDialog"))
+
+
+<script type="text/javascript">
+    function showDialog() {
+        var spellObj = $("#SpellCheck").data("ejSpellCheck");
+        spellObj.showInDialog();
+    }
+</script>
+
+
+

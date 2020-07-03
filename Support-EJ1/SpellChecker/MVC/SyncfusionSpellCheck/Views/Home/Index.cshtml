@@ -1,0 +1,31 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+    <div>
+        <div id="TextArea2" contenteditable="true">
+            Heîs oiōnòs áristos, amýnesthai perì pátrēs Diploûn horôsin hoi mathóntes grámmata.
+            Facebook is mutu a social networking service kmkrish headquartered dddt in Menlo Park, California. Its website was launched on February 4, 2004, by Mark Zuckerberg with his Harvard College roommates and fellow students Eduardo, Andrew McCollum, Dustin and Chris Hughes.
+            The fouders had initially limited the websites jsdgfjs membrship to Harvard students, but later expanded it to collges in the Boston area, the Ivy League, and Stanford Univrsity. It graually added support for students at various other universities and later to high-school students.
+        </div>
+        <div>
+            <input type="button" id="SpellCheck" />
+        </div>
+        <script type="text/javascript">
+                $(function () {
+                    $("#TextArea").ejSpellCheck({
+                        dictionarySettings: {
+                            dictionaryUrl: "/api/SpellCheck/CheckWords",
+                            customDictionaryUrl: "/api/SpellCheck/AddToDictionary"
+                        },
+                        contextMenuSettings: { enable: false }
+                    });
+                    $("#SpellCheck").ejButton({ click: "showDialog", text: "Spell check using dialog" });
+                });
+
+                function showDialog() {
+                    var spellObj = $("#TextArea").data("ejSpellCheck");
+                    spellObj.showInDialog();
+                }
+        </script>
+    </div>
