@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Get Employee Data from Web API (1)</title>
+    <meta charset="utf-8" />
+    
+
+    <script src="Scripts/jquery-1.10.2.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var ulEmployees = $('#ulEmployees');
+            $('#btn').click(function () {
+                $.ajax({
+                    type: 'GET',
+                    url: "api/Employees/",
+                    dataType: 'json',
+                    success: function (data) {
+                        ulEmployees.empty();
+
+                        //alert(data);
+                        $.each(data, function (index, val) {
+                            var fullName = val.Name;
+                            ulEmployees.append('<li>' + fullName + '</li>');
+                        });
+                    }
+                });
+            });
+            $('#btnClear').click(function () {
+                ulEmployees.empty();
+            });
+        });
+    </script>
+</head>
+<body>
+    <div>
+        <input id="btn" type="button" value="Get All Employees" />
+        <input id="btnClear" type="button" value="Clear" />
+        <ul id="ulEmployees" />
+    </div>
+</body>
+</html>

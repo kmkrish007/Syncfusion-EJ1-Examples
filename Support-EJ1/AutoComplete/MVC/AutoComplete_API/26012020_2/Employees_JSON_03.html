@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Get Employee Data from Web API (3)</title>
+    <link href="Content/ej/web/default-theme/ej.web.all.min.css" rel="stylesheet" />
+
+    <script src="http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js"></script>
+    <script src="Scripts/jsrender.min.js"></script>
+    <script src="Scripts/ej/web/ej.web.all.min.js"></script>
+</head>
+<body>
+    <input type="text" id="selectEmployee" />
+
+
+
+
+    <script type="text/javascript">
+        $(function () {
+            // declaration
+            var employees = ej.DataManager({
+                /* ASP.NET Web API */
+              //  url: "api/Employees/",
+                url: "/Employee/Index",
+                adaptor: new ej.WebApiAdaptor(),
+                crossDomain: true
+            });
+            $('#selectEmployee').ejAutocomplete({
+                dataSource: employees,
+                width: "30%",
+                fields: { text: "Name", uniqueKey: "ID" },
+                watermarkText: "Select an employee",
+                change: function (args) {
+                    $.ajax({
+                        url: "/Employees/GetDataCar",
+                        data: { data: args.value },
+                        type: 'POST',
+                        dataType: "json",
+                        success: function(result) {
+                            console.log("event triggered");
+                            aa = $('#selectEmployee').ejAutocomplete("instance");
+                            aa.setModel({ dataSource: result });
+                        }
+                    });
+                }
+            });
+
+        });
+    </script>
+
+
+</body>
+</html>

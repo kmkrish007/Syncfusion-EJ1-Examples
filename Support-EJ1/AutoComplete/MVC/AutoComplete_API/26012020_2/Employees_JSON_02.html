@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Get Employee Data from Web API (2)</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+    <script type="text/javascript">
+        $(function () {
+            $.getJSON("api/Employees/").then(appenndEmployees); // your code
+            function appenndEmployees(data) {
+                $("#employees").append("<tbody>" +
+                    data.map(emp => '<tr><td>'
+                        + emp.ID + '</td><td>'
+                        + emp.Name + '</td><td>'
+                        + emp.JoiningDate + '</td><td>'
+                        + emp.Age + '</td></tr>'
+                    ))
+            }
+        })
+    </script>
+    <table id="employees">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Joining Date</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+    </table>
+</body>
+</html>
