@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Essential Studio for JavaScript">
+    <meta name="author" content="Syncfusion">
+    <title>Untitled</title>
+    <!-- Essential Studio for JavaScript  theme reference --> 
+    <link rel="stylesheet" href="https://cdn.syncfusion.com/17.4.0.46/js/web/flat-azure/ej.web.all.min.css" />
+    <!-- Essential Studio for JavaScript  script references -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> 
+    <script src="https://cdn.syncfusion.com/js/assets/external/jsrender.min.js"></script>
+    <!-- <script src="https://cdn.syncfusion.com/17.4.0.46/js/web/ej.web.all.min.js"> </script> -->
+    <script src="./src/ej.core.js"></script>
+    <script src="./src/ej.data.js"></script>
+    <script src="./src/ej.scroller.js"></script>
+    <script src="./src/ej.draggable.js"></script>
+    <script src="./src/ej.globalize.js"></script>
+    <script src="./src/ej.dropdownlist.js"></script>
+    <!--Add custom scripts here -->
+</head>
+
+<body>
+    <div class="content-container-fluid">
+        <div class="row">
+            <div class="cols-sample-area">
+                <div class="frame">
+                    <div class="control">
+                        <input type="text" id="bookSelect" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        var target;
+        $(function () {
+            var BooksSection = [
+                { category: "Art" }, { category: "Architecture" }, { category: "Biographies" }, { category: "Business" }, { category: "ComputerIT" },
+                { category: "Comics" }, { category: "Cookery" }, { category: "Environment" }, { category: "Fiction" },
+                { category: "Health" }, { category: "Humanities" }, { category: "Language" }, { category: "Literature" }, { category: "Memoirs" },
+                { category: "Management" }, { category: "Professional" }, { category: "Reference" }, { category: "Spirituality" },
+                { category: "Sports" }, { category: "Sciences" }
+            ];
+            $('#bookSelect').ejDropDownList({
+                dataSource: BooksSection,
+				width:"250px",
+                watermarkText: "Select a section",
+                fields: { text: "category", value: "category" },
+            });
+            target = $('#bookSelect').data("ejDropDownList");
+        });
+    </script>
+</body>
+</html>
