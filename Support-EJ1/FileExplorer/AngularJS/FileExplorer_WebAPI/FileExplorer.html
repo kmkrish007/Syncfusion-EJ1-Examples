@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en" ng-app="listCtrl">
+<head>
+    <meta charset="utf-8" />
+    <title>Essential Studio for JavaScript : Angular support</title>
+    <link href="http://cdn.syncfusion.com/15.2.0.43/js/web/flat-azure/ej.web.all.min.css" rel="stylesheet" />
+    <script src="http://cdn.syncfusion.com/js/assets/external/angular.min.js"></script>
+    <!--[if lt IE 9]>
+       <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <![endif]-->
+    <!--[if gte IE 9]><!-->
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <!--<![endif]-->
+    <script src="http://cdn.syncfusion.com/js/assets/external/jsrender.min.js"></script>
+    <script src="http://cdn.syncfusion.com/15.2.0.43/js/web/ej.web.all.min.js"></script>
+    <script src="http://cdn.syncfusion.com/15.2.0.43/js/common/ej.widget.angular.js"></script>
+</head>
+<body ng-controller="PhoneListCtrl">
+
+
+    <div id="fileExplorer" ej-fileexplorer e-path="path" e-ajaxaction="ajaxaction" e-isresponsive="true" e-layout="grid" e-width="100%"></div>
+    <script>
+		var list = [
+                    { text: "Admin", value: "Admin" },
+                    { text: "Document Manager", value: "Document Manager" },
+                    { text: "Default User", value: "Default User" },
+              ];
+        angular.module('listCtrl', ['ejangular'])
+        .controller('PhoneListCtrl', function ($scope) {
+            $scope.path = "http://localhost:51460/FileBrowser/",
+   			 $scope.ajaxaction = "http://localhost:51460/fileexplorer/fileoperation/doJSONAction"
+             
+        });
+
+    </script>
+</body>
+</html>
