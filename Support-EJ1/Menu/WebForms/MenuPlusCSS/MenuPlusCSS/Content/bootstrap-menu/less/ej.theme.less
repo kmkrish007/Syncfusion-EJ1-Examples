@@ -1,0 +1,1887 @@
+@skin:bootmenu;
+@font-family:Segoe UI,Helvetica Neue,Ubuntu,Arial;
+@font-size: 12px;
+@border-size: 1px;
+@border-type: solid;
+@tools-border-radius: 3px;
+@widget-bg-color:#ffffff;
+@label-color:#111111;
+
+@header-bg-stcolor:#fcfcfc;
+@header-bg-endcolor:#fcfcfc;
+@header-gradient-color:none;
+@header-border-color:#939393;
+@header-font-color:#282827;
+@header-icon-color:#070707;
+@filtermenu-color: #c8c8c8;
+
+@tooltip-line-height : 18px;
+
+@content-bg-color:#070707;
+@content-border-color:#070707;
+@content-font-color:#ffffff;
+
+@default-bg-stcolor:#fcfcfc;
+@default-bg-endcolor:#e0e0e0;
+@default-gradient-color:#fcfcfc, #e0e0e0;
+@default-border-color:#070707;
+@default-font-color:#070707;
+@default-icon-color:#ffffff;
+
+@disable-control-background-color: #eeeeee;
+@disable-control-border-color: #cccccc;
+@disable-icon-bg-color: #d6d7d7;
+
+@hover-bg-stcolor:#f5e8c1;
+@hover-bg-endcolor:#f5e8c1;
+@hover-gradient-color:none;
+@hover-border-color:#070707;
+@hover-font-color:#282827;
+@hover-icon-color:#282827;
+
+@active-bg-stcolor:#ffffff;
+@active-bg-endcolor:#ffffff;
+@active-gradient-color:none;
+@active-border-color:#070707;
+@active-font-color:#070707;
+@active-icon-color:#070707;
+
+@error-color: #ee2924;
+@warning-color: #ffca1c;
+@success-color: #22b24b;
+@information-color: #489bd5;
+
+@overlay-bg-color:#383838;
+@sort-filter-disable: #999999;
+
+@bs-header-bg-stcolor:@header-bg-stcolor;
+@bs-header-font-color:@header-font-color;
+@header-font-weight: normal;
+@header-font-size: 16px;
+
+@content-font-weight: normal;
+@content-font-size:14px;
+
+@bs-content-font-color:@content-font-color;
+@bs-default-bg-stcolor: @default-bg-stcolor;
+@bs-hover-font-color:@hover-font-color;
+@bs-active-font-color:@active-font-color;
+
+@scroll-bg-color: darken(@content-bg-color, 2%);
+@scroll-handle-color: @default-bg-stcolor;
+@scroll-handle-hover-color: @hover-bg-stcolor;
+@scroll-handle-active-color: @active-bg-stcolor;
+
+@gheader-bg-color: @header-bg-stcolor;
+@gheader-bg-colorhover: @hover-bg-stcolor;
+@gheader-border-color: @active-bg-stcolor;
+@gheader-font-color: @header-font-color;
+@gheader-hover-font-color: @hover-font-color;
+@gheader-hover-icon-color: @hover-icon-color;
+@gheader-font-size: 14px;
+@gedit-title-color: darken(@content-bg-color, 3%);
+
+@gtouch-border-color: #000000;
+
+@gcontent-bg-color: @content-bg-color;
+@gcontent-font-color: @content-font-color;
+
+@gdroparea-stbg-color: @active-bg-stcolor;
+@gdroparea-endbg-color: @active-bg-endcolor;
+@gdroparea-border-color: @content-border-color;
+@gdroparea-font-color: @active-font-color;
+@gdroparea-hover-color: @hover-bg-stcolor;
+@gcaption-border-color: darken( @default-bg-stcolor, 2 );
+@gcaption-border-radius: 9px;
+
+@row-hover-color: @hover-bg-stcolor;
+@row-hover-font-color: @hover-font-color;
+@row-border-color: @content-border-color;
+@row-selection-bg-color: @active-bg-stcolor;
+@row-selection-font-color: @active-font-color;
+@cell-selection-stbg-color: @active-bg-stcolor;
+@cell-selection-endbg-color: lighten( @active-bg-endcolor, 16 );
+@column-selection-bg-color: @default-bg-stcolor;
+@alt-row-bg-color: lighten( saturate( spin( @content-bg-color, 180deg ), 6%), 97%);
+@row-border-coloropac: rgba(196,196,196,0.5);
+
+@pager-font-color: @default-font-color;
+@pager-default-font-color: @default-font-color;
+@pager-default-border-color: @default-border-color;
+@pager-default-bg-color: @default-bg-stcolor;
+@pager-active-stbg-color: @active-bg-stcolor;
+@pager-active-endbg-color: @active-bg-endcolor;
+@pager-hover-stbg-color: @hover-bg-stcolor;
+@pager-hover-endbg-color: @hover-bg-endcolor;
+@pager-active-font-color: @active-font-color;
+/*@pager-currentitem:#428BCA;*/
+
+@filter-input-border-color: #939292;
+@filter-input-bg-color: #F6F7F7;
+
+@alternate-border-color: #c1c1c1;
+@timeline-bg-color: #1C6DA3;
+
+@watermark-font-style: italic;
+@watermark-font-color: lighten( saturate( spin( @default-font-color, 240deg ), 1% ), 62% );
+@watermark-font-weight: lighter;
+@watermark-font-size: 14px;
+
+@hightlight-bg-color: #5EABDE;
+@highlight-border-color: #AAAAAA;
+@highlight-font-color: #363636;
+@highlight-font-weight: bold;
+@highlight-font-size: 14px;
+
+@error-bg-color: #fef1ec;
+@error-border-color: #cd0a0a;
+@error-font-color: #cd0a0a;
+@error-font-weight: bold;
+
+@shadow-bg-color: darken( @default-bg-stcolor, 19% );
+@bs-shadow-bg-color: RGBA(154, 146, 203, 0.87);
+@shadow-bg-size: 7px;
+@input-bg-color: #ffffff;
+
+@captcha-refresh-border: 1px solid darken( @default-border-color, 2% );
+@captcha-image-border: 1px solid darken( @default-border-color, 21% );
+@captcha-valid-border: 1px solid darken( saturate( @default-border-color, 2% ), 3% );
+@captcha-image: #f7f7f7;
+
+@colorpicker-image: url(../common-images/lighttheme/colorpicker_light.png);
+@colorpicker-bg-color: @content-bg-color;
+@colorpicker-border-color: #cecece;
+@colorpicker-button-bg-color: @content-bg-color;
+@colorpicker-button-border-color: @content-bg-color;
+@colorpicker-popup-bg-color: @default-bg-stcolor;
+@colorpicker-popup-boder-color: @default-border-color;
+@colorpicker-btn-bg-color: @content-bg-color;
+@colorpicker-hover-font-color: #5c5c5c;
+
+@gantt-chart-critical-connectorline-color: #ff5555;
+@gantt-chart-critical-connectorline-rightarrow-color: #ff5555;
+@gantt-chart-critical-connectorline-leftarrow-color: #ff5555;
+@gantt-chart-critical-child-progressbar-color: #ff5555;
+@gantt-chart-critical-child-progressbar-border-color: #ff5555;
+@gantt-chart-critical-child-taskbar-color: #ff8b8b;
+@gantt-chart-critical-child-taskbar-border-color: #ff8b8b;
+
+@gantt-chart-histobar-overallocate-bg-color: #FFDEDE;
+@gantt-chart-histobar-nonoverallocate-bg-color: #D4FFD0;
+@gantt-chart-histocalender-color: #FFA3A3;
+@gantt-chart-histowork-label: #282827;
+@gantt-chart-manual-child-progressbar-stbg-color: #42C0BD;
+@gantt-chart-manual-child-progressbar-endbg-color: #42C0BD;
+@gantt-chart-manual-child-progressbar-gradient-color: none;
+@gantt-chart-manual-child-taskbar-color: #9DD9DD;
+@gantt-chart-manual-child-taskbar-border-color: #42C0BD;
+
+@gantt-chart-connectorline-hover-color: #0026da;
+
+@schedule-app-stbg-color: @active-bg-stcolor;
+@schedule-app-endbg-color: @active-bg-endcolor;
+@schedule-app-border-color: lighten(@active-bg-stcolor, 10%);
+@schedule-select-bg-color: darken(@hover-bg-stcolor, 10% );
+@schedule-active-border-size:3px;
+@schedule-header-border-color:@active-bg-stcolor;
+@schedule-cells-bg-color: darken(@content-bg-color, 3%);
+
+@grid-uisupport-background-color: #BBBDC0;
+@grid-uisupport-number-color: #FFFFFF;
+@grid-focusout: desaturate( @active-bg-stcolor, 78% );
+
+@gantt-toolbar-bg-color: @content-bg-color;
+@gantt-editDialog-bg-color: @content-bg-color;
+@gantt-content-bg-color: @content-bg-color;
+@gantt-chart-content-bg-color: @content-bg-color;
+@gantt-altRow-bg-color: darken(@content-bg-color,2%);
+@gantt-weekends-bg-color: @gantt-altRow-bg-color;
+@gantt-selection-bg-color: fadeout(@active-bg-stcolor,80%);
+@gantt-row-stbg-color: fadeout(@active-bg-stcolor,80%);
+@gantt-row-endbg-color: fadeout(@active-bg-endcolor,80%);
+@gantt-header-bg-color: @header-bg-stcolor;
+@gantt-parent-taskbar-color: #8E8E8E;
+@gantt-row-selection-bg-color: #296293;
+@gantt-header-stbg-color: @header-bg-stcolor;
+@gantt-header-endbg-color: @header-bg-endcolor;
+@gantt-milestone-bg-color: @content-font-color;
+@gantt-spliiter-bg-color: @content-bg-color;
+@gantt-connectorline-arrow-bg-color: @content-font-color;
+@gantt-progressHandle-color: @content-font-color;
+@gantt-toolTip-bg-color: @content-bg-color;
+@gantt-parent-progress-bg-color: @content-font-color;
+@gantt-parent-task-bg-color: fadeout(@content-font-color,40%);
+@gantt-child-progress-bg-color: @active-bg-stcolor;
+@gantt-child-task-bg-color: @active-bg-stcolor;//fadeout(@active-bg-stcolor,40%);
+@gantt-parent-progress-stbg-color: @content-font-color;
+@gantt-parent-progress-enbg-color: @content-font-color;//lighten(@content-font-color,60%);
+@gantt-child-progress-stbg-color: @active-bg-stcolor;
+@gantt-child-progress-enbg-color: @active-bg-endcolor;
+@gantt-predecessor-header-bg-color: @content-bg-color;
+@gantt-toolbar-icon-color: @default-icon-color;
+@gantt-toolbar-icon-mouseover-color: @hover-icon-color;
+@gantt-menuitem-font-color: @content-font-color;
+@gantt-menuitem-hover-font-color: @hover-font-color;
+@gantt-expandcollapse-icon-color: @default-icon-color;
+@gantt-task-gripper-color: fadeout(@content-bg-color,60%);
+@gantt-dialog-close-icon-mouseover-color: darken(@content-bg-color,10%);
+
+@gantt-toolbar-border-color: @header-border-color;
+@gantt-splitter-border-color: @content-border-color;
+@gantt-content-border-color: @content-border-color;
+@gantt-header-border-color: @header-border-color;
+@gantt-schedule-border-color: @header-border-color;
+@gantt-tooltip-border-color: @content-border-color;
+@gantt-parent-taskbar-border-color: @gantt-parent-progress-stbg-color;
+@gantt-child-taskbar-border-color: @gantt-child-progress-stbg-color;
+@gantt-chart-border-color: @content-border-color;
+
+@gantt-editDialog-font-color: @content-font-color;
+@gantt-content-font-color: @content-font-color;
+@gantt-selection-font-color: @content-font-color;
+@gantt-header-font-color: @header-font-color;
+@gantt-schedule-font-color: @header-font-color;
+@gantt-toolbar-font-color: @content-font-color;
+@gantt-tooltip-font-color: @content-font-color;
+@gantt-taskbar-selection-border-color: #000000;
+@gantt-selectionpopup-content-bg-color: @content-bg-color;
+@gantt-selectionpopup-border-color:@content-border-color;
+@gantt-selectionpopup-default-icon-color:@default-icon-color;
+
+@gantt-child-unschedule-task-bg-color: fadeout(@active-bg-stcolor,80%);
+@gantt-manual-child-unschedule-task-bg-color: fadeout(@gantt-chart-manual-child-taskbar-color, 80%);
+
+@treegrid-detailcellwrapper-background-color: @content-bg-color;
+@treegrid-detailcellwrapper-font-color: @content-font-color;
+@treegrid-detailcellwrapperfly-border-color: @content-border-color;
+@treegrid-detailcellwrapperfly-shadow-color: @content-border-color;
+@treegrid-detailicon-shadow-color: darken(@content-bg-color,11%);
+
+@gantt-theme-line-color: @active-bg-stcolor;
+@gantt-connectorline-color: @gantt-connectorline-arrow-bg-color;
+@gantt-connectorpoint-hover-color: @gantt-connectorline-arrow-bg-color;
+@gantt-falseLine-color: @gantt-connectorline-arrow-bg-color;
+@gantt-columnchooser-border-color: @content-border-color;
+
+@treegrid-summaryrow-backgroundcolor: darken( @default-bg-stcolor, 2% );
+@treegrid-totalsummaryrow-backgroundcolor: darken( @default-bg-stcolor, 2% );
+@treegrid-summaryrow-textcolor: @content-font-color;
+@treegrid-summaryrow-border-color: @content-border-color;
+@treegrid-selectionpopup-content-bg-color: @content-bg-color;
+@treegrid-selectionpopup-border-color:@content-border-color;
+@treegrid-selectionpopup-default-icon-color:@default-icon-color;
+@filtermenudialog-color:@filtermenu-color;
+
+@content-font-color-element: #000000;
+@tab-background-color: #ebebeb;
+.tab-headerbg(@is-color: none){
+    & when not (@is-color = none) {
+        background: @content-bg-color;
+    }
+    color: @active-bg-stcolor;
+}
+@radial-badge-color:#FFFFFF;
+
+.header-gradient() {
+   .custom-gradient(@header-gradient-color, @header-bg-stcolor, @header-bg-endcolor, 0%, 0% );
+}
+
+.default-gradient() {
+   .custom-gradient(@default-gradient-color, @default-bg-stcolor, @default-bg-endcolor, 0%, 0% );
+}
+
+.hover-gradient() {
+    .custom-gradient(@hover-gradient-color, @hover-bg-stcolor, @hover-bg-endcolor, 0%, 0% );
+}
+
+.active-gradient() {
+    .custom-gradient(@active-gradient-color, @active-bg-stcolor, @active-bg-endcolor, 0%, 0% );
+}
+
+@isDefault: true;
+
+.custom-gradient(@derivedfrom, @start, @end, @light, @dark) when (@isDefault) {
+    &{
+        .generate();
+    }
+    .generate() when (@derivedfrom = none) {
+        @gradient: none;
+        background: @start;
+    }
+    .generate() when not (@derivedfrom = none) {
+        @gradient: lighten(extract(@derivedfrom, 1), @light), darken(extract(@derivedfrom, 2), @dark);
+        background: @start; /* Old browsers */
+        background: -moz-linear-gradient(top, @gradient); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,@start), color-stop(100%,@end)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top,@gradient); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top, @gradient); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top, @gradient); /* IE10+ */
+        background: linear-gradient(to bottom, @gradient); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@{start}', endColorstr='@{end}',GradientType=0 ); /* IE6-9 */
+    }
+}
+
+.scroller-gradient() {
+    background-image: @active-grid-image;
+    background-color: @scroll-handle-color;
+}
+
+.scroller-hover-gradient() {
+    background-image: @hover-grid-image;
+    background-color: @scroll-handle-hover-color;
+}
+
+.row-selection() {
+    .active-gradient();
+}
+
+.schedule-app-color() {
+    background: @schedule-app-stbg-color; /* Old browsers */
+    background: -moz-linear-gradient(top,   0%, @schedule-app-endbg-color 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,@schedule-app-stbg-color), color-stop(100%,@schedule-app-endbg-color)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, @schedule-app-stbg-color 0%,@schedule-app-endbg-color 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, @schedule-app-stbg-color 0%,@schedule-app-endbg-color 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, @schedule-app-stbg-color 0%,@schedule-app-endbg-color 100%); /* IE10+ */
+    background: linear-gradient(to bottom, @schedule-app-stbg-color 0%,@schedule-app-endbg-color 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@{schedule-app-stbg-color}', endColorstr='@{schedule-app-endbg-color}',GradientType=0 ); /* IE6-9 */
+}
+
+.cell-selection() {
+    .custom-gradient(@active-gradient-color, @cell-selection-stbg-color, @cell-selection-endbg-color, 0%, 16%);
+}
+
+.column-selection() {
+    background-color: @column-selection-bg-color;
+}
+
+.row-Hover() {
+    .hover-gradient();
+}
+
+.tgPopUp-gradient() {
+    background: @default-bg-stcolor;
+}
+
+.treegrid-hover-gradient() {
+    .hover-gradient();
+}
+
+.treegrid-popup-gradient() {
+    background: @content-bg-color;
+}
+
+.bs-header-gradient() {
+    background: @bs-header-bg-stcolor; /* Old browsers */
+}
+
+.gheader-gradient() {
+    .header-gradient();
+}
+
+.tgheader-gradient() {
+    .header-gradient();
+}
+.ganttheader-gradient() {
+    .header-gradient();
+}
+.bs-default-gradient() {
+    background: @bs-default-bg-stcolor; /* Old browsers */
+}
+
+.handle-default-gradient() {
+    background-color: #BCBCBC;
+}
+
+.vhandle-arrow(){
+    content: "";
+}
+
+.hhandle-arrow(){
+    content: "";
+}
+
+.handle-hover-gradient() {
+    background-color: #A9A9AA;
+}
+
+.tooltip-colors() {
+    background-color: @content-bg-color;
+    border-color: @content-border-color;
+    color: @content-font-color;
+}
+
+.border-bottom() {
+    border-bottom: 1px solid @default-border-color;
+}
+
+.add-borderdiv() {
+    border: 1px solid #cccccc;
+}
+
+.transparent-border() {
+    border-color: transparent;
+}
+
+.focus-border-color() {
+    border-color: @active-border-color;
+}
+
+.hover-gradientfunction() {
+    background: @hover-bg-stcolor; /* Old browsers */
+}
+
+.bs-hover-gradient() {
+    background: @active-bg-stcolor;
+}
+
+.hover-font-color() {
+    color: @active-font-color;
+}
+
+.tile-bg-gradient() {
+    .active-gradient();
+}
+
+.active-icon-color() {
+    color: @active-icon-color;
+}
+
+.default-icon-color() {
+    background: @default-icon-color;
+}
+
+.hover-pager-gradient() {
+    background-color: transparent;
+    background: @pager-hover-stbg-color; /* Old browsers */
+    background: -moz-linear-gradient(top, @pager-hover-stbg-color 0%, @pager-hover-endbg-color 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,@pager-hover-stbg-color), color-stop(100%,@pager-hover-endbg-color)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, @pager-hover-stbg-color 0%,@pager-hover-endbg-color 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, @pager-hover-stbg-color 0%,@pager-hover-endbg-color 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, @pager-hover-stbg-color 0%,@pager-hover-endbg-color 100%); /* IE10+ */
+    background: linear-gradient(to bottom, @pager-hover-stbg-color 0%,@pager-hover-endbg-color 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@{pager-hover-stbg-color}', endColorstr='@{pager-hover-endbg-color}',GradientType=0 ); /* IE6-9 */
+}
+
+.pager-selection-gradient() {
+    .active-gradient();
+}
+
+.pager-hover-gradient() {
+    .hover-gradient();
+}
+
+.header-hover-gradient(){
+    .hover-gradient();
+}
+.gdroparea-gradient() {
+    .active-gradient();
+}
+
+.gantt-row-selection() {
+    @temp-gradient: @gantt-row-stbg-color, @gantt-row-endbg-color;
+	background: -moz-linear-gradient(top, @temp-gradient); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,@gantt-row-stbg-color), color-stop(100%,@gantt-row-endbg-color)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, @temp-gradient); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, @temp-gradient); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, @temp-gradient); /* IE10+ */
+    background: linear-gradient(to bottom, @temp-gradient); /* W3C */
+}
+
+.gantt-parent-progress-background() {
+    @temp-gradient:@gantt-parent-progress-stbg-color, @gantt-parent-progress-enbg-color;
+    .custom-gradient(@temp-gradient, @gantt-parent-progress-stbg-color, @gantt-parent-progress-enbg-color, 0%, 0% );
+}
+
+.gantt-child-progress-background() {
+   .active-gradient();
+}
+.gantt-child-manualprogress-background(){
+    .custom-gradient(@gantt-chart-manual-child-progressbar-gradient-color,  @gantt-chart-manual-child-progressbar-stbg-color, @gantt-chart-manual-child-progressbar-endbg-color, 0%, 0% );
+}
+
+@ajaxloaderimage: url(images/ajax-loader.gif);
+@ratingimage: url(images/rating-star.png);
+@treeview-drop-image: url(images/drop-sibling.png);
+@slider-tick: url(images/slider-tick.png);
+@loading-img: url(images/waitingpopup.gif);
+@checkedtick-image: url(images/checkedtick.png);
+
+/*-----------------------Map------------------*/
+
+@map-home: url(../common-images/maps/Home.png);
+@map-home-hover: url(../common-images/maps/Home_hover.png);
+
+/*-----------------------PdfViewer------------------*/
+@pdfviewer-scrollcontainer:darken(@content-bg-color,12%);
+
+.pdfviewer-searchtoolbar-border-color(){}
+.pdfviewer-toolbar-border-color(){}
+.pdfviewer-toolbar-border-color-hover(){}
+.pdfviewer-viewercontainer-border-color(){}
+.pdfviewer-viewercontainer-bgcolor(){}
+/*-----------------------End PdfViewer------------------*/
+
+/*-----------------------OLAP Definition Start-----------------*/
+@table-font: 12px @font-family
+
+!important; @pivotList-treeview-text-hvr-color:@active-font-color; @pivotList-dialog-close-hvr-color:@active-bg-stcolor; @pivotList-treeview-active-color:darken( desaturate( @active-bg-stcolor, 11 ), 2 ); @ogrid-dialog-bgcolor:darken( desaturate( @active-bg-stcolor, 4 ), 1 ); @pivotList-treeview-text:@default-font-color; @pivotList-treeview-hvr-color:@active-bg-stcolor; @ogrid-header-border-color:@default-border-color; @ogaugeTooltip-border-color:@default-border-color; @toolTipText-color:@content-font-color; @toolTip-bg-color:@default-bg-stcolor; @fg-table-color: @content-font-color; @bg-table-color: @content-bg-color; @brd-table-color: @gdroparea-border-color; @bg-value-color: @content-bg-color; @bg-summary-color: saturate( @active-bg-stcolor, 1 ); @fg-header-color: @content-font-color; @fg-header-hvr-color: @hover-font-color; @expander-img: url("../common-images/icons-gray.png"); @kpi-uparrow-img: url("../common-images/pivotgrid/up-arrow.png"); @kpi-rightarrow-img: url("../common-images/pivotgrid/right-arrow.png"); @kpi-downarrow-img: url("../common-images/pivotgrid/down-arrow.png"); @kpi-diamond-img: url("../common-images/pivotgrid/diamond.png"); @kpi-triangle-img: url("../common-images/pivotgrid/triangle.png"); @kpi-circle-img: url("../common-images/pivotgrid/circle.png"); @kpi-red-img: url("../common-images/pivotgrid/red.png"); @kpi-green-img: url("../common-images/pivotgrid/green.png"); @kpi-all-img: url("../common-images/pivotgrid/three-color.png"); @aeb-bgcolor: @content-bg-color; @oclient-bgcolor: @content-bg-color; @oclient-border-color: @default-border-color; @oclient-icons-color:@default-icon-color; @pivot-selection-background:@hover-bg-stcolor; @pivot-selection-border:@default-border-color; @oclient-dialog-bgcolor:@content-bg-color; @oclient-dialog-color:@default-font-color; @oclient-treeview-text:@default-font-color; @oclient-treeview-text-hover:@hover-font-color; @oclient-treeview-active:@active-bg-stcolor; @oclient-ddl-color:@default-font-color; @oclient-ddl-bgcolor:@content-bg-color; @oclient-ddl-bcolor:@hover-border-color; @oclient-ddl-hcolor:@hover-font-color; @oclient-ddl-hbgcolor:@hover-bg-stcolor; @oclient-icons-hover-bg: @hover-bg-stcolor; @toolbar-bgcolor:@default-bg-stcolor; @toolbar-icons-hvrcolor:@hover-icon-color; @fullscreen-bg-color:@content-bg-color; @maxview-bg-color:@content-bg-color; @groupingBar-bg-color:@active-bg-stcolor; .groupingBar-btn-color() {
+    color: @default-icon-color;
+    border-color: @default-border-color;
+}
+.e-pivotclient .removeSplitBtn {
+    border-radius: 4px;
+}
+
+.ogridheader-gradient() {
+    background: @content-bg-color;
+}
+
+.ogridheader-hvr-gradient() {
+    background: @hover-bg-stcolor;
+}
+
+.oclientDialog-setcolor() {
+    color: @default-font-color;
+    background: @default-bg-stcolor;
+}
+
+.summary-gradient() {
+    background-color: @hover-bg-stcolor;
+    color: @hover-font-color;
+}
+
+.oclient-header-color() {
+    color: @hover-font-color;
+	background-color: @hover-bg-stcolor;
+}
+
+.hyperlink-setcolor() {
+    color: @active-bg-stcolor;
+}
+
+.pivotpager-setcolor() {
+    color: @default-icon-color;
+}
+
+.scrollPane-setcolor() {
+    background-color: lighten( @default-icon-color, 48 );
+}
+
+.scrollThumb-setcolor() {
+    background-color: lighten( @default-icon-color, 32 );
+}
+
+.scrollThumb-dragcolor() {
+    background-color: @default-icon-color !important;
+}
+
+.pageIndicator-setcolor() {
+    background-color: @active-bg-stcolor;
+    border: thin solid @active-border-color;
+    color: @active-font-color;
+}
+
+.scrollThumb-hovercolor() {
+    background-color: lighten( @default-icon-color, 19 );
+}
+
+
+.chartTypesDialog-setcolor() {
+    background-color: @default-bg-stcolor;
+    border: 2px solid @default-border-color;
+}
+/*-----------------------OLAP Definition End------------------*/
+
+/*----------------------Reportviewer Definition start------------------*/
+@rv-toolbar-exportlistTip-before-border-color: transparent transparent @content-border-color transparent;
+@rv-toolbar-exportlistTip-after-border-color: transparent transparent @default-bg-stcolor transparent;
+@rv-popuppage-color: @content-bg-color;
+@rv-navigate-disabled-opacity: 0.5;
+@rv-viewerblock-font-size: 12.5px;
+@rv-viewerblockcellcontent-font-size: 14.5px;
+
+@rv-viewerblock-bg-color: lighten(@default-bg-stcolor, 4%);
+@rv-pageviewcontainer-bg-color: darken(@content-bg-color, 20%);
+@rv-documentMappopup-bg-color:#EBEBEB;
+
+@rv-popuppageinfo-bg-color:black;
+@rv-labelpageno-font-size:16px !important; 
+@rv-pageview-moz-box-shadow:rgba(0,0,0,0.6);
+@rv-pageview-webkit-box-shadow:rgba(0,0,0,0.6);
+@rv-pageview-box-shadow:rgba(0,0,0,0.3);
+@rv-pageview-border-color: rgb(128,128,128);
+
+@rv-ttooltip-background:white;
+@rv-ttooltip-border-color:@content-border-color;
+@rv-ttooltip-color:black;
+
+/*----------------------Reportviewer Definition End------------------*/
+/*----------------------Reportdesigner Definition Start------------------*/
+@rd-widget-font-size: 8px;
+@rd-nav-arrow-size: 9px;
+@rd-button-font-size: 11px;
+@rd-preview-font-size: 13px;
+@rd-header-font-size: 16.5px;
+@rd-data-font-size: 18px;
+@rd-acrdn-nav-size: 30px;
+@rd-text-border-radius: 2px;
+@rd-button-border-radius: 4px;
+@rd-border-radius: 4px 4px 0 0;
+@rd-exp-set:#000000;
+@rd-exp-border:#c8c8c8;
+@rd-exp-reset:#ffffff;
+@rd-list-bgreset:transparent;
+@rd-surfacecontainer-bg-color:darken(@content-bg-color, 20%);
+@rd-switch-bg-color: @content-border-color;
+@rd-accordion-hover:#f4f4f4,#e9e9e9;
+@rd-accordion-border:#c8c8c8;
+@rd-tab-fontcolor: #666666;
+@rd-tab-hover-fontcolor:#333333;
+@rd-dialog-addBtn:@active-bg-stcolor;
+@rd-accordion-tile-hover:#f6f6f6,#d9d9d9;
+@rd-nodata-alert-bg:#fff8ed;
+.rd-hover-gradient() {
+    .custom-gradient(@rd-accordion-hover, #f4f4f4,#e9e9e9, 0%, 0% );
+}
+.rd-tile-hover-gradient(){
+    .custom-gradient(@rd-accordion-tile-hover, #f6f6f6,#d9d9d9, 0%, 0% );
+}
+/*----------------------Reportdesigner Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+@sp-outline:transparent none 0px; @sp-item-hover-color:rgba(35, 130, 195, 0.40); @sp-noborder:0px solid transparent; @sp-header-font-size:15px; @sp-header-border-radius:4px;
+/*-----------------------Diagram Definition-----------------*/
+@dg-contextmenu:url("../common-images/diagram/diagram_context.png");@dg-contextmenu-hover:url("../common-images/diagram/diagram_context.png");
+@dg-ruler-overlap-bg: #fcfcfc;
+@dg-ruler-space-bg: #fcfcfc;
+@dg-ruler-tick: #666666;
+@dg-ruler-label: #333333;
+
+/*-----------------------Datepicker Definition-----------------*/
+@disable-datepicker-text: lighten( @default-font-color, 55% );
+/*----------------------Ribbon Definition-----------------------*/
+@rbncontent-content-bg-color:@content-bg-color;
+@rbn-border-color:@default-border-color;
+@rbn-bg-color:@active-bg-stcolor;
+@rbn-act-color:none;
+@rbn-menu-font-hover-color:@hover-font-color;
+@rbnapptab-font-color:@rbntab-font-color;
+@rbnbackstage-item-select-color:@active-font-color;
+@rbnbackstage-item-hover-color:@hover-font-color;
+@rbn-bg-color-start:@active-bg-stcolor;
+@rbn-bg-color-end:@active-bg-endcolor;
+@rbn-act-a-border-color:@active-border-color;
+@rbncontent-font-color:@header-font-color;
+@rbntab-font-color:@header-font-color;
+@rbncontent-border-color: @content-border-color;
+@rbnhelp-color: @default-icon-color;
+@rbncaption-font-color: @content-font-color;
+@rbndropdown-color: @content-bg-color;
+@rbnmenu-font-color:@hover-font-color;
+@rbn-white-color:#FFFFFF;
+@rbn-apptab-color:@rbn-white-color;
+@rbngallery-hover-color:@hover-bg-stcolor;
+@rbngallery-select-color:@active-bg-stcolor;
+@rbn-text-color:@hover-font-color;
+@rbngallery-bg-color: @content-bg-color;
+@rbngallery-border-color:@default-border-color;
+@rbngallery-disable-color:#CECECE;
+@rbnbackstage-start-hover-color:@active-bg-stcolor;
+@rbnbackstage-end-hover-color:darken(@active-bg-endcolor, 15%);
+@rbnbackstage-start-select-color:lighten(@active-bg-stcolor, 15%);
+@rbnbackstage-end-select-color:lighten(@active-bg-endcolor, 15%);
+@rbntoggle-start-color:lighten(@active-bg-stcolor, 30%);
+@rbntoggle-end-color:lighten(@active-bg-endcolor, 30%);
+@rbnhover-font-color: @hover-font-color;
+.ribbon-toggle-gradient(){
+ .custom-gradient(@active-gradient-color, @active-bg-stcolor, @active-bg-endcolor, 0%, 0%);
+}
+.ribbon-header-gradient(){
+ .ribbon-active-gradient();
+}
+.ribbon-active-gradient(){
+ .active-gradient();
+}
+.ribbon-hover-gradient(){
+ .hover-gradient();
+}
+.ribbon-backstage-hover-bg(){
+ .custom-gradient(@active-gradient-color, @rbnbackstage-start-hover-color, @rbnbackstage-end-hover-color, 0%, 15%);
+}
+.ribbon-backstage-select-bg(){
+ .custom-gradient(@active-gradient-color, @rbnbackstage-start-select-color, @rbnbackstage-end-select-color, 15%, 0%);
+}
+.ribbon-bg-hover-gradient(){}
+.ribbon-tab-hover(){}
+.ribbon-bg-active-gradient(){}
+.ribbon-app-hover-gradient(){
+   .ribbon-hover-gradient();
+}
+.office-ribbon-file-hover(){
+}
+.ribbon-shadow(){
+
+}
+.ribbon-app-tab-font(){
+  color: @rbn-apptab-color;
+}
+/*----------------------Ribbon End-----------------------*/
+
+/*----------------------File Explorer Start-----------------------*/
+
+.mouseselection-stylefor-fileexplorer() {
+    background-color: fade(@active-bg-stcolor,20%);
+}
+/*----------------------File Explorer End-----------------------*/
+
+
+/*----------------------Kanban Definition-----------------------*/
+@kanban-cell-exceed: #f8d9c7;
+@kanban-cell-deceed: #ffedcd;
+@kanban-cell-border:@default-border-color;
+@kanban-card-border:@content-border-color;
+@kanban-select-cardhead-border:lighten(@default-border-color,3%);
+@kanban-cardhead-border:lighten(@default-border-color,3%);
+@kanban-toolbar-border:@default-border-color;
+@kanban-filter-done-stcolor: @active-bg-stcolor;
+@kanban-card-shadow:none;
+@kanban-toggle-hover-ftcolor: @active-bg-stcolor;
+.kanban-cell-bg(){
+	.custom-gradient(@default-gradient-color, lighten(@default-bg-stcolor, 4%), @default-bg-endcolor, 0%, 0%);
+}
+.kanban-dragclone-bg(){
+	.custom-gradient(@hover-gradient-color, lighten(@hover-bg-stcolor, 21%), @hover-bg-endcolor, 0%, 0%);
+}
+.kanban-skheader-bg(){
+	.custom-gradient(@default-gradient-color, lighten(@default-bg-stcolor, 1%), @default-bg-endcolor, 0%, 0%);
+}
+.kanban-header-font(){
+     color:@active-bg-stcolor;
+}
+.kanban-targetdrag-font(){
+	.default-gradient();
+}
+.kanban-toggle-content-ftcolor(){
+     color: @content-font-color;
+     opacity: 0.6;
+     filter: alpha(opacity=60);
+}
+.kanban-toggle-icon-ftcolor(){
+     color: @content-font-color;
+     opacity: 0.8;
+     filter: alpha(opacity=80);
+}
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+@sscontent-color: @content-font-color;
+@ssheader-content-color:@header-font-color;
+@sscontent-border-color: @content-border-color;
+@ssfroze-border-color: @content-border-color;
+@ssdialog-border: @content-border-color;
+@sscopy-blank-bgcolor: @content-border-color;
+@sscopy-blur-bgcolor: darken( @content-bg-color, 4% );
+@sscomments-hdr-bgcolor: darken( @content-bg-color, 5% );
+@ssborder-bright: darken( desaturate( @active-bg-stcolor, 8% ), 1% );
+@sscomments-focused-border: lighten( desaturate( @active-bg-stcolor, 18% ), 14% );
+@sscomments-excel-border: darken( saturate( @header-border-color, 1% ), 4% );
+@ssheader-border-color: @header-border-color;
+@ssheader-bgcolor: @content-bg-color;
+@sshover-bg-color: @hover-bg-stcolor;
+@ssheader-select-bgcolor:lighten( desaturate( @active-bg-stcolor, 1% ), 47% );
+@ssheader-hover-bordercolor:@hover-border-color;
+@sscontent-border-color:@content-border-color;
+@sspager-font-color:@default-font-color;
+@ssfroze-highlight-color: darken( desaturate( @active-bg-stcolor, 11% ), 2% );
+@sschart-darktheme-bgcolor: darken( @content-font-color, 13% );
+@ssdrpdwnbrdr: darken( @header-border-color, 7% );
+@ssselectall: lighten(@active-bg-stcolor, 40%);
+@ssselectallhover: lighten(@active-bg-stcolor, 20%);
+@ssselectselected: lighten( desaturate( @active-bg-stcolor, 17% ), 14% );
+@sschart-select-bgcolor: lighten( desaturate( @active-bg-stcolor, 24% ), 20% );
+@sscontent-active-bgcolor: darken( desaturate( @active-bg-stcolor, 11% ), 2% );
+@sscontent-active-color: @active-font-color;
+@ssnumeric-icon-color: darken( @header-border-color, 31% );
+@ssactive-bg-color: @active-bg-stcolor;
+@ss-icon-color:@default-icon-color;
+@ss-textarea-color:@default-border-color;
+@ssbtntgle-start-color:lighten(@active-bg-stcolor, 30%);
+@ssbtntgle-end-color:lighten(@active-bg-endcolor, 30%);
+@ss-chartmenu-bgcolor:@content-bg-color;
+@ss-chartmenu-color:@default-font-color;
+@ss-chartmenuheader-bgcolor:@header-bg-stcolor;
+@ssrowselect-font-color:darken(saturate(@content-font-color, 1%),70%);
+.spread-toggle-gradient(){
+  .custom-gradient(@active-gradient-color,@active-bg-stcolor, @active-bg-endcolor, 0%, 0%);
+}
+@ssactive-font-color:@default-font-color;
+@ssactive-icon-color:@default-icon-color;
+@ssdown-arrow-cursor:url("../common-images/spreadsheet/down_arrow_light.cur"),auto;
+@ssright-arrow-cursor:url("../common-images/spreadsheet/right_arrow_light.cur"),auto;
+@ssformatpainter-cursor:url("../common-images/spreadsheet/format_painter_light.cur"),auto;
+@ssdraw-border-cursor:url("../common-images/spreadsheet/draw_border_light.cur"),auto;
+@ssdraw-border-grid-cursor:url("../common-images/spreadsheet/draw_border_grid_light.cur"),auto;
+@ss-ddl-boxshadow:0 0 7px #ccc;
+/*----------------------Spreadsheet End-----------------------*/
+
+/*----------------------rangeScrollbar Start------------------*/
+
+@default-rangeScroll-select-fill: @default-bg-stcolor;
+@default-rangeScroll-select-stroke : @default-border-color;
+@hover-rangeScroll-select-fill: @hover-bg-stcolor;
+@hover-rangeScroll-select-stroke : @hover-border-color;
+@default-rangeScroll-backRect-fill:@content-bg-color;
+@default-rangeScroll-backRect-stroke:@content-border-color;
+@default-rangeScroll-arrow-fill:@default-icon-color;
+@hover-rangeScroll-arrow-fill:@hover-icon-color;
+
+/*----------------------rangeScrollbar End--------------------*//*----------------------Office 365 theme-----------------------*/
+.border-selection() {}
+.colorpicker-color-selection() {}
+.colorpicker-boxshadow-selection() {}
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+ .colorpickericon-color-selection(){}
+ /*----------------------material theme-----------------------*/
+.material-stylefor-bordertop(){}
+.material-stylefor-fileexplorer(){
+   border-bottom-color: @active-bg-stcolor;
+}
+.material-stylefor-button(){}
+.material-stylefor-datepicker(){}
+.material-stylefor-borderradius(){}
+
+/*--------------- common ----------------- */
+
+.switch-animate-icon-color() {
+    @active-icon-color: white;
+}
+.tab-header-background() {}
+.switch-grid-header-icon() {}
+.switch-datepick-header-hover() {}
+.switch-datepick-header-text() {}
+.switch-datetimepick-button-text() {}
+.switch-colorpicker-grpbtn-text() {}
+.switch-splitter-divder-hover() {}
+.switch-schedule-appointment-btn() {}
+.switch-schedule-header-color() {}
+.switch-pivotgrid-draggale-button() {}
+.switch-pivotgrid-groupingBar-btn-color() {}
+.switch-pivotgrid-btn-hover() {}
+.switch-pivotclient-icon-hover() {}
+.switch-pivotclient-treeview-icon-hover-active() {}
+.switch-checkbox-icontick() {}
+.switch-ribbon-file-header-txt-color() {}
+.switch-file-explorer-context-icon-color() {}
+.switch-rte-active-icon-color() {}
+.switch-rte-context-icon-color() {}
+/*---------------high-contrast ------*/
+
+.high-contrast-groupbtn-border() {
+    @hover-border-color: @default-border-color;
+}
+.high-contrast-gantt-toolbar-icon-border() {
+    @hover-border-color: transparent;
+}
+.switch-themes-groupbtn-border-color() {
+    @hover-gbtn-border-color: transparent;
+}
+
+.high-contrast-stylefor-silder-active() {}
+.high-contrast-checkbox-bordercolor() {}
+.high-contrast-radio-bordercolor() {}
+.high-contrast-radio-iconcircle() {}
+.high-contrast-tab-headerborder() {}
+.high-contrast-tab-header-normal-font() {}
+.high-contrast-rotator-default-border() {}
+.high-contrast-rotator-pager-border() {}
+.high-contrast-file-explorer-search-text() {}
+.high-contrast-file-explorer-content-active() {}
+.high-contrast-tagcloud-txt-hover() {}
+.high-contrast-ribbon-header-active() {}
+.high-contrast-ribbon-header-border() {}
+.high-contrast-ribbon-header-active-border() {}
+.high-contrast-ribbon-header-active-font() {}
+.high-contrast-ribbon-header-hover-font() {}
+.high-contrast-ribbon-file-header() {}
+.high-contrast-stylefor-daterange(){    @default-bg-stcolor:@hover-bg-stcolor;
+}
+.daterange-inrange-background() {}
+.high-contrast-ribbon-file-header-hover() {}
+.high-contrast-gantt-textbox-border-color() {}
+.high-contrast-gantt-active-font-color() {}
+.high-contrast-toolbar-border() {}
+.high-contrast-grid-button-border-color() {}
+.high-contrast-schedule-content-icon-color() {}
+.high-contrast-upload-btn-hover-color(){}
+/*---------------- Office-365 ----------------*/
+
+.office-grid-footer-bg-color() {}
+.office-grid-footer-border-color() {}
+.office-grid-pager-bg-color() {}
+.office-grid-pager-hover-color() {}
+.office-button-bg-color() {}
+.office-silder-handle-bg-color() {}
+.office-silder-handle-border-color() {}
+.office-silder-handle-hover-border-color() {}
+.office-acrd-header-bg-color() {}
+.office-acrd-header-border-color() {}
+.office-tab-headerborder() {}
+.office-tab-header-normal-font() {}
+.office-colorpick-popup-bg-color() {}
+.office-colorpick-popup-border-color() {}
+.office-rotator-pager-hover-border() {}
+.office-ribbon-header-bg-color() {}
+.office-ribbon-header-border() {}
+.office-ribbon-header-font-color() {}
+.office-ribbon-file-header() {}
+.office-pivotclient-toolbar-bg-color() {}
+.office-checkbox-bordercolor() {}
+.office-file-explorer-toolbar-bg-color() {}
+.office-file-explorer-toolbar-border-color() {}
+.office-rte-toolbar-color() {}
+.office-split-menu-color() {}
+.office-tab-header-bg-color {}
+.office-radio-iconcircle() {}
+.office-radio-bordercolor() {}
+.office-dialog-active-line-color() {}
+.office-tab-header-hover-font(){}
+.office-file-explorer-splitbtn-bg-color(){}
+.office-ddl-checkbox-bordercolor(){}
+.office-toolbar-bg-color(){}
+.office-rte-splitbtn-bg-color(){}
+.office-upload-btn-hover-color(){}
+.office-tab-header-bghover-color{}
+.office-upload-button-border(){}
+.office-tab-border-left-right(){
+    border: none;
+}
+.office-pivot-treeview-hover-border(){}
+.office-pivot-treeview-active-color(){}
+.office-pivot-button-active(){}
+.office-pivot-groupingBar-button-active(){}
+.office-pivot-button-border(){
+    border:1px solid;
+}
+.office-pivot-dialog-icon-hover(){
+   background:@pivotList-dialog-close-hvr-color;
+}
+
+
+/*------------------ material theme ---------------------*/
+.material-tab-border() {
+    border-bottom: transparent;
+}
+.material-tab-borderbottom() {
+    border-top: 3px @border-type @active-bg-stcolor;
+}
+
+.material-tab-right-border(){
+  border-left: transparent;
+}
+.material-tab-right-bottom-border(){
+    border-right: 3px @border-type @active-bg-stcolor;
+}
+.material-tab-left-border(){
+    border-right: transparent;
+}
+.material-tab-left-bottom-border(){
+    border-left: 3px @border-type @active-bg-stcolor;
+}
+.material-tab-bottom-border(){
+    border-top: transparent;
+}
+.material-tab-bottom-border-bottom(){
+    border-bottom: 3px @border-type @active-bg-stcolor;
+}
+
+.material-datepick-header-icon-color() {}
+.material-dialog-icon-hover-bg-color() {}
+.material-dialog-icon-hover-color(){}
+.material-menu-active-bg-color() {}
+.material-radio-bg-color() {}
+.material-radio-bordercolor() {}
+.material-radio-iconcircle() {}
+.material-tab-header-bg-hover-color() {}
+.material-tab-headerborder() {}
+.material-tab-header-normal-font() {}
+.material-tab-header-hover-font() {}
+.material-tootip-bg-color() {}
+.material-tootip-border-color() {}
+.material-tootip-text-color() {}
+.material-button-border-color() {}
+.material-listview-header-icon-color() {}
+.material-tileview-bg-color() {}
+.material-ribbon-header-active-font() {}
+.material-ribbon-file-header() {}
+.material-ribbon-file-header-hover() {}
+.material-pivot-drag-bg-color() {}
+.material-pivot-drag-column-color() {}
+.material-pivot-drag-column-br-color() {}
+.material-pivot-drag-column-txt-color() {}
+.material-pivotclient-box-shadow() {}
+.material-grid-droparea-bg-color() {}
+.material-grid-header-border-top-color() {}
+.material-gantt-header-background() {}
+.material-gantt-header-icon-color() {}
+.material-upload-background() {}
+.material-upload-border() {}
+.material-active-box-shadow() {}
+.material-normal-box-shadow() {}
+.material-checkbox-bordercolor() {}
+.material-checkbox-act-bordercolor() {}
+.material-hover-navigation-header-icon-color(){}
+.material-upload-dialog-active-line(){
+    border-bottom: 3px @border-type @active-bg-stcolor;
+}
+.material-radio-act-bordercolor(){}
+.material-file-explorer-splitbtn-shadow(){}
+.material-file-explorer-splitbtn-radius(){}
+.material-ddl-checkbox-bordercolor(){}
+.material-tab-padding-bottom(){
+   padding-bottom: 1px;
+}
+.material-tab-border-bottom-line(){}
+
+.material-headerStylefor-datepicker(){}
+.material-dateDimension-datepicker(){}
+.material-dateCircle-datepicker(){}
+.material-monthDimension-datepicker(){}
+.material-buttonText-alignment(){}
+.material-icon-alignment(){}
+.material-gantt-toolbar-shadow(){}
+
+.material-datePicker-header() {}
+.material-borderRadius-datepicker(){}
+.material-datePicker-headerText(){}
+.material-headerText-padding(){}
+.material-rightIcon-alignment(){}
+.material-icon-dimension(){}
+.material-icon-position(){}
+.material-otherMonth-dateColor(){}
+.material-text-dimension(){}
+.material-headerHoverStylefor-datepicker(){}
+.material-headerHoverStylefor-dateTimePicker(){}
+.material-upload-dialog-bg-color(){}
+.material-rte-splitbtn-radius(){}
+.material-header-RTL(){}
+.material-prevIcon-RTL(){}
+.material-nextIcon-RTL(){}
+.material-drillDownContainer-font(){}
+.material-timeDimension-datepicker(){}
+.material-content-border-color(){}
+/*-----------------------HeatMap Definition-----------------*/
+@hmp-border-color: #c8c8c8;
+@hmp-font-color:black;
+@hmp-background-color:white;
+/* Common style */
+
+.e-content-area{
+   background-color:@widget-bg-color;
+   color:@label-color;
+   border-color:@content-border-color;
+   font-family:@font-family;
+}
+@isDefault: false;
+.custom-gradient(@gradients, @stcolor, @endcolors, @light, @dark) when not (@isDefault)  and not (@gradients = none) {
+  .normal-bg(){
+    @gradient: extract(@gradients, 1);
+    @color: extract(@gradient, 1);
+    background: contrast(@color, lighten(@color, @light), darken(@color, @dark));
+  }.normal-bg();   
+ 
+  .gen-gradient(-moz-, top);
+   
+   .webkit-gradient(){
+    .lower-browsers();
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,@start), color-stop(100%,@end)); 
+  }.webkit-gradient();
+  
+  .gen-gradient(-webkit-, top);   
+  .gen-gradient(-o-, top);
+  .gen-gradient(-ms-, top);   
+  .gen-gradient("" ; to bottom);   
+  
+  .filter-bg(){
+    .lower-browsers();
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=@start, endColorstr=@end,GradientType=0 ); 
+  }.filter-bg();
+  
+  .lower-browsers(){
+    @startgradient: extract(@gradients, 1);
+    @endgradient:  extract(@gradients, length(@gradients));
+    @startcolor: extract(@startgradient, 1);    
+    @endcolor: extract(@endgradient, 1);    
+    @start: contrast(@startcolor, lighten(@startcolor, @light), darken(@startcolor, @dark));
+    @end: contrast(@endcolor, lighten(@endcolor, @light), darken(@endcolor, @dark));
+  }   
+  
+  .gen-gradient(@browser, @position){
+    @{browser}+_: ~"; background: @{browser}linear-gradient(@{position}";
+    .loop(length(@gradients));
+    .loop(@i) when (@i > 0) {
+        .loop((@i - 1));
+        @gradient: extract(@gradients, @i);
+        @color:    extract(@gradient, 1); 
+       .scale() when (length(@gradient) = 2){
+           .lightdark() when (lightness(@color) > 50) {
+               @{browser}+: darken(@color, @dark) extract(@gradient, 2);
+           }
+           .lightdark() when (lightness(@color) < 50) {
+               @{browser}+: lighten(@color, @light) extract(@gradient, 2);
+           }.lightdark();
+       }      
+       .scale() when (length(@gradient) = 1){ 
+         .lightdark() when (lightness(@color) > 50) {
+               @{browser}+: darken(@color, @dark);
+           }
+           .lightdark() when (lightness(@color) < 50) {
+               @{browser}+: lighten(@color, @light);
+           }.lightdark();                     
+      }                            
+    }
+    .scale();
+    @{browser}+_:);    
+  }
+}
+.custom-gradient(@gradients, @stcolor, @endcolors, @light, @dark) when not (@isDefault)  and (@gradients = none) {
+    background:  @stcolor;
+}
+
+
+/* ------- menu less ----------- */
+.e-menu.e-separator.e-horizontal > .e-list,.e-menu.e-separator.e-horizontal > .e-list:hover,
+.e-menu.e-horizontal > .e-separator.e-list,.e-menu.e-horizontal > .e-separator.e-list:hover {
+     & when (@skin= "material") {
+        /*material*/ 
+       border-right-color: transparent;              
+    } 
+    & when not (@skin= "material") {
+		& when (@skin= "office-365") {
+			/*office-365*/ 
+			border-right-color: transparent;              
+		} 
+		& when not (@skin= "office-365") {
+			/*other*/
+			border-right-color: @content-border-color; 
+		}
+    } 
+}
+
+.e-menu.e-horizontal .e-list > ul .e-list.e-separator, 
+.e-menu.e-horizontal .e-list > ul .e-list.e-separator:hover,
+.e-menu.e-vertical .e-list > ul .e-list.e-separator,
+.e-menu.e-vertical .e-list > ul .e-list.e-separator:hover,
+.e-menu.e-context .e-list > ul .e-list.e-separator,
+.e-menu.e-context .e-list > ul .e-list.e-separator:hover,
+.e-menu.e-separator.e-vertical > .e-list, .e-menu.e-vertical > .e-separator.e-list,
+.e-menu.e-separator.e-vertical > .e-list:hover,.e-menu.e-vertical > .e-separator.e-list:hover,
+.e-menu.e-context > .e-separator.e-list,.e-menu.e-context > .e-separator.e-list:hover {
+	border-bottom-color: @content-border-color;
+}
+
+.e-menu.e-separator.e-rtl.e-horizontal > .e-list,.e-menu.e-rtl.e-horizontal > .e-separator.e-list, .e-menu.e-rtl.e-horizontal > .e-separator.e-list:hover {
+    border-left-color:@content-border-color;
+}
+/*---------------------theming----------------------------------*/
+.e-menu.e-horizontal .e-list > .e-menulink,
+.e-menu.e-vertical .e-list > .e-menulink,
+.e-menu.e-context .e-list > .e-menulink,
+ .e-menu-res-wrap .e-menu-res-in-wrap .e-res-title, .e-menu.e-vertical {
+    & when (@skin="material") {  
+        color: fade(@base-font-color,87%); 
+   }
+   & when not (@skin= "material") {
+		& when (@skin="office-365") {  
+			color: @neutral-light-font;
+			font-weight: 400;
+			font-size: 14px;
+		}
+		& when not (@skin= "office-365") {
+			color: @content-font-color;
+		}
+   }
+}
+
+.e-menu,.e-menu-res-wrap .e-in-wrap.e-menu-res-in-wrap,.e-menu.e-vertical,.e-menu.e-vertical .e-list > ul,.e-menu.e-context,.e-menu.e-context .e-list > ul {   
+    & when (@skin= "material") {
+        /*material*/ 
+       border-color: transparent;     
+    } 
+    & when not (@skin= "material") {
+		& when (@skin= "office-365") {
+			border-color: @neutral-light;
+		}
+		& when not (@skin= "office-365") {
+			/*other*/ 
+			border-color: @content-border-color;
+		}
+    }
+       background: @content-bg-color;
+}
+
+
+.e-menu.e-horizontal .e-list > ul {
+  background: @content-bg-color;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+   & when (@skin= "material") {
+        /*material*/
+        border-color: transparent;               
+    }
+
+    & when not (@skin= "material") {
+        /*other*/
+        border-color: @content-border-color;
+    }
+}
+.e-menu.e-horizontal > .e-list.e-active > span.e-menu-arrow > span.e-arrowMenuOuter{
+
+  width: 0; 
+  height: 0; 
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  left :0px;
+  top : 0px;
+  border-bottom: 10px solid @hover-bg-stcolor;
+  position : absolute;
+ }
+
+ .e-menu.e-horizontal > .e-list.e-active > span.e-menu-arrow > span.e-arrowMenuInner{
+    width: 0; 
+    height: 0; 
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+   border-bottom: 9px solid @content-bg-color;
+    left : 1px;
+   top : 1px;
+    position : absolute;
+}
+
+.e-menu.e-horizontal .e-list:hover,
+.e-menu.e-vertical .e-list:hover,
+.e-menu.e-context .e-list:hover {
+   & when (@skin="material") {  
+      background: fade(@base-font-color,12%);
+   }
+   & when not (@skin= "material") {
+		& when (@skin="office-365"){
+			background-color: @neutral-lighter;
+			color: @neutral-dark;
+		}
+		& when not (@skin= "office-365"){
+			.hover-gradient();
+			border-color: @hover-bg-stcolor;
+		}
+   }
+}
+.e-menu.e-horizontal .e-list >ul li.e-haschild:hover,
+.e-menu.e-vertical .e-list >ul li.e-haschild:hover,
+.e-menu.e-context .e-list >ul li.e-haschild:hover {
+    .bs-hover-gradient(); 
+    border-color: @hover-bg-stcolor;      
+}
+.e-menu.e-horizontal .e-list >ul li.e-haschild:hover > .e-menulink,
+.e-menu.e-vertical .e-list >ul li.e-haschild:hover > .e-menulink,
+.e-menu.e-context .e-list >ul li.e-haschild:hover > .e-menulink {
+     .bs-hover-gradient();   
+    .hover-font-color();
+}
+
+.e-menu.e-horizontal .e-list:hover > .e-menulink,
+.e-menu.e-vertical  .e-list:hover > .e-menulink,
+.e-menu.e-context .e-list:hover > .e-menulink{
+  color: @hover-font-color;
+}
+
+.e-menu.e-horizontal .e-list.e-active,
+.e-menu.e-vertical .e-list.e-active,
+.e-menu.e-context .e-list.e-active {
+    & when (@skin= "material") {
+       /*material*/
+        background: fade(@base-font-color,12%);
+    }
+    & when not (@skin= "material") {
+		& when (@skin= "office-365") {
+			background-color: @theme-primary;
+			color: @theme-primary-font;
+		}
+		 & when not (@skin= "office-365") {
+			/*other*/
+			.active-gradient();
+			color:@active-font-color;
+			border-color: @active-bg-stcolor;
+		}
+    } 
+
+}
+
+.e-menu.e-horizontal .e-list.e-active,
+.e-menu.e-vertical .e-list.e-active,
+.e-menu.e-context .e-list.e-active {
+    & when (@skin= "material") {
+       /*material*/
+      background: fade(@base-font-color,12%);
+      color: fade(@base-font-color,87%);
+    }
+   
+}
+
+.e-menu.e-horizontal .e-list >ul li.e-haschild.e-active > .e-menulink,
+.e-menu.e-vertical .e-list >ul li.e-haschild.e-active > .e-menulink,
+.e-menu.e-context .e-list >ul li.e-haschild.e-active > .e-menulink {
+   & when (@skin= "material") {
+        /*material*/
+        background: none;
+       color: none;
+       border-color: none;
+    }
+    & when not (@skin= "material") {
+		& when (@skin= "office-365") {
+			border-color: none;
+			background-color: @theme-lighter;
+			color : @theme-light-font;
+		}
+		& when not (@skin= "office-365") {
+			 /*other*/
+			.active-gradient();
+			border-color: @active-bg-stcolor;
+			color:@active-font-color;
+		}
+    } 
+}
+
+.e-menu.e-horizontal .e-list.e-active > .e-menulink,
+.e-menu.e-vertical  .e-list.e-active > .e-menulink,
+.e-menu.e-context .e-list.e-active > .e-menulink,
+.e-menu.e-horizontal .e-list.e-active:hover,
+.e-menu.e-vertical .e-list.e-active:hover,
+.e-menu.e-context .e-list.e-active:hover{
+      & when (@skin= "material") {
+        /*material*/
+        color: fade(@base-font-color,87%);
+    }
+
+    & when not (@skin= "material") {
+        /*other*/
+		& when (@skin= "office-365"){
+			color: @theme-primary-font;
+		}
+		& when not (@skin= "office-365"){
+        	color: @active-font-color;
+		}
+    } 
+}
+
+
+.e-menu .e-list > a .e-icon,.e-menu .e-list > span > .e-icon{
+    & when (@skin= "material") {
+        /*material*/
+        color: fade(@base-font-color,54%);
+    }
+    & when not (@skin= "material") {
+		& when (@skin= "office-365") {
+			color: @neutral-light-font;
+		}
+		& when not (@skin= "office-365") {
+			/*other*/
+			color:@default-icon-color;
+		}
+    }
+}
+.e-menu .e-list.e-active>.e-menulink>span.e-icon.e-arrowhead-right {
+	& when (@skin= "office-365") {
+		color: @theme-light-font;
+	}
+}
+.e-menu .e-list:hover > a .e-icon,.e-menu .e-list:hover > span > .e-icon{
+	& when (@skin= "office-365") {
+		color: @neutral-dark;
+	}
+	& when not (@skin= "office-365") {
+		color:@hover-icon-color
+	}
+}
+.e-menu .e-list.e-active > a >.e-icon,.e-menu .e-list.e-active > span > .e-icon,.e-menu .e-list.e-active:hover > a >.e-icon,.e-menu .e-list.e-active:hover > span > .e-icon{
+    & when (@skin= "material") {
+        /*material*/
+        color: fade(@base-font-color,54%);
+    }
+
+    & when not (@skin= "material") {
+		& when (@skin= "office-365") {
+			color: @theme-primary-font;
+		}
+		& when not (@skin= "office-365") {
+			color:@active-icon-color;
+		}
+    }  
+}
+
+
+/*----------------------------------- disabled items ----------------------------------*/
+.e-menu.e-horizontal .e-list.e-disable-item,
+.e-menu.e-vertical .e-list.e-disable-item,
+.e-menu.e-context .e-list.e-disable-item{
+    background-color: transparent;
+}
+.e-menu.e-horizontal .e-list.e-disable-item .e-icon,
+.e-menu.e-vertical .e-list.e-disable-item .e-icon,
+.e-menu.e-context .e-list.e-disable-item .e-icon{
+    color: @default-icon-color;
+}
+.e-menu.e-horizontal  .e-list.e-disable-item *,
+.e-menu.e-vertical .e-list.e-disable-item *,
+.e-menu.e-context  .e-list.e-disable-item *{
+   filter: alpha(opacity=40);
+   opacity: 0.4;
+}
+.e-menu.e-horizontal  .e-list.e-disable-item .e-menulink:hover,
+.e-menu.e-horizontal  .e-list.e-disable-item:hover,
+.e-menu.e-vertical  .e-list.e-disable-item .e-menulink:hover,
+.e-menu.e-vertical  .e-list.e-disable-item:hover,
+.e-menu.e-context  .e-list.e-disable-item .e-menulink:hover,
+.e-menu.e-context  .e-list.e-disable-item:hover {
+    background-color: transparent;
+    background-image:none;
+	color: @content-font-color;
+	cursor: default;
+}
+.e-menu.e-horizontal .e-mhover,.e-menu.e-context .e-mhover,.e-menu.e-vertical .e-mhover,
+.e-menu.e-horizontal .e-mhover > .e-menulink,
+.e-menu.e-context .e-mhover > .e-menulink,
+.e-menu.e-vertical .e-mhover > .e-menulink,
+.e-menu.e-horizontal .e-mfocused,.e-menu.e-context .e-mfocused,.e-menu.e-vertical .e-mfocused,
+.e-menu.e-horizontal .e-mfocused > .e-menulink,
+.e-menu.e-context .e-mfocused > .e-menulink,
+.e-menu.e-vertical .e-mfocused > .e-menulink,.e-menu-res-wrap .e-menu-res-in-wrap .e-icon.e-check-wrap:hover
+{
+    & when (@skin= "material") {
+        /*material*/
+        background: fade(@base-font-color,12%);
+    }
+
+    & when not (@skin= "material") {
+        /*other*/
+		& when (@skin="office-365") {
+			background-color: @neutral-lighter;
+		}
+		& when not (@skin="office-365") {
+			.hover-gradient();
+			color: @hover-font-color;
+			border-color: @hover-bg-stcolor;
+		}
+    }  
+	 
+}
+.e-menu.e-horizontal .e-active,.e-menu.e-context .e-active,.e-menu.e-vertical .e-active,
+.e-menu.e-horizontal .e-active > .e-menulink,
+.e-menu.e-context .e-active > .e-menulink,
+.e-menu.e-vertical .e-active > .e-menulink,
+.e-menu.e-horizontal .e-active,.e-menu.e-context .e-active,.e-menu.e-vertical .e-active,
+.e-menu.e-horizontal .e-active > .e-menulink,
+.e-menu.e-context .e-active > .e-menulink,
+.e-menu.e-vertical .e-active > .e-menulink,.e-menu-res-wrap .e-menu-res-in-wrap .e-icon.e-check-wrap:hover
+{
+      & when (@skin= "material") {
+        /*material*/
+        background: fade(@base-font-color,12%); 
+    }
+
+    & when not (@skin= "material")  {
+        /*other*/
+      .active-gradient();
+     color: @active-font-color;
+     border-color: @hover-bg-stcolor;
+    }
+}
+
+.e-menu.e-horizontal .e-active,.e-menu.e-context .e-active,.e-menu.e-vertical .e-active,
+.e-menu.e-horizontal .e-active > .e-menulink,
+.e-menu.e-context .e-active > .e-menulink,
+.e-menu.e-vertical .e-active > .e-menulink,
+.e-menu.e-horizontal .e-active,.e-menu.e-context .e-active,.e-menu.e-vertical .e-active,
+.e-menu.e-horizontal .e-active > .e-menulink,
+.e-menu.e-context .e-active > .e-menulink,
+.e-menu.e-vertical .e-active > .e-menulink,.e-menu-res-wrap .e-menu-res-in-wrap .e-icon.e-check-wrap:hover
+{
+    & when (@skin= "material") {
+        /*material*/
+        background: fade(@base-font-color,12%); 
+    }
+    & when not (@skin= "material")  {
+        /*other*/
+     .material-menu-active-bg-color;
+    } 
+}
+.e-menu-res-wrap .e-menu-res-in-wrap .e-icon.e-check-wrap {
+	& when (@skin="office-365") {
+		color: @theme-light-font;
+	}
+}
+.e-menu-res-wrap .e-menu-res-in-wrap .e-icon.e-check-wrap:hover {
+	& when (@skin="office-365") {
+		color: @neutral-light-font-alt;
+	}
+	& when not (@skin="office-365") {
+		.hover-gradient();
+		color: @active-font-color;
+	}
+	border-color: @hover-bg-stcolor;
+}
+.e-menu-res-wrap .e-menu-res-in-wrap .e-icon.e-check-wrap:active {
+	& when not (@skin="office-365") {
+		.active-gradient();
+	}
+     color: @active-font-color;
+     border-color: @hover-bg-stcolor;
+}
+.e-menu.e-horizontal>.e-list span.e-menu-left {
+     & when (@skin= "material") {
+        /*material*/
+        display: none !important;
+    }
+    & when not (@skin= "material") {
+        /*other*/
+       display: block;
+    }
+}
+.e-menu .e-list>.e-menulink>span.e-icon.e-arrowhead-down {
+     & when (@skin= "material") {
+        /*material*/
+        display: none;
+    }
+    & when not (@skin= "material") {
+        /*other*/
+       display: block;
+    }
+}
+.e-menu.e-horizontal>.e-ham-wrap{
+		 background:@content-bg-color;
+		 border-left-color:@content-border-color;
+}
+.e-menu.e-horizontal>.e-ham-wrap:hover {
+    .hover-gradient();
+     color: @active-font-color;
+     border-color: @hover-bg-stcolor;
+}
+.e-menu.e-horizontal>.e-ham-wrap:active {
+     & when (@skin= "material") {
+        /*material*/
+        background: fade(@base-font-color,12%); 
+    }
+    & when not (@skin= "material") {
+        /*other*/
+    .active-gradient();
+    }
+     color: @active-font-color;
+     border-color: @hover-bg-stcolor;
+}
+
+.e-menu.e-horizontal>.e-ham-wrap>div>.e-hamburger{
+	border-top-color:@content-font-color;
+	border-bottom-color:@content-font-color;
+}
+.e-menu.e-horizontal>.e-ham-wrap>div>.e-hamburger:before{
+	border-top-color:@content-font-color;
+ }
+ .e-menu-wrap>.e-menu-popwrap{
+	border-color:@content-border-color;
+ }
+.e-menu-wrap>.e-menu-popwrap>.e-menu{
+	background-color:@content-bg-color;	
+}
+
+.e-menu .e-list ul:first-child li:first-child{
+    & when (@skin= "material") {
+        /*material*/
+        margin-top: 21px;
+    }
+}
+
+.e-menu.e-context>.e-separator.e-list{
+     & when (@skin= "material") {
+        /*material*/
+           border-bottom: 1px solid fade(@base-font-color,12%);
+    }
+}
+.e-chkbox-wrap {
+    display: inline-flex;
+}
+.e-chkbox-wrap.e-tb-cell .e-text, .e-chkbox-wrap.e-tb-cell div {
+    display: table-cell;
+     padding: 0px 5px 2px 5px;    
+}
+.e-chkbox-wrap.e-check-small.e-tb-cell .e-text {   
+    padding: 0px 5px 2px 5px;        
+}
+.e-chkbox-wrap.e-focus div > span 
+{
+	box-shadow: 0 0 2px @shadow-bg-color;
+}
+.e-chkbox-wrap div > span
+{
+    .high-contrast-checkbox-bordercolor;
+    .material-checkbox-bordercolor; 
+	   & when (@skin= "material") {
+	   		border-color:fade(@base-font-color,54%); 
+            background-color: @content-bg-color;
+	   }
+        & when (@skin= "office-365") {
+        border-width:2px;
+        border-color:@neutral-tertiary;
+        background-color: @neutral-white;
+        }
+    & when not (@skin= "material") and not (@skin="office-365") {
+        /*other*/
+       border-color: @content-border-color;
+       background-color: @content-bg-color;
+    }
+    
+}
+.e-chkbox-wrap.e-disable {
+   & when (@skin= "material") {
+	  opacity:0.26;
+	}
+}
+.e-chkbox-wrap div>span.e-chk-act,.e-chkbox-wrap div>span:hover{
+    & when (@skin= "material") {        
+            .high-contrast-checkbox-bordercolor; 
+	   		.material-checkbox-bordercolor;
+	   }
+        & when (@skin= "office-365") {   
+            color:@neutral-white;
+        border:2px solid @theme-primary;
+        background-color: @theme-primary;
+        }
+    & when not (@skin= "material") and not (@skin="office-365") {
+        /*other*/             
+    .high-contrast-checkbox-bordercolor; 
+    border-color: @content-border-color;
+    }
+}
+.e-chkbox-wrap div>span:hover{
+& when (@skin= "material") {
+	   		border-color:fade(@base-font-color,54%);
+	   }
+  & when (@skin= "office-365") {    
+        border:2px solid @neutral-secondary-alt;
+        background-color: @neutral-white;
+        }
+}
+.e-chkbox-wrap div > span.e-chk-act {
+    .high-contrast-checkbox-bordercolor;
+    .office-checkbox-bordercolor;
+    .material-checkbox-act-bordercolor;
+    border-color: @content-border-color;
+     & when (@skin= "office-365") {   
+            color:@neutral-white;
+        border:2px solid @theme-primary;
+        background-color: @theme-primary;
+        }
+}
+.e-chkbox-wrap.e-widget.e-disable div > span.e-chk-act, 
+.e-chkbox-wrap.e-widget.e-disable div > span.e-chk-indeter, 
+.e-chkbox-wrap.e-disable div > span {
+& when (@skin= "material") {
+	   		border-color:fade(@base-font-color,26%);
+	   }		
+}
+.e-chkbox-wrap .e-chk-image.e-stop,.e-chkbox-wrap .e-chk-image.e-checkmark
+{    
+    .switch-checkbox-icontick;
+    & when (@skin= "material") {
+        /*material*/
+       color:@accent-font-color;
+        background-color: @accent-color;
+    }
+    & when (@skin= "office-365") {
+         color:@theme-primary-font;
+        background-color: @theme-primary;
+    }
+    & when not (@skin= "material") and not (@skin="office-365") {
+        /*other*/
+        color:@active-bg-stcolor;
+    }
+}
+.e-chkbox-wrap.e-disable .e-chk-image.e-stop,.e-chkbox-wrap.e-disable .e-chk-image.e-checkmark{
+    & when (@skin= "office-365") {
+          background-color: @neutral-tertiary-alt;
+    }
+}
+.e-chkbox-wrap .e-chk-image.e-stop {
+& when (@skin= "material") {
+    color:rgba(0,0,0,.54);
+	background-color: @content-bg-color;
+			}
+}
+.e-chkbox-wrap .e-chk-image.e-stop:before {
+& when (@skin= "material") {
+content: "\e833";
+			}
+}
+.e-chkbox-wrap.e-disable .e-chk-image.e-checkmark {
+& when (@skin= "material") {
+       background-color:fade(@base-font-color,26%);
+			}
+}
+
+.e-chkbox-wrap .e-text
+{
+    font-family:@font-family;
+    font-size:@font-size;
+	& when (@skin= "material") {
+    font-size:13px;
+	}
+    color:@content-font-color;
+}
+.e-check-small.e-chkbox-wrap .e-text {
+	& when (@skin= "material") {
+	vertical-align:middle;
+	margin-top:-7px;
+	}
+}
+.e-check-medium.e-chkbox-wrap .e-text {
+	& when (@skin= "material") {
+	vertical-align:middle;
+	margin-top:-15px;
+	}
+}
+
+.e-material-animate.e-chkbox-wrap .e-chk-act::before {
+	& when (@skin= "material") {
+		border-radius: 50%;
+		position: absolute;
+		box-sizing: border-box;
+		top: 43%;
+		right: 6px;
+		transform: scale(0);
+        -webkit-transform: scale(0);
+		width: 3px;
+		height: 3px;
+		content: '';
+		border:1px solid fade(@base-font-color, 70%);
+		animation: smallShadow .45s cubic-bezier(.25,.8,.25,1);
+		background: fade(@base-font-color, 70%);
+	 }
+}
+.e-material-animate.e-chkbox-wrap .e-chk-inact::after {
+	& when (@skin= "material") {
+		border-radius: 50%;
+		position: absolute;
+		box-sizing: border-box;
+		top: 43%;
+		right: 6px;
+		transform: scale(0);
+        -webkit-transform: scale(0);
+		width: 3px;
+		height: 3px;
+		background: fade(@accent-color, 70%);
+		content: '';
+		border:1px solid fade(@accent-color,70%);
+		animation:smallShadow 0.45s cubic-bezier(.25,.8,.25,1);
+	}
+}
+	.e-material-animate.e-chkbox-wrap .e-chkbox-medium .e-chk-act::before {   
+		& when (@skin= "material") {
+			right: 8.7px;
+			top: 45%;
+			animation:mediumShadow 0.45s cubic-bezier(.25,.8,.25,1);
+		}
+	}
+	.e-material-animate.e-chkbox-wrap .e-chkbox-medium .e-chk-inact::after {
+	& when (@skin= "material") {
+			right: 8.7px;
+			top: 45%;
+			animation:mediumShadow 0.45s cubic-bezier(.25,.8,.25,1);
+	}
+}
+@keyframes mediumShadow {
+   100% {
+    opacity: 0;
+    transform: scale(18, 18);
+  }
+}
+@keyframes smallShadow {
+    100% {
+    opacity: 0;
+	transform: scale(15, 15);
+
+  }
+}
+
+.e-chkbox-wrap div>span.e-chk-act:hover{
+     & when (@skin= "office-365") {
+        background-color: @theme-dark-alt;
+        border:2px solid @theme-dark-alt;
+    }
+}
+.e-chkbox-wrap.e-disable div>span.e-chk-act{
+    & when (@skin= "office-365") {
+        background-color: @neutral-tertiary-alt;
+        border:2px solid @neutral-tertiary-alt;
+    }
+}
+.e-chkbox-wrap.e-disable .e-chk-image.e-checkmark{
+    & when (@skin= "office-365") {
+        background-color: @neutral-tertiary-alt;
+    }
+}
+.e-chkbox-wrap.e-disable div>span:hover{
+     & when (@skin= "office-365") {
+        border-color:@neutral-tertiary-alt;
+    }
+}
+.e-chkbox-wrap.e-disable div>span{
+     & when (@skin= "office-365") {
+        background-color:@neutral-tertiary-alt;
+        border:2px solid @neutral-tertiary-alt;
+    }
+}
+.e-chkbox-wrap.e-disable div>span.e-chk-act:hover{
+     & when (@skin= "office-365") {
+        border-color:@neutral-tertiary-alt;
+    }
+}
+.e-chkbox-wrap div>span.e-chk-indeter{
+     & when (@skin= "office-365") {
+         color:@neutral-white;
+        border:2px solid @theme-primary;
+        background-color: @theme-primary;
+    }
+}
+.e-chkbox-wrap div>span.e-chk-indeter:hover{
+    & when (@skin= "office-365") {
+        background-color: @theme-dark-alt;
+        border:2px solid @theme-dark-alt;
+    }
+}
+
+.e-radiobtn-wrap.e-disable>span{
+    & when (@skin= "office-365") {
+        background-color: @neutral-tertiary-alt;
+        border:2px solid @neutral-tertiary-alt;
+    }
+}
+.e-chkbox-wrap.e-disable div>span.e-chk-indeter{
+    & when (@skin= "office-365") {
+        background-color: @neutral-tertiary-alt;
+        border:2px solid @neutral-tertiary-alt;
+    }
+}
+.e-chkbox-wrap.e-disable div>span{
+     & when not (@skin= "material") and not (@skin="office-365"){
+     background-color: @disable-control-background-color;
+    border-color:@disable-control-border-color;
+    }
+}
+.e-chkbox-wrap.e-disable{
+     & when not (@skin= "material") and not (@skin="office-365"){
+    opacity:1;
+    }
+}
+.e-chkbox-wrap.e-disable .e-chk-image.e-stop,
+.e-chkbox-wrap.e-disable .e-chk-image.e-checkmark{
+     & when not (@skin= "material") and not (@skin="office-365"){
+    color:@disable-icon-bg-color;
+    }
+}
+.e-chkbox-wrap .e-chk-act, .e-chkbox-wrap .e-chk-inact, .e-chkbox-wrap .e-chk-indeter{
+    box-sizing: content-box;
+}

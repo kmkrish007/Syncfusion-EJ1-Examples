@@ -1,0 +1,81 @@
+@charset "UTF-8";
+/*!
+*  filename: ej.theme.compatibility.css
+*  version : 18.1.0.52
+*  Copyright Syncfusion Inc. 2001 - 2018. All rights reserved.
+*  Use of this code is subject to the terms of our license.
+*  A copy of the current license can be obtained at any time by e-mailing
+*  licensing@syncfusion.com. Any infringement will be prosecuted under
+*  applicable laws.
+*/
+.e-content-area {
+  background-color: #ffffff;
+  color: #111111;
+  border-color: #070707;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-widget.e-chkbox-wrap {
+  display: inline-flex;
+}
+.e-widget.e-chkbox-wrap.e-tb-cell .e-text,
+.e-widget.e-chkbox-wrap.e-tb-cell div {
+  display: table-cell;
+  padding: 0px 5px 2px 5px;
+}
+.e-widget.e-chkbox-wrap.e-check-small.e-tb-cell .e-text {
+  padding: 0px 5px 2px 5px;
+}
+.e-widget.e-chkbox-wrap.e-focus div > span {
+  box-shadow: 0 0 2px #dbdbdb;
+}
+.e-widget.e-chkbox-wrap div > span {
+  
+  border-color: #070707;
+  background-color: #070707;
+}
+.e-widget.e-chkbox-wrap div > span.e-chk-act,
+.e-widget.e-chkbox-wrap div > span:hover {
+  
+  border-color: #070707;
+}
+.e-widget.e-chkbox-wrap div > span.e-chk-act {
+  border-color: #070707;
+}
+.e-widget.e-chkbox-wrap .e-chk-image.e-stop,
+.e-widget.e-chkbox-wrap .e-chk-image.e-checkmark {
+  
+  color: #ffffff;
+}
+.e-widget.e-chkbox-wrap .e-text {
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  font-size: 12px;
+  color: #ffffff;
+}
+@keyframes mediumShadow {
+  100% {
+    opacity: 0;
+    transform: scale(18, 18);
+  }
+}
+@keyframes smallShadow {
+  100% {
+    opacity: 0;
+    transform: scale(15, 15);
+  }
+}
+.e-widget.e-chkbox-wrap.e-disable div > span {
+  background-color: #f5f5f5;
+  border-color: #e3e3e3;
+}
+.e-widget.e-chkbox-wrap.e-disable {
+  opacity: 1;
+}
+.e-widget.e-chkbox-wrap.e-disable .e-chk-image.e-stop,
+.e-widget.e-chkbox-wrap.e-disable .e-chk-image.e-checkmark {
+  color: #d6d7d7;
+}
+.e-widget.e-chkbox-wrap .e-chk-act,
+.e-widget.e-chkbox-wrap .e-chk-inact,
+.e-widget.e-chkbox-wrap .e-chk-indeter {
+  box-sizing: content-box;
+}

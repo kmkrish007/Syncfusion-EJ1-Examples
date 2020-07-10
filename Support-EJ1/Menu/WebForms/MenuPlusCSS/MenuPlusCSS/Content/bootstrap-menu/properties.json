@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/*!
+*  filename: properties.json
+*  version : 18.1.0.52
+*  Copyright Syncfusion Inc. 2001 - 2018. All rights reserved.
+*  Use of this code is subject to the terms of our license.
+*  A copy of the current license can be obtained at any time by e-mailing
+*  licensing@syncfusion.com. Any infringement will be prosecuted under
+*  applicable laws.
+*/
+{
+  "font-family": "Segoe UI,Helvetica Neue,Ubuntu,Arial",
+  "header-bg-stcolor": "#fcfcfc",
+  "header-bg-endcolor": "#fcfcfc",
+  "header-gradient-color": "none",
+  "header-border-color": "#939393",
+  "header-font-color": "#282827",
+  "header-icon-color": "#070707",
+  "content-bg-color": "#070707",
+  "content-border-color": "#070707",
+  "content-font-color": "#ffffff",
+  "default-bg-stcolor": "#fcfcfc",
+  "default-bg-endcolor": "#e0e0e0",
+  "default-gradient-color": "#fcfcfc, #e0e0e0",
+  "default-border-color": "#070707",
+  "default-font-color": "#070707",
+  "default-icon-color": "#ffffff",
+  "hover-bg-stcolor": "#f5e8c1",
+  "hover-bg-endcolor": "#f5e8c1",
+  "hover-gradient-color": "none",
+  "hover-border-color": "#070707",
+  "hover-font-color": "#282827",
+  "hover-icon-color": "#282827",
+  "active-bg-stcolor": "#ffffff",
+  "active-bg-endcolor": "#ffffff",
+  "active-gradient-color": "none",
+  "active-border-color": "#070707",
+  "active-font-color": "#070707",
+  "active-icon-color": "#070707",
+  "overlay-bg-color": "#383838",
+  "border-radius": "4px",
+  "widget-bg-color": "#ffffff",
+  "label-color": "#111111",
+  "box-shadow": "rgba(0, 0, 0, 0.0745098) 0px 1px 1px inset",
+  "skin-clone": "flat-azure",
+  "skin": "bootstrap-menu"
+}
