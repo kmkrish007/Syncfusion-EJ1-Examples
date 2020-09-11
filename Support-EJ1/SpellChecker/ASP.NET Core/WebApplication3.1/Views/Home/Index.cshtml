@@ -28,19 +28,25 @@
 <br />
 
 @*<ej-spell-check id="TextArea" controls-to-validate="#input1,#input2,#control1,#control2,#control3" max-suggestion-count="2">
-    <e-dictionary-settings custom-dictionary-url="https://js.syncfusion.com/ejServices/api/SpellCheck/AddToDictionary" dictionary-url="https://js.syncfusion.com/ejServices/api/SpellCheck/CheckWords"></e-dictionary-settings>
-    <e-context-menu-settings enable="false">
-    </e-context-menu-settings>
+        <e-dictionary-settings custom-dictionary-url="https://js.syncfusion.com/ejServices/api/SpellCheck/AddToDictionary" dictionary-url="https://js.syncfusion.com/ejServices/api/SpellCheck/CheckWords"></e-dictionary-settings>
+        <e-context-menu-settings enable="false">
+        </e-context-menu-settings>
+    </ej-spell-check>
+
+    <ej-button id="SpellCheck" width="200px" height="25px" text="Spell check using dialog" click="showDialog" />*@
+
+@*<ej-spell-check id="TextArea" controls-to-validate="#input1,#input2,#control1,#control2,#control3">
+    <e-dictionary-settings custom-dictionary-url="http://localhost:53204/api/values/AddToDictionary" dictionary-url="http://localhost:53204/api/values/CheckWords"></e-dictionary-settings>
+    <e-context-menu-settings enable="false" />
+</ej-spell-check>*@
+
+<ej-spell-check id="TextArea" controls-to-validate="#input1,#input2,#control1,#control2,#control3">
+    <e-dictionary-settings custom-dictionary-url="http://localhost:64444/api/SpellCheck/AddToDictionary" dictionary-url="http://localhost:64444/api/SpellCheck/CheckWords"></e-dictionary-settings>
+    <e-context-menu-settings enable="false" />
 </ej-spell-check>
 
-<ej-button id="SpellCheck" width="200px" height="25px" text="Spell check using dialog" click="showDialog" />*@
 
-<ej-spell-check id="TextArea" controls-to-validate="#input1,#input2,#control1,#control2,#control3"
-                enable-validate-on-type="true">
-    <e-dictionary-settings custom-dictionary-url="https://js.syncfusion.com/ejServices/api/SpellCheck/AddToDictionary" dictionary-url="https://js.syncfusion.com/ejServices/api/SpellCheck/CheckWords"></e-dictionary-settings>
-    <e-context-menu-settings enable="true" />
-</ej-spell-check>
-<ej-button id="SpellCheck" width="200px" height="25px" text="Spell check using dialog" click="showInContextMenu" />
+<ej-button id="SpellCheck" width="200px" height="25px" text="Spell check using dialog" click="showDialog" />
 
 
 <script type="text/javascript">

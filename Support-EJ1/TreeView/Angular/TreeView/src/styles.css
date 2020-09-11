@@ -1,14 +1,2 @@
 /* You can add global styles to this file, and also import other style files */
 @import "syncfusion-javascript/Content/ej/web/bootstrap-theme/ej.web.all.min.css";
-
-.blue-text a.e-text{
-    color: blue;
-}
-
-.red-text a.e-text{
-    color: red;
-}
-
-.green-text a.e-text{
-    color: green;
-}

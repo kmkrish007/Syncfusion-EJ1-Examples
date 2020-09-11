@@ -145,7 +145,8 @@ class FileExplorerOperations extends BasicFileOperations
 			foreach ($files as $filename) {
 				$fullName= $path . $filename;
 				$preventAdd = false;
-				$isFile = is_file($fullName);
+				//$isFile = is_file($fullName);
+				$isFile = !is_dir($fullName);
 				if($isFile && ($filter != null && $filter != "*" && $filter != "*.*") && !(strpos($filter, pathinfo($fullName, PATHINFO_EXTENSION)) !== false)){
 					$preventAdd = true;
 				}
@@ -258,12 +259,15 @@ class FileExplorerOperations extends BasicFileOperations
 			$path = $this->GetPhysicalPath($this->ToAbsolute($path));
 			foreach ($names as $filename) {
 				$fullName= $path . $filename;
-				$isFile = is_file($fullName);
+				//$isFile = is_file($fullName);
+				$isFile = !is_dir($fullName);
 				$filedetails = new FileDetails();
 				$filedetails->Name = $filename;
 				$filedetails->Type = $isFile ?  pathinfo($fullName, PATHINFO_EXTENSION) : "Directory";
+				//$filedetails->Type = $isDir ? "Directory" : pathinfo($fullName, PATHINFO_EXTENSION) ;
 				$filedetails->Location = $fullName;
 				$filedetails->Size = $isFile ? filesize($fullName) : "";
+				//$filedetails->Size = $isDir ? "" : filesize($fullName);
 				$filedetails->Created = date("F d Y H:i:s.", filectime($fullName));
 				$filedetails->Modified = date("F d Y H:i:s.", filemtime($fullName));
 				array_push($directoryContent, $filedetails);
@@ -523,7 +527,8 @@ class FileExplorerOperations extends BasicFileOperations
 		foreach ($files as $filename) {
 			$fullName= $dir . DIRECTORY_SEPARATOR . $filename;
 			$preventAdd = false;
-			$isFile = is_file($fullName);
+			//$isFile = is_file($fullName);
+			$isFile = !is_dir($fullName);
 			if(($isFile && ($this->ExtensionsAllow != null && $this->ExtensionsAllow != "*" && $this->ExtensionsAllow != "*.*") && !(strpos($this->ExtensionsAllow, pathinfo($fullName, PATHINFO_EXTENSION)) !== false) ) || !preg_match($searchString, $filename)){
 				$preventAdd = true;
 			}
@@ -533,7 +538,7 @@ class FileExplorerOperations extends BasicFileOperations
 				$filedetails->type = $isFile ? "File" : "Directory";
 				$filedetails->isFile = $isFile;
 				$filedetails->hasChild = $isFile ? false : count(glob($fullName. "/*", GLOB_ONLYDIR))  > 0;
-				$filedetails->size= $isFile ? filesize($fullName) : "";
+				$filedetails->size = $isFile ? filesize($fullName) : "";
 				$filedetails->dateModified = date("F d Y H:i:s.", filemtime($fullName));
 				$filedetails->filterPath= trim(str_replace($this->rootURL, " " , $dir ). DIRECTORY_SEPARATOR);
 				array_push($this->directoryContent, $filedetails);

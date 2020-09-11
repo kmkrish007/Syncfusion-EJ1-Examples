@@ -120,9 +120,9 @@
 
         /*root level menu*/
         ul.e-menu > li.e-list {
-            width: 178px;
+            /*width: 178px;*/
+             width: 16%;
             text-align: center !important;
-
         }
 
         /*second level menu*/
@@ -147,6 +147,11 @@
             ul.e-menu > li.e-list {
                 width: 100%;
             }
+        }
+
+
+        .e-menu-wrap.e-menu-responsive .e-menu-res-in-wrap {
+            text-align:center;
         }
 
     </style>

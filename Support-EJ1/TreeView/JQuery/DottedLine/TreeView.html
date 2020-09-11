@@ -35,21 +35,19 @@
                    { id: 12, pid: 11, name: "Songs" },
                    { id: 13, pid: 11, name: "Bestselling Albums" },
                    { id: 14, pid: 11, name: "New Releases" },
-                   { id: 15, pid: 11, name: "Bestselling Songs" }];
+                   { id: 15, pid: 11, name: "Bestselling Songs" }
+            ];
 
         $(function () {
-
-            $("#treeView").ejTreeView(
-           {
+            $("#treeView").ejTreeView({
                fields: { id: "id", parentId: "pid", text: "name", hasChild: "hasChild", dataSource: localData, expanded: "expanded" },
                cssClass: 'custom'
-           });
+            });
         });
 
     </script>
      <style type="text/css">
-
-
+        /* horizontal dotted image */
         .custom.e-treeview .e-item {
             background-image: url(./image/Horizontal.png);
             background-repeat: repeat-y;
@@ -58,7 +56,7 @@
         .custom.e-treeview .e-text-wrap {
             padding-left: 4px;
         }
-
+        /* vertical dotted image */
         .custom .e-text-wrap:before {
               display: block;
               content: " ";
@@ -70,7 +68,7 @@
               margin-top: 12px;
               background-repeat: repeat-x;
         }
-
+        /* add minus plus icon */
         .custom.e-treeview .e-icon.e-minus:before {
             content: "";
             font-size: 12px;
@@ -100,6 +98,6 @@
             background-image: url(./image/3.png);
             background-repeat: no-repeat;
         }
-         </style>
+    </style>
 </body>
 </html>

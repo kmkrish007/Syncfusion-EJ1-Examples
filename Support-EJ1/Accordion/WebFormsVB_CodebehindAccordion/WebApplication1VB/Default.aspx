@@ -17,19 +17,23 @@
                 <tr>
                     <td colspan="3">
                         <ej:Accordion ID="sfaccdQuestion" runat="server" EnableMultipleOpen="true"></ej:Accordion>
-                
+                <%--<div id="divTest" runat="server"/>--%>
+                       
                     </td>
                 </tr>
-        
+        <%--<ej:Dialog runat="server" ID="sfDialog"></ej:Dialog>--%>
                 <tr>
                     <td>
                         <asp:Label ID="lblResults" runat="server"></asp:Label>
                         <asp:Label ID="lblRecInfo" runat="server" ></asp:Label>
                     </td>
                 </tr>
-
+                 <ej:Tab runat="server" ID="sfTab"></ej:Tab>
             </table>
+                
         <asp:HiddenField ID="pkPerfIndxId" runat="server" />
+
+              
         </ContentTemplate>
         <Triggers>
             <asp:PostBackTrigger ControlID="btnSave"/>
@@ -37,5 +41,7 @@
         </Triggers>
     </asp:UpdatePanel>
     </div>
+
+
 
      </asp:Content>

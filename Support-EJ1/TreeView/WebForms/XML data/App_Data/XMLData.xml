@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<items>
+
+  <Node Text="Time Attendance" Value="true" NavigateUrl="/About">
+    <Item Text="Program" Url="#"></Item>
+  </Node>
+  
+  <RootItem Text="Favorites" Url="#" Value="true" SpriteCss="folder">
+
+    <Item Text="Desktop" Url="#" SpriteCss="file"></Item>
+
+    <Item Text="Downloads" Url="#" SpriteCssClass="file"></Item>
+
+    <Item Text="Recent places" Url="#" SpriteCssClass="file"></Item>
+
+  </RootItem>
+
+
+
+  <RootItem Text="Libraries" Url="#"  Expanded="true" SpriteCssClass="folder">
+
+    <RootItem Text="Documents" Url="#" SpriteCssClass="file">
+
+      <Item Text="My Documents" Url="#" SpriteCssClass="file"></Item>
+
+      <Item Text="Public Documents" Url="#"></Item>
+
+    </RootItem>
+
+    <RootItem Text="Pictures" Url="#">
+
+      <Item Text="My Pictures" Url="#"></Item>
+
+      <Item Text="Public Pictures" Url="#"></Item>
+
+    </RootItem>
+
+    <RootItem Text="Music" Url="#">
+
+      <Item Text="My Music" Url="#"></Item>
+
+      <Item Text="Public Music" Url="#"></Item>
+
+    </RootItem>
+
+  </RootItem>
+
+  <RootItem Text="Computer" Expanded="True" Url="#">
+
+    <Item Text="Folder(C)" Url="#"></Item>
+
+    <Item Text="Folder(D)" Url="#"></Item>
+
+    <Item Text="Folder(F)" Url="#"></Item>
+
+  </RootItem>
+
+</items>

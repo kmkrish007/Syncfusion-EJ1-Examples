@@ -51,8 +51,14 @@
     <Reference Include="Syncfusion.DocIO.Base, Version=17.4460.0.53, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
       <HintPath>..\packages\Syncfusion.DocIO.AspNet.17.4.0.53\lib\net46\Syncfusion.DocIO.Base.dll</HintPath>
     </Reference>
+    <Reference Include="Syncfusion.EJ, Version=17.4460.0.53, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <HintPath>..\packages\Syncfusion.Web.Base.17.4.0.53\lib\net46\Syncfusion.EJ.dll</HintPath>
+    </Reference>
     <Reference Include="Syncfusion.EJ.Export, Version=17.4460.0.53, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
       <HintPath>..\packages\Syncfusion.Web.Base.17.4.0.53\lib\net46\Syncfusion.EJ.Export.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.EJ.Web, Version=17.4460.0.53, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <HintPath>..\packages\Syncfusion.AspNet.17.4.0.53\lib\net46\Syncfusion.EJ.Web.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.Licensing, Version=17.4460.0.53, Culture=neutral, PublicKeyToken=632609b4d040f6b4, processorArchitecture=MSIL">
       <HintPath>..\packages\Syncfusion.Licensing.17.4.0.53\lib\net46\Syncfusion.Licensing.dll</HintPath>
@@ -840,16 +846,6 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\..\..\..\EJ1\Source\trunk\Base\EJ\Src\Syncfusion.EJ_2013.csproj">
-      <Project>{bfb359ef-7e2a-4718-a6ad-c0cb13beab16}</Project>
-      <Name>Syncfusion.EJ_2013</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\..\..\..\EJ1\Source\trunk\EJ.Web\EJ.Web\Src\Syncfusion.EJ.Web_2013.csproj">
-      <Project>{5bfd1867-59cd-45c6-bdfa-ad1f95c10c7c}</Project>
-      <Name>Syncfusion.EJ.Web_2013</Name>
-    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

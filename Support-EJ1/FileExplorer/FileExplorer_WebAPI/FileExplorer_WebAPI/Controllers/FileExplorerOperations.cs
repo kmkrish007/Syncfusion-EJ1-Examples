@@ -537,6 +537,7 @@ namespace Northwind
                 for (int i=0 ; i< files.Count; i++)
                 {
                     var fileName = Path.GetFileName(files[i].FileName);
+                    //var newFilename = fileName.Replace("&", "");
                     var destinationPath = Path.Combine(ToPhysicalPath(ToAbsolute(path)), fileName);
                     files[i].SaveAs(destinationPath);
                 }

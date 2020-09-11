@@ -14,7 +14,8 @@
 <script src="Scripts/jquery-3.4.1.min.js" type="text/javascript"> </script>
 <!--<![endif]-->
 <script src="Scripts/jsrender.min.js" type="text/javascript"></script>
-<script src="Scripts/ej.web.all.min.js" type="text/javascript"></script>
+<!-- <script src="Scripts/ej.web.all.min.js" type="text/javascript"></script> -->
+<script src="Scripts/ej.web.all.js" type="text/javascript"></script>
 
 </head>
 <body>
@@ -23,16 +24,16 @@ require_once 'EJ/AutoLoad.php';
 ?>
 <div class="cols-sample-area">
     <?php                
-                $fileexplorer=new EJ\FileExplorer('default');
-                echo $fileexplorer
-                    ->path('FileExplorerPHP/FileBrowser/')
-                    ->ajaxAction('EJ/Services/FileExplorer')
-                    ->ajaxDataType('jsonp')
-                    ->enableThumbnailCompress(true)
-                    ->width('100%')
-                    ->isResponsive(true)
-                    ->render();
-                ?>
+        $fileexplorer=new EJ\FileExplorer('default');
+        echo $fileexplorer
+            ->path('FileExplorerPHP/FileBrowser/')
+            ->ajaxAction('EJ/Services/FileExplorer')
+            ->ajaxDataType('jsonp')
+            ->enableThumbnailCompress(true)
+            ->width('100%')
+            ->isResponsive(true)
+            ->render();
+    ?>
  
 </div>
 

@@ -68,6 +68,15 @@ Partial Public Class _Default
     Protected WithEvents lblRecInfo As Global.System.Web.UI.WebControls.Label
     
     '''<summary>
+    '''sfTab control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents sfTab As Global.Syncfusion.JavaScript.Web.Tab
+    
+    '''<summary>
     '''pkPerfIndxId control.
     '''</summary>
     '''<remarks>

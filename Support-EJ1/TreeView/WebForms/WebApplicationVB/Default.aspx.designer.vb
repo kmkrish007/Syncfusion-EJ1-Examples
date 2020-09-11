@@ -14,20 +14,11 @@ Option Explicit On
 Partial Public Class _Default
     
     '''<summary>
-    '''TreeXmlDS control.
+    '''TreeViewPlans control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents TreeXmlDS As Global.Syncfusion.JavaScript.Web.TreeView
-    
-    '''<summary>
-    '''XmlDataSource1 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents XmlDataSource1 As Global.System.Web.UI.WebControls.XmlDataSource
+    Protected WithEvents TreeViewPlans As Global.Syncfusion.JavaScript.Web.TreeView
 End Class
