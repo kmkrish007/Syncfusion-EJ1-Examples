@@ -1,0 +1,71 @@
+﻿@page "/"
+
+@using Syncfusion.Blazor.Buttons
+@using Syncfusion.Blazor.Popups
+@using Syncfusion.Blazor.DropDowns
+
+    <div class="row">
+        <div class="col-lg-7 control-section">
+            <SfTooltip Content="@("Sample ToolTip")" Target="#MyButton" ShowTipPointer="true" CloseDelay="1">
+                <SfButton ID="MyButton" Content="Show Tooltip"></SfButton>
+            </SfTooltip>
+        </div>
+
+        <SfTooltip Content="@Content" Target="#target" CloseDelay="1">
+            <SfButton ID="target" Content="Show Tooltip"></SfButton>
+        </SfTooltip>
+
+
+        <SfTooltip ID="tooltiphover" Target=".blocks" Content="@Content" CloseDelay="1">
+            <div class="blocks"><span>Click Me !</span></div>
+        </SfTooltip>
+        <SfTooltip ID="tooltipclick" Target=".blocks" Content="@Content" OpensOn="Hover" CloseDelay="1">
+            <div class="blocks"><span>Hover Me !(Default)</span></div>
+        </SfTooltip>
+        <SfTooltip ID="tooltipfocus" Target=".e-info" Content="@Content">
+            <div class="blocks"><span><input class="e-info" type="text" placeholder="Focus and blur" /></span></div>
+        </SfTooltip>
+
+        <SfTooltip Content="@Content" Target="#drop" CloseDelay="1">
+            <SfDropDownList ID="drop" TValue="string" TItem="Games" Placeholder="Select a game" DataSource="@LocalData">
+                <DropDownListFieldSettings Value="ID" Text="Text"></DropDownListFieldSettings>
+            </SfDropDownList>
+        </SfTooltip>
+
+        <SfTooltip Content="@Content" Target="#Combo" CloseDelay="1">
+            <SfComboBox ID="Combo" TValue="string" TItem="Games" Placeholder="Select a game" DataSource="@LocalData">
+                <ComboBoxFieldSettings Value="ID" Text="Text"></ComboBoxFieldSettings>
+            </SfComboBox>            </SfTooltip>
+    </div>
+
+@code
+{
+    string Content = "Tooltip content";
+    public class Games
+    {
+        public string ID { get; set; }
+        public string Text { get; set; }
+    }
+    List<Games> LocalData = new List<Games> {
+    new Games() { ID= "Game1", Text= "American Football" },
+    new Games() { ID= "Game2", Text= "Badminton" },
+    new Games() { ID= "Game3", Text= "Basketball" },
+    new Games() { ID= "Game4", Text= "Cricket" },
+    new Games() { ID= "Game5", Text= "Football" }
+  };
+}
+
+<style>
+    .blocks {
+        background-color: #ececec;
+        border: 1px solid #c8c8c8;
+        box-sizing: border-box;
+        display: inline-block;
+        line-height: 50px;
+        margin: 0 10px 10px 0;
+        overflow: hidden;
+        text-align: center;
+        vertical-align: middle;
+        width: 200px;
+    }
+</style>

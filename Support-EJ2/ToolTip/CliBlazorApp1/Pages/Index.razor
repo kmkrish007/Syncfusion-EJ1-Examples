@@ -1,0 +1,13 @@
+﻿@page "/"
+
+@using Syncfusion.Blazor.Popups
+@using Syncfusion.Blazor.Buttons
+
+    <SfTooltip ID="Tooltip" Target="#btn" Content="@Content" IsSticky="true">
+        <SfButton ID="btn" Content="Show Tooltip"></SfButton>
+    </SfTooltip>
+
+    @code
+{
+        string Content = "Lets go green & Save Earth !!";
+    }
