@@ -1,0 +1,20 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+@using WebApplication1.Controllers
+
+@{
+    Html.EJ()
+        .Autocomplete("selectCar")
+        .AutocompleteFields(field => field.Key("UniqueKey").Text("Text"))
+        // .CssClass("FOKA-required-autocomplete")
+        // .ShowRoundedCorner(true)
+        .Width("100%")
+        //  .WatermarkText("Välj finansiär, fritext eller sökning")
+        .Datasource((IEnumerable<CarsList>)ViewBag.datasource)
+        .ShowPopupButton(true)
+        .Render();
+}
+
+@Html.EJ().DatePicker("datePicker")

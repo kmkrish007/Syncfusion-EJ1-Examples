@@ -1,0 +1,20 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<input type="text" id="selectCar" />
+
+<script type="text/javascript" class="jsScript">
+        $(function () {
+            var dataManger = ej.DataManager({
+                url: "/Home/GetOutletsForAutocomplete",
+                crossDomain: true,
+                adaptor: new ej.UrlAdaptor()
+            });
+            $('#selectCar').ejAutocomplete({
+                dataSource: dataManger,
+                fields: { key: "Id", text: "Name" },
+    	        value: "Two"
+            });
+        });
+</script>

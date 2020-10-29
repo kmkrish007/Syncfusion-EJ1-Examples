@@ -1,0 +1,39 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<input type="text" id="selectEmployee" />
+<script type="text/javascript">
+
+        $(function () {
+            // declaration
+        var employees = ej.DataManager({
+            /* ASP.NET Web API */
+            url: "/api/Autocomplete",
+            adaptor: new ej.WebApiAdaptor(),
+            offline: true,
+            crossDomain: true
+        });
+            $('#selectEmployee').ejAutocomplete({
+                dataSource: employees,
+                width: "100%",
+                fields: { text: "Name", uniqueKey:"ID" },
+                watermarkText: "Select an employee",
+                showPopupButton: true,
+                filterType: 'contains',
+                change: onChange
+            });
+
+        });
+
+        function onChange(args) {
+            $.ajax({
+                dataType: "json",
+                url: "/api/Autocomplete/GetDataCar",
+                data: { data: args.value },
+                success: function(result) {
+                    console.log("event triggered");
+                }
+            });
+        }
+</script>
