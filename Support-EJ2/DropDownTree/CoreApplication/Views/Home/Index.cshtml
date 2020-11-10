@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<form method="post" enctype="multipart/form-data" asp-controller="Home" asp-action="SaveData">
+    <div>
+        <ejs-dropdowntree id="treedata">
+
+            <e-dropdowntree-fields dataSource="@ViewBag.dataSource" value="id" parentValue="pid" hasChildren="hasChild" text="name"></e-dropdowntree-fields>
+
+        </ejs-dropdowntree>
+
+        <script>
+
+        </script>
+    </div>
+    <input type="submit" value="save" />
+    <button id="get" onclick="getValue()">Get Dropdown Value</button>
+</form>
+
+<script>
+    function getValue(args) {
+        var dropTree = document.getElementById("treedata").ej2_instances[0];
+        console.log(dropTree.value);
+    }
+</script>
