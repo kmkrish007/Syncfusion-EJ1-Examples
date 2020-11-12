@@ -1,0 +1,244 @@
+﻿@using Syncfusion.EJ2.Navigations;
+
+@{Html.EJS().Sidebar("sidebar-menu").Width("290px").Target(".maincontent").MediaQuery("(min-width:670px)").ContentTemplate(@<div>
+    <!-- Sidebar content -->
+    <div class="sidebar-header header-cover" style="background-color: #1694CA">
+        <div style="text-align:center">
+            <div class="sidebar-brand">
+                Essential JS 2 Syncfusion Components
+            </div>
+        </div>
+        <div style="padding:0  5px 10px 5px">
+            <div class="searchbox">
+                <input id="search-by" type="text" placeholder="Search Components">
+                <span data-search-clear=""><i class="fa fa-search" style="font-size:20px"></i></span>
+            </div>
+        </div>
+    </div>
+    <div class="control-section">
+        <div class="control_wrapper accordion-control-section">
+            @Html.EJS().Accordion("accordion").ExpandMode(ExpandMode.Single).EnablePersistence(true).Items(new List<AccordionAccordionItem>
+                {
+                new AccordionAccordionItem { Header = "Navigations",Expanded=true, Content = "#navigation" },
+                new AccordionAccordionItem { Header = "Layouts", Content = "#layouts" },
+                new AccordionAccordionItem { Header = "Inputs", Content = "#inputs" },
+                }).Render()
+        </div>
+        <ul id="navigation" style="display:none">
+            <li><a href="/Home/Index">Sidebar</a></li>
+            <li><a href="/Home/ContextMenu">ContextMenu</a></li>
+            <li><a href="/Home/Accordion">Accordion</a></li>
+        </ul>
+        <ul id="layouts" style="display:none">
+            <li><a href="/Home/Avatar">Avatar</a></li>
+            <li><a href="/Home/Card">Card</a></li>
+            <li><a href="/Home/Splitter">Splitter</a></li>
+        </ul>
+        <ul id="inputs" style="display:none">
+            <li><a href="/Home/InputMask">Input Mask</a></li>
+            <li><a href="/Home/TextBox">TextBox</a></li>
+        </ul>
+    </div>
+    <!-- end of normal state element declaration -->
+</div>).Render();}
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var sidebarTreeview = document.getElementById("sidebar-treeview").ej2_instances[0];
+        // var treeviewObj = document.getElementById("main-treeview").ej2_instances[0];
+        // Toggle the Sidebar
+        document.getElementById('hamburger').onclick = function () {
+
+            if (sidebarTreeview.isOpen) {
+                sidebarTreeview.hide();
+            }
+            else {
+                sidebarTreeview.show();
+            }
+        }
+    });
+</script>
+
+<style>
+    /*Layout page styles*/
+    #body_content {
+        margin-top: 50px;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    #sidebar-menu {
+        background-color: #38424D;
+        color: #fff;
+        border: none;
+        position: fixed;
+    }
+
+    .list {
+        margin-top: 20px;
+        background-color: #38424D;
+        padding: 0px;
+    }
+
+    .e-acrdn-content li {
+        list-style: none;
+        padding: 0 0 10px 0;
+    }
+
+    li a {
+        color: #bbbbbb;
+        font-size: 16px;
+    }
+
+        li a:hover {
+            color: white;
+            text-decoration: none;
+        }
+
+
+    .sidebar-brand {
+        height: 100%;
+        padding: 20px;
+        font-size: 20px;
+        color: white;
+    }
+
+    #accordion.e-accordion .e-acrdn-item .e-acrdn-header {
+        line-height: 45px;
+    }
+
+    #accordion .e-acrdn-item .e-acrdn-panel .e-acrdn-content {
+        padding: 10px 16px 0 0;
+    }
+
+    #accordion .e-acrdn-item .e-acrdn-header .e-toggle-icon {
+        height: 45px;
+        color: #bbbbbb;
+    }
+
+    #accordion, #accordion .e-acrdn-item, #accordion .e-acrdn-header {
+        background: #38424D;
+        border: none;
+    }
+
+        #accordion .e-active .e-acrdn-header .e-acrdn-header-content, #accordion .e-active .e-acrdn-header .e-toggle-icon {
+            color: #555 !important;
+        }
+
+        #accordion .e-active .e-acrdn-header {
+            background: white;
+        }
+
+        #accordion .e-acrdn-item .e-acrdn-header .e-acrdn-header-content {
+            color: #bbbbbb;
+            font-size: 16px;
+        }
+
+    #sidebar-menu .search-icon {
+        text-indent: 10px;
+        height: 40px;
+        width: 23em;
+    }
+
+    .searchbox {
+        margin-top: 0.5rem;
+        position: relative;
+        border: 1px solid #19a5e1;
+        background: #1383b3;
+        border-radius: 4px;
+    }
+
+        .searchbox label {
+            color: rgba(255, 255, 255, 0.8);
+            position: absolute;
+            left: 10px;
+            top: 16px;
+        }
+
+        .searchbox input {
+            display: inline-block;
+            color: #fff;
+            width: 100%;
+            background: transparent;
+            border: 0;
+            padding: 8px;
+        }
+
+    input[type="text"] {
+        font-size: 15px;
+    }
+
+    .searchbox span {
+        color: rgba(255, 255, 255, 0.6);
+        position: absolute;
+        right: 10px;
+        top: 8px;
+        cursor: pointer;
+    }
+
+    ::placeholder {
+        color: white;
+        font-size: 15px;
+    }
+    /*end of layout page styles*/
+    /*main content styles*/
+    .link a {
+        font-size: 1.5vw;
+    }
+
+    #top-bar {
+        background: #F6F6F6;
+        border-radius: 2px;
+        height: 0;
+        min-height: 40px;
+    }
+
+    #body_content {
+        margin-top: 0px !important;
+    }
+
+    #feature .link {
+        height: 50px;
+        width: 100%;
+    }
+
+    #top-bar .header {
+        font-style: italic;
+        font-size: 16px;
+        color: #1694CA;
+        padding-right: 5px;
+    }
+
+    #feature .content {
+        text-align: center;
+        padding: 2.5vw;
+        padding-top: 0px;
+        position: relative;
+        margin: 2vw;
+        box-shadow: 0 0 8px 0;
+    }
+
+    #feature .body-inner {
+        padding-top: 50px;
+        text-align: center;
+        font-size: 3vw;
+    }
+
+    body {
+        padding: 0px;
+    }
+
+    #top-bar .component {
+        height: 100%;
+        line-height: 40px;
+        padding: 0 0 0 27px;
+    }
+
+    #feature .text {
+        font-size: 16px;
+        text-align: justify;
+        padding-top: 20px;
+        font-family: "Muli", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    }
+    /*end of main content styles*/
+</style>

@@ -1,0 +1,52 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+@{
+    string[] files = new string[] { "Edit", "Open", "|", "Delete", "Download", "Rename", "|", "Details" };
+    string[] folder = new string[] { "Edit", "Open", "|", "Delete", "Download", "Rename", "|", "Details" };
+    string[] layout = new string[] { "Edit", "SortBy", "View", "Refresh", "|", "NewFolder", "Upload", "|", "Details", "|", "SelectAll" };
+}
+
+<div class="main-content">
+    <div class="d-flex align-items-center justify-content-center">
+        <div class="control-section">
+            @Html.EJS().FileManager("file").AjaxSettings(new Syncfusion.EJ2.FileManager.FileManagerAjaxSettings
+       {
+           Url = "/Home/FileOperations",
+           GetImageUrl = "/Home/GetImage",
+           UploadUrl = "/Home/Upload",
+           DownloadUrl = "/Home/Download"
+
+           // adding some extra functionality
+       }).View(Syncfusion.EJ2.FileManager.ViewType.Details).DetailsViewSettings(new Syncfusion.EJ2.FileManager.FileManagerDetailsViewSettings
+       {
+           Columns = new List<Syncfusion.EJ2.FileManager.FileManagerColumn>
+           {
+               new Syncfusion.EJ2.FileManager.FileManagerColumn()
+               {
+                   Field = "name", HeaderText = "File Name", MinWidth = "50", Width = "200"
+               },
+               new Syncfusion.EJ2.FileManager.FileManagerColumn()
+               {
+                   Field = "frm_created", HeaderText = "Date Created", Width = "200"
+               },
+
+               new Syncfusion.EJ2.FileManager.FileManagerColumn()
+               {
+                   Field = "frm_modified", HeaderText = "Date Modified", Width = "auto"
+               },
+               new Syncfusion.EJ2.FileManager.FileManagerColumn()
+               {
+                   Field = "frm_modified_by", HeaderText = "Modified By", Width = "200"
+               },
+               new Syncfusion.EJ2.FileManager.FileManagerColumn()
+               {
+                   Field = "size", HeaderText = "Size", Width = "200"
+               }
+           }
+
+          }).Render()
+        </div>
+    </div>
+</div>
