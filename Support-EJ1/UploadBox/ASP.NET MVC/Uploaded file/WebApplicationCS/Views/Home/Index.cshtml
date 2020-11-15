@@ -1,0 +1,6 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+
+@Html.EJ().Uploadbox("UploadDefault").SaveUrl(@Url.Action("SaveDefault")).RemoveUrl(@Url.Action("RemoveDefault"))
