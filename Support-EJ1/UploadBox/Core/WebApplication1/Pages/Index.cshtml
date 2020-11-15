@@ -1,0 +1,19 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<ej-date-picker id="datepicker" value="@DateTime.Now"></ej-date-picker>
+
+
+<ej-mask-edit id="maskedit" input-mode="@InputMode.Text" />
+
+@*save-url="//mvc.syncfusion.com/Services/FileUpload/UploadBox/saveFiles"*@
+
+<ej-upload-box id="UploadDefault" height="30px" width="143px" save-url="Home/UploadFiles"></ej-upload-box>
