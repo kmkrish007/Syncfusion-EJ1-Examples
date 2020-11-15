@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@using WebApplication2.Models
+@model FormClass
+
+<label>Uploadbox</label>
+<form method="post" enctype="multipart/form-data" asp-controller="Home" asp-action="SaveData">
+
+    <label>DatePicker</label>
+    <ej-date-picker id="datepicker" name="datepicker" value="@DateTime.Now"></ej-date-picker>
+
+    <label>Textbox</label>
+
+    <ej-mask-edit id="maskedit" name="maskededit" input-mode="@InputMode.Text" />
+
+    @*<ej-upload-box id="UploadDefault" name="UploadDefault" height="30px" width="143px" auto-upload="false" show-file-details="false"></ej-upload-box>*@
+
+    <ej-upload-box id="UploadDefault" name="UploadDefault" height="30px" width="143px" auto-upload="true" show-file-details="false" async-upload="true"></ej-upload-box>
+    <input type="submit" value="save" />
+</form>
+
+    @*<label>Uploadbox</label>
+    <form method="post" enctype="multipart/form-data" asp-controller="Home" asp-action="SaveUrl">
+
+        <ej-upload-box id="UploadDefault" height="30px" width="143px" save-url="Home/SaveUrl" remove-url="Home/removeUrl" auto-upload="true"></ej-upload-box>
+
+        <input type="submit" value="save" />
+    </form>*@
