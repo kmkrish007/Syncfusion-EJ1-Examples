@@ -2,10 +2,9 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
 <h2>FileExplorer Features:</h2>
 <br />
-<li> Localization - en-US</li>
-<li> Keyboard Interaction</li>
-<li> Theme - Flat-Azure</li>
-<br/>
+    <%--Path="https://rupeedocs.blob.core.windows.net/docs/">--%>
+<br/>            
+
      <script src='<%= Page.ResolveClientUrl("~/Scripts/ej/i18n/ej.culture.en-US.min.js")%>' type="text/javascript"></script>
 			<script src='<%= Page.ResolveClientUrl("~/Scripts/ej/l10n/ej.localetexts.en-US.min.js")%>' type="text/javascript"></script>
 <div id = "ControlRegion">
@@ -13,7 +12,7 @@
             ID="fileexplorer1" ClientSideOnBeforeDownload ="beforeDownload"
             runat="server" 
             AjaxAction="FileExplorerFeatures.aspx/FileActionDefault"
-            Path="https://filebrowsercontent.blob.core.windows.net/blob1/Content/">
+        Path="https://filebrowsercontent.blob.core.windows.net/blob1/Content/"
           <AjaxSettings> 
         <Upload Url="uploadFiles.ashx{0}" /> 
     </AjaxSettings>

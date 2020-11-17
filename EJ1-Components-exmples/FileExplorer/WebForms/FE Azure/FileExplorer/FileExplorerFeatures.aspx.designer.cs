@@ -13,15 +13,6 @@ namespace SyncfusionASPNETApplication9 {
     public partial class FileExplorerFeatures {
         
         /// <summary>
-        /// fileexplorer1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::Syncfusion.JavaScript.Web.FileExplorer fileexplorer1;
-        
-        /// <summary>
         /// helpDialog control.
         /// </summary>
         /// <remarks>
