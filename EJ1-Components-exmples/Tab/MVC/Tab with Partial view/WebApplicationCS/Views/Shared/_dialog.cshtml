@@ -1,0 +1,24 @@
+﻿@*button widget*@
+@{
+    Html.EJ()
+        .Button("button")
+        .Text("Open Dialog")
+        .Type(ButtonType.Button)
+        .ClientSideEvents(evt => evt.Click("openDialog"))
+        .Render();
+}
+
+@{
+    Html.EJ()
+        .Dialog("dialog")
+        .Title("Dialog")
+        .ShowOnInit(false)
+        .ContentTemplate(@<p>This is a Dialog</p>)
+.Render();
+}
+   
+<script>
+        function openDialog() {
+            $("#dialog").ejDialog("open");
+        }
+</script>

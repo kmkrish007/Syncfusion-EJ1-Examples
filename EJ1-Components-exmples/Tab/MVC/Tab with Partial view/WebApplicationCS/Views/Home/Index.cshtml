@@ -1,0 +1,13 @@
+﻿@{
+    /**/
+
+    ViewBag.Title = "Home Page";
+}
+
+@{Html.EJ().Tab("defaultTabs").Items(data =>
+              {
+                    data.Add().ID("_timepicker").Text("Time Picker").ContentTemplate(@<div> @{ Html.RenderPartial("_TimePicker"); } </div>);
+                    data.Add().ID("_grid").Text("Grid").ContentTemplate(@<div>@{   Html.RenderPartial("_grid"); }</div>);
+                    data.Add().ID("_dialog").Text("Dialog").ContentTemplate(@<div> @{ Html.RenderPartial("_dialog"); } </div>);
+}).ShowRoundedCorner(true).Render();
+}

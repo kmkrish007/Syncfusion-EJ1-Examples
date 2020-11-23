@@ -1,0 +1,11 @@
+﻿@using WebApplicationCS.Controllers
+
+@(Html.EJ().Grid<Person>("Grid")
+                    .Datasource(datasource => datasource.Json((IEnumerable<Person>)ViewBag.datasource).Adaptor(AdaptorType.JsonAdaptor))
+                    .Columns(col =>
+                    {
+                        col.Field(p => p.FirstName).HeaderText("First Name").TextAlign(TextAlign.Left).Add();
+                        col.Field(p => p.LastName).HeaderText("Last Name").TextAlign(TextAlign.Left).Add();
+                        col.Field(p => p.Email).HeaderText("Email").TextAlign(TextAlign.Left).Add();
+                    })
+)
