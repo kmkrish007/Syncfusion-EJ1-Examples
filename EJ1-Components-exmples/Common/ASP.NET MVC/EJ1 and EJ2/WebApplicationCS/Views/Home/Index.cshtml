@@ -1,0 +1,20 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+@using WebApplicationCS.Controllers
+
+
+<label>EJ1 Listbox</label>
+@Html.EJ().ListBox("listBoxSample").Width("240").Datasource((IEnumerable<SkillSet>)ViewBag.datasource).ListBoxFields(df=>
+     df.Text("text"))
+
+<label>EJ2 Listbox</label>
+
+@Html.EJS().ListBox("listbox").DataSource((IEnumerable<object>)ViewBag.data).Render()
+
+<style>
+    .e-vscroll:not(.e-scroll-device) {
+        padding: 0;
+    }
+</style>
