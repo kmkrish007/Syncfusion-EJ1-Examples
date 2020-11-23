@@ -1,0 +1,47 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="controlframe">
+    @{Html.EJ().Tab("defaultTabs").Items(data =>
+                   {
+                       data.Add().ID("arquivos").Text("Arquivos").ContentTemplate(@<div>
+    @(Html.EJ().FileExplorer("fileExplorer3")
+           .FileTypes("*.png, *.gif, *.jpg, *.jpeg, *.docx, *.pdf")
+           .ShowNavigationPane(false)
+           .ShowToolbar(true)
+           .Path("~/FileExplorerContent/")
+           .AjaxAction(@Url.Content("/Home/FileActionDefault"))
+           .Width("100%")
+           .Height("100%")
+           .IsResponsive(true)
+           .MinWidth("350px")
+           .AllowMultiSelection(false)
+           .EnableResize(true))
+</div>);
+  data.Add().ID("type").Text("dish Type").ContentTemplate(@<div></div>);
+
+data.Add().ID("sandwich").Text("Sandwich Type").ContentTemplate(@<div>
+    @(Html.EJ().FileExplorer("fileExplorer")
+.FileTypes("*.png, *.gif, *.jpg, *.jpeg, *.docx, *.pdf")
+.ShowNavigationPane(false)
+.ShowToolbar(true)
+.Path("~/FileExplorerContent/")
+.AjaxAction(@Url.Content("/Home/FileActionDefault"))
+.SelectedFolder("~/FileExplorerContent/Images2/")
+.Width("100%")
+.Height("100%")
+.IsResponsive(true)
+.MinWidth("350px")
+.AllowMultiSelection(false)
+.EnableResize(true))
+</div>);
+}).ClientSideEvents(e=>e.ItemActive("Active")).Render();}
+</div>
+
+<script>
+    function Active(args) {
+        var feObj = $("#fileExplorer").ejFileExplorer("instance");
+        feObj._refreshResizeHandler();
+    }
+</script>
