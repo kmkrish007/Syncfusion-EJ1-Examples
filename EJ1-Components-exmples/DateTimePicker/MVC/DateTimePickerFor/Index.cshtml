@@ -1,0 +1,35 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+@model DateTimePicker_Helper.Controllers.DateModel
+@{IDictionary<string, object> htmlAttribute = new Dictionary<string, object>();
+
+    htmlAttribute.Add("class", "CssClassEditorDateTimeRequired");
+
+}
+
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true)
+
+    <span>DateTimePicker</span>
+    @Html.EJ().DateTimePickerFor(model => model.Value).Width("100%")
+    @Html.ValidationMessageFor(model => model.Value)
+
+    <span>Numeric TextBox</span>
+
+    @Html.EJ().NumericTextBoxFor(model => model.number).Width("100%")
+    @Html.ValidationMessageFor(model => model.number)
+
+    <span>Percentage  TextBox</span>
+    @Html.EJ().PercentTextBoxFor(model => model.percent).Width("100%")
+    @Html.ValidationMessageFor(model => model.percent)
+
+    <span>Currency TextBox</span>
+    @Html.EJ().CurrencyTextBoxFor(model => model.currency).Width("100%")
+    @Html.ValidationMessageFor(model => model.currency)
+
+    @Html.EJ().Button("btn").Size(ButtonSize.Small).Text("Post").Type(ButtonType.Submit)
+}
+
