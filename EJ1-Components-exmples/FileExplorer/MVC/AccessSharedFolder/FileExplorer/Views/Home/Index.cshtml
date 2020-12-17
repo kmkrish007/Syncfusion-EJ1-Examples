@@ -1,0 +1,8 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+@(Html.EJ().FileExplorer("fileExplorer")
+        .Path(@"\\SYNCLAPN16757\Users\MuthukrishnanKandasa\Documents")
+        .AjaxAction(@Url.Content("/Home/FileActionDefault"))               
+)
