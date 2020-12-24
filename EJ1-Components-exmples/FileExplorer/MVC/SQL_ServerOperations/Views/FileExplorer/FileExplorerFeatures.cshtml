@@ -1,0 +1,56 @@
+﻿@using ServerOperations
+@{
+    ViewBag.Title = "FileExplorer";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div style="margin-top: 15px">    
+    @(Html.EJ().FileExplorer("fileexplorer")
+        //here "Products" is the root folder name of database
+        .Path("~/Products/")
+        //It specifies controller's Ajax action method
+        .AjaxAction("FileActionDefault")
+        //customize the Ajax settings of getImage operation
+        .AjaxSettings(s =>
+            s.GetImage(i =>
+                i.Url("GetImage{0}")
+            )
+        )
+        //customize the grid column fields
+        .GridSettings(g =>
+            g.Column(c1 =>
+            {
+                c1.Add().Field("name").HeaderText("Name").Width("20%");
+                c1.Add().Field("type").HeaderText("Type");
+                c1.Add().Field("size").HeaderText("Size");
+            }
+            )
+        )
+    )
+</div>
+
+
+<div class="col-md-3 dropdown" >
+    @using (Html.BeginForm("FileExplorerFeatures", "FileExplorer", FormMethod.Post, new { id = "form1" }))
+            {
+        @(Html.EJ().DropDownList("selectRole").TargetID("roleList").Width("120px")
+                           .ClientSideEvents(e => e.Change("onChange")).Value(ViewBag.Role))
+        <div id="roleList">
+            <ul>
+                <li>Administrator</li>
+                <li>Document Manager</li>
+                <li>Default User</li>
+            </ul>
+        </div>
+    }
+</div>
+
+<script>
+    function onChange(args) {
+        $('#form1').submit();
+    }
+</script>
+<style>
+    .dropdown{
+        margin-top : 20px;
+    }
+</style>
