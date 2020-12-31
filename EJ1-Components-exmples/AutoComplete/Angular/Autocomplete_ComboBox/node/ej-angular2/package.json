@@ -1,0 +1,77 @@
+{
+  "_from": "ej-angular2@16.4.52",
+  "_id": "ej-angular2@16.4.52",
+  "_inBundle": false,
+  "_integrity": "sha512-0f+QRnj7hUKSLuHfFEVGyHZiBa0fpPO3u9VxG8k3r5dZcIDnchhh0aJidK4EnF1j76qZfUu6yY2YheyIQ+VGJQ==",
+  "_location": "/ej-angular2",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "ej-angular2@16.4.52",
+    "name": "ej-angular2",
+    "escapedName": "ej-angular2",
+    "rawSpec": "16.4.52",
+    "saveSpec": null,
+    "fetchSpec": "16.4.52"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/ej-angular2/-/ej-angular2-16.4.52.tgz",
+  "_shasum": "ffe9b8c6cdaf4622518a864b4c3be2027291f606",
+  "_spec": "ej-angular2@16.4.52",
+  "_where": "D:\\SyncfusionSupport\\Support-EJ1\\AutoComplete\\Angular\\Autocomplete_ComboBox",
+  "author": {
+    "name": "Syncfusion Inc"
+  },
+  "bugs": {
+    "url": "https://github.com/syncfusion/ej-angular2/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Angular 2 components for Syncfusion JavaScript widgets",
+  "devDependencies": {
+    "@angular/common": "4.1.3",
+    "@angular/compiler": "4.1.3",
+    "@angular/compiler-cli": "4.1.3",
+    "@angular/core": "4.1.3",
+    "@angular/forms": "4.1.3",
+    "@types/ej.web.all": "^16.2.0",
+    "@types/jquery": "2.0.34",
+    "@types/node": "6.0.52",
+    "codelyzer": "^3.0.1",
+    "rxjs": "^5.4.0",
+    "tslint": "^3.15.1",
+    "typescript": "2.2.1",
+    "typings": "^1.0.4",
+    "zone.js": "^0.8.11"
+  },
+  "homepage": "https://github.com/syncfusion/ej-angular2#readme",
+  "keywords": [
+    "syncfusion",
+    "ej",
+    "essential",
+    "javascript",
+    "angular",
+    "angular 2",
+    "angular2",
+    "ej-angular2"
+  ],
+  "license": "SEE LICENSE IN README.md",
+  "main": "./src/index.js",
+  "name": "ej-angular2",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syncfusion/ej-angular2.git"
+  },
+  "scripts": {
+    "build:aot": "ngc -p ./tsconfig-aot.json",
+    "lint": "tslint ej/**/*.ts",
+    "prepublish": "npm run build:aot",
+    "tsc": "tsc"
+  },
+  "typings": "./src/index.d.ts",
+  "version": "16.4.52"
+}

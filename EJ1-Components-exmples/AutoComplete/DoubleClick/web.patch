@@ -1,0 +1,84 @@
+Index: ej.grid.base.js
+===================================================================
+--- ej.grid.base.js	(revision 601606)
++++ ej.grid.base.js	(working copy)
+@@ -3608,7 +3608,7 @@
+             $cols2 = this._$contentCols;
+             if (this.model.allowResizeToFit) {
+                 var visibleColumnsWidth = 0; var undefinedWidthColumnsCount = 0;
+-                for (j = 0; j < this.model.columns.length; j++) {
++                for (var j = 0; j < this.model.columns.length; j++) {
+                     if (this.model.columns[j].visible) {
+                         if (this.model.columns[j]["width"] != undefined)
+                             visibleColumnsWidth = visibleColumnsWidth + parseInt(this.model.columns[j]["width"]);
+@@ -4253,7 +4253,7 @@
+                 || ($target.closest(".e-groupheadercell").length && $(e.target).is(".e-ascending, .e-descending"))) {
+                 if (!this.model.allowSorting || ej.gridFeatures.sort === undefined)
+                     return;
+-                $targetnew = ($target.hasClass("e-headercelldiv") || $target.closest(".e-groupheadercell").length) ? $target : $target.hasClass("e-headercell") ? $target.find(".e-headercelldiv") : $target.closest(".e-headercelldiv");
++                var $targetnew = ($target.hasClass("e-headercelldiv") || $target.closest(".e-groupheadercell").length) ? $target : $target.hasClass("e-headercell") ? $target.find(".e-headercelldiv") : $target.closest(".e-headercelldiv");
+                 var columnName = $targetnew.attr("data-ej-mappingname");
+                 var columnSortDirection = ej.sortOrder.Ascending;
+                 this._$prevSElementTarget = this._$curSElementTarget;
+Index: ej.grid.common.js
+===================================================================
+--- ej.grid.common.js	(revision 601611)
++++ ej.grid.common.js	(working copy)
+@@ -510,7 +510,7 @@
+                 }
+ 
+                 this.columnsWidthCollection.splice(to, 0, this.columnsWidthCollection.splice(from, 1)[0]);
+-                var headerCell;
++                var headerCell, header;
+                 this._fieldColumnNames = this._headerColumnNames = [];
+                 for (var count = 0; count < columns.length; count++) {
+                     this._fieldColumnNames[columns[count].headerText] = columns[count].field;
+@@ -750,7 +750,7 @@
+         expandCollapse: function ($target) {
+             if ($target.prop("tagName") == "DIV" && ($target.parent().hasClass("e-recordplusexpand") || $target.parent().hasClass("e-recordpluscollapse") || $target.parent().hasClass("e-detailrowcollapse") || $target.parent().hasClass("e-detailrowexpand")))
+                 $target = $target.parent();
+-            var index = -1, fieldName, fieldvalue, parentGroup, collapsed;
++            var index = -1, fieldName, fieldValue, parentGroup, collapsed;
+             if (this.model.allowGrouping && (ej.isOnWebForms || this.initialRender)) {
+                 fieldName = $target.attr("data-ej-mappingname");
+                 fieldValue = $target.attr("data-ej-mappingvalue");
+@@ -3673,7 +3673,7 @@
+                     this._traverseRow = this.getIndexByRow(selectedRows);
+                     if (this._traverseRow != -1) {
+                         if (this.model.selectionSettings.enableToggle && this.getSelectedRecords().length == 1 && $.inArray(this._traverseRow, this.selectedRowsIndexes) != -1)
+-                            this.clearSelection(selectedIndex);
++                            this.clearSelection(this._traverseRow);
+                         else
+                             this.selectRows(this._traverseRow);
+                     }
+Index: ej.grid.selection.js
+===================================================================
+--- ej.grid.selection.js	(revision 601606)
++++ ej.grid.selection.js	(working copy)
+@@ -843,7 +843,7 @@
+                     $gridRows = $(this.element.find("tr[aria-selected='true']"));
+                 var isSelected = $gridRows.find("td").hasClass("e-selectionbackground e-active");
+                 if (isSelected) {
+-                    $gRows = $(this.getContent().find("tr[aria-selected='true']"));
++                    var $gRows = $(this.getContent().find("tr[aria-selected='true']"));
+                     if (!this.model.scrollSettings.allowVirtualScrolling) {
+                         if (!ej.isNullOrUndefined(index)) {
+                             if (this.model.editSettings.editMode == "batch" && $($gridRows[index]).hasClass("e-insertedrow")) {
+@@ -852,7 +852,7 @@
+                                 this.batchChanges.added.reverse();
+                             }
+                             else
+-                                Data = this.model.editSettings.editMode == "batch" ? this._currentJsonData[index - this.batchChanges.added.length] : this._currentJsonData[ej.isNullOrUndefined(index) ? toIndex : index];
++                                Data = this.model.editSettings.editMode == "batch" ? this._currentJsonData[index - this.batchChanges.added.length] : this._currentJsonData[index];
+                         }
+                         var srow = [];
+                         for (var j = 0; j < this.selectedRowsIndexes.length; j++) {
+@@ -942,7 +942,7 @@
+                         rIndex = (args.rowIndex % this._virtualRowCount) + ((rowPage * this._virtualRowCount) - this._virtualRowCount);
+ 
+                     }
+-                    checkBoxIndex = $.inArray(rIndex, this.checkSelectedRowsIndexes[curPage]);
++                    var checkBoxIndex = $.inArray(rIndex, this.checkSelectedRowsIndexes[curPage]);
+                     if (checkBoxIndex != -1) {
+                         this.checkSelectedRowsIndexes[curPage].splice(checkBoxIndex, 1);
+                     }

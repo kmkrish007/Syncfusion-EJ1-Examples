@@ -1,0 +1,31 @@
+import 'syncfusion-javascript/Scripts/ej/web/ej.pivotschemadesigner.min';
+import { EJComponents } from './core';
+import { EventEmitter, IterableDiffers, KeyValueDiffers, Type, ElementRef, ChangeDetectorRef } from '@angular/core';
+export declare class PivotSchemaDesignerComponent extends EJComponents<any, any> {
+    el: ElementRef;
+    cdRef: ChangeDetectorRef;
+    private _ejIterableDiffers;
+    private _ejkeyvaluediffers;
+    cssClass_input: any;
+    customObject_input: any;
+    enableWrapper_input: any;
+    enableRTL_input: any;
+    olap_input: any;
+    enableDragDrop_input: any;
+    height_input: any;
+    locale_input: any;
+    pivotControl_input: any;
+    serviceMethods_input: any;
+    url_input: any;
+    width_input: any;
+    layout_input: any;
+    olap_showKPI_input: any;
+    olap_showNamedSets_input: any;
+    options: any;
+    load_output: EventEmitter<{}>;
+    afterServiceInvoke_output: EventEmitter<{}>;
+    beforeServiceInvoke_output: EventEmitter<{}>;
+    dragMove_output: EventEmitter<{}>;
+    constructor(el: ElementRef, cdRef: ChangeDetectorRef, _ejIterableDiffers: IterableDiffers, _ejkeyvaluediffers: KeyValueDiffers);
+}
+export declare var EJ_PIVOTSCHEMADESIGNER_COMPONENTS: Type<any>[];

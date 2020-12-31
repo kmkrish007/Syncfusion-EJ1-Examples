@@ -1,0 +1,24 @@
+﻿{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "module": "commonjs",
+    "target": "ES5",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "declaration": true,
+    "outDir": "./src",
+    "typeRoots": [
+      "node_modules/@types/"
+    ],
+    "types": [
+      "jquery",
+      "ej.web.all",
+      "node"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    "src"
+  ]
+}

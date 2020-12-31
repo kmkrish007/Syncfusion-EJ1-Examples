@@ -1,0 +1,9 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+@using Autocomplete.Controllers
+
+@Html.EJ().Autocomplete("selectCDSNumber").Datasource((IEnumerable<CarsList>)ViewBag.datasource).AutocompleteFields(field => field.Key("UniqueKey").Text("Text")).MinCharacter(3).ShowPopupButton(true)
+
+@Html.EJ().Autocomplete("searchCustomer").Datasource(d => d.URL("https://js.syncfusion.com/ejServices/wcf/NorthWind.svc/").Offline(false).CrossDomain(true)).Query("ej.Query().from('Suppliers').select('SupplierID', 'ContactName')").AutocompleteFields(f => f.Text("ContactName").Key("SupplierID")).Width("100%").WatermarkText("Search a customer").MinCharacter(3).ShowPopupButton(true)

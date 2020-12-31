@@ -1,0 +1,72 @@
+import 'syncfusion-javascript/Scripts/ej/datavisualization/ej.digitalgauge.min';
+import { EJComponents, ArrayTagElement, ComplexTagElement } from './core';
+import { EventEmitter, IterableDiffers, KeyValueDiffers, Type, ElementRef, ChangeDetectorRef } from '@angular/core';
+export declare class DigitalGaugeItemDirective extends ComplexTagElement {
+    characterSettings: any;
+    characterSettings_count: any;
+    characterSettings_opacity: any;
+    characterSettings_spacing: any;
+    characterSettings_type: any;
+    enableCustomFont: any;
+    font: any;
+    font_fontFamily: any;
+    font_fontStyle: any;
+    font_size: any;
+    position: any;
+    position_x: any;
+    position_y: any;
+    segmentSettings: any;
+    segmentSettings_color: any;
+    segmentSettings_gradient: any;
+    segmentSettings_length: any;
+    segmentSettings_opacity: any;
+    segmentSettings_spacing: any;
+    segmentSettings_width: any;
+    shadowBlur: any;
+    shadowColor: any;
+    shadowOffsetX: any;
+    shadowOffsetY: any;
+    textAlign: any;
+    textColor: any;
+    value: any;
+    constructor(widget: EJComponents<any, any>);
+}
+export declare class DigitalGaugeItemsDirective extends ArrayTagElement<ComplexTagElement> {
+    constructor(widget: EJComponents<any, any>);
+}
+export declare class DigitalGaugeComponent extends EJComponents<any, any> {
+    el: ElementRef;
+    cdRef: ChangeDetectorRef;
+    private _ejIterableDiffers;
+    private _ejkeyvaluediffers;
+    exportSettings_input: any;
+    frame_input: any;
+    height_input: any;
+    isResponsive_input: any;
+    enableResize_input: any;
+    matrixSegmentData_input: any;
+    segmentData_input: any;
+    themes_input: any;
+    width_input: any;
+    exportSettings_filename_input: any;
+    exportSettings_type_input: any;
+    exportSettings_action_input: any;
+    exportSettings_mode_input: any;
+    frame_backgroundImageUrl_input: any;
+    frame_innerWidth_input: any;
+    frame_outerWidth_input: any;
+    items_input: any;
+    options: any;
+    value_two: any;
+    value_twoChange: EventEmitter<any>;
+    init_output: EventEmitter<{}>;
+    itemRendering_output: EventEmitter<{}>;
+    load_output: EventEmitter<{}>;
+    renderComplete_output: EventEmitter<{}>;
+    Click_output: EventEmitter<{}>;
+    doubleClick_output: EventEmitter<{}>;
+    rightClick_output: EventEmitter<{}>;
+    tag_items: any;
+    constructor(el: ElementRef, cdRef: ChangeDetectorRef, _ejIterableDiffers: IterableDiffers, _ejkeyvaluediffers: KeyValueDiffers);
+}
+export declare var EJ_DIGITALGAUGE_COMPONENTS: Type<any>[];

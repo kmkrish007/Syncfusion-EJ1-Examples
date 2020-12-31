@@ -1,0 +1,31 @@
+import 'syncfusion-javascript/Scripts/ej/web/ej.progressbar.min';
+import { EJComponents } from './core';
+import { EventEmitter, IterableDiffers, KeyValueDiffers, Type, ElementRef, ChangeDetectorRef } from '@angular/core';
+export declare class ProgressBarComponent extends EJComponents<any, any> {
+    el: ElementRef;
+    cdRef: ChangeDetectorRef;
+    private _ejIterableDiffers;
+    private _ejkeyvaluediffers;
+    cssClass_input: any;
+    enabled_input: any;
+    enablePersistence_input: any;
+    enableRTL_input: any;
+    height_input: any;
+    htmlAttributes_input: any;
+    maxValue_input: any;
+    minValue_input: any;
+    percentage_input: any;
+    showRoundedCorner_input: any;
+    text_input: any;
+    value_input: any;
+    width_input: any;
+    options: any;
+    change_output: EventEmitter<{}>;
+    ejchange_output: EventEmitter<{}>;
+    complete_output: EventEmitter<{}>;
+    create_output: EventEmitter<{}>;
+    destroy_output: EventEmitter<{}>;
+    start_output: EventEmitter<{}>;
+    constructor(el: ElementRef, cdRef: ChangeDetectorRef, _ejIterableDiffers: IterableDiffers, _ejkeyvaluediffers: KeyValueDiffers);
+}
+export declare var EJ_PROGRESSBAR_COMPONENTS: Type<any>[];

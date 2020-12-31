@@ -29,7 +29,7 @@ require_once 'EJ/AutoLoad.php';
             ->path('FileExplorerPHP/FileBrowser/')
             ->ajaxAction('EJ/Services/FileExplorer')
             ->ajaxDataType('jsonp')
-            ->beforeUpload('beforeUpload')
+            ->menuOpen('onMenuOpen')
             ->enableThumbnailCompress(true)
             ->width('100%')
             ->isResponsive(true)
@@ -38,9 +38,9 @@ require_once 'EJ/AutoLoad.php';
  
 </div>
 <script>
-    function beforeUpload(args){
-        if(args.path == "FileExplorerPHP/FileBrowser/Previous Reports/"){
-            args.cancel = true;
+    function onMenuOpen(args){
+        if(this._selectedItems[0] && this._selectedItems[0].includes(".pdf")){
+            this.enableMenuItem("Open");
         }
     }
 </script>

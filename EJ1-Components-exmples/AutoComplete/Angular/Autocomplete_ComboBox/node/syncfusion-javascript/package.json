@@ -1,0 +1,87 @@
+{
+  "_from": "syncfusion-javascript@16.4.52",
+  "_id": "syncfusion-javascript@16.4.52",
+  "_inBundle": false,
+  "_integrity": "sha512-fobNUZT+xvc1jb49YFXx1+1gTbc9nt7dsubO72kX4OGALLz8TafDkm7xocAxgtMpnG+BmqRUNXa+l8cVlDdYFA==",
+  "_location": "/syncfusion-javascript",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "syncfusion-javascript@16.4.52",
+    "name": "syncfusion-javascript",
+    "escapedName": "syncfusion-javascript",
+    "rawSpec": "16.4.52",
+    "saveSpec": null,
+    "fetchSpec": "16.4.52"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/syncfusion-javascript/-/syncfusion-javascript-16.4.52.tgz",
+  "_shasum": "b8af048fe443cbf6aa2a3121df9cb676070a4cb6",
+  "_spec": "syncfusion-javascript@16.4.52",
+  "_where": "D:\\SyncfusionSupport\\Support-EJ1\\AutoComplete\\Angular\\Autocomplete_ComboBox",
+  "author": {
+    "name": "Syncfusion Inc"
+  },
+  "bugs": {
+    "url": "https://github.com/syncfusion/JavaScript-Widgets/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "jquery": "*",
+    "jquery-validation": "*",
+    "jsrender": "*",
+    "syncfusion-ej-global": "*"
+  },
+  "deprecated": false,
+  "description": "Npm package of Syncfusion.JavaScript.",
+  "files": [
+    "Scripts/",
+    "Content/"
+  ],
+  "homepage": "https://github.com/syncfusion/JavaScript-Widgets#readme",
+  "jspm": {
+    "main": false,
+    "format": "amd",
+    "registry": "npm",
+    "files": [
+      "Scripts",
+      "Content"
+    ],
+    "dependencies": {
+      "syncfusion-ej-global": "*",
+      "jquery": "*",
+      "jsrender": "*",
+      "jquery-validation": "*"
+    },
+    "ignore": [
+      "Scripts/ej.widgets.all*.js",
+      "Scripts/ej.widgets.all.min.map",
+      "Scripts/common/ej.unobtrusive.min.js",
+      "Scripts/common/ej.unobtrusive.min.map",
+      "Scripts/common/ej.webform.min.js",
+      "Scripts/common/ej.webform.min.map",
+      "Scripts/common/ej.widget.angular.min.js",
+      "Scripts/common/ej.widget.angular.min.map",
+      "Scripts/common/ej.widget.ko.min.js",
+      "Scripts/common/ej.widget.ko.min.map",
+      "Scripts/web/ej.web.all*.js",
+      "Scripts/web/ej.web.all.min.map"
+    ]
+  },
+  "keywords": [
+    "syncfusion",
+    "ej",
+    "essential",
+    "javascript"
+  ],
+  "license": "SEE LICENSE IN README.md",
+  "name": "syncfusion-javascript",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syncfusion/JavaScript-Widgets.git"
+  },
+  "version": "16.4.52"
+}

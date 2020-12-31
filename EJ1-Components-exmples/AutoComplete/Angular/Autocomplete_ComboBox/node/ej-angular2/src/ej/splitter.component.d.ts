@@ -1,0 +1,30 @@
+import 'syncfusion-javascript/Scripts/ej/web/ej.splitter.min';
+import { EJComponents } from './core';
+import { EventEmitter, IterableDiffers, KeyValueDiffers, Type, ElementRef, ChangeDetectorRef } from '@angular/core';
+export declare class SplitterComponent extends EJComponents<any, any> {
+    el: ElementRef;
+    cdRef: ChangeDetectorRef;
+    private _ejIterableDiffers;
+    private _ejkeyvaluediffers;
+    allowKeyboardNavigation_input: any;
+    animationSpeed_input: any;
+    cssClass_input: any;
+    enableAnimation_input: any;
+    enableRTL_input: any;
+    expanderTemplate_input: any;
+    height_input: any;
+    htmlAttributes_input: any;
+    isResponsive_input: any;
+    orientation_input: any;
+    properties_input: any;
+    width_input: any;
+    options: any;
+    beforeExpandCollapse_output: EventEmitter<{}>;
+    clickOnExpander_output: EventEmitter<{}>;
+    create_output: EventEmitter<{}>;
+    destroy_output: EventEmitter<{}>;
+    expandCollapse_output: EventEmitter<{}>;
+    resize_output: EventEmitter<{}>;
+    constructor(el: ElementRef, cdRef: ChangeDetectorRef, _ejIterableDiffers: IterableDiffers, _ejkeyvaluediffers: KeyValueDiffers);
+}
+export declare var EJ_SPLITTER_COMPONENTS: Type<any>[];

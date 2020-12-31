@@ -407,7 +407,6 @@ namespace Syncfusion.JavaScript
         public string type { get; set; }
         public int parentID { get; set; }
         public string filterPath { get; set; }
-        public SQLFileAccessRules permission { get; set; }
     }
 
     public class SQLFileExplorerParams
@@ -460,11 +459,6 @@ namespace Syncfusion.JavaScript
         /// </summary>
         /// <value>The modified date.</value>
         public string Modified { get; set; }
-        /// <summary>
-        /// Gets or sets the access permission.
-        /// </summary>
-        /// <value>The access rule.</value>
-        public SQLFileAccessRules Permission { get; set; }
 
     }
     public class SQLFileExplorerResponse

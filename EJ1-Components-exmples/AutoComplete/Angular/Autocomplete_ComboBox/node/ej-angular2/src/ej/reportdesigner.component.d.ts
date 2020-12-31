@@ -1,0 +1,33 @@
+import 'syncfusion-javascript/Scripts/ej/web/ej.reportdesigner.min';
+import { EJComponents } from './core';
+import { EventEmitter, IterableDiffers, KeyValueDiffers, Type, ElementRef, ChangeDetectorRef } from '@angular/core';
+export declare class ReportDesignerComponent extends EJComponents<any, any> {
+    el: ElementRef;
+    cdRef: ChangeDetectorRef;
+    private _ejIterableDiffers;
+    private _ejkeyvaluediffers;
+    locale_input: any;
+    reportPath_input: any;
+    reportServerUrl_input: any;
+    serviceAuthorizationToken_input: any;
+    serviceUrl_input: any;
+    toolbarSettings_input: any;
+    toolbarSettings_items_input: any;
+    toolbarSettings_showToolbar_input: any;
+    toolbarSettings_templateId_input: any;
+    options: any;
+    ajaxBeforeLoad_output: EventEmitter<{}>;
+    ajaxError_output: EventEmitter<{}>;
+    ajaxSuccess_output: EventEmitter<{}>;
+    create_output: EventEmitter<{}>;
+    destroy_output: EventEmitter<{}>;
+    openReportClick_output: EventEmitter<{}>;
+    reportModified_output: EventEmitter<{}>;
+    reportOpened_output: EventEmitter<{}>;
+    reportSaved_output: EventEmitter<{}>;
+    saveReportClick_output: EventEmitter<{}>;
+    toolbarClick_output: EventEmitter<{}>;
+    toolbarRendering_output: EventEmitter<{}>;
+    constructor(el: ElementRef, cdRef: ChangeDetectorRef, _ejIterableDiffers: IterableDiffers, _ejkeyvaluediffers: KeyValueDiffers);
+}
+export declare var EJ_REPORTDESIGNER_COMPONENTS: Type<any>[];

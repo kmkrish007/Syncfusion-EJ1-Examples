@@ -3,7 +3,7 @@
 <%@ Register assembly="Syncfusion.EJ.Web" namespace="Syncfusion.JavaScript.Web" tagprefix="ej" %>
 <asp:Content ID="Content1" runat="server" contentplaceholderid="MainContent">
 
-     <ej:RTE ID="RTE1" ToolsList="images" runat="server">
+     <ej:RTE ID="RTE1" ToolsList="images" runat="server" ClientSideOnChange="change" ClientSideOnExecute="execute">
     <RTEContent>
             Description:
             <p> The Rich Text Editor (RTE) control is an easy to render in
@@ -16,5 +16,14 @@
     <ImageBrowser ExtensionAllow="*.png,*.gif,*.jpg,*.jpeg" FilePath="~/FileBrowser/"  AjaxAction="Default.aspx/FileActionDefault"/>
     <FileBrowser ExtensionAllow="*.png,*.txt,*.jpg,*.docx" FilePath="~/FileBrowser/" AjaxAction="Default.aspx/FileActionDefault"/>
 </ej:RTE>
+
+    <script>
+        function change(args) {
+            debugger;
+        }
+        function execute(args) {
+            debugger;
+        }
+    </script>
 </asp:Content>
 

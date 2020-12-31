@@ -1,0 +1,36 @@
+import 'syncfusion-javascript/Scripts/ej/web/ej.checkbox.min';
+import { EJComponents } from './core';
+import { EventEmitter, IterableDiffers, KeyValueDiffers, Type, ElementRef, ChangeDetectorRef } from '@angular/core';
+export declare class CheckBoxComponent extends EJComponents<any, any> {
+    el: ElementRef;
+    cdRef: ChangeDetectorRef;
+    private _ejIterableDiffers;
+    private _ejkeyvaluediffers;
+    cssClass_input: any;
+    enabled_input: any;
+    enablePersistence_input: any;
+    enableRTL_input: any;
+    enableTriState_input: any;
+    htmlAttributes_input: any;
+    id_input: any;
+    idPrefix_input: any;
+    name_input: any;
+    showRoundedCorner_input: any;
+    size_input: any;
+    text_input: any;
+    validationMessage_input: any;
+    validationRules_input: any;
+    value_input: any;
+    options: any;
+    checked_two: any;
+    checked_twoChange: EventEmitter<any>;
+    checkState_two: any;
+    checkState_twoChange: EventEmitter<any>;
+    beforeChange_output: EventEmitter<{}>;
+    change_output: EventEmitter<{}>;
+    ejchange_output: EventEmitter<{}>;
+    create_output: EventEmitter<{}>;
+    destroy_output: EventEmitter<{}>;
+    constructor(el: ElementRef, cdRef: ChangeDetectorRef, _ejIterableDiffers: IterableDiffers, _ejkeyvaluediffers: KeyValueDiffers);
+}
+export declare var EJ_CHECKBOX_COMPONENTS: Type<any>[];

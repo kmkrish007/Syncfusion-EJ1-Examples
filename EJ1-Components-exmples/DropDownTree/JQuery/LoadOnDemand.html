@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Essential Studio for JavaScript">
+    <meta name="author" content="Syncfusion">
+    <title>DropDownTree loadOnDemand</title>
+    <!-- Essential Studio for JavaScript  theme reference --> 
+    <link rel="stylesheet" href="https://cdn.syncfusion.com/17.4.0.46/js/web/flat-azure/ej.web.all.min.css" />
+    <!-- Essential Studio for JavaScript  script references -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> 
+    <script src="https://cdn.syncfusion.com/js/assets/external/jsrender.min.js"></script>
+    <script src="https://cdn.syncfusion.com/18.4.0.32/js/web/ej.web.all.min.js"> </script>
+    <!--Add custom scripts here -->
+</head>
+
+<body>
+    <div style="padding:10px">
+       <div class="control">
+                       <h2>ActionComplete event trigger for DropDownTree</h2>
+                         <input type="text" id="remoteList" />
+                    </div>
+    </div>
+</body>
+
+    <script type="text/javascript">
+	  $(function () {
+            // DataManager creation
+              var dataManger = ej.DataManager({
+            url: "https://js.syncfusion.com/demos/ejServices/Wcf/Northwind.svc/",
+            adaptor: new ej.ODataAdaptor(),
+            crossDomain: true
+        });
+            // Query creation
+            var query = ej.Query().from("Categories").select("CategoryID,CategoryName").take(3);
+            $('#remoteList').ejDropDownTree({
+                watermarkText: "Please select",
+                width: "100%",
+				loadOnDemand: true,
+                treeViewSettings: {
+                    fields: {
+                        dataSource: dataManger, query: query, id: "CategoryID", text: "CategoryName",
+                        child: { dataSource: dataManger, tableName: "Products", parentId: "CategoryID", text: "ProductName" }
+                    }
+                }
+				
+            });
+        });
+    </script>
+</html>

@@ -1,0 +1,34 @@
+import 'syncfusion-javascript/Scripts/ej/common/ej.scroller.min';
+import { EJComponents } from './core';
+import { EventEmitter, IterableDiffers, KeyValueDiffers, Type, ElementRef, ChangeDetectorRef } from '@angular/core';
+export declare class ScrollerComponent extends EJComponents<any, any> {
+    el: ElementRef;
+    cdRef: ChangeDetectorRef;
+    private _ejIterableDiffers;
+    private _ejkeyvaluediffers;
+    animationSpeed_input: any;
+    autoHide_input: any;
+    buttonSize_input: any;
+    enabled_input: any;
+    enablePersistence_input: any;
+    enableRTL_input: any;
+    enableTouchScroll_input: any;
+    height_input: any;
+    scrollerSize_input: any;
+    scrollLeft_input: any;
+    scrollOneStepBy_input: any;
+    scrollTop_input: any;
+    targetPane_input: any;
+    width_input: any;
+    options: any;
+    create_output: EventEmitter<{}>;
+    destroy_output: EventEmitter<{}>;
+    thumbMove_output: EventEmitter<{}>;
+    thumbStart_output: EventEmitter<{}>;
+    thumbEnd_output: EventEmitter<{}>;
+    wheelMove_output: EventEmitter<{}>;
+    wheelStart_output: EventEmitter<{}>;
+    wheelStop_output: EventEmitter<{}>;
+    constructor(el: ElementRef, cdRef: ChangeDetectorRef, _ejIterableDiffers: IterableDiffers, _ejkeyvaluediffers: KeyValueDiffers);
+}
+export declare var EJ_SCROLLER_COMPONENTS: Type<any>[];

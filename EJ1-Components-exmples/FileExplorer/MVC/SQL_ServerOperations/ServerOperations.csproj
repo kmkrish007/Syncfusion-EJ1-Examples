@@ -194,7 +194,6 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\SQLFileAccessOperations.cs" />
     <Compile Include="Models\SQLFileExplorerOperations.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -282,7 +281,6 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\FileExplorer\FileExplorerFeatures.cshtml" />
     <Compile Include="Controllers\FileExplorerController.cs" />
   </ItemGroup>
   <ItemGroup>

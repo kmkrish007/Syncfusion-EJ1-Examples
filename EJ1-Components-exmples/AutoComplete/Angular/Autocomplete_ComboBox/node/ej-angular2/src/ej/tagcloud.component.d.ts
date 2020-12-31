@@ -1,0 +1,34 @@
+import 'syncfusion-javascript/Scripts/ej/web/ej.tagcloud.min';
+import { EJComponents } from './core';
+import { EventEmitter, IterableDiffers, KeyValueDiffers, Type, ElementRef, ChangeDetectorRef } from '@angular/core';
+export declare class TagCloudComponent extends EJComponents<any, any> {
+    el: ElementRef;
+    cdRef: ChangeDetectorRef;
+    private _ejIterableDiffers;
+    private _ejkeyvaluediffers;
+    cssClass_input: any;
+    dataSource_input: any;
+    enableRTL_input: any;
+    fields_input: any;
+    htmlAttributes_input: any;
+    format_input: any;
+    maxFontSize_input: any;
+    minFontSize_input: any;
+    query_input: any;
+    showTitle_input: any;
+    titleImage_input: any;
+    titleText_input: any;
+    fields_frequency_input: any;
+    fields_htmlAttributes_input: any;
+    fields_text_input: any;
+    fields_url_input: any;
+    options: any;
+    click_output: EventEmitter<{}>;
+    ejclick_output: EventEmitter<{}>;
+    create_output: EventEmitter<{}>;
+    destroy_output: EventEmitter<{}>;
+    mouseout_output: EventEmitter<{}>;
+    mouseover_output: EventEmitter<{}>;
+    constructor(el: ElementRef, cdRef: ChangeDetectorRef, _ejIterableDiffers: IterableDiffers, _ejkeyvaluediffers: KeyValueDiffers);
+}
+export declare var EJ_TAGCLOUD_COMPONENTS: Type<any>[];

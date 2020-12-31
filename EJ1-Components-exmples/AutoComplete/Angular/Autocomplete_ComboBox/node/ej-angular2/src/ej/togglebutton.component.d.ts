@@ -1,0 +1,38 @@
+import 'syncfusion-javascript/Scripts/ej/web/ej.togglebutton.min';
+import { EJComponents } from './core';
+import { EventEmitter, IterableDiffers, KeyValueDiffers, Type, ElementRef, ChangeDetectorRef } from '@angular/core';
+export declare class ToggleButtonComponent extends EJComponents<any, any> {
+    el: ElementRef;
+    cdRef: ChangeDetectorRef;
+    private _ejIterableDiffers;
+    private _ejkeyvaluediffers;
+    activePrefixIcon_input: any;
+    activeSuffixIcon_input: any;
+    activeText_input: any;
+    contentType_input: any;
+    cssClass_input: any;
+    defaultPrefixIcon_input: any;
+    defaultSuffixIcon_input: any;
+    defaultText_input: any;
+    enabled_input: any;
+    enablePersistence_input: any;
+    enableRTL_input: any;
+    height_input: any;
+    htmlAttributes_input: any;
+    imagePosition_input: any;
+    preventToggle_input: any;
+    showRoundedCorner_input: any;
+    size_input: any;
+    toggleState_input: any;
+    type_input: any;
+    width_input: any;
+    options: any;
+    change_output: EventEmitter<{}>;
+    ejchange_output: EventEmitter<{}>;
+    click_output: EventEmitter<{}>;
+    ejclick_output: EventEmitter<{}>;
+    create_output: EventEmitter<{}>;
+    destroy_output: EventEmitter<{}>;
+    constructor(el: ElementRef, cdRef: ChangeDetectorRef, _ejIterableDiffers: IterableDiffers, _ejkeyvaluediffers: KeyValueDiffers);
+}
+export declare var EJ_TOGGLEBUTTON_COMPONENTS: Type<any>[];

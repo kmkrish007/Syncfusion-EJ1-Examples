@@ -1,0 +1,32 @@
+import 'syncfusion-javascript/Scripts/ej/datavisualization/ej.barcode.min';
+import { EJComponents } from './core';
+import { EventEmitter, IterableDiffers, KeyValueDiffers, Type, ElementRef, ChangeDetectorRef } from '@angular/core';
+export declare class BarcodeComponent extends EJComponents<any, any> {
+    el: ElementRef;
+    cdRef: ChangeDetectorRef;
+    private _ejIterableDiffers;
+    private _ejkeyvaluediffers;
+    barcodeToTextGapHeight_input: any;
+    barHeight_input: any;
+    darkBarColor_input: any;
+    displayText_input: any;
+    enabled_input: any;
+    encodeStartStopSymbol_input: any;
+    lightBarColor_input: any;
+    narrowBarWidth_input: any;
+    quietZone_input: any;
+    symbologyType_input: any;
+    text_input: any;
+    textColor_input: any;
+    wideBarWidth_input: any;
+    xDimension_input: any;
+    quietZone_all_input: any;
+    quietZone_bottom_input: any;
+    quietZone_left_input: any;
+    quietZone_right_input: any;
+    quietZone_top_input: any;
+    options: any;
+    load_output: EventEmitter<{}>;
+    constructor(el: ElementRef, cdRef: ChangeDetectorRef, _ejIterableDiffers: IterableDiffers, _ejkeyvaluediffers: KeyValueDiffers);
+}
+export declare var EJ_BARCODE_COMPONENTS: Type<any>[];
