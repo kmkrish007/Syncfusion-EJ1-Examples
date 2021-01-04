@@ -1,0 +1,11 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<label>Normal Rating</label>
+
+@Html.EJ().Rating("Rating").Value(4)
+
+<label>ReadOnly Rating</label>
+
+@Html.EJ().Rating("Rating2").ReadOnly(true).Value(5)
