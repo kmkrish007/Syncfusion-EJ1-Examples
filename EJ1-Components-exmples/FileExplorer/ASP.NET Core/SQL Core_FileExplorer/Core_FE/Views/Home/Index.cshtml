@@ -1,0 +1,10 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+    <ej-file-explorer id="default" path="~/Products" ajax-action="http://localhost:50498/FileExplorer/FileActionDefault">
+        <e-file-ajax-settings>
+            <e-download url="http://localhost:50498/FileExplorer/Download{0}"></e-download>
+            <e-get-image url="http://localhost:50498/FileExplorer/GetImage{0}"></e-get-image>
+        </e-file-ajax-settings>
+    </ej-file-explorer>
