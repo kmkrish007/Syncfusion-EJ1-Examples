@@ -14,7 +14,7 @@ namespace ServerOperations
         {
             //Here "FileBrowserConnection" is an connection string name, which is defined in Web.config file. 
             //"Product" is an table name, which is defined in SQsL database
-            SQLFileExplorerOperations sqlobj = new SQLFileExplorerOperations("FileExplorerConnection", "Product");
+            SQLFileExplorerOperations sqlobj = new SQLFileExplorerOperations("FileExplorerConnection", "Product", "NameDetail");
             switch (args.ActionType)
             { 
                 case "Read":
@@ -46,7 +46,7 @@ namespace ServerOperations
         [HttpGet]
         public ActionResult FileActionDefault(SQLFileExplorerGetParams args)
         {
-            SQLFileExplorerOperations sqlobj = new SQLFileExplorerOperations("FileExplorerConnection", "Product");
+            SQLFileExplorerOperations sqlobj = new SQLFileExplorerOperations("FileExplorerConnection", "Product", "NameDetail");
             IEnumerable<SQLFileExplorerDirectoryContent> SelectedItems = null;
             if (args.SelectedItems != null)
             {

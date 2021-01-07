@@ -15,12 +15,14 @@ namespace Syncfusion.JavaScript
     public class SQLFileExplorerOperations : BasicFileOperations   {
         SqlConnection Connection = new SqlConnection();
         String TableName = "";
+        String Table2 = "";
         int RootNode = 1;
         List<SQLFileExplorerDirectoryContent> Items = new List<SQLFileExplorerDirectoryContent>();        
         
-        public SQLFileExplorerOperations(string connectionString, string tableName, int rootNodeId = 1)
+        public SQLFileExplorerOperations(string connectionString, string tableName, string table2, int rootNodeId = 1)
         {
             TableName = tableName;
+            Table2 = table2;
             RootNode = rootNodeId;
             Connection.ConnectionString = System.Configuration.ConfigurationManager.ConnectionStrings[connectionString].ConnectionString;
             Connection.Open();
@@ -28,7 +30,7 @@ namespace Syncfusion.JavaScript
 
         public virtual bool HasChildDirectory(int id)
         {
-            SqlCommand myCommand = new SqlCommand("select * from " + TableName + " where ParentId =" + id + " AND IsFile= 0", Connection);
+            SqlCommand myCommand = new SqlCommand("select * from " + TableName + " where ParentID = " + id + " AND IsFile= 0", Connection);
             SqlDataReader myReader = myCommand.ExecuteReader();
             if (myReader.Read())
             {
@@ -52,27 +54,32 @@ namespace Syncfusion.JavaScript
                     break;
                 }
             }
-            SqlCommand command = new SqlCommand("INSERT INTO " + TableName + " ( Name, ParentId, IsFile) VALUES ( @Name, @ParentId, @IsFile)", Connection);
-            command.Parameters.Add(new SqlParameter("@Name", name));
+            SqlCommand command = new SqlCommand("INSERT INTO " + TableName + " ( ParentId, IsFile) VALUES ( @ParentId, @IsFile)", Connection);
+            SqlCommand command2 = new SqlCommand("INSERT INTO " + Table2 + " ( Name) VALUES ( @Name)", Connection);
+            command2.Parameters.Add(new SqlParameter("@Name", name));
             command.Parameters.Add(new SqlParameter("@IsFile", false));
             command.Parameters.Add(new SqlParameter("@ParentId", parentID));
             command.ExecuteNonQuery();
+            command2.ExecuteNonQuery();
         }
         public virtual void AddItem(string name, bool isFile, long size, int parentId, string mimeType, byte[] content)
         {
-            SqlCommand command = new SqlCommand("INSERT INTO " + TableName + " ( Name, ParentId, IsFile, Size, MimeType, Content ) VALUES ( @Name, @ParentId, @IsFile, @Size, @MimeType, @Content)", Connection);
-            command.Parameters.Add(new SqlParameter("@Name", name));
+            SqlCommand command = new SqlCommand("INSERT INTO " + TableName + " ( ParentId, IsFile, Size, MimeType, Content ) VALUES ( @ParentId, @IsFile, @Size, @MimeType, @Content)", Connection);
+            SqlCommand command2 = new SqlCommand("INSERT INTO " + Table2 + " ( Name) VALUES ( @Name)", Connection);
+            command2.Parameters.Add(new SqlParameter("@Name", name));
             command.Parameters.Add(new SqlParameter("@IsFile", isFile));
             command.Parameters.Add(new SqlParameter("@Size", size));
             command.Parameters.Add(new SqlParameter("@ParentId", parentId));
             command.Parameters.Add(new SqlParameter("@MimeType", mimeType));
             command.Parameters.Add(new SqlParameter("@Content", content));
             command.ExecuteNonQuery();
+            command2.ExecuteNonQuery();
         }
         public virtual object ReadDetails(int itemId)
         {
             SQLFileExplorerResponse CreateResponse = new SQLFileExplorerResponse();
-            SqlCommand myCommand = new SqlCommand("select * from " + TableName + " where ItemId =" + itemId, Connection);
+            SqlCommand myCommand = new SqlCommand("select ItemID, Name, ParentID, Size, IsFile, MimeType, Content From Product P INNER JOIN NameDetail N ON P.ItemID = N.FileId where ItemId =" + itemId, Connection);
+            //SqlCommand myCommand = new SqlCommand("select * from " + TableName + " where ItemId =" + itemId, Connection);
             SqlDataReader myReader = myCommand.ExecuteReader();
             while (myReader.Read())
             {
@@ -91,7 +98,8 @@ namespace Syncfusion.JavaScript
         public virtual void RemoveDirectory(int id)
         {
             List<int> ids = new List<int>();
-            SqlCommand readCmd = new SqlCommand("select * from " + TableName + " where ParentId =" + id, Connection);
+            SqlCommand readCmd = new SqlCommand("select ItemID, Name, ParentID, Size, IsFile, MimeType, Content From Product P INNER JOIN NameDetail N ON P.ItemID = N.FileId where ParentId =" + id, Connection);
+           // SqlCommand readCmd = new SqlCommand("select * from " + TableName + " where ParentId =" + id, Connection);
             SqlDataReader reader = readCmd.ExecuteReader();
             while (reader.Read())
             {
@@ -104,7 +112,9 @@ namespace Syncfusion.JavaScript
                 RemoveDirectory(childID);
             }
             SqlCommand deleteCommand = new SqlCommand("delete from " + TableName + " where ItemId =" + id, Connection);
+            SqlCommand deleteCommand2 = new SqlCommand("delete from " + Table2 + " where ItemId =" + id, Connection);
             deleteCommand.ExecuteNonQuery();
+            deleteCommand2.ExecuteNonQuery();
         }
         public virtual int CanReplace(string name, IEnumerable<CommonFileDetails> commonFiles)
         {
@@ -138,7 +148,7 @@ namespace Syncfusion.JavaScript
                 foreach (SQLFileExplorerDirectoryContent item in selectedItems)
                 {
                     byte[] fileContent;
-                    SqlCommand myCommand = new SqlCommand("select * from " + TableName + " where ItemId =" + item.itemId, Connection);
+                    SqlCommand myCommand = new SqlCommand("select ItemID, Name, ParentID, Size, IsFile, MimeType, Content From Product P INNER JOIN NameDetail N ON P.ItemID = N.FileId where ItemId =" + item.itemId, Connection);
                     SqlDataReader myReader = myCommand.ExecuteReader();
                     while (myReader.Read())
                     {
@@ -251,7 +261,8 @@ namespace Syncfusion.JavaScript
                         break;
                     }
                 }
-                SqlCommand myCommand = new SqlCommand("select * from " + TableName + " where ParentId =" + ID, Connection);
+                SqlCommand myCommand = new SqlCommand("select ItemID, Name, ParentID, Size, IsFile, MimeType, Content From Product P INNER JOIN NameDetail N ON P.ItemID = N.FileId where ParentId =" + ID, Connection);
+               // SqlCommand myCommand = new SqlCommand("select * from " + TableName + " where ParentId =" + ID, Connection);
                 myReader = myCommand.ExecuteReader();
                 while (myReader.Read())
                 {
@@ -289,7 +300,8 @@ namespace Syncfusion.JavaScript
                 SQLFileExplorerResponse ReadResponse = new SQLFileExplorerResponse();                                
                 ReadResponse.files = (IEnumerable<SQLFileExplorerDirectoryContent>) details;
                 SQLFileExplorerDirectoryContent cwd = new SQLFileExplorerDirectoryContent();
-                SqlCommand myCommand1 = new SqlCommand("select * from " + TableName + " where ItemId =" + ID, Connection);
+                SqlCommand myCommand1 = new SqlCommand("select ItemID, Name, ParentID, Size, IsFile, MimeType, Content From Product P INNER JOIN NameDetail N ON P.ItemID = N.FileId where ItemId =" + ID, Connection);
+               // SqlCommand myCommand1 = new SqlCommand("select * from " + TableName + " where ItemId =" + ID, Connection);
                 myReader1 = myCommand1.ExecuteReader();
                 while (myReader1.Read())
                 {
@@ -299,7 +311,7 @@ namespace Syncfusion.JavaScript
                     cwd.isFile = (bool)myReader1["IsFile"];
                     cwd.size = (myReader1["Size"].ToString() != "" ? (long)myReader1["Size"] : 0);
                     cwd.parentID = (int)myReader1["ParentId"];
-                    cwd.hasChild = false;
+                    cwd.hasChild = true;
                     cwd.filterPath = "";
                     ReadResponse.cwd = cwd;
                 }

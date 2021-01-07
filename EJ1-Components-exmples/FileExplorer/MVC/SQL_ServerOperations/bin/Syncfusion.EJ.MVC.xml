@@ -1,0 +1,3069 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Syncfusion.EJ.MVC</name>
+    </assembly>
+    <members>
+        <member name="T:Syncfusion.JavaScript.Mobile.MobileButton">
+            <summary>
+            Class for the Mobile Button.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileButton.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.JavaScript.Mobile.MobileButton"/> class.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileButton.#ctor(System.String,Syncfusion.JavaScript.Mobile.Models.MobileButtonProperties)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.JavaScript.Mobile.MobileButton"/> class.
+            </summary>
+            <param name="id">The identifier.</param>
+            <param name="propModel">The property model.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileButton.#ctor(System.String,Syncfusion.JavaScript.Mobile.Models.MobileButtonProperties,System.Web.Mvc.HtmlHelper,System.String,System.Web.Routing.RouteValueDictionary,System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.JavaScript.Mobile.MobileButton"/> class.
+            </summary>
+            <param name="id">The identifier.</param>
+            <param name="propModel">The property model.</param>
+            <param name="htmlHelper">The HTML helper.</param>
+            <param name="actionName">Name of the action.</param>
+            <param name="routeValues">The route values.</param>
+            <param name="htmlAttributes">The HTML attributes.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileButton.#ctor(System.String,Syncfusion.JavaScript.Mobile.Models.MobileButtonProperties,System.Web.Mvc.HtmlHelper,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.JavaScript.Mobile.MobileButton"/> class.
+            </summary>
+            <param name="id">The identifier.</param>
+            <param name="propModel">The property model.</param>
+            <param name="htmlHelper">The HTML helper.</param>
+            <param name="actionName">Name of the action.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileButton.#ctor(System.String,Syncfusion.JavaScript.Mobile.Models.MobileButtonProperties,System.Web.Mvc.HtmlHelper,System.String,System.String,System.Web.Routing.RouteValueDictionary,System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.JavaScript.Mobile.MobileButton"/> class.
+            </summary>
+            <param name="id">The identifier.</param>
+            <param name="propModel">The property model.</param>
+            <param name="htmlHelper">The HTML helper.</param>
+            <param name="actionName">Name of the action.</param>
+            <param name="controllerName">Name of the controller.</param>
+            <param name="routeValues">The route values.</param>
+            <param name="htmlAttributes">The HTML attributes.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileButton.#ctor(System.String,Syncfusion.JavaScript.Mobile.Models.MobileButtonProperties,System.Web.Mvc.HtmlHelper,System.String,System.String,System.String,System.String,System.String,System.Web.Routing.RouteValueDictionary,System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.JavaScript.Mobile.MobileButton"/> class.
+            </summary>
+            <param name="id">The identifier.</param>
+            <param name="propModel">The property model.</param>
+            <param name="htmlHelper">The HTML helper.</param>
+            <param name="actionName">Name of the action.</param>
+            <param name="controllerName">Name of the controller.</param>
+            <param name="protocol">The protocol.</param>
+            <param name="hostName">Name of the host.</param>
+            <param name="fragment">The fragment.</param>
+            <param name="routeValues">The route values.</param>
+            <param name="htmlAttributes">The HTML attributes.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileButton.CreateContainer(System.String)">
+            <summary>
+            Creates the container.
+            </summary>
+            <param name="controlId">The control identifier.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileButton.RenderControl(System.String)">
+            <summary>
+            Renders the control.
+            </summary>
+            <param name="controlId">The control identifier.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileButton.RenderElement(System.String)">
+            <summary>
+            Renders the element.
+            </summary>
+            <param name="controlId">The control identifier.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileButton.CreateUnObtrusiveContainer(System.String)">
+            <summary>
+            Creates the un obtrusive container.
+            </summary>
+            <param name="controlId">The control identifier.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileButton.CreateButtonContainer(System.String)">
+            <summary>
+            Creates the button container.
+            </summary>
+            <param name="controlId">The control identifier.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileButton.CreateUnObtrusiveActionLinkContainer(System.String,System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>
+            Creates the un obtrusive action link container.
+            </summary>
+            <param name="controlId">The control identifier.</param>
+            <param name="htmlAttr">The HTML attribute.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileButton.CreateUnObtrusiveRouteLinkContainer(System.String,System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>
+            Creates the un obtrusive route link container.
+            </summary>
+            <param name="controlId">The control identifier.</param>
+            <param name="htmlAttr">The HTML attribute.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileButton.actionLink(System.String,System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>
+            Actions the link.
+            </summary>
+            <param name="controlID">The control identifier.</param>
+            <param name="htmlAttr">The HTML attribute.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileButton.routeLink(System.String,System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>
+            Routes the link.
+            </summary>
+            <param name="controlID">The control identifier.</param>
+            <param name="htmlAttr">The HTML attribute.</param>
+            <returns></returns>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Mobile.MobileButton.MobileButtonModel">
+            <summary>
+            Gets or sets the mobile button model.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Mobile.MobileButton.TagName">
+            <summary>
+            Gets the tag name of the plugin.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Mobile.MobileButton.PluginName">
+            <summary>
+            Gets the name of the plugin.
+            </summary>
+            <value>
+            The name of the plugin.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Mobile.MobileButton.ButtonName">
+            <summary>
+            Gets or sets the name of the button.
+            </summary>
+            <value>
+            The name of the button.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Mobile.MobileButton.Model">
+            <summary>
+            Gets the model of the plugin.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Mobile.MobileButtonPropertiesBuilder">
+            <summary>
+            Class for MobileButtonPropertiesBuilder
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileButtonPropertiesBuilder.#ctor(Syncfusion.JavaScript.Mobile.MobileButton)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.JavaScript.Mobile.MobileButtonPropertiesBuilder"/> class.
+            </summary>
+            <param name="MobileButton">The mobile button.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileButtonPropertiesBuilder.#ctor(Syncfusion.JavaScript.Mobile.MobileButton,System.Web.Mvc.HtmlHelper,System.String,System.Web.Routing.RouteValueDictionary,System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.JavaScript.Mobile.MobileButtonPropertiesBuilder"/> class.
+            </summary>
+            <param name="MobileButton">The mobile button.</param>
+            <param name="htmlHelper">The HTML helper.</param>
+            <param name="actionName">Name of the action.</param>
+            <param name="routeValues">The route values.</param>
+            <param name="htmlAttributes">The HTML attributes.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileButtonPropertiesBuilder.#ctor(Syncfusion.JavaScript.Mobile.MobileButton,System.Web.Mvc.HtmlHelper,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.JavaScript.Mobile.MobileButtonPropertiesBuilder"/> class.
+            </summary>
+            <param name="MobileButton">The mobile button.</param>
+            <param name="htmlHelper">The HTML helper.</param>
+            <param name="actionName">Name of the action.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileButtonPropertiesBuilder.#ctor(Syncfusion.JavaScript.Mobile.MobileButton,System.Web.Mvc.HtmlHelper,System.String,System.String,System.Web.Routing.RouteValueDictionary,System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.JavaScript.Mobile.MobileButtonPropertiesBuilder"/> class.
+            </summary>
+            <param name="MobileButton">The mobile button.</param>
+            <param name="htmlHelper">The HTML helper.</param>
+            <param name="actionName">Name of the action.</param>
+            <param name="controllerName">Name of the controller.</param>
+            <param name="routeValues">The route values.</param>
+            <param name="htmlAttributes">The HTML attributes.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileButtonPropertiesBuilder.#ctor(Syncfusion.JavaScript.Mobile.MobileButton,System.Web.Mvc.HtmlHelper,System.String,System.String,System.String,System.String,System.String,System.Web.Routing.RouteValueDictionary,System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.JavaScript.Mobile.MobileButtonPropertiesBuilder"/> class.
+            </summary>
+            <param name="MobileButton">The mobile button.</param>
+            <param name="htmlHelper">The HTML helper.</param>
+            <param name="actionName">Name of the action.</param>
+            <param name="controllerName">Name of the controller.</param>
+            <param name="protocol">The protocol.</param>
+            <param name="hostName">Name of the host.</param>
+            <param name="fragment">The fragment.</param>
+            <param name="routeValues">The route values.</param>
+            <param name="htmlAttributes">The HTML attributes.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileButtonPropertiesBuilder.RenderMode(Syncfusion.JavaScript.RenderMode)">
+            <summary>
+            Changes the rendering mode of the Button.
+            </summary>
+            <param name="renderMode">The render mode.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileButtonPropertiesBuilder.CssClass(System.String)">
+            <summary>
+            Specifies custom theme for the control.
+            </summary>
+            <param name="cssClass"> The cssClass. </param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileButtonPropertiesBuilder.ImageClass(System.String)">
+            <summary>
+            Specifies the Button imageClass.
+            </summary>
+            <param name="imageClass">The image class.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileButtonPropertiesBuilder.ButtonImagePosition(Syncfusion.JavaScript.ButtonImagePosition)">
+            <summary>
+            Specifies the Button imagePosition. 
+            </summary>
+            <param name="buttonImagePosition">The image position.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileButtonPropertiesBuilder.ShowBorder(System.Boolean)">
+            <summary>
+            Specifies whether to show the Button border.
+            </summary>
+            <param name="showBorder">if set to <c>true</c> [allow scroll].</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileButtonPropertiesBuilder.Type(Syncfusion.JavaScript.MobileButtonType)">
+            <summary>
+            Specifies the Button Type. 
+            </summary>
+            <param name="type">The type.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileButtonPropertiesBuilder.ButtonStyle(Syncfusion.JavaScript.ButtonStyle)">
+            <summary>
+            Specifies the Button Type. 
+            </summary>
+            <param name="style">The type.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileButtonPropertiesBuilder.ButtonContentType(Syncfusion.JavaScript.ButtonContentType)">
+            <summary>
+            Specifies the Button contentType.
+            </summary>
+            <param name="buttonContentType">Type of the content.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileButtonPropertiesBuilder.Enabled(System.Boolean)">
+            <summary>
+            Specifies the Button enabled.
+            </summary>
+            <param name="enabled">if set to <c>true</c> [enabled].</param>
+            <returns>MobileButtonPropertiesBuilder.</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileButtonPropertiesBuilder.EnableRippleEffect(System.Boolean)">
+            <summary>
+            Provides the animation ripple effect for the control
+            </summary>
+            <param name="enableRippleEffect">if set to <c>true</c> [enableRippleEffect].</param>
+            <returns>MobileButtonPropertiesBuilder.</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileButtonPropertiesBuilder.EnablePersistence(System.Boolean)">
+            <summary>
+            Current model value to browser cookies for state maintains. While refresh the Header control page retains the model value apply from browser cookies.
+            </summary>
+            <param name="enablePersistence">if set to <c>true</c> [enable persistence].</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileButtonPropertiesBuilder.Text(System.String)">
+            <summary>
+            Specifies the Button text.
+            </summary>
+            <param name="text">The text.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileButtonPropertiesBuilder.Href(System.String)">
+            <summary>
+            Specifies the Button Href Property.
+            </summary>
+            <param name="href">The href.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileButtonPropertiesBuilder.Color(System.Action{Syncfusion.JavaScript.Mobile.MobileButtonPropertiesBuilder.MobileButtonColorPropertiesBuilder})">
+            <summary>
+            Section for color specific functionalities.
+            </summary>
+            <param name="colorModel">The color model.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileButtonPropertiesBuilder.ClientSideEvents(System.Action{Syncfusion.JavaScript.Mobile.MobileButtonClientSideEventsBuilder})">
+            <summary>
+            Section for Client side events.
+            </summary>
+            <param name="clientSideEvents">The client side events.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileButtonPropertiesBuilder.Render">
+            <summary>
+            To render the plugin and return plugin string.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileButtonPropertiesBuilder.ToHtmlString">
+            <summary>
+            Returns a html string that represents the current plugin
+            </summary>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Mobile.MobileButtonPropertiesBuilder.MobileButtonColorPropertiesBuilder">
+            <summary>
+            Class for MobileButtonColorPropertiesBuilder
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileButtonPropertiesBuilder.MobileButtonColorPropertiesBuilder.#ctor(Syncfusion.JavaScript.Mobile.Models.MobileButtonProperties)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.JavaScript.Mobile.MobileButtonPropertiesBuilder.MobileButtonColorPropertiesBuilder"/> class.
+            </summary>
+            <param name="mobileButtonModel">The mobileButton model.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileButtonPropertiesBuilder.MobileButtonColorPropertiesBuilder.Border(System.String)">
+            <summary>
+            Specifies whether to render the button bordercolor.
+            </summary>
+            <param name="border">if set to <c>true</c>.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileButtonPropertiesBuilder.MobileButtonColorPropertiesBuilder.Fill(System.String)">
+            <summary>
+            Specifies whether to render the button fillColor.
+            </summary>
+            <param name="fill">if set to <c>true</c>.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileButtonPropertiesBuilder.MobileButtonColorPropertiesBuilder.Text(System.String)">
+            <summary>
+            Specifies whether to render the button textColor.
+            </summary>
+            <param name="text">if set to <c>true</c>.</param>
+            <returns></returns>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Mobile.EssentialJavaScriptMobileInput">
+            <summary>
+            Class for EssentialJavaScriptMobileInput
+            </summary>
+            <summary>
+            Class for EssentialJavaScriptMobileInput
+            </summary>
+            <summary>
+            Class for EssentialJavaScriptMobileInput
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.EssentialJavaScriptMobileInput.Button(System.String)">
+            <summary>
+            Extension for the Button control
+            </summary>
+            <param name="id">The identifier.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.EssentialJavaScriptMobileInput.Button(System.String,Syncfusion.JavaScript.Mobile.Models.MobileButtonProperties)">
+            <summary>
+            Buttons the specified identifier.
+            </summary>
+            <param name="id">The identifier.</param>
+            <param name="model">The model.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.EssentialJavaScriptMobileInput.ActionLink(System.String,System.String)">
+            <summary>
+            Actions the link.
+            </summary>
+            <param name="linkText">The link text.</param>
+            <param name="actionName">Name of the action.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.EssentialJavaScriptMobileInput.ActionLink(System.String,System.String,Syncfusion.JavaScript.Mobile.Models.MobileButtonProperties)">
+            <summary>
+            Actions the link.
+            </summary>
+            <param name="linkText">The link text.</param>
+            <param name="actionName">Name of the action.</param>
+            <param name="model">Model for button.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.EssentialJavaScriptMobileInput.ActionLink(System.String,System.String,System.Web.Routing.RouteValueDictionary,System.Object)">
+            <summary>
+            Actions the link.
+            </summary>
+            <param name="linkText">The link text.</param>
+            <param name="actionName">Name of the action.</param>
+            <param name="routeValues">The route values.</param>
+            <param name="htmlAttributes">The HTML attributes.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.EssentialJavaScriptMobileInput.ActionLink(System.String,System.String,System.String,System.Web.Routing.RouteValueDictionary,System.Object)">
+            <summary>
+            Actions the link.
+            </summary>
+            <param name="linkText">The link text.</param>
+            <param name="actionName">Name of the action.</param>
+            <param name="controllerName">Name of the controller.</param>
+            <param name="routeValues">The route values.</param>
+            <param name="htmlAttributes">The HTML attributes.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.EssentialJavaScriptMobileInput.ActionLink(System.String,System.String,System.String,System.String,System.String,System.String,System.Web.Routing.RouteValueDictionary,System.Object)">
+            <summary>
+            Actions the link.
+            </summary>
+            <param name="linkText">The link text.</param>
+            <param name="actionName">Name of the action.</param>
+            <param name="controllerName">Name of the controller.</param>
+            <param name="protocol">The protocol.</param>
+            <param name="hostName">Name of the host.</param>
+            <param name="fragment">The fragment.</param>
+            <param name="routeValues">The route values.</param>
+            <param name="htmlAttributes">The HTML attributes.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.EssentialJavaScriptMobileInput.RouteLink(System.String,System.String)">
+            <summary>
+            Routes the link.
+            </summary>
+            <param name="linkText">The link text.</param>
+            <param name="actionName">Name of the action.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.EssentialJavaScriptMobileInput.RouteLink(System.String,System.String,Syncfusion.JavaScript.Mobile.Models.MobileButtonProperties)">
+            <summary>
+            Routes the link.
+            </summary>
+            <param name="linkText">The link text.</param>
+            <param name="actionName">Name of the action.</param>
+            <param name="model">Button Properties.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.EssentialJavaScriptMobileInput.RouteLink(System.String,System.String,System.Web.Routing.RouteValueDictionary,System.Object)">
+            <summary>
+            Routes the link.
+            </summary>
+            <param name="linkText">The link text.</param>
+            <param name="actionName">Name of the action.</param>
+            <param name="routeValues">The route values.</param>
+            <param name="htmlAttributes">The HTML attributes.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.EssentialJavaScriptMobileInput.RouteLink(System.String,System.String,System.String,System.Web.Routing.RouteValueDictionary,System.Object)">
+            <summary>
+            Routes the link.
+            </summary>
+            <param name="linkText">The link text.</param>
+            <param name="actionName">Name of the action.</param>
+            <param name="controllerName">Name of the controller.</param>
+            <param name="routeValues">The route values.</param>
+            <param name="htmlAttributes">The HTML attributes.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.EssentialJavaScriptMobileInput.RouteLink(System.String,System.String,System.String,System.String,System.String,System.String,System.Web.Routing.RouteValueDictionary,System.Object)">
+            <summary>
+            Routes the link.
+            </summary>
+            <param name="linkText">The link text.</param>
+            <param name="actionName">Name of the action.</param>
+            <param name="controllerName">Name of the controller.</param>
+            <param name="protocol">The protocol.</param>
+            <param name="hostName">Name of the host.</param>
+            <param name="fragment">The fragment.</param>
+            <param name="routeValues">The route values.</param>
+            <param name="htmlAttributes">The HTML attributes.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.EssentialJavaScriptMobileInput.#ctor(System.IO.TextWriter)">
+            <summary>
+            Write the sequence of caracter 
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.EssentialJavaScriptMobileInput.CheckBox(System.String)">
+            <summary>
+            CheckBoxes the specified identifier.
+            </summary>
+            <param name="id">The identifier.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.EssentialJavaScriptMobileInput.CheckBox(System.String,Syncfusion.JavaScript.Mobile.Models.MobileCheckBoxProperties)">
+            <summary>
+            CheckBoxes the specified identifier.
+            </summary>
+            <param name="id">The identifier.</param>
+            <param name="model">The model.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.EssentialJavaScriptMobileInput.CheckBox(System.String,System.Boolean)">
+            <summary>
+            CheckBoxes the specified identifier.
+            </summary>
+            <param name="id">The identifier.</param>
+            <param name="isChecked">if set to <c>true</c> [is checked].</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.EssentialJavaScriptMobileInput.CheckBox(System.String,System.Boolean,System.Object)">
+            <summary>
+            CheckBoxes the specified identifier.
+            </summary>
+            <param name="id">The identifier.</param>
+            <param name="isChecked">if set to <c>true</c> [is checked].</param>
+            <param name="htmlAttributes">The HTML attributes.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.EssentialJavaScriptMobileInput.CheckBox(System.String,System.Object)">
+            <summary>
+            CheckBoxes the specified identifier.
+            </summary>
+            <param name="id">The identifier.</param>
+            <param name="htmlAttributes">The HTML attributes.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.EssentialJavaScriptMobileInput.CheckBox(System.String,System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>
+            CheckBoxes the specified identifier.
+            </summary>
+            <param name="id">The identifier.</param>
+            <param name="htmlAttributes">The HTML attributes.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.EssentialJavaScriptMobileInput.CheckBox(System.String,System.Boolean,System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>
+            CheckBoxes the specified identifier.
+            </summary>
+            <param name="id">The identifier.</param>
+            <param name="isChecked">if set to <c>true</c> [is checked].</param>
+            <param name="htmlAttributes">The HTML attributes.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.EssentialJavaScriptMobileInput.ConvertObjectToDictionary(System.Object)">
+            <summary>
+            Converts the object to dictionary.
+            </summary>
+            <param name="htmlAttributes">The HTML attributes.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.EssentialJavaScriptMobileInput.RadioButton(System.String,System.Object)">
+            <summary>
+            Extension for the RadioButton Control.
+            </summary>
+            <param name="id">The identifier.</param>
+            <param name="value">The object value.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.EssentialJavaScriptMobileInput.RadioButton(System.String,System.Object,Syncfusion.JavaScript.Mobile.Models.MobileRadioButtonProperties)">
+            <summary>
+            RadioButtons the specified identifier.
+            </summary>
+            <param name="id">The identifier.</param>
+            <param name="value">The value.</param>
+            <param name="model">The model.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.EssentialJavaScriptMobileInput.RadioButton(System.String,System.Object,System.Boolean)">
+            <summary>
+            RadioButtons the specified identifier.
+            </summary>
+            <param name="id">The identifier.</param>
+            <param name="value">The value.</param>
+            <param name="isChecked">if set to <c>true</c> [is checked].</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.EssentialJavaScriptMobileInput.RadioButton(System.String,System.Object,System.Boolean,System.Object)">
+            <summary>
+            RadioButtons the specified identifier.
+            </summary>
+            <param name="id">The identifier.</param>
+            <param name="value">The value.</param>
+            <param name="isChecked">if set to <c>true</c> [is checked].</param>
+            <param name="htmlAttributes">The HTML attributes.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.EssentialJavaScriptMobileInput.RadioButton(System.String,System.Object,System.Object)">
+            <summary>
+            RadioButtons the specified identifier.
+            </summary>
+            <param name="id">The identifier.</param>
+            <param name="value">The value.</param>
+            <param name="htmlAttributes">The HTML attributes.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.EssentialJavaScriptMobileInput.RadioButton(System.String,System.Object,System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>
+            RadioButtons the specified identifier.
+            </summary>
+            <param name="id">The identifier.</param>
+            <param name="value">The value.</param>
+            <param name="htmlAttributes">The HTML attributes.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.EssentialJavaScriptMobileInput.RadioButton(System.String,System.Object,System.Boolean,System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>
+            RadioButtons the specified identifier.
+            </summary>
+            <param name="id">The identifier.</param>
+            <param name="value">The value.</param>
+            <param name="isChecked">if set to <c>true</c> [is checked].</param>
+            <param name="htmlAttributes">The HTML attributes.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.EssentialJavaScriptMobileInput.TextBox(System.String)">
+            <summary>
+            Texts the box.
+            </summary>
+            <param name="id">The identifier.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.EssentialJavaScriptMobileInput.TextBox(System.String,Syncfusion.JavaScript.Mobile.Models.MobileTextBoxProperties)">
+            <summary>
+            Texts the box.
+            </summary>
+            <param name="id">The identifier.</param>
+            <param name="model">The model.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.EssentialJavaScriptMobileInput.TextBox(System.String,System.Object,System.Object)">
+            <summary>
+            Texts the box.
+            </summary>
+            <param name="name">The name.</param>
+            <param name="value">The value.</param>
+            <param name="htmlAttributes">The HTML attributes.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.EssentialJavaScriptMobileInput.TextBox(System.String,System.Object,System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>
+            Texts the box.
+            </summary>
+            <param name="name">The name.</param>
+            <param name="value">The value.</param>
+            <param name="htmlAttributes">The HTML attributes.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.EssentialJavaScriptMobileInput.PassWord(System.String)">
+            <summary>
+            Passes the word.
+            </summary>
+            <param name="name">The name.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.EssentialJavaScriptMobileInput.PassWord(System.String,Syncfusion.JavaScript.Mobile.Models.MobileTextBoxProperties)">
+            <summary>
+            Passes the word.
+            </summary>
+            <param name="name">The name.</param>
+            <param name="model">The model.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.EssentialJavaScriptMobileInput.PassWord(System.String,System.Object,System.Object)">
+            <summary>
+            Passes the word.
+            </summary>
+            <param name="name">The name.</param>
+            <param name="value">The value.</param>
+            <param name="htmlAttributes">The HTML attributes.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.EssentialJavaScriptMobileInput.PassWord(System.String,System.Object,System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>
+            Passes the word.
+            </summary>
+            <param name="name">The name.</param>
+            <param name="value">The value.</param>
+            <param name="htmlAttributes">The HTML attributes.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.EssentialJavaScriptMobileInput.MaskEdit(System.String)">
+            <summary>
+            Masks the edit.
+            </summary>
+            <param name="id">The identifier.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.EssentialJavaScriptMobileInput.MaskEdit(System.String,Syncfusion.JavaScript.Mobile.Models.MobileTextBoxProperties)">
+            <summary>
+            Masks the edit.
+            </summary>
+            <param name="id">The identifier.</param>
+            <param name="model">The model.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.EssentialJavaScriptMobileInput.TextArea(System.String)">
+            <summary>
+            Texts the area.
+            </summary>
+            <param name="name">The name.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.EssentialJavaScriptMobileInput.TextArea(System.String,Syncfusion.JavaScript.Mobile.Models.MobileTextBoxProperties)">
+            <summary>
+            Texts the area.
+            </summary>
+            <param name="name">The name.</param>
+            <param name="model">The model.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.EssentialJavaScriptMobileInput.TextArea(System.String,System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>
+            Texts the area.
+            </summary>
+            <param name="name">The name.</param>
+            <param name="htmlAttributes">The HTML attributes.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.EssentialJavaScriptMobileInput.TextArea(System.String,System.String,System.Object)">
+            <summary>
+            Texts the area.
+            </summary>
+            <param name="name">The name.</param>
+            <param name="value">The value.</param>
+            <param name="htmlAttributes">The HTML attributes.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.EssentialJavaScriptMobileInput.TextArea(System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>
+            Texts the area.
+            </summary>
+            <param name="name">The name.</param>
+            <param name="value">The value.</param>
+            <param name="htmlAttributes">The HTML attributes.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.EssentialJavaScriptMobileInput.TextArea(System.String,System.String,System.Int32,System.Int32,System.Object)">
+            <summary>
+            Texts the area.
+            </summary>
+            <param name="name">The name.</param>
+            <param name="value">The value.</param>
+            <param name="rows">The rows.</param>
+            <param name="columns">The columns.</param>
+            <param name="htmlAttributes">The HTML attributes.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.EssentialJavaScriptMobileInput.TextArea(System.String,System.String,System.Int32,System.Int32,System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>
+            Texts the area.
+            </summary>
+            <param name="name">The name.</param>
+            <param name="value">The value.</param>
+            <param name="rows">The rows.</param>
+            <param name="columns">The columns.</param>
+            <param name="htmlAttributes">The HTML attributes.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.EssentialJavaScriptMobileInput.NumericTextbox(System.String)">
+            <summary>
+            Extension for the Editor Control.
+            </summary>
+            <param name="id">The identifier.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.EssentialJavaScriptMobileInput.NumericTextbox(System.String,Syncfusion.JavaScript.Mobile.Models.MobileTextBoxProperties)">
+            <summary>
+            Set the Numeric textbox property values
+            </summary>
+            <param name="id"></param>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Mobile.CheckBox">
+            <summary>
+            Class for Check box contorl
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.CheckBox.#ctor(System.String,Syncfusion.JavaScript.Mobile.Models.MobileCheckBoxProperties,System.Web.Mvc.HtmlHelper)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.JavaScript.Mobile.CheckBox"/> class.
+            </summary>
+            <param name="id">The identifier.</param>
+            <param name="propModel">The property model.</param>
+            <param name="htmlHelper">The Mvc HtmlHelper object.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.CheckBox.#ctor(System.String,Syncfusion.JavaScript.Mobile.Models.MobileCheckBoxProperties,System.Web.Mvc.HtmlHelper,System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.JavaScript.Mobile.CheckBox"/> class.
+            </summary>
+            <param name="id">The identifier.</param>
+            <param name="propModel">The property model.</param>
+            <param name="htmlHelper">The HTML helper.</param>
+            <param name="htmlAttributes">The HTML attributes.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.CheckBox.CreateContainer(System.String)">
+            <summary>
+            Creates the container.
+            </summary>
+            <param name="controlId">The control identifier.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.CheckBox.RenderElement(System.String)">
+            <summary>
+            Renders the element.
+            </summary>
+            <param name="controlId">The control identifier.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.CheckBox.RenderControl(System.String)">
+            <summary>
+            Renders the control.
+            </summary>
+            <param name="controlId">The control identifier.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.CheckBox.CreateUnObtrusiveContainer(System.String)">
+            <summary>
+            Creates the un obtrusive container.
+            </summary>
+            <param name="controlId">The control identifier.</param>
+            <returns></returns>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Mobile.CheckBox.MobileCheckBoxModel">
+            <summary>
+            Gets or sets the m CheckBox model.
+            </summary>
+            <value>
+            The m CheckBox model.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Mobile.CheckBox.TagName">
+            <summary>
+            Gets the name of the tag.
+            </summary>
+            <value>
+            The name of the tag.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Mobile.CheckBox.PluginName">
+            <summary>
+            Gets the name of the plugin.
+            </summary>
+            <value>
+            The name of the plugin.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Mobile.CheckBox.Model">
+            <summary>
+            Gets the model.
+            </summary>
+            <value>
+            The model.
+            </value>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Mobile.MobileCheckBoxPropertiesBuilder">
+            <summary>
+            Class for MobileCheckBoxPropertiesBuilder
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileCheckBoxPropertiesBuilder.#ctor(Syncfusion.JavaScript.Mobile.CheckBox,System.Web.Mvc.HtmlHelper)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.JavaScript.CheckBoxPropertiesBuilder"/> class.
+            </summary>
+            <param name="mCheckBox">The m CheckBox.</param>
+            <param name="htmlHelper">The Mvc HtmlHelper object.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileCheckBoxPropertiesBuilder.#ctor(Syncfusion.JavaScript.Mobile.CheckBox,System.Web.Mvc.HtmlHelper,System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.JavaScript.Mobile.MobileCheckBoxPropertiesBuilder"/> class.
+            </summary>
+            <param name="mCheckBox">The m CheckBox.</param>
+            <param name="htmlHelper">The HTML helper.</param>
+            <param name="htmlAttributes">The HTML attributes.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileCheckBoxPropertiesBuilder.RenderMode(Syncfusion.JavaScript.RenderMode)">
+            <summary>
+            Specifies the rendering mode of the control.
+            </summary>
+            <param name="renderMode">The render mode.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileCheckBoxPropertiesBuilder.CssClass(System.String)">
+            <summary>
+            Specifies custom theme for the control.
+            </summary>
+            <param name="cssClass"> The cssClass. </param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileCheckBoxPropertiesBuilder.Enabled(System.Boolean)">
+            <summary>
+            Specifies whether to enable or disable the control.
+            </summary>
+            <param name="enabled">if set to <c>true</c> [enabled].</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileCheckBoxPropertiesBuilder.EnableRippleEffect(System.Boolean)">
+            <summary>
+            Provides animation ripple effect to the control
+            </summary>
+            <param name="enableRippleEffect">if set to <c>true</c> [enableRippleEffect].</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileCheckBoxPropertiesBuilder.EnablePersistence(System.Boolean)">
+            <summary>
+            Specifies to maintain the current model value to browser cookies for state maintenance. While refresh the page, the model value will get apply to the control from browser cookies.
+            </summary>
+            <param name="enablePersistence">if set to <c>true</c> [enable persistence].</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileCheckBoxPropertiesBuilder.Checked(System.Boolean)">
+             <summary>
+            Specifies to check the control on initialization
+             </summary>
+             <param name="check">if set to <c>true</c> [checked].</param>
+             <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileCheckBoxPropertiesBuilder.ClientSideEvents(System.Action{Syncfusion.JavaScript.Mobile.MobileCheckBoxClientSideEventsBuilder})">
+            <summary>
+            Section for Client side events.
+            </summary>
+            <param name="clientSideEvents">The client side events.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileCheckBoxPropertiesBuilder.Render">
+            <summary>
+            TO render the plugin and retrun the Html string.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileCheckBoxPropertiesBuilder.ToHtmlString">
+            <summary>
+            Returns a string that represents the current plugin.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Mobile.RadioButton">
+            <summary>
+            Class for Radio button
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.RadioButton.#ctor(System.String,Syncfusion.JavaScript.Mobile.Models.MobileRadioButtonProperties,System.Object,System.Web.Mvc.HtmlHelper)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.JavaScript.Mobile.RadioButton"/> class.
+            </summary>
+            <param name="id">The identifier.</param>
+            <param name="propModel">The property model.</param>
+            <param name="value">The object value.</param>
+            <param name="htmlHelper">The HTML helper.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.RadioButton.#ctor(System.String,Syncfusion.JavaScript.Mobile.Models.MobileRadioButtonProperties,System.Object,System.Web.Mvc.HtmlHelper,System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.JavaScript.Mobile.RadioButton"/> class.
+            </summary>
+            <param name="id">The identifier.</param>
+            <param name="propModel">The property model.</param>
+            <param name="value">The value.</param>
+            <param name="htmlHelper">The HTML helper.</param>
+            <param name="htmlAttributes">The HTML attributes.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.RadioButton.CreateContainer(System.String)">
+            <summary>
+            Creates the container.
+            </summary>
+            <param name="controlId">The control identifier.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.RadioButton.RenderElement(System.String)">
+            <summary>
+            Renders the element.
+            </summary>
+            <param name="controlId">The control id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.RadioButton.RenderControl(System.String)">
+            <summary>
+            Renders the control.
+            </summary>
+            <param name="controlId">The control id.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.RadioButton.CreateUnObtrusiveContainer(System.String)">
+            <summary>
+            Creates the un obtrusive container.
+            </summary>
+            <param name="controlId">The control identifier.</param>
+            <returns></returns>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Mobile.RadioButton.MobileRadioButtonModel">
+            <summary>
+            Gets or sets the m RadioButton model.
+            </summary>
+            <value>
+            The m RadioButton model.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Mobile.RadioButton.TagName">
+            <summary>
+            Gets the name of the tag.
+            </summary>
+            <value>
+            The name of the tag.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Mobile.RadioButton.PluginName">
+            <summary>
+            Gets the name of the plugin.
+            </summary>
+            <value>
+            The name of the plugin.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Mobile.RadioButton.Model">
+            <summary>
+            Gets the model.
+            </summary>
+            <value>
+            The model.
+            </value>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Mobile.MobileRadioButtonPropertiesBuilder">
+            <summary>
+            Class for MobileRadioButtonPropertiesBuilder
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileRadioButtonPropertiesBuilder.#ctor(Syncfusion.JavaScript.Mobile.RadioButton,System.Object,System.Web.Mvc.HtmlHelper)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.JavaScript.Mobile.MobileRadioButtonPropertiesBuilder"/> class.
+            </summary>
+            <param name="mRadioButton">The Mobile Radio Button.</param>
+            <param name="value">The object value.</param>
+            <param name="htmlHelper">The HTML helper.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileRadioButtonPropertiesBuilder.#ctor(Syncfusion.JavaScript.Mobile.RadioButton,System.Object,System.Web.Mvc.HtmlHelper,System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.JavaScript.Mobile.MobileRadioButtonPropertiesBuilder"/> class.
+            </summary>
+            <param name="mRadioButton">The m RadioButton.</param>
+            <param name="value">The value.</param>
+            <param name="htmlHelper">The HTML helper.</param>
+            <param name="htmlAttributes">The HTML attributes.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileRadioButtonPropertiesBuilder.RenderMode(Syncfusion.JavaScript.RenderMode)">
+            <summary>
+            Changes the rendering mode of the RadioButton.
+            </summary>
+            <param name="renderMode">The render mode.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileRadioButtonPropertiesBuilder.CssClass(System.String)">
+            <summary>
+            Specifies custom theme for the control.
+            </summary>
+            <param name="cssClass"> The cssClass. </param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileRadioButtonPropertiesBuilder.Checked(System.Boolean)">
+            <summary>
+            Specifies the checked atribute of the Radio Button control.
+            </summary>
+            <param name="check">if set to <c>true</c> [check].</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileRadioButtonPropertiesBuilder.Enabled(System.Boolean)">
+            <summary>
+            Specifies the RadioButton control state.
+            </summary>
+            <param name="enabled">if set to <c>true</c> [enabled].</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileRadioButtonPropertiesBuilder.EnableRippleEffect(System.Boolean)">
+             <summary>
+            Provides the animation ripple effect to the control
+             </summary>
+             <param name="enableRippleEffect">if set to <c>true</c> [enableRippleEffect].</param>
+             <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileRadioButtonPropertiesBuilder.EnablePersistence(System.Boolean)">
+            <summary>
+            Current model value to browser cookies for state maintains. While refresh the Header control page retains the model value apply from browser cookies.
+            </summary>
+            <param name="enablePersistence">if set to <c>true</c> [enable persistence].</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileRadioButtonPropertiesBuilder.ClientSideEvents(System.Action{Syncfusion.JavaScript.Mobile.MobileRadioButtonClientSideEventsBuilder})">
+            <summary>
+            Section for client side events.
+            </summary>
+            <param name="clientSideEvents">The client side events.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileRadioButtonPropertiesBuilder.Render">
+            <summary>
+            Renders this instance.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileRadioButtonPropertiesBuilder.ToHtmlString">
+            <summary>
+            Returns an HTML-encoded string.
+            </summary>
+            <returns>
+            An HTML-encoded string.
+            </returns>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Mobile.MobileTextBox">
+            <summary>
+            Class for MobileTextBox
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileTextBox.#ctor(System.String,Syncfusion.JavaScript.Mobile.Models.MobileTextBoxProperties)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.JavaScript.Mobile.MobileTextBox"/> class.
+            </summary>
+            <param name="id">The identifier.</param>
+            <param name="propModel">The property model.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileTextBox.#ctor(System.String,Syncfusion.JavaScript.Mobile.Models.MobileTextBoxProperties,System.Web.Mvc.HtmlHelper)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.JavaScript.Mobile.MobileTextBox"/> class.
+            </summary>
+            <param name="id">The identifier.</param>
+            <param name="propModel">The property model.</param>
+            <param name="htmlHelper">The HTML helper.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileTextBox.#ctor(System.String,Syncfusion.JavaScript.Mobile.Models.MobileTextBoxProperties,System.Web.Mvc.HtmlHelper,System.Object,System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.JavaScript.Mobile.MobileTextBox"/> class.
+            </summary>
+            <param name="id">The identifier.</param>
+            <param name="propModel">The property model.</param>
+            <param name="htmlHelper">The HTML helper.</param>
+            <param name="value">The value.</param>
+            <param name="htmlAttributes">The HTML attributes.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileTextBox.#ctor(System.String,Syncfusion.JavaScript.Mobile.Models.MobileTextBoxProperties,System.Web.Mvc.HtmlHelper,System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.JavaScript.Mobile.MobileTextBox"/> class.
+            </summary>
+            <param name="id">The identifier.</param>
+            <param name="propModel">The property model.</param>
+            <param name="htmlHelper">The HTML helper.</param>
+            <param name="htmlAttributes">The HTML attributes.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileTextBox.#ctor(System.String,Syncfusion.JavaScript.Mobile.Models.MobileTextBoxProperties,System.Web.Mvc.HtmlHelper,System.String,System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.JavaScript.Mobile.MobileTextBox"/> class.
+            </summary>
+            <param name="id">The identifier.</param>
+            <param name="propModel">The property model.</param>
+            <param name="htmlHelper">The HTML helper.</param>
+            <param name="value">The value.</param>
+            <param name="htmlAttributes">The HTML attributes.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileTextBox.#ctor(System.String,Syncfusion.JavaScript.Mobile.Models.MobileTextBoxProperties,System.Web.Mvc.HtmlHelper,System.String,System.Int32,System.Int32,System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.JavaScript.Mobile.MobileTextBox"/> class.
+            </summary>
+            <param name="id">The identifier.</param>
+            <param name="propModel">The property model.</param>
+            <param name="htmlHelper">The HTML helper.</param>
+            <param name="value">The value.</param>
+            <param name="rows">The rows.</param>
+            <param name="columns">The columns.</param>
+            <param name="htmlAttributes">The HTML attributes.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileTextBox.CreateContainer(System.String)">
+            <summary>
+            Creates the container.
+            </summary>
+            <param name="controlId">The control identifier.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileTextBox.RenderElement(System.String)">
+            <summary>
+            Renders the element.
+            </summary>
+            <param name="controlId">The control identifier.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileTextBox.RenderControl(System.String)">
+            <summary>
+            Renders the control.
+            </summary>
+            <param name="controlId">The control identifier.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileTextBox.CreateUnObtrusiveContainer(System.String)">
+            <summary>
+            Creates the un obtrusive container.
+            </summary>
+            <param name="controlId">The control identifier.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileTextBox.TextboxLink(System.String,System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>
+            Textboxes the link.
+            </summary>
+            <param name="controlID">The control identifier.</param>
+            <param name="htmlAttr">The HTML attribute.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileTextBox.PasswordTextboxLink(System.String,System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>
+            Password Textboxes the link.
+            </summary>
+            <param name="controlID">The control identifier.</param>
+            <param name="htmlAttr">The HTML attribute.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileTextBox.MaskEditTextboxLink(System.String,System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>
+            MaskeEdit Textboxes the link.
+            </summary>
+            <param name="controlID">The control identifier.</param>
+            <param name="htmlAttr">The HTML attribute.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileTextBox.EditorTextboxLink(System.String)">
+            <summary>
+            Creates the un obtrusive container.
+            </summary>
+            <param name="controlId">The control identifier.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileTextBox.TextAreaLink(System.String,System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>
+            Texts the area link.
+            </summary>
+            <param name="controlID">The control identifier.</param>
+            <param name="htmlAttr">The HTML attribute.</param>
+            <returns></returns>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Mobile.MobileTextBox.MobileTextBoxModel">
+            <summary>
+            Gets or sets the m TextBox model.
+            </summary>
+            <value>
+            The m TextBox model.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Mobile.MobileTextBox.MobileEditorModel">
+            <summary>
+            Gets or sets the m TextBox model.
+            </summary>
+            <value>
+            The m TextBox model.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Mobile.MobileTextBox.TagName">
+            <summary>
+            Gets the name of the tag.
+            </summary>
+            <value>
+            The name of the tag.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Mobile.MobileTextBox.TextBoxTagName">
+            <summary>
+            Gets or sets the name of the text box tag.
+            </summary>
+            <value>
+            The name of the text box tag.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Mobile.MobileTextBox.PluginName">
+            <summary>
+            Gets the name of the plugin.
+            </summary>
+            <value>
+            The name of the plugin.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Mobile.MobileTextBox.Model">
+            <summary>
+            Gets the model.
+            </summary>
+            <value>
+            The model.
+            </value>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Mobile.MobileTextBoxPropertiesBuilder">
+            <summary>
+            Class for MobileTextBoxPropertiesBuilder
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileTextBoxPropertiesBuilder.#ctor(Syncfusion.JavaScript.Mobile.MobileTextBox,System.Web.Mvc.HtmlHelper)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.JavaScript.Mobile.MobileTextBoxPropertiesBuilder"/> class.
+            </summary>
+            <param name="mTextBox">The m TextBox.</param>
+            <param name="htmlHelper">The HTML helper.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileTextBoxPropertiesBuilder.#ctor(Syncfusion.JavaScript.Mobile.MobileTextBox,System.Web.Mvc.HtmlHelper,System.Object,System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.JavaScript.Mobile.MobileTextBoxPropertiesBuilder"/> class.
+            </summary>
+            <param name="mTextBox">The m text box.</param>
+            <param name="htmlHelper">The HTML helper.</param>
+            <param name="value">The value.</param>
+            <param name="htmlAttributes">The HTML attributes.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileTextBoxPropertiesBuilder.#ctor(Syncfusion.JavaScript.Mobile.MobileTextBox,System.Web.Mvc.HtmlHelper,System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.JavaScript.Mobile.MobileTextBoxPropertiesBuilder"/> class.
+            </summary>
+            <param name="mTextBox">The m text box.</param>
+            <param name="htmlHelper">The HTML helper.</param>
+            <param name="htmlAttributes">The HTML attributes.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileTextBoxPropertiesBuilder.#ctor(Syncfusion.JavaScript.Mobile.MobileTextBox,System.Web.Mvc.HtmlHelper,System.String,System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.JavaScript.Mobile.MobileTextBoxPropertiesBuilder"/> class.
+            </summary>
+            <param name="mTextBox">The m text box.</param>
+            <param name="htmlHelper">The HTML helper.</param>
+            <param name="value">The value.</param>
+            <param name="htmlAttributes">The HTML attributes.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileTextBoxPropertiesBuilder.#ctor(Syncfusion.JavaScript.Mobile.MobileTextBox,System.Web.Mvc.HtmlHelper,System.String,System.Int32,System.Int32,System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.JavaScript.Mobile.MobileTextBoxPropertiesBuilder"/> class.
+            </summary>
+            <param name="mTextBox">The m text box.</param>
+            <param name="htmlHelper">The HTML helper.</param>
+            <param name="value">The value.</param>
+            <param name="rows">The rows.</param>
+            <param name="columns">The columns.</param>
+            <param name="htmlAttributes">The HTML attributes.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileTextBoxPropertiesBuilder.RenderMode(Syncfusion.JavaScript.RenderMode)">
+            <summary>
+            Changes the rendering mode of the TextBox, Password, Mask Edit, and Textarea.
+            </summary>
+            <param name="renderMode">The render mode.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileTextBoxPropertiesBuilder.CssClass(System.String)">
+            <summary>
+            Specifies custom theme for the control.
+            </summary>
+            <param name="cssClass"> The cssClass. </param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileTextBoxPropertiesBuilder.Format(System.String)">
+            <summary>
+            Specifies the format for the control.
+            </summary>
+            <param name="format"> The format. </param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileTextBoxPropertiesBuilder.TextboxType(Syncfusion.JavaScript.MobileTextboxType)">
+            <summary>
+            Specifies the Textbox type.
+            </summary>
+            <param name="textboxType">Type of the textbox.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileTextBoxPropertiesBuilder.BorderStyle(Syncfusion.JavaScript.MobileTextboxBorderStyle)">
+            <summary>
+            Specifies the borderStyle.
+            </summary>
+            <param name="borderStyle">Type of the borderStyle.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileTextBoxPropertiesBuilder.MaxLength(System.String)">
+            <summary>
+            Specifies the maxLength for the control.
+            </summary>
+            <param name="maxLength"> The maxLength. </param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileTextBoxPropertiesBuilder.Height(System.String)">
+            <summary>
+            Specifies the height for the control.
+            </summary>
+            <param name="height"> The format. </param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileTextBoxPropertiesBuilder.AutoFocus(System.Boolean)">
+            <summary>
+            Specifies the autofocus.
+            </summary>
+            <param name="autoFocus">if set to <c>true</c> [autofocus].</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileTextBoxPropertiesBuilder.Width(System.String)">
+            <summary>
+            Specifies the Width for the control.
+            </summary>
+            <param name="width"> The width. </param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileTextBoxPropertiesBuilder.Value(System.String)">
+            <summary>
+            Specifies the value on initialization.
+            </summary>
+            <param name="value">The value.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileTextBoxPropertiesBuilder.WatermarkText(System.String)">
+            <summary>
+            Specifies the watermarkText on initialization.
+            </summary>
+            <param name="watermarktext">The watermarktext.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileTextBoxPropertiesBuilder.Enabled(System.Boolean)">
+            <summary>
+            Specifies  whether to be enable on initialization.
+            </summary>
+            <param name="enabled">if set to <c>true</c> [enabled].</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileTextBoxPropertiesBuilder.EnablePersistence(System.Boolean)">
+            <summary>
+            Specifies to maintain the current model value to browser cookies for state maintenance. While refresh the page, the model value will get apply to the control from browser cookies.
+            </summary>
+            <param name="enablePersistence">if set to <c>true</c> [persist].</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileTextBoxPropertiesBuilder.ReadOnly(System.Boolean)">
+            <summary>
+            Specifies the TextBox, Password, Mask Edit, and Textarea readOnly.
+            </summary>
+            <param name="value">if set to <c>true</c> [value].</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileTextBoxPropertiesBuilder.ClientSideEvents(System.Action{Syncfusion.JavaScript.Mobile.MobileTextBoxClientSideEventsBuilder})">
+            <summary>
+            Section for client side events.
+            </summary>
+            <param name="clientSideEvents">The client side events.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileTextBoxPropertiesBuilder.Render">
+            <summary>
+            Renders this Plugin.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileTextBoxPropertiesBuilder.ToHtmlString">
+            <summary>
+            Returns a html string that represents the current object.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Mobile.MobileMaskEditPropertiesBuilder">
+            <summary>
+            Specifies the MaskEdit TextBox Builder properties.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileMaskEditPropertiesBuilder.#ctor(Syncfusion.JavaScript.Mobile.MobileTextBox,System.Web.Mvc.HtmlHelper)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.JavaScript.Mobile.MobileMaskEditPropertiesBuilder"/> class.
+            </summary>
+            <param name="mTextBox">The m text box.</param>
+            <param name="htmlHelper">The HTML helper.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileMaskEditPropertiesBuilder.#ctor(Syncfusion.JavaScript.Mobile.MobileTextBox,System.Web.Mvc.HtmlHelper,System.Object,System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.JavaScript.Mobile.MobileMaskEditPropertiesBuilder"/> class.
+            </summary>
+            <param name="mTextBox">The m text box.</param>
+            <param name="htmlHelper">The HTML helper.</param>
+            <param name="value">The value.</param>
+            <param name="htmlAttributes">The HTML attributes.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileMaskEditPropertiesBuilder.#ctor(Syncfusion.JavaScript.Mobile.MobileTextBox,System.Web.Mvc.HtmlHelper,System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.JavaScript.Mobile.MobileMaskEditPropertiesBuilder"/> class.
+            </summary>
+            <param name="mTextBox">The m text box.</param>
+            <param name="htmlHelper">The HTML helper.</param>
+            <param name="htmlAttributes">The HTML attributes.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileMaskEditPropertiesBuilder.#ctor(Syncfusion.JavaScript.Mobile.MobileTextBox,System.Web.Mvc.HtmlHelper,System.String,System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.JavaScript.Mobile.MobileMaskEditPropertiesBuilder"/> class.
+            </summary>
+            <param name="mTextBox">The m text box.</param>
+            <param name="htmlHelper">The HTML helper.</param>
+            <param name="value">The value.</param>
+            <param name="htmlAttributes">The HTML attributes.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileMaskEditPropertiesBuilder.#ctor(Syncfusion.JavaScript.Mobile.MobileTextBox,System.Web.Mvc.HtmlHelper,System.String,System.Int32,System.Int32,System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.JavaScript.Mobile.MobileMaskEditPropertiesBuilder"/> class.
+            </summary>
+            <param name="mTextBox">The m text box.</param>
+            <param name="htmlHelper">The HTML helper.</param>
+            <param name="value">The value.</param>
+            <param name="rows">The rows.</param>
+            <param name="columns">The columns.</param>
+            <param name="htmlAttributes">The HTML attributes.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileMaskEditPropertiesBuilder.RenderMode(Syncfusion.JavaScript.RenderMode)">
+            <summary>
+            Changes the rendering mode of the TextBox, Password, Mask Edit, and Textarea.
+            </summary>
+            <param name="renderMode">The render mode.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileMaskEditPropertiesBuilder.Height(System.String)">
+            <summary>
+            Specifies the height for the control.
+            </summary>
+            <param name="height"> The format. </param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileMaskEditPropertiesBuilder.Width(System.String)">
+            <summary>
+            Specifies the width for the control.
+            </summary>
+            <param name="width"> The format. </param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileMaskEditPropertiesBuilder.Format(System.String)">
+            <summary>
+            Specifies the format for the control.
+            </summary>
+            <param name="format"> The format. </param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileMaskEditPropertiesBuilder.BorderStyle(Syncfusion.JavaScript.MobileTextboxBorderStyle)">
+            <summary>
+            Specifies the borderStyle.
+            </summary>
+            <param name="borderStyle">Type of the borderStyle.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileMaskEditPropertiesBuilder.CssClass(System.String)">
+            <summary>
+            Specifies custom theme for the control.
+            </summary>
+            <param name="cssClass"> The cssClass. </param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileMaskEditPropertiesBuilder.Value(System.String)">
+            <summary>
+            Specifies the value on initialization.
+            </summary>
+            <param name="value">The value.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileMaskEditPropertiesBuilder.WatermarkText(System.String)">
+            <summary>
+            Specifies the watermarkText on initialization.
+            </summary>
+            <param name="watermarktext">The watermarktext.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileMaskEditPropertiesBuilder.Enabled(System.Boolean)">
+            <summary>
+            Specifies  whether to be enable on initialization.
+            </summary>
+            <param name="enabled">if set to <c>true</c> [enabled].</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileMaskEditPropertiesBuilder.EnablePersistence(System.Boolean)">
+            <summary>
+            Specifies to maintain the current model value to browser cookies for state maintenance. While refresh the page, the model value will get apply to the control from browser cookies.
+            </summary>
+            <param name="enablePersistence">if set to <c>true</c> [enable persistence].</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileMaskEditPropertiesBuilder.ReadOnly(System.Boolean)">
+            <summary>
+            Specifies the TextBox, Password, Mask Edit, and Textarea readOnly.
+            </summary>
+            <param name="value">if set to <c>true</c> [value].</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileMaskEditPropertiesBuilder.Mask(System.String)">
+            <summary>
+            Masks the specified value.
+            </summary>
+            <param name="value">The value.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileMaskEditPropertiesBuilder.ClientSideEvents(System.Action{Syncfusion.JavaScript.Mobile.MobileTextBoxClientSideEventsBuilder})">
+            <summary>
+            Section for client side events.
+            </summary>
+            <param name="clientSideEvents">The client side events.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileMaskEditPropertiesBuilder.Render">
+            <summary>
+            Renders this Plugin.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileMaskEditPropertiesBuilder.ToHtmlString">
+            <summary>
+            Returns a html string that represents the current object.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Mobile.MobileEditorPropertiesBuilder">
+            <summary>
+            Used for  generating <b>Mobile Editor</b>control
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileEditorPropertiesBuilder.#ctor(Syncfusion.JavaScript.Mobile.MobileTextBox)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.JavaScript.Mobile.MobileEditorPropertiesBuilder"/> class.
+            </summary>
+            <param name="mEditor">The m Editor.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileEditorPropertiesBuilder.RenderMode(Syncfusion.JavaScript.RenderMode)">
+            <summary>
+            Specifies the rendering mode of the control.
+            </summary>
+            <param name="renderMode">The render mode.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileEditorPropertiesBuilder.CssClass(System.String)">
+            <summary>
+            Specifies custom theme for the control.
+            </summary>
+            <param name="cssClass"> The cssClass. </param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileEditorPropertiesBuilder.Value(System.String)">
+            <summary>
+            Specifies the value.
+            </summary>
+            <param name="value">The value.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileEditorPropertiesBuilder.Height(System.String)">
+            <summary>
+            Specifies the height for the control.
+            </summary>
+            <param name="height"> The format. </param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileEditorPropertiesBuilder.Width(System.String)">
+            <summary>
+            Specifies the height for the control.
+            </summary>
+            <param name="width"> The format. </param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileEditorPropertiesBuilder.BorderStyle(Syncfusion.JavaScript.MobileTextboxBorderStyle)">
+            <summary>
+            Specifies the borderStyle.
+            </summary>
+            <param name="borderStyle">Type of the borderStyle.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileEditorPropertiesBuilder.WatermarkText(System.String)">
+            <summary>
+            Specifies the watermarkText on initialization.
+            </summary>
+            <param name="watermarktext">The watermarktext.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileEditorPropertiesBuilder.Enabled(System.Boolean)">
+            <summary>
+            Specifies whether to enable or disable the control.
+            </summary>
+            <param name="enabled">if set to <c>true</c> [enabled].</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileEditorPropertiesBuilder.EnablePersistence(System.Boolean)">
+            <summary>
+            Specifies to maintain the current model value to browser cookies for state maintenance. While refresh the page, the model value will get apply to the control from browser cookies.
+            </summary>
+            <param name="enablePersistence">if set to <c>true</c> [enable persistence].</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileEditorPropertiesBuilder.ReadOnly(System.Boolean)">
+            <summary>
+            Specifies whether the control is read only to disable typing the value manually rather than updating by spin button.
+            </summary>
+            <param name="value">if set to <c>true</c> [value].</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileEditorPropertiesBuilder.MinimumValue(System.Double)">
+            <summary>
+            Specify the minimum value.
+            </summary>
+            <param name="minimumValue">The minimum value.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileEditorPropertiesBuilder.Step(System.Double)">
+            <summary>
+            Specifies the step for the control.
+            </summary>
+            <param name="step"> The format. </param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileEditorPropertiesBuilder.MaximumValue(System.Double)">
+            <summary>
+            Specify the maximum value.
+            </summary>
+            <param name="maximumValue">The maximum value.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileEditorPropertiesBuilder.ClientSideEvents(System.Action{Syncfusion.JavaScript.Mobile.MobileTextBoxClientSideEventsBuilder})">
+            <summary>
+            Specifies the events of the mobile Textbox control
+            </summary>
+            <param name="clientSideEvents"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileEditorPropertiesBuilder.Render">
+            <summary>
+            Render the Mobile Textbox
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Mobile.MobileEditorPropertiesBuilder.ToHtmlString">
+            <summary>
+            Returns the element in HTML format.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Syncfusion.JavaScript.CaptchaActionResult">
+            <summary>
+            Generates CaptchaActionResult
+            </summary>
+            <remarks>
+            Used to generate CaptchaActionResult
+            </remarks>
+            <example>
+            The following exmaple demonstrates How to use <b>CaptchaActionResult</b> class.
+            <para></para>
+            	<code lang="C#">return CaptchaParams parameters;
+            return parameters.CaptchaActionResult();</code>
+            </example>
+        </member>
+        <member name="M:Syncfusion.JavaScript.CaptchaActionResult.#ctor(Syncfusion.JavaScript.CaptchaClientProperties)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.CaptchaActionResult.ExecuteResult(System.Web.Mvc.ControllerContext)">
+            <summary>
+            All the values from call back are accessed in this method. All the Operations
+            request performed from here.
+            </summary>
+            <param name="context">context encapsulates the information about Http
+            Request</param>
+            <remarks>
+            Asyncronous requests from the client side is handled here.
+            <para></para>
+            	<para>Required operations are performed according to the request.</para>
+            </remarks>
+        </member>
+        <member name="T:Syncfusion.JavaScript.CaptchaExtensions">
+            <summary>
+            Action Result Extensions
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.CaptchaExtensions.CaptchaActions(Syncfusion.JavaScript.CaptchaParams)">
+            <summary>
+            Action Result for CapthcaActions
+            </summary>
+        </member>
+        <member name="T:Syncfusion.JavaScript.CaptchaParams">
+            <summary>
+            Defines the CaptchaParams class
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.CaptchaParams.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="P:Syncfusion.JavaScript.CaptchaParams.CaptchaModel">
+            <summary>
+            Control Model from the client
+            </summary>
+        </member>
+        <member name="T:Syncfusion.JavaScript.CaptchaClientProperties">
+            <summary>
+            Properties for captcha
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.CaptchaClientProperties.#ctor">
+            <summary>
+            Constructor for CaptchaclientProperties class
+            </summary>
+        </member>
+        <member name="P:Syncfusion.JavaScript.CaptchaClientProperties.Height">
+            <summary>
+            Gets or Sets the Height
+            </summary>
+        </member>
+        <member name="P:Syncfusion.JavaScript.CaptchaClientProperties.Width">
+            <summary>
+            Gets or Sets the Width
+            </summary>
+        </member>
+        <member name="P:Syncfusion.JavaScript.CaptchaClientProperties.CharacterSet">
+            <summary>
+            Gets or Sets the CharacterSet
+            </summary>
+        </member>
+        <member name="P:Syncfusion.JavaScript.CaptchaClientProperties.MaximumLength">
+            <summary>
+            Gets or Sets the MaximumLength
+            </summary>
+        </member>
+        <member name="P:Syncfusion.JavaScript.CaptchaClientProperties.MinimumLength">
+            <summary>
+            Gets or Sets the MinimumLength
+            </summary>
+        </member>
+        <member name="P:Syncfusion.JavaScript.CaptchaClientProperties.BackgroundBackColor">
+            <summary>
+            Gets or Sets the BackgroundBackColor
+            </summary>
+        </member>
+        <member name="P:Syncfusion.JavaScript.CaptchaClientProperties.BackgroundForeColor">
+            <summary>
+            Gets or Sets the BackgroundForeColor
+            </summary>
+        </member>
+        <member name="P:Syncfusion.JavaScript.CaptchaClientProperties.HatchStyle">
+            <summary>
+            Gets or Sets the HatchStyle
+            </summary>
+        </member>
+        <member name="P:Syncfusion.JavaScript.CaptchaClientProperties.TextColor">
+            <summary>
+            Gets or Sets the TextColor
+            </summary>
+        </member>
+        <member name="P:Syncfusion.JavaScript.CaptchaClientProperties.CaseSensitive">
+            <summary>
+            Gets or Sets the CaseSensitive
+            </summary>
+        </member>
+        <member name="P:Syncfusion.JavaScript.CaptchaClientProperties.Id">
+            <summary>
+            Gets or Sets the Id
+            </summary>
+        </member>
+        <member name="P:Syncfusion.JavaScript.CaptchaClientProperties.ResponseText">
+            <summary>
+            Gets or Sets the ResponseText
+            </summary>
+        </member>
+        <member name="P:Syncfusion.JavaScript.CaptchaClientProperties.EncryptedText">
+            <summary>
+            Gets or Sets the EncrytedText
+            </summary>
+        </member>
+        <member name="P:Syncfusion.JavaScript.CaptchaClientProperties.AudioFilesPath">
+            <summary>
+            Gets or Sets Audio files path
+            </summary>
+        </member>
+        <member name="P:Syncfusion.JavaScript.CaptchaClientProperties.UseAudioFiles">
+            <summary>
+            Use audio files
+            </summary>
+        </member>
+        <member name="P:Syncfusion.JavaScript.CaptchaClientProperties.RequestType">
+            <summary>
+            Gets or Sets the RequestType
+            </summary>
+        </member>
+        <member name="P:Syncfusion.JavaScript.CaptchaClientProperties.ShowRefreshButton">
+            <summary>
+            Gets or sets the RefreshCaptchaIamge of the control
+            </summary>
+            <remarks>
+            <para>Gets or sets the RefreshCaptchaIamge of the Captcha control, refer the following code
+            snippet to set the ShowRefreshButton.</para>
+            </remarks>
+            <example>
+             CaptchaModel model = new CaptchaModel();
+            <para>model.ShowRefreshButton = true;</para>
+            </example>        
+        </member>
+        <member name="P:Syncfusion.JavaScript.CaptchaClientProperties.ShowAudioButton">
+            <summary>
+            Gets or sets the Audio for the captcha control
+            </summary>
+        </member>
+        <member name="P:Syncfusion.JavaScript.CaptchaClientProperties.EnablePattern">
+            <summary>
+            Gets or set the Patterns types
+            </summary>
+        </member>
+        <member name="P:Syncfusion.JavaScript.CaptchaClientProperties.ActionType">
+            <summary>
+            Response Text from the client 
+            </summary>
+        </member>
+        <member name="T:Syncfusion.JavaScript.CaptchaService">
+            <summary>
+            Defines the CaptchaService class
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.CaptchaService.IsValid(System.String,System.String)">
+            <summary>
+            Validates
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.CaptchaService.IsValid(System.String,System.String,System.Boolean)">
+            <summary>
+            To check validity of text
+            </summary>
+            <param name="expectedText">Text given by the client</param>
+            <param name="actualText">Text given in the captcha</param>
+            <param name="caseSensitive">boolean to check case or not</param>
+            <returns></returns>
+        </member>
+        <member name="T:Syncfusion.JavaScript.AutocompleteExtension">
+            <summary>
+            Used for  generating <b>Autocomplete</b>control
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.AutocompleteExtension.AutocompleteFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+            <summary>
+            Used for  generating <b>Autocomplete</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>Autocomplete</b> control</param>        
+            <returns>Raw Html code of the generated <b>Autocomplete</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.AutocompleteExtension.AutocompleteFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},Syncfusion.JavaScript.Models.AutocompleteProperties)">
+            <summary>
+            Used for  generating <b>Autocomplete</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>Autocomplete</b> control</param>               
+            <param name="model">instance of the AutocompleteModel contains all properties and events of this control </param>
+            <returns>Raw Html code of the generated <b>Autocomplete</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.AutocompleteExtension.AutocompleteFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},Syncfusion.JavaScript.Models.AutocompleteProperties,System.Object)">
+            <summary>
+            Used for  generating <b>Autocomplete</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>Autocomplete</b> control</param>        
+            <param name="model">instance of the AutocompleteModel contains all properties and events of this control </param>
+            <param name="objHtmlAttr">object Html attributes can be applied for this control</param>
+            <returns>Raw Html code of the generated <b>Autocomplete</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.AutocompleteExtension.AutocompleteFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},Syncfusion.JavaScript.Models.AutocompleteProperties,System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Used for  generating <b>Autocomplete</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>Autocomplete</b> control</param>        
+            <param name="model">instance of the AutocompleteModel contains all properties and events of this control </param>
+            <param name="htmlAttributes">Html attributes can be applied for this control</param>
+            <returns>Raw Html code of the generated <b>Autocomplete</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.AutocompleteExtension.AutocompleteFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Object)">
+            <summary>
+            Used for  generating <b>Autocomplete</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>Autocomplete</b> control</param>         
+            <param name="objHtmlAttr">object Html attributes can be applied for this control</param>      
+            <returns>Raw Html code of the generated <b>Autocomplete</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.AutocompleteExtension.AutocompleteFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Used for  generating <b>Autocomplete</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>Autocomplete</b> control</param>              
+            <param name="htmlAttributes">Html attributes can be applied for this control</param>
+            <returns>Raw Html code of the generated <b>Autocomplete</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.AutocompleteExtension.AutocompleteFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},Syncfusion.JavaScript.Models.AutocompleteProperties,System.Object,System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Used for  generating <b>Autocomplete</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>Autocomplete</b> control</param>     
+            <param name="model">instance of the AutocompleteModel contains all properties and events of this control </param>
+            <param name="objHtmlAttr">object Html attributes can be applied for this control</param>   
+            <param name="htmlAttributes">Html attributes can be applied for this control</param>
+            <returns>Raw Html code of the generated <b>Autocomplete</b>control</returns>
+        </member>
+        <member name="T:Syncfusion.JavaScript.CheckBoxExtension">
+            <summary>
+            Used for  generating <b>CheckBox</b>control
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.CheckBoxExtension.CheckBoxFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+            <summary>
+            Used for  generating <b>CheckBox</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>CheckBox</b> control</param>        
+            <returns>Raw Html code of the generated <b>CheckBox</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.CheckBoxExtension.CheckBoxFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},Syncfusion.JavaScript.Models.CheckBoxProperties)">
+            <summary>
+            Used for  generating <b>CheckBox</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>CheckBox</b> control</param>        
+            <param name="model">instance of the CheckBoxModel contains all properties and events of this control </param>
+            <returns>Raw Html code of the generated <b>CheckBox</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.CheckBoxExtension.CheckBoxFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},Syncfusion.JavaScript.Models.CheckBoxProperties,System.Object)">
+            <summary>
+            Used for  generating <b>CheckBox</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>CheckBox</b> control</param>        
+            <param name="model">instance of the CheckBoxModel contains all properties and events of this control </param>
+            <param name="objHtmlAttr">object Html attributes can be applied for this control</param>
+            <returns>Raw Html code of the generated <b>CheckBox</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.CheckBoxExtension.CheckBoxFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},Syncfusion.JavaScript.Models.CheckBoxProperties,System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Used for  generating <b>CheckBox</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>CheckBox</b> control</param>        
+            <param name="model">instance of the CheckBoxModel contains all properties and events of this control </param>
+            <param name="htmlAttributes">Html attributes can be applied for this control</param>
+            <returns>Raw Html code of the generated <b>CheckBox</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.CheckBoxExtension.CheckBoxFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Object)">
+            <summary>
+            Used for  generating <b>CheckBox</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>CheckBox</b> control</param>         
+            <param name="objHtmlAttr">object Html attributes can be applied for this control</param>      
+            <returns>Raw Html code of the generated <b>CheckBox</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.CheckBoxExtension.CheckBoxFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Used for  generating <b>CheckBox</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>CheckBox</b> control</param>              
+            <param name="htmlAttributes">Html attributes can be applied for this control</param>
+            <returns>Raw Html code of the generated <b>CheckBox</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.CheckBoxExtension.CheckBoxFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},Syncfusion.JavaScript.Models.CheckBoxProperties,System.Object,System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Used for  generating <b>CheckBox</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>CheckBox</b> control</param>     
+            <param name="model">instance of the CheckBoxtModel contains all properties and events of this control </param>
+            <param name="objHtmlAttr">object Html attributes can be applied for this control</param>   
+            <param name="htmlAttributes">Html attributes can be applied for this control</param>
+            <returns>Raw Html code of the generated <b>CheckBox</b>control</returns>
+        </member>
+        <member name="T:Syncfusion.JavaScript.ComboBoxExtension">
+            <summary>
+            Used for  generating <b>ComboBox</b>control
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.ComboBoxExtension.ComboBoxFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+            <summary>
+            Used for  generating <b>ComboBox</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>ComboBox</b> control</param>        
+            <returns>Raw Html code of the generated <b>ComboBox</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.ComboBoxExtension.ComboBoxFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},Syncfusion.JavaScript.Models.ComboBoxProperties)">
+            <summary>
+            Used for  generating <b>ComboBox</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>ComboBox</b> control</param>               
+            <param name="model">instance of the ComboBoxModel contains all properties and events of this control </param>
+            <returns>Raw Html code of the generated <b>ComboBox</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.ComboBoxExtension.ComboBoxFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},Syncfusion.JavaScript.Models.ComboBoxProperties,System.Object)">
+            <summary>
+            Used for  generating <b>ComboBox</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>ComboBox</b> control</param>        
+            <param name="model">instance of the ComboBoxModel contains all properties and events of this control </param>
+            <param name="objHtmlAttr">object Html attributes can be applied for this control</param>
+            <returns>Raw Html code of the generated <b>ComboBox</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.ComboBoxExtension.ComboBoxFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},Syncfusion.JavaScript.Models.ComboBoxProperties,System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Used for  generating <b>ComboBox</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>ComboBox</b> control</param>        
+            <param name="model">instance of the ComboBoxModel contains all properties and events of this control </param>
+            <param name="htmlAttributes">Html attributes can be applied for this control</param>
+            <returns>Raw Html code of the generated <b>ComboBox</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.ComboBoxExtension.ComboBoxFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Object)">
+            <summary>
+            Used for  generating <b>ComboBox</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>ComboBox</b> control</param>         
+            <param name="objHtmlAttr">object Html attributes can be applied for this control</param>      
+            <returns>Raw Html code of the generated <b>ComboBox</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.ComboBoxExtension.ComboBoxFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Used for  generating <b>ComboBox</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>ComboBox</b> control</param>              
+            <param name="htmlAttributes">Html attributes can be applied for this control</param>
+            <returns>Raw Html code of the generated <b>ComboBox</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.ComboBoxExtension.ComboBoxFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},Syncfusion.JavaScript.Models.ComboBoxProperties,System.Object,System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Used for  generating <b>ComboBox</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>ComboBox</b> control</param>     
+            <param name="model">instance of the ComboBoxModel contains all properties and events of this control </param>
+            <param name="objHtmlAttr">object Html attributes can be applied for this control</param>   
+            <param name="htmlAttributes">Html attributes can be applied for this control</param>
+            <returns>Raw Html code of the generated <b>ComboBox</b>control</returns>
+        </member>
+        <member name="T:Syncfusion.JavaScript.DatePickerExtension">
+            <summary>
+            Used for  generating <b>DatePicker</b>control
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.DatePickerExtension.DatePickerFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+            <summary>
+            Used for  generating <b>DatePicker</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>DatePicker</b> control</param>        
+            <returns>Raw Html code of the generated <b>DatePicker</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.DatePickerExtension.DatePickerFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},Syncfusion.JavaScript.Models.DatePickerProperties)">
+            <summary>
+            Used for  generating <b>DatePicker</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>DatePicker</b> control</param>        
+            <param name="model">instance of the DatePickerModel contains all properties and events of this control </param>
+            <returns>Raw Html code of the generated <b>DatePicker</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.DatePickerExtension.DatePickerFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},Syncfusion.JavaScript.Models.DatePickerProperties,System.Object)">
+            <summary>
+            Used for  generating <b>DatePicker</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>DatePicker</b> control</param>        
+            <param name="model">instance of the DatePickerModel contains all properties and events of this control </param>
+            <param name="objHtmlAttr">object Html attributes can be applied for this control</param>
+            <returns>Raw Html code of the generated <b>DatePicker</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.DatePickerExtension.DatePickerFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},Syncfusion.JavaScript.Models.DatePickerProperties,System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Used for  generating <b>DatePicker</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>DatePicker</b> control</param>        
+            <param name="model">instance of the DatePickerModel contains all properties and events of this control </param>
+            <param name="htmlAttributes">Html attributes can be applied for this control</param>
+            <returns>Raw Html code of the generated <b>DatePicker</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.DatePickerExtension.DatePickerFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Object)">
+            <summary>
+            Used for  generating <b>DatePicker</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>DatePicker</b> control</param>         
+            <param name="objHtmlAttr">object Html attributes can be applied for this control</param>      
+            <returns>Raw Html code of the generated <b>DatePicker</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.DatePickerExtension.DatePickerFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Used for  generating <b>DatePicker</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>DatePicker</b> control</param>              
+            <param name="htmlAttributes">Html attributes can be applied for this control</param>
+            <returns>Raw Html code of the generated <b>DatePicker</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.DatePickerExtension.DatePickerFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},Syncfusion.JavaScript.Models.DatePickerProperties,System.Object,System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Used for  generating <b>DatePicker</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>DatePicker</b> control</param>     
+            <param name="model">instance of the DatePickerModel contains all properties and events of this control </param>
+            <param name="objHtmlAttr">object Html attributes can be applied for this control</param>   
+            <param name="htmlAttributes">Html attributes can be applied for this control</param>
+            <returns>Raw Html code of the generated <b>DatePicker</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.DatePickerExtension.TimePickerFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+            <summary>
+            Used for  generating <b>TimePicker</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>TimePicker</b> control</param>        
+            <returns>Raw Html code of the generated <b>TimePicker</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.DatePickerExtension.TimePickerFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},Syncfusion.JavaScript.Models.TimePickerProperties)">
+            <summary>
+            Used for  generating <b>TimePicker</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>TimePicker</b> control</param>        
+            <param name="model">instance of the TimePickerModel contains all properties and events of this control </param>
+            <returns>Raw Html code of the generated <b>TimePicker</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.DatePickerExtension.TimePickerFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},Syncfusion.JavaScript.Models.TimePickerProperties,System.Object)">
+            <summary>
+            Used for  generating <b>TimePicker</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>TimePicker</b> control</param>        
+            <param name="model">instance of the TimePickerModel contains all properties and events of this control </param>
+            <param name="objHtmlAttr">object Html attributes can be applied for this control</param>
+            <returns>Raw Html code of the generated <b>TimePicker</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.DatePickerExtension.TimePickerFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},Syncfusion.JavaScript.Models.TimePickerProperties,System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Used for  generating <b>TimePicker</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>TimePicker</b> control</param>        
+            <param name="model">instance of the TimePickerModel contains all properties and events of this control </param>
+            <param name="htmlAttributes">Html attributes can be applied for this control</param>
+            <returns>Raw Html code of the generated <b>TimePicker</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.DatePickerExtension.TimePickerFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Object)">
+            <summary>
+            Used for  generating <b>TimePicker</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>TimePicker</b> control</param>         
+            <param name="objHtmlAttr">object Html attributes can be applied for this control</param>      
+            <returns>Raw Html code of the generated <b>TimePicker</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.DatePickerExtension.TimePickerFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Used for  generating <b>TimePicker</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>TimePicker</b> control</param>              
+            <param name="htmlAttributes">Html attributes can be applied for this control</param>
+            <returns>Raw Html code of the generated <b>TimePicker</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.DatePickerExtension.TimePickerFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},Syncfusion.JavaScript.Models.TimePickerProperties,System.Object,System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Used for  generating <b>TimePicker</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>TimePicker</b> control</param>     
+            <param name="model">instance of the TimePickerModel contains all properties and events of this control </param>
+            <param name="objHtmlAttr">object Html attributes can be applied for this control</param>   
+            <param name="htmlAttributes">Html attributes can be applied for this control</param>
+            <returns>Raw Html code of the generated <b>TimePicker</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.DatePickerExtension.DateTimePickerFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+            <summary>
+            Used for  generating <b>DateTimePicker</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>DateTimePicker</b> control</param>        
+            <returns>Raw Html code of the generated <b>DateTimePicker</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.DatePickerExtension.DateTimePickerFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},Syncfusion.JavaScript.Models.DateTimePickerProperties)">
+            <summary>
+            Used for  generating <b>DateTimePicker</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>DateTimePicker</b> control</param>        
+            <param name="model">instance of the DateTimePickerModel contains all properties and events of this control </param>
+            <returns>Raw Html code of the generated <b>DateTimePicker</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.DatePickerExtension.DateTimePickerFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},Syncfusion.JavaScript.Models.DateTimePickerProperties,System.Object)">
+            <summary>
+            Used for  generating <b>DateTimePicker</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>DateTimePicker</b> control</param>        
+            <param name="model">instance of the DateTimePickerModel contains all properties and events of this control </param>
+            <param name="objHtmlAttr">object Html attributes can be applied for this control</param>
+            <returns>Raw Html code of the generated <b>DateTimePicker</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.DatePickerExtension.DateTimePickerFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},Syncfusion.JavaScript.Models.DateTimePickerProperties,System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Used for  generating <b>DateTimePicker</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>DateTimePicker</b> control</param>        
+            <param name="model">instance of the DateTimePickerModel contains all properties and events of this control </param>
+            <param name="htmlAttributes">Html attributes can be applied for this control</param>
+            <returns>Raw Html code of the generated <b>DateTimePicker</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.DatePickerExtension.DateTimePickerFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Object)">
+            <summary>
+            Used for  generating <b>DateTimePicker</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>DateTimePicker</b> control</param>         
+            <param name="objHtmlAttr">object Html attributes can be applied for this control</param>      
+            <returns>Raw Html code of the generated <b>DateTimePicker</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.DatePickerExtension.DateTimePickerFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Used for  generating <b>DateTimePicker</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>DateTimePicker</b> control</param>              
+            <param name="htmlAttributes">Html attributes can be applied for this control</param>
+            <returns>Raw Html code of the generated <b>DateTimePicker</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.DatePickerExtension.DateTimePickerFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},Syncfusion.JavaScript.Models.DateTimePickerProperties,System.Object,System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Used for  generating <b>DateTimePicker</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>DateTimePicker</b> control</param>     
+            <param name="model">instance of the DateTimePickerModel contains all properties and events of this control </param>
+            <param name="objHtmlAttr">object Html attributes can be applied for this control</param>   
+            <param name="htmlAttributes">Html attributes can be applied for this control</param>
+            <returns>Raw Html code of the generated <b>DateTimePicker</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.DatePickerExtension.DateRangePickerFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+            <summary>
+            Used for  generating <b>DateRangePicker</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>DateRangePicker</b> control</param>        
+            <returns>Raw Html code of the generated <b>DateTimePicker</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.DatePickerExtension.DateRangePickerFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},Syncfusion.JavaScript.Models.DateRangePickerProperties)">
+            <summary>
+            Used for  generating <b>DateRangePicker</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>DateRangePicker</b> control</param>        
+            <param name="model">instance of the DateRangePickerModel contains all properties and events of this control </param>
+            <returns>Raw Html code of the generated <b>DateTimePicker</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.DatePickerExtension.DateRangePickerFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},Syncfusion.JavaScript.Models.DateRangePickerProperties,System.Object)">
+            <summary>
+            Used for  generating <b>DateRangePicker</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>DateRangePicker</b> control</param>        
+            <param name="model">instance of the DateRangePickerModel contains all properties and events of this control </param>
+            <param name="objHtmlAttr">object Html attributes can be applied for this control</param>
+            <returns>Raw Html code of the generated <b>DateRangePicker</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.DatePickerExtension.DateRangePickerFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},Syncfusion.JavaScript.Models.DateRangePickerProperties,System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Used for  generating <b>DateRangePicker</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>DateRangePicker</b> control</param>        
+            <param name="model">instance of the DateRangePickerModel contains all properties and events of this control </param>
+            <param name="htmlAttributes">Html attributes can be applied for this control</param>
+            <returns>Raw Html code of the generated <b>DateRangePicker</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.DatePickerExtension.DateRangePickerFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Object)">
+            <summary>
+            Used for  generating <b>DateRangePicker</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>DateRangePicker</b> control</param>         
+            <param name="objHtmlAttr">object Html attributes can be applied for this control</param>      
+            <returns>Raw Html code of the generated <b>DateRangePicker</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.DatePickerExtension.DateRangePickerFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Used for  generating <b>DateRangePicker</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>DateRangePicker</b> control</param>              
+            <param name="htmlAttributes">Html attributes can be applied for this control</param>
+            <returns>Raw Html code of the generated <b>DateRangePicker</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.DatePickerExtension.DateRangePickerFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},Syncfusion.JavaScript.Models.DateRangePickerProperties,System.Object,System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Used for  generating <b>DateRangePicker</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>DateRangePicker</b> control</param>     
+            <param name="model">instance of the DateRangePickerModel contains all properties and events of this control </param>
+            <param name="objHtmlAttr">object Html attributes can be applied for this control</param>   
+            <param name="htmlAttributes">Html attributes can be applied for this control</param>
+            <returns>Raw Html code of the generated <b>DateRangePicker</b>control</returns>
+        </member>
+        <member name="T:Syncfusion.JavaScript.DropDownListExtension">
+            <summary>
+            Used for  generating <b>DropDownList</b>control
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.DropDownListExtension.DropDownListFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+            <summary>
+            Used for  generating <b>DropDownList</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>DropDownList</b> control</param>        
+            <returns>Raw Html code of the generated <b>DropDownList</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.DropDownListExtension.DropDownListFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},Syncfusion.JavaScript.Models.DropDownListProperties)">
+            <summary>
+            Used for  generating <b>DropDownList</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>DropDownList</b> control</param>        
+            <param name="model">instance of the DropDownListModel contains all properties and events of this control </param>
+            <returns>Raw Html code of the generated <b>DropDownList</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.DropDownListExtension.DropDownListFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},Syncfusion.JavaScript.Models.DropDownListProperties,System.Object)">
+            <summary>
+            Used for  generating <b>DropDownList</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>DropDownList</b> control</param>        
+            <param name="model">instance of the DropDownListModel contains all properties and events of this control </param>
+            <param name="objHtmlAttr">object Html attributes can be applied for this control</param>
+            <returns>Raw Html code of the generated <b>DropDownList</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.DropDownListExtension.DropDownListFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},Syncfusion.JavaScript.Models.DropDownListProperties,System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Used for  generating <b>DropDownList</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>DropDownList</b> control</param>        
+            <param name="model">instance of the DropDownListModel contains all properties and events of this control </param>
+            <param name="htmlAttributes">Html attributes can be applied for this control</param>
+            <returns>Raw Html code of the generated <b>DropDownList</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.DropDownListExtension.DropDownListFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Object)">
+            <summary>
+            Used for  generating <b>DropDownList</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>DropDownList</b> control</param>         
+            <param name="objHtmlAttr">object Html attributes can be applied for this control</param>      
+            <returns>Raw Html code of the generated <b>DropDownList</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.DropDownListExtension.DropDownListFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Used for  generating <b>DropDownList</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>DropDownList</b> control</param>              
+            <param name="htmlAttributes">Html attributes can be applied for this control</param>
+            <returns>Raw Html code of the generated <b>DropDownList</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.DropDownListExtension.DropDownListFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},Syncfusion.JavaScript.Models.DropDownListProperties,System.Object,System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Used for  generating <b>DropDownList</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>DropDownList</b> control</param>     
+            <param name="model">instance of the DropDownListModel contains all properties and events of this control </param>
+            <param name="objHtmlAttr">object Html attributes can be applied for this control</param>   
+            <param name="htmlAttributes">Html attributes can be applied for this control</param>
+            <returns>Raw Html code of the generated <b>DropDownList</b>control</returns>
+        </member>
+        <member name="T:Syncfusion.JavaScript.EssentialJavaScriptExtension">
+            <summary>
+            Used for  generating <b>Editor</b>control
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.EssentialJavaScriptExtension.NumericTextBoxFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+            <summary>
+            Used for  generating <b>NumericTextBox</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>NumericTextBox</b> control</param>        
+            <returns>Raw Html code of the generated <b>NumericTextBox</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.EssentialJavaScriptExtension.NumericTextBoxFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},Syncfusion.JavaScript.Models.EditorProperties)">
+            <summary>
+            Used for  generating <b>NumericTextBox</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>NumericTextBox</b> control</param>        
+            <param name="editorModel">instance of the NumericTextBoxModel contains all properties and events of this control </param>
+            <returns>Raw Html code of the generated <b>NumericTextBox</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.EssentialJavaScriptExtension.NumericTextBoxFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},Syncfusion.JavaScript.Models.EditorProperties,System.Object)">
+            <summary>
+            Used for  generating <b>NumericTextBox</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>NumericTextBox</b> control</param>        
+            <param name="editorModel">instance of the NumericTextBoxModel contains all properties and events of this control </param>
+            <param name="objHtmlAttr">object Html attributes can be applied for this control</param>
+            <returns>Raw Html code of the generated <b>NumericTextBox</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.EssentialJavaScriptExtension.NumericTextBoxFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},Syncfusion.JavaScript.Models.EditorProperties,System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Used for  generating <b>NumericTextBox</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>NumericTextBox</b> control</param>        
+            <param name="editorModel">instance of the NumericTextBoxModel contains all properties and events of this control </param>
+            <param name="htmlAttributes">Html attributes can be applied for this control</param>
+            <returns>Raw Html code of the generated <b>NumericTextBox</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.EssentialJavaScriptExtension.NumericTextBoxFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Object)">
+            <summary>
+            Used for  generating <b>NumericTextBox</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>NumericTextBox</b> control</param>         
+            <param name="objHtmlAttr">object Html attributes can be applied for this control</param>      
+            <returns>Raw Html code of the generated <b>NumericTextBox</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.EssentialJavaScriptExtension.NumericTextBoxFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Used for  generating <b>NumericTextBox</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>NumericTextBox</b> control</param>              
+            <param name="htmlAttributes">Html attributes can be applied for this control</param>
+            <returns>Raw Html code of the generated <b>NumericTextBox</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.EssentialJavaScriptExtension.NumericTextBoxFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},Syncfusion.JavaScript.Models.EditorProperties,System.Object,System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Used for  generating <b>NumericTextBox</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>NumericTextBox</b> control</param>     
+            <param name="editorModel">instance of the NumericTextBoxModel contains all properties and events of this control </param>
+            <param name="objHtmlAttr">object Html attributes can be applied for this control</param>   
+            <param name="htmlAttributes">Html attributes can be applied for this control</param>
+            <returns>Raw Html code of the generated <b>NumericTextBox</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.EssentialJavaScriptExtension.PercentTextBoxFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+            <summary>
+            Used for  generating <b>percentTextBox</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>PercentTextBox</b> control</param>        
+            <returns>Raw Html code of the generated <b>percentTextBox</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.EssentialJavaScriptExtension.PercentTextBoxFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},Syncfusion.JavaScript.Models.EditorProperties)">
+            <summary>
+            Used for  generating <b>percentTextBox</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>percentTextBox</b> control</param>        
+            <param name="editorModel">instance of the percentTextBoxModel contains all properties and events of this control </param>
+            <returns>Raw Html code of the generated <b>percentTextBox</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.EssentialJavaScriptExtension.PercentTextBoxFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},Syncfusion.JavaScript.Models.EditorProperties,System.Object)">
+            <summary>
+            Used for  generating <b>percentTextBox</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>percentTextBox</b> control</param>        
+            <param name="editorModel">instance of the percentTextBoxModel contains all properties and events of this control </param>
+            <param name="objHtmlAttr">object Html attributes can be applied for this control</param>
+            <returns>Raw Html code of the generated <b>percentTextBox</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.EssentialJavaScriptExtension.PercentTextBoxFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},Syncfusion.JavaScript.Models.EditorProperties,System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Used for  generating <b>percentTextBox</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>percentTextBox</b> control</param>        
+            <param name="editorModel">instance of the percentTextBoxModel contains all properties and events of this control </param>
+            <param name="htmlAttributes">Html attributes can be applied for this control</param>
+            <returns>Raw Html code of the generated <b>percentTextBox</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.EssentialJavaScriptExtension.PercentTextBoxFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Object)">
+            <summary>
+            Used for  generating <b>percentTextBox</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>percentTextBox</b> control</param>         
+            <param name="objHtmlAttr">object Html attributes can be applied for this control</param>      
+            <returns>Raw Html code of the generated <b>percentTextBox</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.EssentialJavaScriptExtension.PercentTextBoxFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Used for  generating <b>percentTextBox</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>percentTextBox</b> control</param>              
+            <param name="htmlAttributes">Html attributes can be applied for this control</param>
+            <returns>Raw Html code of the generated <b>percentTextBox</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.EssentialJavaScriptExtension.PercentTextBoxFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},Syncfusion.JavaScript.Models.EditorProperties,System.Object,System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Used for  generating <b>percentTextBox</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>percentTextBox</b> control</param>     
+            <param name="editorModel">instance of the percentTextBoxModel contains all properties and events of this control </param>
+            <param name="objHtmlAttr">object Html attributes can be applied for this control</param>   
+            <param name="htmlAttributes">Html attributes can be applied for this control</param>
+            <returns>Raw Html code of the generated <b>percentTextBox</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.EssentialJavaScriptExtension.CurrencyTextBoxFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+            <summary>
+            Used for  generating <b>CurrencyTextbox</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>CurrencyTextbox</b> control</param>        
+            <returns>Raw Html code of the generated <b>percentTextBox</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.EssentialJavaScriptExtension.CurrencyTextBoxFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},Syncfusion.JavaScript.Models.EditorProperties)">
+            <summary>
+            Used for  generating <b>CurrencyTextbox</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>CurrencyTextbox</b> control</param>        
+            <param name="editorModel">instance of the CurrencyTextboxModel contains all properties and events of this control </param>
+            <returns>Raw Html code of the generated <b>CurrencyTextbox</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.EssentialJavaScriptExtension.CurrencyTextBoxFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},Syncfusion.JavaScript.Models.EditorProperties,System.Object)">
+            <summary>
+            Used for  generating <b>CurrencyTextbox</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>CurrencyTextbox</b> control</param>        
+            <param name="editorModel">instance of the CurrencyTextboxModel contains all properties and events of this control </param>
+            <param name="objHtmlAttr">object Html attributes can be applied for this control</param>
+            <returns>Raw Html code of the generated <b>CurrencyTextbox</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.EssentialJavaScriptExtension.CurrencyTextBoxFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},Syncfusion.JavaScript.Models.EditorProperties,System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Used for  generating <b>CurrencyTextbox</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>CurrencyTextbox</b> control</param>        
+            <param name="editorModel">instance of the CurrencyTextboxModel contains all properties and events of this control </param>
+            <param name="htmlAttributes">Html attributes can be applied for this control</param>
+            <returns>Raw Html code of the generated <b>CurrencyTextbox</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.EssentialJavaScriptExtension.CurrencyTextBoxFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Object)">
+            <summary>
+            Used for  generating <b>CurrencyTextbox</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>CurrencyTextbox</b> control</param>         
+            <param name="objHtmlAttr">object Html attributes can be applied for this control</param>      
+            <returns>Raw Html code of the generated <b>CurrencyTextbox</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.EssentialJavaScriptExtension.CurrencyTextBoxFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Used for  generating <b>CurrencyTextbox</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>CurrencyTextbox</b> control</param>              
+            <param name="htmlAttributes">Html attributes can be applied for this control</param>
+            <returns>Raw Html code of the generated <b>CurrencyTextbox</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.EssentialJavaScriptExtension.CurrencyTextBoxFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},Syncfusion.JavaScript.Models.EditorProperties,System.Object,System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Used for  generating <b>CurrencyTextbox</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>CurrencyTextbox</b> control</param>     
+            <param name="editorModel">instance of the CurrencyTextboxModel contains all properties and events of this control </param>
+            <param name="objHtmlAttr">object Html attributes can be applied for this control</param>   
+            <param name="htmlAttributes">Html attributes can be applied for this control</param>
+            <returns>Raw Html code of the generated <b>CurrencyTextbox</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.EssentialJavaScriptExtension.MaskEditTextBoxFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+            <summary>
+            Used for  generating <b>MaskEditTextBox</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>MaskEditTextBox</b> control</param>        
+            <returns>Raw Html code of the generated <b>MaskEditTextBox</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.EssentialJavaScriptExtension.MaskEditTextBoxFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},Syncfusion.JavaScript.Models.MaskEditProperties)">
+            <summary>
+            Used for  generating <b>MaskEditTextBox</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>MaskEditTextBox</b> control</param>        
+            <param name="maskModel">instance of the MaskEditTextBoxModel contains all properties and events of this control </param>
+            <returns>Raw Html code of the generated <b>MaskEditTextBox</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.EssentialJavaScriptExtension.MaskEditTextBoxFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},Syncfusion.JavaScript.Models.MaskEditProperties,System.Object)">
+            <summary>
+            Used for  generating <b>MaskEditTextBox</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>MaskEditTextBox</b> control</param>        
+            <param name="maskModel">instance of the MaskEditTextBoxModel contains all properties and events of this control </param>
+            <param name="objHtmlAttr">object Html attributes can be applied for this control</param>
+            <returns>Raw Html code of the generated <b>MaskEditTextBox</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.EssentialJavaScriptExtension.MaskEditTextBoxFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},Syncfusion.JavaScript.Models.MaskEditProperties,System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Used for  generating <b>MaskEditTextBox</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>MaskEditTextBox</b> control</param>        
+            <param name="maskModel">instance of the MaskEditTextBoxModel contains all properties and events of this control </param>
+            <param name="htmlAttributes">Html attributes can be applied for this control</param>
+            <returns>Raw Html code of the generated <b>MaskEditTextBox</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.EssentialJavaScriptExtension.MaskEditTextBoxFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Object)">
+            <summary>
+            Used for  generating <b>MaskEditTextBox</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>MaskEditTextBox</b> control</param>         
+            <param name="objHtmlAttr">object Html attributes can be applied for this control</param>      
+            <returns>Raw Html code of the generated <b>MaskEditTextBox</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.EssentialJavaScriptExtension.MaskEditTextBoxFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Used for  generating <b>MaskEditTextBox</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>MaskEditTextBox</b> control</param>              
+            <param name="htmlAttributes">Html attributes can be applied for this control</param>
+            <returns>Raw Html code of the generated <b>MaskEditTextBox</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.EssentialJavaScriptExtension.MaskEditTextBoxFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},Syncfusion.JavaScript.Models.MaskEditProperties,System.Object,System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Used for  generating <b>MaskEditTextBox</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>MaskEditTextBox</b> control</param>     
+            <param name="maskModel">instance of the MaskEditTextBoxModel contains all properties and events of this control </param>
+            <param name="objHtmlAttr">object Html attributes can be applied for this control</param>   
+            <param name="htmlAttributes">Html attributes can be applied for this control</param>
+            <returns>Raw Html code of the generated <b>MaskEditTextBox</b>control</returns>
+        </member>
+        <member name="T:Syncfusion.JavaScript.RichTextEditorExtension">
+            <summary>
+            Used for  generating <b>RTE</b>control
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.RichTextEditorExtension.RTEFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+            <summary>
+            Used for  generating <b>RTE</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>RTE</b> control</param>        
+            <returns>Raw Html code of the generated <b>RTE</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.RichTextEditorExtension.RTEFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},Syncfusion.JavaScript.Models.RTEproperties)">
+            <summary>
+            Used for  generating <b>RTE</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>RTE</b> control</param>        
+            <param name="model">instance of the RTEModel contains all properties and events of this control </param>
+            <returns>Raw Html code of the generated <b>RTE</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.RichTextEditorExtension.RTEFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},Syncfusion.JavaScript.Models.RTEproperties,System.Object)">
+            <summary>
+            Used for  generating <b>RTE</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>RTE</b> control</param>        
+            <param name="model">instance of the RTEModel contains all properties and events of this control </param>
+            <param name="objHtmlAttr">object Html attributes can be applied for this control</param>
+            <returns>Raw Html code of the generated <b>RTE</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.RichTextEditorExtension.RTEFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},Syncfusion.JavaScript.Models.RTEproperties,System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Used for  generating <b>RTE</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>RTE</b> control</param>        
+            <param name="model">instance of the RTEModel contains all properties and events of this control </param>
+            <param name="htmlAttributes">Html attributes can be applied for this control</param>
+            <returns>Raw Html code of the generated <b>RTE</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.RichTextEditorExtension.RTEFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Object)">
+            <summary>
+            Used for  generating <b>RTE</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>RTE</b> control</param>         
+            <param name="objHtmlAttr">object Html attributes can be applied for this control</param>      
+            <returns>Raw Html code of the generated <b>RTE</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.RichTextEditorExtension.RTEFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Used for  generating <b>RTE</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>RTE</b> control</param>              
+            <param name="htmlAttributes">Html attributes can be applied for this control</param>
+            <returns>Raw Html code of the generated <b>RTE</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.RichTextEditorExtension.RTEFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},Syncfusion.JavaScript.Models.RTEproperties,System.Object,System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Used for  generating <b>RTE</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>RTE</b> control</param>     
+            <param name="model">instance of the RTEModel contains all properties and events of this control </param>
+            <param name="objHtmlAttr">object Html attributes can be applied for this control</param>   
+            <param name="htmlAttributes">Html attributes can be applied for this control</param>
+            <returns>Raw Html code of the generated <b>RTE</b>control</returns>
+        </member>
+        <member name="T:Syncfusion.JavaScript.ProgressBarExtension">
+            <summary>
+            Used for  generating <b>ProgressBar</b>control
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.ProgressBarExtension.ProgressBarFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+            <summary>
+            Used for  generating <b>ProgressBar</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>ProgressBar</b> control</param>        
+            <returns>Raw Html code of the generated <b>ProgressBar</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.ProgressBarExtension.ProgressBarFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},Syncfusion.JavaScript.Models.ProgressBarProperties)">
+            <summary>
+            Used for  generating <b>ProgressBar</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>ProgressBar</b> control</param>        
+            <param name="model">instance of the ProgressBarModel contains all properties and events of this control </param>
+            <returns>Raw Html code of the generated <b>ProgressBar</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.ProgressBarExtension.ProgressBarFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},Syncfusion.JavaScript.Models.ProgressBarProperties,System.Object)">
+            <summary>
+            Used for  generating <b>ProgressBar</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>ProgressBar</b> control</param>        
+            <param name="model">instance of the ProgressBarModel contains all properties and events of this control </param>
+            <param name="objHtmlAttr">object Html attributes can be applied for this control</param>
+            <returns>Raw Html code of the generated <b>ProgressBar</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.ProgressBarExtension.ProgressBarFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},Syncfusion.JavaScript.Models.ProgressBarProperties,System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Used for  generating <b>ProgressBar</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>ProgressBar</b> control</param>        
+            <param name="model">instance of the ProgressBarModel contains all properties and events of this control </param>
+            <param name="htmlAttributes">Html attributes can be applied for this control</param>
+            <returns>Raw Html code of the generated <b>ProgressBar</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.ProgressBarExtension.ProgressBarFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Object)">
+            <summary>
+            Used for  generating <b>ProgressBar</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>ProgressBar</b> control</param>         
+            <param name="objHtmlAttr">object Html attributes can be applied for this control</param>      
+            <returns>Raw Html code of the generated <b>ProgressBar</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.ProgressBarExtension.ProgressBarFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Used for  generating <b>ProgressBar</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>ProgressBar</b> control</param>              
+            <param name="htmlAttributes">Html attributes can be applied for this control</param>
+            <returns>Raw Html code of the generated <b>ProgressBar</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.ProgressBarExtension.ProgressBarFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},Syncfusion.JavaScript.Models.ProgressBarProperties,System.Object,System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Used for  generating <b>ProgressBar</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>ProgressBar</b> control</param>     
+            <param name="model">instance of the ProgressBarModel contains all properties and events of this control </param>
+            <param name="objHtmlAttr">object Html attributes can be applied for this control</param>   
+            <param name="htmlAttributes">Html attributes can be applied for this control</param>
+            <returns>Raw Html code of the generated <b>ProgressBar</b>control</returns>
+        </member>
+        <member name="T:Syncfusion.JavaScript.ListBoxExtension">
+            <summary>
+            Used for  generating <b>ListBox</b>control
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.ListBoxExtension.ListBoxFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+            <summary>
+            Used for  generating <b>ListBox</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>ListBox</b> control</param>        
+            <returns>Raw Html code of the generated <b>ListBox</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.ListBoxExtension.ListBoxFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},Syncfusion.JavaScript.Models.ListBoxProperties)">
+            <summary>
+            Used for  generating <b>ListBox</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>ListBox</b> control</param> 
+            <param name="model">instance of the ListBoxModel contains all properties and events of this control </param>
+            <returns>Raw Html code of the generated <b>ListBox</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.ListBoxExtension.ListBoxFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},Syncfusion.JavaScript.Models.ListBoxProperties,System.Object)">
+            <summary>
+            Used for  generating <b>ListBox</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>ListBox</b> control</param>        
+            <param name="model">instance of the ListBoxModel contains all properties and events of this control </param>
+            <param name="objHtmlAttr">object Html attributes can be applied for this control</param>
+            <returns>Raw Html code of the generated <b>ListBox</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.ListBoxExtension.ListBoxFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},Syncfusion.JavaScript.Models.ListBoxProperties,System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Used for  generating <b>ListBox</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>ListBox</b> control</param>        
+            <param name="model">instance of the ListBoxModel contains all properties and events of this control </param>
+            <param name="htmlAttributes">Html attributes can be applied for this control</param>
+            <returns>Raw Html code of the generated <b>ListBox</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.ListBoxExtension.ListBoxFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Object)">
+            <summary>
+            Used for  generating <b>ListBox</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>ListBox</b> control</param>         
+            <param name="objHtmlAttr">object Html attributes can be applied for this control</param>      
+            <returns>Raw Html code of the generated <b>ListBox</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.ListBoxExtension.ListBoxFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Used for  generating <b>ListBox</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>ListBox</b> control</param>              
+            <param name="htmlAttributes">Html attributes can be applied for this control</param>
+            <returns>Raw Html code of the generated <b>ListBox</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.ListBoxExtension.ListBoxFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},Syncfusion.JavaScript.Models.ListBoxProperties,System.Object,System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Used for  generating <b>ListBox</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>ListBox</b> control</param>     
+            <param name="model">instance of the ListBoxModel contains all properties and events of this control </param>
+            <param name="objHtmlAttr">object Html attributes can be applied for this control</param>   
+            <param name="htmlAttributes">Html attributes can be applied for this control</param>
+            <returns>Raw Html code of the generated <b>ListBox</b>control</returns>
+        </member>
+        <member name="T:Syncfusion.JavaScript.RadioButtonExtension">
+            <summary>
+            Used for  generating <b>RadioButton</b>control
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.RadioButtonExtension.RadioButtonFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Object)">
+            <summary>
+            Used for  generating <b>RadioButton</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>RadioButton</b> control</param>     
+             <param name="value">Specifies the Value of <b>RadioButton</b> control</param> 
+            <returns>Raw Html code of the generated <b>RadioButton</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.RadioButtonExtension.RadioButtonFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Object,Syncfusion.JavaScript.Models.RadioButtonProperties)">
+            <summary>
+            Used for  generating <b>RadioButton</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>RadioButton</b> control</param>  
+            <param name="value">Specifies the Value of <b>RadioButton</b> control</param>
+            <param name="model">instance of the RadioButtonModel contains all properties and events of this control </param>
+            <returns>Raw Html code of the generated <b>RadioButton</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.RadioButtonExtension.RadioButtonFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Object,Syncfusion.JavaScript.Models.RadioButtonProperties,System.Object)">
+            <summary>
+            Used for  generating <b>RadioButton</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>RadioButton</b> control</param>        
+            <param name="value">Specifies the Value of <b>RadioButton</b> control</param>
+            <param name="model">instance of the RadioButtonModel contains all properties and events of this control </param>
+            <param name="objHtmlAttr">object Html attributes can be applied for this control</param>
+            <returns>Raw Html code of the generated <b>RadioButton</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.RadioButtonExtension.RadioButtonFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Object,Syncfusion.JavaScript.Models.RadioButtonProperties,System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Used for  generating <b>RadioButton</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>RadioButton</b> control</param>     
+            <param name="value">Specifies the Value of <b>RadioButton</b> control</param>
+            <param name="model">instance of the RadioButtonModel contains all properties and events of this control </param>
+            <param name="htmlAttributes">Html attributes can be applied for this control</param>
+            <returns>Raw Html code of the generated <b>RadioButton</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.RadioButtonExtension.RadioButtonFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Object,System.Object)">
+            <summary>
+            Used for  generating <b>RadioButton</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>RadioButton</b> control</param>
+            <param name="value">Specifies the Value of <b>RadioButton</b> control</param>
+            <param name="objHtmlAttr">object Html attributes can be applied for this control</param>      
+            <returns>Raw Html code of the generated <b>RadioButton</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.RadioButtonExtension.RadioButtonFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Object,System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Used for  generating <b>RadioButton</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>RadioButton</b> control</param>
+            <param name="value">Specifies the Value of <b>RadioButton</b> control</param>
+            <param name="htmlAttributes">Html attributes can be applied for this control</param>
+            <returns>Raw Html code of the generated <b>RadioButton</b>control</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.RadioButtonExtension.RadioButtonFor``2(Syncfusion.MVC.EJ.EssentialJavaScriptFor{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Object,Syncfusion.JavaScript.Models.RadioButtonProperties,System.Object,System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Used for  generating <b>RadioButton</b>control
+            </summary>
+            <param name="factory">Specifies strongly typed extension for HTMLHelper class</param>
+            <param name="expression">Specifies the ID and Value of <b>RadioButton</b> control</param>
+            <param name="value">Specifies the Value of <b>RadioButton</b> control</param>
+            <param name="model">instance of the RadioButtontModel contains all properties and events of this control </param>
+            <param name="objHtmlAttr">object Html attributes can be applied for this control</param>   
+            <param name="htmlAttributes">Html attributes can be applied for this control</param>
+            <returns>Raw Html code of the generated <b>RadioButton</b>control</returns>
+        </member>
+        <member name="T:Syncfusion.JavaScript.SpreadsheetActionResult">
+            <summary>
+            Represents the class for Spreadsheet Action Result
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.SpreadsheetActionResult.#ctor(Syncfusion.JavaScript.Models.ImportRequest)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.JavaScript.SpreadsheetActionResult">SpreadsheetEventArgs</see> class with an import request. 
+            </summary>
+            <param name="parameters">parameters encapsulates the information about Import Request</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.SpreadsheetActionResult.ExecuteResult(System.Web.Mvc.ControllerContext)">
+            <summary>
+             All the values from call back are accessed in this method. All the requested Operations are performed here. 
+            </summary>
+            <param name="context">context encapsulates the information about Http Request</param>
+        </member>
+        <member name="P:Syncfusion.JavaScript.SpreadsheetActionResult.importRequest">
+            <summary>
+            Gets or Sets a value that indicates the Import Request
+            </summary>
+        </member>
+        <member name="T:Syncfusion.JavaScript.SpreadsheetExtensions">
+            <summary>
+            Represents the class for Spreadsheet Extensions
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.SpreadsheetExtensions.SpreadsheetActions(Syncfusion.JavaScript.Models.ImportRequest)">
+            <summary>
+            Returns Spreadsheet Action result based on Import Request
+            </summary>
+            <param name="request">request encapsulates the information about Import Request </param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
