@@ -1,0 +1,28 @@
+﻿
+<div class="control">
+    <label>single column</label>
+    <input type="text" id="searchCustomer" />
+</div>
+
+<script>
+  $(document).ready(function () {
+
+      var dataManager = ej.DataManager({
+          url: "/Home/GetItems",
+          adaptor: new ej.UrlAdaptor()
+      });
+
+      $('#searchCustomer').ejAutocomplete({
+          dataSource: dataManager,
+          fields: {
+          text: 'text', key: "uniqueKey" },
+          filterType: ej.filterType.StartsWith,
+          watermarkText: "Search a customer",
+          width: "50%",
+          showPopupButton: true,
+          filterType: ej.filterType.Contains,
+          autoFocus: true,
+          value: "n"
+      });
+});
+</script>

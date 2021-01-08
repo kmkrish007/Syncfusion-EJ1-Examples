@@ -1,0 +1,10 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+@(Html.EJ()
+      .FileExplorer("FileExplorer")
+      .Path("~/FileExplorerContent/")
+      .AjaxAction(@Url.Content("/Home/FileActionDefault"))
+      .Width("100%")
+)
