@@ -1,0 +1,20 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+@using WebApplication1.Controllers
+
+@*@(Html.EJ().Grid<Person>("Grid")
+    .Datasource((IEnumerable<Person>)ViewBag.datasource)
+    .Columns(col =>
+            {
+                col.Field(p => p.FirstName).HeaderText("First Name").TextAlign(TextAlign.Left).Add();
+                col.Field(p => p.LastName).HeaderText("Last Name").TextAlign(TextAlign.Left).Add();
+                col.Field(p => p.Email).HeaderText("Email").TextAlign(TextAlign.Left).Add();
+            })
+        .ToolbarSettings(toolBar => toolBar.ShowToolbar().ToolbarItems(items =>
+        {
+            items.AddTool(ToolBarItems.ExcelExport);
+    })))*@
+
+@Html.EJ().DatePicker("MyFirstDatepicker")
