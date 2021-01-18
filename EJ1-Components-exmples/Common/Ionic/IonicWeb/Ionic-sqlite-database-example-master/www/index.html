@@ -1,0 +1,126 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="ej/themes/default-theme/ej.web.all.min.css" rel="stylesheet" />
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="js/ng-cordova.min.js"></script>
+    <script src="ej/scripts/jquery-2.1.4.min.js"></script>
+    <script src="ej/scripts/jsrender.min.js"></script>
+    <script src="ej/scripts/ej.web.all.min.js"></script>
+    <script src="ej/scripts/ej.widget.angular.min.js"></script>
+    <script src="ej/scripts/ej.unobtrusive.min.js"></script>
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+</head>
+<body ng-app="starter">
+    <ion-pane>
+        <ion-header-bar class="bar-stable">
+          <h1 class="title">Ionic - ListView</h1>
+        </ion-header-bar>
+             <ion-content ng-controller="ListController">
+            <div class="angularbind ioncenter">
+                <div ej-listview id="anglistview" e-datasource="datalist" e-width="400" style="margin:0 auto" e-databinding="true" e-rendertemplate="true" e-showheader="false" e-allowscrolling="false">
+                    <div class="cont-bg">
+                        <div class="{{>Class}}">
+                        </div>
+                        <div class="listrightdiv">
+                            <span class="templatetext">{{>Name}}</span> <span class="designationstyle">{{>Designation}}</span>
+                            <div class="aboutstyle">
+                                {{>About}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </ion-content>
+        <ion-list>
+
+        </ion-list>
+    </ion-pane>
+</body>
+<style>
+  #anglistview .aboutstyle {
+              display: block;
+              font-size: 12px;
+              line-height: 20px;
+              overflow: hidden;
+              padding-right: 23px;
+              position: relative;
+              text-align: justify;
+              word-wrap: break-word;
+          }
+
+          #anglistview .designationstyle {
+              float: right;
+              font-size: 12px;
+              padding-right: 13px;
+              padding-top: 4px;
+              position: relative;
+              right: 10px;
+          }
+
+          #anglistview .templatetext {
+              font-size: 15px;
+              font-weight: bolder;
+              position: relative;
+          }
+
+          .listrightdiv {
+              left: 10px;
+              position: relative;
+          }
+
+          .jacob, .grace, .erik, .claire, .brooke {
+              background-repeat: no-repeat;
+              border: 0px solid #e5e5e5;
+              float: left;
+              height: 60px;
+              padding-left: 8px;
+              width: 51px;
+              background-size: 100% 100%;
+          }
+
+          .cont-bg {
+              font-size: 17px;
+              height: 71px;
+              padding-left: 5px;
+              padding-top: 10px;
+              width: 100%;
+          }
+
+          .brooke {
+              background-image: url("img/6.png");
+              filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src=content/images/Employees/6.png, sizingMethod='scale');
+          }
+
+          .claire {
+              background-image: url("img/9.png");
+              filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src=content/images/Employees/9.png, sizingMethod='scale');
+          }
+
+          .erik {
+              background-image: url("img/7.png");
+              filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src=content/images/Employees/7.png, sizingMethod='scale');
+          }
+
+          .grace {
+              background-image: url("img/8.png");
+              filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src=content/images/Employees/8.png, sizingMethod='scale');
+          }
+
+          .jacob {
+              background-image: url("img/5.png");
+              filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src=content/images/Employees/5.png, sizingMethod='scale');
+          }
+  </style>
+</html>

@@ -1,0 +1,89 @@
+{
+  "name": "aurelia-sync",
+  "type": "project:application",
+  "paths": {
+    "root": "src",
+    "resources": "resources",
+    "elements": "resources/elements",
+    "attributes": "resources/attributes",
+    "valueConverters": "resources/value-converters",
+    "bindingBehaviors": "resources/binding-behaviors"
+  },
+  "transpiler": {
+    "id": "babel",
+    "fileExtension": ".js"
+  },
+  "build": {
+    "options": {
+      "server": "dev",
+      "extractCss": "prod",
+      "coverage": false
+    },
+    "copyFiles": {
+      "node_modules/syncfusion-javascript/Content/ej/web/common-images/**/*": "common-images",
+      "node_modules/syncfusion-javascript/Content/ej/web/bootstrap-theme/images/**": "images"
+    },
+    "dependencies": [
+      "text",
+      "jquery",
+      "jquery-validation",
+      {
+        "name": "aurelia-templating-resources",
+        "path": "../node_modules/aurelia-templating-resources/dist/amd",
+        "main": "aurelia-templating-resources"
+      },
+      {
+        "name": "aurelia-templating-router",
+        "path": "../node_modules/aurelia-templating-router/dist/amd",
+        "main": "aurelia-templating-router"
+      },
+      {
+        "name": "aurelia-testing",
+        "path": "../node_modules/aurelia-testing/dist/amd",
+        "main": "aurelia-testing",
+        "env": "dev"
+      },
+      {
+        "name": "aurelia-syncfusion-bridge",
+        "path": "../node_modules/aurelia-syncfusion-bridge/dist/amd",
+        "main": "index",
+        "resources": [
+          "**/*.js"
+        ]
+      },
+      {
+        "name": "syncfusion-javascript",
+        "path": "../node_modules/syncfusion-javascript/",
+        "main": false,
+        "resources": [
+          "Content/ej/web/ej.widgets.core.bootstrap.min.css",
+          "Content/ej/web/bootstrap-theme/ej.theme.min.css",
+          "Content/ej/web/responsive-css/ej.responsive.css",
+          "Scripts/ej/web/ej.grid.min.js"
+        ]
+      },
+      {
+        "name": "@syncfusion",
+        "path": "../node_modules/@syncfusion/",
+        "main": false,
+        "resources": [
+          "ej2/material.css",
+          "ej2/dist/ej2.min.js"
+        ]
+      },
+      {
+        "name": "jsrender",
+        "path": "../node_modules/jsrender/",
+        "main": "jsrender"
+      }
+    ]
+  },
+  "platform": {
+    "hmr": false,
+    "open": false,
+    "port": 8080,
+    "host": "localhost",
+    "output": "dist"
+  },
+  "packageManager": "npm"
+}

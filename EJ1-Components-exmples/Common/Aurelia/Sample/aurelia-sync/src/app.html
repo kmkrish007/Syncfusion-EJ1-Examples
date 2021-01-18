@@ -1,0 +1,22 @@
+<template>
+  
+  <require from="syncfusion-javascript/Content/ej/web/ej.widgets.core.bootstrap.min.css"></require>
+  <require from="syncfusion-javascript/Content/ej/web/bootstrap-theme/ej.theme.min.css"></require>
+  <require from="syncfusion-javascript/Content/ej/web/responsive-css/ej.responsive.css"></require>
+  <require from="syncfusion-javascript/Content/ej/web/bootstrap-theme/ej.web.all.compatibility.min.css"></require>
+  <require from="@syncfusion/ej2/material.css"></require>
+  <scriptinjector url="http://cdn.syncfusion.com/ej2/dist/ej2.min.js"></scriptinjector>
+<div>
+  <input id="button" ej-date-picker/>
+</div>
+<div id="element"></div>
+
+</template>
+
+<script>
+  // Extend ej namespace with Syncfusion
+  $.extend(ej, Syncfusion);
+
+var calendar = new ej.calendars.Calendar();
+calendar.appendTo('#element');
+</script>

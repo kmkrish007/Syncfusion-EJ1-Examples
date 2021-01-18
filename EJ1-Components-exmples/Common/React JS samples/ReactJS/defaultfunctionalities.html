@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hello React!</title>
+	<link href="css/default-theme/ej.web.all.min.css" rel="stylesheet" />
+	 <script src="scripts/react.min.js"></script>
+    <script src="scripts/react-dom.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.min.js"></script>
+   <!-- <script src="postal.react.js"></script> -->
+	<script src="scripts/jquery-1.11.3.min.js"></script>
+    <script src="scripts/jsondata.min.js"></script>
+    <script src="scripts/jsrender.min.js"></script>
+    <script src="scripts/ej.web.all.min.js"></script>
+   <script src="scripts/ej.web.react.min.js"></script>
+   <style type="text/css" class="cssStyles">
+  .Collapse:before {
+  content: "\e625";
+  }
+  .refresh:before {
+  content: "\e677";
+  }
+</style>
+  </head>
+  <body>
+    <div id="Grid"></div>
+	<script id="Refresh" type="text/x-jsrender">
+		<a class="e-toolbaricons e-icon refresh" />
+	</script>
+	<script type="text/babel">
+		$(function(){
+		
+		var scrollSettings = { width: "auto", height: 300, virtualScrollMode: ej.Grid.VirtualScrollMode.Normal, enableVirtualization: true };
+      
+		
+		ReactDOM.render( 
+			<div id="Grid2">
+            <table >
+			<tr><td><h1>FIRST GRID</h1></td></tr>
+				<tr>
+					<td>
+						<EJ.Grid id="Grid_1" dataSource = {window.gridData} allowScrolling = {true} scrollSettings = {scrollSettings}>
+							<columns>
+								<column field="OrderID" isPrimaryKey={true} headerText="Order ID" textAlign="right" width={90} />
+					            <column field="EmployeeID" headerText="Employee ID" textAlign="right" width={90} />
+                                <column field="Freight" headertext="Freight" width={90} />
+				            </columns>          
+                        </EJ.Grid>
+		           </td>
+               </tr>
+           </table>
+           </div>,   
+          document.getElementById('Grid')
+        );
+		
+		
+		
+		});
+	 </script>
+</body>
+</html>
+    
