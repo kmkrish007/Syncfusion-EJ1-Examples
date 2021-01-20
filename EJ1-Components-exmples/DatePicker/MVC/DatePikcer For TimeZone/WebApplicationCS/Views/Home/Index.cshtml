@@ -1,0 +1,47 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+@model WebApplicationCS.Controllers.DatePickerModel
+
+<h2>DatePickerFor - TimeZone False with Customization</h2>
+
+@using (Html.BeginForm())
+{
+    <ul>
+        @for (int i = 0; i < Model.Count; i++)
+        {
+            {
+                <li>
+                    @Html.EJ().DatePickerFor(x => Model[i]).Locale("it-IT").TimeZone(false).ClientSideEvents(e => e.Create("onCreate"))
+                    <div><span>Model Value @Model[i].ToString() </span></div>
+                </li>
+            }
+        }
+    </ul>
+}
+@Html.EJ().DatePicker("datepi").TimeZone(false)
+<h2>DatePickerFor - TimeZone False W/O customization </h2>
+<ul>
+    @foreach (var item in Model)
+    {
+        <li>
+            @Html.EJ().DatePickerFor(x => item).Locale("it-IT").TimeZone(false)
+            <div><span>Model Value @item.ToString() </span></div>
+        </li>
+    }
+</ul>
+
+<script>
+
+    function onCreate(args) {
+        //checking the difference between timezone offset of current timezone with the DST time.
+        if (new Date(this._options.value).getTimezoneOffset() != 0) {
+            var DstTime = new Date(this._options.value).getTimezoneOffset() / (-60);
+            // if the timezone offset is -60, then 1 hour will added to the date value
+            updatedValue = new Date(this._options.value).setHours(new Date(this._options.value).getHours() + DstTime);
+            this.option("value", new Date(updatedValue));
+        }
+    }
+
+</script>
