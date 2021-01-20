@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+@using DropDownList.Controllers
+
+@*button widget*@
+@{
+    Html.EJ()
+        .Button("button")
+        .Text("Open Dialog")
+        .Type(ButtonType.Button)
+        .ClientSideEvents(evt => evt.Click("openDialog"))
+        .Render();
+}
+
+@{
+    Html.EJ()
+        .Dialog("dialog")
+        .Title("Dialog")
+        .ShowOnInit(false)
+        .ContentTemplate(@<div>@Html.EJ().DropDownList("customersList").Datasource((IEnumerable<Customers>)ViewBag.datasource).DropDownListFields(df => df.ID("id").Text("text").Value("text")).EnableFilterSearch(true)</div>).Render();
+}
+
+<script>
+    function openDialog() {
+        $("#dialog").ejDialog("open");
+    }
+</script>

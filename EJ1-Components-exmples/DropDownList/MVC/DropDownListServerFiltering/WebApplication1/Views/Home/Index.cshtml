@@ -1,0 +1,25 @@
+﻿
+<input type="text" id="DDLFIELD053049af51114f0e93e62116cb0bba26" name="DDLFIELD053049af51114f0e93e62116cb0bba26" />
+
+<script>
+  $(document).ready(function () {
+
+      var dataManager = ej.DataManager({
+          url: "/Home/GetItems",
+          adaptor: new ej.UrlAdaptor()
+      });
+
+
+	$("#DDLFIELD053049af51114f0e93e62116cb0bba26").ejDropDownList({
+        dataSource: dataManager,
+		fields: { text: "Text", value: "Value"},
+		itemsCount:20,
+		enableServerFiltering: true,
+		enableFilterSearch: true ,
+        width:"320px",
+		search: function (args){
+			console.log(args);
+		}
+    });
+});
+</script>

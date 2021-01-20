@@ -1,0 +1,117 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+
+<div class="content-container-fluid">
+    <div class="row">
+        <div class="cols-sample-area">
+            <div class="frame">
+                <div class="control">
+                    <div class="ctrllabel">Select a Company Name</div>
+                    <input type="text" id="CompanyNames" />
+                </div>
+            </div>
+        </div>
+        <button onclick="select()">
+            select loaded value
+        </button>
+        <button onclick="selectunload()">
+            select virtual value
+        </button>
+    </div>
+</div>
+<script type="text/javascript">
+    var dm = ej.DataManager({
+        url: "https://mvc.syncfusion.com/services/Northwnd.svc/Orders"
+    });
+
+    $(function () {
+        $('#CompanyNames').ejDropDownList({
+            dataSource: dm,
+            fields: { text: "CustomerID", value: 'OrderID' },
+            width: 260,
+            itemsCount: 10,
+            allowVirtualScrolling: true,
+            virtualScrollMode: "normal"
+        });
+    });
+
+    function select() {
+        var dl = $('#CompanyNames').ejDropDownList("instance");
+        dl.setModel({ value: 10250 });
+
+    }
+
+    function selectunload() {
+        var dl = $('#CompanyNames').ejDropDownList("instance");
+        dl.setModel({ value: 16488 });
+    }
+</script>
+
+<label>virutal duplicate: </label>
+<div class="content-container-fluid">
+    <div class="row">
+        <div class="cols-sample-area">
+            <div class="frame">
+                <div class="control">
+                    <select id="RegionId" name="RegionId"></select>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    var dataManagerObj = ej.DataManager({
+        url: "https://mvc.syncfusion.com/services/Northwnd.svc/Orders"
+    });
+
+    var query = ej.Query().select("ShipName", "ShipCountry");
+
+    $('#RegionId').ejDropDownList({
+        dataSource: dataManagerObj,
+        query: query,
+        fields: { text: "ShipName" },
+        itemsCount: 20,
+        enableFilterSearch: true,
+        enableServerFiltering: true,
+        allowVirtualScrolling: true,
+        enableSorting: true
+    });
+
+</script>
+
+<label>virutal selection </label>
+
+<div class="content-container-fluid">
+    <div class="row">
+        <div class="cols-sample-area">
+            <div class="frame">
+                <div class="control">
+                    <select id="RegionId1" name="RegionId1"></select>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+
+    $(function () {
+        var dataManagerObj = ej.DataManager({
+            url: "https://mvc.syncfusion.com/services/Northwnd.svc/Orders"
+        });
+
+        var query = ej.Query().select("ShipName", "OrderID");
+        // Creates DropDownList.
+        $('#RegionId1').ejDropDownList({
+            dataSource: dataManagerObj,
+            query: query,
+            fields: { text: "ShipName", value: "OrderID" },
+            itemsCount: 20,
+            enableFilterSearch: true,
+            enableServerFiltering: true,
+            allowVirtualScrolling: true,
+            enableSorting: true
+        });
+    });
+</script>

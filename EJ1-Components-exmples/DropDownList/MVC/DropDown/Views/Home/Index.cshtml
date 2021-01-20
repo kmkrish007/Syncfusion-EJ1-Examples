@@ -1,0 +1,44 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+@using DropDown.Controllers
+
+@{
+    IDictionary<string, object> cmb_tipAdreseTI = new Dictionary<string, object>();
+    cmb_tipAdreseTI.Add("tabindex", "1");
+    IDictionary<string, object> cmb_drzavaTI = new Dictionary<string, object>();
+    cmb_drzavaTI.Add("tabindex", "2");
+    IDictionary<string, object> cmbAdresaPostaTI = new Dictionary<string, object>();
+    cmbAdresaPostaTI.Add("tabindex", "3");
+    IDictionary<string, object> cmbAdresaNaseljeTI = new Dictionary<string, object>();
+    cmbAdresaNaseljeTI.Add("tabindex", "4");
+    IDictionary<string, object> cmbAdresaUlicaTI = new Dictionary<string, object>();
+    cmbAdresaUlicaTI.Add("tabindex", "5");
+}
+    <div class="col-lg-3">
+        @Html.Label("Tip adrese:*")
+        @Html.EJ().DropDownList("cmb_tipAdrese").Datasource((IEnumerable<Customers>)ViewBag.datasource).DropDownListFields(df => df.Text("text").Value("id")).WatermarkText("Tip adrese").Width("100%").ClientSideEvents(e => e.Create("onCreateTipAdrese")).HtmlAttributes(cmb_tipAdreseTI)
+    </div>
+<div class="col-lg-3">
+    @Html.Label("Država:*")
+    @Html.EJ().DropDownList("cmb_drzava").Datasource((IEnumerable<Customers>)ViewBag.datasource).DropDownListFields(df => df.Text("text").Value("id")).WatermarkText("Država").Width("100%").ClientSideEvents(e => e.Create("onCreateListaDrzava").Change("onChangeDrzava")).HtmlAttributes(cmb_drzavaTI)
+</div>
+<div class="col-lg-3">
+    @Html.Label("Odaberite poštu:*")
+    @Html.EJ().DropDownList("cmbAdresaPosta").Datasource((IEnumerable<Customers>)ViewBag.datasource).DropDownListFields(df => df.Text("text").ID("id").Value("id")).WatermarkText("Odaberite poštu").Width("100%").ClientSideEvents(eve => eve.Change("AdresaPostaChange").PopupHide("onHide")).EnableFilterSearch(true).FilterType(SearchFilterType.StartsWith).HtmlAttributes(cmbAdresaPostaTI)
+</div>
+<div class="col-lg-3">
+    @Html.Label("Odaberite naselje:*")
+    @Html.EJ().DropDownList("cmbAdresaNaselje").Datasource((IEnumerable<Customers>)ViewBag.datasource).DropDownListFields(df => df.Text("text").ID("id").Value("id")).WatermarkText("Odabir naselja").Width("100%").ClientSideEvents(eve => eve.Change("AdresaNaseljeChange").PopupHide("onHide")).EnableFilterSearch(true).FilterType(SearchFilterType.StartsWith).HtmlAttributes(cmbAdresaNaseljeTI)
+</div>
+<div class="col-md-3">
+    @Html.Label("Odaberite ulicu:*", new { style = "width:150px" })
+    @Html.EJ().DropDownList("cmbAdresaUlica").Datasource((IEnumerable<Customers>)ViewBag.datasource).DropDownListFields(df => df.Text("text").ID("id").Value("id")).WatermarkText("Odabir ulice").Width("100%").EnableFilterSearch(true).FilterType(SearchFilterType.StartsWith).HtmlAttributes(cmbAdresaUlicaTI)
+</div>
+
+<script>
+    function onHide(args) {
+        $("#" + this._id + "_hidden").focus();
+    }
+</script>

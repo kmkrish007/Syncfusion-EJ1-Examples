@@ -1,0 +1,12 @@
+
+@{
+    ViewBag.Title = "Home Page";
+}
+@using drpdwnfor.Controllers;
+@model drpdwnfor.Controllers.DDL
+
+<div class="row">
+    
+  @Html.EJ().DropDownListFor(model => model.auto1, (Syncfusion.JavaScript.Models.DropDownListProperties)ViewData["ddl"]).ShowCheckbox(true).MultiSelectMode(MultiSelectModeTypes.VisualMode).Width("600px")
+   
+</div>
