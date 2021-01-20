@@ -1,36 +1,15 @@
 ﻿<%@ Page Language="C#" MasterPageFile="~/Site.Master" Title="FileExplorer" AutoEventWireup="true" CodeBehind="FileExplorerFeatures.aspx.cs" Inherits="SyncfusionASPNETApplication9.FileExplorerFeatures" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-<h2>FileExplorer Features:</h2>
-<br />
-    <%--Path="https://rupeedocs.blob.core.windows.net/docs/">--%>
-<br/>            
-
-     <script src='<%= Page.ResolveClientUrl("~/Scripts/ej/i18n/ej.culture.en-US.min.js")%>' type="text/javascript"></script>
-			<script src='<%= Page.ResolveClientUrl("~/Scripts/ej/l10n/ej.localetexts.en-US.min.js")%>' type="text/javascript"></script>
+<h2>FileExplorer Azure:</h2>
 <div id = "ControlRegion">
-<ej:FileExplorer
-            ID="fileexplorer1" ClientSideOnBeforeDownload ="beforeDownload"
-            runat="server" 
-            AjaxAction="FileExplorerFeatures.aspx/FileActionDefault"
-        Path="https://filebrowsercontent.blob.core.windows.net/blob1/Content/"
-          <AjaxSettings> 
-        <Upload Url="uploadFiles.ashx{0}" /> 
-    </AjaxSettings>
-        </ej:FileExplorer>
-        
-       <ej:Dialog ID="helpDialog" Title="FileExplorer Help" ShowOnInit="false" EnableModal="true" Width="350" EnableResize="false" runat="server">
-        <DialogContent>
-            <div class="text-content">
-                <div class="header-content">Need assistance?</div>
-                Our help document assists you to know more about FileExplorer control.<br /><br />
-                Please refer -> <a href="http://help.syncfusion.com/web" target="_blank">Help Document</a>
-            </div>
-        </DialogContent>
-    </ej:Dialog>
+    <ej:FileExplorer runat="server" ID="fileexplorer1" ClientSideOnBeforeDownload ="beforeDownload" AjaxAction="FileExplorerFeatures.aspx/FileActionDefault"
+        Path="https://filebrowsercontent.blob.core.windows.net/blob1/Content/">
+            <AjaxSettings> 
+                <Upload Url="uploadFiles.ashx{0}" /> 
+            </AjaxSettings>
+     </ej:FileExplorer>
+</div>
     <script type="text/javascript">
-        function dialogOpen() {
-            $('#<%=helpDialog.ClientID%>').ejDialog('open')
-        }
         function beforeDownload(args) {
             var names = args.files;
             var selectedItems = args.selectedItems;
@@ -71,16 +50,4 @@
             right: 0;
         }
     </style>
- <script type="text/javascript" >
-    $(function () {
-           $(document).on("keydown", function (e) {
-                if (e.altKey && e.keyCode === 74) { // j- key code.
-                    $("#<%=fileexplorer1.ClientID%>").find(".e-toolbar").focus();
-                }
-            });
-    });
-       </script>
-         
-</div>
-//FeatureScript###
 </asp:Content>

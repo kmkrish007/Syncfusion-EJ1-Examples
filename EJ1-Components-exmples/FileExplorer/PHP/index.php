@@ -29,7 +29,7 @@ require_once 'EJ/AutoLoad.php';
             ->path('FileExplorerPHP/FileBrowser/')
             ->ajaxAction('EJ/Services/FileExplorer')
             ->ajaxDataType('jsonp')
-            ->menuOpen('onMenuOpen')
+            ->beforeGetImage('imageLoad')
             ->enableThumbnailCompress(true)
             ->width('100%')
             ->isResponsive(true)
@@ -38,10 +38,14 @@ require_once 'EJ/AutoLoad.php';
  
 </div>
 <script>
-    function onMenuOpen(args){
-        if(this._selectedItems[0] && this._selectedItems[0].includes(".pdf")){
-            this.enableMenuItem("Open");
-        }
+    function imageLoad(args){
+        this.setModel({
+            ajaxSettings: { 
+                getImage: {
+                    url: "https://js.syncfusion.com/demos/ejServices/Content/FileBrowser/Employees/2.png" 
+                }
+            }
+        });
     }
 </script>
 <style>

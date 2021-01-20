@@ -25,8 +25,7 @@ namespace SyncfusionASPNETApplication9
         public static object FileActionDefault(string ActionType, string Path, string ExtensionsAllow, string LocationFrom, string LocationTo, string Name, string[] Names, string NewName, string Action, bool CaseSensitive, string SearchString, IEnumerable<CommonFileDetails> CommonFiles, IEnumerable<HttpPostedFileBase> FileUpload)
         {
             //Please specify the path of azure blob
-            //string startPath = "https://filebrowsercontent.blob.core.windows.net/blob1/";
-            string startPath = "https://rupeedocs.blob.core.windows.net/docs/";
+            string startPath = "https://filebrowsercontent.blob.core.windows.net/blob1/";
             if (Path != null)
                 Path = Path.Replace(startPath, "");
             if (LocationFrom != null)
@@ -35,8 +34,7 @@ namespace SyncfusionASPNETApplication9
                 LocationTo = LocationTo.Replace(startPath, "");
 
             //Here you have to specify the azure account name, key and blob name
-            //AzureFileOperations operation = new AzureFileOperations("filebrowsercontent", "rbAvmn82fmt7oZ7N/3SXQ9+d9MiQmW2i1FzwAtPfUJL9sb2gZ/+cC6Ei1mkwSbMA1iVSy9hzH1unWfL0fPny0A==", "blob1");
-            AzureFileOperations operation = new AzureFileOperations("rupeedocs", "BIOP0MelKYXODjoyOWsipnB+z6knw0fQ1hZr/g5ySx6bKxInTKDNDS620vNK6owz96BTLgENCMpE499QqfkdGw==", "docs");
+            AzureFileOperations operation = new AzureFileOperations("filebrowsercontent", "rbAvmn82fmt7oZ7N/3SXQ9+d9MiQmW2i1FzwAtPfUJL9sb2gZ/+cC6Ei1mkwSbMA1iVSy9hzH1unWfL0fPny0A==", "blob1");
             switch (ActionType)
             {
                 case "Read":

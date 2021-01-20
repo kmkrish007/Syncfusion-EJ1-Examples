@@ -1,0 +1,44 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div id="fileExplorer1"></div>
+<div id="fileExplorer2"></div>
+<div id="fileExplorer3"></div>
+
+<button onclick="RenderFile()">Render</button>
+
+<script type="text/javascript">
+        var i = 1;
+    function RenderFile() {
+        if (i > 3) {
+            return false;
+        }
+            var localServ = "https://localhost:44388/Home/FileActionDefault"
+            $("#fileExplorer"+ i).ejFileExplorer({
+                isResponsive: true,
+                width: "100%",
+                minWidth: "150px",
+                fileTypes: "*.png, *.gif, *.jpg, *.jpeg, *.docx, *.pdf, *.xls, *.xlsx, *.doc",
+                layout: "tile",
+                path: "wwwroot/Test" + i,
+                ajaxAction: localServ,
+                ajaxDataType: "json",
+                ajaxSettings: {
+                    upload: {
+                        url: "https://localhost:44388/Home/Upload{0}",
+                        dataType: "jsonp"
+                    },
+                    download: {
+                        url: "https://localhost:44388/Home/Download{0}",
+                        dataType: "jsonp"
+                    },
+                    getImage: {
+                        url: "https://localhost:44388/Home/GetImage{0}",
+                        dataType: "jsonp"
+                    }
+                }
+            });
+            i++;
+        }
+</script>
