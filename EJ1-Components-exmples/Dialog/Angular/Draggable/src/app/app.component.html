@@ -1,0 +1,6 @@
+<div id="parent">
+    <input id="btnOpen" style="display:block; height: 30px" type="button" class="ejinputtext" value="Click to open Dialog" (click)="onClick($event)" />
+    <ej-dialog id="basicDialog" title="Dialog" (close)="onClose($event)" [showOnInit]="showoninit">
+        This is a simple dialog
+    </ej-dialog>
+</div>

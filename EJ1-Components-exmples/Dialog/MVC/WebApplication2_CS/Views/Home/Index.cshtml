@@ -1,0 +1,52 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+@{
+    var aVariableNumber = 2;
+}
+
+
+@Html.EJ().NumericTextbox("test").MinValue(-9.9).MaxValue(9.9).DecimalPlaces(-1)
+
+@Html.EJ().NumericTextbox("test1").MinValue(-999.99).MaxValue(999.99).DecimalPlaces(aVariableNumber)
+
+@Html.EJ().Button("btnOpen").Text("Click to open dialog").ClientSideEvents(evt => evt.Click("onclick"))
+<div class="control">
+    @{Html.EJ().Dialog("basicDialog").Title("Audi-Q3 Drive").Containment(".control").ContentTemplate(
+@<div>
+    <h1>Audi Q3</h1>
+    <div>
+        @Html.EJ().Button("saveBtn").Text("Save Loaded Data to Report")
+    </div>
+    <br />
+    <div>
+        @Html.EJ().Button("load").Text("Load Data")
+    </div>
+    <div class="cnt">
+        It is a concept vehicle with Liquid Silver body colour, 20-inch wheels, fabric folding roof, electrically-controlled hood, 4-cylinder 2.0 TDI engine rated 204 PS (150 kW; 201 hp)
+        and 400 N·m (295.02 lbf·ft), diesel particulate filter and Bluetec emission control system, quattro permanent four-wheel drive system with Haldex clutch,
+        Audi S tronic dual-clutch gearbox, McPherson-strut front axle and a four-link rear axle, Audi drive select system with 3 modes (dynamic, sport, efficiency),
+        MMI control panel with touch pad and dual-view technology, sound system with the prominent extending tweeters.
+    </div>
+</div>).Width(550).MinWidth(315).MinHeight(215).Target(".control").IsResponsive(true).ClientSideEvents(evt => evt.Close("onDialogClose")).Render();}
+</div>
+
+<script>
+    $(function () {
+        $("#btnOpen").hide();
+    });
+    function onclick() {
+        $("#basicDialog").ejDialog("open");
+        $("#btnOpen").hide();
+    }
+    function onDialogClose(args) {
+        $("#btnOpen").show();
+    }
+</script>
+
+<style>
+    #basicDialog.e-dialog.e-widget-content {
+        padding: 5px 1px;
+    }
+</style>

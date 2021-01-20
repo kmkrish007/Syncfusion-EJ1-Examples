@@ -1,0 +1,47 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+@Html.EJ().Button("btnOpen").Text("Click to open dialog").ClientSideEvents(evt => evt.Click("onclick"))
+<div class="control">
+    @{Html.EJ().Dialog("basicDialog").Title("Add Module").ShowFooter(true).FooterTemplateId("footTemp").ContentTemplate(
+@<div>
+    <div>
+        @Html.EJ().MaskEdit("maskedit").InputMode(InputMode.Text).WatermarkText("Module Name").Width("100%")
+    </div>
+    <br />
+    <div>
+        @Html.EJ().DatePicker("datePicker").WatermarkText("Unlock At")
+    </div>
+</div>).Width(550).MinWidth(315).MinHeight(215).Target(".control").IsResponsive(true).ClientSideEvents(evt => evt.Close("onDialogClose")).Render();}
+</div>
+
+<script id="footTemp" type="text/x-jsrender">
+    <div class="footerspan" style="float:right">
+        @Html.EJ().Button("btn2").Text("Cancel")
+        @Html.EJ().Button("btn1").Text("Add Module").CssClass("custom")
+
+
+
+    </div>
+</script>
+
+<script>
+    $(function () {
+        $("#btnOpen").hide();
+    });
+    function onclick() {
+        $("#basicDialog").ejDialog("open");
+        $("#btnOpen").hide();
+    }
+    function onDialogClose(args) {
+        $("#btnOpen").show();
+    }
+</script>
+
+<style>
+    .e-button.custom {
+    background-color: #007bff;
+    color: white;
+}
+</style>
