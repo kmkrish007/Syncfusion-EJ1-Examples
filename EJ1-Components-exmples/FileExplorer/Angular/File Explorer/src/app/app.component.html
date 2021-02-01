@@ -2,13 +2,11 @@
 <ej-fileexplorer
   id="fileExplorer"
   #file
-  path="http://js.syncfusion.com/demos/ejServices/Content/FileBrowser/"
-  ajaxAction="http://js.syncfusion.com/demos/ejServices/api/FileExplorer/FileOperations"
+  path="http://localhost:51460/FileBrowser/"
+  ajaxAction="http://localhost:51460/fileexplorer/fileoperation/doJSONAction"
   (menuClick)="onMenuClick($event)"
   [isResponsive]="true"
   minWidth="150px"
-  [contextMenuSettings]="contextMenuSettings"
   width="100%"
-  layout="tile"
   style="display:block">
 </ej-fileexplorer>
