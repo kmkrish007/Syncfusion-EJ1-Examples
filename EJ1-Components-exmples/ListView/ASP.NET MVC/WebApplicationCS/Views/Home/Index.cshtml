@@ -1,0 +1,21 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+@using WebApplicationCS.Controllers
+
+<div class="frame">
+    <div class="control">
+        @{
+            Html.EJ()
+                .ComboBox("select")
+                .Width("100%")
+                .Datasource((IEnumerable<CarsList>)ViewBag.datasource)
+                .ComboBoxFields(f => f.Text("text"))
+                .Placeholder("Select")
+                .Render();
+        }
+    </div>
+</div>
+
+@Html.EJ().ListView("listview").ShowHeader(true).HeaderTitle("Select Day").FieldSettings(f => f.ChildHeaderTitle("BusinessDate").Text("LongBusinessDate").PrimaryKey("TradingDateID")).ClientSideEvents(s => s.MouseUp("mouseUp")).DataSource(Model)

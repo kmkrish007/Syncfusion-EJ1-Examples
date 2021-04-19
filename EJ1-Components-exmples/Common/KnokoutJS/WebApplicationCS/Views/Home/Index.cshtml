@@ -1,0 +1,21 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+@using WebApplicationCS.Controllers
+
+<div class="frame">
+    <div class="control">
+        <input class="form-control" name="Capaciteit" id="Capaciteit" data-bind="ejNumericTextbox: { value: Capaciteit, watermarkText: 'Capaciteit', width: '100%', minValue: 0 }" />
+    </div>
+</div>
+
+<script type="text/javascript">
+        window.viewModel = {
+            Capaciteit: ko.observable(75)
+        }
+        jQuery(function ($) {
+            ko.applyBindings(viewModel);
+        });
+
+</script>

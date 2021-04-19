@@ -1,0 +1,13 @@
+/* compatibility styles for EJ2 components */
+@import 'node_modules/@syncfusion/ej2/styles/compatibility/material.css';
+/* compatibility styles for EJ1 components */
+@import 'node_modules/syncfusion-javascript/Content/ej/web/default-theme/ej.web.all.compatibility.min.css';
+
+.e-widget.e-ribbon.e-js .e-header .e-tab.e-bottom-line.e-active a{
+    background: url("./home.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 16px;
+}

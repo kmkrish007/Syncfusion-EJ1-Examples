@@ -1,0 +1,56 @@
+{
+  "name": "ej2-ng-grid-Customize-row",
+  "version": "0.0.1",
+  "description": "Syncfusion Angular Grid For customizing row",
+  "main": "index.js",
+  "scripts": {
+    "rmf": "node ./node_modules/rimraf/bin dist",
+    "build": "node ./node_modules/typescript/bin/tsc",
+    "bundle": "node ./node_modules/webpack/bin/webpack",
+    "dev": "node ./node_modules/lite-server/bin/lite-server",
+    "start": "npm run rmf && npm run build & npm run bundle & npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Madhust/ej2-grid-angular-webpack.git"
+  },
+  "author": "Hariharan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Madhust/ej2-grid-angular-webpack/issues"
+  },
+  "homepage": "https://github.com/Madhust/ej2-grid-angular-webpack#readme",
+  "dependencies": {
+    "@angular/animations": "^5.2.0",
+    "@angular/common": "~4.0.0",
+    "@angular/compiler": "~4.0.0",
+    "@angular/core": "~4.0.0",
+    "@angular/forms": "~4.0.0",
+    "@angular/http": "~4.0.0",
+    "@angular/platform-browser": "~4.0.0",
+    "@angular/platform-browser-dynamic": "~4.0.0",
+    "@angular/router": "~4.0.0",
+    "@syncfusion/ej2": "^16.1.36",
+    "@syncfusion/ej2-ng-buttons": "16.1.26",
+    "@syncfusion/ej2-ng-calendars": "16.1.26",
+    "@syncfusion/ej2-ng-grids": "16.1.26",
+    "@syncfusion/ej2-ng-navigations": "16.1.26",
+    "@types/jquery": "^3.3.0",
+    "angular-in-memory-web-api": "~0.3.0",
+    "core-js": "^2.4.1",
+    "ej-angular2": "^16.1.26",
+    "postinstall": "^0.1.0",
+    "rxjs": "5.0.1",
+    "syncfusion-javascript": "^16.1.26",
+    "systemjs": "0.19.40",
+    "zone.js": "^0.8.4"
+  },
+  "devDependencies": {
+    "lite-server": "^2.2.2",
+    "rimraf": "^2.5.2",
+    "typescript": "2.3.3",
+    "@types/node": "^6.0.46",
+    "@types/core-js": "^0.9.42",
+    "webpack": "^2.2.1"
+  }
+}

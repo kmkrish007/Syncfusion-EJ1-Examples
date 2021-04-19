@@ -61,6 +61,9 @@
       <HintPath>..\packages\Syncfusion.AspNet.15.3.0.26\lib\net40\Syncfusion.EJ.Web.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Syncfusion.Licensing, Version=18.4400.0.39, Culture=neutral, PublicKeyToken=632609b4d040f6b4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Syncfusion.Licensing.18.4.0.39\lib\net40\Syncfusion.Licensing.dll</HintPath>
+    </Reference>
     <Reference Include="Syncfusion.Linq.Base, Version=15.3400.0.26, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
       <HintPath>..\packages\Syncfusion.Web.Base.15.3.0.26\lib\net40\Syncfusion.Linq.Base.dll</HintPath>
       <Private>True</Private>

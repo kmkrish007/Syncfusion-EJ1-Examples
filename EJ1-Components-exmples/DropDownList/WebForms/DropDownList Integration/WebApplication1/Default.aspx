@@ -7,8 +7,8 @@
                 <Items>
                     <ej:DropDownListItem>
                         <ContentTemplate>
-                            <ej:TreeView ID="Treeview" runat="server" DataTextField="Text" DataIdField="ID" DataParentIdField="ParentID"
-                                DataHasChildField="HasChild" ClientSideOnCreated="treeViewOnCreate" ClientSideOnNodeExpanded="checkScroll" ClientSideOnNodeChecked="onNodeCheck" ClientSideOnNodeUnchecked="onNodeUnCheck" ShowCheckbox="true" ClientSideOnNodeCollapsed="checkScroll">
+                            <ej:TreeView ID="Treeview" runat="server" DataTextField="Text" DataIdField="ID" DataParentIdField="ParentID" 
+                                DataHasChildField="HasChild" ShowCheckbox="true">
                             </ej:TreeView>
                         </ContentTemplate>
                     </ej:DropDownListItem>
@@ -16,6 +16,18 @@
             </ej:DropDownList>
         </div>
     </div>
+
+    <ej:TreeView 
+            ID="Treeview1" 
+            runat="server" 
+            DataTextField="Text" 
+            DataIdField="Id" 
+        ShowCheckbox="true" 
+            DataParentIdField="Parent" 
+            DataExpandedField="Expanded">
+        </ej:TreeView>
+
+    <ej:Button ID="TreeCheck" runat="server" OnClick="TreeCheck_Click" Text="GetCheckedNodes"></ej:Button>
 
 <script type="text/javascript">
 

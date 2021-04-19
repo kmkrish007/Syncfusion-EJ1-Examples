@@ -11,10 +11,31 @@ namespace WebApplication1
 {
     public partial class _Default : Page
     {
+        List<LoadData> treeData = new List<LoadData>();
         protected void Page_Load(object sender, EventArgs e)
         {
             this.Treeview.DataSource = new TreeIconsDataSource().GetTreeIconItems().ToList();
 
+            treeData.Add(new LoadData { Id = 1, Parent = 0, Text = "Item 1", Expanded = true });
+            treeData.Add(new LoadData { Id = 2, Parent = 0, Text = "Item 2" });
+            treeData.Add(new LoadData { Id = 3, Parent = 0, Text = "Item 3" });
+            treeData.Add(new LoadData { Id = 4, Parent = 0, Text = "Item 4" });
+            treeData.Add(new LoadData { Id = 5, Parent = 1, Text = "Item 1.1" });
+            treeData.Add(new LoadData { Id = 6, Parent = 1, Text = "Item 1.2" });
+            treeData.Add(new LoadData { Id = 7, Parent = 1, Text = "Item 1.3" });
+            treeData.Add(new LoadData { Id = 8, Parent = 3, Text = "Item 3.1" });
+            treeData.Add(new LoadData { Id = 9, Parent = 3, Text = "Item 3.2" });
+            treeData.Add(new LoadData { Id = 10, Parent = 5, Text = "Item 1.1.1" });
+            this.Treeview1.DataSource = treeData;
+
+        }
+
+        public class LoadData
+        {
+            public int Id { get; set; }
+            public int Parent { get; set; }
+            public string Text { get; set; }
+            public bool Expanded { get; set; }
         }
         public class TreeIconsDataSource
         {
@@ -100,6 +121,17 @@ namespace WebApplication1
                 data.Add(new TreeIconsDataSource(32, 30, "MY Team", "", "", "mailicon sprite-contacts"));
                 return data;
             }
+        }
+
+        protected void TreeCheck_Click(object Sender, ButtonEventArgs e)
+        {
+            var checkedNodes = Treeview.CheckedNodes;
+            var checkedNodes1 = Treeview1.CheckedNodes;
+        }
+
+        protected void Treeview_NodeChecked(object sender, TreeViewEventArgs e)
+        {
+            var checkedNodes = Treeview.CheckedNodes;
         }
     }
 }
