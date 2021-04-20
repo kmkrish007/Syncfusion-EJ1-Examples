@@ -1,0 +1,21 @@
+<!-- <ej-splitter id="outterSpliter" class="ang-splitter" height ="380" width="585" enableAutoResize="true">					                
+  <div class="control">
+          <h3 class="h3">TreeView </h3>
+          <ej-treeview id='treeview' [fields]='fields' [allowDragAndDrop]='true'></ej-treeview>
+  </div>
+  <div class="control">
+    <div class="_content">
+          <h3 class="h3">ListBox </h3>
+          <ej-listbox id="list" [dataSource]="data" [fields]="fieldList" height="300" [allowDrag]="true" [allowDrop]="true" (itemDrag)="onlistdragged($event)" (itemDrop)="onlistdropped($event)"></ej-listbox>
+  </div>
+</div>
+</ej-splitter> -->
+
+<div class="frame">
+  <div class="contents">
+      <ej-listbox id="selectskills" [dataSource]="skillSet" [fields]="fields" [allowDrag]="true" [allowDrop]="true" width="180px" height="220px"></ej-listbox>
+  </div>
+  <div class="contents">
+      <ej-listbox id="selected" [allowDrag]="true" [allowDrop]="true" width="180px" height="220px"></ej-listbox>
+  </div>
+</div>
