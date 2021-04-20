@@ -1,0 +1,81 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<!-- ------------------------------------------------------------------------- -->
+<!--                    Dialog to show listplayer                              -->
+<!-- ------------------------------------------------------------------------- -->
+<button onclick="ReproducirLista()">Play list</button>
+
+<div class="control">
+    @{
+        Html.EJ()
+            .Dialog("list_player")
+            .Title("Lista de reproducción")
+            .Width("100%")
+            .Height("100%")
+            .Target(".control")
+            .IsResponsive(true)
+            .ShowOnInit(false)
+            .Enabled(true)
+            .AllowDraggable(false)
+            .BackgroundScroll(false)
+            .EnableResize(false)
+            .ContentTemplate(@<div id="listPlayer"></div>).Render();
+    }
+</div>
+<script>
+    function ReproducirLista() {
+
+        var playList1 = [
+            { 'url': 'https://www.youtube.com/watch?v=4Lb7Qabj9xA', 'title': 'Fall Madly in Love with 10 Xamarin Charts!' },
+            { 'url': 'https://www.youtube.com/watch?v=hLg-PxhT7KM', 'title': 'Measure Everything' },
+            { "url": "https://www.youtube.com/watch?v=B8qxvVmhacg", "title": "Syncfusion Dashboard Designer" },
+            { "url": "https://www.youtube.com/watch?v=KRfLWYuOfiE", "title": "Dashboard and Report Server" },
+            { 'url': 'https://www.youtube.com/watch?v=4Lb7Qabj9xA', 'title': 'Fall Madly in Love with 10 Xamarin Charts!' },
+            { 'url': 'https://www.youtube.com/watch?v=hLg-PxhT7KM', 'title': 'Measure Everything' },
+            { "url": "https://www.youtube.com/watch?v=B8qxvVmhacg", "title": "Syncfusion Dashboard Designer" },
+            { "url": "https://www.youtube.com/watch?v=KRfLWYuOfiE", "title": "Dashboard and Report Server" },
+            { 'url': 'https://www.youtube.com/watch?v=4Lb7Qabj9xA', 'title': 'Fall Madly in Love with 10 Xamarin Charts!' },
+            { 'url': 'https://www.youtube.com/watch?v=hLg-PxhT7KM', 'title': 'Measure Everything' },
+            { "url": "https://www.youtube.com/watch?v=B8qxvVmhacg", "title": "Syncfusion Dashboard Designer" },
+            { "url": "https://www.youtube.com/watch?v=KRfLWYuOfiE", "title": "Dashboard and Report Server" },
+            { 'url': 'https://www.youtube.com/watch?v=4Lb7Qabj9xA', 'title': 'Fall Madly in Love with 10 Xamarin Charts!' },
+            { 'url': 'https://www.youtube.com/watch?v=hLg-PxhT7KM', 'title': 'Measure Everything' },
+            { "url": "https://www.youtube.com/watch?v=B8qxvVmhacg", "title": "Syncfusion Dashboard Designer" },
+            { "url": "https://www.youtube.com/watch?v=KRfLWYuOfiE", "title": "Dashboard and Report Server" },
+            { 'url': 'https://www.youtube.com/watch?v=4Lb7Qabj9xA', 'title': 'Fall Madly in Love with 10 Xamarin Charts!' },
+            { 'url': 'https://www.youtube.com/watch?v=hLg-PxhT7KM', 'title': 'Measure Everything' },
+            { "url": "https://www.youtube.com/watch?v=B8qxvVmhacg", "title": "Syncfusion Dashboard Designer" },
+            { "url": "https://www.youtube.com/watch?v=KRfLWYuOfiE", "title": "Dashboard and Report Server" }];
+
+        $("#list_player").ejDialog("open");
+        $("#list_player").ejDialog("refresh");
+
+        if (!(ej.browserInfo().name === "msie" && Number(ej.browserInfo().version) < 9)) {
+            $("#listPlayer").ejMediaPlayer({
+                width: "100%",
+                height: "400px",
+                source: playList1,
+                renderMode: "advanced",
+                autoPlay: false,
+                showPlaylist: true,
+                playlistTitle: "Test List Player",
+                cssClass: "custom",
+            });
+        }
+        else {
+            alert("Media Player (HTML5) will not be supported in IE Version < 9");
+        }
+
+    }
+</script>
+
+<style>
+    .custom .e-media-playlist-container .e-listbox-container {
+        width: 90% !important;
+    }
+
+   .control {
+        height: 500px;
+    }
+</style>
