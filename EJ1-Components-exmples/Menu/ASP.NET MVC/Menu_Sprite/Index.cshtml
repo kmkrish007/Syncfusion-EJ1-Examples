@@ -1,0 +1,49 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+    @Html.EJ().Menu("gantt_menu").EnableSeparator(false).OpenOnClick(true).Items(items =>
+{
+    items.Add().Url("").Id("shLogic").Text("Logic").SpriteCssClass("fa fa-eye").HtmlAttributes(new Dictionary<string, object> { { "title", "Show/Hide Logic Lines" } }).Children(child => {
+        child.Add().Id("Home").Text("Home");
+        child.Add().Text("Foundation");
+        child.Add().Text("Launch");
+    } );
+    items.Add().Text("Services").SpriteCssClass("fa fa-folder-open").Children(child =>
+    {
+        child.Add().Text("Consulting");
+        child.Add().Text("Outsourcing");
+    });
+    items.Add().Text("About").SpriteCssClass("fa fa-id-card");
+    items.Add().Id("Contact").Text("Contact Us").Children(child =>
+    {
+        child.Add().Text("Contact number");
+        child.Add().Text("E-mail");
+    });
+}).Width("500")
+
+<script>
+    $(function () {
+        $('#shLogic').click(function (args) {
+            var ele = args.target.classList.contains("fa") ? args.target : $(args.target).find("span.fa")[0];
+            if (ele.classList.contains("fa-eye")) {
+                ele.classList.add("fa-eye-slash");
+                ele.classList.remove("fa-eye");
+            } else {
+                ele.classList.remove("fa-eye-slash");
+                ele.classList.add("fa-eye");
+            }
+        });
+    });
+    
+</script>
+
+    <style type="text/css" >
+
+        .fa-eye:before,
+        .fa-eye-slash:before,
+        .fa-folder-open:before,
+        .fa-id-card:before {
+            font-size: 20px;
+        }
+</style>

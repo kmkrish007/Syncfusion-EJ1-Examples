@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8" />
+    <!-- Style sheet for default theme (flat azure) -->
+    <link href="http://cdn.syncfusion.com/18.2.0.44/js/web/flat-azure/ej.web.all.min.css" rel="stylesheet" />
+    <!--Scripts-->
+    <script src="http://cdn.syncfusion.com/js/assets/external/jquery-2.1.4.min.js"></script>
+    <script src="http://cdn.syncfusion.com/js/assets/external/jquery.easing.1.3.min.js"> </script>
+    <script src="http://cdn.syncfusion.com/18.2.0.44/js/web/ej.web.all.min.js"></script>
+	
+    <!--Add custom scripts here -->
+</head>
+<body style="margin:0px">
+    <div id="container" style="height: 950px;width: 100%;">
+		<button id="btn1" class="button" style="float:right;margin-right: 10px;margin-top:10px"> Menu
+		</button>
+		<button id="btn2" class="button" style="float:left;margin-left: 200px;margin-top:300px"> Menu
+		</button>
+		<button id="btn3" class="button" style="float:left;margin-left: 600px;margin-top:500px"> Menu
+		</button>
+	</div>
+</body>
+<script type="text/javascript">
+    $('.button').click(function(event){
+        var data = [
+			{ id: 1, text: "Export", parentId: null },
+			{ id: 2, text: "View Data", parentId: null },				
+			{ id: 3, text: "Image", parentId: 1 },
+			{ id: 11, text: "PDF", parentId: 1 },
+			{ id: 12, text: "Excel", parentId: 1 },
+			{ id: 12, text: "CSV", parentId: 1 },				
+        ];
+        var popup = $('<ul id="popup"></ul>');
+        popup.ejMenu({
+			menuType: ej.MenuType.ContextMenu,
+			openOnClick: true,				
+			container: '#container',
+			width: '180',
+            fields: { dataSource: data, id: "id", parentId: "parentId", text: "text", spriteCssClass: 'sprite' },
+            mouseover: function (args) { 
+                if ( $('#popup').offsetParent().width() - ($('#popup').position().left + $('#popup').width()) < $('#popup').width()) {
+                    this.setModel({subMenuDirection: "left"});
+                } else {
+                    this.setModel({subMenuDirection: "right"});
+                }
+            }
+        });
+        var leftPosition = $(event.target).offset().left < $('#popup').width() ? $(event.target).offset().left : $(event.target).offset().left - $('#popup').width();
+        var ejMenuObject = $('#popup').data('ejMenu');
+        ejMenuObject.show(leftPosition,	$(event.target).offset().top + $(event.target).height(), $('#container'), event);
+    });
+</script>
+</html>

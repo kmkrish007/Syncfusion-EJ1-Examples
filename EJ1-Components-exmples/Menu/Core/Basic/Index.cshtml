@@ -1,0 +1,10 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+/*ej-Tag Helper code to render Menu*/
+<ej-Menu id="SyncfusionProducts">
+    <e-menu-fields dataSource="ViewBag.datasource" id="pid" text="mtext" parent-id="parent"></e-menu-fields>
+</ej-Menu>
