@@ -1,0 +1,6 @@
+/* You can add global styles to this file, and also import other style files */
+@import "syncfusion-javascript/Content/ej/web/bootstrap-theme/ej.web.all.min.css";
+
+.e-waitpopup-pane.e-widget .e-text{
+    color: white;
+}
