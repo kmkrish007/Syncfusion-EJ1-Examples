@@ -1,0 +1,43 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<!doctype html>
+<html lang="en" ng-app="rteApp">
+<head>
+    <title>Essential Studio for JavaScript : AngularJS Support for RTE </title>
+    <!-- Style sheet for default theme (flat azure) -->
+    <link href="http://cdn.syncfusion.com/18.2.0.44/js/web/flat-azure/ej.web.all.min.css" rel="stylesheet" />
+    <!--Scripts-->
+    <script src="http://cdn.syncfusion.com/js/assets/external/jquery-1.11.3.min.js" type="text/javascript"></script>
+    <script src="http://cdn.syncfusion.com/js/assets/external/angular.min.js"></script>
+    <script type="text/javascript" src="http://cdn.syncfusion.com/18.2.0.44/js/web/ej.web.all.min.js "></script>
+    <script src="http://cdn.syncfusion.com/18.2.0.44/js/common/ej.widget.angular.min.js"></script>
+    <!--Add custom scripts here -->
+</head>
+<body ng-controller="RTECtrl">
+
+    <textarea id="texteditor" ej-rte e-width="100%" e- minwidth="150px" e-tools="tools" e-importsettings-url="url" e-exporttowordsettings-url="wordurl"
+              e-exporttopdfsettings-url="pdfurl" e-exporttopdfsettings-filename="PdfSample" e-exporttowordsettings-filename="WordSample">
+        &lt;p&gt;The Rich Text Editor (RTE) control is an easy to render in
+        client side. Customer easy to edit the contents and get the HTML content for
+        the displayed content. A rich text editor control provides users with a toolbar
+        that helps them to apply rich text formats to the text entered in the text
+        area. &lt;/p&gt;
+    </textarea>
+
+</body>
+<script type="text/javascript" class="jsScript">
+
+    angular.module('rteApp', ['ejangular'])
+        .controller('RTECtrl', function ($scope) {
+            $scope.url = "http://localhost:62483/Home/Import";
+            $scope.wordurl = "http://localhost:62483/Home/ExportToWord";
+            $scope.pdfurl = "http://localhost:62483/Home/ExportToPDF";
+            $scope.tools = {
+                importExport: ["import", "wordExport", "pdfExport"]
+            }
+        });
+
+</script>
+</html>
